@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="PAPSJAWB" template="PAPS" localeID="ja" debug="false">
+    <title>
+      <![CDATA[小売パーツ販売スキル]]>
+</title>
+  </course>
+  <section id="1" snumber="5000">
+    <header>
+      <![CDATA[プロセスの適用]]>
+</header>
+    <scenes>
+      <scene id="5100" sNumber="5100" sType="gps" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" width="510" height="50" x="left" y="0" margin="10" time="1" trans="on" ease="none">
+            <header id="h1" order="1">
+              <![CDATA[電話問い合わせ]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="5101" type="BulletBuild" animType="animsync" endType="Continue">
+           <ui uid="1" type="slideHeader" width="470" height="50" x="left" y="40" margin="10" fontSize="20" fontColor="0x666666" time="1" trans="slideRight" ease="QuintEaseOut">
+              <header id="sh1" order="2" fontColor="0x000000">
+                <![CDATA[<b>知識チェック</b>]]>
+</header>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="70" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="3" yPad="0">
+                <![CDATA[このモジュールでは、職務に適用できる販売スキルの練習をします。]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4">
+                <![CDATA[パーツ アドバイザーが、Jeep のブレーキについて電話で問い合わせをしてきた顧客に対応している会話のシナリオをお読みください。顧客ニーズに基づいたパーツ販売プロセスに従い、どのように成約に結び付けていくかという質問に答える準備をしてください。]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="5" trans="slideUp">
+                <![CDATA[<b>パーツ アドバイザー:</b><i>「こんにちは、Hometown Chrysler Jeep のパーツ部門、ピートです。今日はどのようなご用件でしょうか」</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="6" trans="slideUp">
+                <![CDATA[<b>顧客:</b><i> 「こんにちは、お宅に Jeep Patriot のフロント ブレーキのパーツがないかと思って電話しています」</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="7" trans="slideUp">
+                <![CDATA[<b>パーツ アドバイザー:</b><i> 「もう少し詳しくお聞かせいただきたいのですが、ご利用の Jeep の車両 ID 番号はお分かりですか」</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="8" trans="slideUp">
+                <![CDATA[<b>パーツ アドバイザー:</b><i> 「ええと、ちょっとお待ちください、すぐに戻ります」</i>]]>
+</bodyBullet>
+            </ui>
+            
+             <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step01a" syncType="append" trans="animbuild" order="1">
+          <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime=".5" tweenDuration=".5" ease="QuintEaseOut" />
+          <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration="1" ease="BackEaseOut" />
+          <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step01" />
+          </ui> 
+            <!--  
+              <bodyImage id="i1" width="160" height="160" x="right" y="top" margin="10" time="1" trans="slideDown" ease="BackEaseOut" scaleMode="none" url="2703ProcessAnim_Step01.png" order="1">
+                <![CDATA[Step 01]]>
+</bodyImage> -->
+            <ui uid="1" type="bodyImage">
+              <bodyImage id="i2" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut" url="CustomerPhone2.jpg" order="5">
+                <![CDATA[Customer Phone]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="5105" type="act" animType="animsync" endType="Continue">
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="510" x="left" margin="10" fontSize="18" fontColor="0x666666" syncType="buildy" yPad="0">
+                 <item type="header" fontSize="20" x="0" yPad="0" fontColor="0x000000">
+ <![CDATA[<b>知識チェック</b>]]></item>
+                <item type="questiontext">
+                  <![CDATA[今まで読んだ内容をベースにして、他のどんなやり方でやるつもりですか。該当する全てを選択して、「回答を確認する」をクリックしてください。]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="cb" width="500" height="36" x="left" y="0" xPad="8" yPad="16" fontColor="dkgrey" fontSize="16" fontStyle="reg" fillColor="white" fillAlpha="1">
+                <item id="a" isanswer="false">
+                  <![CDATA[もっと丁寧な挨拶をする]]>
+</item>
+                <item id="b" isanswer="true">
+                  <![CDATA[顧客の名前を聞く]]>
+</item>
+                <item id="c" isanswer="true">
+                  <![CDATA[顧客を待たせる際には、許可を得る]]>
+</item>
+                <item id="d" isanswer="false">
+                  <![CDATA[顧客にディーラーのウェブサイトを紹介する]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="bold">
+                  <![CDATA[解答確認]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="center" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[ステップ 2 に進む]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[パーツ アドバイザーは、顧客の名前を伺い、お待たせすることについて許可を得るべきでした。]]>
+</item>
+              </actui>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step01" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="0" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+          </slide>
+          <slide sNumber="5110" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="slideHeader" width="470" height="50" x="left" y="40" margin="10" fontSize="20" fontColor="0x666666" time="1" trans="slideRight" ease="QuintEaseOut">
+              <header id="sh1" order="2" fontColor="0x000000">
+                <![CDATA[<b>知識チェック</b>]]>
+</header>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="70" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="20" trans="slideUp" yPad="0">
+                <![CDATA[<b>パーツ アドバイザー:</b><i> 「すみませんでした。何のお話でしたっけ？ああ、そうでした Jeep Patriot のフロント ブレーキのパーツについてお尋ねで、お客様の VIN をお聞きしたところでしたね」</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="21" trans="slideUp">
+                <![CDATA[<b>顧客:</b><i> 「そうです、番号は 1J8FT28088D679188 です」</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22" trans="slideUp">
+                <![CDATA[<b>パーツ アドバイザー:</b><i> 「ありがとうございました。これは 2008 年モデルの Patriot ですね。走行距離はお分かりですか」</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="23" trans="slideUp">
+                <![CDATA[<b>顧客:</b><i> 「68,000 キロほどです」</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="24" trans="slideUp">
+                <![CDATA[<b>パーツ アドバイザー:</b><i> 「分かりました、ありがとうございます。残念ですが、もう保証期間は過ぎていますね。具体的にどのようなパーツが必要かお分かりですか」 </i>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="25" trans="slideUp">
+                <![CDATA[<b>顧客:</b><i> 「両サイドのキャリパーとパッドが欲しいのですが、ありますか」</i>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step02a" syncType="append" trans="animbuild" order="1">
+       <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime=".5" tweenDuration=".5" ease="QuintEaseOut" />
+          <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration="1" ease="BackEaseOut" />
+          <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step02" />
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" url="CustomerPhone2.jpg" order="5">
+                <![CDATA[Customer Phone]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="5115" type="act" animType="animsync" endType="Continue">
+            <ui uid="1" type="act" atype="mc" width="700" height="450" x="left" y="40" margin="10" order="10" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="510" x="left" margin="10" fontSize="18" fontColor="0x666666" syncType="buildy" yPad="0">
+                 <item type="header" fontSize="20" x="0" yPad="0" fontColor="0x000000">
+ <![CDATA[<b>知識チェック</b>]]></item>
+                <item type="questiontext">
+                  <![CDATA[パーツ アドバイザーが別の手法を採るべきだったのは、どの場面ですか。最適だと思う答えを 1 つ選択して、[解答確認] をクリックしてください。]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="480" x="left" y="0" height="36" xPad="8" yPad="16" fontColor="dkgrey" fontSize="16" fontStyle="reg" fillColor="white" fillAlpha="1">
+                <item id="a" isanswer="false">
+                  <![CDATA[VIN を尋ねる]]>
+</item>
+                <item id="b" isanswer="false">
+                  <![CDATA[顧客にパーツの価格を提示する]]>
+</item>
+                <item id="c" isanswer="true">
+                  <![CDATA[より情報が得られるような、自由回答形式の質問をする]]>
+</item>
+                <item id="c" isanswer="false">
+                  <![CDATA[顧客にブレーキ パーツを調べる必要があるのでディーラーに来店するよう依頼する]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[解答確認]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="center" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[ステップ 3 に進む]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[パーツ アドバイザーは VIN を尋ねましたが、顧客が正しいパーツを要求していることを確認し、ブレーキ ホースからキャリパーをつなぐワッシャーのような付加的なパーツ販売のチャンスを特定するためにもっと質問をする必要がありました。]]>
+</item>
+              </actui>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step02" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="0" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+          </slide>
+          <slide sNumber="5120" type="BulletImageBuild" animType="animsync" endType="Continue">
+         <ui uid="1" type="slideHeader" width="470" height="50" x="left" y="40" margin="10" fontSize="20" fontColor="0x666666" time="1" trans="slideRight" ease="QuintEaseOut">
+              <header id="sh1" order="2" fontColor="0x000000">
+                <![CDATA[<b>知識チェック</b>]]>
+</header>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="70" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="36" trans="slideUp" yPad="0">
+                <![CDATA[<b>パーツ アドバイザー:</b><i> ではご自分で Patriot のフロント ブレーキを修理されるご予定ですね。当社のパーツ カタログに、お客様が必要とされているブレーキ パッドとキャリパーが掲載されています。ブレーキホースとキャリパーをつなぐワッシャーも必要となりますが、ご存知でしょうか。これらは Mopar の純正パーツで、お客様の車両専用に設計されています。</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="37" trans="slideUp">
+                <![CDATA[<b>顧客:</b><i> 分かりました、ありがとうございます。それらのパーツの在庫はありますか。</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="38" trans="slideUp">
+                <![CDATA[<b>パーツ アドバイザー:</b><i> いいえ、現在在庫はないんです。</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="39" trans="slideUp">
+                <![CDATA[<b>顧客:</b><i> では、お宅に在庫がないなら別の店に行ってみます。</i>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step03a" syncType="append" trans="animbuild" order="1">
+               <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime=".5" tweenDuration=".5" ease="QuintEaseOut" />
+          <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration="1" ease="BackEaseOut" />
+          <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut"  frameEnd="step03" />
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" url="CustomerPhone2.jpg" order="5">
+                <![CDATA[Customer Phone]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="5125" type="act" animType="animsync" endType="Continue">
+            <ui uid="1" type="act" atype="mc" x="left" y="40" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" order="10" yPad="10">
+              <actui type="ScreenText" width="510" x="left" margin="10" fontSize="18" fontColor="0x666666" syncType="buildy" yPad="0">
+                 <item type="header" fontSize="20" x="0" yPad="0" fontColor="0x000000">
+ <![CDATA[<b>知識チェック</b>]]></item>
+                <item type="questiontext">
+                  <![CDATA[パーツ アドバイザーは別の店に売上を奪われそうです。成約に結び付けるには、どのような解決策を提示すべきでしょうか。最適だと思う答えを 1 つ選択して、[解答確認] をクリックしてください。]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="500" height="36" x="left" y="0" xPad="8" yPad="16" fontColor="dkgrey" fontSize="16" fontStyle="reg" fillColor="white" fillAlpha="1">
+                <item id="a" isanswer="true">
+                  <![CDATA[積極的な態度で、顧客が必要なパーツを入手できる解決策を提案する]]>
+</item>
+                <item id="b" isanswer="false">
+                  <![CDATA[顧客に必要なパーツが入手できるところに行ってもらう]]>
+</item>
+                <item id="c" isanswer="false">
+                  <![CDATA[在庫がある別のパーツを使った代替的な修理を提案する]]>
+</item>
+                <item id="c" isanswer="false">
+                  <![CDATA[パーツの価格見積りを提示する]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[解答確認]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="center" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[ステップ 4 に進む]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[常に積極的に、顧客ニーズを満たす解決策を提示することを忘れてはいけません。]]>
+</item>
+              </actui>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step03" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="0" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+          </slide>
+          <slide sNumber="5130" type="BulletImageBuild" animType="animsync" endType="Continue">
+           <ui uid="1" type="slideHeader" width="470" height="50" x="left" y="40" margin="10" fontSize="20" fontColor="0x666666" time="1" trans="slideRight" ease="QuintEaseOut">
+              <header id="sh1" order="2" fontColor="0x000000">
+                <![CDATA[<b>知識チェック</b>]]>
+</header>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="70" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="6">
+              <bodyBullet id="bb0" order="50" trans="slideUp" yPad="0">
+                <![CDATA[<b>パーツ アドバイザー:</b><i>「こんにちは、Hometown Chrysler Jeep のパーツ部門、ピートです。修理に必要なブレーキ パーツが入荷しましたので、お知らせいたします。本日の午後 4 時までにはご用意できますが、受け取りにいらっしゃいますか？」</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="51" trans="slideUp">
+                <![CDATA[<b>顧客:</b><i> 「どうですかね。同じ部品が近くの店にも売っていたのですが、そちらの部品を購入するメリットがよく分かりません」</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="52" trans="slideUp">
+                <![CDATA[<b>パーツ アドバイザー:</b><i> 「つまり、金額に見合う価値があるかどうかが分からないということですね」</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="53" trans="slideUp">
+                <![CDATA[<b>顧客:</b><i> 「そうですね」</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="54" trans="slideUp">
+                <![CDATA[<b>パーツ アドバイザー:</b><i> 「では Mopar の純正パーツがお客様にもたらす価値について、説明させていただきます。純正パーツは Patriot 専用として設計されています。アフターマーケット製品は、複数の車両に適合するよう設計されているため、当社のパーツに適合しなかったり、耐久性に劣る場合があるのです。こうした特徴を書き出しましょうか？」</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="55" trans="slideUp">
+                <![CDATA[<b>顧客:</b><i> 「あなたの説明に納得しました。これが、クレジットカードです」</i>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step04a" syncType="append" trans="animbuild" order="1">
+            <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime=".5" tweenDuration=".5" ease="QuintEaseOut" />
+          <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration="1" ease="BackEaseOut" />
+          <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut"  frameEnd="step04" />
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" url="CustomerPhone2.jpg" order="5">
+                <![CDATA[Customer Phone]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="5135" type="act" animType="animsync" endType="Continue">
+            <ui uid="1" type="act" atype="mc" x="left" y="40" margin="10" trans="slideUp" ease="QuintEaseOut" order="10" time="1" yPad="10">
+              <actui type="ScreenText" width="510" x="left" margin="10" fontSize="18" fontColor="0x666666" syncType="buildy" yPad="0">
+                 <item type="header" fontSize="20" x="0" yPad="0" fontColor="0x000000">
+ <![CDATA[<b>知識チェック</b>]]></item>
+                <item type="questiontext">
+                  <![CDATA[パーツ・アドバイザーはどのような手段をとりますか。該当する全てを選択して、「回答を確認する」をクリックしてください。]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="cb" width="480" height="36" x="left" y="0" xPad="8" yPad="16" fontColor="dkgrey" fontSize="16" fontStyle="reg" fillColor="white" fillAlpha="1">
+                <item id="a" isanswer="true">
+                  <![CDATA[顧客が購入に同意したと見なし、購入の意思を確認した]]>
+</item>
+                <item id="b" isanswer="true">
+                  <![CDATA[価値を説明することで顧客の信頼を得た]]>
+</item>
+                <item id="c" isanswer="true">
+                  <![CDATA[顧客の拒絶に打ち勝った]]>
+</item>
+                <item id="c" isanswer="true">
+                  <![CDATA[理解していることを確認するために質問をした]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[解答確認]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="center" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[すべて正解]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[パーツ アドバイザーは上記のすべてを実行して、成約に結び付けました。]]>
+</item>
+              </actui>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step04" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="0" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="5200" sNumber="5200" sType="gps" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" width="600" height="50" x="left" y="0" margin="10" trans="on" ease="none">
+            <header id="h1" order="0" time="0" x="0" y="0">
+              <![CDATA[直接顧客]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="5201" type="BulletImageBuild" animType="animsync" endType="Continue">
+           <ui uid="1" type="slideHeader" width="470" height="50" x="left" y="40" margin="10" fontSize="20" fontColor="0x666666" time="1" trans="slideRight" ease="QuintEaseOut">
+              <header id="sh1" order="2" fontColor="0x000000">
+                <![CDATA[<b>知識チェック</b>]]>
+</header>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="70" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="68" yPad="0">
+                <![CDATA[次の、パーツ アドバイザーと直接顧客とのやり取りのシナリオをお読みください。]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="69" trans="slideUp">
+                <![CDATA[<b>パーツ アドバイザー:</b><i> 「お待たせいたしました、お客様。ピートと申します。本日はどのようなご用件でしょうか」</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="70" trans="slideUp">
+                <![CDATA[<b>顧客:</b><i> 「Ram 1500 用のトレーラー ヒッチが欲しいんですが」</i>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step01a" syncType="append" trans="animbuild" order="1">
+            <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime=".5" tweenDuration=".5" ease="QuintEaseOut" />
+          <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration="1" ease="BackEaseOut" />
+          <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step01" />
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="CustomerInPerson2.jpg">
+                <![CDATA[CustomerInPerson1]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="5205" type="act" animType="animsync" endType="Continue">
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="510" x="left" margin="10" fontSize="18" fontColor="0x666666" syncType="buildy" yPad="0">
+                <item type="header" fontSize="20" fontColor="0x000000" x="0" yPad="0">
+                  <![CDATA[<b>知識チェック</b>]]>
+</item>
+
+                <item type="questiontext">
+                  <![CDATA[最適だと思う答えを 1 つ選択して、[解答確認] をクリックしてください。]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="480" height="36" x="left" y="0" xPad="8" yPad="16" fontColor="dkgrey" fontSize="16" fontStyle="reg" fillColor="white" fillAlpha="1">
+                <item id="a" isanswer="true">
+                  <![CDATA[もっとアイ コンタクトを取り、顧客に注意を集中させる]]>
+</item>
+                <item id="b" isanswer="false">
+                  <![CDATA[付加的な販売チャンスを特定する]]>
+</item>
+                <item id="c" isanswer="false">
+                  <![CDATA[すぐに顧客に StarParts カタログを見せる]]>
+</item>
+                <item id="c" isanswer="false">
+                  <![CDATA[パーツの価格見積りを提示する]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[解答確認]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="center" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[正解 ステップ 2 に進む]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[お客様との関係は始まったばかりです。焦らずに、もっとアイ コンタクトを取ってお客様に注意を向けてください。]]>
+</item>
+              </actui>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step01" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="0" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+          </slide>
+          <slide sNumber="5210" type="BulletImageBuild" animType="animsync" endType="Continue">
+           <ui uid="1" type="slideHeader" width="470" height="50" x="left" y="40" margin="10" fontSize="20" fontColor="0x666666" time="1" trans="slideRight" ease="QuintEaseOut">
+              <header id="sh1" order="2" fontColor="0x000000">
+                <![CDATA[<b>知識チェック</b>]]>
+</header>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="70" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="81" trans="slideUp" yPad="0">
+                <![CDATA[<b>パーツ アドバイザー:</b><i> 「承知しました。Ram 1500 用のけん引機器をお調べしますが、正確なパーツを探すには、お客様のトラックが何年モデルかを知る必要があります」</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="82" trans="slideUp">
+                <![CDATA[<b>顧客:</b><i> 「2010 SLT です。キャンプ用トレーラーを購入したので、今年の夏は週末に活用しようと思っています」</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="83" trans="slideUp">
+                <![CDATA[<b>パーツ アドバイザー:</b><i> 「素晴らしいですね！」</i>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step02a" syncType="append" trans="animbuild" order="1">
+ <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime=".5" tweenDuration=".5" ease="QuintEaseOut" />
+          <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration="1" ease="BackEaseOut" />
+          <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step02" />
+            </ui>
+          </slide>
+          <slide sNumber="5215" type="act" animType="animsync" endType="Continue">
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="510" x="left" margin="10" fontSize="18" fontColor="0x666666" syncType="buildy" yPad="0">
+                 <item type="header" fontSize="20" x="0" yPad="0" fontColor="0x000000">
+ <![CDATA[<b>知識チェック</b>]]></item>
+                <item type="questiontext">
+                  <![CDATA[次に取るべき行動は何ですか。 最適だと思う答えを 1 つ選択して、[解答確認] をクリックしてください。]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="450" height="36" x="left" y="0" xPad="20" yPad="16" fontColor="dkgrey" fontSize="16" fontStyle="reg" fillColor="white" fillAlpha="1">
+                <item id="a" isanswer="false">
+                  <![CDATA[トラック用のトレーラー ヒッチを探す]]>
+</item>
+                <item id="b" isanswer="false">
+                  <![CDATA[ヒッチに必要な付加的パーツを提案する]]>
+</item>
+                <item id="c" isanswer="true">
+                  <![CDATA[適切なパーツの仕様を決定するために、さらに質問を続ける]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[解答確認]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="center" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[ステップ 3 に進む]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[ヒッチを探したり、付加的なパーツを提案するのは早すぎます。適切なトレーラー ヒッチをお勧めできるよう、トレーラーの重量やその他の仕様に関する情報を聞き出す必要があります。]]>
+</item>
+              </actui>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step02" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="0" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+          </slide>
+          <slide sNumber="5220" type="BulletImageBuild" animType="animsync" endType="Continue">
+         <ui uid="1" type="slideHeader" width="470" height="50" x="left" y="40" margin="10" fontSize="20" fontColor="0x666666" time="1" trans="slideRight" ease="QuintEaseOut">
+              <header id="sh1" order="2" fontColor="0x000000">
+                <![CDATA[<b>知識チェック</b>]]>
+</header>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="70" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="93" trans="slideUp" yPad="0">
+                <![CDATA[<b>パーツ アドバイザー:</b><i> 「StarParts カタログのこちらをご覧ください。お客様の 2010 Ram がキャンパーをけん引するために必要なものが記載されています。トラックは配線済みですので、1600 キロのトレーラーをけん引するには、ヒッチ レシーバーとヒッチ ボール、ボール マウント アダプタが必要です。何か質問はございますか」</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="94" trans="slideUp">
+                <![CDATA[<b>顧客:</b><i> 「ありません」</i>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step03a" syncType="append" trans="animbuild" order="1">
+      <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime=".5" tweenDuration=".5" ease="QuintEaseOut" />
+          <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration="1" ease="BackEaseOut" />
+          <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step03" />
+            </ui>
+          </slide>
+          <slide sNumber="5225" type="act" animType="animsync" endType="Continue">
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="510" x="left" margin="10" fontSize="18" fontColor="0x666666" syncType="buildy" yPad="0">
+                 <item type="header" fontSize="20" x="0" yPad="0" fontColor="0x000000">
+ <![CDATA[<b>知識チェック</b>]]></item>
+                <item type="questiontext">
+                  <![CDATA[次に取るべき行動は何ですか。最適だと思う答えを 1 つ選択して、[解答確認] をクリックしてください。]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="480" height="36" x="left" y="0" xPad="8" yPad="16" fontColor="dkgrey" fontSize="16" fontStyle="reg" fillColor="white" fillAlpha="1">
+                <item id="a" isanswer="false">
+                  <![CDATA[購入の意思確認]]>
+</item>
+                <item id="b" isanswer="true">
+                  <![CDATA[付加的な販売チャンスを特定する]]>
+</item>
+                <item id="c" isanswer="false">
+                  <![CDATA[理解していることを確認するために質問する]]>
+</item>
+                <item id="d" isanswer="false">
+                  <![CDATA[価格と所要時間の見積りを提示する]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[解答確認]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="center" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[ステップ 4 に進む]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[この顧客は、Ram トラック用一体型トレーラー ブレーキ コントローラとヒッチ レシーバー用のプラグを必要としているかもしれません。こうした付加的パーツの販売チャンスを常に模索してください。]]>
+</item>
+              </actui>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step03" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="0" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+          </slide>
+          <slide sNumber="5230" type="BulletImageBuild" animType="animsync" endType="Continue">
+           <ui uid="1" type="slideHeader" width="470" height="50" x="left" y="40" margin="10" fontSize="20" fontColor="0x666666" time="1" trans="slideRight" ease="QuintEaseOut">
+              <header id="sh1" order="2" fontColor="0x000000">
+                <![CDATA[<b>知識チェック</b>]]>
+</header>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="70" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="104" trans="slideUp" yPad="0">
+                <![CDATA[<b>パーツ アドバイザー:</b><i> 「これらが、新しいトレーラーをけん引するために必要なパーツ全てです。ご覧のように、お客様の車両に最適なけん引機器の仕様を決定して選択しました。これらのパーツは、Chrysler の耐久性と強度を確認する徹底した路上試験に合格しています。ヒッチの取り付けはいつになさいますか」</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="105" trans="slideUp">
+                <![CDATA[<b>顧客:</b><i> 「時間をかけて説明してもらったのですが、こんなに高価だとは思っていませんでした」</i>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step04a" syncType="append" trans="animbuild" order="1">
+             <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime=".5" tweenDuration=".5" ease="QuintEaseOut" />
+          <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration="1" ease="BackEaseOut" />
+          <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step04" />
+            </ui>
+          </slide>
+          <slide sNumber="5235" type="act" animType="animsync" endType="Continue">
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="510" x="left" margin="10" fontSize="18" fontColor="0x666666" syncType="buildy" yPad="0">
+                 <item type="header" fontSize="20" x="0" yPad="0" fontColor="0x000000">
+ <![CDATA[<b>知識チェック</b>]]></item>
+                <item type="questiontext">
+                  <![CDATA[この拒絶にはどう対応しますか。最適だと思う答えを 1 つ選択して、[解答確認] をクリックしてください。]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="480" height="36" x="left" y="0" xPad="8" yPad="16" fontColor="dkgrey" fontSize="16" fontStyle="reg" fillColor="white" fillAlpha="1">
+                <item id="a" isanswer="true">
+                  <![CDATA[他者に負けない価格であり、それに見合う価値があることを強調する]]>
+</item>
+                <item id="b" isanswer="false">
+                  <![CDATA[顧客に割引を提示する]]>
+</item>
+                <item id="c" isanswer="false">
+                  <![CDATA[購入意思を引き続き確認する]]>
+</item>
+                <item id="d" isanswer="false">
+                  <![CDATA[パーツ数を減らす]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[解答確認]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="center" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[顧客の拒絶を克服しました。後は成約に結びつけるだけです。]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[顧客に、魅力的な価格で最高品質のパーツを購入できることを確認してもらい、信頼を得ることで、初めて成約に結びつきます。]]>
+</item>
+              </actui>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step04" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="0" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="5300" sNumber="5300" sType="gps" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" width="600" height="50" x="left" y="0" margin="10" trans="on" ease="none">
+            <header id="h1" order="0" time="0" x="0" y="0">
+              <![CDATA[内部顧客]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="5301" type="BulletImageBuild" animType="animsync" endType="Continue">
+           <ui uid="1" type="slideHeader" width="470" height="50" x="left" y="40" margin="10" fontSize="20" fontColor="0x666666" time="1" trans="slideRight" ease="QuintEaseOut">
+              <header id="sh1" order="2" fontColor="0x000000">
+                <![CDATA[<b>知識チェック</b>]]>
+</header>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="70" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="117" yPad="0">
+                <![CDATA[パーツ アドバイザーと内部顧客間の次のシナリオを読み、顧客ニーズに基づいたパーツ販売プロセスに従い、どのように成約に結び付けていくかという質問に答える準備をしてください。]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="118" trans="slideUp">
+                <![CDATA[<b>販売コンサルタント:</b><i> 「やぁ、ピート。新しい Grand Voyager 用にフロア マットが欲しいという顧客がいるんだが、価格はどれくらいだろう」</i>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step01a" syncType="append" trans="animbuild" order="1">
+            <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime=".5" tweenDuration=".5" ease="QuintEaseOut" />
+          <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration="1" ease="BackEaseOut" />
+          <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step01" />
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="QuintEaseOut">
+              <bodyImage id="i2" url="CustomerInternal2.jpg" order="5">
+                <![CDATA[CustomerInternal]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="5305" type="act" animType="animsync" endType="Continue">
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="510" x="left" margin="10" fontSize="18" fontColor="0x666666" syncType="buildy" yPad="0">
+                 <item type="header" fontSize="20" x="0" yPad="0" fontColor="0x000000">
+ <![CDATA[<b>知識チェック</b>]]></item>
+                <item type="questiontext">
+                  <![CDATA[内部顧客は、外部顧客と同様に対応します。「顧客との関係を始める」には何をすべきでしょうか。最適だと思う答えを 1 つ選択して、[解答確認] をクリックしてください。]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="480" height="36" x="left" y="0" xPad="8" yPad="16" fontColor="dkgrey" fontSize="16" fontStyle="reg" fillColor="white" fillAlpha="1">
+                <item id="a" isanswer="false">
+                  <![CDATA[車両の VIN 番号を尋ねる]]>
+</item>
+                <item id="b" isanswer="false">
+                  <![CDATA[StarParts カタログでフロア マットを探す]]>
+</item>
+                <item id="c" isanswer="false">
+                  <![CDATA[販売コンサルタントに顧客に提示するアクセサリ- カタログを手渡す]]>
+</item>
+                <item id="d" isanswer="true">
+                  <![CDATA[販売コンサルタントに全神経を集中させる]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[解答確認]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="center" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[ステップ 2 に進む]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[販売コンサルタントとすでに関係が確立している場合でも、さらに情報を必要としていないか、注意して準備をする必要があります。]]>
+</item>
+              </actui>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step01" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="0" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+          </slide>
+          <slide sNumber="5310" type="BulletImageBuild" animType="animsync" endType="Continue">
+         <ui uid="1" type="slideHeader" width="470" height="50" x="left" y="40" margin="10" fontSize="20" fontColor="0x666666" time="1" trans="slideRight" ease="QuintEaseOut">
+              <header id="sh1" order="2" fontColor="0x000000">
+                <![CDATA[<b>知識チェック</b>]]>
+</header>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="70" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="128" trans="slideUp" yPad="0">
+                <![CDATA[<b>パーツ アドバイザー:</b><i> 「テッド、ちょっと待ってくれよ。もう少し詳細を教えてくれないか」</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="129" trans="slideUp">
+                <![CDATA[<b>販売コンサルタント:</b><i> 「何を知りたいんだい？フロア マットはフロア マットだろう」</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="130" trans="slideUp">
+                <![CDATA[<b>パーツ アドバイザー:</b><i> 「色々オプションがあるので、顧客にちょっと質問する必要がある」</i>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step02a" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime=".5" tweenDuration=".5" ease="QuintEaseOut" />
+          <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration="1" ease="BackEaseOut" />
+          <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut"  frameEnd="step02" />
+            </ui>
+          </slide>
+          <slide sNumber="5315" type="act" animType="animsync" endType="Continue">
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="510" x="left" margin="10" fontSize="18" fontColor="0x666666" syncType="buildy" yPad="0">
+                 <item type="header" fontSize="20" x="0" yPad="0" fontColor="0x000000">
+ <![CDATA[<b>知識チェック</b>]]></item>
+                <item type="questiontext">
+                  <![CDATA[このような場合、どのように対処すればよいでしょうか。 最適だと思う答えを 1 つ選択して、[解答確認] をクリックしてください。]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" x="0" y="0" width="480" height="36" xPad="8" yPad="16" fontColor="dkgrey" fontSize="16" fontStyle="reg" fillColor="white" fillAlpha="1">
+                <item id="a" isanswer="false">
+                  <![CDATA[販売コンサルタントに顧客に提示するアクセサリ カタログを手渡す]]>
+</item>
+                <item id="b" isanswer="false">
+                  <![CDATA[販売コンサルタントに StarParts カタログを使って顧客が欲しい製品を探すように言う]]>
+</item>
+                <item id="c" isanswer="true">
+                  <![CDATA[販売コンサルタントに顧客から聞きだして欲しい特定の情報が何であるかを説明する]]>
+</item>
+                <item id="d" isanswer="false">
+                  <![CDATA[販売コンサルタントに自分は別の顧客を待たせているから、後でまた来てくれるように言う]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" y="row" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[解答確認]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="center" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[ステップ 3 に進む]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[販売コンサルタントが顧客と直接応対したいと思っている場合は、顧客のニーズに合ったフロア マットを薦めるために必要な情報を聞くよう依頼します。]]>
+</item>
+              </actui>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step02" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="0" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+          </slide>
+          <slide sNumber="5320" type="BulletImageBuild" animType="animsync" endType="Continue">
+           <ui uid="1" type="slideHeader" width="470" height="50" x="left" y="40" margin="10" fontSize="20" fontColor="0x666666" time="1" trans="slideRight" ease="QuintEaseOut">
+              <header id="sh1" order="2" fontColor="0x000000">
+                <![CDATA[<b>知識チェック</b>]]>
+</header>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="70" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="141" trans="slideUp" yPad="0">
+                <![CDATA[<b>販売コンサルタント:</b><i> 「顧客に聞いてみたら、プレミアム マットや泥除けマットの違いもよくわかっていないらしい。彼女はただインテリアとして贅沢感をかもし出すようなマットが欲しいそうだ」</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="142" trans="slideUp">
+                <![CDATA[<b>パーツ アドバイザー:</b><i> 「ありがとう、テッド。じゃあお勧めするのは、クライスラーのロゴが付いた高級感溢れるプレミアム マットだな。インテリアにもマッチするだろう。納車の準備が整ったらマットをインストールできるよ」</i>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step03a" syncType="append" trans="animbuild" order="1">
+ <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime=".5" tweenDuration=".5" ease="QuintEaseOut" />
+          <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration="1" ease="BackEaseOut" />
+          <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut"  frameEnd="step03" />
+            </ui>
+          </slide>
+          <slide sNumber="5325" type="act" animType="animsync" endType="Continue">
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="510" x="left" margin="10" fontSize="18" fontColor="0x666666" syncType="buildy" yPad="0">
+                 <item type="header" fontSize="20" x="0" yPad="0" fontColor="0x000000">
+ <![CDATA[<b>知識チェック</b>]]></item>
+                <item type="questiontext">
+                  <![CDATA[販売コンサルタントは車両の販売と合わせてフロア マットを成約すると思われます。よってステップ 4 には進みませんが、もうひとつやるべきことが残っています。]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="480" height="36" x="left" y="0" xPad="8" yPad="16" fontColor="dkgrey" fontSize="16" fontStyle="reg" fillColor="white" fillAlpha="1">
+                <item id="a" isanswer="false">
+                  <![CDATA[顧客の拒絶に対応する]]>
+</item>
+                <item id="b" isanswer="true">
+                  <![CDATA[パーツの価格見積りを提示する]]>
+</item>
+                <item id="c" isanswer="false">
+                  <![CDATA[販売コミッションがもらえることを確認する]]>
+</item>
+                <item id="d" isanswer="false">
+                  <![CDATA[付加的な販売チャンスを探す]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[解答確認]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="center" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[正解です。販売コンサルタントに製品のセールス ポイントと競争力のある価格を知らせます。]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[不正解です。販売コンサルタントはフロア マットのメリットと価値を提示する方法を知っていますが、クロージングするためには価格が必要です。]]>
+</item>
+              </actui>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step03" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="0" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

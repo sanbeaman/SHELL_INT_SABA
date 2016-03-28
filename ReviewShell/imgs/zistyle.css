@@ -1,0 +1,133 @@
+
+body {
+	font-family: 'Arial', sans-serif;
+	font-size: 8px;
+	background: #484848;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+/* ~~this fixed width container surrounds the other divs~~ */
+.container {
+	width: 974px;
+	height: 618px;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+}
+.sidebar1 {
+	float: left;
+	width: 219px;
+	height:618px;
+	background: #484848;
+	padding: 0;
+	background-repeat: no-repeat;
+	color: #fff;
+	margin-top:0;
+}
+.nav {
+	padding-top:50px;
+}
+.scoArea {
+	width:755px;
+	height:618px;
+	padding:0;
+	margin:0;
+	background-repeat: no-repeat;
+	float: left;
+	
+}
+
+#show {margin:0px auto; width:700px; height:auto; text-shadow: 0px 2px 3px #666; background: #474747; padding:10px; box-shadow: 0px 1px 10px #999; border:#FFF solid 3px; text-align:center; }
+
+input[type="checkbox"], input[type="radio"]s {position: relative; display: block; width: 200px; height: 40px; margin: 0;}
+input[type="checkbox"], input[type="radio"] {float: left; display: inline-block; position: relative; margin: 0px 7px; padding: 0px;}
+input[type="checkbox"] {background: transparent url(sprite1.png) -6px -4px no-repeat; -webkit-appearance: none; width: 22px; height: 24px;overflow: visible; cursor: pointer; }
+input[type="checkbox"]:hover {background-position: -42px -4px; }
+input[type="checkbox"]:active {background-position: -82px -4px; transform: rotate(45deg); -ms-transform: rotate(45deg); -moz-transform: rotate(45deg); -webkit-transform: rotate(45deg);}
+input[type="checkbox"]:checked::before {-webkit-appearance: none; content: ':)'; text-indent: -9999px; background: url(check.png) top center no-repeat; width: 15px; height: 14px; top: 2px; left: 4px; position: absolute; display: block; }
+input[type="checkbox"]:checked:active::before {top: 3px;}
+input[type="radio"] {background: transparent url(sprite1.png) -5px -33px no-repeat; -webkit-appearance: none; width: 22px; height: 24px;overflow: visible; cursor: pointer; }
+input[type="radio"]:hover {background-position: -42px -33px;}
+input[type="radio"]:active {background-position: -82px -33px;}
+input[type="radio"]:checked::before {-webkit-appearance: none; content: ':)'; text-indent: -9999px; background: url(check.png) bottom center no-repeat; width: 15px; height: 14px; top: 4px; left: 4px; position: absolute; display: block;}
+input[type="radio"]:checked:active::before {top: 5px;}
+
+.zitree {
+	margin:0px;
+	height: 500px;
+	text-align:left;
+	color:#CCC;
+	padding-top:10px; 
+	-webkit-margin-before: 0px;
+-webkit-margin-after: 0px;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 0px;
+	
+}
+.zitree li {
+	position: relative; 
+	margin-left: 0;
+	list-style: none;
+	padding: 0px;
+}
+
+.zitree li.item {
+	padding-left: 20px;	
+}
+.zitree li.item label {
+	padding-left: 0px;
+	text-decoration: none;
+	cursor: pointer;
+	
+}
+.zitree li.item input:checked + label {
+	color: white;
+	padding:3px;
+}
+
+li input {
+	position: absolute;
+	left: 0;
+	margin-left: 0;
+	z-index: 2;
+	cursor: pointer;
+	height: 1em;
+	width: 1em;
+	top: 0;	
+}
+.zitree li input + ul {	
+	height: 1em;
+}
+.zitree li input + ul > li {
+	height: 0;
+	overflow: hidden;
+	margin-left: -14px !important;
+	padding-left: 1px;
+}
+.zitree li label {
+	cursor: pointer;
+	padding-left: 5px;
+}
+
+.zitree li input:checked + ul {
+	margin: -1.463em 0 0 -44px; 
+	padding: 1.563em 0 0 75px; 
+	height: auto;	
+}
+
+.zitree li input:checked + ul > li {
+	height: auto;
+	margin: 0px;
+}
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #FFcc66;/*#42413C;*/
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #999999;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}

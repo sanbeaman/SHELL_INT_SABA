@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCERUWB" template="ASCE" localeID="ru" debug="false">
+    <title>
+      <![CDATA[Исключительный клиентский опыт]]>
+</title>
+  </course>
+  <section id="0" snumber="3000">
+    <header>
+      <![CDATA[КАК ОБЕСПЕЧИТЬ ЛОЯЛЬНОСТЬ КЛИЕНТОВ?]]>
+</header>
+    <scenes>
+      <scene sNumber="3100" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1" fontSize="14">
+              <![CDATA[Пять факторов, имеющих основное значение для повышения лояльности в сфере обслуживания]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+         <slide sNumber="3105" type="TextImageAround" animType="timesync" endType="Continue">
+           <ui uid="2" type="BodyText" width="300" height="200" x="center" y="200" margin="10" fontSize="16" fontAlign="center" effect="none" time="1" trans="slideup" ease="QuintEaseOut" syncType="replace">
+              <bodyBullet id="bb1" timeIn="1" timeOut="999">
+                <![CDATA[Вы добиваетесь лояльности клиента, когда превосходите его ожидания в ходе каждого из многочисленных взаимодействий и видов деятельности, на основании которых складывается общее впечатление от обслуживания. <br />Большинство контактных лиц, которые взаимодействуют с клиентом, можно отнести к одной из пяти категорий.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="BodyImage" width="240" height="160" x="center" y="top" margin="10" effect="none" scaleMode="none" time="1" trans="slideup" ease="QuintEaseOut">
+              <bodyImage id="img1" url="3105_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[main image]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="BodyImage" width="150" height="100" x="left" y="100" margin="10" effect="none" scaleMode="none" trans="slideright" ease="QuintEaseOut" time="1" syncType="buildy" yPad="80">
+              <bodyImage id="img2" url="3105_2.jpg" timeIn="2" timeOut="999" yPad="0">
+                <![CDATA[img2]]>
+</bodyImage>
+              <bodyImage id="img4" url="3105_4.jpg" timeIn="4" timeOut="999">
+                <![CDATA[img4]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="BodyImage" x="right" y="100" margin="10" width="150" height="100" effect="none" scaleMode="none" trans="slideleft" ease="QuintEaseOut" time="1" syncType="buildy" yPad="80">
+              <bodyImage id="img3" url="3105_3.jpg" timeIn="3" timeOut="999" yPad="0">
+                <![CDATA[img3]]>
+</bodyImage>
+              <bodyImage id="img5" url="3105_5.jpg" timeIn="5" timeOut="999">
+                <![CDATA[img5]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="3110" type="TextImageReplace" animType="timesync" endType="continue">
+          <ui uid="2" type="BodyText" width="680" height="190" x="center" y="270" margin="0" fontAlign="center" effect="none" time="2" ease="QuintEaseOut" trans="slideLeft" syncType="replace">       
+            <bodyText id="bt1" timeIn="0.5" timeOut="6">
+                  <![CDATA[Консультант по обслуживанию]]>
+</bodyText>
+              <bodyText id="bt2" timeIn="6.5" timeOut="12">
+                <![CDATA[Качество обслуживания/Фиксированный первый визит]]>
+</bodyText>
+              <bodyText id="bt3" timeIn="12.5" timeOut="18">
+                <![CDATA[Система/процесс обслуживания]]>
+</bodyText>
+              <bodyText id="bt4" timeIn="18.5" timeOut="24">
+                <![CDATA[Объект/Зона ожидания]]>
+</bodyText>
+              <bodyText id="bt5" timeIn="24.5" timeOut="999">
+                <![CDATA[Цена/Плата за обслуживание]]>
+</bodyText>
+            </ui>
+            <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" scaleMode="none" time="1" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="3110_1.jpg" timeIn=".2" timeOut="6">
+                <![CDATA[image1]]>
+</bodyImage>
+              <bodyImage id="i2" url="3110_2.jpg" timeIn="6.5" timeOut="12">
+                <![CDATA[Image2]]>
+</bodyImage>
+              <bodyImage id="i3" url="3110_3.jpg" timeIn="12.5" timeOut="18">
+                <![CDATA[image3]]>
+</bodyImage>
+              <bodyImage id="i4" url="3110_4.jpg" timeIn="18.5" timeOut="24">
+                <![CDATA[Image4]]>
+</bodyImage>
+              <bodyImage id="i5" url="3110_5.jpg" timeIn="24.5" timeOut="999">
+                <![CDATA[image5]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="3115" type="TextImageAround" animType="timesync" endType="Continue">
+            <ui uid="2" type="BodyText" width="340" height="240" x="center" y="190" margin="0" fontSize="16" fontAlign="center" effect="none" time="1" trans="slideup" ease="QuintEaseOut" syncType="build">
+              <bodyBullet id="bb1" timeIn="1" timeOut="999">
+                <![CDATA[Хотя в вашем дилерском центре процесс обслуживания клиента может состоять из этапов, которые немного отличаются от тех, которые использованы в примере, есть большая вероятность того, что вы, все же, захотите, чтобы клиент был удовлетворен всеми этапами этого процесса и стал лояльным клиентом.<br /> И вы знаете, что для достижения настоящего успеха необходима командная работа всех специалистов, работающих на всех этапах процесса.]]>
+
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="BodyImage" width="240" height="160"  x="center" y="top" margin="10" effect="none" scaleMode="none"  time="1" trans="slideup" ease="QuintEaseOut">
+              <bodyImage id="img1" url="3115_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[main image]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="BodyImage" width="150" height="100" x="left" y="100" margin="10" effect="none" scaleMode="none" time="1" trans="slideright" ease="QuintEaseOut" syncType="buildy" yPad="80">
+              <bodyImage id="img2" url="3115_2.jpg" timeIn="2" timeOut="999" yPad="0">
+                <![CDATA[img2]]>
+</bodyImage>
+              <bodyImage id="img4" url="3115_4.jpg" timeIn="4" timeOut="999">
+                <![CDATA[img4]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="BodyImage" width="150" height="100"  x="right" y="100" margin="10" effect="none" scaleMode="none" time="1"  trans="slideleft" ease="QuintEaseOut" syncType="buildy" yPad="80">
+              <bodyImage id="img3" url="3115_3.jpg" timeIn="3" timeOut="999" yPad="0">
+                <![CDATA[img3]]>
+</bodyImage>
+              <bodyImage id="img5" url="3115_5.jpg" timeIn="5" timeOut="999">
+                <![CDATA[img5]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="3120" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="480" x="left" y="top"  margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+            <bodyBullet id="bb0" order="17" yPad="0">
+                <![CDATA[<li>Подумайте о тех людях, которые входят в вашу команду – о представителях как вашего отдела, так и других отделов дилерского центра</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="18">
+                <![CDATA[<li>При организации эффективной работы и удовлетворении потребностей клиентов вы все зависите друг от друга</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="19">
+                <![CDATA[<li>В зависимости от ситуации в различные моменты для достижения общей цели роль лидера могут принимать на себя  разные члены команды</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10" trans="slideLeft" ease="BackEaseOut" time="1" syncType="buildy" yPad="15">
+              <bodyImage id="i1" order="17.5" yPad="0" url="3120_1.jpg">
+                <![CDATA[image 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="18.5" url="3120_2.jpg">
+                <![CDATA[Image 2]]>
+</bodyImage>
+              <bodyImage id="i3" order="19.5" url="3120_3.jpg">
+                <![CDATA[Image 3]]>
+</bodyImage>
+            </ui>
+          </slide>
+           <slide sNumber="3125" type="Activity_Match" animType="none" endType="Continue">
+               <ui uid="1" type="act" atype="match" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut">
+              <actui type="ScreenText" width="710" yPad="10">
+                <item type="screentext" fontSize="20" yPad="0">
+                <![CDATA[Давайте узнаем, каким образом член команды проявляет инициативу и становится лидером.]]>
+</item>
+              <item type="directiontext" fontSize="14">
+                <![CDATA[Указания: сопоставьте членов команды, представленных слева, и действия, которые он выполняет для того, чтобы принять на себя лидерство в обеспечении исключительного уровня обслуживания (эти действия перечислены справа).]]>
+</item>
+              </actui>
+              <actui uid="0" type="SubHeader" order="5" fontColor="black" fontSize="18" screen="1">
+                <item id="i1" type="dragHeader" width="200" height="40" fontAlign="left">
+   <![CDATA[Член команды]]>
+   </item>
+                <item id="i2" type="dropHeader" width="360" height="40" fontAlign="left">
+                <![CDATA[Основное задание]]>
+</item>
+              </actui>
+              <actui uid="1" type="MatchBtn" width="200" height="40" x="0" y="0"  layout="1col" fontSize="12" fontColor="black" fontStyle="bold" fontAlign="center" fontVertAlign="middle" fillColor="greycc" fillAlpha="1" frameSize="1" frameColor="white" frameAlpha="1" fillType="gradient" fillColor2="greycc" xPad="20" yPad="10">
+                 <item id="i1" isanswer="drop1">
+                <![CDATA[Консультант по обслуживанию]]>
+</item>
+              <item id="i2" isanswer="drop2">
+                <![CDATA[Дежурный]]>
+</item>
+              <item id="i3" isanswer="drop3">
+                <![CDATA[Консультант по запасным частям]]>
+</item>
+              <item id="i4" isanswer="drop4">
+                <![CDATA[Кассир]]>
+</item>
+              <item id="i5" isanswer="drop5">
+                <![CDATA[Механик по обслуживанию]]>
+</item>
+              <item id="i6" isanswer="drop6">
+                <![CDATA[Администратор по гарантийному обслуживанию]]>
+</item>
+              </actui>
+              <actui uid="1" type="MatchTarget" width="360" height="40" x="right" y="0" margin="0" layout="default" fontSize="12" fontColor="black" fontStyle="reg" fontAlign="left" fontVertAlign="middle" fillColor="orangegrad1" fillAlpha="1" frameSize="1" frameColor="white" frameAlpha="1" fillType="gradient" fillColor2="orangegrad2" xPad="10" yPad="10">
+               <item id="i1" isanswer="drop1">
+                <![CDATA[Вместе с клиентом проводит осмотр для содействия росту доверия и лояльности.]]>
+</item>
+              <item id="i2" isanswer="drop2">
+                <![CDATA[Заботится о том, чтобы в зону передачи автомобиля клиенту автомобиль был доставлен в чистом виде.]]>
+</item>
+              <item id="i3" isanswer="drop3">
+                <![CDATA[Обеспечивает наличие деталей для механиков, которые выполняют плановый ремонт]]>
+</item>
+              <item id="i4" isanswer="drop4">
+                <![CDATA[Осуществляет надзор за выставляемыми клиенту счетами для того, чтобы убедиться в выполнении всех работ]]>
+</item>
+              <item id="i5" isanswer="drop5">
+                <![CDATA[Выполняет надлежащий ремонт автомобиля с первого раза. Сообщает о необходимости в дополнительных работах по ремонту или обслуживанию]]>
+</item>
+              <item id="i6" isanswer="drop6">
+                <![CDATA[Отправляет рекламации касательно снижения затрат клиенту и дилеру.]]>
+</item>
+              </actui>
+              <actui uid="3" type="feedbacktext" width="710" height="80" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct" id="pos">
+               <![CDATA[Отличная работа! Теперь вы видите, как каждый из членов команды вносит свой вклад в создание лояльности клиента. Концепция командной работы также применима к взаимодействию отдела продаж с участком обслуживания и запасных частей. В качестве примера можно привести Консультантов по продажам, которые представляют клиентов сотрудникам участка обслуживания и запасных частей и помогают новым владельцам автомобилей организовать первую встречу по вопросам сервисного обслуживания. Вы зависите друг от друга, так как хотите произвести неизменно хорошее впечатление!]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene sNumber="3200" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Что думают клиенты?]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3205" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="480" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="8">
+             <bodyBullet id="bb0" order="43" time=".2" yPad="0">
+                <![CDATA[Как узнать, правильно ли вы все делаете? Спросить об этом у клиентов!]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="44">
+                <![CDATA[Отзывы клиентов – это самый важный инструмент развития ваших сильных сторон и устранения недостатков. То, какие из перечисленных ниже методов вы будете использовать, зависит от вашего рынка и дилерского центра.]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="45" fontSize="14">
+                <![CDATA[<li><b>Сами спрашивайте об этом у клиентов.</b> Спросите клиентов, что вы можете сделать для того, чтобы обслуживать их еще лучше. Старайтесь получить обратную связь во время визита с целью обслуживания или во время последующего общения по телефону, переписки по электронной почте или с помощью СМС</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="46" fontSize="14">
+                <![CDATA[<li><b>Используйте показатели SSI и CSI.</b> На вашем рынке могут использоваться результаты опроса потребителей, проведенного компанией J.D. Power. Хотя они и помогут вам выявить и устранить проблемы, препятствующие повышению степени удовлетворенности клиентов обслуживанием, помните, что удовлетворенность обслуживанием и лояльность – это разные вещи</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="47" fontSize="14">
+                <![CDATA[<li><b>Используйте Активатор отношений с клиентами.</b> Дилерские центры группы Chrysler Group в Северной Америке и на некоторых других рынках уже используют в качестве основного механизма получения обратной связи Активатор отношений с клиентами (CPS). То, что данный показатель уделяет основное внимание лояльности, помогает сосредоточить усилия на совершенствовании того, что вы уже делаете хорошо</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10" trans="slideLeft" ease="BackEaseOut" time="1" syncType="buildy" yPad="25">
+              <bodyImage id="i1" order="45.5" url="3205_1.jpg" yPad="0">
+                <![CDATA[image 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="46.5" url="3205_2.jpg">
+                <![CDATA[Image 2]]>
+</bodyImage>
+              <bodyImage id="i3" order="47.5" url="3205_3.jpg">
+                <![CDATA[Image 3]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="3210" type="BulletReplace" animType="timesync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="700" x="left" y="top" margin="10" fontSize="18" time="1" trans="slideRight" ease="QuintEaseOut" yPad="0">
+           <item id="bt1" timeIn="0.5" timeOut="999">
+                <![CDATA[Независимо от того, как вы получаете обратную связь от клиентов, эффективный процесс ее использования для создания лояльности должен включать в себя следующее:]]>
+</item>
+            </ui>
+            <ui uid="6" type="bodyBullet"  x="left" y="70" width="660" margin="10" fontSize="16" fontColor="black" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <item id="bt1a" timeIn="2" timeOut="35">
+                <![CDATA[<li>Получение более развернутой информации, а не просто оценок или кратких ответов. Продолжайте спрашивать «Почему?», чтобы выяснить истинные причины того, почему клиенты готовы или не готовы рекомендовать вас друзьям и родственником, или почему им не понравилось, как их обслужили в том или ином конкретном случае</li>]]>
+</item>
+              <item id="bt2a" timeIn="4" timeOut="35">
+                <![CDATA[<li>Немедленно примите меры. Разговаривая с лояльными клиентами и стараясь выяснить, что именно из того, что вы делаете, заставляет их возвращаться к вам снова и снова, поблагодарите их за их вклад и объясните, что именно вы будете делать для того, чтобы все клиенты получали в равной степени высокий уровень обслуживания</li>]]>
+</item>
+              <item id="bt3a" timeIn="6" timeOut="35">
+                <![CDATA[<li>Если вы узнали о существовании проблемы, немедленно сделайте все возможное для ее устранения. Если ситуацию невозможно исправить сразу же, извинитесь и дайте клиентам знать, какие шаги вы предпримите для того, чтобы такая ситуация больше не повторилась</li>]]>
+</item>
+            </ui>
+            <ui uid="8" type="bodyBullet"  x="left" y="70" width="640" margin="10" fontSize="16" fontColor="black" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+               <item id="bt1b" timeIn="35.5" timeOut="999">
+                <![CDATA[<li>Обеспечьте ответственный подход к делу. Менеджеры должны проводить анализ тенденций и прогресса в достижении цели на еженедельных совещаниях команды</li>]]>
+</item>
+              <item id="bt2b" timeIn="35.5" timeOut="999">
+                <![CDATA[<li>Сделайте достижение лояльности клиентов приоритетом для всех работников дилерского центра</li>]]>
+</item>
+              <item id="bt3b" timeIn="35.5" timeOut="999">
+ <![CDATA[<li>Совершенствуйте процессы. Создавайте команды по использованию сильных сторон и устранению недостатков с помощью совершенствования процессов</li>]]></item>
+            </ui>
+          </slide>
+          <slide sNumber="3215" type="TextImageReplace" animType="timesync" endType="continue">
+            <ui uid="2" type="BodyText" width="680" height="150" x="center" y="290" margin="0" fontAlign="center" effect="none" time="1" trans="slideLeft" ease="QuintEaseOut" syncType="replace">
+              <bodyBullet id="bb1" timeIn=".5" timeOut="999">
+                <![CDATA[При совершенствовании работы дилерского центра, конечно же, нужно использовать отзывы клиентов, но полагаться только на них - это все равно, что вести машину, глядя только в зеркало заднего вида: вы видите только то, что вы уже проехали, а не то, куда вы хотите попасть. <br />Прямо сегодня, не ожидая отзывов клиентов, вы можете начать осуществлять определенные действия, которые помогу вам устранить проблемы и добиться лояльности.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="4" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" time=".5" trans="fadeOn" ease="QuintEaseOut" scaleMode="none" syncType="replace">
+              <bodyImage id="i1" url="3215_1.jpg" timeIn=".5" timeOut="999"><![CDATA[image1]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

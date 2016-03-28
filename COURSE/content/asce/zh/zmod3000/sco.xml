@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCECHWB" template="ASCE" localeID="zh" debug="false">
+    <title>
+      <![CDATA[卓越的客户体验]]>
+</title>
+  </course>
+  <section id="0" snumber="3000">
+    <header>
+      <![CDATA[如何培养忠诚度？]]>
+</header>
+    <scenes>
+      <scene sNumber="3100" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[服务忠诚度五大驱动因素]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3105" type="TextImageAround" animType="timesync" endType="Continue">
+            <ui uid="2" type="BodyText" width="300" height="200" x="center" y="200" fontAlign="center" effect="none" time="1" trans="slideup" ease="QuintEaseOut" syncType="replace">
+              <bodyText id="bt1" timeIn="1" timeOut="999">
+                <![CDATA[整体服务体验源于大量的交流和活动，如果您每次交流和活动中均超出了客户的期望，就能够赢得客户的忠诚度。<br />可将大部分客户联系点归为五个类别。]]>
+</bodyText>
+            </ui>
+            <ui uid="1" type="BodyImage" width="240" height="160" x="center" y="top" margin="20" effect="none" scaleMode="none" time="1" trans="slideup" ease="QuintEaseOut">
+              <bodyImage id="img1" url="3105_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[main image]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="BodyImage" width="150" height="100" x="left" y="100" margin="20" effect="none" scaleMode="none" trans="slideright" ease="QuintEaseOut" time="1" syncType="buildy" yPad="80">
+              <bodyImage id="img2" url="3105_2.jpg" timeIn="2" timeOut="999" yPad="0">
+                <![CDATA[img2]]>
+</bodyImage>
+              <bodyImage id="img4" url="3105_4.jpg" timeIn="4" timeOut="999">
+                <![CDATA[img4]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="BodyImage" x="right" y="100" margin="20" width="150" height="100" effect="none" scaleMode="none" trans="slideleft" ease="QuintEaseOut" time="1" syncType="buildy" yPad="80">
+              <bodyImage id="img3" url="3105_3.jpg" timeIn="3" timeOut="999" yPad="0">
+                <![CDATA[img3]]>
+</bodyImage>
+              <bodyImage id="img5" url="3105_5.jpg" timeIn="5" timeOut="999">
+                <![CDATA[img5]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="3110" type="TextImageReplace" animType="timesync" endType="continue">
+            <ui uid="2" type="BodyText" width="680" height="180" x="center" y="270" margin="0" fontAlign="center" effect="none" time="2" ease="QuintEaseOut" trans="slideLeft" syncType="replace">
+              <bodyText id="bt1" timeIn="0.5" timeOut="6">
+                <![CDATA[服务顾问]]>
+</bodyText>
+              <bodyText id="bt2" timeIn="6.5" timeOut="12">
+                <![CDATA[服务质量/第一次来访就解决问题]]>
+</bodyText>
+              <bodyText id="bt3" timeIn="12.5" timeOut="18">
+                <![CDATA[服务体系/流程]]>
+</bodyText>
+              <bodyText id="bt4" timeIn="18.5" timeOut="24">
+                <![CDATA[设施/等候区]]>
+</bodyText>
+              <bodyText id="bt5" timeIn="24.5" timeOut="999">
+                <![CDATA[价格/服务费用]]>
+</bodyText>
+            </ui>
+            <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" scaleMode="none" time="1" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="3110_1.jpg" timeIn=".2" timeOut="6">
+                <![CDATA[image1]]>
+</bodyImage>
+              <bodyImage id="i2" url="3110_2.jpg" timeIn="6.5" timeOut="12">
+                <![CDATA[Image2]]>
+</bodyImage>
+              <bodyImage id="i3" url="3110_3.jpg" timeIn="12.5" timeOut="18">
+                <![CDATA[image3]]>
+</bodyImage>
+              <bodyImage id="i2" url="3110_4.jpg" timeIn="18.5" timeOut="24">
+                <![CDATA[Image4]]>
+</bodyImage>
+              <bodyImage id="i5" url="3110_5.jpg" timeIn="24.5" timeOut="999">
+                <![CDATA[image5]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="3115" type="TextImageAround" animType="timesync" endType="Continue">
+            <ui uid="2" type="BodyText" width="300" height="200" x="center" y="200" margin="0" fontAlign="center" effect="none" time="1" trans="slideup" ease="QuintEaseOut" syncType="build">
+              <bodyText id="bt1" timeIn="1" timeOut="999">
+                <![CDATA[虽然您的经销商对客户体验的归类方式可能与此有所不同，但您仍需要努力在各个方面培养客户的满意度和忠诚度。<br />您知道，要取得真正的成功，就需要各部门团结一致、通力合作。]]>
+</bodyText>
+            </ui>
+            <ui uid="1" type="BodyImage" width="240" height="160" x="center" y="top" margin="20" effect="none" scaleMode="none" time="1" trans="slideup" ease="QuintEaseOut">
+              <bodyImage id="img1" url="3115_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[main image]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="BodyImage" width="150" height="100" x="left" y="100" margin="20" effect="none" scaleMode="none" time="1" trans="slideright" ease="QuintEaseOut" syncType="buildy" yPad="80">
+              <bodyImage id="img2" url="3115_2.jpg" timeIn="2" timeOut="999" yPad="0">
+                <![CDATA[img2]]>
+</bodyImage>
+              <bodyImage id="img4" url="3115_4.jpg" timeIn="4" timeOut="999">
+                <![CDATA[img4]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="BodyImage" width="150" height="100" x="right" y="100" margin="20" effect="none" scaleMode="none" time="1" trans="slideleft" ease="QuintEaseOut" syncType="buildy" yPad="80">
+              <bodyImage id="img3" url="3115_3.jpg" timeIn="3" timeOut="999" yPad="0">
+                <![CDATA[img3]]>
+</bodyImage>
+              <bodyImage id="img5" url="3115_5.jpg" timeIn="5" timeOut="999">
+                <![CDATA[img5]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="3120" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="2" yPad="0">
+                <![CDATA[<li>思考一下在您的部门以及整个经销商中，您的团队有哪些成员</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4">
+                <![CDATA[<li>所有成员需要互相帮助，以维持高效的工作流和顾客的满意度</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+                <![CDATA[<li>为实现整体目标，在不同的时期，需要不同的团队成员起主导作用，这取决于具体的情形</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10" time="1" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="15">
+              <bodyImage id="i1" order="3" yPad="0" url="3120_1.jpg">
+                <![CDATA[image 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="5" url="3120_2.jpg">
+                <![CDATA[Image 2]]>
+</bodyImage>
+              <bodyImage id="i3" order="7" url="3120_3.jpg">
+                <![CDATA[Image 3]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="3125" type="Activity_Match" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="match" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut">
+              <actui type="ScreenText" width="680" x="left" y="0" margin="0" yPad="10">
+                <item type="screentext" fontSize="20" yPad="0">
+                  <![CDATA[让我们花点时间了解下团队成员如何发挥主导作用。]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                  <![CDATA[说明：将左侧的团队成员与右侧他/她在为客户提供卓越服务的过程中所主导的任务相连。]]>
+</item>
+              </actui>
+              <actui uid="0" type="SubHeader" order="5" fontSize="18" screen="1">
+                <item id="i1" type="dragHeader" x="0" y="0" width="200" height="40" fontAlign="center">
+                  <![CDATA[团队成员]]>
+</item>
+                <item id="i2" type="dropHeader" x="0" y="0" width="360" height="40" fontAlign="center">
+                  <![CDATA[主导任务]]>
+</item>
+              </actui>
+              <actui uid="1" type="MatchBtn" width="200" height="40" x="0" y="0" layout="1col" fontSize="14" fontColor="0x000000" fontStyle="bold" fontAlign="center" fontVertAlign="middle" fillColor="0xcccccc" fillAlpha="1" frameSize="1" frameColor="0xffffff" frameAlpha="1" fillType="gradient" fillColor2="0xcccccc" xPad="20" yPad="10">
+                <item id="i1" isanswer="drop1">
+                  <![CDATA[服务顾问]]>
+</item>
+                <item id="i2" isanswer="drop2">
+                  <![CDATA[清洁工]]>
+</item>
+                <item id="i3" isanswer="drop3">
+                  <![CDATA[零件顾问]]>
+</item>
+                <item id="i4" isanswer="drop4">
+                  <![CDATA[出纳]]>
+</item>
+                <item id="i5" isanswer="drop5">
+                  <![CDATA[服务部技术员]]>
+</item>
+                <item id="i6" isanswer="drop6">
+                  <![CDATA[保修管理员]]>
+</item>
+              </actui>
+              <actui uid="1" type="MatchTarget" width="360" height="40" x="right" y="0" margin="0" layout="default" fontSize="12" fontColor="0x000000" fontStyle="reg" fontAlign="left" fontVertAlign="middle" fillColor="0xcc6633" fillAlpha="1" frameSize="1" frameColor="0xffffff" frameAlpha="1" fillType="gradient" fillColor2="0xff9933" xPad="10" yPad="10">
+                <item id="i1" isanswer="drop1">
+                  <![CDATA[与客户一起绕车巡视，以培养忠诚度/信任感]]>
+</item>
+                <item id="i2" isanswer="drop2">
+                  <![CDATA[确保将洁净的车辆交付到客户提车区]]>
+</item>
+                <item id="i3" isanswer="drop3">
+                  <![CDATA[为按预定时间提供维修服务的技师备好零部件]]>
+</item>
+                <item id="i4" isanswer="drop4">
+                  <![CDATA[向客户提供费用总览，以确认所有工作已完成]]>
+</item>
+                <item id="i5" isanswer="drop5">
+                  <![CDATA[第一次来访就将车修好。报告其它维修或维护需求]]>
+</item>
+                <item id="i6" isanswer="drop6">
+                  <![CDATA[加快保修处理，帮助客户和经销商节约成本]]>
+</item>
+              </actui>
+              <actui uid="3" type="feedbacktext" width="710" height="80" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct" id="pos">
+                  <![CDATA[做得很好！您可以看到团队的每位成员如何为培养客户忠诚度做出自己的贡献。团队合作的精神同样适用于销售、服务和零件部门之间的联系。例如，销售顾问将客户介绍给服务和零件部门的员工，并帮助新车车主预约第一次服务，就是这样的一个例子。大家需要互相合作才能提供始终如一的卓越服务！]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene sNumber="3200" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[客户的想法是什么？]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3205" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="2" yPad="0">
+                <![CDATA[您如何知道事情处理得是否得当？询问客户！]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4">
+                <![CDATA[客户反馈是帮助您扬长避短的最重要的工具。以下您所使用的方法中哪些是取决于市场和经销商的。]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+                <![CDATA[<li><b>主动询问客户。</b> 询问客户您该如何改善服务体验。在提供现场服务或通过电话、电子邮箱或短信进行跟踪回访时，鼓励客户提供反馈</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="8">
+                <![CDATA[<li><b>使用 SSI 和 CSI。</b> 您所处的市场环境可能是使用 J.D. Power 客户调查结果的市场之一。</b>虽然这有助于您找出并解决不利于提高客户满意度的各种问题，但请记住，满意度与忠诚度不可混为一谈</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="10">
+                <![CDATA[<li><b>使用客户推荐值。</b> 克莱斯勒集团在北美和其他一些市场的经销商现已使用客户推荐值（CPS）作为主要的反馈机制。它将重点放在忠诚度上，这有助于集中精力改进已经做得不错的工作</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10" trans="slideLeft" ease="BackEaseOut" time="1" syncType="buildy" yPad="25">
+              <bodyImage id="i1" order="4" url="3205_1.jpg" yPad="0">
+                <![CDATA[image 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="8" url="3205_2.jpg">
+                <![CDATA[Image 2]]>
+</bodyImage>
+              <bodyImage id="i3" order="12" url="3205_3.jpg">
+                <![CDATA[Image 3]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="3210" type="BulletReplace" animType="timesync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="700" x="left" y="top" margin="10" fontSize="18" time="1" trans="slideRight" ease="QuintEaseOut" yPad="0">
+              <item id="bb0" order="1" timeIn=".5" timeOut="999">
+                <![CDATA[不论您采用何种方式收集客户反馈，使用此反馈培养忠诚度的有效过程应包括：]]>
+</item>
+            </ui>
+            <ui uid="6" type="bodyBullet" x="left" y="60" width="640" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <item id="bb1" order="4" timeIn="2" timeOut="35" yPad="0">
+                <![CDATA[<li>透过客户推荐值或初始答案分析更深层次的信息。多问几个“为什么？”找出客户愿意或不愿意将您推荐给朋友和家人的真正原因，或其不喜欢整个服务体验中某个部分的真正原因</li>]]>
+</item>
+              <item id="bt2" timeIn="4" timeOut="35">
+                <![CDATA[<li>立即采取行动。与忠诚客户交谈，找出您做的哪些事情使其成为回头客，感谢他们给出的意见，并说明为了保证所有的客户都受到同等的待遇，您将采取什么行动</li>]]>
+</item>
+              <item id="bt3" timeIn="6" timeOut="35">
+                <![CDATA[<li>一旦发现问题，应立即尽力解决好。如果出现无法立即解决的情况，那么应该先道歉，然后告诉客户您将采取何种措施确保此类事件不会再次发生</li>]]>
+</item>
+            </ui>
+            <ui uid="8" type="bodyBullet" x="left" y="60" width="640" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <item id="bt1" timeIn="35.5" timeOut="999" yPad="0">
+                <![CDATA[<li>树立责任意识经理应在每周的团队会议上点评发展趋势和进展情况</li>]]>
+</item>
+              <item id="bt2" timeIn="35.5" timeOut="999">
+                <![CDATA[<li>将培养客户忠诚度作为经销商内部所有员工的首要任务</li>]]>
+</item>
+              <item id="bt3" timeIn="35.5" timeOut="999">
+                <![CDATA[<li>改进流程。建立团队，扬长避短，改进流程</li>]]>
+</item>
+            </ui>
+          </slide>
+          <slide sNumber="3215" type="TextImageReplace" animType="timesync" endType="continue">
+            <ui uid="2" type="BodyText" width="660" height="180" x="center" y="270" margin="0" fontAlign="center" effect="none" time="1" trans="slideLeft" ease="QuintEaseOut" syncType="replace">
+              <bodyBullet id="bb1" timeIn=".5" timeOut="999">
+                <![CDATA[通过客户反馈来指导经销商改进服务固然很重要，但这有点像看着后视镜开车 – 只能看到已经到达的位置，而看不到想要去的地方。<br />从今天开始，您不必再等待客户的反馈，而是可以主动去做许多工作来解决问题并培养客户忠诚度。]]>
+</bodyBullet>
+            </ui>
+            <ui uid="4" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" time=".5" trans="fadeOn" ease="QuintEaseOut" scaleMode="none" syncType="replace">
+              <bodyImage id="i1" url="3215_1.jpg" timeIn=".5" timeOut="999">
+                <![CDATA[image1]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCEARWB" template="ASCE" localeID="ar" debug="false">
+    <title>
+      <![CDATA[تجربة عملاء رائعة]]>
+</title>
+  </course>
+  <section id="0" snumber="6000">
+    <header>
+      <![CDATA[تقديم خدمة متميزة]]>
+</header>
+    <scenes>
+      <scene sNumber="6100" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[الإعداد للممارسة]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="6105" type="TextImageReplace" animType="timesync" endType="continue">
+      <ui uid="2" type="BodyText" width="660" height="150" x="center" y="290" margin="0" fontSize="18" fontAlign="center" effect="none" time="2" trans="slideLeft" ease="QuintEaseOut" syncType="replace">
+              <bodyBullet id="bb1" timeIn=".5" timeOut="999">
+      <![CDATA[الآن وقد حصلت على المهارات والمعرفة اللازمة لتقديم خدمة عملاء متميِّزة، فقد حان الوقت لتطبيق ما قد تعلمته. تقدم هذه الوحدة أربعة سنياريوهات قد تمر بها أثناء العمل.]]>
+</bodyBullet>
+            </ui>
+             <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="20" time="2" trans="fadeOn" ease="QuintEaseOut" scaleMode="none" syncType="replace">
+              <bodyImage id="img1" url="6105_1.jpg" timeIn=".2" timeOut="5.5" time="1">
+                <![CDATA[image1]]>
+</bodyImage>
+              <bodyImage id="img2" url="6105_2.jpg" timeIn="6" timeOut="11">
+                <![CDATA[Image2]]>
+</bodyImage>
+              <bodyImage id="img3" url="6105_3.jpg" timeIn="11.5" timeOut="999">
+                <![CDATA[image3]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="6110" type="Activity_MultipleChoice" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="10" yPad="10">
+              <actui type="ScreenText" width="710" syncType="buildy" yPad="10">
+                <item type="header" fontSize="24" yPad="0">
+      <![CDATA[<b>دراسة الحالة1 </b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+      <![CDATA[يصل أحد العملاء داخل مركبته لموعد الصيانة المحدد بعدما قطعت سيارته مسافة 13.000 كم. ويتحرك باتجاه حارة الخدمة وباتجاهك، باعتبارك استشاري الخدمة ...]]>
+</item>
+                <item type="directiontext" fontSize="14">
+      <![CDATA[تعليمات: حدد كل ما ينطبق. ثم انقر فوق "تحقق من الإجابة."]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="cb" width="680" height="36" fontSize="16" fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="0x000000" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="12">
+         <item id='id0' isanswer='false'>
+      <![CDATA[أشر للعميل للوصول إلى أول متجر متوفر لقطع الغيار حتى يتمكن الفني من بدء العمل على الفور]]>
+</item>
+    <item id='id1' isanswer='true'>
+      <![CDATA[قم بمراجعة الاستدعاءات المفتوحة أو إحالات الاستجابات السريعة مع العملاء التي تنطبق على سياراتهم، وذلك أثناء المقابلة]]>
+</item>
+    <item id='id2' isanswer='false'>
+      <![CDATA[اجعل العميل يوقع على الفور على طلب التصليح المكتوب مسبقًا الذي يحدد كل خيارات قائمة الخدمة المتوفرة]]>
+</item>
+    <item id='id3' isanswer='true'>
+      <![CDATA[قدِّم التحية للعملاء بترحاب، أعد التأكيد على سبب زيارتهم، اسألهم عما إذا كان هناك أي احتياجات خدمة إضافية يريدون فحصها]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="200" height="34" x="right" y="0" margin="10" fontSize="18" fontColor="0x000000" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[تحقق من الإجابة]]></item>
+              </actui>
+              <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10">
+                <item type="correct" afile="">
+      <![CDATA[إجابة صحيحة! قدِّم تحية حارة وتأكد من سبب الزيارة. قم أيضًا بمراجعة الاستدعاءات المفتوحة أو إحالات الاستجابة السريعة ثم حدد الفرص المتاحة لتحقيق مزيد من المبيعات.]]>
+</item>
+                <item type="wrong" afile="">
+      <![CDATA[إجابة غير صحيحة. الإجابة الثانية والرابعة صحيحة. قدِّم تحية حارة وأكد على سبب الزيارة. راجع أيضًا أي استدعاءات مفتوحة أو إحالات الاستجابة السريعة ثم حدد الفرص المتاحة لتحقيق مزيد من المبيعات.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="6115" type="Activity_MultipleChoice" animType="none" endType="Continue">
+              <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="10" yPad="10">
+              <actui type="ScreenText" width="710" syncType="buildy" yPad="10">
+                <item type="header" fontSize="24" yPad="0">
+      <![CDATA[<b>دراسة الحالة2 </b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+      <![CDATA[تعود إحدى العميلات إلى وكالة البيع وهي غير راضية لأنها اضطرت للعودة بسبب نفس المشكلة في اليوم نفسه. عند العمل مع هذا العميل، ما هو أهم شيء يجب أن تفعله لتحول الموقف من تجربة سلبية إلى تجربة إيجابية؟]]>
+</item>
+                <item type="directiontext" fontSize="14">
+      <![CDATA[تعليمات: اختر الإجابة الصحيحة ثم انقر فوق" تحقق من الإجابة."]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="680" height="36" fontSize="16" fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="black" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="12">
+                <item id='id0' isanswer='false'>
+      <![CDATA[القدرة على تحديد موعد آخر وعلى العميل أن يعود في الوقت المحدد]]>
+</item>
+    <item id='id1' isanswer='false'>
+      <![CDATA[معرفة سياسة العودة المتبعة في وكالة البيع]]>
+</item>
+    <item id='id2' isanswer='false'>
+      <![CDATA[نسخة من طلب الإصلاح توضح موافقة العميل الكتابية]]>
+</item>
+    <item id='id3' isanswer='true'>
+      <![CDATA[الاستعداد للاستماع إلى العميل ومعالجة المشكلة على الفور]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="200" height="34" x="right" y="0" margin="10" fontSize="18" fontColor="0x000000" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                                  <![CDATA[تحقق من الإجابة]]></item>
+
+              </actui>
+              <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10">
+                <item type="correct" afile="">
+      <![CDATA[إجابة صحيحة! اتبع طريقة أخرى لتغيير الأشياء إلى الأفضل من خلال الاستماع إلى العميل ومعالجة المشكلة على الفور.]]>
+</item>
+                <item type="wrong" afile="">
+      <![CDATA[إجابة غير صحيحة. الإجابة الرابعة صحيحة. اتبع طريقة أخرى لتغيير الأشياء إلى الأفضل من خلال الاستماع إلى العميل ومعالجة المشكلة على الفور.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="6120" type="Activity_MultipleChoice" animType="none" endType="Continue">
+              <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="10" yPad="10">
+              <actui type="ScreenText" width="710" syncType="buildy" yPad="10">
+                <item type="header" fontSize="24" yPad="0">
+      <![CDATA[<b>دراسة الحالة3 </b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+      <![CDATA[استلمت إحدى العميلات سيارتها بعد إجراء الصيانة لها، ولكنها عادت إلى منطقة الصيانة بعد الدفع، وهي تبدو غير راضية. وعند الاستفسار منها، أوضحت العميلة أنه كان دائمًا ما يتم غسل سيارتها بعد إجراء الصيانة لها. ولكن ذلك لم يحدث هذه المرة. كيف ترد على ذلك؟]]>
+</item>
+                <item type="directiontext" fontSize="14">
+      <![CDATA[تعليمات: اختر الإجابة الصحيحة ثم انقر فوق" تحقق من الإجابة."]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="680" height="36" fontSize="16" fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="black" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="12">
+                <item id='id0' isanswer='true'>
+      <![CDATA[اعتذر عن هذا الخطأ، وتأكد من استكمال غسل السيارة جيدًا وأبلغ مدير الصيانة بالفرق]]>
+</item>
+    <item id='id1' isanswer='false'>
+      <![CDATA[اعتذر ولكن اشرح للعميل أن غسيل السيارة يكون حسب تقدير الوكيل ويجب أن يتم طلبه في عملية التدوين]]>
+</item>
+    <item id='id2' isanswer='false'>
+      <![CDATA[اتصل بمدير الخدمة على الفور وانتقل إلى عملاء آخرين]]>
+</item>
+    <item id='id3' isanswer='false'>
+      <![CDATA[لا داعي للاعتذار، وضح للعملاء أنه سيتم غسيل سيارتهم خلال زيارتهم القادمة ]]>
+</item>
+              </actui>
+             <actui type="actbtns" width="200" height="34" x="right" y="0" margin="10" fontSize="18" fontColor="0x000000" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                                  <![CDATA[تحقق من الإجابة]]></item>
+
+              </actui>
+              <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10">
+                <item type="correct" afile="">
+      <![CDATA[إجابة صحيحة! أنت لا تريد أن تجعل العميلة تغادر وهي غير راضية، ولا تريد أن تبدي رفضك من خلال اعتذار أو قسيمة تخفيضات. تأكد من مغادرة العميلة وهي راضية لديها سبب للعودة مرة أخرى.]]>
+</item>
+                <item type="wrong" afile="">
+      <![CDATA[إجابة غير صحيحة. الإجابة الأولى صحيحة. أنت لا تريد أن تجعل العميلة تغادر وهي غير راضية، ولا تريد أن تبدي رفضك من خلال اعتذار أو قسيمة تخفيضات. تأكد من مغادرة العميلة وهي راضية لديها سبب للعودة مرة أخرى.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="6125" type="Activity_MultipleChoice" animType="none" endType="Continue">
+           <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="10" yPad="10">
+              <actui type="ScreenText" width="710" syncType="buildy" yPad="10">
+                <item type="header" fontSize="24" yPad="0">
+      <![CDATA[<b>دراسة الحالة4 </b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+      <![CDATA[يتصل أحد العملاء لتحديد موعد للقيام بتركيب نظام الترفية DVD بالمقعد الخلفي الذي وجد في الطلب المُتأخر. بعد تحديدك للموعد، ما الذي يجب عليك كاستشاري خدمة القيام به بعد ذلك؟]]>
+</item>
+                <item type="directiontext" fontSize="14">
+      <![CDATA[تعليمات: اختر الإجابة الصحيحة ثم انقر فوق" تحقق من الإجابة."]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="680" height="36" fontSize="16" fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="black" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="12">
+              <item id='id0' isanswer='false'>
+      <![CDATA[العمل مع الفني للتأكد من القيام بتنزيل إجراءات التركيب الملائمة من DealerCONNECT]]>
+</item>
+    <item id='id1' isanswer='true'>
+      <![CDATA[إخطار قسم قطع الغيار والإرسال بموعد قدوم العميل والتأكيد على استلام قطع الغيار ووجود الفني]]>
+</item>
+    <item id='id2' isanswer='false'>
+      <![CDATA[مطالبة قسم قطع الغيار بالاتصال بالعميل مرة أخرى لإعادة التأكيد على وجود قطع الغيار حالياً في المخزن ]]>
+</item>
+    <item id='id3' isanswer='false'>
+      <![CDATA[الاتصال بشركة كرايسلر مباشرة عبر علامة التبويب قطع الغيار DealerCONNECT للتأكيد على استلام قطع الغيار]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="200" height="34" x="right" y="0" margin="10" fontSize="18" fontColor="0x000000" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit"><![CDATA[تحقق من الإجابة]]></item>
+                </actui>
+             <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10">
+                <item type="correct" afile="">
+      <![CDATA[إجابة صحيحة! وهذه هي كيفية عمل الفريق معًا لتقديم خدمة عملاء متميِّزة!]]>
+</item>
+                <item type="wrong" afile="">
+      <![CDATA[إجابة غير صحيحة. الإجابة الثانية صحيحة. وهذه هي كيفية عمل الفريق معًا لتقديم خدمة عملاء متميِّزة!]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

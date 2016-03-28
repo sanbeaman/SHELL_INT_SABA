@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCERUWB" template="ASCE" localeID="ru" debug="false">
+    <title>
+      <![CDATA[Исключительный клиентский опыт]]>
+</title>
+  </course>
+  <section id="0" snumber="1000">
+    <header id="sech1">
+      <![CDATA[ВВЕДЕНИЕ]]>
+</header>
+    <scenes>
+      <scene sNumber="1100" sType="navbarmenu" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="1" type="SceneNavBar" width="180" height="80" fillColor1="#6688a2" fillColor2="#6688a2" frameColor="0xfe9003" fontColor="0xffffff" fontSize="14" pulseColor="0xfe9003">
+            <navbtn id='c2l1' width="60" height="60" x="33" y="4" order="2" time="1" target="1105" url="icons/icon_1105.png">
+              <![CDATA[Цели курса]]>
+</navbtn>
+            <navbtn id='c2l2' width="60" height="60" x="266" y="4" order="2" time="1" target="1110" url="icons/icon_1110.png">
+              <![CDATA[Содержание курса]]>
+</navbtn>
+            <navbtn id='c2l3' width="60" height="60" x="499" y="4" order="2" time="1" target="1115" url="icons/icon_1115.png">
+              <![CDATA[Дополнительные ресурсы]]>
+</navbtn>
+          </ui>
+          <ui uid="3" type="sceneEndNote">
+            <bodyNote id="gn1" order="999" time="1">
+              <![CDATA[Чтобы продолжить, нажмите ✓.]]>
+</bodyNote>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="1101" type="navbarmenu_content" animType="animsync" endType="Continue">
+            <ui uid="1" type="slideHeader" width="680"  x="center" y="top" margin="10" fillAlpha="0" fontSize="24" fontColor="black" fontStyle="bold" trans="slideright" ease="BackEaseOut">
+              <header id="sh1" order="1" time="1">
+                <![CDATA[<b>Добро пожаловать на курс «Исключительный клиентский опыт»</b>]]>
+</header>
+            </ui>
+            <ui uid="3" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="999" time="1">
+                <![CDATA[Нажмите «Цели курса» чтобы продолжить.]]>
+</bodyNote>
+            </ui>
+             <ui uid="1" type="bodyImage" order="1" time="0" trans="fadeIn" ease="QuintEaseOut">
+              <bodyImage id="i1" width="420" height="280" scaleMode="none" x="center" y="70" url="1101_1.jpg">
+                <![CDATA[Photo 1101_1]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="1105" type="navbarmenu_content" animType="animsync" endType="Continue">          
+                <ui uid="2" type="bodyBullet" width="510" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="4">
+               <bodyBullet id="bb0" order="12" fontSize="24" fontStyle="bold" time=".2" yPad="0">
+                <![CDATA[<b>Цели курса</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="13">
+                <![CDATA[<li>Объясните различия между удовлетворенными обслуживанием и лояльными клиентами</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="14">
+                <![CDATA[<li>Определите пять основных элементов впечатления об обслуживании, которые сильно влияют на лояльность клиентов</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="15">
+                <![CDATA[<li>Опишите различные методы, используемые для определения того, что думают клиенты о предоставляемом вами обслуживании</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="16" width="650">
+                <![CDATA[<li>Определите основные ожидания клиентов в семи сферах обслуживания</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="17"  width="650">
+                <![CDATA[<li>Опишите четыре способа налаживания личных взаимоотношений, которые повышают лояльность клиентов</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="999" time="1">
+                <![CDATA[Чтобы продолжить, щелкните другой значок.]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="160" x="right" y="top" margin="10" style="none" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="1" url="icons/iconLarge_1105.png">
+                <![CDATA[IMG Course Objectives]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="1110" type="navbarmenu_content" animType="animsync" endType="Continue">
+           <ui uid="2" type="bodyBullet" width="510" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="2">
+            
+               <bodyBullet id="bb0" order="21" fontSize="24" fontStyle="bold" time=".2" yPad="0">
+                <![CDATA[<b>Содержание курса</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="22">
+                <![CDATA[<li>Значимость лояльности</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="23" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>Различие между просто удовлетворенными обслуживанием и лояльными клиентами и влияние лояльных клиентов</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="24">
+                <![CDATA[<li>Как обеспечить лояльность?</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="25" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>Пять основных компонентов впечатления от обслуживания, которые влияют на лояльность</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="26" time=".5" formatType="subbullet" yPad="0"  width="650">
+                <![CDATA[<li>Использование сильных сторон / Устранение недостатков</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="27" width="650">
+                <![CDATA[<li>Соответствуйте основным ожиданиям клиентов</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb7" order="28" time=".5" formatType="subbullet" yPad="0" width="650">
+                <![CDATA[<li>Определите стандарты эффективности для каждого этапа процесса послепродажного обслуживания </li>]]>
+</bodyBullet>
+              <bodyBullet id="bb8" order="29" width="650">
+                <![CDATA[<li>Наладьте личные взаимоотношения</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb9" order="30" time=".5" formatType="subbullet" yPad="0" width="650">
+                <![CDATA[<li>Приложите немного больше усилий, уделите клиентам немного больше внимания, чтобы наладить с ними личные взаимоотношения, которые будут способствовать усилению лояльности</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb10" order="31" width="650">
+                <![CDATA[<li>Применяйте процесс</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb11" order="32" time=".5" formatType="subbullet" yPad="0" width="650">
+                <![CDATA[<li>Примеры, которые требуют от вас устранения недостатков</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb12" order="33" width="650">
+                <![CDATA[<li>Резюме курса</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb13" order="34" time=".5" formatType="subbullet" yPad="0" width="650">
+                <![CDATA[<li>Рассмотрите ключевые моменты курса</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="999" time="1">
+                <![CDATA[Чтобы продолжить, щелкните другой значок.]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="160" x="right" y="top" margin="10" style="none" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="1" time="1" url="icons/iconLarge_1110.png">
+                <![CDATA[ICON Course Outline]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="1115" type="navbarmenu_content" animType="animsync" endType="Done">
+           <ui uid="2" type="bodyBullet" width="510" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="8">
+              <bodyBullet id="bb0" order="38" fontSize="24" fontStyle="bold" time=".2" yPad="0">
+               <![CDATA[<b>Дополнительные ресурсы</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="39">
+                <![CDATA[Практические пособия в рамках настоящего курса:]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="40">
+                <![CDATA[<li>Стандарты эффективности послепродажного обслуживания</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="41">
+                <![CDATA[<li>4 основных способа установления отношений с клиентами участков обслуживания и запасных частей</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="42">
+                <![CDATA[Четыре способа налаживания крепких отношений с клиентами.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="BackEaseOut">
+              <bodyNote id="gn1" order="999" time="1">
+                <![CDATA[Чтобы продолжить, щелкните другой значок.]]>
+</bodyNote>
+            </ui>
+               <ui uid="1" type="bodyImage" width="160" height="160" x="right" y="top" margin="10" style="none" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="1" url="icons/iconLarge_1115.png">
+                <![CDATA[ICON Additional Resources]]>
+</bodyIcon>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCEKOWB" template="ASCE" localeID="ko" debug="false">
+    <title>
+      <![CDATA[탁월한 고객 경험]]>
+</title>
+  </course>
+  <section id="0" snumber="1000">
+    <header id="sech1">
+      <![CDATA[서론]]>
+</header>
+    <scenes>
+      <scene sNumber="1100" sType="navbarmenu" continueBtnType="DONE">
+        <sceneitems>
+              <ui uid="1" type="SceneNavBar" width="180" height="80" fillColor1="#6688a2" fillColor2="#6688a2" frameColor="0xfe9003" fontColor="0xffffff" fontSize="14" pulseColor="0xfe9003">
+            <navbtn id='c2l1' width="60" height="60" x="33" y="4" order="2" time="1" target="1105" url="icons/icon_1105.png">
+              <![CDATA[코스 목표]]>
+</navbtn>
+            <navbtn id='c2l2' width="60" height="60" x="266" y="4" order="2" time="1" target="1110" url="icons/icon_1110.png">
+              <![CDATA[코스 개요]]>
+</navbtn>
+            <navbtn id='c2l3' width="60" height="60" x="499" y="4" order="2" time="1" target="1115" url="icons/icon_1115.png">
+              <![CDATA[추가 자료]]>
+</navbtn>
+          </ui>
+          <ui uid="3" type="sceneEndNote">
+            <bodyNote id="gn1" order="99" time="1">
+              <![CDATA[계속하려면 ✓을 클릭합니다.]]>
+</bodyNote>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="1101" type="navbarmenu_content" animType="animsync" endType="Continue">
+            <ui uid="1" type="slideHeader" width="680" height="50" x="left" y="top" margin="10" fillAlpha="0" fontSize="24" fontStyle="bold" trans="slideright" ease="BackEaseOut">
+              <header id="sh1" order="1" time="1">
+                <![CDATA[<b>탁월한 고객 경험에 오신 것을 환영합니다!</b>]]>
+</header>
+            </ui>
+            <ui uid="3" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="999" time="1">
+                <![CDATA[계속 코스 목표를 클릭합니다.]]>
+</bodyNote>
+            </ui>
+             <ui uid="1" type="bodyImage" order="1" time="0" trans="fadeIn" ease="QuintEaseOut">
+              <bodyImage id="i1" width="420" height="280" scaleMode="none" x="center" y="60" url="1101_1.jpg">
+                <![CDATA[Photo 1101_1]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="1105" type="navbarmenu_content" animType="animsync" endType="Continue">          
+                <ui uid="2" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="8">
+              <bodyBullet id="bb0" order="2" fontSize="24" fontStyle="bold" time=".2" yPad="0">
+                <![CDATA[<b>코스 목표</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4">
+                <![CDATA[<li>만족도가 높은 고객과 충성도가 높은 고객의 차이에 대해 설명합니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+                <![CDATA[<li>고객의 충성도에 큰 영향을 미치는 가장 중요한 다섯 가지 서비스 경험 요소를 이해합니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="8">
+                <![CDATA[<li>여러분이 제공하는 서비스 경험을 고객이 어떻게 생각하는지 판단하는 데 사용되는 다양한 방법들을 설명합니다   </li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="10">
+                <![CDATA[<li>일곱 가지 서비스 경험 분야의 기본적인 고객 기대치가 무엇인지 이해합니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="12">
+                <![CDATA[<li>고객의 충성도를 높일 수 있도록 개인적인 관계를 맺기 위한 네 가지 방법을 설명합니다</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="99" time="1">
+                <![CDATA[계속하려면 다른 아이콘을 클릭합니다.]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="160" x="right" y="top" margin="10" style="none" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="1" url="icons/iconLarge_1105.png">
+                <![CDATA[IMG Course Objectives]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="1110" type="navbarmenu_content" animType="animsync" endType="Continue">
+           <ui uid="2" type="bodyBullet" width="510" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="2">
+              <bodyBullet id="bb0" order="1" fontSize="24" fontStyle="bold" time=".2" yPad="0">
+               <![CDATA[<b>코스 개요</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4">
+                <![CDATA[<li>충성도의 중요성</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>만족도가 높은 고객과 충성도가 높은 고객의 차이, 그리고 충성도가 높은 고객이 미치는 영향</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="8">
+                <![CDATA[<li>충성도를 어떻게 쌓을 것인가?</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="10" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>충성도에 영향을 미치는 가장 중요한 다섯 가지 서비스 경험 요소</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="12" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>강점 강화/약점 제거</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="14">
+                <![CDATA[<li>기본적인 고객의 기대치에 부응</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb7" order="16" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>애프터 세일즈 프로세스의 각 단계에 대한 성과 표준을 정의합니다 </li>]]>
+</bodyBullet>
+              <bodyBullet id="bb8" order="18">
+                <![CDATA[<li>개인적인 관계 형성</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb9" width="680" order="20" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>기본적인 단계를 넘어 고객의 충성도를 높일 수 있도록 고객과 개인적인 관계를 맺습니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb10" order="22">
+                <![CDATA[<li>프로세스 적용 </li>]]>
+</bodyBullet>
+              <bodyBullet id="bb11" order="24" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>약점을 없애기 위해 필요한 사례 연구</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb12" order="26">
+                <![CDATA[<li>코스 요약</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb13" order="28" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>코스의 핵심 사항 검토</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="99" time="1">
+                <![CDATA[계속하려면 다른 아이콘을 클릭합니다.]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="160" x="right" y="top" margin="10" style="none" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="1" time="1" url="icons/iconLarge_1110.png">
+                <![CDATA[ICON Course Outline]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="1115" type="navbarmenu_content" animType="animsync" endType="Done">
+           <ui uid="2" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="8">
+              <bodyBullet id="bb0" order="1" fontSize="24" fontStyle="bold" time=".2" yPad="0">
+                  <![CDATA[<b>추가 자료</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4">
+                <![CDATA[이 코스를 위한 보조 도구에는 다음 사항이 포함됩니다.]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+                <![CDATA[<li>애프터 세일즈 성과 표준</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="8">
+                <![CDATA[<li>관계 형성을 위한 최고의 방법 네 가지</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="10">
+                <![CDATA[이 코스에 대한 학습 센터 과제에서 자료를 다운로드합니다.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="BackEaseOut">
+              <bodyNote id="gn1" order="99" time="1">
+                <![CDATA[계속하려면 다른 아이콘을 클릭합니다.]]>
+</bodyNote>
+            </ui>
+               <ui uid="1" type="bodyImage" width="160" height="160" x="right" y="top" margin="10" style="none" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="1" url="icons/iconLarge_1115.png">
+                <![CDATA[ICON Additional Resources]]>
+</bodyIcon>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

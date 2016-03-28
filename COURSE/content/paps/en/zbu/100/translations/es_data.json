@@ -1,0 +1,86 @@
+{
+	"General": {
+		"Yes" : "Yes",
+		"No" : "No",
+		"Or" : "o",
+		"Enabled" : "Activado",
+		"Disabled" : "Desactivado",
+		"PrePercent" : "en zoom al ",
+		"PostPercent" : "%",
+		"Override" : "Anular",
+		"Continue" : "Continuar",
+		"ReTest" : "Volver a hacer la prueba",
+		"Alert" : "No se pudo localizar la interfaz de programación de aplicaciones (API) del sistema de gestión del aprendizaje (LMS).\n No se estableció comunicación con LMS.",
+		"Wait" : "Espere por favor..."
+	},
+
+	"Headers" : {
+		"PageTitle" : "Verificador del sistema",
+		"CAImage": "assets/CA_logo.gif",
+		"SysChecFail" : "Falla en Requerimientos del Sistema", 
+		"CurrentPass" : "Requerimientos del Sistema Aprobados",
+		"Status" : "Estatus",
+		"SysComp" : "Componente del sistema",
+		"MinReq" : "Requisitos mínimos",            
+		"YourSys" : "Su sistema",
+		"Info" : "Información/Enlaces"
+	},
+
+	"AdditionalRequirements": {
+		"Name": "Requisitos adicionales (no comprobados)",
+		"Requirements": [
+			{ "Type" : "Sonido" , "Value" : "Tarjeta de sonido, bocinas o audífonos"},
+			{ "Type" : "Los bloqueadores de elementos" , "Value" : "emergentes deben estar desactivados" },
+			{ "Type" : "Color del monitor" , "Value" : "Mínimo de 16 bits" },
+			{ "Type" : "Velocidad de conexión" , "Value" : "Internet de banda ancha recomendado"}
+		]
+	},
+
+	"UIText": {
+		"InstructionalTextCorrect" : "Si sale de este curso antes de acabarlo y luego lo continúa desde otra computadora, le recomendamos que vuelva a hacer la prueba de su sistema usando este Verificador del sistema.<br><br>Se requiere una conexión a Internet confiable y de ancho de banda alto. Antes de iniciar este curso, cerciórese de que se muestre arriba el curso correcto. Una vez iniciado el curso, puede cerrar la ventana del explorador para guardar el progreso de todos los temas completados y salir. Seleccione Continuar para iniciar el curso.",
+		"InstructionalTextFailed" : "Su sistema no cumple los requisitos mínimos para ejecutar este programa.<br/><br/>Ver la tabla de abajo. Seleccione 'Más Información' para actualizar la información y los enlaces de descarga. Si la opción que elige no requiere una descarga o reinicio, seleccione 'Volver a hacer la prueba' cuando esté listo.",
+		"InstructionalTextOverridePopup" : "Atención: Puede que este curso no funcione según lo previsto. ¿Está seguro de que desea continuar?"
+	},
+
+	"Mandatory": {
+		"MoreInfo": "Más información",
+		"OpSys": "Sistema operativo",
+		"JS":"JavaScript",
+		"WebBrowser": "Explorador web",
+		"Cookies":"Cookies",
+		"MSR": "Resolución de la pantalla principal",
+		"FlashVersion" : "Versión en Flash",
+		"PDF": "Lector de PDF"
+    },
+
+    "MoreInfo": {
+		"OperatingSystems": { 
+			"Title":"¿Qué sistema operativo está utilizando?", 
+			"Content":"Toda computadora necesita un sistema operativo para ejecutar las aplicaciones. Por ejemplo, Microsoft Windows, Apple Macintosh o UNIX. Si recibió un mensaje de alerta, debe cambiarse a una computadora con Microsoft Windows o Apple Macintosh con una versión relativamente reciente del sistema operativo instalado. <br /><br />Si necesita más ayuda, haga clic en su explorador con el botón secundario del mouse y seleccione la opción 'imprimir' para imprimir esta información, y facilitársela a su administrador de sistemas." },
+		"Browser": { 
+			"Title":"¿Está actualizado su explorador?", 
+			"Content":"Para ejecutar el programa del curso en Internet, es mejor que su computadora tenga una versión actualizada de un explorador web. Puede usted probar Internet Explorer, Mozilla Firefox, Google Chrome o Safari (solo en Mac) y ver cuál le funciona mejor. Ciertos cursos pueden funcionar mejor con una versión reciente. Si hace falta, puede descargar una versión actualizada seleccionando uno de los enlaces que se proporcionan.<br /><div class='moreInfoLinks'><a href='http://www.microsoft.com/en-us/download/ie.aspx?q=internet+explorer' target='_blank'><img src='./assets/ie.png' alt='Internet Explorer' /></a><a href='http://www.mozilla.org/en-US/firefox/new/' target='_blank'><img src='./assets/firefox.png' alt='Mozilla Firefox' /></a><a href='https://www.google.com/intl/en/chrome/browser/welcome.html' target='_blank'><img src='./assets/chrome.png' alt='Google Chrome' /></a><a href='http://www.apple.com/safari/' target='_blank'><img src='./assets/safari.png' alt='Safari' /></a></div><br />Si necesita más ayuda, haga clic en su explorador con el botón secundario del  mouse  y seleccione la opción 'imprimir' para imprimir esta información, y facilitársela a su administrador de sistemas. Algunas descargas también están disponibles en DealerCONNECT/eSupport/Library/Downloads" },
+		"JavaScript": { 
+			"Title":"Cómo revisar y cambiar su configuración de JavaScript", 
+			"Content":"Nota: Para permitir el scripting solo en este sitio web y dejar el scripting desactivado en la zona de Internet, agregue este sitio web a la zona de sitios de confianza añadiendo el sitio: https://fgcg.sabanow.net/Saba/Web/Main  <h3>Internet Explorer 8.0 ó 9.0 (Windows):</h3><ol><li>En el menú de Herramientas, haga clic en Opciones de Internet, y luego haga clic en la pestaña Seguridad.</li><li>Haga clic en la zona de Internet.</li><li>Si no tiene que personalizar su configuración de seguridad de Internet, haga clic en Nivel predeterminado. A continuación complete el paso 4.<ul id='noListBullet'><li>Si tiene que personalizar su configuración de seguridad de Internet, siga estos pasos: Haga clic en Nivel personalizado.</li><li>En el cuadro de diálogo de la Configuración de seguridad – Zona de Internet, haga clic en Habilitar para permitir Active Scripting en la sección de Scripting.</li></ol></li><li>Haga clic en el botón Atrás para regresar a la página anterior, y luego haga clic en el botón Actualizar para ejecutar scripts.</li></ol><h3>Safari 5.1 para (Mac):</h3><ol><li>Seleccione Preferencias en el menú de Safari.</li><li>Haga clic en Seguridad.</li><li>Marque Habilitar JavaScript.</li><li>Cierre la ventana de Preferencias.</li><li>Hga clic en Volver a cargar para actualizar el contenido de la página.</li></ol>Si necesita más ayuda, haga clic en su explorador con el botón secundario del mouse y seleccione la opción 'imprimir' para imprimir esta información, y facilitársela a su administrador de sistemas." },
+		"Cookies": { 
+			"Title":"¿Cómo se habilitan las cookies?", 
+			"Content":"Bloquear todas las cookies puede ayudarle a proteger su privacidad, pero podría limitar su experiencia en ciertos sitios web. Puede empezar bloqueando todas las cookies, y luego permitir las cookies que necesite para los sitios web en los que confíe. Para que estos cursos funcionen debidamente, requerimos que habilite las cookies.<h3>Internet Explorer 8.0 (Windows):</h3><ol><li>Abra Internet Explorer haciendo clic en el botón Inicio<img src='./assets/start.png' alt='Start Button' />, y luego haga clic en Internet Explorer. </li><li>Haga clic en el botón Herramientas, y luego haga clic en Opciones de Internet.</li><li>Haga clic en la pestaña Privacidad, y luego, bajo Configuración, mueva el control deslizante hasta abajo para permitir todas las cookies, y luego haga clic en OK.</li></ol><h3>Internet Explorer 9.0 para (Windows):</h3><ol><li>Abra Internet Explorer haciendo clic en el botón Inicio<img src='./assets/start.png' alt='Start Button' />. En el cuadro de búsqueda, teclee Internet Explorer, y luego, en la lista de resultados, haga clic en Internet Explorer.</li><li>Haga clic en el botón Herramientas<img src='./assets/tools.jpg' alt='Tools Button' />,  y luego haga clic en Opciones de Internet.</li><li>Haga clic en la pestaña Privacidad, y luego, bajo Configuración, mueva el control deslizante hasta abajo para permitir todas las cookies, y luego haga clic en OK.</li></ol><h3>Safari 5.1 para (Mac):</h3><ol><li>En Safari, desde el menú de Safari, seleccione Preferencias.</li><li>En la ventana de preferencias de Safari, haga clic en Privacidad. </li><li>Para configurar sus preferencias para aceptar las cookies, junto a 'Bloquear cookies:', seleccione de terceros y anunciantes, Siempre, o Nunca. </li><li>Si tiene almacenadas algunas cookies u otros datos de sitio web, haga clic en Detalles. Para eliminar los datos de un sitio, resáltelo y haga clic en Eliminar. Para eliminar los datos de todos los sitios, haga clic en Eliminar todos. Cuando haya terminado, haga clic en Terminado para regresar a la ventana de preferencias.</li><li>Si necesita más ayuda, haga clic en su explorador con el botón secundario del mouse y seleccione la opción 'imprimir' para imprimir esta información, y facilitársela a su administrador de sistemas.</li></ol>" },
+		"Resolution": { 
+			"Title":"¿Cómo puede cambiar la resolución de su pantalla?", 
+			"Content":"<h3>PC con Windows 7:</h3><ol><li>Abra Resolución de pantalla haciendo clic en el botón Inicio <img src='./assets/start.png' alt='Start Button' />, haciendo clic en Panel de Control, y luego, bajo Apariencia y Personalización, haciendo clic en Ajustar resolución de pantalla.</li><li>Haga clic en la lista desplegable junto a Resolución, mueva el control deslizante a la resolución que desee, y luego haga clic en Aplicar.</li><li>Haga clic en Mantener o Conservar para usar la nueva resolución, o haga clic en Revertir para volver a la resolución anterior.<br/><img src='./assets/resolutionCap.jpg' alt='Resolution Change Image' id='resolutionImage' /><br/>Resolución de pantalla en Panel de control muestra la resolución recomendada para su monitor.</li></ol><h3>Mac OS X:</h3><ol><li>Haga clic en el logotipo de Apple <img src='./assets/appleLogo.jpg' alt='Apple Logo' /> en la esquina superior izquierda de su pantalla.</li><li>Haga clic en 'Preferencias del sistema', y luego haga clic en 'Pantallas'.</li><li>Haga clic en 'Pantalla' si aún no la ha seleccionado.</li><li>Seleccione una resolución de la lista de resoluciones disponibles. La resolución de pantalla más común es 1280x1024 para pantallas estándar y 1280x800 para pantallas grandes a partir de febrero de 2012. Mac OS X aplica inmediatamente la nueva configuración.</li></ol><br/><br/>Más información: Cómo cambiar la resolución de pantalla de una computadora Mac: <a href='http://www.macworld.com/article/1158603/macresolution.html' target='_blank'>http://www.macworld.com/article/1158603/macresolution.html</a> <br /><br/>Si necesita más ayuda, haga clic en su explorador con el botón secundario del mouse y seleccione la opción 'imprimir' para imprimir esta información, y facilitársela a su coordinador de sistemas." },
+		"Flash": { 
+			"Title":"¿Tiene instalada la última versión de Flash?", 
+			"Content":"Flash es un complemento que permite reproducir contenidos multimedia en su Explorador web. El reproductor Flash player puede descargarse o actualizarse gratis en Adobe.com, la compañía de software que da soporte a Flash. Solo tiene que seleccionar el enlace que se proporciona y seguir las instrucciones en pantalla.<br /><br/><div class='moreInfoLinks'><a href='http://get.adobe.com/flashplayer/' target='_blank'><img src='./assets/flash.png' alt='Flash logo' /></a></div><br /><br/>Si necesita más ayuda, haga clic su explorador con el botón secundario del mouse y seleccione la opción 'imprimir' para imprimir esta información, y facilitársela a su administrador de sistemas. Algunas descargas también están disponibles en DealerCONNECT/eSupport/Library/Downloads." },
+		"AdobeReader": { 
+			"Title":"¿Tiene instalada la última versión de Adobe Reader?", 
+			"Content":"Adobe Acrobat Reader es un complemento que permite ver un archivo PDF con su explorador web. Adobe Acrobat Reader puede descargarse o actualizarse gratis en www.adobe.com. Solo tiene que seleccionar el enlace que se proporciona y seguir las instrucciones en pantalla.<br /><br /><div class='moreInfoLinks'><a href='http://www.adobe.com/ca/products/reader.html' target='_blank'><img src='./assets/adobeReader.gif' alt='Adobe Reader' id='adobeImage'></a></div><br /><br />Si necesita más ayuda, haga clic en su explorador con el botón secundario del mouse y seleccione la opción 'imprimir' para imprimir esta información, y facilitársela a su administrador de sistemas. Algunas descargas también están disponibles en DealerCONNECT/eSupport/Library/Downloads.<h3>Descargando Adobe Reader</h3>Puede acceder a descargas actuales (con el soporte de DealerCONNECT) desde el portal de DealerCONNECT haciendo clic en DealerCONNECT/eSupport/Library/Downloads." }
+    },
+
+	"Additional": [
+		{ "Name":"Sonido", "Value":"Tarjeta de sonido, bocinas o audífonos" },
+		{ "Name":"Los bloqueadores de elementos", "Value":"emergentes deben estar desactivados" },
+		{ "Name":"Color del monitor", "Value":"Mínimo de 16 bits" },
+		{ "Name":"Velocidad de conexión", "Value":"Internet de banda ancha recomendado" }
+	]
+}

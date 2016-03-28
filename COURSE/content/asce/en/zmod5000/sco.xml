@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCEENWB" template="ASCE" localeID="en" debug="false">
+    <title>
+      <![CDATA[Exceptional Customer Experience]]>
+</title>
+  </course>
+  <section id="0" snumber="5000">
+    <header>
+      <![CDATA[MAKE PERSONAL CONNECTIONS]]>
+</header>
+   <scenes>
+      <scene sNumber="5100" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[The Power of the Personal Touch]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="5105" type="BulletImageGlow" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="680" x="left" y="top"  margin="10" fontSize="18" time="1" trans="slideRight" ease="QuintEaseOut" yPad="0">
+              <item id="bb1" order="1" time="1">
+                <![CDATA[To build loyal customers that return over and over and actively recommend you to others, you need to make personal connections with as many customers as possible. Here’s how:]]>
+</item>
+            </ui>
+             <ui uid="3" type="bodyBulletCol"  width="160" x="left" y="270" margin="20" fontSize="12" textStyle="textflow" time="1" trans="slideUp" ease="QuintEaseOut"  syncType="buildx" xPad="18">
+              <item id="bbc1" order="50" target="img1" targetTrigger="imageglow" targetParams="4" xPad="0">
+<![CDATA[<list listStylePosition="outside" listStyleType="decimal" paddingLeft="10"><listMarkerFormat><ListMarkerFormat counterIncrement="ordered 1" /></listMarkerFormat><li>Know the customer<list listStylePosition="outside"  listStyleType="disc" ><listMarkerFormat><ListMarkerFormat beforeContent="" /></listMarkerFormat><li>Get to know the customer as an individual, not just as a name on the repair order</li> </list></li></list>]]>
+</item>
+ <item id="bbc2" order="51" target="img2" targetTrigger="imageglow" targetParams="4">
+<![CDATA[<list listStylePosition="outside" listStyleType="decimal" paddingLeft="24"><listMarkerFormat><ListMarkerFormat counterIncrement="ordered 2"/></listMarkerFormat><li>Make them feel special<list listStyleType="disc" paddingLeft="50"><listMarkerFormat><ListMarkerFormat /></listMarkerFormat><li>Get customers to talk about themselves</li><li>Make personal connections by listening for common interests</li></list></li></list>]]>
+</item>
+             
+              <item id="bbc3" order="52" target="img3" targetTrigger="imageglow" targetParams="4">
+<![CDATA[<list listStylePosition="outside" listStyleType="decimal"> <listMarkerFormat><ListMarkerFormat counterIncrement="ordered 3"/></listMarkerFormat> <li>Build trust and value<list listStylePosition="outside" listStyleType="disc"> <li>Be an advocate for the customer’s needs</li> <li>Be honest and upfront</li> </list></li></list>]]>
+</item>
+              <item id="bbc4" order="53" target="img4" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[<list listStylePosition="outside" listStyleType="decimal"> <listMarkerFormat><ListMarkerFormat counterIncrement="ordered 4"/></listMarkerFormat> <li>Stay in touch<list listStylePosition="outside" listStyleType="disc"> <li>Don’t forget the customer as soon as they leave</li> </list></li></list>]]>
+</item>
+            </ui>
+            <ui uid="5" type="bodyImageGlow" x='20' y='90' width="154" height="160" margin="20"  fillColor="0x000000" fillAlpha="1" frameShape="roundRect" frameColor="0x000000" frameSize="2" frameAlpha="1" pulseColor="orange" trans="slideLeft" ease="QuintEaseOut" syncType="buildx" xPad="24">
+              <item id="img1" order="2" time="1" url="5105_1.jpg" xPad="0">x</item>
+              <item id="img2" order="3" time="1" url="5105_2.jpg">x</item>
+              <item id="img3" order="4" time="1" url="5105_3.jpg">x</item>
+              <item id="img4" order="5" time="1" url="5105_4.jpg">x</item>
+            </ui>
+          </slide>
+          <slide sNumber="5110" type="Activity_MultipleChoice" animType="none" endType="Continue">
+           <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" trans="slideUp" ease="QuintEaseOut" xPad="10" yPad="10">
+           <actui type="ScreenText" width="680" x="left" y="0" margin="0" syncType="buildy" yPad="10">
+           <item type="header" fontSize="24" yPad="0">
+   <![CDATA[<b>Know the Customer</b>]]>
+</item>
+                <item type="questiontext" fontSize="18" >
+                  <![CDATA[What are some techniques for getting to know the customer?]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                  <![CDATA[Directions: Select all that apply. Then click “Check Answer.”]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="cb" width="660" height="36" x="left" y="0" margin="0" fontSize="16" fontColor="0x000000"  fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="0x000000" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="16">
+              <item id='a' isanswer='true'>
+   <![CDATA[Learn and use the customer’s name]]>
+   </item>
+                <item id='b' isanswer='true'>
+                  <![CDATA[Compliment their vehicle choice]]>
+</item>
+                <item id='c' isanswer='false'>
+                  <![CDATA[Ask each customer to submit a photo of themselves and fill out a form with their personal information]]>
+</item>
+                <item id='d' isanswer='true'>
+                  <![CDATA[Tell customers to look for and ask for you – you will take care of them!]]>
+</item>
+              </actui>
+                <actui type="actbtns" width="200" height="34" x="right" y="0" margin="10" fontSize="16"  fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[CHECK ANSWER]]>
+</item>
+              </actui>
+                <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[Correct! Use these simple suggestions to get to know customers. It’s a first step toward setting your dealership apart from competitors who make no effort to establish a personal connection. Select NEXT for more ways to get to know customers.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[Incorrect. The first, second and fourth answers are correct. Use these simple suggestions to get to know customers. It’s a first step toward setting your dealership apart from competitors who make no effort to establish a personal connection. Select NEXT for more ways to get to know customers.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+       <slide sNumber="5115" type="BulletImageBuild" animType="animsync" endType="Continue">
+      <ui uid="3" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut"  syncType="buildy" yPad="10">
+            <bodyBullet id="bb0" order="1" fontSize="24" fontStyle="bold" time=".5" yPad="0">
+                <![CDATA[<b>Know the Customer</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="2">
+                <![CDATA[<li>Introduce yourself</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+                <![CDATA[<li>Thank the customers for their business</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="10">
+                <![CDATA[<li>Invite them to see the rest of the department</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="12">
+                <![CDATA[<li>Make yourself memorable by being enthusiastic</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="14">
+                <![CDATA[<li>Explain the dealership team is standing behind their purchase</li>]]>
+</bodyBullet>
+            </ui>
+           <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10"  scaleMode="width" time="1" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="25">
+              <bodyImage id="i1" order="4" url="5115_1.jpg" yPad="0">
+                <![CDATA[image 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="8" url="5115_2.jpg">
+                <![CDATA[Image 2]]>
+</bodyImage>
+              <bodyImage id="i3" order="12" url="5115_3.jpg">
+                <![CDATA[Image 3]]>
+</bodyImage>
+            </ui>
+          </slide>
+        <slide sNumber="5120" type="Activity_MultipleChoice" animType="none" endType="Continue">
+             <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" yPad="10" xPad="10" trans="slideUp" ease="QuintEaseOut"><actui type="ScreenText" width="680" x="left" y="0" margin="0" syncType="buildy" yPad="10"><item type="header" fontSize="24" yPad="0">
+                   <![CDATA[<b>Make Them Feel Special</b>]]>
+</item>
+                <item type="questiontext" fontSize="18" yPad="10">
+                  <![CDATA[What are some techniques to use with customers to make them feel special?]]>
+</item>
+                <item type="directiontext" fontSize="14" yPad="10">
+                  <![CDATA[Directions: Select all that apply. Then click “Check Answer.”]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="cb" width="600" height="36" x="left" y="0" margin="0" fontSize="16" fontColor="0x000000"  fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="0x000000" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="16">
+                <item id='a' isanswer='true'>
+                  <![CDATA[Get customers to talk about themselves]]>
+</item>
+                <item id='b' isanswer='false'>
+                  <![CDATA[Tell them about other recent customers with the same repair or maintenance need]]>
+</item>
+                <item id='c' isanswer='true'>
+                  <![CDATA[Build ties by sharing a little bit about yourself and look for areas of common interest]]>
+</item>
+                <item id='d' isanswer='false'>
+                  <![CDATA[Reassure them that they’ll receive the same treatment as every other customer]]>
+</item>
+              </actui>
+                <actui type="actbtns" width="200" height="34" x="right" y="0" margin="20" fontSize="16"  fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[CHECK ANSWER]]>
+
+</item>
+              </actui>
+                <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[Correct! Most customers respond positively to your efforts to make them feel special. Select NEXT for more effective techniques.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[Incorrect. The first and third answers are correct. Most customers respond positively to your efforts to make them feel special. Select NEXT for more effective techniques.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+       <slide sNumber="5125" type="BulletImageBuild" animType="animsync" endType="Continue">
+           <ui uid="3" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut"  syncType="buildy" yPad="10">
+            <bodyBullet id="bb0" order="1" fontSize="24" fontStyle="bold" time=".5" yPad="0">
+                   <![CDATA[<b>Make Them Feel Special</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="2">
+                   <![CDATA[<li>Listen and actively encourage customer to share</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+                   <![CDATA[<li>Adjust to their personality</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="10">
+                  <![CDATA[<li>Be sincerely interested</li>]]>
+</bodyBullet>
+<bodyBullet id="bb4" order="12">
+                 <![CDATA[<li>Make them feel at home by covering dealership hours, services and layout</li>]]>
+</bodyBullet>
+<bodyBullet id="bb5" order="14">
+                 <![CDATA[<li>Mention the Mopar accessories and performance parts that are available</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10" scaleMode="width" time="1" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="25">
+              <bodyImage id="i1" order="4" url="5125_1.jpg" yPad="0">
+                <![CDATA[image 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="8" url="5125_2.jpg">
+                <![CDATA[Image 2]]>
+</bodyImage>
+              <bodyImage id="i3" order="12" url="5125_3.jpg">
+                <![CDATA[Image 3]]>
+</bodyImage>
+            </ui>
+          </slide>
+      <slide sNumber="5130" type="Activity_MultipleChoice" animType="none" endType="Continue">
+             <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" yPad="10" xPad="10" trans="slideUp" ease="QuintEaseOut"><actui type="ScreenText" width="680" x="left" y="0" margin="0" syncType="buildy" yPad="10"><item type="header" fontSize="24" yPad="0">
+                  <![CDATA[<b>Build Trust and Value</b>]]>
+</item>
+                <item type="questiontext" fontSize="18"  yPad="10">
+                  <![CDATA[What are some techniques to use with customers to build trust and value?]]>
+</item>
+                <item type="directiontext" fontSize="14"  yPad="10">
+                  <![CDATA[Directions: Select all that apply. Then click “Check Answer.”]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="cb" width="660" height="36" x="left" y="0" margin="0" fontSize="16" fontColor="0x000000"  fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="0x000000" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="16">
+                <item id='a' isanswer='false'>
+                  <![CDATA[Even if you don’t find any problems during a vehicle inspection, make up something so the customer believes you are doing your job]]>
+</item>
+                <item id='b' isanswer='true'>
+                  <![CDATA[Always report inspection results, even when no work is needed]]>
+</item>
+                <item id='c' isanswer='false'>
+                  <![CDATA[Complete all repairs that are needed, even those that the customer is unaware of needing]]>
+</item>
+                <item id='d' isanswer='true'>
+                  <![CDATA[Suggest related parts when appropriate]]>
+</item>
+              </actui>
+             <actui type="actbtns" width="200" height="34" x="right" y="0" margin="10" fontSize="16"  fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[CHECK ANSWER]]>
+
+</item>
+              </actui>
+                <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[Correct! Be honest and upfront with customers and they will come to rely on you for all their vehicle service needs.<br>Select NEXT for more ways to build trust and value.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[Incorrect. The second and fourth answers are correct. Be honest and upfront with customers and they will come to rely on you for all their vehicle service needs. Select NEXT for more ways to build trust and value.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        <slide sNumber="5135" type="BulletImageBuild" animType="animsync" endType="Continue">   
+       <ui uid="3" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut"  syncType="buildy" yPad="10">
+            <bodyBullet id="bb0" order="1" fontSize="24" fontStyle="bold" time=".5" yPad="0">
+                  <![CDATA[<b>Build Trust and Value</b>]]>
+                </bodyBullet>
+              <bodyBullet id="bb1" order="2">
+                  <![CDATA[<li>Empathize with customers who may find vehicle repairs stressful</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+               <![CDATA[<li>Document existing damage to prevent later dispute</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="10">
+                 <![CDATA[<li>Show concern for customer’s time (status updates) and expense</li>]]>
+</bodyBullet>
+<bodyBullet id="bb4" order="12">
+                   <![CDATA[<li>Help customers prioritize needed repairs</li>]]>
+</bodyBullet>
+
+<bodyBullet id="bb5" order="14">
+                <![CDATA[<li>Be consistent with the services you provide – for example, if you typically wash cars after they are serviced, always wash every car</li>]]>
+</bodyBullet>
+            </ui>
+              <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10" scaleMode="width" time="1" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="25">
+             <bodyImage id="i1" order="4" url="5135_1.jpg" yPad="0">
+                <![CDATA[image 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="8"   url="5135_2.jpg">
+                <![CDATA[Image 2]]>
+</bodyImage>
+              <bodyImage id="i3" order="12" url="5135_3.jpg">
+                <![CDATA[Image 3]]>
+</bodyImage>
+            </ui>
+          </slide>
+        <slide sNumber="5140" type="Activity_MultipleChoice" animType="none" endType="Continue">
+             <ui uid="1" type="act" atype="mc" x="left" y="10" margin="10" yPad="10" xPad="10" trans="slideUp" ease="QuintEaseOut"><actui type="ScreenText" width="680" x="left" y="0" margin="0" syncType="buildy" yPad="10"><item type="header" fontSize="24" yPad="0">
+                <![CDATA[<b>Stay in Touch</b>]]>
+</item>
+                <item type="questiontext" fontSize="18" yPad="10">
+                  <![CDATA[What are some techniques to use with customers to stay in touch?]]>
+</item>
+                <item type="directiontext" fontSize="14" yPad="10">
+                  <![CDATA[Directions: Select all that apply. Then click “Check Answer.”]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="cb" width="600" height="36" x="left" y="0" margin="0" fontSize="16" fontColor="0x000000"  fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="0x000000" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="16">
+                <item id='a' isanswer='false'>
+                  <![CDATA[Text customers weekly with service specials]]>
+</item>
+                <item id='b' isanswer='false'>
+                    <![CDATA[Call or email every two weeks to find out if customers need any repairs or maintenance]]>
+</item>
+                <item id='c' isanswer='true'>
+                   <![CDATA[Provide coupons for service specials]]>
+</item>
+                <item id='d' isanswer='true'>
+                <![CDATA[Send a birthday or special occasion card, if appropriate]]>
+</item>
+              </actui>
+            <actui type="actbtns" width="200" height="34" x="right" y="0" margin="20" fontSize="16"  fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[CHECK ANSWER]]>
+
+</item>
+              </actui>
+                <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct" afile="">
+                     <![CDATA[Correct! Most customers appreciate it when they hear from you occasionally, and it keeps your name fresh in their minds for when they do need service. Select NEXT for more ways to stay in touch.]]>
+</item>
+                <item type="wrong" afile="">
+                 <![CDATA[Incorrect. The third and fourth answers are correct. Most customers appreciate it when they hear from you occasionally, and it keeps your name fresh in their minds for when they do need service. Select NEXT for more ways to stay in touch.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        <slide sNumber="5145" type="BulletImageBuild" animType="animsync" endType="Continue">
+      <ui uid="3" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut"  syncType="buildy" yPad="10">
+            <bodyBullet id="bb0" order="1" fontSize="24" fontStyle="bold" time=".5" yPad="0">
+                  <![CDATA[<b>Stay in Touch</b>]]>
+                </bodyBullet>
+              <bodyBullet id="bb1" order="2">
+                  <![CDATA[<li>Conduct a follow-up call soon after a customer’s service visit to check that everything is fine</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+            <![CDATA[<li>Send a thank-you email or letter thanking them for their business</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="10">
+                <![CDATA[<li>Keep them informed about significant dealership events, such as service clinics for owners </li>]]>
+</bodyBullet>
+            </ui>
+ <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10" scaleMode="width" time="1" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="25">
+                <bodyImage id="i1" order="4" url="5145_1.jpg" yPad="0">
+                <![CDATA[image 1]]>
+</bodyImage>
+            </ui>
+          </slide>
+       </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

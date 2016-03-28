@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCEENWB" template="ASCE" localeID="en" debug="false">
+    <title>
+      <![CDATA[Exceptional Customer Experience]]>
+</title>
+  </course>
+  <section id="0" snumber="1000">
+    <header id="sech1">
+      <![CDATA[Introduction]]>
+</header>
+    <scenes>
+      <scene sNumber="1100" sType="navbarmenu" continueBtnType="DONE">
+        <sceneitems>
+              <ui uid="1" type="SceneNavBar" width="180" height="80" fillColor1="#6688a2" fillColor2="#6688a2" frameColor="0xfe9003" fontColor="0xffffff" fontSize="14" pulseColor="0xfe9003">
+            <navbtn id='c2l1' width="60" height="60" x="33" y="4" order="2" time="1" target="1105" url="icons/icon_1105.png">
+              <![CDATA[Course Objectives]]>
+</navbtn>
+            <navbtn id='c2l2' width="60" height="60" x="266" y="4" order="2" time="1" target="1110" url="icons/icon_1110.png">
+              <![CDATA[Course Outline]]>
+</navbtn>
+            <navbtn id='c2l3' width="60" height="60" x="499" y="4" order="2" time="1" target="1115" url="icons/icon_1115.png">
+              <![CDATA[Additional Resources]]>
+</navbtn>
+          </ui>
+          <ui uid="3" type="sceneEndNote">
+            <bodyNote id="gn1" order="99" time="1">
+              <![CDATA[Click the ✓ to continue.]]>
+</bodyNote>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="1101" type="navbarmenu_content" animType="animsync" endType="Continue">
+            <ui uid="1" type="slideHeader" width="680" height="50" x="left" y="top" margin="10" fillAlpha="0" fontSize="24" fontStyle="bold" trans="slideright" ease="BackEaseOut">
+              <header id="sh1" order="1" time="1">
+                <![CDATA[<b>Welcome to Exceptional Customer Experience</b>]]>
+</header>
+            </ui>
+            <ui uid="3" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="999" time="1">
+                <![CDATA[Click on an icon to continue.]]>
+</bodyNote>
+            </ui>
+             <ui uid="1" type="bodyImage" order="1" time="0" trans="fadeIn" ease="QuintEaseOut">
+              <bodyImage id="i1" width="420" height="280" scaleMode="none" x="center" y="60" url="1101_1.jpg">
+                <![CDATA[Photo 1101_1]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="1105" type="navbarmenu_content" animType="animsync" endType="Continue">          
+                <ui uid="2" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="8">
+              <bodyBullet id="bb0" order="1" fontSize="24" fontStyle="bold" time=".2" yPad="0">
+                <![CDATA[<b>Course Objectives</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="20" time="1">
+                <![CDATA[<li>Explain the difference between satisfied and loyal customers</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22" time="1">
+                <![CDATA[<li>Identify the top five elements of the service experience that strongly influence customer loyalty</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="24" time="1">
+                <![CDATA[<li>Describe various methods used to determine what customers think about your service experience</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="26" time="1" width="680">
+                <![CDATA[<li>Identify basic customer expectations in seven areas of the service experience</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="28" time="1" width="680">
+                <![CDATA[<li>Describe four ways to build personal relationships that enhance customer loyalty</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="99" time="1">
+                <![CDATA[Click on another icon to continue.]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="160" x="right" y="top" margin="10" style="none" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="1" url="icons/iconLarge_1105.png">
+                <![CDATA[IMG Course Objectives]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="1110" type="navbarmenu_content" animType="animsync" endType="Continue">
+           <ui uid="2" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="8">
+              <bodyBullet id="bb0" order="1" fontSize="24" fontStyle="bold" time=".2" yPad="0">
+                <![CDATA[<b>Course Outline</b>]]>
+</bodyBullet>
+              <bodyBullet id='bb2' order='2'>
+                <![CDATA[<li>Importance of Loyalty</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb4' order='4' time='.5' formatType='subbullet' yPad="0">
+                <![CDATA[<li>The difference between satisfied and loyal customers and the impact of loyal customers</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb6' order='6'>
+                <![CDATA[<li>How Do You Build Loyalty?</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb8' order='8' time='.5' formatType='subbullet' yPad="0">
+                <![CDATA[<li>Top five service experience components affecting loyalty</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb10' order='10' time='.5' formatType='subbullet' yPad="0">
+                <![CDATA[<li>Build on strengths/Eliminate weaknesses</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb12' order='12'>
+                <![CDATA[<li>Meet Basic Customer Expectations</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb14' order='14' time='.5' formatType='subbullet' yPad="0">
+                <![CDATA[<li>Define performance standards for each step of the After Sales process </li>]]>
+</bodyBullet>
+              <bodyBullet id='bb16' order='16'>
+                <![CDATA[<li>Build Personal Relationships</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb18' width="680" order='18' time='.5' formatType='subbullet' yPad="0">
+                <![CDATA[<li>Go beyond the basics to build personal relationships with customers that enhance loyalty</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb20' order='20'>
+                <![CDATA[<li>Apply the Process</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb22' order='22' time='.5' formatType='subbullet' yPad="0">
+                <![CDATA[<li>Case studies that require you to eliminate weaknesses</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb24' order='24'>
+                <![CDATA[<li>Course Summary</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb26' order='26' time='.5' formatType='subbullet' yPad="0">
+                <![CDATA[<li>Review key points in the course</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="99" time="1">
+                <![CDATA[Click on another icon to continue.]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="160" x="right" y="top" margin="10" style="none" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="1" time="1" url="icons/iconLarge_1110.png">
+                <![CDATA[ICON Course Outline]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="1115" type="navbarmenu_content" animType="animsync" endType="Done">
+           <ui uid="2" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="8">
+              <bodyBullet id="bb0" order="1" fontSize="24" fontStyle="bold" time=".2" yPad="0">
+                <![CDATA[<b>Additional Resources</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="30" time="1">
+                <![CDATA[Job aids for this course include:]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="32" time="1">
+                <![CDATA[<li>After Sales Performance Standards</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="36" time="1">
+                <![CDATA[<li>Top 4 Ways to Build Rapport with Your Service and Parts Customers</li>]]>
+</bodyBullet>
+<bodyBullet id="bb4" order="38" time="1">
+                <![CDATA[Download the Resources from the Learning Center Assignments page for this course.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="BackEaseOut">
+              <bodyNote id="gn1" order="99" time="1">
+                <![CDATA[Click on another icon to continue.]]>
+</bodyNote>
+            </ui>
+               <ui uid="1" type="bodyImage" width="160" height="160" x="right" y="top" margin="10" style="none" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="1" url="icons/iconLarge_1115.png">
+                <![CDATA[ICON Additional Resources]]>
+</bodyIcon>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

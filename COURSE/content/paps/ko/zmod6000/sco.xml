@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="PAPSKOWB" template="PAPS" localeID="ko" debug="false">
+    <title>
+      <![CDATA[부품 판매 기술에]]>
+</title>
+  </course>
+  <section id="1" snumber="6000">
+    <header>
+      <![CDATA[코스 요약]]>
+</header>
+    <scenes>
+      <scene id="6100" sNumber="6100" sType="gps" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" width="600" height="50" x="left" y="0" margin="10" trans="none" ease="none">
+            <header id="h1" order="1">
+              <![CDATA[성과 목표]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="6101" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="680" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+            <bodyBullet id="bb0" order="3" yPad="0">
+                <![CDATA[축하합니다! 이제 소매 부품 판매 기술 코스의 종반에 다다랐습니다. 이제는 다음과 같은 사항을 수행할 수 있어야 합니다.]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4">
+                <![CDATA[<li>부품의 판매 기술을 향상시키기 위한 경영 사례를 설명합니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="5">
+                <![CDATA[<li>Mopar 부품과 액세서리의 특징 및 장점을 설명합니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="6">
+                <![CDATA[<li>네 가지 고객 유형의 특징을 구분합니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="7">
+                <![CDATA[<li>고객 지향적 부품 판매 프로세스를 설명합니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="8">
+                <![CDATA[<li>추가적인 판매 기회와 일반적인 고객의 반대 의견에 대응합니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="9">
+                <![CDATA[<li>고객 지향적 부품 판매 프로세스를 적용합니다</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="6200" sNumber="6200" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" width="600" height="50" x="0" y="0" margin="10" trans="none" ease="none">
+            <header id="h1" order="1">
+              <![CDATA[요점]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="6201" type="BodyBulletBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="680" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+          <bodyBullet id="bb0" order="13" yPad="0">
+                <![CDATA[이 코스의 핵심 학습 요점을 검토해 봅시다.]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="14">
+                <![CDATA[<li>부품 및 액세서리 시장은 성장 추세라 큰 수익을 올릴 수 있는 가능성이 있습니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="15">
+                <![CDATA[<li>판매 기술을 향상시키면 고객과의 신뢰를 쌓고, 재구매 고객을 확보하고, 본인의 가치와 소득을 높이는 데 도움이 됩니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="16">
+                <![CDATA[<li>Mopar 는 애프터마켓에 비해 다음과 같은 장점을 제공함으로써 판매 신장에 도움을 줍니다.</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="17" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>원래 사양에 맞게 설계된 부품</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="18" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>확실한 보증</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="19" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>경쟁력 있는 가격</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb7" order="20">
+                <![CDATA[<li>Mopar 에서는 효과적인 판매를 위해 다음과 같은 도구와 자료를 제공하기도 합니다.</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb8" order="21" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>액세서리 디스플레이</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb9" order="22" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>StarParts</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="6205" type="BodyBulletBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="680" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="24" yPad="0">
+                <![CDATA[<li>네 가지 고객 유형에는 전화 상담, 직접 방문, 내부 및 인터넷 고객이 포함됩니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="25">
+                <![CDATA[<li>고객은 누구나 소중합니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="26">
+                <![CDATA[<li>고객 지향적 부품 판매 프로세스는 효과를 높이는 데 도움이 됩니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="27">
+                <![CDATA[<li>고객의 반대 의견을 극복하려면: 적극적으로 경청하고, 들은 내용을 다른 말로 표현하고 응답하며, 구매를 요청합니다</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="6300" sNumber="6300" sType="scocontent" continueBtnType="done">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" width="600" height="50" x="left" y="0" margin="10" trans="on" ease="none">
+            <header id="h1" order="1">
+              <![CDATA[결론]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="6301" type="scocontent" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="680" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="31" yPad="0">
+                <![CDATA[<li>실적을 높일 수 있는 기술과 지식이 생겼습니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="32">
+                <![CDATA[<li>Mopar 의 장점이 무엇인지 알게 되었습니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="33">
+                <![CDATA[<li>고객과 관계를 형성하기 위해 접근하는 방법, 필요한 사항을 파악하는 방법, 해결책을 제시하는 방법, 그리고 가장 중요한 구매를 요청하는 방법을 알게 되었습니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="34">
+                <![CDATA[<li>판매량이 많을수록 수입도 많아집니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="35">
+                <![CDATA[<li>부품 어드바이저의 판매 기술은 서비스 부서의 판매와 부품 판매의 증가로 이어집니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="36">
+                <![CDATA[<li>배운 내용을 상기하면서 부품 부서로 돌아가 이를 적용하여 부품 판매, 딜러의 수익, 그리고 본인의 가치를 높이십시오</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

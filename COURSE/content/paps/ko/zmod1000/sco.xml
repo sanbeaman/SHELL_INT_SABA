@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="PAPSKOWB" template="PAPS" localeID="ko" debug="false">
+<title>
+      <![CDATA[부품 판매 기술에]]>
+</title>
+  </course>
+  <section id="0" snumber="1000">
+    <header ud="sech1">
+      <![CDATA[소개]]>
+</header>
+    <scenes>
+      <scene sNumber="1100" sType="navbarmenu" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="1" type="SceneNavBar" width="160" height="80" fillColor1="#858585" fillColor2="#ffffff" frameColor="0x00B5D7" fontColor="#666666" fontSize="14" pulseColor="0x00B5D7">
+            <navbtn id='c2l1' width="60" height="60" x="33" y="4" order="2" time="1" target="1105" url="icons/icon_1105.png">
+              <![CDATA[코스 목표]]>
+</navbtn>
+            <navbtn id='c2l2' width="60" height="60" x="266" y="4" order="2" time="1" target="1110" url="icons/icon_1110.png">
+              <![CDATA[코스 개요]]>
+</navbtn>
+            <navbtn id='c2l3' width="60" height="60" x="499" y="4" order="2" time="1" target="1115" url="icons/icon_1115.png">
+              <![CDATA[추가 자료]]>
+</navbtn>
+          </ui>
+          <ui uid="3" type="sceneEndNote">
+            <bodyNote id="gn1" order="99" time="1">
+              <![CDATA[계속하려면 √ 을 클릭하십시오.]]>
+</bodyNote>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide type="navbarmenu_content" sNumber="1101" animType="animsync" endType="Continue">
+            <ui uid="0" type="sceneHeader">
+              <header id="h1" width="680" order="1" time="1">
+                <![CDATA[부품 판매 기술에 오신 것을 환영합니다 <br />영업 활로 개척]]>
+</header>
+            </ui>
+            <ui uid="3" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="999" time="1">
+                <![CDATA[시작하려면 이미지를 클릭하십시오.]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyIcon" width="100" height="100" x="center" y="80"  time="1" trans="fadeIn" ease="QuintEaseOut">
+              <bodyIcon id="img1" scaleMode="none" url="icons/icon_mopar.png" order="1">
+                <![CDATA[Mopar Logo]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="1105" type="navbarmenu_content" animType="animsync" endType="Continue">
+            <ui uid="0" type="sceneHeader">
+              <header id="h1" order="0" time="0">
+                <![CDATA[코스 목표]]>
+</header>
+            </ui>
+            <ui uid="2" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="12" yPad="0">
+                <![CDATA[<li>고객과 관계를 형성하고 Mopar 부품 및 액세서리를 판매하기 위한 지식과 기술을 습득합니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="13">
+                <![CDATA[<li>부품의 판매 기술을 향상시키기 위한 경영 사례를 설명합니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="14">
+                <![CDATA[<li>네 가지 고객 유형의 특징에 대해 알아봅니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="15">
+                <![CDATA[<li>고객 지향적 부품 판매 프로세스</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="16">
+                <![CDATA[<li>추가적인 판매 기회와 일반적인 고객의 반대 의견에 대응합니다</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="99" time="1">
+                <![CDATA[계속하려면 또 다른 아이콘을 클릭하십시오.]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyIcon" width="160" height="160" x="right" y="top" margin="10" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="0" time="1" url="icons/iconLarge_1105.png">
+                <![CDATA[Course Objectives]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="1110" type="navbarmenu_content" animType="animsync" endType="Continue">
+            <ui uid="0" type="sceneHeader" width="600">
+              <header id="h1" order="0" time=".5">
+                <![CDATA[코스 개요]]>
+</header>
+            </ui>
+            <ui uid="2" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="20" yPad="0">
+                <![CDATA[<li>부품 판매 기술을 향상시키기 위한 경영 사례</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="21" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>판매 기술을 완벽하게 익힘으로써 고객, 딜러 및 본인이 얻게 되는 이점</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22">
+                <![CDATA[<li>Mopar 장점</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="23" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>Mopar가 확실한 경쟁 우위를 차지하는 이유</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="24">
+                <![CDATA[<li>고객 지향적 부품 판매 프로세스</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="25">
+                <![CDATA[<li>고객 지향적 부품 판매 프로세스의 적용</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="26" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>실제 시나리오 이용</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb7" order="27">
+                <![CDATA[<li>코스 요약</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb8" order="28" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>코스의 요점 검토</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="999" time="1">
+                <![CDATA[계속하려면 또 다른 아이콘을 클릭하십시오.]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyIcon" width="160" height="160" x="right" y="top" margin="10" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" url="icons/iconLarge_1110.png" order="1">
+                <![CDATA[Course Outline]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="1115" type="navbarmenu_content" animType="animsync" endType="Done">
+            <ui uid="0" type="sceneHeader">
+              <header id="h1">
+                <![CDATA[추가 자료]]>
+</header>
+            </ui>
+            <ui uid="2" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+           <bodyBullet id="bb0" order="32" yPad="0">
+                <![CDATA[이 코스에 필요한 직무 보조 도구에는 다음이 포함됩니다.]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="33">
+                <![CDATA[<li>고객 지향적 부품 영업 프로세스</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="34">
+                <![CDATA[<li>고객의 반대 의견 극복</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="BackEaseOut">
+              <bodyNote id="gn1" order="99" time="1">
+                <![CDATA[계속하려면 또 다른 아이콘을 클릭하십시오.]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyIcon" width="160" height="160" x="right" y="top" margin="10" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="0" time="1" url="icons/iconLarge_1115.png">
+                <![CDATA[Additional Resources]]>
+</bodyIcon>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

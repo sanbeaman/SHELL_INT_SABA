@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="SPWCGWB" template="SPWC" localeID="fr_CA" debug="false">
+    <title>
+<![CDATA[BIENVENUE APRÈS-VENTE DE CHRYSLER]]>
+</title>
+  </course>
+  <section id="0" snumber="99000">
+    <header>
+      <![CDATA[Complete & Exit]]>
+</header>
+    <scenes>
+      <scene sNumber="99100" sType="completeexit" continueBtnType="exit">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[ ]]>
+</header>
+          </ui>
+            <ui uid="1" type="bodyIcon" width="600" height="125" x="center" y="top" margin="0" trans="slideup" ease="BackEaseOut">
+            <bodyImage id="i1" order="0" time="1" scaleMode="none" url="logo_course.png">
+              <![CDATA[Course Logo]]>
+</bodyImage>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="99110" type="CourseNotComplete" endType="stop">
+            <ui uid="0" type="sectionHeader">
+              <![CDATA[Cours non complété (lors de cette tentative)]]>
+</ui>
+   <ui uid="2" type="BodyText" width="580" height="300" x="center" y="150"  margin="0" fontSize="14" trans="slideup" ease="QuintEaseOut">
+              <bodyBullet id="bb1" order="2" time="1">
+            <![CDATA[<b>Vous N'AVEZ PAS complété tous les éléments de menu requis (lors de cette tentative).</b>  Sélectionnez tous les éléments de menu requis qui n'ont pas été complétés.  <b>Vous devez ensuite revenir à cette page et cliquez sur le bouton TERMINER ET QUITTER ci-dessous.</b>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="BodyButton" trans="slideup" ease="QuintEaseOut" order="50" time="1">
+            <item id="trigger" type="completeAndExit" width="260" height="36" x="center" y="bottom" margin="5" fontSize="16" fontColor="0x000000" fontStyle="reg" pulseColor="0xfe9003" yPad="10" isActive="no">
+                <![CDATA[TERMINER ET QUITTER]]>
+</item>
+            </ui>
+          </slide>
+          <slide sNumber="99120" type="CourseComplete" endType="exit">
+            <ui uid="0" type="sectionHeader">
+              <![CDATA[Cours complété (lors de cette tentative)]]>
+</ui>
+
+   <ui uid="2" type="BodyText" width="600" x="center" y="200" margin="10" trans="slideup" ease="QuintEaseOut" fontSize="14" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="2" yPad="0">
+                <![CDATA[Vous <b>AVEZ</b> complété tous les éléments de menu requis pour ce cours (lors de cette tentative).  Les en-têtes des leçons ne sont pas cochés.  <b>Nota :</b>  La première fois que vous relancez le cours après avoir essayé de le compléter, vos signets seront remis à zéro et ne seront pas initialement remplis ou cochés.]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="3" time="1">
+                <![CDATA[<b>QUITTER CORRECTEMENT : Vous devez cliquer sur le bouton TERMINER ET QUITTER pour indiquer au Centre d'apprentissage que vous avez complété le cours.</b>  N'oubliez pas ensuite d'ouvrir le test et tous les autres éléments de menu requis sur la page travaux d'apprentissage du Centre d'apprentissage pour ce cours.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="BodyButton" trans="slideup" ease="QuintEaseOut" order="50" time="1">
+              <item id="trigger" type="completeAndExit" width="260" height="36" x="center" y="bottom" margin="5" fontSize="16" fontColor="0xffffff" fontStyle="reg" pulseColor="0xfe9003" yPad="10" isActive="yes">
+                <![CDATA[TERMINER ET QUITTER]]>
+</item>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

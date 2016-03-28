@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="SPWCGWB" template="SPWC" localeID="en_US" debug="false">
+    <title>
+          <![CDATA[WELCOME TO CHRYSLER &#8211; AFTER SALES]]>
+</title>
+  </course>
+<section id="0" snumber="99000">
+    <header>
+      <![CDATA[COMPLETE & EXIT]]>
+</header>
+    <scenes>
+      <scene id="99100" sNumber="99000" sType="completeexit" continueBtnType="exit">
+        <sceneitems>
+            <ui uid="1" type="bodyIcon"  width="600" height="125" x="center" y="top" margin="20" trans="slideup" ease="BackEaseOut">
+            <bodyImage id="i1" order="0" time="1" scaleMode="none" url="logo_course.png">
+              <![CDATA[Course Logo]]>
+</bodyImage>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="99110" type="CourseNotComplete" endType="stop">
+          <ui uid="0" type="sectionHeader">
+   <![CDATA[Course Not Completed (for this attempt)]]>          </ui>
+             <ui uid="2" type="BodyText" width="600" height="300" x="center" y="150"  margin="0" fontSize="14" trans="slideup" ease="QuintEaseOut">
+              <bodyBullet id="bb1" order="2" time="1"><![CDATA[You <b>HAVE NOT</b> completed all required menu items (for this attempt).  Select all required menu items that have not been completed.  <b>After that you must return to this screen to select the COMPLETE & EXIT button below.</b> ]]>
+</bodyBullet>
+            </ui>
+                <ui uid="3" type="BodyButton" trans="slideup" ease="QuintEaseOut" order="50" time="1">
+               <item id="trigger" type="completeAndExit" x="center" y="bottom" width="200" height="36" fontSize="16" fontColor="0xffffff" fontStyle="reg" pulseColor="0xfe9003" xPad="10" yPad="10" isActive="no" >
+              <![CDATA[COMPLETE & EXIT]]>
+</item>
+          </ui>
+          </slide>
+          <slide sNumber="99120" type="CourseComplete" endType="exit">
+            <ui uid="0" type="sectionHeader">
+          <![CDATA[Course Completed (for this attempt)]]>
+          </ui>
+             <ui uid="2" type="BodyText" width="600" x="center" y="200" margin="10" trans="slideup" ease="QuintEaseOut" fontSize="14" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="2" yPad="0">
+                <![CDATA[You <b>HAVE</b> completed all menu items for this course (for this attempt).  Lesson headers don’t show checkmarks.  Note:  The first time you re-launch the course after a completed attempt, your bookmarks will reset and not be initially filled in or checked.]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="3" >
+                <![CDATA[<b>EXIT PROPERLY: You must select the COMPLETE & EXIT button to send a completion record to the Learning Center.</b>  After this, be sure to launch the Test and any required items from this course’s Learning Center Learning Assignments page.]]>
+</bodyBullet>
+            </ui>
+               <ui uid="3" type="BodyButton" trans="slideup" ease="QuintEaseOut" order="50" time="1">
+               <item id="trigger" type="completeAndExit" x="center" y="bottom" width="200" height="36" fontSize="16" fontColor="0xffffff" fontStyle="reg" pulseColor="0xfe9003" xPad="10" yPad="10" isActive="yes" >
+              <![CDATA[COMPLETE & EXIT]]>
+</item>
+          </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

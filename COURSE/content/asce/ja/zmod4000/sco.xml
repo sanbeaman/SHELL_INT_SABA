@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCEJAWB" template="ASCE" localeID="ja" debug="false">
+    <title>
+      <![CDATA[優れた顧客経験]]>
+</title>
+  </course>
+  <section id="0" snumber="4000">
+    <header>
+      <![CDATA[顧客の基本的な期待事項の充足]]>
+</header>
+    <scenes>
+      <scene sNumber="4100" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[サービス プロセス]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="4105" type="Activity_Match" animType="none" endType="Continue">
+           <ui uid="1" type="act" atype="match" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut">
+              <actui type="ScreenText" x="0" y="0" width="700" yPad="8">
+               <item type="screentext" fontSize="18">
+                <![CDATA[どのディーラーも、サービス プロセスに対する顧客の最低限の期待を満たす必要があります。]]>
+</item>
+              <item type="directiontext" fontSize="14">
+                <![CDATA[解答方法: 左側にあるサービス プロセスの各ステップに対し、右側から適切な顧客の期待事項を選択してクリックします。]]>
+</item>
+              </actui>
+              <actui uid="0" type="SubHeader" order="5"  fontSize="16" screen="1">
+                <item id="i1" type="dragHeader" x="0" y="0" width="220" height="40" fontAlign="center">
+                <![CDATA[プロセス ステップ]]>
+</item>
+                <item id="i2" type="dropHeader" x="0" y="0" width="360" height="40" fontAlign="center">
+                <![CDATA[顧客の期待]]>
+</item>
+              </actui>
+              <actui uid="1" type="MatchBtn" layout="1col" x="0" y="0" width="220" height="40" fontSize="16"  fontColor="0x000000" fontStyle="bold" fontAlign="center" fontVertAlign="middle" fillColor="0xcccccc" fillAlpha="1" frameSize="1" frameColor="0xffffff" frameAlpha="1" fillType="gradient" fillColor2="0xcccccc" xPad="20" yPad="6">
+            <item id="i1" isanswer="drop1">
+                <![CDATA[問い合わせ]]>
+</item>
+              <item id="i2" isanswer="drop2">
+                <![CDATA[記録]]>
+</item>
+              <item id="i3" isanswer="drop3">
+                <![CDATA[点検および修理]]>
+</item>
+              <item id="i4" isanswer="drop4">
+                <![CDATA[顧客コンサルティング]]>
+</item>
+              <item id="i5" isanswer="drop5">
+                <![CDATA[品質管理]]>
+</item>
+              <item id="i6" isanswer="drop6">
+                <![CDATA[納車]]>
+</item>
+              <item id="i7" isanswer="drop7">
+                <![CDATA[フォローアップ]]>
+</item>
+              </actui>
+              <actui uid="1" type="MatchTarget" x="right" y="0" width="360" height="40" layout="default" fontSize="12" fontColor="0x000000"  fontStyle="reg" fontAlign="left" fontVertAlign="middle" fillColor="0xcc6633" fillAlpha="1" frameSize="1" frameColor="0xffffff" frameAlpha="1" fillType="gradient" fillColor2="0xff9933" xPad="10" yPad="6">
+               <item id="i1" isanswer="drop1">
+                <![CDATA[私が望む方法で、必要な情報を迅速に提供してほしい]]>
+</item>
+              <item id="i2" isanswer="drop2">
+                <![CDATA[私のニーズに対し、迅速かつ丁重に対応してほしい]]>
+</item>
+              <item id="i3" isanswer="drop3">
+                <![CDATA[どのような修理またはメンテナンスが必要か知らせてほしい]]>
+</item>
+              <item id="i4" isanswer="drop4">
+                <![CDATA[必要な処置とその費用、所要時間を一緒に確認してほしい]]>
+</item>
+              <item id="i5" isanswer="drop5">
+                <![CDATA[私の車両の問題を来店初回で適切に解決してほしい]]>
+</item>
+              <item id="i6" isanswer="drop6">
+                <![CDATA[約束の日時に必ず車両を引き取れるよう準備ができている  引き取りの際に余計な手間をかけたくない]]>
+</item>
+              <item id="i7" isanswer="drop7">
+                <![CDATA[問題がないことを確認するために、ディーラーからフォローアップの電話がほしい]]>
+</item>
+              </actui>
+              <actui uid="3" type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct" id="pos">                <![CDATA[各ステップにおける顧客の期待事項を知ることは重要です。また、顧客の期待が満たされている事を確実にするため、業務績基準に一貫して従うことも重要です。]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+           <slide sNumber="4110" type="Activity_TextAreaInput" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="tai" x="left" y="10" margin="10" order="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" x="0" y="0" width="700" yPad="8" >
+             <item type="header" fontSize="24" yPad="0">
+                <![CDATA[<b>問い合わせ</b>]]>
+</item>
+              <item type="questiontext" fontSize="16">
+                <![CDATA[顧客の期待: 私が望む方法で、必要な情報を全て迅速に提供してほしい。この期待事項を満たすため、ディーラーは多くの業務基準を活用できますが、その中でも特に有効と思われるものは何ですか。]]>
+</item>
+              <item type="directiontext" fontSize="14">
+                <![CDATA[解答方法: 解答を入力して [提出] をクリックし、その他思い付くアイデアを追加します。この解答を印刷して、実際の業務において参照するとよいでしょう。]]>
+</item>
+              </actui>
+             <actui type="actui" xPad="8" yPad="8">
+                <item type="txtinput" x="0" y="0"  fontSize="16" fontStyle="reg" fontAlign="left" width="246" height="240" fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1">
+                  <![CDATA[ここから入力を開始。]]>
+</item>
+                <item type="txtresult" x="266" y="0" width="440" height="240" fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1"  fontSize="13" fontStyle="reg" fontAlign="left">
+   <![CDATA[<li>電話はすべて呼び出し音 3 回以内に取り、30 秒以上保留しない</li><li>インターネット経由の問い合わせ (サービス/パーツ関連) には、顧客が希望する連絡手段で 1 営業時間以内に回答する (自動返信メールは回答に含まれない)</li><li>顧客の要求には、もれなく対応する</li><li>顧客に予約システムを提供し、車両サービス記録のために具体的な日時を決める</li><li>他のディーラーと比べ競争力のある営業時間を案内する</li><li>アフターサービスの顧客に代替交通手段を提供する</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16"  fontStyle="bold" pulseColor="orange">
+                <item id="chkbtn" type="submit" x="86">
+                  <![CDATA[提出]]>
+</item>
+                <item id="chkbtn" type="print" x="right" margin="10">
+                  <![CDATA[印刷]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="4115" type="Activity_TextAreaInput" animType="none" endType="Continue">
+          <ui uid="1" type="act" atype="tai" x="left" y="10" margin="10" order="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" x="0" y="0" width="700" yPad="8" >
+              <item type="header" yPad="0" fontSize="24">
+                <![CDATA[<b>記録</b>]]>
+</item>
+                <item type="questiontext" fontSize="16">
+                <![CDATA[顧客の期待: 私のニーズに対し、迅速かつ丁重に対応してほしい。 この期待事項を満たすため、ディーラーは多くの業務基準を活用できますが、その中でも特に有効と思われるものは何ですか。]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                <![CDATA[解答方法: 解答を入力して [提出] をクリックし、その他思い付くアイデアを追加します。この解答を印刷して、実際の業務において参照するとよいでしょう。]]>
+</item>
+              </actui>
+               <actui type="actui" xPad="8" yPad="8">
+                <item type="txtinput" x="0" y="0"  fontSize="16" fontStyle="reg" fontAlign="left" width="246" height="240" fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1">
+                  <![CDATA[ここから入力を開始。]]>
+</item>
+                <item type="txtresult" x="266" y="0" width="444" height="240" fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1"  fontSize="13" fontStyle="reg" fontAlign="left">
+  <![CDATA[<li>顧客を歓迎し、来店理由を確認すると同時に他に必要なサービスがないか質問する</li><li>必要な修理またはメンテナンスを検証・確認する</li><li>車両周囲の目視点検を行う</li><li>車両情報と顧客の連絡先情報を更新する</li><li>車両に該当するオープン リコールや迅速対応送達がないか確認し、必要な場合は実施の承諾を得る</li><li>顧客に修理確認書を提示して、修理箇所を確認する</li><li>所要時間の見積りを提示する</li><li>清潔で居心地のよい待合エリアに案内する</li><li>代替交通手段を提供する</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16"  fontStyle="bold" pulseColor="orange">
+                <item id="chkbtn" type="submit" x="86">
+                  <![CDATA[提出]]>
+</item>
+                <item id="chkbtn" type="print" x="right" margin="10">
+                  <![CDATA[印刷]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="4120" type="Activity_TextAreaInput" animType="none" endType="Continue">
+           <ui uid="1" type="act" atype="tai" x="left" y="10" margin="10" order="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" x="0" y="0" width="700" yPad="8" >
+                 <item type="header" fontSize="24" yPad="0">
+                <![CDATA[<b>点検および修理</b>]]>
+</item>
+              <item type="questiontext" fontSize="16">
+                <![CDATA[顧客の期待: どのような修理またはメンテナンスが必要か知らせてほしい。 この期待事項を満たすため、ディーラーは多くの業務基準を活用できますが、その中でも特に有効と思われるものは何ですか。]]>
+</item>
+              <item type="directiontext" fontSize="14">
+                <![CDATA[解答方法: 解答を入力して [提出] をクリックし、その他思い付くアイデアを追加します。この解答を印刷して、実際の業務において参照するとよいでしょう。]]>
+</item>
+              </actui>
+               <actui type="actui" xPad="8" yPad="8">
+                <item type="txtinput" x="0" y="0"  fontSize="16" fontStyle="reg" fontAlign="left" width="246" height="240" fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1">
+                  <![CDATA[ここから入力を開始。]]>
+</item>
+                <item type="txtresult" x="266" y="0" width="444" height="240" fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1"  fontSize="14" fontStyle="reg" fontAlign="left">
+     <![CDATA[<li>適切なトレーニングを受けた技術者がいることを確認し、作業を割り当てる</li><li>必要なパーツの在庫があることを確認する</li><li>故障診断コードと更新すべき点の特定を含む車両点検を実施、記録する</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16"  fontStyle="bold" pulseColor="orange">
+                <item id="chkbtn" type="submit" x="86">
+                  <![CDATA[提出]]>
+</item>
+                <item id="chkbtn" type="print" x="right" margin="10">
+                  <![CDATA[印刷]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="4125" type="Activity_TextAreaInput" animType="none" endType="Continue">
+          <ui uid="1" type="act" atype="tai" x="left" y="10" margin="10" order="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" x="0" y="0" width="700" yPad="8" >
+                  <item type="header" fontSize="24" yPad="0">
+                <![CDATA[<b>顧客コンサルティング</b>]]>
+</item>
+              <item type="questiontext" fontSize="16">
+                <![CDATA[顧客の期待: 必要な処置とその費用、所要時間を一緒に確認してほしい。 この期待事項を満たすため、ディーラーはいくつかの業務基準を活用できますが、その中でも特に有効と思われるものは何ですか。]]>
+</item>
+              <item type="directiontext" fontSize="14">
+                <![CDATA[解答方法: 解答を入力して [提出] をクリックし、その他思い付くアイデアを追加します。この解答を印刷して、実際の業務において参照するとよいでしょう。]]>
+</item>
+              </actui>
+               <actui type="actui" xPad="8" yPad="8">
+                <item type="txtinput" x="0" y="0"  fontSize="16" fontStyle="reg" fontAlign="left" width="246" height="240" fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1">
+                  <![CDATA[ここから入力を開始。]]>
+</item>
+                <item type="txtresult" x="266" y="0" width="444" height="240" fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1"  fontSize="14" fontStyle="reg" fontAlign="left">
+    <![CDATA[<li>点検結果と提案内容、費用と所要時間の見積りを顧客と共に確認し、実施の承諾を得る</li><li>まずは顧客にとって必要度の高い修理項目に対応する</li><li>修理内容や費用について顧客の理解、承諾を確認する</li><li>修理内容やパーツの入手可用性、費用、所要時間について変更が生じた場合は顧客に報告する</li><li>特別注文したパーツが届いたら１営業日以内に顧客に連絡する</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16"  fontStyle="bold" pulseColor="orange">
+                <item id="chkbtn" type="submit" x="86">
+                  <![CDATA[提出]]>
+</item>
+                <item id="chkbtn" type="print" x="right" margin="10">
+                  <![CDATA[印刷]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="4130" type="Activity_TextAreaInput" animType="none" endType="Continue">
+           <ui uid="1" type="act" atype="tai" x="left" y="10" margin="10" order="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" x="0" y="0" width="700" yPad="8" >
+                 <item type="header" fontSize="24" yPad="0">
+                <![CDATA[<b>品質管理</b>]]>
+</item>
+              <item type="questiontext" fontSize="16">
+                <![CDATA[顧客の期待: 私の車両の問題を、来店初回で適切に解決してほしい。この期待事項を満たすため、ディーラーはいくつかの業務基準を活用できますが、その中でも特に有効と思われるものは何ですか。]]>
+</item>
+              <item type="directiontext" fontSize="14">
+                <![CDATA[解答方法: 解答を入力して [提出] をクリックし、その他思い付くアイデアを追加します。この解答を印刷して、実際の業務において参照するとよいでしょう。]]>
+</item>
+              </actui>
+              <actui type="actui" xPad="8" yPad="8">
+                <item type="txtinput" x="0" y="0"  fontSize="16" fontStyle="reg" fontAlign="left" width="246" height="250" fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1">
+                  <![CDATA[ここから入力を開始。]]>
+</item>
+                <item type="txtresult" x="266" y="0" width="416" height="250" fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1"  fontSize="16" fontStyle="reg" fontAlign="left">
+                  <![CDATA[<li>品質チェックを実施、記録して、依頼された業務が完了していることを確認する</li><li>顧客に車両を返却する前に問題をすべて解決する</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16"  fontStyle="bold" pulseColor="orange">
+                <item id="chkbtn" type="submit" x="86">
+                  <![CDATA[提出]]>
+</item>
+                <item id="chkbtn" type="print" x="right" margin="10">
+                  <![CDATA[印刷]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="4135" type="Activity_TextAreaInput" animType="none" endType="Continue">
+           <ui uid="1" type="act" atype="tai" x="left" y="10" margin="10" order="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" x="0" y="0" width="700" yPad="8" >
+                 <item type="header" fontSize="24" yPad="0">
+                <![CDATA[<b>納車</b>]]>
+</item>
+              <item type="questiontext" fontSize="16">
+                <![CDATA[顧客の期待: 約束の日時に必ず車両を引き取れるよう準備ができており、引き取りの際に余計な手間をかけたくない。 この期待事項を満たすため、ディーラーはいくつかの業務基準を活用できますが、その中でも特に有効と思われるものは何ですか。]]>
+</item>
+              <item type="directiontext" fontSize="14">
+                <![CDATA[解答方法: 解答を入力して [提出] をクリックし、その他思い付くアイデアを追加します。この解答を印刷して、実際の業務において参照するとよいでしょう。]]>
+</item>
+              </actui>
+              <actui type="actui" xPad="8" yPad="8">
+                <item type="txtinput" x="0" y="0"  fontSize="16" fontStyle="reg" fontAlign="left" width="246" height="240" fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1">
+                  <![CDATA[ここから入力を開始。]]>
+</item>
+                <item type="txtresult" x="266" y="0" width="416" height="240" fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1"  fontSize="16" fontStyle="reg" fontAlign="left">
+                  <![CDATA[<li>顧客に都合の良い点検・引き取り方法を提供する</li><li>約束の日時に車両を引き渡せるようにする</li><li>修理内容と料金について顧客に詳しく説明する</li><li>納車時にサービス取引関連の書類を提供する</li><li>次回のアフターサービスの予約設定を申し出る</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16"  fontStyle="bold" pulseColor="orange">
+                <item id="chkbtn" type="submit" x="86">
+                  <![CDATA[提出]]>
+</item>
+                <item id="chkbtn" type="print" x="right" margin="10">
+                  <![CDATA[印刷]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="4140" type="Activity_TextAreaInput" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="tai" x="left" y="10" margin="10" order="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" x="0" y="0" width="700" yPad="8" >
+                  <item type="header" fontSize="24" yPad="0">
+                <![CDATA[<b>フォローアップ</b>]]>
+</item>
+              <item type="questiontext" fontSize="16">
+                <![CDATA[顧客の期待: 問題がないことを確認するために、ディーラーからフォローアップの電話がほしい。 この期待事項を満たすため、ディーラーはいくつかの業務基準を活用できますが、その中でも特に有効と思われるものは何ですか。]]>
+</item>
+              <item type="directiontext" fontSize="14">
+                <![CDATA[解答方法: 解答を入力して [提出] をクリックし、その他思い付くアイデアを追加します。この解答を印刷して、実際の業務において参照するとよいでしょう。]]>
+</item>
+              </actui>
+              <actui type="actui" xPad="8" yPad="8">
+                <item type="txtinput" x="0" y="0"  fontSize="16" fontStyle="reg" fontAlign="left" width="246" height="240" fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1">
+                  <![CDATA[ここから入力を開始。]]>
+</item>
+                <item type="txtresult" x="266" y="0" width="416" height="240" fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1"  fontSize="16" fontStyle="reg" fontAlign="left">
+                  <![CDATA[<li>納車日から 2 日以内に顧客に連絡し、車両およびディーラーのサービスに対する満足度とその他の懸念を確認する</li><li>顧客が希望する連絡方法でフォローアップを行う</li><li>キャンセルなどで実施されなかったすべてのサービス アポイントメントの予約日時を再設定する</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16"  fontStyle="bold" pulseColor="orange">
+              <item id="chkbtn" type="submit" x="86">
+                  <![CDATA[提出]]>
+</item>
+                <item id="chkbtn" type="print" x="right" margin="10">
+                  <![CDATA[印刷]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

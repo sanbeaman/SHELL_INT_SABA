@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCEKOWB" template="ASCE" localeID="ko" debug="false">
+    <title>
+      <![CDATA[탁월한 고객 경험]]>
+</title>
+  </course>
+  <section id="0" snumber="5000">
+    <header>
+      <![CDATA[인맥 쌓기]]>
+</header>
+   <scenes>
+      <scene sNumber="5100" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[인간적인 교감의 힘]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="5105" type="BulletImageGlow" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="680" x="left" y="top"  margin="10" fontSize="18" time="1" trans="slideRight" ease="QuintEaseOut" yPad="0">
+              <bodyBullet id="bb0" order="1" yPad="0">
+                <![CDATA[재거래를 위해 대리점을 재차 방문하고 다른 이들에게 여러분을 추천하는 충성도 높은 고객을 확보하려면 최대한 많은 고객들과 개인적인 관계를 맺어야 합니다. 여기 그 방법이 나와 있습니다.]]>
+</bodyBullet>
+            </ui>
+             <ui uid="3" type="bodyBulletCol"  width="160" x="left" y="270" margin="20" fontSize="12" textStyle="textflow" time="1" trans="slideUp" ease="QuintEaseOut"  syncType="buildx" xPad="18">
+              <item id="bbc1" order="50" target="img1" targetTrigger="imageglow" targetParams="4" xPad="0">
+<![CDATA[<list listStylePosition="outside" listStyleType="decimal" paddingLeft="10"><listMarkerFormat><ListMarkerFormat counterIncrement="ordered 1" /></listMarkerFormat><li>고객을 제대로 알아라<list listStylePosition="outside"  listStyleType="disc" ><listMarkerFormat><ListMarkerFormat beforeContent="" /></listMarkerFormat><li>고객을 수리 주문서에 적힌 이름이 아닌 한 개인으로 알아갑니다 </li> </list></li></list>]]>
+</item>
+ <item id="bbc2" order="51" target="img2" targetTrigger="imageglow" targetParams="4">
+<![CDATA[<list listStylePosition="outside" listStyleType="decimal" paddingLeft="24"><listMarkerFormat><ListMarkerFormat counterIncrement="ordered 2"/></listMarkerFormat><li>고객이 특별한 존재라는 생각이 들게끔 하라<list listStyleType="disc" paddingLeft="50"><listMarkerFormat><ListMarkerFormat /></listMarkerFormat><li>고객이 자신에 대해 이야기하도록 유도합니다</li><li>이야기를 경청하면서 공통 관심사가 있는지 찾아 개인적인 유대감을 만듭니다</li></list></li></list>]]>
+</item>
+             
+              <item id="bbc3" order="52" target="img3" targetTrigger="imageglow" targetParams="4">
+<![CDATA[<list listStylePosition="outside" listStyleType="decimal"> <listMarkerFormat><ListMarkerFormat counterIncrement="ordered 3"/></listMarkerFormat> <li>신뢰와 가치를 쌓아라<list listStylePosition="outside" listStyleType="disc"><li>고객이 필요로 하는 바를 지지합니다</li><li>정직하고 솔직하게 고객을 대합니다</li></list></li></list>]]>
+</item>
+              <item id="bbc4" order="53" target="img4" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[<list listStylePosition="outside" listStyleType="decimal"> <listMarkerFormat><ListMarkerFormat counterIncrement="ordered 4"/></listMarkerFormat> <li>계속 연락을 유지하라<list listStylePosition="outside" listStyleType="disc"><li>고객이 대리점을 떠나자마자 기억에서 지우지 마십시오</li></list></li></list>]]>
+</item>
+            </ui>
+            <ui uid="5" type="bodyImageGlow" x='20' y='90' width="154" height="160" margin="20"  fillColor="0x000000" fillAlpha="1" frameShape="roundRect" frameColor="0x000000" frameSize="2" frameAlpha="1" pulseColor="orange" trans="slideLeft" ease="QuintEaseOut" syncType="buildx" xPad="24">
+              <item id="img1" order="2" time="1" url="5105_1.jpg" xPad="0">x</item>
+              <item id="img2" order="3" time="1" url="5105_2.jpg">x</item>
+              <item id="img3" order="4" time="1" url="5105_3.jpg">x</item>
+              <item id="img4" order="5" time="1" url="5105_4.jpg">x</item>
+            </ui>
+          </slide>
+          <slide sNumber="5110" type="Activity_MultipleChoice" animType="none" endType="Continue">
+           <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" trans="slideUp" ease="QuintEaseOut" xPad="10" yPad="10">
+           <actui type="ScreenText" width="680" x="left" y="0" margin="0" syncType="buildy" yPad="10">
+         <item type="header" fontSize="24" yPad="0">
+                <![CDATA[<b>고객을 제대로 알아라</b>]]>
+</item>
+              <item type="questiontext" fontSize="18">
+                <![CDATA[고객을 알아가기 위해 이용할 수 있는 기법에는 무엇이 있습니까?]]>
+</item>
+              <item type="directiontext" fontSize="14">
+                <![CDATA[설명: 해당되는 사항을 모두 선택하십시오. 그런 다음 “정답 확인”을 클릭하십시오.]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="cb" width="660" height="36" x="left" y="0" margin="0" fontSize="16" fontColor="0x000000"  fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="0x000000" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="16">
+              <item id="i1" isanswer="true">
+                <![CDATA[고객의 이름을 외워 부릅니다]]>
+</item>
+              <item id="i2" isanswer="true">
+                <![CDATA[차량을 선택한 안목에 대해 칭찬합니다]]>
+</item>
+              <item id="i3" isanswer="false">
+                <![CDATA[각 고객에게 본인의 사진을 제공해줄 것을 요청하고 양식에 고객의 개인 정보를 기입합니다]]>
+</item>
+              <item id="i4" isanswer="true">
+                <![CDATA[본인이 모든 것을 처리해 드릴 테니 본인을 찾을 것을 고객에게 요청합니다]]>
+</item>
+              </actui>
+                <actui type="actbtns" width="200" height="34" x="right" y="0" margin="10" fontSize="16"  fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[정답 확인]]>
+</item>
+              </actui>
+                <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                 <item type="correct">
+                <![CDATA[정답입니다! 이러한 간단한 요청을 통해 고객을 알아나가도록 합니다. 이는 개인적인 관계를 맺으려는 노력을 하지 않는 경쟁 업체들로부터 여러분의 대리점을 차별화할 수 있는 첫 단계입니다. 고객을 알아가기 위한 다른 여러 방법을 보려면 다음을 선택하십시오.]]>
+</item>
+              <item type="wrong">
+                <![CDATA[오답입니다. 첫 번째, 두 번째, 네 번째 답변이 정답입니다. 이러한 간단한 요청을 통해 고객을 알아나가도록 합니다. 이는 개인적인 관계를 맺으려는 노력을 하지 않는 경쟁 업체들로부터 여러분의 대리점을 차별화할 수 있는 첫 단계입니다. 고객을 알아가기 위한 다른 여러 방법을 보려면 다음을 선택하십시오.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+       <slide sNumber="5115" type="BulletImageBuild" animType="animsync" endType="Continue">
+      <ui uid="3" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut"  syncType="buildy" yPad="10">
+            <bodyBullet id="bb0" order="2" fontSize="24" fontStyle="bold" time=".5" yPad="0">
+                <![CDATA[<b>고객을 제대로 알아라</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4">
+                <![CDATA[<li>본인을 소개합니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+                <![CDATA[<li>고객에게 거래에 대한 감사 인사를 전합니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="8">
+                <![CDATA[<li>고객이 부서의 다른 부분을 둘러볼 수 있도록 안내합니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="10">
+                <![CDATA[<li>열의가 가득 찬 자세로 강력한 인상을 남깁니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="12">
+               <![CDATA[<li>지점에서 고객의 구매 사항을 전적으로 지원한다는 점을 설명합니다</li>]]>
+</bodyBullet>
+            </ui>
+           <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10"  scaleMode="width" time="1" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="25">
+              <bodyImage id="i1" order="5" url="5115_1.jpg" yPad="0">
+                <![CDATA[image 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="7" url="5115_2.jpg">
+                <![CDATA[Image 2]]>
+</bodyImage>
+              <bodyImage id="i3" order="9" url="5115_3.jpg">
+                <![CDATA[Image 3]]>
+</bodyImage>
+            </ui>
+          </slide>
+        <slide sNumber="5120" type="Activity_MultipleChoice" animType="none" endType="Continue">
+             <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" yPad="10" xPad="10" trans="slideUp" ease="QuintEaseOut"><actui type="ScreenText" width="680" x="left" y="0" margin="0" syncType="buildy" yPad="10">
+             <item type="header" fontSize="24" yPad="0">
+                <![CDATA[<b>고객이 특별한 존재라는 생각이 들게끔 하라</b>]]>
+</item>
+              <item type="questiontext" fontSize="18">
+                <![CDATA[고객이 특별한 존재라는 생각이 들게 하기 위해 이용할 수 있는 기법에는 무엇이 있습니까?]]>
+</item>
+              <item type="directiontext" fontSize="14">
+                <![CDATA[설명: 해당되는 사항을 모두 선택하십시오. 그런 다음 “정답 확인”을 클릭하십시오.]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="cb" width="600" height="36" x="left" y="0" margin="0" fontSize="16" fontColor="0x000000"  fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="0x000000" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="16">
+             <item id="i1" isanswer="true">
+                <![CDATA[고객이 자신에 대해 이야기하도록 유도합니다]]>
+</item>
+              <item id="i2" isanswer="false">
+                <![CDATA[고객에게 동일한 수리나 유지 관리 작업이 필요했던 최근의 다른 고객에 대해 이야기합니다]]>
+</item>
+              <item id="i3" isanswer="true">
+                <![CDATA[여러분 자신에 대한 이야기를 조금 나눠 유대감을 형성하고 공통 관심사가 있는 분야가 있는지 찾습니다]]>
+</item>
+              <item id="i4" isanswer="false">
+                <![CDATA[다른 고객들과 동등한 대우를 받게 될 것이라고 고객을 안심시킵니다]]>
+</item>
+              </actui>
+                <actui type="actbtns" width="200" height="34" x="right" y="0" margin="20" fontSize="16"  fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[정답 확인]]>
+
+</item>
+              </actui>
+                <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+               <item type="correct">
+                <![CDATA[정답입니다! 대부분의 고객들은 특별한 기분이 들게 해주려고 애쓰는 여러분에게 긍정적인 반응을 보입니다. 좀 더 효과가 뛰어난 기법을 보려면 다음을 선택하십시오.]]>
+</item>
+              <item type="wrong">
+                <![CDATA[오답입니다. 첫 번째와 세 번째 답변이 정답입니다. 대부분의 고객들은 특별한 기분이 들게 해주려고 애쓰는 여러분에게 긍정적인 반응을 보입니다. 좀 더 효과가 뛰어난 기법을 보려면 다음을 선택하십시오.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+       <slide sNumber="5125" type="BulletImageBuild" animType="animsync" endType="Continue">
+           <ui uid="3" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut"  syncType="buildy" yPad="10">
+            <bodyBullet id="bb0" order="1" fontSize="24" fontStyle="bold" time=".5" yPad="0">
+                  <![CDATA[<b>고객이 특별한 존재라는 생각이 들게끔 하라</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4">
+                <![CDATA[<li>고객의 이야기를 경청하고 고객이 자신의 이야기를 나누도록 적극적으로 유도합니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+                <![CDATA[<li>고객의 성격에 맞춥니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="8">
+                <![CDATA[<li>진심으로 흥미있어 합니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="10">
+                <![CDATA[<li>고객에게 대리점 영업 시간, 서비스 및 구조를 알려줘 대리점에서 편안한 기분이 들게 합니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="12">
+                <![CDATA[<li>이용 가능한 Mopar 액세서리 및 성능 부품에 대해 설명합니다</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10" scaleMode="width" time="1" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="25">
+              <bodyImage id="i1" order="5" url="5125_1.jpg" yPad="0">
+                <![CDATA[image 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="7" url="5125_2.jpg">
+                <![CDATA[Image 2]]>
+</bodyImage>
+              <bodyImage id="i3" order="9" url="5125_3.jpg">
+                <![CDATA[Image 3]]>
+</bodyImage>
+            </ui>
+          </slide>
+      <slide sNumber="5130" type="Activity_MultipleChoice" animType="none" endType="Continue">
+             <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" yPad="10" xPad="10" trans="slideUp" ease="QuintEaseOut"><actui type="ScreenText" width="680" x="left" y="0" margin="0" syncType="buildy" yPad="10">
+               <item type="header" fontSize="24" yPad="0">
+                <![CDATA[<b>고객과 신뢰와 가치를 구축하라</b>]]>
+</item>
+              <item type="questiontext" fontSize="18">
+                <![CDATA[신뢰와 가치를 쌓는 데 도움이 되는 기법에는 무엇이 있습니까?]]>
+</item>
+              <item type="directiontext" fontSize="14">
+                <![CDATA[설명: 해당되는 사항을 모두 선택하십시오. 그런 다음 “정답 확인”을 클릭하십시오.]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="cb" width="660" height="36" x="left" y="0" margin="0" fontSize="16" fontColor="0x000000"  fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="0x000000" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="16">
+               <item id="i1" isanswer="false">
+                <![CDATA[차를 검사하면서 어떤 문제점도 발견하지 못했더라도 필요한 작업을 수행하여 여러분이 일을 제대로 하고 있다는 것을 고객이 믿도록 합니다]]>
+</item>
+              <item id="i2" isanswer="true">
+                <![CDATA[작업이 필요하지 않은 경우에도 항상 검사 결과를 보고합니다]]>
+</item>
+              <item id="i3" isanswer="false">
+                <![CDATA[고객이 모르고 있더라도 필요한 모든 수리 작업을 완료합니다]]>
+</item>
+              <item id="i4" isanswer="true">
+                <![CDATA[적절할 경우 관련 부품을 추천합니다]]>
+</item>
+              </actui>
+             <actui type="actbtns" width="200" height="34" x="right" y="0" margin="10" fontSize="16"  fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[정답 확인]]>
+
+</item>
+              </actui>
+                <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+           <item type="correct">
+                <![CDATA[정답입니다! 정직하고 솔직하게 고객을 대해야 고객이 차량 서비스가 필요할 때 이를 전적으로 여러분에게 맡기게 됩니다. 신뢰와 가치를 쌓는 여러 방법을 확인하려면 다음을 선택하십시오.]]>
+</item>
+              <item type="wrong">
+                <![CDATA[오답입니다. 두 번째와 네 번째 답변이 정답입니다. 정직하고 솔직하게 고객을 대해야 고객이 차량 서비스가 필요할 때 이를 전적으로 여러분에게 맡기게 됩니다. 신뢰와 가치를 쌓는 여러 방법을 확인하려면 다음을 선택하십시오.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        <slide sNumber="5135" type="BulletImageBuild" animType="animsync" endType="Continue">   
+       <ui uid="3" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut"  syncType="buildy" yPad="10">
+            <bodyBullet id="bb0" order="1" fontSize="24" fontStyle="bold" time=".5" yPad="0">
+                <![CDATA[<b>고객과 신뢰와 가치를 구축하라</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4">
+                <![CDATA[<li>차량 수리에 짜증이 나 있는 고객에게 진심으로 공감하는 말을 전합니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+                <![CDATA[<li>차후의 분쟁을 막기 위해 원래 있던 손상을 문서로 기록합니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="8">
+                <![CDATA[<li>고객의 시간(상태 업데이트 제공)과 지출에 대해 염려하는 모습을 보여줍니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="10">
+                <![CDATA[<li>고객이 필요한 수리 항목들의 우선 순위를 정하도록 돕습니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="12">
+                <![CDATA[<li>일관성을 가지고 서비스를 제공합니다. 예를 들어 평소에 정비를 마친 후 세차 서비스까지 제공한다면, 항상 모든 차량을 세차해야 합니다</li>]]>
+</bodyBullet>
+            </ui>
+              <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10" scaleMode="width" time="1" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="25">
+             <bodyImage id="i1" order="5" url="5135_1.jpg" yPad="0">
+                <![CDATA[image 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="7"   url="5135_2.jpg">
+                <![CDATA[Image 2]]>
+</bodyImage>
+              <bodyImage id="i3" order="11" url="5135_3.jpg">
+                <![CDATA[Image 3]]>
+</bodyImage>
+            </ui>
+          </slide>
+        <slide sNumber="5140" type="Activity_MultipleChoice" animType="none" endType="Continue">
+             <ui uid="1" type="act" atype="mc" x="left" y="10" margin="10" yPad="10" xPad="10" trans="slideUp" ease="QuintEaseOut"><actui type="ScreenText" width="680" x="left" y="0" margin="0" syncType="buildy" yPad="10">
+        <item type="header" fontSize="24" yPad="0">
+                <![CDATA[<b>계속 연락을 유지하라</b>]]>
+</item>
+              <item type="questiontext" fontSize="18">
+                <![CDATA[고객과 연락을 유지하기 위한 기법에는 무엇이 있습니까?]]>
+</item>
+              <item type="directiontext" fontSize="14">
+                <![CDATA[설명: 해당되는 사항을 모두 선택하십시오. 그런 다음 “정답 확인”을 클릭하십시오.]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="cb" width="600" height="36" x="left" y="0" margin="0" fontSize="16" fontColor="0x000000"  fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="0x000000" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="16">
+              <item id="i1" isanswer="false">
+                <![CDATA[서비스 특가 내용이 포함된 문자 메시지를 매주 고객에게 보냅니다]]>
+</item>
+              <item id="i2" isanswer="false">
+                <![CDATA[2주에 한 번씩 고객에게 전화하거나 이메일을 보내 수리나 유지 관리 작업이 필요한지 확인합니다]]>
+</item>
+              <item id="i3" isanswer="true">
+                <![CDATA[서비스 특별 상품을 위한 쿠폰을 제공합니다]]>
+</item>
+              <item id="i4" isanswer="true">
+                <![CDATA[적절하게 생일 카드나 특별한 경우를 축하하는 카드를 보냅니다]]>
+</item>
+              </actui>
+            <actui type="actbtns" width="200" height="34" x="right" y="0" margin="20" fontSize="16"  fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[정답 확인]]>
+
+</item>
+              </actui>
+                <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                 <item type="correct">
+                <![CDATA[정답입니다! 대부분의 고객들은 여러분들로부터 가끔 연락을 받게 되면 고맙게 여기며, 이로 인해 고객들이 서비스가 필요한 시점이 되면 여러분의 이름을 떠올릴 수 있게 됩니다. 고객과 연락을 유지할 수 있는 다른 여러 방법을 확인하려면 '다음'을 선택하십시오.]]>
+</item>
+              <item type="wrong">
+                <![CDATA[오답입니다. 세 번째와 네 번째 답변이 정답입니다. 대부분의 고객들은 여러분들로부터 가끔 연락을 받게 되면 고맙게 여기며, 이로 인해 고객들이 서비스가 필요한 시점이 되면 여러분의 이름을 떠올릴 수 있게 됩니다. 고객과 연락을 유지할 수 있는 다른 여러 방법을 확인하려면 '다음'을 선택하십시오.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        <slide sNumber="5145" type="BulletImageBuild" animType="animsync" endType="Continue">
+      <ui uid="3" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut"  syncType="buildy" yPad="10">
+            <bodyBullet id="bb0" order="1" fontSize="24" fontStyle="bold" time=".5" yPad="0">
+                <![CDATA[<b>계속 연락을 유지하라</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4">
+                <![CDATA[<li>고객이 서비스를 받으러 방문한 후에는 곧 후속 관리 차원으로 전화를 해 문제가 없는지 확인합니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+                <![CDATA[<li>거래에 대한 감사 인사를 전하는 감사 이메일 또는 서신을 보냅니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="8">
+                <![CDATA[<li>차주들을 위한 서비스 클리닉과 같이 대리점에 큰 행사가 있을 때 이를 고객에게 알립니다 </li>]]>
+</bodyBullet>
+            </ui>
+ <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10" scaleMode="width" time="1" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="25">
+                <bodyImage id="i1" order="5" url="5145_1.jpg" yPad="0">
+                <![CDATA[image 1]]>
+</bodyImage>
+            </ui>
+          </slide>
+       </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

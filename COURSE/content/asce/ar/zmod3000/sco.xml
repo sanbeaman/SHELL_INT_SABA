@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCEARWB" template="ASCE" localeID="ar" debug="false">
+    <title>
+      <![CDATA[تجربة عملاء رائعة]]>
+</title>
+  </course>
+  <section id="0" snumber="3000">
+    <header>
+      <![CDATA[كيف يمكنك بناء ولاء العميل؟]]>
+</header>
+    <scenes>
+      <scene sNumber="3100" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+      <![CDATA[الدوافع الرئيسية الخمسة لولاء العميل للخدمة]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+         <slide sNumber="3105" type="TextImageAround" animType="timesync" endType="Continue">
+           <ui uid="2" type="BodyText" width="300" height="200" x="center" y="200" fontSize="18" fontColor="black" fontAlign="center" effect="none" time="1" trans="slideup" ease="QuintEaseOut" syncType="replace">
+              <bodyBullet id="bb1" timeIn="1" timeOut="999">
+      <![CDATA[و تكتسب ولاء العملاء عندما تتجاوز توقعاتهم في كل من التعاملات والأنشطة المتعددة التي تشّكل تجربة الخدمة ككل.ويمكن تصنيف نقاط التواصل مع العملاء هذه إلى خمس فئات.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="BodyImage" width="240" height="160" x="center" y="top" margin="20" effect="none" scaleMode="none" time="1" trans="slideup" ease="QuintEaseOut">
+              <bodyImage id="img1" url="3105_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[main image]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="BodyImage" width="150" height="100" x="left" y="100" margin="20" effect="none" scaleMode="none" trans="slideright" ease="QuintEaseOut" time="1" syncType="buildy" yPad="80">
+              <bodyImage id="img2" url="3105_2.jpg" timeIn="2" timeOut="999" yPad="0">
+                <![CDATA[img2]]>
+</bodyImage>
+              <bodyImage id="img4" url="3105_4.jpg" timeIn="4" timeOut="999">
+                <![CDATA[img4]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="BodyImage" x="right" y="100" margin="20" width="150" height="100" effect="none" scaleMode="none" trans="slideleft" ease="QuintEaseOut" time="1" syncType="buildy" yPad="80">
+              <bodyImage id="img3" url="3105_3.jpg" timeIn="3" timeOut="999" yPad="0">
+                <![CDATA[img3]]>
+</bodyImage>
+              <bodyImage id="img5" url="3105_5.jpg" timeIn="5" timeOut="999">
+                <![CDATA[img5]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="3110" type="TextImageReplace" animType="timesync" endType="continue">
+          <ui uid="2" type="BodyText" width="660" height="190" x="center" y="270" margin="0" fontSize="18" fontColor="black" fontAlign="center" effect="none" time="2" ease="QuintEaseOut" trans="slideLeft" syncType="replace">       
+              <bodyBullet id="bb1" timeIn=".5" timeOut="6">
+      <![CDATA[استشاري الصيانة]]>
+</bodyBullet>
+              <bodyBullet id="bb2" timeIn="6.5" timeOut="12">
+      <![CDATA[جودة الخدمة/التصليح من الزيارة الأولى]]>
+</bodyBullet>
+              <bodyBullet id="bb3" timeIn="12.5" timeOut="18">
+      <![CDATA[نظام/عملية الخدمة]]>
+</bodyBullet>
+              <bodyBullet id="bb4" timeIn="18.5" timeOut="24">
+      <![CDATA[منطقة المرافق/الانتظار ]]>
+</bodyBullet>
+              <bodyBullet id="bb5" timeIn="24.5" timeOut="999">
+      <![CDATA[السعر/رسم الخدمة]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="20" scaleMode="none" time="1" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="3110_1.jpg" timeIn=".2" timeOut="6">
+                <![CDATA[image1]]>
+</bodyImage>
+              <bodyImage id="i2" url="3110_2.jpg" timeIn="6.5" timeOut="12">
+                <![CDATA[Image2]]>
+</bodyImage>
+              <bodyImage id="i3" url="3110_3.jpg" timeIn="12.5" timeOut="18">
+                <![CDATA[image3]]>
+</bodyImage>
+              <bodyImage id="i2" url="3110_4.jpg" timeIn="18.5" timeOut="24">
+                <![CDATA[Image4]]>
+</bodyImage>
+              <bodyImage id="i5" url="3110_5.jpg" timeIn="24.5" timeOut="999">
+                <![CDATA[image5]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="3115" type="TextImageAround" animType="timesync" endType="Continue">
+            <ui uid="2" type="BodyText" width="300" height="200" x="center" y="200" margin="0" fontSize="18" fontColor="black" fontAlign="center" effect="none" time="1" trans="slideup" ease="QuintEaseOut" syncType="build">
+              <bodyBullet id="bb1" timeIn="1" timeOut="999">
+      <![CDATA[بالرغم من أن وكالة البيع لديك قد تُرتب تجربة العملاء إلى فئات مختلفة قليلًا، إلا أنه ما زال يمكنك محاولة تحقيق عملاء راضين ومخلصين في جميع المجالات. فأنت تعرف ما يتطلبه العمل الجماعي في كل المجالات لتحقيق النجاح الفعلي.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="BodyImage" width="240" height="160"  x="center" y="top" margin="20" effect="none" scaleMode="none"  time="1" trans="slideup" ease="QuintEaseOut">
+              <bodyImage id="img1" url="3115_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[main image]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="BodyImage" width="150" height="100" x="left" y="100" margin="20" effect="none" scaleMode="none" time="1" trans="slideright" ease="QuintEaseOut" syncType="buildy" yPad="80">
+              <bodyImage id="img2" url="3115_2.jpg" timeIn="2" timeOut="999" yPad="0">
+                <![CDATA[img2]]>
+</bodyImage>
+              <bodyImage id="img4" url="3115_4.jpg" timeIn="4" timeOut="999">
+                <![CDATA[img4]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="BodyImage" width="150" height="100"  x="right" y="100" margin="20" effect="none" scaleMode="none" time="1"  trans="slideleft" ease="QuintEaseOut" syncType="buildy" yPad="80">
+              <bodyImage id="img3" url="3115_3.jpg" timeIn="3" timeOut="999" yPad="0">
+                <![CDATA[img3]]>
+</bodyImage>
+              <bodyImage id="img5" url="3115_5.jpg" timeIn="5" timeOut="999">
+                <![CDATA[img5]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="3120" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="460" x="left" y="20"  margin="10" fontSize="18" fontColor="black"  time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="2" yPad="0">
+      <![CDATA[<li>فكّر في اثنين من أعضاء فريقك - داخل قسمك وكذلك عبر وكالة البيع ككل</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+      <![CDATA[<li>عليكم جميعًا الاعتماد على بعضكم البعض للحفاظ على كفاءة سير العمل للاحتفاظ برضا العملاء </li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="10">
+      <![CDATA[<li>حسب طبيعة الموقف، يأخذ مختلف أعضاء الفريق بزمام المبادرة في أوقات مختلفة لتحقيق الهدف ككل</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="20" margin="10" trans="slideLeft" ease="BackEaseOut" time="1" syncType="buildy" yPad="15">
+              <bodyImage id="i1" order="4" yPad="0" url="3120_1.jpg">
+                <![CDATA[image 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="8" url="3120_2.jpg">
+                <![CDATA[Image 2]]>
+</bodyImage>
+              <bodyImage id="i3" order="12" url="3120_3.jpg">
+                <![CDATA[Image 3]]>
+</bodyImage>
+            </ui>
+          </slide>
+           <slide sNumber="3125" type="Activity_Match" animType="none" endType="Continue">
+               <ui uid="1" type="act" atype="match" x="right" y="top"  margin="10" time="1" trans="slideUp" ease="QuintEaseOut">
+              <actui type="ScreenText" width="710" yPad="10">
+                <item type="screentext" fontSize="20" yPad="0">
+      <![CDATA[دعونا نستغرق دقائق للتعرُّف على كيفية اتخاذ أحد أعضاء الفريق بزمام المبادرة.]]>
+</item>
+                <item type="directiontext" fontSize="14">
+      <![CDATA[تعليمات: طابق عضو الفريق ناحية اليسار مع ما يفعله لأخذ زمام المبادرة لتقديم خدمة متميِّزة لعميل ناحية اليمين.]]>
+</item>
+              </actui>
+              <actui uid="0" type="SubHeader" order="5" fontColor="black" fontSize="18" screen="1">
+                <item id="i1" type="dragHeader" width="200" height="40" fontAlign="center">
+      <![CDATA[عضو الفريق]]>
+</item>
+                <item id="i2" type="dropHeader" width="360" height="40" fontAlign="center">
+      <![CDATA[مهمة القيادة]]>
+</item>
+              </actui>
+              <actui uid="1" type="MatchBtn" width="200" height="40" x="0" y="0"  layout="1col" fontSize="14" fontColor="black" fontStyle="bold" fontAlign="center" fontVertAlign="middle" fillColor="greycc" fillAlpha="1" frameSize="1" frameColor="white" frameAlpha="1" fillType="gradient" fillColor2="greycc" xPad="20" yPad="10">
+                <item id="i1" isanswer="drop01">
+      <![CDATA[استشاري الصيانة]]>
+</item>
+                <item id="i2" isanswer="drop02">
+      <![CDATA[العتَّال]]>
+</item>
+                <item id="i3" isanswer="drop03">
+      <![CDATA[استشاري قطع الغيار]]>
+</item>
+                <item id="i4" isanswer="drop04">
+      <![CDATA[أمين الصندوق]]>
+</item>
+                <item id="i5" isanswer="drop05">
+      <![CDATA[ فني الصيانة]]>
+</item>
+                <item id="i6" isanswer="drop06">
+      <![CDATA[مسؤول الضمان]]>
+</item>
+              </actui>
+              <actui uid="1" type="MatchTarget" width="360" height="40" x="right" y="0" margin="0" layout="default" fontSize="12" fontColor="black" fontStyle="reg" fontAlign="left" fontVertAlign="middle" fillColor="orangegrad1" fillAlpha="1" frameSize="1" frameColor="white" frameAlpha="1" fillType="gradient" fillColor2="orangegrad2" xPad="10" yPad="10">
+                <item id="i1" isanswer="drop01">
+     <![CDATA[إجراء جولة التفقد بالسيارة مع العميل لبناء الولاء/الثقة]]>
+     </item>
+                <item id="i2" isanswer="drop02">
+      <![CDATA[التأكد من توصيل السيارة نظيفة لمكان استلام العميل للسيارة]]>
+</item>
+                <item id="i3" isanswer="drop03">
+      <![CDATA[توفير قطع الغيار للفنيين الذين يقومون بإجراء التصليحات المقررة]]>
+</item>
+                <item id="i4" isanswer="drop04">
+      <![CDATA[إعطاء نظرة عامة عن الرسوم للعميل للتأكيد على اكتمال جميع الأعمال]]>
+</item>
+                <item id="i5" isanswer="drop05">
+      <![CDATA[إصلاح السيارة من المرة الأولى. الإبلاغ عن الإصلاحات الإضافية أو احتياجات الصيانة]]>
+</item>
+                <item id="i6" isanswer="drop06">
+      <![CDATA[إرسال طلبات تخفيض التكلفة إلى العميل ووكالة البيع بصورة عاجلة]]>
+</item>
+              </actui>
+              <actui uid="3" type="feedbacktext" width="710" height="80" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct" id="pos">
+      <![CDATA[أحسنت! يمكنك أن ترى كيف يساهم كل عضو بالفريق في خلق ولاء العملاء. ينطبق مفهوم العمل الجماعي أيضًا على العلاقة بين المبيعات والخدمة وقطع الغيار. تشمل الأمثلة تقديم استشاري المبيعات العملاء لموظفي الخدمة وقطع الغيار ومساعدة المالكين الجدد على تحديد أول موعد للخدمة. عليكم الاعتماد على بعضكم البعض لتقديم تجربة رائعة على نحو متناسق!]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene sNumber="3200" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+      <![CDATA[فيما يفكر العملاء؟]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3205" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="480" x="left" y="top" margin="10" fontColor="black" fontSize="18" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="2" time=".2" yPad="0">
+      <![CDATA[كيف يمكنك أن تعرف أنك تؤدي مهامك بالشكل الملائم؟ اسألهم! ]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+      <![CDATA[يعد تعقيب العميل هو أداتك الأهم من أجل تعزيز نقاط القوة لديك والتغلب على نقاط الضعف. أيُّ من الطرق التالية تستخدمها اعتمادًا على السوق أو وكالة البيع لديك.]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="10" fontSize="14">
+      <![CDATA[<li><b>اسأل العملاء بنفسك. </b>اسأل العملاء عن رأيهم في كيفية تحسين تجربة الخدمة. شجّع العملاء على تقديم تعقيباتهم خلال زيارة الخدمة، أو أثناء التحدُّث عبر الهاتف، أو المتابعة النصية أو عبر البريد الإلكتروني </li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="12" fontSize="14">
+      <![CDATA[<li><b>استخدم مؤشر الرضاء عن المبيعات ومؤشر رضاء العملاء </b>قد يكون السوق لديك من بين الأسواق التي تستخدم نتائج استبيان العملاء لشركة جي دي باور. ومع أن تلك النتائج مفيدة في مساعدتك على اكتشاف وحل المشكلات لزيادة رضاء العملاء، تذكر أن تحقيق رضاء العملاء ليس بنفس أهمية الحصول على ولائهم </li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="14" fontSize="14">
+      <![CDATA[<li><b>استخدم نقاط مروّج العملاء. </b> يستخدم وكلاء مجموعة كرايسلر في أمريكا الشمالية وبعض الأسواق الأخرى حاليًا نقاط مروّج العملاء باعتباره الآلية الرئيسية للحصول على ملاحظاتهم. فتركيزه على ولاء العملاء يساعد على تركيز الجهود نحو تحسين ما تقوم به جيدًا بالفعل</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10" trans="slideLeft" ease="BackEaseOut" time="1" syncType="buildy" yPad="25">
+              <bodyImage id="i1" order="4" url="3205_1.jpg" yPad="0">
+                <![CDATA[image 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="8" url="3205_2.jpg">
+                <![CDATA[Image 2]]>
+</bodyImage>
+              <bodyImage id="i3" order="12" url="3205_3.jpg">
+                <![CDATA[Image 3]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="3210" type="BulletReplace" animType="timesync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="700" x="left" y="top" margin="10" fontSize="20" fontColor="black"  time="1" trans="slideRight" ease="QuintEaseOut" yPad="0">
+              <item id="bb0" order="1" timeIn=".5" timeOut="999">
+      <![CDATA[بغض النظر عن كيفية جمعك تعقيبات العملاء، فإن العملية الفعَّالة لاستخدامها من أجل تعزيز ولاء العميل يجب أن تتضمن:]]>
+</item>
+            </ui>
+            <ui uid="6" type="bodyBullet"  x="left" y="60" width="640" margin="10" fontSize="18" fontColor="black" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <item id="bb1" order="4" timeIn="2" timeOut="35">
+      <![CDATA[<li>استخلاص المعلومات من النقاط أو الإجابات الأولية. الاستمرار في السؤال عن "السبب؟ "لاكتشاف الأسباب الحقيقة حول سبب توصية العميل أو عدم توصيته بك لأصدقائه وأسرته، أو عدم إعجابه بجزء معين من التجربة</li>]]>
+</item>
+              <item id="bb2" order="6" timeIn="4" timeOut="35">
+      <![CDATA[<li>اتخذ إجراءًا فوريًا. عند التحدُّث إلى عملاء مخلصين لمعرفة الأمور المحددة التي تقوم بها لجعلهم يعودون لوكيلك مرة أخرى، اشكرهم على معلوماتهم واشرح لهم العملية التي ستقوم بها للتأكد من تلقي العملاء لنفس المعاملة</li>]]>
+</item>
+              <item id="bb3" order="8" timeIn="6" timeOut="35">
+      <![CDATA[<li>إذا كان مشكلة لم تتمكن من علاجها، حاول القيام بكل ما في وسعك لحلها على الفور. إذا لم يتم حل المشكلة على الفور، فاعتذر عن ذلك للعميل، وأطلعه على الخطوات التي ستتخذها لضمان عدم حدوث ذلك ثانية</li>]]>
+</item>
+            </ui>
+            <ui uid="8" type="bodyBullet"  x="left" y="60" width="640" margin="10" fontSize="18" fontColor="black" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <item id="bb4" order="10" timeIn="35.5" timeOut="999">
+      <![CDATA[<li>ترسيخ الإحساس بالمسؤولية. يجب على المديرين مراجعة الاتجاهات والتقدُّم المحرز في اجتماعات الفريق الأسبوعية</li>]]>
+</item>
+              <item id="bb5" order="12" timeIn="35.5" timeOut="999">
+      <![CDATA[<li>جعل تعزيز ولاء العميل على قمة أولويات كل شخص لدي وكالة البيع</li>]]>
+</item>
+              <item id="bb6" order="14" timeIn="35.5" timeOut="999">
+      <![CDATA[<li>تحسين العمليات. تكوين فرق لمعالجة نقاط الضعف ونقاط القوة من خلال تحسينات العملية</li>]]>
+</item>
+            </ui>
+          </slide>
+          <slide sNumber="3215" type="TextImageReplace" animType="timesync" endType="continue">
+            <ui uid="2" type="BodyText" width="660" height="150" x="center" y="290" margin="0" fontSize="18" fontColor="black" fontAlign="center" effect="none" time="1" trans="slideLeft" ease="QuintEaseOut" syncType="replace">
+              <bodyBullet id="bb1" timeIn=".5" timeOut="999">
+              <![CDATA[يعد استخدام آراء ومقترحات العميل لتوجيه عملية التحسينات التي تقوم بها وكالة البيع أمرًا مهمًا، لكنه يعد نوعًا من محاولة قيادة سيارة بالنظر في المرآة الخلفية - فلا يمكنك إلا رؤية المكان الذي كنت فيه، لا المكان الذي ترغب في الذهاب إليه.<br>يمكنك القيام بالعديد من الأمور بدءًا من اليوم والتي ستساعد في القضاء على المشكلات وتعزيز ولاء العميل دون انتظار تعقيباته.]]>
+    </bodyBullet>
+            </ui>
+            <ui uid="4" type="BodyImage" width="375" height="250" x="center" y="top" margin="20" time=".5" trans="fadeOn" ease="QuintEaseOut" scaleMode="none" syncType="replace">
+              <bodyImage id="i1" url="3215_1.jpg" timeIn=".5" timeOut="999"><![CDATA[image1]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

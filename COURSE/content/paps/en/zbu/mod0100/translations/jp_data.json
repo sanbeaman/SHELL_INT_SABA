@@ -1,0 +1,85 @@
+{
+	"General": {
+		"Yes" : "Yes",
+		"No" : "No",
+		"Or" : "または",
+		"Enabled" : "有効",
+		"Disabled" : "無効化",
+		"PrePercent" : "",
+		"PostPercent" : "% ズームで",
+		"Override" : "実施",
+		"Continue" : "続ける",
+		"ReTest" : "再チェック",
+		"Alert" : "LMS の API システムを見つけることができません。\n LMS との通信が行われません",
+		"Wait" : "お待ちください…"
+	},
+
+	"Headers" : {
+		"PageTitle" : "システム チェッカー",
+		"CAImage": "assets/CA_logo.gif",
+		"SysChecFail" : "システム チェッカー失敗", 
+		"CurrentPass" : "システムは推奨要件を満たしています",
+		"Status" : "ステータス",
+		"SysComp" : "システム コンポーネント",
+		"MinReq" : "推奨要件",            
+		"YourSys" : "あなたのシステム",
+		"Info" : "情報/リンク"
+	},
+
+	"AdditionalRequirements": {
+		"Name": "追加要件 (チェックされません)",
+		"Requirements": [{ "Type" : "サウンド" , "Value" : "サウンド カード、スピーカーまたはヘッドホン"},
+			{ "Type" : "ポップ アップブロッカーは無効化する必要があります。" , "Value" : "ポップ アップブロッカーは無効化する必要があります。" },
+			{ "Type" : "モニター カラー" , "Value" : "最低 16 ビット" },
+			{ "Type" : "接続速度" , "Value" : "ブロードバンド高速インターネットを推奨"}
+		]
+	},
+
+	"UIText": {
+		"InstructionalTextCorrect" : "このコースを途中で終了し、別のコンピュータからコースを続ける場合には、このシステム チェッカーを使用しシステムの再チェックをされることをお勧めします。<br><br>信頼できる高速インターネット接続が必要です。このコースを開始する前に、正しく表示されていることを確認してください。コースに入ると、完了した全てのコースに関する進捗状況を保存することができます。[続ける] を選択して、コースを開始します。",
+		"InstructionalTextFailed" : "システムは、このプログラムを動かすための推奨要件を満たしていません。<br/><br/>下記の表を参照してください。[詳細情報] を選択してアップグレード情報を参照し、リンクをダウンロードしてください。ダウンロードもしくは再起動を必要としない場合、 [再チェック] を選択してください。",
+		"InstructionalTextOverridePopup" : "警告：このコースは意図したとおりに機能しない場合があります。続けますか？"
+	},
+
+	"Mandatory": {
+		"MoreInfo": "詳細情報",
+		"OpSys": "オペレーティング システム",
+		"JS":"JavaScript",
+		"WebBrowser": "ウェブ ブラウザ",
+		"Cookies":"Cookies",
+		"MSR": "スクリーン解像度",
+		"FlashVersion" : "Flash バージョン",
+		"PDF": "PDF Reader"
+    },
+
+    "MoreInfo": {
+		"OperatingSystems": { 
+			"Title":"どのＯＳをお使いですか?", 
+			"Content":"このアプリケーションを実行するためには下記のいづれかのＯＳを必要とします。Microsoft Windows、Apple Macintosh、UNIX などです。アラート メッセージを受け取った場合には、最新バージョンのMicrosoft Windows または Apple　ＯＳがインストールされたパソコン をご使用ください。 <br /><br />追加のヘルプが必要でしたら、ブラウザで右クリックして [印刷] オプションを選択してこの情報を印刷し、それをシステム管理者にご提供ください" },
+		"Browser": { 
+			"Title":"あなたのブラウザは最新ですか?", 
+			"Content":"当のコースをインターネット上で実行するには、コンピュータのウェブブラウザが最新バージョンのものになっていることを確認してください。Internet Explorer、Mozilla Firefox、Google Chrome、または Safari (Mac のみ) のいづれかをご確認ください。コースの中には、最近のバージョンのみで機能するものがあります。必要に応じて、案内されたリンクの から、アップグレード版をダウンロードしてくさい。<br /><div class='moreInfoLinks'><a href='http://www.microsoft.com/en-us/download/ie.aspx?q=internet+explorer' target='_blank'><img src='./assets/ie.png' alt='Internet Explorer' /></a><a href='http://www.mozilla.org/en-US/firefox/new/' target='_blank'><img src='./assets/firefox.png' alt='Mozilla Firefox' /></a><a href='https://www.google.com/intl/en/chrome/browser/welcome.html' target='_blank'><img src='./assets/chrome.png' alt='Google Chrome' /></a><a href='http://www.apple.com/safari/' target='_blank'><img src='./assets/safari.png' alt='Safari' /></a></div><br />追加でヘルプが必要でしたら、ブラウザで右クリックして [印刷] オプションを選択してこの情報を印刷し、それをシステム管理者にご提供ください一部のダウンロードは、DealerCONNECT/eSupport/Library/Downloads でもご利用になれます。" },
+		"JavaScript": { 
+			"Title":"JavaScript 設定のチェックと変更方法", 
+			"Content":"注: スクリプト作成をこのウェブサイトのみに許可して、インターネット ゾーンではスクリプト作成を無効化しておくには、下記のサイトを追加してこのウェブサイトを [Trusted (信頼される)] サイトのゾーンに追加してください。https://fgcg.sabanow.net/Saba/Web/Main<h3>Internet Explorer 8.0 または 9.0 (Windows):</h3><ol><li>[ツール] メニューで、[インターネット オプション] をクリックし、次に [セキュリティ] タブをクリックしてください。</li><li>[インターネット] ゾーンをクリックします。</li><li>インターネット セキュリティー設定をカスタマイズする必要がない場合、[デフォルト レベル] をクリックしてください。次に、ステップ 4 を完了してください。 <ul id='noListBullet'><li>インターネット セキュリティー設定をカスタマイズする必要がある場合、以下のステップに従ってください。</il></ul><ol id='alphaBullet'><li>[カスタム レベル] をクリックします。</li><li>[セキュリティ設定] の [インターネット ゾーン] ダイアログ ボックスで、[スクリプト作成] セクションの [アクティブなスクリプト作成を有効化] をクリックします。</li></ol></li><li>[戻る] ボタンをクリックして前のページに戻り、[リフレッシュ] ボタンをクリックしてスクリプトを実行します。</li></ol><h3>Safari 5.1 (Mac 用):</h3><ol><li>[Safari] メニューから [プリファレンス] を選択します。</li><li>[セキュリティ] をクリックします。</li><li>[JavaScript 有効] にチェックを入れます。</li><li>[プリファレンス] ウィンドウを閉じます。</li><li>[再読み込み] をクリックして、ページ上のコンテンツを更新します。</li></ol>追加のヘルプが必要でしたら、ブラウザで右クリックして [印刷] オプションを選択してこの情報を印刷し、それをシステム管理者にご提供ください" },
+		"Cookies": { 
+			"Title":"Cookies を有効にする方法", 
+			"Content":"すべてのCookiesをブロックすると、プライバシーを守るのに役立ちますが、一部のウェブサイトでの体験が制限されることになります。最初はすべてのCookiesをブロックしておいて、その後必要に応じて信頼できるウェブサイトにCookiesを許可するのが良いでしょう。これらのコースが適切に機能するために、当社としてはあなたがCookiesを有効にしておくことをお願いします。<h3>Internet Explorer 8.0 (Windows):</h3><ol><li>[開始] ボタンをクリックして [Internet Explorer] を開き、[Internet Explorer] をクリックします。<img src='./assets/start.png' alt='Start Button' /></li><li>[ツール] ボタンをクリックして、次に [インターネット オプション] をクリックします。</li><li>[プライバシー] タブをクリックし、次に [設定] 下でスライダーを下部に移動して、すべてのCookiesを許可し、[OK] をクリックします。</li></ol><h3>Internet Explorer 9.0 (Windows 用):</h3><ol><li>[開始] ボタンをクリックして Internet Explorer を開きます。検索ボックスで、Internet Explorer を入力し、検索結果のリストで Internet Explorer をクリックします。<img src='./assets/start.png' alt='Start Button' /></li><li>[ツール] ボタンをクリックして、次に [インターネット オプション] をクリックします。<img src='./assets/tools.jpg' alt='Tools Button' /></li><li>[プライバシー] タブをクリックし、次に [設定] 下でスライダーを下部に移動して、すべてのCookiesを許可し、[OK] をクリックします。</li></ol><h3>Safari 5.1 (Mac 用):</h3><ol><li>Safari では、[Safari] メニューから [プリファレンス] を選択します。 </li><li>Safari の [プリファレンス] のウィンドウで、[プライバシー] をクリックします。</li><li>プリファレンスでCookiesを許可する設定をして、[Cookiesをブロック] の隣で、サードパーティまたは広告主から、[常に許可] または [常に拒否] を選択します。</li><li>Cookiesやその他のウェブサイトのデータを保存する場合、[詳細] をクリックします。サイトからデータを削除するには、そのデータをハイライトして、[削除] をクリックします。すべてのサイトからデータを削除するには、[すべて削除] をクリックします。完了したら、[完了] をクリックしてプリファレンスのウィンドウに戻ってください。</li><li>追加のヘルプが必要でしたら、ブラウザで右クリックして [印刷] オプションを選択してこの情報を印刷し、それをシステム管理者にご提供ください</li></ol>" },
+		"Resolution": { 
+			"Title":"スクリーン解像度の変更方法", 
+			"Content":"<h3>Windows 7 の PC :</h3><ol><li>[開始 ボタンをクリックして [スクリーン解像度] を開き、[コントロール パネル] をクリックして、[外観と個別化] 下で [スクリーン解像度の調整] をクリックします。<img src='./assets/start.png' alt='Start Button' /></li><li>[解像度] の隣のドロップダウン リストをクリックし、スライダーを希望の解像度まで移動させ、[適用] をクリックします。</li><li>新しい解像度を使用するには [維持] をクリックしますが、前の解像度に戻るには、[復帰] をクリックします。<br/><img src='./assets/resolutionCap.jpg' alt='Resolution Change Image' id='resolutionImage' /><br/>[コントロール パネル] の [スクリーン解像度] は、お使いのモニターに推奨される解像度を表示します。</li></ol><h3>Mac OS X:</h3><ol><li>ディスプレイの左上隅にある Apple のロゴをクリックしてください。<img src='./assets/appleLogo.jpg' alt='Apple Logo' /></li><li>[システム プリファレンス] をクリックし、[ディスプレイ] をクリックします。</li><li>選択されていない場合には、[ディスプレイ] をクリックします。</li><li>利用可能な解像度のリストから解像度を選択します。2012 年 2 月現在で、最も一般的なスクリーン解像度は、標準的なスクリーンで 1280x1024、ワイド スクリーンで 1280x800 です。Mac OS X はすぐに新しい設定を適用します。</li></ol><br/><br/>詳細: Mac のスクリーン解像度の変更方法:<a href='http://www.macworld.com/article/1158603/macresolution.html' target='_blank'>http://www.macworld.com/article/1158603/macresolution.html</a> <br /><br/>追加のヘルプが必要でしたら、ブラウザで右クリックして [印刷] オプションを選択してこの情報を印刷し、それをシステム コーディネータに提供してください。" },
+		"Flash": { 
+			"Title":"Flash の最新バージョンがインストールされていますか?", 
+			"Content":"Flash は、ウェブブラウザ上でマルチメディアを実行する時に必要なプラグインです。Flash プレーヤーは、Flash プレーヤーは、Adobe.comのサイト から無料でダウンロードまたはアップグレードできます。提供されたリンクを選択して、スクリーン上の指示に従ってください。<br /><br/><div class='moreInfoLinks'><a href='http://get.adobe.com/flashplayer/' target='_blank'><img src='./assets/flash.png' alt='Flash logo' /></a></div><br /><br/>追加のヘルプが必要でしたら、ブラウザで右クリックして [印刷] オプションを選択してこの情報を印刷し、それをシステム管理者にご提供ください一部のダウンロードは、DealerCONNECT/eSupport/Library/Downloads でもご利用になれます。" },
+		"AdobeReader": { 
+			"Title":"Adobe Reader の最新バージョンがインストールされていますか?", 
+			"Content":"Adobe Acrobat Reader は、ウェブブラウザ上で PDF ファイルを見るのに必要なプラグインです。Adobe Acrobat Reader は、 無料でダウンロードまたはアップグレードできます。提供されたリンクを選択して、スクリーン上の指示に従ってください。<br /><br /><div class='moreInfoLinks'><a href='http://www.adobe.com/ca/products/reader.html' target='_blank'><img src='./assets/adobeReader.gif' alt='Adobe Reader' id='adobeImage'></a></div><br /><br />追加のヘルプが必要でしたら、ブラウザで右クリックして [印刷] オプションを選択してこの情報を印刷し、それをシステム管理者にご提供ください一部のダウンロードは、DealerCONNECT/eSupport/Library/Downloads でもご利用になれます。<h3>Adobe Reader のダウンロード</h3>最新のダウンロード (DealerCONNECT がサポート) は、DealerCONNECT ポータルから DealerCONNECT/eSupport/Library/Downloads をクリックしてアクセスできます。" }
+    },
+
+	"Additional": [
+		{ "Name":"サウンド", "Value":"サウンド カード、スピーカーまたはヘッドホン" },
+		{ "Name":"ポップ アップブロッカーは無効化する必要があります。", "Value":"ポップ アップブロッカーは無効化する必要があります。" },
+		{ "Name":"モニター カラー", "Value":"16 ビット以上" },
+		{ "Name":"接続速度", "Value":"ブロードバンド高速インターネットを推奨" }
+	]
+}

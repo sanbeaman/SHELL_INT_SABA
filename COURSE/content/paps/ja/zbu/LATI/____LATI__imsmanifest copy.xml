@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:lom="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:imsss="http://www.imsglobal.org/xsd/imsss" xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3" identifier="ALTERIS" version="1.0" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://ltsc.ieee.org/xsd/LOM lom.xsd http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>2004 3rd Edition</schemaversion>
+    <lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+      <general>
+        <identifier>
+          <catalog>Chrysler Academy Learning Resource</catalog>
+          <entry>PAPSJAWB</entry>
+        </identifier>
+        <title>
+          <string language="ja">قطع غيار مهارات البيع بالتجزئة</string>
+        </title>
+        <description>
+          <string>في هذه الحال، سوف يتعلم المشاركون كيفية التفاعل بشكل فعال مع الهاتف، في شخص وأجزاء التجزئة العملاء الداخليين. وسوف تعلم وممارسة عملية البيع قطع غيار لخدمة العملاء تساعدهم على الاستجابة بنجاح للفرص مبيعات اضافية واعتراضات العملاء لزيادة المبيعات أجزاء التجزئة لدى الوكلاء بهم.</string>
+        </description>
+        <keyword>
+          <string>Chrysler</string>
+        </keyword>
+      </general>
+      <lifeCycle>
+        <version>
+          <string>1.0</string>
+        </version>
+        <status>
+          <source>LOMv1.0</source>
+          <value>final</value>
+        </status>
+      </lifeCycle>
+      <metaMetadata>
+        <identifier>
+          <entry>PAPSJAWB_Metadata</entry>
+        </identifier>
+        <language>ja</language>
+        <metadataSchema>LOMv1.0</metadataSchema>
+        <metadataSchema>SCORM_CAM_v1.3</metadataSchema>
+      </metaMetadata>
+      <technical>
+        <format>text/html; application/x-shockwave-flash</format>
+      </technical>
+      <educational>
+        <difficulty>
+          <source>LOMv1.0</source>
+          <value>medium</value>
+        </difficulty>
+        <typicalLearningTime>
+          <duration>PT1H</duration>
+        </typicalLearningTime>
+      </educational>
+      <rights>
+        <cost>
+          <source>LOMv1.0</source>
+          <value>no</value>
+        </cost>
+        <copyrightAndOtherRestrictions>
+          <source>LOMv1.0</source>
+          <value>yes</value>
+        </copyrightAndOtherRestrictions>
+        <description>
+          <string language="ja">حقوق الطبع والنشر  2013 Chrysler Group</string>
+        </description>
+      </rights>
+    </lom>
+  </metadata>
+  <organizations default="ORG-PAPSJAWB">
+    <organization identifier="ORG-PAPSJAWB" adlseq:objectivesGlobalToSystem="false">
+      <title>TITLE</title>
+
+      <!-- Congratulations Return Screen -->
+      <item identifier="PAPSJAWB-congratReturn" identifierref="PAPSJAWB-congratReturn-res" isvisible="false">
+         <title>Welcome Back</title>
+        <imsss:sequencing>
+          <imsss:controlMode forwardOnly="true" flow="true" useCurrentAttemptObjectiveInfo="false" useCurrentAttemptProgressInfo="false" />
+          <imsss:sequencingRules>
+            <imsss:preConditionRule>
+              <imsss:ruleConditions conditionCombination="any">
+                <imsss:ruleCondition referencedObjective="course_complete" operator="not" condition="satisfied" />
+                <imsss:ruleCondition referencedObjective="course_complete" operator="not" condition="objectiveStatusKnown" />
+              </imsss:ruleConditions>
+              <imsss:ruleAction action="skip" />
+            </imsss:preConditionRule>
+          </imsss:sequencingRules>
+          <imsss:rollupRules objectiveMeasureWeight="0" rollupObjectiveSatisfied="false" rollupProgressCompletion="false" />
+          <imsss:objectives>
+            <imsss:primaryObjective />
+            <imsss:objective objectiveID="course_complete">
+              <imsss:mapInfo targetObjectiveID="gObj_PAPSJAWB_primary" />
+            </imsss:objective>
+          </imsss:objectives>
+        </imsss:sequencing>
+      </item>
+      <!-- START COURSE 0500-->
+      <item identifier="PAPSJAWB-500_int" identifierref="PAPSJAWB-500_int-res" isvisible="false">
+        <title>WELCOME</title>
+        <imsss:sequencing IDRef="common_seq_rules">
+          <imsss:sequencingRules>
+            <imsss:preConditionRule>
+              <imsss:ruleConditions>
+                <imsss:ruleCondition condition="completed" />
+              </imsss:ruleConditions>
+              <imsss:ruleAction action="skip" />
+            </imsss:preConditionRule>
+          </imsss:sequencingRules>
+          <imsss:objectives>
+            <imsss:primaryObjective objectiveID="primary">
+              <imsss:mapInfo targetObjectiveID="gObj_PAPSJAWB_mod0500_int" readNormalizedMeasure="false" writeSatisfiedStatus="true" />
+            </imsss:primaryObjective>
+            <imsss:objective objectiveID="course_complete">
+              <imsss:mapInfo targetObjectiveID="gObj_PAPSJAWB_primary" />
+            </imsss:objective>
+          </imsss:objectives>
+        </imsss:sequencing>
+      </item>
+      <!-- Introduction 1000-->
+      <item identifier="PAPSJAWB-1000_int" identifierref="PAPSJAWB-1000_int-res" isvisible="true">
+        <title>INTRODUCTION</title>
+        <imsss:sequencing IDRef="common_seq_rules">
+          <imsss:sequencingRules>
+            <imsss:preConditionRule>
+              <imsss:ruleConditions>
+                <imsss:ruleCondition condition="completed" />
+                <imsss:ruleCondition referencedObjective="course_complete" operator="not" condition="objectiveStatusKnown" />
+              </imsss:ruleConditions>
+              <imsss:ruleAction action="skip" />
+            </imsss:preConditionRule>
+          </imsss:sequencingRules>
+          <imsss:objectives>
+            <imsss:primaryObjective objectiveID="primary">
+              <imsss:mapInfo targetObjectiveID="gObj_PAPSJAWB-1000_int" readNormalizedMeasure="false" writeSatisfiedStatus="true" />
+            </imsss:primaryObjective>
+            <imsss:objective objectiveID="course_complete">
+              <imsss:mapInfo targetObjectiveID="gObj_PAPSJAWB_primary" />
+            </imsss:objective>
+          </imsss:objectives>
+        </imsss:sequencing>
+      </item>
+      <!-- paps/ar/zmod2000 -->
+      <item identifier="PAPSJAWB-2000_int" identifierref="PAPSJAWB-2000_int-res" isvisible="true">
+        <title>BUSINESS CASE</title>
+        <imsss:sequencing IDRef="common_seq_rules">
+          <imsss:sequencingRules>
+            <imsss:preConditionRule>
+              <imsss:ruleConditions>
+                <imsss:ruleCondition condition="completed" />
+                <imsss:ruleCondition referencedObjective="course_complete" operator="not" condition="objectiveStatusKnown" />
+              </imsss:ruleConditions>
+              <imsss:ruleAction action="skip" />
+            </imsss:preConditionRule>
+          </imsss:sequencingRules>
+          <imsss:objectives>
+            <imsss:primaryObjective objectiveID="primary">
+              <imsss:mapInfo targetObjectiveID="gObj_PAPSJAWB-2000_int" readNormalizedMeasure="false" writeSatisfiedStatus="true" />
+            </imsss:primaryObjective>
+            <imsss:objective objectiveID="course_complete">
+              <imsss:mapInfo targetObjectiveID="gObj_PAPSJAWB_primary" />
+            </imsss:objective>
+          </imsss:objectives>
+        </imsss:sequencing>
+      </item>
+      <!-- paps/ar/zmod3000 -->
+      <item identifier="PAPSJAWB-3000_int" identifierref="PAPSJAWB-3000_int-res" isvisible="true">
+       <title>THE MOPAR ADVANTAGE</title>
+        <imsss:sequencing IDRef="common_seq_rules">
+          <imsss:sequencingRules>
+            <imsss:preConditionRule>
+              <imsss:ruleConditions>
+                <imsss:ruleCondition condition="completed" />
+                <imsss:ruleCondition referencedObjective="course_complete" operator="not" condition="objectiveStatusKnown" />
+              </imsss:ruleConditions>
+              <imsss:ruleAction action="skip" />
+            </imsss:preConditionRule>
+          </imsss:sequencingRules>
+          <imsss:objectives>
+            <imsss:primaryObjective objectiveID="primary">
+              <imsss:mapInfo targetObjectiveID="gObj_PAPSJAWB-3000_int" readNormalizedMeasure="false" writeSatisfiedStatus="true" />
+            </imsss:primaryObjective>
+            <imsss:objective objectiveID="course_complete">
+              <imsss:mapInfo targetObjectiveID="gObj_PAPSJAWB_primary" />
+            </imsss:objective>
+          </imsss:objectives>
+        </imsss:sequencing>
+      </item>
+      <!-- paps/ar/zmod4000 -->
+      <item identifier="PAPSJAWB-4000_int" identifierref="PAPSJAWB-4000_int-res" isvisible="true">
+      <title>CUSTOMER-DRIVEN PROCESS</title>
+        <imsss:sequencing IDRef="common_seq_rules">
+          <imsss:sequencingRules>
+            <imsss:preConditionRule>
+              <imsss:ruleConditions>
+                <imsss:ruleCondition condition="completed" />
+                <imsss:ruleCondition referencedObjective="course_complete" operator="not" condition="objectiveStatusKnown" />
+              </imsss:ruleConditions>
+              <imsss:ruleAction action="skip" />
+            </imsss:preConditionRule>
+          </imsss:sequencingRules>
+          <imsss:objectives>
+            <imsss:primaryObjective objectiveID="primary">
+              <imsss:mapInfo targetObjectiveID="gObj_PAPSJAWB-4000_int" readNormalizedMeasure="false" writeSatisfiedStatus="true" />
+            </imsss:primaryObjective>
+            <imsss:objective objectiveID="course_complete">
+              <imsss:mapInfo targetObjectiveID="gObj_PAPSJAWB_primary" />
+            </imsss:objective>
+          </imsss:objectives>
+        </imsss:sequencing>
+      </item>
+      <!-- paps/ar/zmod5000 -->
+      <item identifier="PAPSJAWB-5000_int" identifierref="PAPSJAWB-5000_int-res" isvisible="true">
+      <title>APPLYING THE PROCESS</title>
+        <imsss:sequencing IDRef="common_seq_rules">
+          <imsss:sequencingRules>
+            <imsss:preConditionRule>
+              <imsss:ruleConditions>
+                <imsss:ruleCondition condition="completed" />
+                <imsss:ruleCondition referencedObjective="course_complete" operator="not" condition="objectiveStatusKnown" />
+              </imsss:ruleConditions>
+              <imsss:ruleAction action="skip" />
+            </imsss:preConditionRule>
+          </imsss:sequencingRules>
+          <imsss:objectives>
+            <imsss:primaryObjective objectiveID="primary">
+              <imsss:mapInfo targetObjectiveID="gObj_PAPSJAWB-5000_int" readNormalizedMeasure="false" writeSatisfiedStatus="true" />
+            </imsss:primaryObjective>
+            <imsss:objective objectiveID="course_complete">
+              <imsss:mapInfo targetObjectiveID="gObj_PAPSJAWB_primary" />
+            </imsss:objective>
+          </imsss:objectives>
+        </imsss:sequencing>
+      </item>
+      <!-- mod6000 -->
+      <item identifier="PAPSJAWB-6000_int" identifierref="PAPSJAWB-6000_int-res" isvisible="true">
+         <title>COURSE SUMMARY</title>
+        <imsss:sequencing IDRef="common_seq_rules">
+          <imsss:sequencingRules>
+            <imsss:preConditionRule>
+              <imsss:ruleConditions>
+                <imsss:ruleCondition condition="completed" />
+                <imsss:ruleCondition referencedObjective="course_complete" operator="not" condition="objectiveStatusKnown" />
+              </imsss:ruleConditions>
+              <imsss:ruleAction action="skip" />
+            </imsss:preConditionRule>
+          </imsss:sequencingRules>
+          <imsss:objectives>
+            <imsss:primaryObjective objectiveID="primary">
+              <imsss:mapInfo targetObjectiveID="gObj_PAPSJAWB-6000_int" readNormalizedMeasure="false" writeSatisfiedStatus="true" />
+            </imsss:primaryObjective>
+            <imsss:objective objectiveID="course_complete">
+              <imsss:mapInfo targetObjectiveID="gObj_PAPSJAWB_primary" />
+            </imsss:objective>
+          </imsss:objectives>
+        </imsss:sequencing>
+      </item>
+      <!-- mod88000 RESOUCES MODULE just for LATITUDE -->
+      <item identifier="PAPSJAWB-88000_int" identifierref="PAPSJAWB-88000_int-res" isvisible="true">
+      <title>RESOURCES</title>
+        <imsss:sequencing>
+          <imsss:controlMode flow="true" useCurrentAttemptObjectiveInfo="false" useCurrentAttemptProgressInfo="false" />
+          <imsss:sequencingRules>
+            <imsss:preConditionRule>
+              <imsss:ruleConditions>
+                <imsss:ruleCondition condition="completed" />
+                <imsss:ruleCondition referencedObjective="course_complete" operator="not" condition="objectiveStatusKnown" />
+              </imsss:ruleConditions>
+              <imsss:ruleAction action="skip" />
+            </imsss:preConditionRule>
+          </imsss:sequencingRules>
+          <imsss:objectives>
+            <imsss:primaryObjective objectiveID="primary">
+              <imsss:mapInfo targetObjectiveID="gObj_PAPSJAWB-88000_int" readNormalizedMeasure="false" writeSatisfiedStatus="true" />
+            </imsss:primaryObjective>
+            <imsss:objective objectiveID="course_complete">
+              <imsss:mapInfo targetObjectiveID="gObj_PAPSJAWB_primary" />
+            </imsss:objective>
+          </imsss:objectives>
+          <imsss:deliveryControls completionSetByContent="true" objectiveSetByContent="true" />
+        </imsss:sequencing>
+      </item>
+      <!-- PostTest 3160335170374232-->
+      <item identifier="PAPSJAWB-PostTest" identifierref="PAPSJAWB-postTest-res" isvisible="true">
+         <title>POST TEST</title>
+        <imsss:sequencing>
+          <imsss:controlMode choiceExit="false" flow="true" useCurrentAttemptObjectiveInfo="false" useCurrentAttemptProgressInfo="false" />
+          <imsss:sequencingRules>
+            <imsss:preConditionRule>
+              <imsss:ruleConditions conditionCombination="any">
+                <imsss:ruleCondition operator="not" referencedObjective="obj01" condition="objectiveStatusKnown" />
+                <imsss:ruleCondition operator="not" referencedObjective="obj02" condition="objectiveStatusKnown" />
+                <imsss:ruleCondition operator="not" referencedObjective="obj03" condition="objectiveStatusKnown" />
+                <imsss:ruleCondition operator="not" referencedObjective="obj04" condition="objectiveStatusKnown" />
+                <imsss:ruleCondition operator="not" referencedObjective="obj05" condition="objectiveStatusKnown" />
+                <imsss:ruleCondition operator="not" referencedObjective="obj06" condition="objectiveStatusKnown" />
+                <imsss:ruleCondition operator="not" referencedObjective="obj07" condition="objectiveStatusKnown" />
+              </imsss:ruleConditions>
+              <imsss:ruleAction action="disabled" />
+            </imsss:preConditionRule>
+            <imsss:preConditionRule>
+              <imsss:ruleConditions>
+                <imsss:ruleCondition condition="satisfied" />
+              </imsss:ruleConditions>
+              <imsss:ruleAction action="skip" />
+            </imsss:preConditionRule>
+            <imsss:preConditionRule>
+              <imsss:ruleConditions conditionCombination="any">
+                <imsss:ruleCondition operator="not" referencedObjective="obj01" condition="objectiveStatusKnown" />
+                <imsss:ruleCondition operator="not" referencedObjective="obj02" condition="objectiveStatusKnown" />
+                <imsss:ruleCondition operator="not" referencedObjective="obj03" condition="objectiveStatusKnown" />
+                <imsss:ruleCondition operator="not" referencedObjective="obj04" condition="objectiveStatusKnown" />
+                <imsss:ruleCondition operator="not" referencedObjective="obj05" condition="objectiveStatusKnown" />
+                <imsss:ruleCondition operator="not" referencedObjective="obj06" condition="objectiveStatusKnown" />
+                <imsss:ruleCondition operator="not" referencedObjective="obj07" condition="objectiveStatusKnown" />
+              </imsss:ruleConditions>
+              <imsss:ruleAction action="skip" />
+            </imsss:preConditionRule>
+          </imsss:sequencingRules>
+          <imsss:objectives>
+            <imsss:primaryObjective objectiveID="primary" satisfiedByMeasure="true">
+              <imsss:minNormalizedMeasure>0.8</imsss:minNormalizedMeasure>
+              <imsss:mapInfo targetObjectiveID="gObj_PAPSJAWB_primary" writeNormalizedMeasure="true" writeSatisfiedStatus="true" />
+            </imsss:primaryObjective>
+            <imsss:objective objectiveID="obj01">
+              <imsss:mapInfo targetObjectiveID="gObj_PAPSJAWB-1000_int" readNormalizedMeasure="false" />
+            </imsss:objective>
+            <imsss:objective objectiveID="obj02">
+              <imsss:mapInfo targetObjectiveID="gObj_PAPSJAWB-2000_int" readNormalizedMeasure="false" />
+            </imsss:objective>
+            <imsss:objective objectiveID="obj03">
+              <imsss:mapInfo targetObjectiveID="gObj_PAPSJAWB-3000_int" readNormalizedMeasure="false" />
+            </imsss:objective>
+            <imsss:objective objectiveID="obj04">
+              <imsss:mapInfo targetObjectiveID="gObj_PAPSJAWB-4000_int" readNormalizedMeasure="false" />
+            </imsss:objective>
+            <imsss:objective objectiveID="obj05">
+              <imsss:mapInfo targetObjectiveID="gObj_PAPSJAWB-5000_int" readNormalizedMeasure="false" />
+            </imsss:objective>
+            <imsss:objective objectiveID="obj06">
+              <imsss:mapInfo targetObjectiveID="gObj_PAPSJAWB-6000_int" readNormalizedMeasure="false" />
+            </imsss:objective>
+            <imsss:objective objectiveID="obj07">
+              <imsss:mapInfo targetObjectiveID="gObj_PAPSJAWB-88000_int" readNormalizedMeasure="false" />
+            </imsss:objective>
+          </imsss:objectives>
+          <imsss:deliveryControls completionSetByContent="true" />
+        </imsss:sequencing>
+      </item>
+      <!-- Not Completed -->
+      <item identifier="PAPSJAWB-notCompleted" identifierref="PAPSJAWB-notCompleted-res" isvisible="false">
+        <title>Course NOT Complete</title>
+        <imsss:sequencing>
+          <imsss:controlMode flow="true" useCurrentAttemptObjectiveInfo="false" useCurrentAttemptProgressInfo="false" />
+          <imsss:sequencingRules>
+            <imsss:preConditionRule>
+              <imsss:ruleConditions>
+                <imsss:ruleCondition referencedObjective="course_complete" condition="objectiveStatusKnown" />
+                <imsss:ruleCondition referencedObjective="course_complete" condition="satisfied" />
+              </imsss:ruleConditions>
+              <imsss:ruleAction action="skip" />
+            </imsss:preConditionRule>
+            <imsss:preConditionRule>
+              <imsss:ruleConditions conditionCombination="any">
+                <imsss:ruleCondition referencedObjective="course_complete" operator="not" condition="objectiveStatusKnown" />
+                <imsss:ruleCondition referencedObjective="course_complete" operator="not" condition="satisfied" />
+              </imsss:ruleConditions>
+              <imsss:ruleAction action="stopForwardTraversal" />
+            </imsss:preConditionRule>
+          </imsss:sequencingRules>
+          <imsss:rollupRules objectiveMeasureWeight="0" rollupObjectiveSatisfied="false" rollupProgressCompletion="false" />
+          <imsss:objectives>
+            <imsss:primaryObjective />
+            <imsss:objective objectiveID="course_complete">
+              <imsss:mapInfo targetObjectiveID="gObj_PAPSJAWB_primary" />
+            </imsss:objective>
+          </imsss:objectives>
+          <imsss:deliveryControls completionSetByContent="true" objectiveSetByContent="true" />
+        </imsss:sequencing>
+      </item>
+      <!-- Congratulations -->
+      <item identifier="PAPSJAWB-congratulations" identifierref="PAPSJAWB-congratulations-res" isvisible="false">
+      <title>Course Complete</title>
+        <!--  <adlcp:dataFromLMS>survey=6879391358888766;cutoffdate=2013/06/01</adlcp:dataFromLMS>
+
+     -->
+        <imsss:sequencing>
+          <imsss:controlMode flow="true" useCurrentAttemptObjectiveInfo="false" useCurrentAttemptProgressInfo="false" />
+          <imsss:sequencingRules>
+            <imsss:preConditionRule>
+              <imsss:ruleConditions conditionCombination="any">
+                <imsss:ruleCondition referencedObjective="course_complete" operator="not" condition="satisfied" />
+                <imsss:ruleCondition referencedObjective="course_complete" operator="not" condition="objectiveStatusKnown" />
+              </imsss:ruleConditions>
+              <imsss:ruleAction action="skip" />
+            </imsss:preConditionRule>
+          </imsss:sequencingRules>
+          <imsss:rollupRules objectiveMeasureWeight="0" rollupObjectiveSatisfied="false" rollupProgressCompletion="false" />
+          <imsss:objectives>
+            <imsss:primaryObjective />
+            <imsss:objective objectiveID="course_complete">
+              <imsss:mapInfo targetObjectiveID="gObj_PAPSJAWB_primary" />
+            </imsss:objective>
+          </imsss:objectives>
+        </imsss:sequencing>
+      </item>
+      <!-- Course Rollup -->
+      <imsss:sequencing>
+        <imsss:controlMode flow="true" useCurrentAttemptObjectiveInfo="false" useCurrentAttemptProgressInfo="false" />
+        <imsss:objectives>
+          <imsss:primaryObjective objectiveID="primary">
+            <imsss:mapInfo targetObjectiveID="gObj_PAPSJAWB_primary" writeSatisfiedStatus="true" />
+          </imsss:primaryObjective>
+        </imsss:objectives>
+      </imsss:sequencing>
+    </organization>
+  </organizations>
+  <resources>
+   <resource identifier="res_shellconfig" adlcp:scormType="asset" type="webcontent">
+      <file href="shell_images/ar/check_completed.gif" />
+      <file href="shell_images/ar/check_incomplete.gif" />
+      <file href="shell_images/ar/check_notentered.gif" />
+      <file href="shell_images/ar/contractable.gif" />
+      <file href="shell_images/ar/dcalogo.gif" />
+      <file href="shell_images/ar/expandable.gif" />
+      <file href="shell_images/ar/green_check.gif" />
+      <file href="shell_images/ar/red_x.gif" />
+      <file href="shell_config.xml" />
+    </resource>
+     <resource identifier="res_shellconfig_en" adlcp:scormType="asset" type="webcontent">
+      <file href="shell_images/en/check_completed.gif" />
+      <file href="shell_images/en/check_incomplete.gif" />
+      <file href="shell_images/en/check_notentered.gif" />
+      <file href="shell_images/en/contractable.gif" />
+      <file href="shell_images/en/dcalogo.gif" />
+      <file href="shell_images/en/expandable.gif" />
+      <file href="shell_images/en/green_check.gif" />
+      <file href="shell_images/en/red_x.gif" />
+      <file href="shell_config.xml" />
+    </resource>
+    <resource identifier="res_shared_js" type="webcontent" xml:base="content/js/" adlcp:scormType="asset">
+      <file href="scorm.js" />
+      <file href="scormcookies.js" />
+      <file href="swfobject.js" />
+      <file href="perception.js" />
+      <file href="survey.js" />
+      <file href="ParameterParser.js" />
+      <file href="APIWrapper.js" />
+      <file href="APIWrapper_mg.js" />
+      <file href="getRequest.js" />
+    </resource>
+    <resource identifier="res_html" type="webcontent" xml:base="content/paps/ar/html/" adlcp:scormType="asset">
+     	<file href="js/scorm.js" />
+      <file href="js/scormcookies.js" />
+      <file href="js/swfobject.js" />
+      <file href="js/perception.js" />
+      <file href="js/survey.js" />
+      <file href="js/ParameterParser.js" />
+      <file href="js/APIWrapper.js" />
+      <file href="js/APIWrapper_mg.js" />
+      <file href="js/getRequest.js" />
+      <file href="css/html.css" />
+      <file href="images/check_completed.gif" />
+      <file href="images/check_incomplete.gif" />
+      <file href="images/check_notentered.gif" />
+      <file href="images/ShellBack.jpg" />
+      <file href="images/LogoCourseINT_ar.png" />
+    </resource>
+    <resource identifier="res_assets" type="webcontent" xml:base="content/" adlcp:scormType="asset">
+      <file href="paps/ar/assets/template.xml" />
+      <file href="paps/ar/assets/fonts/PAPSFontPack_AR.swf" />
+      <file href="paps/ar/assets/imgs/CALogoINT_EN.png" />
+      <file href="paps/ar/assets/imgs/GPS_GraphicBackSimple.png" />
+      <file href="paps/ar/assets/imgs/gpswindow.png" />
+      <file href="paps/ar/assets/imgs/ShellBack.jpg" />
+      <file href="paps/ar/assets/imgs/BodyButton_down.png" />
+      <file href="paps/ar/assets/imgs/BodyButton_hover.png" />
+      <file href="paps/ar/assets/imgs/BodyButton_normal.png" />
+      <file href="paps/ar/assets/imgs/navwhite_pulse.png" />
+      <file href="paps/ar/assets/imgs/navwhiteBACK_down.png" />
+      <file href="paps/ar/assets/imgs/navwhiteBACK_hover.png" />
+      <file href="paps/ar/assets/imgs/navwhiteBACK_normal.png" />
+      <file href="paps/ar/assets/imgs/navwhiteDONE_down.png" />
+      <file href="paps/ar/assets/imgs/navwhiteDONE_hover.png" />
+      <file href="paps/ar/assets/imgs/navwhiteDONE_normal.png" />
+      <file href="paps/ar/assets/imgs/navwhiteNEXT_down.png" />
+      <file href="paps/ar/assets/imgs/navwhiteNEXT_hover.png" />
+      <file href="paps/ar/assets/imgs/navwhiteNEXT_normal.png" />
+      <file href="paps/ar/assets/imgs/navwhitePAUSE_down.png" />
+      <file href="paps/ar/assets/imgs/navwhitePAUSE_hover.png" />
+      <file href="paps/ar/assets/imgs/navwhitePAUSE_normal.png" />
+      <file href="paps/ar/assets/imgs/icon_no.gif" />
+       <file href="paps/ar/assets/imgs/icon_yes.gif" />
+      <file href="paps/ar/assets/imgs/RateSlider_thumb.gif" />
+    </resource>
+    <resource identifier="cashell_files" type="webcontent" xml:base="content/" adlcp:scormType="asset">
+      <file href="cashell/cashell.html" />
+      <file href="cashell/SHELL_INT.swf" />
+      <file href="cashell/SHELL_INT.html" />
+      <file href="cashell/imgs/cashell.css" />
+      <file href="cashell/imgs/shellCSS.css" />
+      <file href="cashell/imgs/splash.jpg" />
+      <file href="cashell/textLayout_2.0.0.232.swz" />
+      <dependency identifierref="res_shared_js" />
+      <dependency identifierref="res_assets" />
+    </resource>
+    <resource identifier="PAPSJAWB-congratReturn-res" type="webcontent" xml:base="content/paps/ar/html/" href="congrats.html" adlcp:scormType="sco">
+      <file href="congrats.html" />
+      <dependency identifierref="res_shared_js" />
+      <dependency identifierref="res_html" />
+    </resource>
+    <resource identifier="PAPSJAWB-500_int-res" type="webcontent" xml:base="content/" href="cashell/cashell.html?section=500&amp;templateid=paps&amp;langid=ar" adlcp:scormType="sco">
+      <file href="paps/ar/zmod500/sco.xml" />
+      <file href="paps/ar/zmod500/media/LogoCourseINT_ar.png" />
+      <dependency identifierref="cashell_files" />
+      <dependency identifierref="res_shared_js" />
+    </resource>
+   <resource identifier="PAPSJAWB-1000_int-res" type="webcontent" xml:base="content/" href="cashell/cashell.html?section=1000&amp;templateid=paps&amp;langid=ar" adlcp:scormType="sco">
+      <file href="paps/ar/zmod1000/sco.xml" />
+      <file href="paps/ar/zmod1000/media/icons/icon_1105.png" />
+      <file href="paps/ar/zmod1000/media/icons/icon_1110.png" />
+      <file href="paps/ar/zmod1000/media/icons/icon_1115.png" />
+      <file href="paps/ar/zmod1000/media/icons/icon_mopar.png" />
+      <file href="paps/ar/zmod1000/media/icons/iconLarge_1105.png" />
+      <file href="paps/ar/zmod1000/media/icons/iconLarge_1110.png" />
+      <file href="paps/ar/zmod1000/media/icons/iconLarge_1115.png" />
+      <dependency identifierref="cashell_files" />
+      <dependency identifierref="res_shared_js" />
+    </resource>
+     <resource identifier="PAPSJAWB-2000_int-res" type="webcontent" xml:base="content/" href="cashell/cashell.html?section=2000&amp;templateid=paps&amp;langid=ar" adlcp:scormType="sco">
+      <file href="paps/ar/zmod2000/sco.xml" />
+      <file href="paps/ar/zmod2000/media/2100_1.jpg" />
+      <file href="paps/ar/zmod2000/media/2100_2.jpg" />
+      <file href="paps/ar/zmod2000/media/2105_1.jpg" />
+      <file href="paps/ar/zmod2000/media/2200_backQ60.jpg" />
+      <file href="paps/ar/zmod2000/media/ctypebox01.jpg" />
+      <file href="paps/ar/zmod2000/media/ctypebox02.jpg" />
+      <file href="paps/ar/zmod2000/media/ctypebox03.jpg" />
+      <file href="paps/ar/zmod2000/media/ctypebox04.jpg" />
+    <file href="paps/ar/zmod2000/media/icons/hsicon_checked.png" />
+       <file href="paps/ar/zmod2000/media/icons/hsicon_unchecked.png" />
+          <file href="paps/ar/zmod2000/media/icons/hsicon_ready.png" />
+      <dependency identifierref="cashell_files" />
+      <dependency identifierref="res_shared_js" />
+    </resource>
+    
+       <resource identifier="PAPSJAWB-3000_int-res" type="webcontent" xml:base="content/" href="cashell/cashell.html?section=3000&amp;templateid=paps&amp;langid=ar" adlcp:scormType="sco">
+    <file href="paps/ar/zmod3000/sco.xml" />
+      <file href="paps/ar/zmod3000/media/icons/icon_mopar.png" />
+      <file href="paps/ar/zmod3000/media/icons/icon_3115.png" />
+      <file href="paps/ar/zmod3000/media/icons/icon_3120.png" />
+      <file href="paps/ar/zmod3000/media/icons/icon_3125.png" />
+      <file href="paps/ar/zmod3000/media/3000_1.jpg" />
+      <file href="paps/ar/zmod3000/media/3000_2.jpg" />
+      <file href="paps/ar/zmod3000/media/3000_3.jpg" />
+      <file href="paps/ar/zmod3000/media/3000_4.jpg" />
+      <file href="paps/ar/zmod3000/media/3000_5.jpg" />
+      <file href="paps/ar/zmod3000/media/3000_6.jpg" />
+      <file href="paps/ar/zmod3000/media/3000_7.jpg" />
+      <file href="paps/ar/zmod3000/media/3200_1.jpg" />
+      <file href="paps/ar/zmod3000/media/3200_2.jpg" />
+      <file href="paps/ar/zmod3000/media/3300_1.jpg" />
+      <file href="paps/ar/zmod3000/media/3300_2.jpg" />
+      <file href="paps/ar/zmod3000/media/3400_1.jpg" />
+      <dependency identifierref="cashell_files" />
+      <dependency identifierref="res_shared_js" />
+    </resource>
+      <resource identifier="PAPSJAWB-4000_int-res" type="webcontent" xml:base="content/" href="cashell/cashell.html?section=4000&amp;templateid=paps&amp;langid=ar" adlcp:scormType="sco">
+      <file href="paps/ar/zmod4000/sco.xml" />
+      <file href="paps/ar/zmod4000/media/CustomerInPerson2.jpg" />
+      <file href="paps/ar/zmod4000/media/CustomerInternal2.jpg" />
+      <file href="paps/ar/zmod4000/media/CustomerInternet2.jpg" />
+      <file href="paps/ar/zmod4000/media/CustomerPhone2.jpg" />
+      <file href="paps/ar/zmod4000/media/4100_1.jpg" />
+      <file href="paps/ar/zmod4000/media/4105_1.jpg" />
+      <file href="paps/ar/zmod4000/media/4110_1.jpg" />
+      <file href="paps/ar/zmod4000/media/4201.mp3" />
+      <file href="paps/ar/zmod4000/media/4205.mp3" />
+      <file href="paps/ar/zmod4000/media/4210.mp3" />
+      <file href="paps/ar/zmod4000/media/4215.mp3" />
+      <file href="paps/ar/zmod4000/media/4300_1.jpg" />
+      <file href="paps/ar/zmod4000/media/4305_1.jpg" />
+      <file href="paps/ar/zmod4000/media/4310_1.jpg" />
+      <file href="paps/ar/zmod4000/media/4315_1.jpg" />
+      <file href="paps/ar/zmod4000/media/4400_1.jpg" />
+      <file href="paps/ar/zmod4000/media/4405_1.jpg" />
+      <file href="paps/ar/zmod4000/media/4410_1.jpg" />
+      <file href="paps/ar/zmod4000/media/4415_1.jpg" />
+      <file href="paps/ar/zmod4000/media/4420_1.jpg" />
+      <file href="paps/ar/zmod4000/media/4425_1.jpg" />
+      <file href="paps/ar/zmod4000/media/4500_1.jpg" />
+      <file href="paps/ar/zmod4000/media/4505_1.jpg" />
+      <file href="paps/ar/zmod4000/media/4510_1.jpg" />
+      <file href="paps/ar/zmod4000/media/4600_1.jpg" />
+      <file href="paps/ar/zmod4000/media/4605_1.jpg" />
+      <file href="paps/ar/zmod4000/media/4615_1.jpg" />
+      <file href="paps/ar/zmod4000/media/4620_1.jpg" />
+      <file href="paps/ar/zmod4000/media/4625_1.jpg" />
+      <file href="paps/ar/zmod4000/media/MCprocessAnim.swf" />
+      <file href="paps/ar/zmod4000/media/2703ProcessAnim_Step01.png" />
+      <file href="paps/ar/zmod4000/media/2703ProcessAnim_Step02.png" />
+      <file href="paps/ar/zmod4000/media/2703ProcessAnim_Step03.png" />
+      <file href="paps/ar/zmod4000/media/2703ProcessAnim_Step04.png" />
+      <dependency identifierref="cashell_files" />
+      <dependency identifierref="res_shared_js" />
+    </resource>
+      <resource identifier="PAPSJAWB-5000_int-res" type="webcontent" xml:base="content/" href="cashell/cashell.html?section=5000&amp;templateid=paps&amp;langid=ar" adlcp:scormType="sco">
+   <file href="paps/ar/zmod5000/sco.xml" />
+      <file href="paps/ar/zmod5000/media/CustomerInPerson2.jpg" />
+      <file href="paps/ar/zmod5000/media/CustomerInternal2.jpg" />
+      <file href="paps/ar/zmod5000/media/CustomerInternet2.jpg" />
+      <file href="paps/ar/zmod5000/media/CustomerPhone2.jpg" />
+      <file href="paps/ar/zmod5000/media/2703ProcessAnim_Step01.png" />
+      <file href="paps/ar/zmod5000/media/2703ProcessAnim_Step02.png" />
+      <file href="paps/ar/zmod5000/media/2703ProcessAnim_Step03.png" />
+      <file href="paps/ar/zmod5000/media/2703ProcessAnim_Step04.png" />
+      <dependency identifierref="cashell_files" />
+      <dependency identifierref="res_shared_js" />
+    </resource>
+    <resource identifier="PAPSJAWB-6000_int-res" type="webcontent" xml:base="content/" href="cashell/cashell.html?section=6000&amp;templateid=paps&amp;langid=ar" adlcp:scormType="sco">
+      <file href="paps/ar/zmod6000/sco.xml" />
+      <dependency identifierref="cashell_files" />
+      <dependency identifierref="res_shared_js" />
+    </resource>
+    <resource identifier="PAPSJAWB-88000_int-res" type="webcontent" xml:base="content/" href="cashell/cashell.html?section=88000&amp;templateid=paps&amp;langid=ar" adlcp:scormType="sco">
+      <file href="paps/ar/zmod88000/sco.xml" />
+      <file href="paps/ar/zmod88000/media/LogoCourseINT_ar.png" />
+      <file href="paps/ar/zmod88000/docs/Overcoming_Customer_Objections_AR.pdf" />
+      <file href="paps/ar/zmod88000/docs/Customer_Driven_Sales_Process_AR.pdf" />
+      <dependency identifierref="cashell_files" />
+      <dependency identifierref="res_shared_js" />
+    </resource>
+   <resource identifier="PAPSJAWB-postTest-res" type="webcontent" xml:base="content/paps/ar/html/" href="post-test_launch.html" adlcp:scormType="sco">
+      <file href="post-test_launch.html" />
+      <file href="post-test_landing.html" />
+      <dependency identifierref="res_shared_js" />
+      <dependency identifierref="res_html" />
+      <dependency identifierref="res_shellconfig" />
+    <dependency identifierref="res_shellconfig_en" />
+    </resource>
+    <resource identifier="PAPSJAWB-notCompleted-res" type="webcontent" xml:base="content/paps/ar/html/" href="incomplete.html" adlcp:scormType="sco">
+      <file href="incomplete.html" />
+      <dependency identifierref="res_shared_js" />
+      <dependency identifierref="res_html" />
+    </resource>
+    <resource identifier="PAPSJAWB-congratulations-res" type="webcontent" xml:base="content/paps/ar/html/" href="complete.html" adlcp:scormType="sco">
+      <file href="complete.html" />
+      <dependency identifierref="res_shared_js" />
+      <dependency identifierref="res_html" />
+    </resource>
+  </resources>
+  <!--
+
+ Define a reusable sequencing collection for rules used by all SCOs
+
+-->
+  <imsss:sequencingCollection>
+    <imsss:sequencing ID="common_seq_rules">
+      <!--  This course doesn't rollup a score  -->
+      <imsss:rollupRules objectiveMeasureWeight="0" />
+      <!--...-->
+      <imsss:deliveryControls completionSetByContent="true" objectiveSetByContent="true" />
+    </imsss:sequencing>
+  </imsss:sequencingCollection>
+</manifest>

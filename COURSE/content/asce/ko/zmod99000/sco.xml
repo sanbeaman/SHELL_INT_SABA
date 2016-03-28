@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCEKOWB" template="ASCE" localeID="ko" debug="false">
+    <title>
+      <![CDATA[탁월한 고객 경험]]>
+</title>
+  </course>
+  <section id="0" snumber="99000">
+    <header>
+      <![CDATA[완료 및 종료]]>
+</header>
+    <scenes>
+      <scene id="99100" sNumber="99000" sType="completeexit" continueBtnType="exit">
+        <sceneitems>
+          <ui uid="1" type="bodyIcon" width="600" height="125" x="center" y="top" margin="20" trans="slideup" ease="BackEaseOut">
+            <bodyImage id="i1" order="0" time="1" scaleMode="none" url="logo_course.png">
+              <![CDATA[Course Logo]]>
+</bodyImage>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="99110" type="CourseNotComplete" endType="stop">
+            <ui uid="0" type="sectionHeader">
+              <![CDATA[교육 과정이 완료되지 않음 (이번 시도)]]>
+</ui>
+            <ui uid="2" type="BodyText" width="660" height="230" x="center" y="150" margin="0" trans="slideup" ease="QuintEaseOut">
+              <bodyBullet>
+                <![CDATA[필요한 모든 메뉴 항목을 완료하지 않았습니다(이번 시도).  아직 완료되지 않은 모든 필수 메뉴 항목을 선택하십시오.  그런 다음 이 화면으로 돌아와 아래의 완료 및 종료 버튼을 선택해야 합니다.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="BodyButton" trans="slideup" ease="QuintEaseOut" order="50" time="1">
+              <item id="trigger" type="completeAndExit" x="center" y="bottom" width="200" height="36" fontSize="16" fontColor="0x000000" fontStyle="reg" pulseColor="0xfe9003" xPad="10" yPad="10" isActive="no">
+                <![CDATA[완료 및 종료]]>
+</item>
+            </ui>
+          </slide>
+          <slide sNumber="99120" type="CourseComplete" endType="exit">
+            <ui uid="0" type="sectionHeader">
+              <![CDATA[교육 과정 완료 (이번 시도)]]>
+</ui>
+            <ui uid="2" type="BodyText" width="660" x="center" y="200" margin="10" trans="slideup" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="2" yPad="0">
+                <![CDATA[본 교육 과정의 모든 메뉴 항목을 완료했습니다(이번 시도).  단원 헤드에는 체크 표시가 나타나지 않습니다.  주의:  완료된 시도 후 처음으로 과정을 다시 실행하는 경우, 북마크가 재설정되며 채워지거나 선택된 상태로 나타나지 않습니다.]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="3">
+                <![CDATA[올바로 끝내기: 완료 및 종료 버튼을 선택하여 완료 기록을 학습 센터로 전송해야 합니다.  그런 다음, 본 교육 과정의 학습 센터 학습 지정 페이지에서 테스트와 필요한 모든 항목을 실행하십시오.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="BodyButton" trans="slideup" ease="QuintEaseOut" order="50" time="1">
+              <item id="trigger" type="completeAndExit" x="center" y="bottom" width="200" height="36" fontSize="16" fontColor="0x000000" fontStyle="reg" pulseColor="0xfe9003" xPad="10" yPad="10" isActive="yes">
+                <![CDATA[완료 및 종료]]>
+</item>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

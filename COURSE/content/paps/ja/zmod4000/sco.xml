@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="PAPSJAWB" template="PAPS" localeID="ja" debug="false">
+    <title>
+      <![CDATA[小売パーツ販売スキル]]>
+</title>
+  </course>
+  <section id="1" snumber="4000">
+    <header>
+      <![CDATA[顧客ニーズに基づいたプロセス]]>
+</header>
+    <scenes>
+  
+      <scene sNumber="4100" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[期待に応える]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+        <slide sNumber="4101" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="470" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="10" yPad="0">
+                <![CDATA[このモジュールでは、顧客満足度、ロイヤルティ、販売に直接的な影響を与える顧客ニーズに基づいたパーツ販売プロセスの活用方法を習得します。]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="11">
+                <![CDATA[まず、顧客が購入したくない理由および購入体験に何を期待しているかを理解する必要があります。]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="150" x="right" y="top" margin="10" time="1" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="0">
+              <bodyImage id="i1" order="1" url="4100_1.jpg">
+                <![CDATA[Parts Advisor with male customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4105" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10"  time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="1" yPad="0">
+                <![CDATA[顧客が購入を渋る理由。]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="3">
+                <![CDATA[<li>パーツ アドバイザーが購入の意思確認を怠っている。 顧客に購入する準備はあるが、販売担当者に質問したい項目がある</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+                <![CDATA[<li>顧客がパーツ アドバイザーを信頼しておらず、不要なものを売りつけられるのではないかと感じている</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="9">
+                <![CDATA[<li>顧客が価格に見合う価値を理解していない。 パーツ アドバイザーが顧客ニーズに合った機能やメリットを提示していない</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="12">
+                <![CDATA[<li>パーツの納品待ち、サービスの待ち時間、電話で待たされる、パーツ部門での検索に時間が掛かるなど不便がある</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb9" order="15">
+                <![CDATA[どうやって顧客に購入を決断させますか。 顧客が期待しているのは何でしょうか。]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="238" x="right" y="top" margin="10" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="0">
+              <bodyImage id="img1" order="2" url="4105_1.jpg">
+                <![CDATA[Customer at parts counter with Parts Advisor]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4110" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10"  time="1" trans="slideRight" ease="QuintEaseOut">
+              <bodyBullet id="bb0" order="11" yPad="0">
+                <![CDATA[顧客が期待しているのは、優れたサービスです。つまり、以下を意味します。]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="13">
+                <![CDATA[誰もが重要な顧客として待遇してもらいたいと思っており、あなたが自分をサポートしてくれる信頼に足りる人物だと確信したいのです。]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="15">
+                <![CDATA[顧客は特別なニーズを抱えた顧客として敬意を払ってもらえるような関係を構築することを望んでいます。]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="17">
+                <![CDATA[顧客は自分の質問や懸念に対応して欲しいと思っています。]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="19">
+                <![CDATA[そして、公平な待遇を望んでるのです。]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="239" x="right" y="top" margin="10" time="1" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="0">
+              <bodyImage id="i1" order="2" url="4110_1.jpg">
+                <![CDATA[Female Customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4115" type="BulletBuildAnimation" animType="animsync" endType="Continue">
+            <ui uid="animMC1" type="bodyAnim" width="320" height="320" x="center" y="middle" margin="10" url="MCprocessAnim.swf" frameStart="s0" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="insert" tweenOrder="1" tweenTime="0" tweenDuration="2" ease="QuintEaseOut" />
+              <anim type="shrink2corner" tweenType="append" tweenOrder="2" tweenTime="2" tweenDuration="2" ease="QuintEaseOut" scale=".75" x="right" y="bottom" margin="10" />
+            </ui>
+            <ui uid="3" type="bodyBullet" width="680" x="left" y="40" margin="10" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="10" yPad="0">
+                <![CDATA[正式な顧客ニーズに基づいたパーツ販売プロセスに従うことは、顧客が期待するサービス レベルを満たすと共に、成約数の増加をサポートします。]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="11" time="1" target="animMC1" targetTrigger="s1">
+                <![CDATA[このコースのプロセスには、次の 4 つのステップがあります。]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="12" time="1" target="animMC1" targetTrigger="s2">
+                <![CDATA[<li>顧客との関係を始める</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="13" time="1" target="animMC1" targetTrigger="s3">
+                <![CDATA[<li>ニーズを特定する</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="14" time="1" target="animMC1" targetTrigger="s4">
+                <![CDATA[<li>解決策を提示する</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="15" time="1" target="animMC1" targetTrigger="sall">
+                <![CDATA[<li>購入の意思確認をする</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="16" time="1" target="animMC1" targetTrigger="salldone">
+                <![CDATA[]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut" fontSize="10">
+              <bodyNote id="gn1" order="99" time="1">
+                <![CDATA[本コースの [Learning Center Assignments] ページのリソース リストから「顧客本位の部品販売手順」をダウンロードします。]]>
+</bodyNote>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene sNumber="4200" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[ステップ 1: 顧客との関係を始める]]>
+</header>
+          </ui>
+           <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step01a" syncType="append" trans="animbuild" order="1">
+          <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+             <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration="1" ease="BackEaseOut" />
+              <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step01" />
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="4201" type="BulletBuildSNDFX" animType="animsync" endType="Continue">
+            <ui uid="1" type="slideHeader" width="600" height="50" x="left" y="40" margin="10" fontSize="20" fontColor="0x666666" time="1" trans="slideRight" ease="BackEaseOut">
+              <header id="sh1" order="3">
+                <![CDATA[<b>電話問い合わせ</b>]]>
+</header>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="70" margin="10" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="20" yPad="0">
+                <![CDATA[<li>電話は 3 コール以内に取る</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="21">
+                <![CDATA[<li>笑顔</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22">
+                <![CDATA[<li>自分の名前と部門を言う</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="23">
+                <![CDATA[<li>密なつながりを構築するために顧客の名前を尋ね、要件を聞く</li>]]>
+</bodyBullet>
+       <bodyBullet id="bb4" order="24">
+                <![CDATA[<li>顧客に全神経を集中させる</li>]]>
+</bodyBullet>  
+             <bodyBullet id="bb5" order="25">
+                <![CDATA[<li>電話を保留する場合は許可を取り、理由を説明する</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="26">
+                <![CDATA[<li>30 秒以内に会話を再開する</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="2" type="bodySndfx" trans="playSnd" ease="none">
+              <item id="phonering" type="sndfx" syncType="append" order="4" url="4201.mp3" repeat="2">
+                <![CDATA[Phone Ring SndFX ]]>
+</item>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" time="1" url="CustomerPhone2.jpg">
+                <![CDATA[Customer Phone]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4205" type="BulletBuildSNDFX" animType="animsync" endType="Continue">
+            <ui uid="1" type="slideHeader" width="600" height="50" x="left" y="40" margin="10" fontSize="20" fontColor="0x666666" time="1" trans="slideRight" ease="BackEaseOut">
+              <header id="sh1" order="3">
+                <![CDATA[<b>直接顧客</b>]]>
+</header>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="70" margin="10"  trans="slideRight" ease="QuintEaseOut">
+              <bodyBullet id="bb0" order="20" yPad="0">
+                <![CDATA[<li>迅速かつ誠実に出迎える</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="21">
+                <![CDATA[<li>アイ コンタクトを取り笑顔で応対する</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22">
+                <![CDATA[<li>顧客に全神経を集中させる</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="23">
+                <![CDATA[<li>電話中に顧客が来店してきたら、気がついていることを示し、すぐに対応することを相手に伝える</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="24">
+                <![CDATA[<li>姿勢やボディ ランゲージでプロらしいイメージを伝える</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="25">
+                <![CDATA[<li>顧客のボディ ランゲージをつぶさに観察し、それに合わせて自分のボディ ランゲージを調整する</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="2" type="bodySndfx" trans="playSnd" ease="none">
+              <item id="bell" type="sndfx" syncType="append" order="4" url="4205.mp3">
+                <![CDATA[Bell SndFX ]]>
+</item>
+            </ui>
+            <ui uid="i1" type="bodyImage"  width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="CustomerInPerson2.jpg">
+                <![CDATA[Customer In-Person]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4210" type="BulletBuildSNDFX" animType="animsync" endType="Continue">
+            <ui uid="1" type="slideHeader" width="600" height="50" x="left" y="40" margin="10" fontSize="20" fontColor="0x666666" time="1" trans="slideRight" ease="BackEaseOut">
+              <header id="sh1" order="3">
+                <![CDATA[<b>内部顧客</b>]]>
+</header>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="70" margin="10"  trans="slideRight" ease="QuintEaseOut">
+              <bodyBullet id="bb0" order="20" yPad="0">
+                <![CDATA[<li>ディーラーは個別の部門ではなく、ひとつのチーム</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="21">
+                <![CDATA[<li>販売およびサービス部門の同僚に優れたカスタマー サービスを提供することで、全員の利益を改善</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22">
+                <![CDATA[<li>外部顧客と同様の即座に対応および待遇</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="23">
+                <![CDATA[<li>顧客に価格見積りを提供できるだけの必要な情報を有していることを確認</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="24">
+                <![CDATA[<li>販売コンサルタントが提供する情報を活用することでアクセサリ販売が推進されることを提示</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="2" type="bodySndfx" trans="playSnd" ease="none">
+              <item id="bell" type="sndfx" syncType="append" order="4" url="4210.mp3">
+                <![CDATA[Bell SndFX ]]>
+</item>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="CustomerInternal2.jpg">
+                <![CDATA[Customer Internal]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4215" type="BulletBuildSNDFX" animType="animsync" endType="Continue">
+            <ui uid="1" type="slideHeader" width="600" height="50" x="left" y="40" margin="10" fontSize="20" fontColor="0x666666" time="1" trans="slideRight" ease="BackEaseOut">
+              <header id="sh1" order="3">
+                <![CDATA[<b>インターネット顧客</b>]]>
+</header>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="70" margin="10"  trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="20" yPad="0">
+<![CDATA[<li>インターネット顧客に自分とディーラーのイメージを伝える手段は、メール等に書かれた文字を介した電子的コミュニケーション</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="21">
+                <![CDATA[<li>問い合わせには受信から 20 分以内に返信し、親しみを込めながらもプロらしい文書での応答が必要</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22">
+                <![CDATA[<li>要求された情報を分かりやすく提供</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="23">
+                <![CDATA[<li>誤字脱字のない正しい文法で回答していることを確認</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="24">
+                <![CDATA[<li>ディーラー名、電話番号、担当者名を明記</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom"  margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="CustomerInternet2.jpg">
+                <![CDATA[Customer Internet]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="bodySndfx" trans="playSnd" ease="none">
+              <item id="email" type="sndfx" syncType="append" order="4" url="4215.mp3">
+                <![CDATA[Email SndFX ]]>
+</item>
+            </ui>
+          </slide>
+          <slide sNumber="4220" type="BulletBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="slideHeader" width="510" height="50" x="left" y="40" fontSize="20" fontColor="0x666666" margin="10" time="1" trans="slideRight" ease="QuintEaseOut">
+              <header id="sh1" order="2">
+                <![CDATA[<b>知識チェック</b>]]>
+</header>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="70" margin="10"  time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="20" yPad="0">
+                <![CDATA[次のパーツ アドバイザーと顧客の対話を読み、 関係を構築する上で、アドバイザーが失念している項目を選択してください。]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="22" trans="slideUp">
+                <![CDATA[<b>パーツ アドバイザー:</b><i> 「パーツ部門のピートです」</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="24" trans="slideUp">
+                <![CDATA[<b>顧客:</b><i> 「Wrangler 用の赤いタッチ アップ ペイントが欲しいんですが、ありますか」</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="26" trans="slideUp">
+                <![CDATA[<b>パーツ アドバイザー:</b><i> 「あると思います。確認してくるので少々お待ちください。ご愛用の Jeep をお持ちいただければ、こちらで点検しますが」</i>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="slideendnote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="999" time="1">
+                <![CDATA[知識チェックを終了するには次のアイコンをクリックします。]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="CustomerPhone2.jpg">
+                <![CDATA[Customer Phone]]>
+</bodyImage>
+            </ui>
+          </slide>
+          
+          <slide sNumber="4225" type="Activity_MultipleChoice" animType="animsync" endType="Continue">
+              <ui uid="2" type="act" atype="mc" width="700" height="450" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="480" x="0" y="0" fontSize="20" fontColor="0x666666" syncType="buildy" yPad="10">
+                <item type="header" fontSize="20" x="0" yPad="0">
+                <![CDATA[<b>知識チェック</b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+                <![CDATA[顧客との関係を始めるうえで彼が失念している項目をすべて選択し、[解答確認] をクリックしてください。]]>
+</item>
+              </actui>
+              <actui type="cboxes" x="0" y="0" width="510" height="36" xPad="8" yPad="16" fontColor="0x666666" fontSize="16" fontStyle="reg" fillColor="0xffffff" fillAlpha="1">
+                <item id="a" isanswer="false">
+                <![CDATA[自分の名前と部門を言う]]>
+</item>
+                <item id="b" isanswer="true">
+                <![CDATA[顧客に要件を尋ねる]]>
+</item>
+                <item id="c" isanswer="true">
+                <![CDATA[顧客を待たせる際には、許可を得る]]>
+</item>
+                <item id="d" isanswer="false">
+                <![CDATA[顧客を待たせるのは 30 秒以内に留める]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="180" height="34" margin="10" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit" x="right" y="0">
+                  <![CDATA[解答確認]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" fontSize="14">
+                <item type="correct" afile="">               <![CDATA[彼は顧客の要件を尋ねていません。また、顧客を待たせる際に許可を得ることを忘れています。彼は優れたサービスを提供できていないため、この顧客は別のところで購入する可能性があります。]]>
+</item>
+                <item type="wrong" afile="">
+                <![CDATA[彼は顧客の要件を尋ねていません。また、顧客を待たせる際に許可を得ることを忘れています。彼は優れたサービスを提供できていないため、この顧客は別のところで購入する可能性があります。]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+          <scene sNumber="4300" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[ステップ 2: ニーズを特定する]]>
+</header>
+          </ui>
+          <ui uid="animMC1" type="bodyAnim" width="320" height="320" x="center" y="middle" margin="10" url="MCprocessAnim.swf" frameStart="step02a" syncType="append" trans="animbuild" order="1">
+            <anim type="fadeOn" tweenType="insert" tweenOrder="1" tweenTime="0" tweenDuration="2" ease="QuintEaseOut" />
+            <anim type="frameTween" tweenType="append" tweenOrder="2" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step02" />
+            <anim type="shrink2corner" tweenType="append" tweenOrder="3" tweenTime="2" tweenDuration="2" ease="QuintEaseOut" scale=".5" x="right" y="top" margin="10" />
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="4301" type="BulletBuildAnimation" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10"  time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="20" yPad="0">           <![CDATA[対応している顧客は、自分が本当に何を必要としているのか気がついていない可能性があります。彼らが必要としているものは、おそらく次のとおりです。]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="21">
+                <![CDATA[<li>付加的パーツ</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22">
+                <![CDATA[<li>別のパーツ</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="23">
+                <![CDATA[<li>ディーラーに車を持ち込んでサービスを受ける</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="24">
+                <![CDATA[顧客の真のニーズを引き出し、特定することはあなたの仕事です。どうしますか。]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" time="1" url="4300_1.jpg">
+                <![CDATA[Parts Advisor with male customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4305" type="BulletBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="20" yPad="0">
+                <![CDATA[<li>顧客の発言を注意して聞き、真のニーズを特定するための情報を収集する</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="21">
+                <![CDATA[<li>Mopar 製品には車両固有のエンジニアリングが施されているため、まず顧客から VIN を取得する</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22">
+                <![CDATA[<li>会話が広がるような質問をして顧客を会話に取り込む。 これにより「はい/いいえ」で答える質問よりも、多くの情報を引き出せる</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" time="1" url="4305_1.jpg">
+                <![CDATA[Parts Advisor with male customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4310" type="BulletBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="500" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="90" yPad="0">
+                <![CDATA[パーツ アドバイザーが顧客から情報を収集する方法を習得しましょう。]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="91" trans="slideUp">
+                <![CDATA[<b>パーツ アドバイザー:</b><i> 「アダム様、承知しました。お客様の 2010 PT Cruiser に使用できる点火プラグには標準タイプとプラチナチップの 2 種類がございますが、どちらがよろしいですか」</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="92">
+                <![CDATA[付加的な販売チャンスを特定する。]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="93">
+                <![CDATA[<li>顧客が適切な修理を必要としている箇所に関連したパーツはないか</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="94">
+                <![CDATA[<li>顧客の時間と資金を節約できる、すべての必要パーツを含むキットはないか</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="95">
+                <![CDATA[<li>顧客が購入を検討するような、季節的なパーツやディーラー プロモーションはないか</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="96">
+                <![CDATA[最初に訪れた際に、顧客に必要なアイテムをすべて入手してもらうことで信頼関係が構築され、優れたカスタマー サービスを提供したと言えます。]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" time="1" url="4310_1.jpg">
+                <![CDATA[Parts Advisor with male customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4315" type="BulletBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+               <bodyBullet id="bb0" order="98" yPad="0">
+                <![CDATA[顧客との関係にニーズを特定することが、どのように活かせるかを学びましょう。]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="99" trans="slideUp">
+                <![CDATA[<b>顧客:</b><i> 「どうしてプラチナチップの点火プラグが必要なんですか」</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="100" trans="slideUp">
+                <![CDATA[<b>パーツ アドバイザー:</b><i> 「プラチナチップであれば交換せずに 160,000 キロまでの走行が可能であり、長期的に見れば資金の節約に繋がります。ご自分で行われているメンテナンスで、何かお手伝いできることはありませんか」</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="101">
+                <![CDATA[パーツ アドバイザーは会話が広がる自由回答形式の質問をして、顧客の真のニーズに関する情報を引き出そうとしています。]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="102">
+                <![CDATA[彼は顧客の質問に対し、付加価値のある説明で応答し、さらに付加的販売のチャンスを特定するような質問をしています。]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="103">
+                <![CDATA[では、ここまで学んだ内容を確認しましょう。]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="4315_1.jpg">
+                <![CDATA[Parts Advisor with male customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4320" type="BulletBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="slideHeader" width="600" height="50" x="left" y="40" fontSize="20" fontColor="0x666666" margin="10" time="1" trans="slideRight" ease="QuintEaseOut">
+              <header id="sh1" order="2">
+                <![CDATA[<b>知識チェック</b>]]>
+</header>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="70" margin="10"  trans="slideRight" ease="QuintEaseOut" yPad="10">
+             <bodyBullet id="bb0" order="106" yPad="0">
+                <![CDATA[次のパーツ アドバイザーと顧客の対話を読み、顧客の真のニーズを特定するために別の手法を採るべき箇所を選択してください。]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="107" trans="slideUp">
+                <![CDATA[<b>パーツ アドバイザー:</b><i> 「2010 Charger のリア ブレーキを交換される予定で、新しいブレーキ シューがご入用なのですね。ちょっとお調べしてみます」</i>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="slideendnote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="999" time="1">
+ <![CDATA[知識チェックを終了するには次のアイコンをクリックします。]]></bodyNote>
+            </ui>
+          </slide>
+          <slide sNumber="4325" type="act" animType="animsync" endType="Continue">
+            <ui uid="2" type="act" atype="mc" width="700" height="450" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="510" x="0" y="0" margin="0" fontSize="20" fontColor="0x666666" syncType="buildy" yPad="10">
+                <item type="header" fontSize="20" x="0" yPad="0">
+ <![CDATA[<b>知識チェック</b>]]></item>
+                <item type="questiontext" fontSize="18">
+                <![CDATA[顧客の真のニーズを特定するために別の手法を採るべき箇所を選択してください。そして、[解答確認] をクリックします。]]>
+</item>
+              </actui>
+              <actui type="cboxes" x="0" y="0" width="510" height="36" xPad="8" yPad="16" fontColor="0x666666" fontSize="16" fontStyle="reg" fillColor="0xffffff" fillAlpha="1">
+                <item id="a" isanswer="false">
+                <![CDATA[自分の名前と部門を言う]]>
+</item>
+                <item id="b" isanswer="true">
+                <![CDATA[自由回答を促す質問をする]]>
+</item>
+                <item id="c" isanswer="true">
+                <![CDATA[製品を把握する –３００Ｃ  リア ブレーキにはブレーキ シューではなくパッドが必要]]>
+</item>
+                <item id="d" isanswer="true">
+                <![CDATA[VIN を尋ねる]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" width="200" height="34" x="right" fontSize="16" fontColor="0x000000" fontStyle="reg">
+                  <![CDATA[解答確認]]>
+</item>
+              </actui>
+              <actui type="feedbacktext"  width="680" fontSize="14">
+                <item type="correct" afile="">
+                <![CDATA[顧客に VIN を尋ね、もっと情報を収集することで、顧客がブレーキ シューではなくブレーキ パッドを必要としていることが分かります。これによって信頼を得て、販売プロセスに移行しやすくなります。]]>
+</item>
+                <item type="wrong" afile="">
+                <![CDATA[顧客に VIN を尋ね、もっと情報を収集することで、顧客がブレーキ シューではなくブレーキ パッドを必要としていることが分かります。これによって信頼を得て、販売プロセスに移行しやすくなります。]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene sNumber="4400" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[ステップ 3: 解決策を提示する]]>
+</header>
+          </ui>
+          <ui uid="animMC1" type="bodyAnim" width="320" height="320" x="center" y="middle" margin="10" url="MCprocessAnim.swf" frameStart="step03a" syncType="append" trans="animbuild" order="1">
+            <anim type="fadeOn" tweenType="insert" tweenOrder="1" tweenTime="0" tweenDuration="2" ease="QuintEaseOut" />
+            <anim type="frameTween" tweenType="append" tweenOrder="2" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step03" />
+            <anim type="shrink2corner" tweenType="append" tweenOrder="3" tweenTime="2" tweenDuration="2" ease="QuintEaseOut" scale=".5" x="right" y="top" margin="10" />
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="4401"  type="BodyBulletBuild" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="122" yPad="0">
+                <![CDATA[<li>自分の製品知識と経験から解決策を提示する</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="123">
+                <![CDATA[<li>顧客との関係が構築され始め、お互いに対する信頼と尊敬が育まれる</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="124">
+                <![CDATA[<li>顧客ニーズを理解し、さらなる販売チャンスを特定する</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="125">
+                <![CDATA[<li>販売する製品のメリットや価値に焦点を当て、顧客に効果的に製品を薦めることができる</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="4400_1.jpg">
+                <![CDATA[Parts Advisor with female customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4405" type="BodyBulletBuild" animType="animsync" endType="Continue">
+          
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut">
+              <bodyBullet id="bb0" order="127" yPad="0">
+                <![CDATA[顧客に解決策を提示する際に心得ておくべきキー ポイント]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="128">
+                <![CDATA[<li>積極的な態度</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="129">
+                <![CDATA[<li>解決策に焦点を当て、出来ないことではなく顧客に何を提供できるかを考える</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="130" trans="slideUp">
+                <![CDATA[<b>パーツ アドバイザー:</b><i> 「クラマーさんが選ばれたシャープなホイールは、まさにご愛用の Chrysler 300 のために設計されたようなものです。現在、ここに在庫はないのですが、明日には届きます。明日はサービス部門でホイールの取り付けをご覧いただけるよう取り計らうこともできます」</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="131">
+                <![CDATA[パーツ アドバイザーは、熱意のある口調で話します。]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="132">
+                <![CDATA[彼は、在庫がないという状況がポジティブな経験となるよう、即座に解決策を提案しています。]]>
+</bodyBullet>
+            </ui>
+              <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" time="1" url="4405_1.jpg">
+                <![CDATA[Parts Advisor with female customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4410" type="BodyBulletBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+                 <bodyBullet id="bb0" order="136" yPad="0">
+                <![CDATA[<li>追加パーツを尋ねる前に、顧客の最初の要求に対する解決策を提示する</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="137">
+                <![CDATA[<li>たいていの顧客は、最初の要求に対処してもらうまでは、どんな製品を薦められても耳を貸さない</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="138">
+                <![CDATA[<li>薦める製品のメリットと価値を説明し、顧客満足とロイヤルティを勝ち取る</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="4410_1.jpg">
+                <![CDATA[Parts Advisor with female customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4415" type="BodyBulletBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="140" trans="slideUp" yPad="0">
+                <![CDATA[<b>パーツ アドバイザー:</b><i> 「アダム様、お客様の PT Cruiser にプラチナチップの点火プラグをお選びいただいたことは、賢明なご判断です。純正パーツは高品質で信頼性および耐久性に優れています。よって、この車を使用される長期的な期間において資金を節約できます。他に必要なものはございませんか。お客様の車両専用に設計されたエア フィルターや燃料フィルターを含むメンテナンス キットがあります。これを使用されれば、さらに経費の節約に繋がります」</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="141">
+                <![CDATA[パーツ アドバイザーは顧客の最初の要求に対する選択のメリットを説明し、顧客の判断を確証しています。 また、追加パーツを薦める際にもそのメリットを適切に説明しています。]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="4415_1.jpg">
+                <![CDATA[Parts Advisor with male customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4420" type="BodyBulletBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10"  trans="slideRight" ease="QuintEaseOut" yPad="10">
+                <bodyBullet id="bb0" order="143" yPad="0">
+                <![CDATA[<li>技術的な専門用語の使用や複雑な説明はしない</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="144">
+                <![CDATA[<li>StarParts などのツールやリソースのメリットを活用する</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="145" trans="slideUp">
+                <![CDATA[<b>パーツ アドバイザー:</b><i> 「ケンプ様、StarParts でご覧いただいたようにお客様の車両には、ドラムではなくリア デスク ブレーキが採用されています。ですから、ブレーキ シューではなくブレーキ パッドが必要になりますね。今ここにパーツ番号もご用意しています。ローターの点検はお済みですか」</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="146">
+                <![CDATA[パーツ アドバイザーは終始簡単に説明しています。]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="4420_1.jpg">
+                <![CDATA[Parts Advisor with male customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4425" type="BodyBulletBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="148" yPad="0">
+                <![CDATA[<li>適切な解決策を提示したら、顧客に価格を伝える</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="149">
+                <![CDATA[<li>パーツやアクセサリを取り付ける場合は、取り付け価格の見積りを準備する</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="150" trans="slideUp">
+                <![CDATA[<b>パーツ アドバイザー:</b><i> 「クレマー様、鋳造アルミホイールは腐食することもなく、ずっと美しい輝きを維持する優れものです。 価格は 4 つで 1,124 ドルになります。先ほどお話したように、明日には納品されてきますので、サービス部門での取り付けを見学できるよう手配いたします」</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="151">
+                <![CDATA[パーツ アドバイザーは製品の価値をさらに高めるようなメリットを顧客に伝え、その後価格を述べて取り付けの見学を手配しています。]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="182" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="4425_1.jpg">
+                <![CDATA[Parts Advisor with male customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4430" type="BodyBulletBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="slideHeader" width="600" height="50" x="left" y="40" margin="10" fontSize="20" fontColor="0x666666" time="1" trans="slideRight" ease="QuintEaseOut">
+              <header id="sh1" order="2">
+                <![CDATA[<b>知識チェック</b>]]>
+</header>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="70" margin="10"  time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="30" yPad="0">
+                <![CDATA[次のパーツ アドバイザーが顧客に提示した解決策を読み、 解決策を提示する上で、アドバイザーが失念している項目を選択してください。]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="32" time="1" trans="slideUp" ease="QuintEaseOut">
+                <![CDATA[<b>パーツ アドバイザー:</b><i> 「ミラー様、StarParts のここにも記載されているように、これがお客様の車に必要なウォーター ポンプです。これは Mopar パーツで、お客様の車両専用に設計されており、使用されている間は保証が適用されます。また、ポンプが適切に動作するにはガスケットやラジエーター ホース、クランプが必要になります。修理はご自分で行われる予定ですか」</i>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="99" time="1">
+                <![CDATA[知識チェックを終了するには次のアイコンをクリックします。]]>
+</bodyNote>
+            </ui>
+          </slide>
+          <slide sNumber="4435" type="act" animType="animsync" endType="Continue">
+           <ui uid="2" type="act" atype="mc" width="700" height="450" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="510" x="left" y="0" margin="10" fontSize="20" fontColor="0x666666" syncType="buildy" yPad="10">
+                <item type="header" fontSize="20" x="0" yPad="0">
+                <![CDATA[<b>知識チェック</b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+                <![CDATA[顧客に解決策を提示する上で、彼が失念した重要な応答を 1 つ選択し、[解答確認] をクリックしてください。]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" x="0" y="0" width="510" height="36" xPad="8" yPad="16" fontColor="0x666666" fontSize="16" fontStyle="reg" fillColor="0xffffff" fillAlpha="1">
+                <item id="a" isanswer="false">
+                <![CDATA[積極的な態度]]>
+</item>
+                <item id="b" isanswer="false">
+                <![CDATA[顧客の最初の要求に対処する]]>
+</item>
+                <item id="c" isanswer="false">
+                <![CDATA[説明は簡単にする]]>
+</item>
+                <item id="d" isanswer="true">
+                <![CDATA[価格と所要時間の見積りを提示する]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" width="200" height="34" x="right" fontSize="16" fontColor="0x000000" fontStyle="reg">
+                  <![CDATA[解答確認]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" fontSize="14">
+                <item type="correct" afile="">
+                <![CDATA[パーツ アドバイザーは積極的な態度で、顧客の最初の要求に対し簡単な説明をして対応しています。しかし、パーツ価格や取り付けに掛かる費用や時間を述べていません。]]>
+</item>
+                <item type="wrong" afile="">
+                <![CDATA[パーツ アドバイザーは積極的な態度で、顧客の最初の要求に対し簡単な説明をして対応しています。しかし、パーツ価格や取り付けに掛かる費用や時間を述べていません。]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene sNumber="4500" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[ステップ 4: 購入の意思確認]]>
+</header>
+          </ui>
+          <ui uid="animMC1" type="bodyAnim" width="320" height="320" x="center" y="middle" margin="10" url="MCprocessAnim.swf" frameStart="step04a" syncType="append" trans="animbuild" order="1">
+            <anim type="fadeOn" tweenType="insert" tweenOrder="1" tweenTime="0" tweenDuration="2" ease="QuintEaseOut" />
+            <anim type="frameTween" tweenType="append" tweenOrder="2" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step04" />
+            <anim type="shrink2corner" tweenType="append" tweenOrder="3" tweenTime="2" tweenDuration="2" ease="QuintEaseOut" scale=".5" x="right" y="top" margin="10" />
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="4501" type="BulletBuild"  endType="Continue">
+            
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb1" order="20" yPad="0">
+                <![CDATA[<li>一部のサービス アドバイザーにとっては、購入の意思確認は最も困難なステップ</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="21">
+                <![CDATA[<li>単に販売を行うだけでなく、上顧客を獲得し、さらなる売上増加に繋がるステップ</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" time="1" url="4500_1.jpg">
+                <![CDATA[Parts Advisor with male customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4505" type="BulletBuild"  endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" trans="slideRight" ease="QuintEaseOut" yPad="10">
+             <bodyBullet id="bb0" order="172" yPad="0">
+                <![CDATA[<li>購入意思を尋ねる前に、顧客に購入の意思があることを確認する</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="173">
+                <![CDATA[<li>提示した解決策が顧客ニーズをどのように満たすかを示す</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="174">
+                <![CDATA[<li>販売しようとしている製品の価値を顧客が理解しないと、こちらの話を聞かなくなる</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="175">
+                <![CDATA[<li>販売しようとしている製品のメリットをリアルで魅力的なものとして示す。アクセサリーであるなら、顧客にそのパーツを取り付けることで愛車がどのように人目を引くようになるかを示す</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="4505_1.jpg">
+                <![CDATA[Parts Advisor with female customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4510" type="BulletImageBuild"  endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" trans="slideRight" ease="QuintEaseOut" yPad="10">
+             <bodyBullet id="bb0" order="177" yPad="0">
+                <![CDATA[<li>顧客の意思が確認できたら、購入意思を尋ねる。購入意思を尋ねられた顧客は、尋ねられなかった顧客よりも購入する確率が高い</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="178">
+                <![CDATA[<li>想定される反論に対する準備を整え、再度購入意思を確認する</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="179">
+                <![CDATA[<li>購入意思を確認する色々な方法</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="180" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>プレゼンテーション中に質問をして、顧客の購入準備が整っていることを確認する</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="181" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>顧客がさも購入に合意しているかのように話す</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="182" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>顧客が購入に合意しているかのように、選択肢を提示する</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="183" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>顧客のニーズをまとめ、解決策がそれをどのようにサポートするかを示す</li>]]>
+</bodyBullet>
+            </ui>
+              <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="4510_1.jpg">
+                <![CDATA[Parts Advisor with female customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4525" type="BulletBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="slideHeader" width="470" height="50" x="left" y="40" margin="10" fontSize="20" fontColor="0x666666" time="1" trans="slideRight" ease="QuintEaseOut">
+              <header id="sh1" order="2">
+                <![CDATA[<b>知識チェック</b>]]>
+</header>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="70" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+             <bodyBullet id="bb0" order="186" yPad="0">
+                <![CDATA[次のパーツ アドバイザーの購入意思確認方法をお読みください。彼が使用しているテクニックはどれですか。]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="187" trans="slideUp">
+                <![CDATA[<b>パーツ アドバイザー:</b><i> 「それではミラー様、在庫からウォーター ポンプとガスケット、ラジエーター ホース、クランプを今すぐお持ちします。お支払い方法はどうされますか」</i>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="99" time="1">
+                <![CDATA[知識チェックを終了するには次のアイコンをクリックします。]]>
+</bodyNote>
+            </ui>
+          </slide>
+          <slide sNumber="4530" type="act"  endType="Continue">
+           <ui uid="2" type="act" atype="mc" width="700" height="450" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="480" x="0" y="0" margin="0" fontSize="20" fontColor="0x666666" syncType="buildy" yPad="10">
+                <item type="header" fontSize="20" x="0" yPad="0" fontColor="0x000000">
+ <![CDATA[<b>知識チェック</b>]]></item>
+             <item type="questiontext" fontSize="18">
+                <![CDATA[彼が使用した購入意思確認のテクニックを選択し、[解答確認] をクリックしてください。]]>
+</item>
+            </actui>
+              <actui type="cboxes" itemType="rb" width="450" height="38" x="0" y="0" xPad="8" yPad="16" fontColor="0x666666" fontSize="16" fontStyle="reg" fillColor="0xffffff" fillAlpha="1">
+                <item id="a" isanswer="true">
+                <![CDATA[顧客が購入に合意しているかのように話す]]>
+</item>
+                <item id="b" isanswer="false">
+                <![CDATA[顧客が購入に合意しているかのように、選択肢を提示する]]>
+</item>
+                <item id="c" isanswer="false">
+                <![CDATA[顧客のニーズをまとめ、解決策がそれをどのようにサポートするかを示す]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="0x000000" fontStyle="reg">
+                  <![CDATA[解答確認]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" fontSize="14">
+                <item type="correct" afile="">
+                <![CDATA[パーツ アドバイザーは顧客が購入に合意済みであると思っています。]]>
+</item>
+                <item type="wrong" afile="">
+                <![CDATA[パーツ アドバイザーは顧客が購入に合意済みであると思っています。]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    <scene sNumber="4600" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[拒絶に対応する]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="4601" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+               <bodyBullet id="bb0" order="201" yPad="0">
+                <![CDATA[<li>購入の意思を確認できたという自信がどれほどあったとしても、顧客からの拒絶は時折発生する</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="202">
+                <![CDATA[<li>拒絶はビジネス チャンスであり、 顧客は購入したいと思っているが、もう少し情報を必要としている</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="slideEndNote" time="1" trans="fadeIn" ease="QuintEaseOut" fontSize="10">
+              <bodyNote id="gn1" order="999">
+                <![CDATA[本コースの [Learning Center Assignments] ページのリソース リストから「顧客を満足させる」をダウンロードします。]]>
+</bodyNote>
+            </ui>
+              <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="top" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="4600_1.jpg">
+                <![CDATA[male customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4605" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="20" yPad="0">
+                <![CDATA[一般的に顧客がよく拒絶する 3 点:]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="22">
+                <![CDATA[<b>価格</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="23" yPad="0">
+                <![CDATA[「ブレーキ パッドのセットは驚くほど高額な気がするので、別の店の価格をチェックしたい」]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="25">
+                <![CDATA[<b>価値</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="26" yPad="0">
+                <![CDATA[「同じようなウォーター ポンプがその辺の店でも買えるのに、どうしてここで購入しなければならないのか」]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="28">
+                <![CDATA[<b>在庫の有無</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb8" order="29" yPad="0">
+                <![CDATA[「必要なヘッドランプの在庫がないんですか。ランチの時間を削って来たのに 15 分も待たせた返事がこれですか」]]>
+</bodyBullet>
+              <bodyBullet id="bb10" order="31">
+                <![CDATA[顧客の拒絶は起こるものとして予想し、対応する準備を整えておくことが重要です。]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut" fontSize="10">
+              <bodyNote id="gn1" order="99" time="1">
+                <![CDATA[本コースの [Learning Center Assignments] ページのリソース リストから「顧客を満足させる」をダウンロードします。]]>
+</bodyNote>
+            </ui>
+             <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="top" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="4605_1.jpg">
+                <![CDATA[Parts Advisor with female customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4610" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="620" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+             <bodyBullet id="bb0" order="215" yPad="0">
+                <![CDATA[顧客が拒絶を示したら、敬意を持って最後まで傾聴してください。]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="216">
+                <![CDATA[<li>顧客の話に熱心に耳を傾け、顧客の言葉に注意を払いながら購入意欲や感情の理解に努め、途中で発言を遮らない</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="217">
+                <![CDATA[<li>拒絶を理解するために質問し、反論を自分の言葉で言い換えて顧客に確認する</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="218">
+                <![CDATA[<li>薦めている製品のメリットや価値を伝えることで拒絶に対応し、拒絶内容を解決していることを確認する</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="219">
+                <![CDATA[<li>購入の意思を確認する。これは複数回繰り返す必要があるケースも考えられる</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut" fontSize="10">
+              <bodyNote id="gn1" order="999" time="1">
+              <![CDATA[本コースの [Learning Center Assignments] ページのリソース リストから「顧客を満足させる」をダウンロードします。]]>
+</bodyNote>
+            </ui>
+          </slide>
+          <slide sNumber="4615" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="222" yPad="0">
+                <![CDATA[パーツ アドバイザーが顧客の拒絶にどのように対応しているか、お読みください。]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="223" trans="slideUp">
+                <![CDATA[<b>顧客:</b><i> 「ブレーキ パッドのセットは驚くほど高額な気がするので、別の店の価格をチェックしたい」 </i>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="224" trans="slideUp">
+                <![CDATA[<b>パーツ アドバイザー: </b><i>「ブレーキ パッドの価格について懸念を抱かれているのは、分かります。この価格は妥当だと思っています。ここに書き出して見ましょうか」</i>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="top" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i1" order="5" url="4615_1.jpg">
+                <![CDATA[Parts Advisor ]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4620" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+            <bodyBullet id="bb0" order="226" yPad="0">
+                <![CDATA[パーツ アドバイザーが顧客の拒絶にどのように対応しているか、お読みください。]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="227">
+                <![CDATA[<b>価値</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="228" trans="slideUp">
+                <![CDATA[<b>顧客:</b><i> 「同じようなウォーター ポンプがその辺の店でも買えるのに、どうしてここで購入しなければならないのか」 </i>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="229" trans="slideUp">
+                <![CDATA[<b>パーツ アドバイザー:</b><i>「ご愛用の 2011 300用のウォーター ポンプがご入用なのですね。アフターマーケットのウォーター ポンプも純正パーツと同様に優れていることは承知しています。同じような疑問を持たれるお客様もいらっしゃいました。その違いについて少し説明させていただてもよろしいでしょうか。当社が魅力的な価格で品質と信頼性に優れた製品を提供していることがお分かりいただけると思います」</i>]]>
+</bodyBullet>
+            </ui>
+             <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="top" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="4620_1.jpg">
+                <![CDATA[Parts Advisor]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4625" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+             <bodyBullet id="bb0" order="231" yPad="0">
+                <![CDATA[パーツ アドバイザーが顧客の拒絶にどのように対応しているか、お読みください。]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="232">
+                <![CDATA[<li><b>在庫の有無</b></li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="233" trans="slideUp">
+                <![CDATA[<b>顧客:</b><i> 「必要なヘッドランプの在庫がないんですか。ランチの時間を削って来たのに 15 分も待たせた返事がこれですか」 </i>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="234" trans="slideUp">
+                <![CDATA[<b>パーツ アドバイザー:</b><i>「貴重なお時間を使っていただいているのに、ご不便をおかけして大変申し訳ありません。今すぐ必要なのでしょうか。1 日か 2 日ほどお待ちいただくことは可能でしょうか。お待ちいただけると聞いて安心しました。明日、新しいヘッドランプをご用意できます。こちらで取り付けても問題がないようでしたら、ご迷惑をおかけしたお詫びに無料で対応させていただきます」</i>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="top" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="4625_1.jpg">
+                <![CDATA[Parts Advisor]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4630" type="act"  endType="Continue">
+          <ui uid="9" type="act" atype="dd1col" width="700" height="450" x="left" y="40" margin="10" time="1" order="2" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="680" x="0" y="0" fontSize="20" fontColor="0x666666" syncType="buildy" yPad="10">
+                <item type="header" fontSize="20" x="0" y="0" yPad="0">
+                <![CDATA[<b>知識チェック</b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+                <![CDATA[拒絶に対応するステップをドラッグして、正しい順番に並べてください。]]>
+</item>
+              </actui>
+              <actui uid="0" type="SubHeader" fontColor="blue" fontSize="18">
+                <item id="i1" type="dragHeader" x="0" y="0" width="160" height="40" fontAlign="center">
+                  <![CDATA[アイテム]]>
+</item>
+                <item id="i2" type="dropHeader" x="0" y="0" width="330" height="40" fontAlign="center">
+                  <![CDATA[手順]]>
+</item>
+              </actui>
+              <actui uid="1" type="ItemDragBox" width="280" height="40" x="0" y="0" columnPadding="20" rowPadding="8" fontSize="14" fontColor="0x000000" fontStyle="bold" fontAlign="center" fontVertAlign="middle" fillType="gradient" fillColor="#66ccff" fillAlpha="1" frameSize="1" frameColor="0x666666" frameAlpha="1"  fillColor2="0xD1E6F2" xPad="20" yPad="10">
+                 <dragItem id="i1">
+                <![CDATA[顧客の話に熱心に耳を傾ける]]>
+</dragItem>
+              <dragItem id="i2">
+                <![CDATA[反論を自分の言葉で言い換えて顧客に確認する]]>
+</dragItem>
+              <dragItem id="i3">
+                <![CDATA[拒絶に対応する]]>
+</dragItem>
+              <dragItem id="i4">
+                <![CDATA[購入の意思確認]]>
+</dragItem>
+              <dragItem id="i5">
+                <![CDATA[説明は簡単にする]]>
+</dragItem>
+              <dragItem id="i6">
+                <![CDATA[技術的な専門用語は使用しない]]>
+</dragItem>
+              </actui>
+          <actui uid="1" type="ItemDropBox" layout="labelfirst" height="40" 
+              x="260" y="0" columnPadding="8" rowPadding="8" 
+              fontSize="16" fontColor="0x666666" fontStyle="bold" fontAlign="center" fontVertAlign="middle"
+              fillType="gradient" fillColor="orangegrad1" fillAlpha="1" fillColor2="orangegrad2" 
+              frameSize="1" frameColor="0x666666" frameAlpha="1" 
+              fillColorLabel="ltgrey" fillAlphaLabel="1"
+              frameColorLabel="0x666666" frameAlphaLabel="1"   
+              xPad="10" yPad="10">
+                <item id="i1">
+                  <![CDATA[ステップ 1]]>
+</item>
+                <item id="i2">
+                  <![CDATA[ステップ 2]]>
+</item>
+                <item id="i3">
+                  <![CDATA[ステップ 3]]>
+</item>
+                <item id="i4">
+                  <![CDATA[ステップ 4]]>
+</item>
+              </actui>
+              <actui uid="3" type="feedbacktext" width="680" y="bottom" margin="10" fontSize="14">
+                <item type="correct" id="pos">
+                <![CDATA[正解です。拒絶に対応するステップは、傾聴、顧客の反論を自分の言葉に変えて確認、拒絶に対応、購入の意思確認の順番です。]]>
+</item>
+              </actui>
+            </ui>
+        </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

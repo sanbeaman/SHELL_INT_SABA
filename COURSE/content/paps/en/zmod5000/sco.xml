@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="PAPSENWB" template="PAPS" localeID="en" debug="false">
+    <title>
+      <![CDATA[Retail Parts Selling Skills]]>
+</title>
+  </course>
+  <section id="1" snumber="5000">
+    <header>
+      <![CDATA[APPLYING THE PROCESS]]>
+</header>
+    <scenes>
+      <scene id="5100" sNumber="5100" sType="gps" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" width="510" height="50" x="left" y="0" margin="10" time="1" trans="on" ease="none">
+            <header id="h1" order="1">
+              <![CDATA[Phone Customer]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="5101" type="BulletBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="20" yPad="0" trans="slideRight">
+                <![CDATA[In this module, practice your <b>selling skills</b> so you can apply them on the job.]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="21" trans="slideRight">
+                <![CDATA[Read the following scenario of a conversation between a Parts Advisor and a phone customer who is interested in brakes for his Jeep. Prepare to answer questions on how you would follow the Customer-Driven Parts Sales Process to close the sale.]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22">
+                <![CDATA[<b>Parts Advisor:</b> <i>“Hello, this is Pete in the Hometown Chrysler Dodge Jeep Ram Parts Department. How may I help you?”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="26">
+                <![CDATA[<b>Customer:</b> <i>“Hi. I’m calling to find out if you have the parts for front brakes on a Jeep Patriot.”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="27">
+                <![CDATA[<b>Parts Advisor:</b> <i>“I need a little more information to answer your question. Do you have the vehicle identification number for your Jeep?”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="28">
+                <![CDATA[<b>Parts Advisor:</b> <i>“Whoa! Hold on a minute. I’ll be right back.”</i>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step01a" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" />
+              <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration=".5" ease="BackEaseOut" />
+              <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step01" />
+            </ui>
+            <!--  
+              <bodyImage id="i1" width="160" height="160" x="right" y="top" margin="10" time="1" trans="slideDown" ease="BackEaseOut" scaleMode="none" url="2703ProcessAnim_Step01.png" order="1">
+                <![CDATA[Step 01]]>
+</bodyImage> -->
+            <ui uid="1" type="bodyImage">
+              <bodyImage id="i2" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut" url="CustomerPhone2.jpg" order="5">
+                <![CDATA[Customer Phone]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="5105" type="act" animType="animsync" endType="Continue">
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+             <actui type="ScreenText" width="510" x="left" margin="10" fontSize="18" fontColor="0x666666" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[Based on what you just read, what would you do differently? Select all that apply and then click Check Answer.]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="cb" width="500" height="36" x="left" y="0" xPad="8" yPad="16" fontColor="dkgrey" fontSize="16" fontStyle="reg" fillColor="white" fillAlpha="1">
+                <item id="a" isanswer="false">
+                  <![CDATA[Give a more elaborate greeting]]>
+</item>
+                <item id="b" isanswer="true">
+                  <![CDATA[Ask for the customer’s name]]>
+</item>
+                <item id="c" isanswer="true">
+                  <![CDATA[Ask permission to put the customer on hold]]>
+</item>
+                <item id="c" isanswer="false">
+                  <![CDATA[Direct the customer to the dealership website]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="bold">
+                  <![CDATA[CHECK ANSWER]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="center" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[Continue to Step 2.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[The Parts Advisor should have asked for the customer’s name and for permission to put him on hold.]]>
+</item>
+              </actui>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step01" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+          </slide>
+          <slide sNumber="5110" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="21" yPad="0">
+                <![CDATA[<b>Parts Advisor:</b> <i>“Sorry about that. Where were we? Oh yes, you were asking about parts for front brakes on a Jeep Patriot and I asked if you have the VIN for the vehicle.”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22">
+                <![CDATA[<b>Customer:</b> <i>“Yes, I do. It’s 1J8FT28088D679188.”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="24">
+                <![CDATA[<b>Parts Advisor:</b> <i>"Thank you. I see that’s a 2008 model year Patriot. Do you know the distance traveled on the vehicle?”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="26">
+                <![CDATA[<b>Customer:</b> <i>“About 68,000 kilometers.”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb7" order="28">
+                <![CDATA[<b>Parts Advisor:</b> <i>"OK. Thanks. Unfortunately your warranty won’t cover this. Do you know specifically what you need?”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb8" order="30">
+                <![CDATA[<b>Customer:</b> <i>“I need calipers, both sides, and pads. Do you have them?”</i>]]>
+</bodyBullet>
+            </ui>
+             <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step02a" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+              <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration=".5" ease="BackEaseOut" />
+              <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step02" />
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" url="CustomerPhone2.jpg" order="5">
+                <![CDATA[Customer Phone]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="5115" type="act" animType="animsync" endType="Continue">
+            <ui uid="1" type="act" atype="mc" width="700" height="450" x="left" y="40" margin="10" order="10" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="510" x="left" margin="10" fontSize="18" fontColor="0x666666" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[What should the Parts Advisor have done differently? Select the best response and click Check Answer.]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="480" x="left" y="0" height="36" xPad="8" yPad="16" fontColor="dkgrey" fontSize="16" fontStyle="reg" fillColor="white" fillAlpha="1">
+                <item id="a" isanswer="false">
+                  <![CDATA[Ask for the VIN]]>
+</item>
+                <item id="b" isanswer="false">
+                  <![CDATA[Provided a price for the parts]]>
+</item>
+                <item id="c" isanswer="true">
+                  <![CDATA[Ask open-ended questions to get more information]]>
+</item>
+                <item id="c" isanswer="false">
+                  <![CDATA[Ask the customer to come to the dealership to look up brake parts]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[CHECK ANSWER]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="center" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[Continue to Step 3.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[The Parts Advisor did ask for the VIN, but he needed to ask more questions to find out if the customer was requesting the right parts – and to identify additional selling opportunities, like washers that seal the brake hose to the caliper.]]>
+</item>
+              </actui>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step02" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+          </slide>
+          <slide sNumber="5120" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="20" yPad="0">
+                <![CDATA[<b>Parts Advisor:</b> <i>“So, you’re going to be doing some work on your Patriot’s front brakes. We’ve found the brake pads and calipers that you need for that in our parts catalog. Did you know that you’ll also need washers to seal the brake hose to the caliper? These are Mopar original equipment parts, so they’re engineered specifically for your vehicle.”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="21">
+                <![CDATA[<b>Customer:</b> <i>“OK. Thanks. Do you have these parts in stock?”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="21">
+                <![CDATA[<b>Parts Advisor:</b> <i>“No, we don’t have them here right now.”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="26">
+                <![CDATA[<b>Customer:</b> <i>“Well, if you don’t have the parts, I’ll have to go somewhere else”</i>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step03a" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+              <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration=".5" ease="BackEaseOut" />
+              <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step03" />
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" url="CustomerPhone2.jpg" order="5">
+                <![CDATA[Customer Phone]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="5125" type="act" animType="animsync" endType="Continue">
+            <ui uid="1" type="act" atype="mc" x="left" y="40" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" order="10" yPad="10">
+              <actui type="ScreenText" width="510" x="left" margin="10" fontSize="18" fontColor="0x666666" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[Looks like the Parts Advisor is about to lose the sale – what would you have done in presenting a solution to save the sale? Select the best response and click Check Answer.]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="480" height="36" x="left" y="0" xPad="8" yPad="16" fontColor="dkgrey" fontSize="16" fontStyle="reg" fillColor="white" fillAlpha="1">
+                <item id="a" isanswer="true">
+                  <![CDATA[Be positive. Offer a solution that gets the customer what he needs]]>
+</item>
+                <item id="b" isanswer="false">
+                  <![CDATA[Tell the customer where he can go to get the parts he needs]]>
+</item>
+                <item id="c" isanswer="false">
+                  <![CDATA[Suggest an alternative repair that requires parts he has in stock]]>
+</item>
+                <item id="c" isanswer="false">
+                  <![CDATA[Provide a cost estimate for the parts]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[CHECK ANSWER]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="center" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[Continue to Step 4.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[Remember, you always want to be positive and present a solution that meets the customer’s needs.]]>
+</item>
+              </actui>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step03" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+          </slide>
+          <slide sNumber="5130" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="6">
+              <bodyBullet id="bb1" order="20" time="1" yPad="0">
+                <![CDATA[<b>Parts Advisor:</b> <i>“Hi, this is Pete in Parts at Hometown Chrysler Dodge Jeep Ram calling back. I’ve found the parts you need for your brake repair. I can have them for you by 4:00 this afternoon. Would you like to pick them up then?”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="21" time="1">
+                <![CDATA[<b>Customer:</b> <i>“I don’t know. I’m not sure I see the advantage over what the store down the street has. They’re the same parts.”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="21" time="1">
+                <![CDATA[<b>Parts Advisor:</b> <i>“So, I’m hearing that you’re not sure you’re getting a good value for your money. Is that right?”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="26" time="1">
+                <![CDATA[<b>Customer:</b> <i>“I guess so.”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="28" time="1">
+                <![CDATA[<b>Parts Advisor:</b> <i>“Let me explain the value you get with Mopar original equipment parts. They’re engineered specifically for your Patriot. Aftermarket parts are designed to fit multiple vehicles, so they don’t have the fit and durability of our parts.. Can I write this up for you?”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="30" time="1">
+                <![CDATA[<b>Customer:</b> <i>“You’ve convinced me. Here’s my credit card.”</i>]]>
+</bodyBullet>
+            </ui>
+           <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step04a" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+              <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration=".5" ease="BackEaseOut" />
+              <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step04" />
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" url="CustomerPhone2.jpg" order="5">
+                <![CDATA[Customer Phone]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="5135" type="act" animType="animsync" endType="Continue">
+            <ui uid="1" type="act" atype="mc" x="left" y="40" margin="10" trans="slideUp" ease="QuintEaseOut" order="10" time="1" yPad="10">
+              <actui type="ScreenText" width="510" x="left" margin="10" fontSize="18" fontColor="0x666666" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[Which of the following actions did the Parts Advisor take? Select all that apply and then click Check Answer.]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="cb" width="480" height="36" x="left" y="0" xPad="8" yPad="16" fontColor="dkgrey" fontSize="16" fontStyle="reg" fillColor="white" fillAlpha="1">
+                <item id="a" isanswer="true">
+                  <![CDATA[Asked for the sale by assuming the customer had agreed to buy]]>
+</item>
+                <item id="b" isanswer="true">
+                  <![CDATA[Built trust by explaining value]]>
+</item>
+                <item id="c" isanswer="true">
+                  <![CDATA[Overcame customer’s objection]]>
+</item>
+                <item id="c" isanswer="true">
+                  <![CDATA[Asked questions to check for understanding]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[CHECK ANSWER]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="center" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[All answers are correct]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[The Parts Advisor took all of the above actions and made the sale.]]>
+</item>
+              </actui>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step04" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="5200" sNumber="5200" sType="gps" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" width="600" height="50" x="left" y="0" margin="10" trans="on" ease="none">
+            <header id="h1" order="0" time="0" x="0" y="0">
+              <![CDATA[In-Person Customer]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="5201" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="20" yPad="0">
+                <![CDATA[Read the following scenario of a transaction between a Parts Advisor and an in-person customer.]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22" trans="slideUp">
+                <![CDATA[<b>Parts Advisor:</b> <i>“Thank you for waiting ma’am. My name’s Pete. How can I help you?”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="24" trans="slideUp">
+                <![CDATA[<b>Customer:</b> <i>“I need a trailer hitch for my Ram 1500.”</i>]]>
+</bodyBullet>
+            </ui>
+             <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step01a" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+              <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration=".5" ease="BackEaseOut" />
+              <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step01" />
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="CustomerInPerson2.jpg">
+                <![CDATA[CustomerInPerson1]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="5205" type="act" animType="animsync" endType="Continue">
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="510" x="left" margin="10" fontSize="18" fontColor="0x666666" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[Select the one best response and then click Check Answer.]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="480" height="36" x="left" y="0" xPad="8" yPad="16" fontColor="dkgrey" fontSize="16" fontStyle="reg" fillColor="white" fillAlpha="1">
+                <item id="a" isanswer="true">
+                  <![CDATA[Make eye contact and give the customer my full attention]]>
+</item>
+                <item id="b" isanswer="false">
+                  <![CDATA[Identify additional selling opportunities]]>
+</item>
+                <item id="c" isanswer="false">
+                  <![CDATA[Take the customer straight to StarParts catalog]]>
+</item>
+                <item id="c" isanswer="false">
+                  <![CDATA[Provide a cost estimate for the part]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[CHECK ANSWER]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="center" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[Continue to Step 2.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[You’re just beginning to initiate the relationship. Don’t rush. Make eye contact and give the customer your full attention.]]>
+</item>
+              </actui>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step01" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+          </slide>
+          <slide sNumber="5210" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="21" yPad="0">
+                <![CDATA[<b>Parts Advisor:</b> <i>“Sure. I can look up tow equipment for a Ram 1500, but to know exactly what you need, I need the model year of your truck.”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="26" time="1">
+                <![CDATA[<b>Customer:</b> <i>“It’s a 2010 SLT. I just bought a camper trailer I’m going to tow on weekends this summer.”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="27" time="1">
+                <![CDATA[<b>Parts Advisor:</b> <i>“That’s great!”</i>]]>
+</bodyBullet>
+            </ui>
+             <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step02a" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+              <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration=".5" ease="BackEaseOut" />
+              <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step02" />
+            </ui>
+          </slide>
+          <slide sNumber="5215" type="act" animType="animsync" endType="Continue">
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="510" x="left" margin="10" fontSize="18" fontColor="0x666666" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[What should you do next? Select the best response and click Check Answer.]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="450" height="36" x="left" y="0" xPad="20" yPad="16" fontColor="dkgrey" fontSize="16" fontStyle="reg" fillColor="white" fillAlpha="1">
+                <item id="a" isanswer="false">
+                  <![CDATA[Look up trailer hitches for the truck]]>
+</item>
+                <item id="b" isanswer="false">
+                  <![CDATA[Suggest additional parts needed for the hitch]]>
+</item>
+                <item id="c" isanswer="true">
+                  <![CDATA[Continue asking questions to be able to spec the right part]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[CHECK ANSWER]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="center" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[Continue to Step 3.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[You’re not ready to look up hitches or suggest additional parts. You need more information about trailer weight, and other specs to be able to recommend the right trailer hitch.]]>
+</item>
+              </actui>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step02" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+          </slide>
+          <slide sNumber="5220" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="22" yPad="0">
+                <![CDATA[<b>Parts Advisor:</b> <i>“You can see here in the StarParts catalog what you’ll need to tow your camper with your 2010 Ram. Your truck is already wired, so with a 16-hundred kilogram camper, you’ll need this hitch receiver, hitch ball and ball mount adaptor. Do you have any questions?”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="24">
+                <![CDATA[<b>Customer:</b> <i>“I don’t think so.”</i>]]>
+</bodyBullet>
+            </ui>
+               <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step03a" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+              <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration=".5" ease="BackEaseOut" />
+              <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step03" />
+            </ui>
+          </slide>
+          <slide sNumber="5225" type="act" animType="animsync" endType="Continue">
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="510" x="left" margin="10" fontSize="18" fontColor="0x666666" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[What should you do next? Select the best response and click Check Answer.]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="480" height="36" x="left" y="0" xPad="8" yPad="16" fontColor="dkgrey" fontSize="16" fontStyle="reg" fillColor="white" fillAlpha="1">
+                <item id="a" isanswer="false">
+                  <![CDATA[Ask for the sale]]>
+</item>
+                <item id="b" isanswer="true">
+                  <![CDATA[Identify additional selling opportunities]]>
+</item>
+                <item id="c" isanswer="false">
+                  <![CDATA[Ask additional questions to check for understanding]]>
+</item>
+                <item id="d" isanswer="false">
+                  <![CDATA[Provide cost and time estimates]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[CHECK ANSWER]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="center" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[Continue to Step 4.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[This customer may also need a Ram Truck Integrated Trailer Brake Controller and a plug for the hitch receiver. Remember to look for those additional selling opportunities.]]>
+</item>
+              </actui>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step03" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+          </slide>
+          <slide sNumber="5230" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="22" yPad="0">
+                <![CDATA[<b>Parts Advisor:</b> <i>“These are all the parts you’ll need to tow your new camper. I’ve shown you how I spec’d them to be sure you’re meeting vehicle and towing requirements. These parts have passed Chrysler’s extensive road testing for durability and strength. When would you like to have the hitch installed?”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="24">
+                <![CDATA[<b>Customer:</b> <i>“Well, I know I’ve taken up quite a bit of your time, but I didn’t expect it to cost so much.”</i>]]>
+</bodyBullet>
+            </ui>
+               <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step04a" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+              <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration=".5" ease="BackEaseOut" />
+              <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step04" />
+            </ui>
+          </slide>
+          <slide sNumber="5235" type="act" animType="animsync" endType="Continue">
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="510" x="left" margin="10" fontSize="18" fontColor="0x666666" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[How will you overcome this objection? Select the one best response and click Check Answer.]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="480" height="36" x="left" y="0" xPad="8" yPad="16" fontColor="dkgrey" fontSize="16" fontStyle="reg" fillColor="white" fillAlpha="1">
+                <item id="a" isanswer="true">
+                  <![CDATA[Reinforce the competitive price and value]]>
+</item>
+                <item id="b" isanswer="false">
+                  <![CDATA[Offer a discount to the customer]]>
+</item>
+                <item id="c" isanswer="false">
+                  <![CDATA[Continue to ask for the sale]]>
+</item>
+                <item id="d" isanswer="false">
+                  <![CDATA[Reduce the number of parts in the order]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[CHECK ANSWER]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="center" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[You’ve overcome the objection and you’re on your way to closing the sale.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[By reassuring the customer that she is getting the highest quality parts at a competitive price, you build confidence and trust, and she’ll make the purchase.]]>
+</item>
+              </actui>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step04" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="5300" sNumber="5300" sType="gps" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" width="600" height="50" x="left" y="0" margin="10" trans="on" ease="none">
+            <header id="h1" order="0" time="0" x="0" y="0">
+              <![CDATA[Internal Customer]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="5301" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="20" yPad="0">
+                <![CDATA[Read the following scenario between a Parts Advisor and an internal customer. Prepare to answer how you would follow the Customer-Driven Parts Sales Process to close the sale.]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="21" time="1" trans="slideUp" ease="QuintEaseOut">
+                <![CDATA[<b>Sales Consultant Advisor:</b> <i>“Hey Pete, I’m working with a customer who wants floor mats for the new Grand Voyager. What’s the price for those?”</i>]]>
+</bodyBullet>
+            </ui>
+               <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step01a" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+              <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration=".5" ease="BackEaseOut" />
+              <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step01" />
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="QuintEaseOut">
+              <bodyImage id="i2" url="CustomerInternal2.jpg" order="5">
+                <![CDATA[CustomerInternal]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="5305" type="act" animType="animsync" endType="Continue">
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="510" x="left" margin="10" fontSize="18" fontColor="0x666666" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[Treat an internal customer as well as an external one. What should you do now to “initiate the relationship”? Select the best response and click Check Answer.]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="480" height="36" x="left" y="0" xPad="8" yPad="16" fontColor="dkgrey" fontSize="16" fontStyle="reg" fillColor="white" fillAlpha="1">
+                <item id="a" isanswer="false">
+                  <![CDATA[Ask for the VIN number of the vehicle]]>
+</item>
+                <item id="b" isanswer="false">
+                  <![CDATA[Look up floor mats in the StarParts catalogs]]>
+</item>
+                <item id="c" isanswer="false">
+                  <![CDATA[Hand the Sales Consultant an accessory brochure to take back to the customer]]>
+</item>
+                <item id="d" isanswer="true">
+                  <![CDATA[Give the Sales Consultant my full attention]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[CHECK ANSWER]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="center" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[Continue to Step 2.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[While you should already have a relationship with the Sales Consultant, he still deserves your full attention as you prepare to probe for more information.]]>
+</item>
+              </actui>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step01" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+          </slide>
+          <slide sNumber="5310" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="22" yPad="0">
+                <![CDATA[<b>Parts Advisor:</b> <i>“Not so fast, Ted. I need some information first.”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="24">
+                <![CDATA[<b>Sales Consultant:</b> <i>“What do you need to know? I thought floor mats were floor mats.”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="28">
+                <![CDATA[<b>Parts Advisor:</b> <i>Well, there are options. You need to ask your customer some questions.”</i>]]>
+</bodyBullet>
+            </ui>
+              <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step02a" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+              <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration=".5" ease="BackEaseOut" />
+              <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step02" />
+            </ui>
+          </slide>
+          <slide sNumber="5315" type="act" animType="animsync" endType="Continue">
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="510" x="left" margin="10" fontSize="18" fontColor="0x666666" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[How would you proceed? Select the one best response and click Check Answer.]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" x="0" y="0" width="480" height="36" xPad="8" yPad="16" fontColor="dkgrey" fontSize="16" fontStyle="reg" fillColor="white" fillAlpha="1">
+                <item id="a" isanswer="false">
+                  <![CDATA[Give the Sales Consultant an accessory brochure to take to his customer]]>
+</item>
+                <item id="b" isanswer="false">
+                  <![CDATA[Tell the Sales Consultant to use the StarParts catalog to find out what the customer wants and come back]]>
+</item>
+                <item id="c" isanswer="true">
+                  <![CDATA[Explain to the Sales Consultant what specific information you need to get the customer what she wants]]>
+</item>
+                <item id="d" isanswer="false">
+                  <![CDATA[Tell the Sales Consultant you have another customer waiting, and you’ll have to get back to him later]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" y="row" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[CHECK ANSWER]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="center" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[Continue to Step 3.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[If the Sales Consultant prefers to deal directly with his customer, you need to tell him what information you need to recommend floor mats that will meet the customer’s need.]]>
+</item>
+              </actui>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step02" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+          </slide>
+          <slide sNumber="5320" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="22" yPad="0">
+                <![CDATA[<b>Sales Consultant:</b> <i>“Here’s the information you wanted. The customer wasn’t sure about premium or slush mats. She just wants mats that will give the interior a luxury feel.”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="24">
+                <![CDATA[<b>Parts Advisor:</b> <i>“Thanks, Ted. I would recommend the premium mats, then. With the Chrysler logo on them, they look very upscale. She’ll want to match the interior, too. They can be installed when the vehicle is prepped for delivery.”</i>]]>
+</bodyBullet>
+            </ui>
+               <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step03a" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+              <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration=".5" ease="BackEaseOut" />
+              <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step03" />
+            </ui>
+          </slide>
+          <slide sNumber="5325" type="act" animType="animsync" endType="Continue">
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="510" x="left" margin="10" fontSize="18" fontColor="0x666666" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[The Sales Consultant will close the sale for the floor mats along with the vehicle sale, so you won’t do Step 4. But there is one more thing you need to do. Select the one best response and click Check Answer.]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="480" height="36" x="left" y="0" xPad="8" yPad="16" fontColor="dkgrey" fontSize="16" fontStyle="reg" fillColor="white" fillAlpha="1">
+                <item id="a" isanswer="false">
+                  <![CDATA[Overcome a customer objection]]>
+</item>
+                <item id="b" isanswer="true">
+                  <![CDATA[Provide a cost estimate]]>
+</item>
+                <item id="c" isanswer="false">
+                  <![CDATA[Ensure you get your commission on the sale]]>
+</item>
+                <item id="d" isanswer="false">
+                  <![CDATA[Ask about additional selling opportunities]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[CHECK ANSWER]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="center" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[Correct! You’ve armed the Sales Consultant with good selling points and a competitive price. ]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[Incorrect. The Sales Consultant knows how to present the benefits and value of the floor mats. But he needs the price to close the deal.]]>
+</item>
+              </actui>
+            </ui>
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step03" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

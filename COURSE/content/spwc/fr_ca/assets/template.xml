@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <template code="SPWC" langID="fr" localeID="fr_CA">
+    <shellPlayer x="280" y="562" style="SimpleSharpWhite" handleColor="0xFFFFFF" barColor="greycc" trackColor="grey33" shadowColor="black" fillColor="0x999999" fillAlpha="1"  pulseColor="0x003366" />
+   <sectionBody style="breadcrumb" x="0" y="30" xPad="0" yPad="0" width="755" height="558" />
+   <sectionHeader x="0" y="30" width="755" height="30" xPad="50" yPad="8" fontName="Century Gothic" fontSize="18" fontColor="0x999999" fontStyle="bold" fontAlign="left" fontFX="x" frameSize="1" frameColor="blue" frameAlpha="0" fillColor="white" fillAlpha="0" bitmap="headerback" divider=" / " />
+   <sceneBody x="0" y="30" xPad="0" yPad="0" width="755" height="528" frameSize="1" frameColor="dkgrey" frameAlpha="0" fillColor="white" fillAlpha="0" fontName="Century Gothic" fontSize="16" fontColor="0x003366" fontStyle="reg" fontAlign="left" fontFX="x" />
+    <sceneHeader style="breadcrumb" x="0" y="0" xPad="0" yPad="0" width="755" height="30" frameSize="1" frameColor="black" frameAlpha="0" fillColor="white" fillAlpha="0" fontName="Century Gothic" fontSize="10" fontColor="0x003366" fontStyle="reg" fontAlign="left" fontFX="x" inside="false" divider=" FF "/>
+        <noteBlock width="731" height="26" x="row" y="row" margin="10" xPad="0" yPad="0" frameSize="1" frameColor="ltgrey" frameAlpha="1" fillColor="blue" fillAlpha="1" fontName="Arial" fontSize="14" fontColor="white" fontStyle="reg" fontAlign="center" fontFX="x" />
+            <bodyImage  time="1" trans="fadeIn" ease="QuintEaseOut" style="none" effect="shadow" scaleMode="proportionalInside" scaleFactor="1" pulseColor="0x003366"/>
+  </template>
+    <LoaderMax name="imgque" prependURLs="../spwc/fr_ca/assets/imgs/" load="true">
+        <ImageLoader url="ShellBack.jpg" name="shellback" width="755" height="618" />
+         <ImageLoader url="CALogoINT_FR.png" name="calogo" width="200" height="30" />  
+          <ImageLoader url="DONE_glyph14.png" name="icon_done" width="14" height="14" /> 
+         <ImageLoader url="HeaderBack.png" name="headerback" width="755" height="30" />  
+      <ImageLoader url="navwhite_pulse.png" name="btn_pulse" width="24" height="24" scaleMode="none"/>
+         <ImageLoader url="navwhiteBACK_normal.png" name="btnBACK_normal" width="24" height="24" scaleMode="none"/>
+        <ImageLoader url="navwhiteBACK_hover.png" name="btnBACK_hover" width="24" height="24" scaleMode="none"/>
+        <ImageLoader url="navwhiteBACK_down.png" name="btnBACK_down" width="24" height="24" scaleMode="none"/>
+        
+         <ImageLoader url="navwhiteNEXT_normal.png" name="btnNEXT_normal" width="24" height="24" scaleMode="none"/>
+        <ImageLoader url="navwhiteNEXT_hover.png" name="btnNEXT_hover" width="24" height="24" scaleMode="none"/>
+        <ImageLoader url="navwhiteNEXT_down.png" name="btnNEXT_down" width="24" height="24" scaleMode="none"/>
+        
+         <ImageLoader url="navwhiteDONE_normal.png" name="btnDONE_normal" width="24" height="24" scaleMode="none"/>
+        <ImageLoader url="navwhiteDONE_hover.png" name="btnDONE_hover" width="24" height="24" scaleMode="none"/>
+        <ImageLoader url="navwhiteDONE_down.png" name="btnDONE_down" width="24" height="24" scaleMode="none"/>
+        <ImageLoader url="navwhitePAUSE_normal.png" name="btnPAUSE_normal" width="24" height="24" scaleMode="none"/>
+        <ImageLoader url="navwhitePAUSE_hover.png" name="btnPAUSE_hover" width="24" height="24" scaleMode="none"/>
+        <ImageLoader url="navwhitePAUSE_down.png" name="btnPAUSE_down" width="24" height="24" scaleMode="none"/>
+     <ImageLoader url="BodyButton_normal.png" name="BodyButton_normal" width="120" height="34" scaleMode="none" />
+    <ImageLoader url="BodyButton_hover.png" name="BodyButton_hover" width="120" height="34" scaleMode="none" />
+    <ImageLoader url="BodyButton_down.png" name="BodyButton_down" width="120" height="34" scaleMode="none" />
+     <ImageLoader url="icon_no.gif" name="Icon_No" width="30" height="30" scaleMode="none" />
+    <ImageLoader url="icon_yes.gif" name="Icon_Yes" width="30" height="30" scaleMode="none" />
+    <ImageLoader url="RateSlider_thumb.gif" name="RateSlider_thumb" width="20" height="24" centerRegistration="true" scaleMode="none" />
+    
+    </LoaderMax>
+        <LoaderMax name="fontque" prependURLs="../spwc/fr_ca/assets/fonts/" load="true">
+      <SWFLoader name="fontpack" url="FontPack_FR.swf" fontArray="CAFontReg,CAFontBold,CAFontBoldItalic,CACourseTitleFont" />
+    </LoaderMax>
+           <LoaderMax name="audio" prependURLs="../spwc/fr_ca/assets/audio/" load="true">
+            <MP3Loader name="correct" url="answerCorrect.mp3" autoPlay="false" size="15500" duration=".2" />
+             <MP3Loader name="wrong" url="answerWrong.mp3" autoPlay="false" size="15500" duration=".2" />
+             </LoaderMax>
+</data>

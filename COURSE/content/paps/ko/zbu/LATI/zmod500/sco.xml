@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+<course code="PAPSKOWB" template="PAPS" localeID="ko" debug="false">
+    <title>
+      <![CDATA[부품 판매 기술에]]>
+</title>
+  </course>
+  <section id="0" snumber="500">
+    <header>
+      <![CDATA[환영합니다!]]>
+</header>
+    <scenes>
+      <scene sNumber="550" sType="splash" continueBtnType="start">
+        <sceneitems>
+          <ui uid="1" type="bodyIcon" width="600" height="125" x="center" y="top" margin="10" trans="slideup" ease="BackEaseOut">
+            <bodyImage id="i1" order="0" time="1" scaleMode="none" url="logo_course.png">
+              <![CDATA[Course Logo]]>
+</bodyImage>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="500" type="splash" animType="animsync" endType="trigger">
+            <ui uid="2" type="bodyBullet" width="660" margin="20" x="center" y="150" fontColor="0x000000" fontSize="14" trans="slideup" ease="QuintEaseOut" syncType="buildy" yPad="5">
+              <bodyBullet id="bb0" order="3" yPad="0">
+                <![CDATA[<b>이수 학점 받기</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4" yPad="10">
+                <![CDATA[본 과정에 대한 크레딧을 받으려면 다음을 충족해야 합니다.]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="5">
+                <![CDATA[<li>모든 항목에 녹색 북마크 표시 완료</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="6">
+                <![CDATA[<li>테스트 합격</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="7" yPad="10">
+                <![CDATA[과정 끝내기]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="8">
+                <![CDATA[<li>조기 종료: 과정을 완료하기 전에 브라우저 창을 닫으면 세션 내에서 완료한 모든 항목에 대한 진행 상황이 저장됩니다.</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="BodyButton" trans="slideup" ease="QuintEaseOut" order="50" time="1">
+              <item id="trigger" type="startcourse" width="200" height="36" x="center" y="bottom" margin="5" fontSize="16" fontColor="0x000000" fontStyle="reg" pulseColor="0xfe9003">
+                <![CDATA[코스 시작]]>
+</item>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

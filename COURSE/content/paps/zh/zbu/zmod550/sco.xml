@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="PAPSCHWB" template="PAPS" localeID="zh" debug="false">
+    <title>
+      <![CDATA[零售零件销售技能]]></title>
+  </course>
+  <section id="0" snumber="550">
+    <header id="sech1">
+      <![CDATA[WELCOME]]>
+</header>
+    <scenes>
+      <scene sNumber="550" sType="splash" continueBtnType="start">
+        <sceneitems>
+          <ui uid="1" type="bodyIcon" width="600" height="125" x="center" y="top" margin="10" trans="slideup" ease="BackEaseOut">
+            <bodyImage id="i1" order="0" time="1" scaleMode="none" url="logo_course.png">
+              <![CDATA[Course Logo]]>
+</bodyImage>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="550" type="splash" animType="animsync" endType="trigger">
+            <ui uid="2" type="bodyBullet" width="680" margin="10" x="center" y="150" fontColor="0x000000" fontSize="10" trans="slideup" ease="QuintEaseOut" syncType="buildy" yPad="5">
+              <bodyBullet id="bb0" order="2" yPad="0">
+                <![CDATA[<b>Any time you use a different computer to re-launch this course, select the System Checker menu item to re-test your system.</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4" yPad="10">
+                <![CDATA[<b>Getting Credit</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1a" order="5">
+                <![CDATA[To receive credit for this course you must:]]>
+</bodyBullet>
+              <bodyBullet id="bb1a1" order="6">
+                <![CDATA[<li>Have a yellow checkmark on every topic (lesson headers will not show checkmarks)</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1a2" order="8">
+                <![CDATA[<li>Exit properly selecting the Complete & Exit menu item and button</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1a3" order="10">
+                <![CDATA[<li>Launch the test and any other required items located on this course’s Learning Center Learning Assignments page</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="12" yPad="10">
+                <![CDATA[<b>Exiting the Course</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb2a1" order="14">
+                <![CDATA[<li>Early Exit:  Closing the browser window before completing the course will save your progress for all completed topics within the session.</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2a2" order="16">
+                <![CDATA[<li>Complete & Exit:  After completing all required menu items, select the Complete & Exit menu item and then select the Complete & Exit button. <b>(Must do to transfer final progress and get credit for this course.)
+</b></li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2a3" order="18">
+                <![CDATA[<li>Note:  The first time you re-launch the course after a completed attempt, your bookmarks will reset and not be initially filled in or checked.</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="BodyButton" trans="slideup" ease="QuintEaseOut" order="50" time="1">
+              <item id="trigger" type="startcourse" width="200" height="36" x="center" y="bottom" margin="5" fontSize="16" fontColor="0x000000" fontStyle="reg" pulseColor="0xfe9003">
+                <![CDATA[START COURSE]]>
+</item>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

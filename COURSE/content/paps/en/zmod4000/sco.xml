@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="PAPSENWB" template="PAPS" localeID="en" debug="false">
+    <title>
+      <![CDATA[Retail Parts Selling Skills]]>
+</title>
+  </course>
+  <section id="1" snumber="4000">
+    <header>
+      <![CDATA[CUSTOMER-DRIVEN PROCESS]]>
+</header>
+    <scenes>
+  
+      <scene sNumber="4100" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Meeting Expectations]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+        <slide sNumber="4101" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="470" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="10" yPad="0">
+                <![CDATA[In this module, learn how using a Customer-Driven Parts Sales Process can directly influence customer satisfaction, loyalty and sales.]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="11">
+                <![CDATA[First, it’s helpful to understand why customers don’t complete a purchase and what they expect from the purchase experience.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="150" x="right" y="top" margin="10" time="1" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="0">
+              <bodyImage id="i1" order="1" url="4100_1.jpg">
+                <![CDATA[Parts Advisor with male customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4105" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10"  time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="1" yPad="0">
+                <![CDATA[Why don’t customers buy?]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="3">
+                <![CDATA[<li>The Parts Advisor fails to ask for the sale. The customer may be ready to buy, but needs to be asked for the sale</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+                <![CDATA[<li>The customer doesn’t trust the Parts Advisor and feels they are trying to sell them something they don’t need</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="9">
+                <![CDATA[<li>The customer doesn’t recognize the value for the price. The Parts Advisor hasn’t presented the features and benefits that meet the customer’s needs</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="12">
+                <![CDATA[<li>Inconvenience such as having to wait for a part, to wait to be served, to wait on hold on the phone, or to search for the Parts Department</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb9" order="15">
+                <![CDATA[How do you get customers to buy? What do they expect?]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="238" x="right" y="top" margin="10" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="0">
+              <bodyImage id="img1" order="2" url="4105_1.jpg">
+                <![CDATA[Customer at parts counter with Parts Advisor]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4110" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10"  time="1" trans="slideRight" ease="QuintEaseOut">
+              <bodyBullet id="bb0" order="11" yPad="0">
+                <![CDATA[Customers expect exceptional service. That means…]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="13">
+                <![CDATA[They want to be treated as a valued customer, to know that you care about helping them and that you can be trusted.]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="15">
+                <![CDATA[They want a relationship that is built on respect for them as a person with unique needs.]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="17">
+                <![CDATA[They want you to be responsive to their questions and concerns.]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="19">
+                <![CDATA[And they want to be treated fairly.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="239" x="right" y="top" margin="10" time="1" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="0">
+              <bodyImage id="i1" order="2" url="4110_1.jpg">
+                <![CDATA[Female Customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4115" type="BulletBuildAnimation" animType="animsync" endType="Continue">
+            <ui uid="animMC1" type="bodyAnim" width="320" height="320" x="center" y="middle" margin="10" url="MCprocessAnim.swf" frameStart="s0" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="insert" tweenOrder="1" tweenTime="0" tweenDuration="2" ease="QuintEaseOut" />
+              <anim type="shrink2corner" tweenType="append" tweenOrder="2" tweenTime="2" tweenDuration="2" ease="QuintEaseOut" scale=".75" x="right" y="bottom" margin="10" />
+            </ui>
+            <ui uid="3" type="bodyBullet" width="680" x="left" y="40" margin="10" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="10" yPad="0">
+                <![CDATA[Having a formal, customer-driven parts sales process to follow can help provide the level of service customers expect and help close more sales.]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="11" time="1" target="animMC1" targetTrigger="s1">
+                <![CDATA[The process in this course has four steps:]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="12" time="1" target="animMC1" targetTrigger="s2">
+                <![CDATA[<li>Initiate the Customer Relationship</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="13" time="1" target="animMC1" targetTrigger="s3">
+                <![CDATA[<li>Identify the Need</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="14" time="1" target="animMC1" targetTrigger="s4">
+                <![CDATA[<li>Present the Solution</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="15" time="1" target="animMC1" targetTrigger="sall">
+                <![CDATA[<li>Ask for the Sale</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="16" time="1" target="animMC1" targetTrigger="salldone">
+                <![CDATA[]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut" fontSize="10">
+              <bodyNote id="gn1" order="99" time="1">
+                <![CDATA[Download the Customer-Driven Parts Sales Process resource listed on the Learning Center Assignments page for this course.]]>
+</bodyNote>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene sNumber="4200" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Step 1: Initiate the Relationship]]>
+</header>
+          </ui>
+           <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step01a" syncType="append" trans="animbuild" order="1">
+          <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+             <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration="1" ease="BackEaseOut" />
+              <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step01" />
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="4201" type="BulletBuildSNDFX" animType="animsync" endType="Continue">
+            <ui uid="1" type="slideHeader" width="600" height="50" x="left" y="40" margin="10" fontSize="20" fontColor="0x666666" time="1" trans="slideRight" ease="BackEaseOut">
+              <header id="sh1" order="3">
+                <![CDATA[Phone Customer]]>
+</header>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="70" margin="10" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="20" yPad="0">
+                <![CDATA[<li>Answer the call within three rings</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="21">
+                <![CDATA[<li>Smile</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22">
+                <![CDATA[<li>Give your name and department</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="23">
+                <![CDATA[<li>Ask for customer’s name to make a personal connection and how you may help</li>]]>
+</bodyBullet>
+         <!--    <bodyBullet id="bb4" order="24">
+                <![CDATA[<li>Give customer your full attention</li>]]>
+</bodyBullet>  -->
+             <bodyBullet id="bb5" order="25">
+                <![CDATA[<li>Ask for permission to put a customer on hold and explain why</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="26">
+                <![CDATA[<li>Return to call within 30 seconds</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="2" type="bodySndfx" trans="playSnd" ease="none">
+              <item id="phonering" type="sndfx" syncType="append" order="4" url="4201.mp3" repeat="2">
+                <![CDATA[Phone Ring SndFX ]]>
+</item>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" time="1" url="CustomerPhone2.jpg">
+                <![CDATA[Customer Phone]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4205" type="BulletBuildSNDFX" animType="animsync" endType="Continue">
+            <ui uid="1" type="slideHeader" width="600" height="50" x="left" y="40" margin="10" fontSize="20" fontColor="0x666666" time="1" trans="slideRight" ease="BackEaseOut">
+              <header id="sh1" order="3">
+                <![CDATA[In-Person Customer]]>
+</header>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="70" margin="10"  trans="slideRight" ease="QuintEaseOut">
+              <bodyBullet id="bb0" order="20" yPad="0">
+                <![CDATA[<li>Welcome customer promptly and sincerely</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="21">
+                <![CDATA[<li>Make eye contact and smile</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22">
+                <![CDATA[<li>Give customer your full attention</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="23">
+                <![CDATA[<li>If on a call when customer arrives, acknowledge him or her and indicate you will be right with them</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="24">
+                <![CDATA[<li>Present professional image through posture and body language</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="25">
+                <![CDATA[<li>Observe the customer’s body language, be sensitive to it, and adjust your own appropriately</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="2" type="bodySndfx" trans="playSnd" ease="none">
+              <item id="bell" type="sndfx" syncType="append" order="4" url="4205.mp3">
+                <![CDATA[Bell SndFX ]]>
+</item>
+            </ui>
+            <ui uid="i1" type="bodyImage"  width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="CustomerInPerson2.jpg">
+                <![CDATA[Customer In-Person]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4210" type="BulletBuildSNDFX" animType="animsync" endType="Continue">
+            <ui uid="1" type="slideHeader" width="600" height="50" x="left" y="40" margin="10" fontSize="20" fontColor="0x666666" time="1" trans="slideRight" ease="BackEaseOut">
+              <header id="sh1" order="3">
+                <![CDATA[Internal Customer]]>
+</header>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="70" margin="10"  trans="slideRight" ease="QuintEaseOut">
+              <bodyBullet id="bb0" order="20" yPad="0">
+                <![CDATA[<li>The dealership is one team, not separate departments</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="21">
+                <![CDATA[<li>Providing good customer service to Sales and Service co-workers improves everyone’s bottom line</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22">
+                <![CDATA[<li>Greet promptly and treat them as you would an external customer</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="23">
+                <![CDATA[<li>Make sure they have the information they need to give customers price quotes</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="24">
+                <![CDATA[<li>Partner with Sales Consultants to promote accessory sales so they know they can come to you for any information they need</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="2" type="bodySndfx" trans="playSnd" ease="none">
+              <item id="bell" type="sndfx" syncType="append" order="4" url="4210.mp3">
+                <![CDATA[Bell SndFX ]]>
+</item>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="CustomerInternal2.jpg">
+                <![CDATA[Customer Internal]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4215" type="BulletBuildSNDFX" animType="animsync" endType="Continue">
+            <ui uid="1" type="slideHeader" width="600" height="50" x="left" y="40" margin="10" fontSize="20" fontColor="0x666666" time="1" trans="slideRight" ease="BackEaseOut">
+              <header id="sh1" order="3">
+                <![CDATA[Internet Customer]]>
+</header>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="70" margin="10"  trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="20" yPad="0">
+                <![CDATA[<li>With internet customers, the relationship is electronic, so written words communicate your and your dealership’s image</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="21">
+                <![CDATA[<li>Acknowledge customer and respond within 20 minutes of receiving an inquiry. Write in a friendly yet professional style</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22">
+                <![CDATA[<li>Provide the information requested so it is easily understood</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="23">
+                <![CDATA[<li>Review your response for grammar or spelling errors</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="24">
+                <![CDATA[<li>Include dealership name, phone number, and employee contact information</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom"  margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="CustomerInternet2.jpg">
+                <![CDATA[Customer Internet]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="bodySndfx" trans="playSnd" ease="none">
+              <item id="email" type="sndfx" syncType="append" order="4" url="4215.mp3">
+                <![CDATA[Email SndFX ]]>
+</item>
+            </ui>
+          </slide>
+          <slide sNumber="4220" type="BulletBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="slideHeader" width="510" height="50" x="left" y="40" fontSize="20" fontColor="0x666666" margin="10" time="1" trans="slideRight" ease="QuintEaseOut">
+              <header id="sh1" order="2">
+                <![CDATA[<b>Knowledge Check</b>]]>
+</header>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="70" margin="10"  time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="20" yPad="0">
+                <![CDATA[Read the Parts Advisor’s interaction with a customer. Then select the things he missed in initiating a relationship.]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="22" trans="slideUp">
+                <![CDATA[<b>Parts Advisor:</b> <i>“This is Pete in Parts.”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="24" trans="slideUp">
+                <![CDATA[<b>Customer:</b> <i>“Uh, I need some red touch-up paint for my Wrangler. Do you have it?”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="26" trans="slideUp">
+                <![CDATA[<b>Parts Advisor:</b> <i>“Probably. Hold on a second. I’ll check...We have some. Can you bring your Jeep in so I can look at it?”</i>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="slideendnote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="999" time="1">
+                <![CDATA[Click the next icon to complete the Knowledge Check.]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="CustomerPhone2.jpg">
+                <![CDATA[Customer Phone]]>
+</bodyImage>
+            </ui>
+          </slide>
+          
+          <slide sNumber="4225" type="Activity_MultipleChoice" animType="animsync" endType="Continue">
+              <ui uid="2" type="act" atype="mc" width="700" height="450" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="480" x="0" y="0" fontSize="20" fontColor="0x666666" syncType="buildy" yPad="10">
+                <item type="header" fontSize="20" x="0" yPad="0">
+                  <![CDATA[<b>Knowledge Check</b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+                  <![CDATA[Select all of the following he missed in initiating the relationship, then click on Check Answer.]]>
+</item>
+              </actui>
+              <actui type="cboxes" x="0" y="0" width="510" height="36" xPad="8" yPad="16" fontColor="0x666666" fontSize="16" fontStyle="reg" fillColor="0xffffff" fillAlpha="1">
+                <item id="a" isanswer="false">
+                  <![CDATA[Give name and department]]>
+</item>
+                <item id="b" isanswer="true">
+                  <![CDATA[Ask how you can help]]>
+</item>
+                <item id="c" isanswer="true">
+                  <![CDATA[Ask for permission to put customer on hold]]>
+</item>
+                <item id="d" isanswer="false">
+                  <![CDATA[Get back to customer within 30 seconds]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="180" height="34" margin="10" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit" x="right" y="0">
+                  <![CDATA[CHECK ANSWER]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[He didn’t ask how he could help, and he did not ask the customer for permission to put him on hold. He wasn’t very helpful, and this customer is likely to take his business elsewhere.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[He didn’t ask how he could help, and he did not ask the customer for permission to put him on hold. He wasn’t very helpful, and this customer is likely to take his business elsewhere.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+          <scene sNumber="4300" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Step 2: Identify the Need]]>
+</header>
+          </ui>
+          <ui uid="animMC1" type="bodyAnim" width="320" height="320" x="center" y="middle" margin="10" url="MCprocessAnim.swf" frameStart="step02a" syncType="append" trans="animbuild" order="1">
+            <anim type="fadeOn" tweenType="insert" tweenOrder="1" tweenTime="0" tweenDuration="2" ease="QuintEaseOut" />
+            <anim type="frameTween" tweenType="append" tweenOrder="2" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step02" />
+            <anim type="shrink2corner" tweenType="append" tweenOrder="3" tweenTime="2" tweenDuration="2" ease="QuintEaseOut" scale=".5" x="right" y="top" margin="10" />
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="4301" type="BulletBuildAnimation" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10"  time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="20" yPad="0">
+                <![CDATA[Customers may not be aware of what they really need when they contact you. They may need:]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="21">
+                <![CDATA[<li>Additional Parts</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22">
+                <![CDATA[<li>A different part</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="23">
+                <![CDATA[<li>To bring the vehicle into the dealership for service</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="24">
+                <![CDATA[It’s your job to listen and identify your customer’s true need. How do you do that?]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" time="1" url="4300_1.jpg">
+                <![CDATA[Parts Advisor with male customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4305" type="BulletBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="20" yPad="0">
+                <![CDATA[<li>Listen closely to the customer, and gather information to identify the real need</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="21">
+                <![CDATA[<li>Mopar products are engineered for specific vehicles, so first get the VIN from the customer</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22">
+                <![CDATA[<li>Engage the customer in conversation by asking open-ended questions. You will get more information than those requiring yes or no answers</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" time="1" url="4305_1.jpg">
+                <![CDATA[Parts Advisor with male customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4310" type="BulletBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="30" yPad="0">
+                <![CDATA[Let’s learn how a Parts Advisor gathers information from his customer.]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="32" time="1" trans="slideUp" ease="QuintEaseOut">
+                <![CDATA[<b>Parts Advisor:</b> <i>“Okay, Mr. Adams, there are two types of spark plugs available for your 2010 PT Cruiser. We have standard and platinum-tipped. Which type would you like?”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="34">
+                <![CDATA[Identify additional selling opportunities.]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="36">
+                <![CDATA[<li>Are there related parts that the customer will need to make a proper repair?</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="38">
+                <![CDATA[<li>Is there a kit with all the parts needed that will save the customer time and money?</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="40">
+                <![CDATA[<li>Are there seasonal parts or dealership promotions that the customer might consider?</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="42">
+                <![CDATA[Get the customer everything he or she needs the first time to build trust and provide good customer service.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" time="1" url="4310_1.jpg">
+                <![CDATA[Parts Advisor with male customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4315" type="BulletBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="20" yPad="0">
+                <![CDATA[Let’s learn how that would work with our customer.]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="21" trans="slideUp">
+                <![CDATA[<b>Customer:</b> <i>“Why would I want platinum-tipped spark plugs?”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22" trans="slideUp" ease="QuintEaseOut">
+                <![CDATA[<b>Parts Advisor:</b> <i>“Well, they’ll last 160,000 kilometers, so you probably won’t have to change them again, which will save you money in the long run. Can I help you with any other maintenance work you’re doing?”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="23">
+                <![CDATA[The Parts Advisor asked an open-ended question to find out more information about what the customer might actually need.]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="24">
+                <![CDATA[He responded to the customer’s question by presenting a value-added explanation and inquiring about additional selling opportunities.]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="25">
+                <![CDATA[Now, let’s check what you’ve learned so far.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="4315_1.jpg">
+                <![CDATA[Parts Advisor with male customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4320" type="BulletBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="slideHeader" width="600" height="50" x="left" y="40" fontSize="20" fontColor="0x666666" margin="10" time="1" trans="slideRight" ease="QuintEaseOut">
+              <header id="sh1" order="2">
+                <![CDATA[<b>Knowledge Check</b>]]>
+</header>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="70" margin="10"  trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="20" yPad="0">
+                <![CDATA[Read the Parts Advisor’s interaction with a customer. Then select what he should have done differently to identify the true need.]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="21" time="1" trans="slideUp" ease="QuintEaseOut">
+                <![CDATA[<b>Parts Advisor:</b> <i>“So, you’re going to replace the rear brakes on your 2010 Charger and you want new brake shoes. Let me look that up for you.”</i>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="slideendnote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="99" time="1">
+                <![CDATA[Click the next icon to complete the Knowledge Check.]]>
+</bodyNote>
+            </ui>
+          </slide>
+          <slide sNumber="4325" type="act" animType="animsync" endType="Continue">
+            <ui uid="2" type="act" atype="mc" width="700" height="450" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="510" x="0" y="0" margin="0" fontSize="20" fontColor="0x666666" syncType="buildy" yPad="10">
+                <item type="header" fontSize="20" x="0" yPad="0">
+                  <![CDATA[<b>Knowledge Check</b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+                  <![CDATA[Select all of the following he missed in initiating the relationship, then click on Check Answer.]]>
+</item>
+              </actui>
+              <actui type="cboxes" x="0" y="0" width="510" height="36" xPad="8" yPad="16" fontColor="0x666666" fontSize="16" fontStyle="reg" fillColor="0xffffff" fillAlpha="1">
+                <item id="a" isanswer="false">
+                  <![CDATA[Give his name and department]]>
+</item>
+                <item id="b" isanswer="true">
+                  <![CDATA[Ask open-ended questions]]>
+</item>
+                <item id="c" isanswer="true">
+                  <![CDATA[Know the product – Charger rear brakes require pads, not shoes]]>
+</item>
+                <item id="d" isanswer="true">
+                  <![CDATA[Get the VIN]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" width="200" height="34" x="right" fontSize="16" fontColor="0x000000" fontStyle="reg">
+                  <![CDATA[CHECK ANSWER]]>
+</item>
+              </actui>
+              <actui type="feedbacktext"  width="680" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[Asking for the VIN and gathering more information would have helped confirm that the customer needed brake pads, not shoes. This builds confidence and helps move the sale along.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[Asking for the VIN and gathering more information would have helped confirm that the customer needed brake pads, not shoes. This builds confidence and helps move the sale along.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene sNumber="4400" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Step 3: Present the Solution]]>
+</header>
+          </ui>
+          <ui uid="animMC1" type="bodyAnim" width="320" height="320" x="center" y="middle" margin="10" url="MCprocessAnim.swf" frameStart="step03a" syncType="append" trans="animbuild" order="1">
+            <anim type="fadeOn" tweenType="insert" tweenOrder="1" tweenTime="0" tweenDuration="2" ease="QuintEaseOut" />
+            <anim type="frameTween" tweenType="append" tweenOrder="2" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step03" />
+            <anim type="shrink2corner" tweenType="append" tweenOrder="3" tweenTime="2" tweenDuration="2" ease="QuintEaseOut" scale=".5" x="right" y="top" margin="10" />
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="4401"  type="BodyBulletBuild" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb1" order="21" yPad="0">
+                <![CDATA[<li>Presenting the solution is where your product knowledge and experience pay off</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22">
+                <![CDATA[<li>You have begun to build a relationship with your customer, establishing mutual trust and respect</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="23">
+                <![CDATA[<li>You understand the customer’s needs and have identified any additional selling opportunities</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="24">
+                <![CDATA[<li>Now you can effectively make recommendations, highlighting the benefits and value of what you’re selling</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="4400_1.jpg">
+                <![CDATA[Parts Advisor with female customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4405" type="BodyBulletBuild" animType="animsync" endType="Continue">
+          
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut">
+              <bodyBullet id="bb0" order="30" yPad="0">
+                <![CDATA[<p>Key points to remember when presenting solutions to customers:</p>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="32">
+                <![CDATA[<li>Be positive</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="33">
+                <![CDATA[<li>Stay focused on the solution and how you can help rather than what is not available</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="34" time="1" trans="slideUp" ease="QuintEaseOut">
+                <![CDATA[<b>Parts Advisor:</b>  <i>“These are very sharp wheels you’ve selected for your Chrysler 300, Ms. Cramer. We’ve made sure they’re specifically designed for your car. We don’t have them in stock right now, but I can have them here for you tomorrow – and I can take you over to our Service Department to arrange to install them.”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="36">
+                <![CDATA[The Parts Advisor speaks with an enthusiastic tone.]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="38">
+                <![CDATA[He turns the situation into a positive experience by assuring he can solve the problem quickly.]]>
+</bodyBullet>
+            </ui>
+              <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" time="1" url="4405_1.jpg">
+                <![CDATA[Parts Advisor with female customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4410" type="BodyBulletBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="30" yPad="0">
+                <![CDATA[<li>Present the solution to your customer’s initial request before asking about additional parts</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="32">
+                <![CDATA[<li>Most customers won’t listen to a recommendation before the original request has been addressed</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="34">
+                <![CDATA[<li>Explain the benefits and value of your recommendation, to build customer satisfaction and loyalty</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="4410_1.jpg">
+                <![CDATA[Parts Advisor with female customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4415" type="BodyBulletBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb1" order="30" trans="slideUp" ease="QuintEaseOut" yPad="0">
+                <![CDATA[<b>Parts Advisor:</b> <i>“So, Mr. Adams, you’ve decided on platinum-tipped spark plugs for your PT Cruiser. That’s a good choice. You’re getting original equipment parts of the highest quality, reliability and durability. You’ll be saving money over the life of your car with these. Is there anything else you need? We have a maintenance kit that includes an air filter and fuel filter, designed specifically for your car, which will save you even more money.”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="32">
+                <![CDATA[The Parts Advisor addressed the customer’s initial request by confirming his choice and explaining the benefits. He then asked the customer about additional parts and included a benefit.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="4415_1.jpg">
+                <![CDATA[Parts Advisor with male customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4420" type="BodyBulletBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10"  trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="30" time="1" yPad="0">
+                <![CDATA[<li>Avoid using technical jargon and complicated explanations</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="32">
+                <![CDATA[<li>Take advantage of the tools and resources you have, such as StarParts</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="34" trans="slideUp" ease="QuintEaseOut">
+                <![CDATA[<b>Parts Advisor:</b> <i>“As you can see on StarParts, Mr. Kemp, your vehicle actually has rear disc brakes rather than drums as you originally thought. You’ll need brake pads instead of brake shoes. I have the part number for those right here. Have you also inspected the rotors?”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="36">
+                <![CDATA[The Parts Advisor keeps his explanation simple.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="4420_1.jpg">
+                <![CDATA[Parts Advisor with male customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4425" type="BodyBulletBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="30" yPad="0">
+                <![CDATA[<li>Once you have presented the right solution, provide your customer with the cost</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="32">
+                <![CDATA[<li>If the part or accessory will be installed, be prepared to quote an installed price</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="34" time="1" trans="slideUp" ease="QuintEaseOut">
+                <![CDATA[<b>Parts Advisor:</b> <i>“Ms. Cramer, these wheels are a great value. They’re cast aluminum, they won’t corrode, and they’ll stay bright for the life of the car. The price for all four is $1,124. As I said, I can have them here for you tomorrow. Let me take you to our Service Department to schedule an appointment to have them installed.”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="36">
+                <![CDATA[The Parts Advisor gave the customer more benefits to enhance the value of her selection, then quoted her a price and arranged for installation.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="182" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="4425_1.jpg">
+                <![CDATA[Parts Advisor with male customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4430" type="BodyBulletBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="slideHeader" width="600" height="50" x="left" y="40" margin="10" fontSize="20" fontColor="0x666666" time="1" trans="slideRight" ease="QuintEaseOut">
+              <header id="sh1" order="2">
+                <![CDATA[<b>Knowledge Check</b>]]>
+</header>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="70" margin="10"  time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="30" yPad="0">
+                <![CDATA[Read the solution below provided by the Parts Advisor to a customer. Then select what he missed in presenting the solution.]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="32" time="1" trans="slideUp" ease="QuintEaseOut">
+                <![CDATA[<b>Parts Advisor:</b> <i>“As you can see here on StarParts, Mr. Miller, this is the water pump you’ll need for your car. It’s a Mopar part, so you know it’s designed specifically for your vehicle and it’s warranted to last. You’ll also need a gasket, radiator hoses and clamps to go with it to do the job right. Do you plan on doing this repair yourself?”</i>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="99" time="1">
+                <![CDATA[Click the next icon to complete the Knowledge Check.]]>
+</bodyNote>
+            </ui>
+          </slide>
+          <slide sNumber="4435" type="act" animType="animsync" endType="Continue">
+           <ui uid="2" type="act" atype="mc" width="700" height="450" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="510" x="left" y="0" margin="10" fontSize="20" fontColor="0x666666" syncType="buildy" yPad="10">
+                <item type="header" fontSize="20" x="0" yPad="0">
+                  <![CDATA[<b>Knowledge Check</b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+                  <![CDATA[Select the one best response for presenting the solution he ignored and then click on Check Answer.]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" x="0" y="0" width="510" height="36" xPad="8" yPad="16" fontColor="0x666666" fontSize="16" fontStyle="reg" fillColor="0xffffff" fillAlpha="1">
+                <item id="a" isanswer="false">
+                  <![CDATA[Be positive]]>
+</item>
+                <item id="b" isanswer="false">
+                  <![CDATA[Address the customer’s initial request]]>
+</item>
+                <item id="c" isanswer="false">
+                  <![CDATA[Keep it simple]]>
+</item>
+                <item id="d" isanswer="true">
+                  <![CDATA[Provide cost and time estimates]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" width="200" height="34" x="right" fontSize="16" fontColor="0x000000" fontStyle="reg">
+                  <![CDATA[CHECK ANSWER]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[The Parts Advisor was positive, addressed the initial request and kept it simple for the customer. But he did not provide cost and time estimates for the part and installation.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[The Parts Advisor was positive, addressed the initial request and kept it simple for the customer. But he did not provide cost and time estimates for the part and installation.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene sNumber="4500" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Step 4: Ask For the Sale]]>
+</header>
+          </ui>
+          <ui uid="animMC1" type="bodyAnim" width="320" height="320" x="center" y="middle" margin="10" url="MCprocessAnim.swf" frameStart="step04a" syncType="append" trans="animbuild" order="1">
+            <anim type="fadeOn" tweenType="insert" tweenOrder="1" tweenTime="0" tweenDuration="2" ease="QuintEaseOut" />
+            <anim type="frameTween" tweenType="append" tweenOrder="2" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step04" />
+            <anim type="shrink2corner" tweenType="append" tweenOrder="3" tweenTime="2" tweenDuration="2" ease="QuintEaseOut" scale=".5" x="right" y="top" margin="10" />
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="4501" type="BulletBuild"  endType="Continue">
+            
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb1" order="20" yPad="0">
+                <![CDATA[<li>Asking for the sale can be the most challenging step for some Parts Advisors</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="21">
+                <![CDATA[<li>Done well, you not only make a sale, but gain a loyal customer and even more sales</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" time="1" url="4500_1.jpg">
+                <![CDATA[Parts Advisor with male customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4505" type="BulletBuild"  endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="20" yPad="0">
+                <![CDATA[<li>Before you ask for the sale, make sure you have the customer’s commitment to buy</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="21">
+                <![CDATA[<li>Demonstrate how your solution meets the customer’s need</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22">
+                <![CDATA[<li>The customer will stop listening if he or she doesn’t see the value in what you’re selling</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="23">
+                <![CDATA[<li>Make the benefits of what you’re selling real and attractive. For example, with accessories, show a customer how the part will make his or her vehicle stand out</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="4505_1.jpg">
+                <![CDATA[Parts Advisor with female customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4510" type="BulletImageBuild"  endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="20" yPad="0">
+                <![CDATA[<li>Once you have the customer’s commitment, ask for the sale. People who are asked will buy more often than those who are not asked</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="21">
+                <![CDATA[<li>Be prepared to counter any objections and to ask for the sale again</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22">
+                <![CDATA[<li>There are a number of ways to ask for the sale</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2a" order="23" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>Ask questions throughout your presentation to confirm the customer’s readiness to buy</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2b" order="24" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>Speak as if the customer has agreed to the order</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2c" order="25" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>Offer customers a choice as if they have agreed</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2d" order="26" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>Summarize customer’s needs and how your solution supports them</li>]]>
+</bodyBullet>
+            </ui>
+              <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="4510_1.jpg">
+                <![CDATA[Parts Advisor with female customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4525" type="BulletBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="slideHeader" width="470" height="50" x="left" y="40" margin="10" fontSize="20" fontColor="0x666666" time="1" trans="slideRight" ease="QuintEaseOut">
+              <header id="sh1" order="2">
+                <![CDATA[<b>Knowledge Check</b>]]>
+</header>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="70" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb2" order="25" yPad="0">
+                <![CDATA[Read how the Parts Advisor asks for the sale. Which technique does he use?]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="26" time="1" trans="slideUp" ease="QuintEaseOut">
+                <![CDATA[<b>Parts Advisor:</b> <i>“So, Mr. Miller, we have the water pump, gasket, radiator hoses and clamps in stock. I’ll bring them right up. How would you like to pay for that?”</i>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="99" time="1">
+                <![CDATA[Click the next icon to complete the Knowledge Check.]]>
+</bodyNote>
+            </ui>
+          </slide>
+          <slide sNumber="4530" type="act"  endType="Continue">
+           <ui uid="2" type="act" atype="mc" width="700" height="450" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="480" x="0" y="0" margin="0" fontSize="20" fontColor="0x666666" syncType="buildy" yPad="10">
+                <item type="header" fontSize="20" x="0" yPad="0">
+                  <![CDATA[<b>Knowledge Check</b>]]>
+</item>
+             <item type="questiontext" fontSize="18">
+                <![CDATA[Select the one best ask for the sale technique he uses, then click on Check Answer.]]>
+</item>
+            </actui>
+              <actui type="cboxes" itemType="rb" width="450" height="38" x="0" y="0" xPad="8" yPad="16" fontColor="0x666666" fontSize="16" fontStyle="reg" fillColor="0xffffff" fillAlpha="1">
+                <item id="a" isanswer="true">
+                  <![CDATA[Speak as if customer has already agreed to the order]]>
+</item>
+                <item id="b" isanswer="false">
+                  <![CDATA[Offer customer a choice as if he/she has agreed to order]]>
+</item>
+                <item id="c" isanswer="false">
+                  <![CDATA[Summarize customer’s needs, how solution supports them]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="0x000000" fontStyle="reg">
+                  <![CDATA[CHECK ANSWER]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[The Parts Advisor is assuming the customer has agreed to the order.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[The Parts Advisor is assuming the customer has agreed to the order.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    <scene sNumber="4600" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Overcoming Objections]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="4601" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb1" order="20" yPad="0">
+                <![CDATA[<li>No matter how confidently you ask for the sale, you will occasionally experience customer objections</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="21">
+                <![CDATA[<li>Objections are opportunities. The customer is interested, but needs more information</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="slideEndNote" time="1" trans="fadeIn" ease="QuintEaseOut" fontSize="10">
+              <bodyNote id="gn1" order="999">
+                <![CDATA[Download the Overcoming Customer Objections resource listed on the Learning Center Assignments page for this course.]]>
+</bodyNote>
+            </ui>
+              <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="top" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="4600_1.jpg">
+                <![CDATA[male customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4605" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="20" yPad="0">
+                <![CDATA[The three most common customer objections are:]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="22">
+                <![CDATA[<b>Price</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="23" yPad="0">
+                <![CDATA[“That seems awfully high for a set of brake pads. I think I’ll check some other stores.”]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="25">
+                <![CDATA[<b>Value</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="26" yPad="0">
+                <![CDATA[“Why should I buy this water pump from you? I can get one just as good down the street.”]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="28">
+                <![CDATA[<b>Availability</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb8" order="29" yPad="0">
+                <![CDATA[“You don’t have the headlamp I need in stock? I took time out of my lunch hour to come here and waited 15 minutes to find this out?”]]>
+</bodyBullet>
+              <bodyBullet id="bb10" order="31">
+                <![CDATA[The key to overcoming customer objections is to anticipate them and be prepared to respond.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut" fontSize="10">
+              <bodyNote id="gn1" order="99" time="1">
+                <![CDATA[Download the Overcoming Customer Objections resource listed on the Learning Center Assignments page for this course.]]>
+</bodyNote>
+            </ui>
+             <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="top" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="4605_1.jpg">
+                <![CDATA[Parts Advisor with female customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4610" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="620" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="30" yPad="0">
+                <![CDATA[When your customer raises an objection, treat it with respect and hear them out.]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="32">
+                <![CDATA[<li>Be an active listener. Hear the customer’s words, and try to understand the motivations and feelings. Don’t interrupt</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="36">
+                <![CDATA[<li>Ask questions to understand the objection, and then paraphrase the objection back to the customer</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="38">
+                <![CDATA[<li>Respond to the objection with the benefits and value of what you’re recommending. Confirm that you’ve resolved the objection</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="40">
+                <![CDATA[<li>Ask for the sale. You may have to repeat this more than once</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut" fontSize="10">
+              <bodyNote id="gn1" order="999" time="1">
+                <![CDATA[Download the Overcoming Customer Objections resource listed on the Learning Center Assignments page for this course.]]>
+</bodyNote>
+            </ui>
+          </slide>
+          <slide sNumber="4615" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb1" order="25" yPad="0">
+                <![CDATA[Read how our Parts Advisor addresses each of the customer objections.]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="26" trans="slideUp" ease="QuintEaseOut">
+                <![CDATA[<b>Customer:</b> <i>“That seems awfully high for a set of brake pads. I think I’ll check some other stores.”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="27" trans="slideUp" ease="QuintEaseOut">
+                <![CDATA[<b>Parts Advisor:</b> <i>“I understand that you’re concerned about the price of the brake pads. I can tell you that our price is reasonable, because we check our competition regularly. So, can I write that up for you?”</i>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="top" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i1" order="5" url="4615_1.jpg">
+                <![CDATA[Parts Advisor ]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4620" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="26" yPad="0">
+                <![CDATA[Read how our Parts Advisor addresses each of the customer objections.]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="28">
+                <![CDATA[<b>Value</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="30" trans="slideUp" ease="QuintEaseOut">
+                <![CDATA[<b>Customer:</b> <i>“Why should I buy this water pump from you? I can get one just as good down the street.”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="32" trans="slideUp" ease="QuintEaseOut">
+                <![CDATA[<b>Parts Advisor:</b> <i>“You want a water pump for your 2011 Durango, and I understand you believe an aftermarket water pump is as good as an original equipment part. Some of my customers have had the same concern. May I explain the difference to you so you recognize that we can offer you much better quality and reliability at a competitive price?”</i>]]>
+</bodyBullet>
+            </ui>
+             <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="top" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="4620_1.jpg">
+                <![CDATA[Parts Advisor]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4625" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" yPad="10">
+              <bodyBullet id="bb0" order="26" yPad="0">
+                <![CDATA[Read how our Parts Advisor addresses each of the customer objections.]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="28">
+                <![CDATA[<b>Availability</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="30" trans="slideUp" ease="QuintEaseOut">
+                <![CDATA[<b>Customer:</b> <i>“You don’t have the headlamp I need in stock? I took time out of my lunch hour to come here and waited 15 minutes to find this out?”</i>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="32" trans="slideUp" ease="QuintEaseOut">
+                <![CDATA[<b>Parts Advisor:</b> <i>“I’m so sorry for the inconvenience. I understand that your time is valuable. Is your need immediate or can you wait a day or two?  Well, I’m glad you’re able to wait. I can have a new headlamp here for you tomorrow. If you would prefer to have our Service Department install it, we’ll take care of that at no charge to make up for the inconvenience.”</i>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="200" x="right" y="top" margin="10" time="1" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" url="4625_1.jpg">
+                <![CDATA[Parts Advisor]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="4630" type="act"  endType="Continue">
+          <ui uid="9" type="act" atype="dd1col" width="700" height="450" x="left" y="40" margin="10" time="1" order="2" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="680" x="0" y="0" fontSize="20" fontColor="0x666666" syncType="buildy" yPad="10">
+                <item type="header" fontSize="20" x="0" y="0" yPad="0">
+                  <![CDATA[<b>Knowledge Check</b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+                  <![CDATA[Drag the steps for overcoming objections and place them in their proper order.]]>
+</item>
+              </actui>
+              <actui uid="0" type="SubHeader" fontColor="blue" fontSize="18">
+                <item id="i1" type="dragHeader" x="0" y="0" width="160" height="40" fontAlign="center">
+                  <![CDATA[Items]]>
+</item>
+                <item id="i2" type="dropHeader" x="0" y="0" width="330" height="40" fontAlign="center">
+                  <![CDATA[Steps]]>
+</item>
+              </actui>
+              <actui uid="1" type="ItemDragBox" width="280" height="40" x="0" y="0" columnPadding="20" rowPadding="8" fontSize="14" fontColor="0x000000" fontStyle="bold" fontAlign="center" fontVertAlign="middle" fillType="gradient" fillColor="#66ccff" fillAlpha="1" frameSize="1" frameColor="0x666666" frameAlpha="1"  fillColor2="0xD1E6F2" xPad="20" yPad="10">
+                <item id="i1">
+                  <![CDATA[Be an active listener]]>
+</item>
+                <item id="i2">
+                  <![CDATA[Paraphrase objection back to customer]]>
+</item>
+                <item id="i3">
+                  <![CDATA[Respond to the objection]]>
+</item>
+                <item id="i4">
+                  <![CDATA[Ask for the sale]]>
+</item>
+                <item id="i5">
+                  <![CDATA[Keep it simple]]>
+</item>
+                <item id="i6">
+                  <![CDATA[Avoid technical jargon]]>
+</item>
+              </actui>
+          <actui uid="1" type="ItemDropBox" layout="labelfirst" height="40" 
+              x="260" y="0" columnPadding="8" rowPadding="8" 
+              fontSize="16" fontColor="0x666666" fontStyle="bold" fontAlign="center" fontVertAlign="middle"
+              fillType="gradient" fillColor="orangegrad1" fillAlpha="1" fillColor2="orangegrad2" 
+              frameSize="1" frameColor="0x666666" frameAlpha="1" 
+              fillColorLabel="ltgrey" fillAlphaLabel="1"
+              frameColorLabel="0x666666" frameAlphaLabel="1"   
+              xPad="10" yPad="10">
+                <item id="i1">
+                  <![CDATA[Step 1]]>
+</item>
+                <item id="i2">
+                  <![CDATA[Step 2]]>
+</item>
+                <item id="i3">
+                  <![CDATA[Step 3]]>
+</item>
+                <item id="i4">
+                  <![CDATA[Step 4]]>
+</item>
+              </actui>
+              <actui uid="3" type="feedbacktext" width="680" y="bottom" margin="10" fontSize="14">
+                <item type="correct" id="pos">
+                  <![CDATA[Good job. The steps for overcoming objections are: be an active listener, paraphrase the objection back to the customer, respond to the objection, and ask for the sale.]]>
+</item>
+              </actui>
+            </ui>
+        </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

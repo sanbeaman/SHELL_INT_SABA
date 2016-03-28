@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCEENWB" template="ASCE" localeID="en" debug="false">
+    <title>
+      <![CDATA[Exceptional Customer Experience]]>
+</title>
+  </course>
+  <section id="0" snumber="4000">
+    <header>
+      <![CDATA[MEET BASIC CUSTOMER EXPECTATIONS]]>
+</header>
+    <scenes>
+      <scene sNumber="4100" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[The Service Process]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          
+          <slide sNumber="4105" type="Activity_Match" animType="none" endType="Continue">
+           <ui uid="1" type="act" atype="match" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut">
+              <actui type="ScreenText"  width="700" x="left" y="0" margin="0" yPad="8">
+                <item type="screentext" fontSize="18" yPad="0">
+      <![CDATA[Every dealership has to meet customers’ minimum expectations for the service process.]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                  <![CDATA[Directions: Match the service process step on the left by clicking on the appropriate customer expectation on the right.]]>
+</item>
+              </actui>
+              <actui uid="0" type="SubHeader" order="5"  fontSize="18" screen="1">
+                <item id="i1" type="dragHeader" x="0" y="0" width="220" height="40" fontAlign="center">
+                  <![CDATA[Process Step]]>
+</item>
+                <item id="i2" type="dropHeader" x="0" y="0" width="360" height="40" fontAlign="center">
+                  <![CDATA[Customer Expectation]]>
+</item>
+              </actui>
+              <actui uid="1" type="MatchBtn" width="220" height="40" x="left" y="0"  margin="0" layout="1col" fontSize="16" fontColor="0x000000" fontStyle="bold" fontAlign="center" fontVertAlign="middle" fillColor="0xcccccc" fillAlpha="1" frameSize="1" frameColor="0xffffff" frameAlpha="1" fillType="gradient" fillColor2="0xcccccc" xPad="20" yPad="7">
+                <item id="i1" isanswer="drop01">
+                  <![CDATA[Inquiry]]>
+</item>
+                <item id="i2" isanswer="drop02">
+                  <![CDATA[Write-up]]>
+</item>
+                <item id="i3" isanswer="drop03">
+                  <![CDATA[Inspection and Repair]]>
+</item>
+                <item id="i4" isanswer="drop04">
+                  <![CDATA[Customer Consultation]]>
+</item>
+                <item id="i5" isanswer="drop05">
+                  <![CDATA[Quality Assurance]]>
+</item>
+                <item id="i6" isanswer="drop06">
+                  <![CDATA[Delivery]]>
+</item>
+                <item id="i7" isanswer="drop07">
+                  <![CDATA[Follow-up]]>
+</item>
+              </actui>
+              <actui uid="1" type="MatchTarget" width="360" height="40" x="right" y="0" margin="0" layout="default" fontSize="12"  fontColor="0x000000" fontStyle="reg" fontAlign="left" fontVertAlign="middle" fillColor="0xcc6633" fillAlpha="1" frameSize="1" frameColor="0xffffff" frameAlpha="1" fillType="gradient" fillColor2="0xff9933" xPad="10" yPad="7">
+                <item id="i1" isanswer="drop01">
+                  <![CDATA[Respond to me quickly in the manner I request with all of the information I request]]>
+</item>
+                <item id="i2" isanswer="drop02">
+                  <![CDATA[Prompt and courteous attention to my needs]]>
+</item>
+                <item id="i3" isanswer="drop03">
+                  <![CDATA[Inform me of any repairs or maintenance needed]]>
+</item>
+                <item id="i4" isanswer="drop04">
+                  <![CDATA[Review with me what needs to be done, how much it will cost and when it will be completed]]>
+</item>
+                <item id="i5" isanswer="drop05">
+                  <![CDATA[Fix my vehicle right the first time]]>
+</item>
+                <item id="i6" isanswer="drop06">
+                  <![CDATA[My vehicle is ready for pickup when promised. Pickup is hassle free]]>
+</item>
+                <item id="i7" isanswer="drop07">
+                  <![CDATA[Someone will contact me to follow up and ensure that everything is okay]]>
+</item>
+              </actui>
+              <actui uid="3" type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct" id="pos">
+                  <![CDATA[Knowing what customers expect during each step is important. It’s also important to consistently follow performance standards to ensure expectations are met.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+           <slide sNumber="4110" type="Activity_TextAreaInput" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="tai" x="left" y="top" margin="10" order="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" width="700" x="left" y="0" margin="0" yPad="8" >
+              <item type="header" yPad="0" fontSize="24">
+                  <![CDATA[<b>Inquiry</b>]]>
+</item>
+                <item type="questiontext" fontSize="16">
+                  <![CDATA[Customer Expectation: Respond to me quickly in the manner I request with all of the information I request. There are many performance standards used by dealerships to meet this customer expectation. What are some that you feel are particularly effective? ]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                  <![CDATA[Directions: Type in your response, then click “Submit” for some additional ideas. You can print the responses to refer to on the job.]]>
+</item>
+              </actui>
+             <actui type="actui" xPad="8" yPad="8">
+                <item type="txtinput" x="0" y="0"  fontSize="16" fontStyle="reg" fontAlign="left" width="246" height="240" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1">
+                  <![CDATA[Begin typing here.]]>
+</item>
+                <item type="txtresult" x="266" y="0" width="440" height="240" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1"  fontSize="13" fontStyle="reg" fontAlign="left">
+   <![CDATA[<li>Answer all telephone calls within three rings, and ensure call “hold” time does not exceed 30 seconds</li><li>Respond to all Internet inquiries (Service and Parts) within one business hour using method requested by customer (Auto-responder emails do not count as response)</li><li>Address customer’s request completely</li><li>Provide an appointment system for customers to schedule a specific date and time for vehicle service write-up</li><li>Offer dealership hours that are competitive in the marketplace</li><li>Offer alternate transportation option(s) for service customers</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16"  fontStyle="bold" pulseColor="orange">
+                <item id="chkbtn" type="submit" x="86">
+                  <![CDATA[SUBMIT]]>
+</item>
+                <item id="chkbtn" type="print" x="266">
+                  <![CDATA[PRINT]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="4115" type="Activity_TextAreaInput" animType="none" endType="Continue">
+          
+          <ui uid="1" type="act" atype="tai" x="left" y="top" margin="10" order="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" width="700" x="left" y="0" margin="0" yPad="8" >
+              <item type="header" yPad="0" fontSize="24">
+                  <![CDATA[<b>Write-up</b>]]>
+</item>
+                <item type="questiontext" fontSize="16">
+                  <![CDATA[Customer Expectation: Prompt and courteous attention to my needs. There are many performance standards used by dealerships to meet this customer expectation. What are some that you feel are particularly effective? ]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                  <![CDATA[Directions: Type in your response, then click “Submit” for some additional ideas. You can print the responses to refer to on the job.]]>
+</item>
+              </actui>
+               <actui type="actui" xPad="8" yPad="8">
+                <item type="txtinput" x="0" y="0"  fontSize="16" fontStyle="reg" fontAlign="left" width="246" height="240" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1">
+                  <![CDATA[Begin typing here.]]>
+</item>
+                <item type="txtresult" x="266" y="0" width="444" height="240" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1"  fontSize="13" fontStyle="reg" fontAlign="left">
+  <![CDATA[<li>Greet the customer warmly, reconfirm the reason for their visit, ask if they have any additional service needs </li><li>Review and confirm customer repair or maintenance needs</li><li>Perform vehicle walkaround to visually inspect vehicle</li><li>Update vehicle and customer contact information</li><li>Identify any open recalls or Rapid Response Transmittals that apply to their vehicle and ask for permission to perform them</li><li>Review repair order with customer to confirm repair needs</li><li>Provide estimated repair time</li><li>Provide a clean and comfortable waiting area</li><li>Provide alternate transportation option(s)</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16"  fontStyle="bold" pulseColor="orange">
+                <item id="chkbtn" type="submit" x="86">
+                  <![CDATA[SUBMIT]]>
+</item>
+                <item id="chkbtn" type="print" x="266">
+                  <![CDATA[PRINT]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="4120" type="Activity_TextAreaInput" animType="none" endType="Continue">
+          <ui uid="1" type="act" atype="tai" x="left" y="top" margin="10" order="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" width="700" x="left" y="0" margin="0" yPad="8" >
+                 <item type="header" yPad="0" fontSize="24">
+                  <![CDATA[<b>Inspection and Repair</b>]]>
+</item>
+                <item type="questiontext" fontSize="16">
+                  <![CDATA[Customer Expectation: Inform me of any repairs or maintenance needed. There are several performance standards used by dealerships to meet this customer expectation. Do you have some that you feel are particularly effective? ]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                  <![CDATA[Directions: Type in your response, then click “Submit” for some additional ideas. You can print the responses to refer to on the job.]]>
+</item>
+              </actui>
+               <actui type="actui" xPad="8" yPad="8">
+                <item type="txtinput" x="0" y="0"  fontSize="16" fontStyle="reg" fontAlign="left" width="246" height="240" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1">
+                  <![CDATA[Begin typing here.]]>
+</item>
+                <item type="txtresult" x="266" y="0" width="444" height="240" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1"  fontSize="14" fontStyle="reg" fontAlign="left">
+     <![CDATA[<li>Verify that an appropriately trained technician is available and assign the work </li><li>Verify that all necessary parts are in stock and available</li><li>Conduct and document a vehicle inspection that includes determining Diagnostic Trouble Codes and updates that need to be addressed</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16"  fontStyle="bold" pulseColor="orange">
+                <item id="chkbtn" type="submit" x="86">
+                  <![CDATA[SUBMIT]]>
+</item>
+                <item id="chkbtn" type="print" x="266">
+                  <![CDATA[PRINT]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="4125" type="Activity_TextAreaInput" animType="none" endType="Continue">
+          <ui uid="1" type="act" atype="tai" x="left" y="top" margin="10" order="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" width="700" x="left" y="0" margin="0" yPad="8" >
+                 <item type="header" yPad="0" fontSize="24">
+                  <![CDATA[<b>Customer Consultation</b>]]>
+</item>
+                <item type="questiontext" fontSize="16">
+                  <![CDATA[Customer Expectation: Review with the customer what needs to be done, how much it will cost and when it will be completed. There are many performance standards used by dealerships to meet this customer expectation. Do you have some that you feel are particularly effective? ]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                  <![CDATA[Directions: Type in your response, then click “Submit” for some additional ideas. You can print the responses to refer to on the job.]]>
+</item>
+              </actui>
+               <actui type="actui" xPad="8" yPad="8">
+                <item type="txtinput" x="0" y="0"  fontSize="16" fontStyle="reg" fontAlign="left" width="246" height="240" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1">
+                  <![CDATA[Begin typing here.]]>
+</item>
+                <item type="txtresult" x="266" y="0" width="444" height="240" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1"  fontSize="14" fontStyle="reg" fontAlign="left">
+    <![CDATA[<li>Review findings, recommendations and complete estimate of costs and completion time with customer and obtain approval to proceed</li><li>Address customer’s primary repair needs first</li><li>Ensure customer understands and approves the repair and expense</li><li>Contact customer to advise of any variances in repairs, parts availability, cost or completion time</li><li>Notify customer within one business day upon arrival of special order parts</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16"  fontStyle="bold" pulseColor="orange">
+                <item id="chkbtn" type="submit" x="86">
+                  <![CDATA[SUBMIT]]>
+</item>
+                <item id="chkbtn" type="print" x="266">
+                  <![CDATA[PRINT]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="4130" type="Activity_TextAreaInput" animType="none" endType="Continue">
+         <ui uid="1" type="act" atype="tai" x="left" y="top" margin="10" order="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" width="700" x="left" y="0" margin="0" yPad="8" >
+                 <item type="header" yPad="0" fontSize="24">
+                  <![CDATA[<b>Quality Assurance</b>]]>
+</item>
+                <item type="questiontext" fontSize="16">
+                  <![CDATA[Customer Expectation: Fix my vehicle right the first time. There are many performance standards used by dealerships to meet this customer expectation. Do you have some that you feel are particularly effective? ]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                  <![CDATA[Directions: Type in your response, then click “Submit” for some additional ideas. You can print the responses to refer to on the job.]]>
+</item>
+              </actui>
+              <actui type="actui" xPad="8" yPad="8">
+                <item type="txtinput" x="0" y="0"  fontSize="16" fontStyle="reg" fontAlign="left" width="246" height="250" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1">
+                  <![CDATA[Begin typing here.]]>
+</item>
+                <item type="txtresult" x="266" y="0" width="416" height="250" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1"  fontSize="16" fontStyle="reg" fontAlign="left">
+                  <![CDATA[<li>Conduct and document a quality check to confirm that all requested work is completed</li><li>Resolve any issues before vehicle is returned to customer</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16"  fontStyle="bold" pulseColor="orange">
+                <item id="chkbtn" type="submit" x="86">
+                  <![CDATA[SUBMIT]]>
+</item>
+                <item id="chkbtn" type="print" x="266">
+                  <![CDATA[PRINT]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="4135" type="Activity_TextAreaInput" animType="none" endType="Continue">
+        <ui uid="1" type="act" atype="tai" x="left" y="top" margin="10" order="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" width="700" x="left" y="0" margin="0" yPad="8" >
+                 <item type="header" yPad="0" fontSize="24">
+                  <![CDATA[<b>Delivery</b>]]>
+</item>
+                <item type="questiontext" fontSize="16">
+                  <![CDATA[Customer Expectation: My vehicle is ready when promised and pickup is hassle free. There are several performance standards used by dealerships to meet this customer expectation. Do you have some that you feel are particularly effective? ]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                  <![CDATA[Directions: Type in your response, then click “Submit” for some additional ideas. You can print the responses to refer to on the job.]]>
+</item>
+              </actui>
+              <actui type="actui" xPad="8" yPad="8">
+                <item type="txtinput" x="0" y="0"  fontSize="16" fontStyle="reg" fontAlign="left" width="246" height="240" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1">
+                  <![CDATA[Begin typing here.]]>
+</item>
+                <item type="txtresult" x="266" y="0" width="416" height="240" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1"  fontSize="16" fontStyle="reg" fontAlign="left">
+                  <![CDATA[<li>Offer options for convenient checkout and pickup</li><li>Ensure vehicle is ready for delivery when promised</li><li>Provide customer with complete explanation of repairs and charges</li><li>Provide customer with documentation of service transaction at time of vehicle delivery</li><li>Offer to set appointment for next service visit</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16"  fontStyle="bold" pulseColor="orange">
+                <item id="chkbtn" type="submit" x="86">
+                  <![CDATA[SUBMIT]]>
+</item>
+                <item id="chkbtn" type="print" x="266">
+                  <![CDATA[PRINT]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="4140" type="Activity_TextAreaInput" animType="none" endType="Continue">
+      <ui uid="1" type="act" atype="tai" x="left" y="top" margin="10" order="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" width="700" x="left" y="0" margin="0" yPad="8" >
+                 <item type="header" yPad="0" fontSize="24">
+                  <![CDATA[<b>Follow-up</b>]]>
+</item>
+                <item type="questiontext" fontSize="16">
+                  <![CDATA[Customer Expectation: Someone will contact me to follow up and ensure everything is okay.<br />There are several performance standards used by dealerships to meet this customer expectation. Do you have some that you feel are particularly effective? ]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                  <![CDATA[Directions: Type in your response, then click “Submit” for some additional ideas. You can print the responses to refer to on the job.]]>
+</item>
+              </actui>
+              <actui type="actui" xPad="8" yPad="8">
+                <item type="txtinput" x="0" y="0"  fontSize="16" fontStyle="reg" fontAlign="left" width="246" height="240" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1">
+                  <![CDATA[Begin typing here.]]>
+</item>
+                <item type="txtresult" x="266" y="0" width="416" height="240" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1"  fontSize="16" fontStyle="reg" fontAlign="left">
+                  <![CDATA[<li>Contact customer within two days of delivery to determine satisfaction with vehicle and dealership experience and identify any customer concerns</li><li>Conduct follow-up using method desired by customer</li><li>Contact all missed service appointments and attempt to reschedule</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16"  fontStyle="bold" pulseColor="orange">
+              <item id="chkbtn" type="submit" x="86">
+                  <![CDATA[SUBMIT]]>
+</item>
+                <item id="chkbtn" type="print" x="266">
+                  <![CDATA[PRINT]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

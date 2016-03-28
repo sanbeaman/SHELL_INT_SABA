@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+<course code="PAPSRUWB" template="PAPS" localeID="ru" debug="false">
+    <title><![CDATA[Навыки розничной продажи запасных частей]]>
+</title>
+</course>
+   <section id="0" snumber="2000">
+    <header ud="sech1">
+      <![CDATA[Экономические Факторы]]>
+</header>
+    <scenes>
+      <scene id="2100" sNumber="2100" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+            <![CDATA[Возможность]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="2101" type="BulletImageBuild"  animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="460" x="left" y="40" margin="10" fontColor="#666666" fontSize="16" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb2" order="4" yPad="0">
+      <![CDATA[<li>Этот модуль объясняет, каким образом совершенствование навыков продаж принесет пользу вам, вашему дилерскому центру и клиентам</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="5">
+      <![CDATA[<li>Прежде всего, рассмотрим масштаб рынка запасных частей и дополнительного оборудования</li>]]>
+</bodyBullet>
+            </ui>
+          	<ui uid="1" type="bodyImage" width="160" height="180" x="right" y="top" margin="10" time="1" trans="slideLeft" ease="BackEaseOut" syncType="build" >
+              <bodyImage id="img1" order="1" url="2100_1.jpg">
+                <![CDATA[Parts Advisor]]>
+</bodyImage>
+              <bodyImage id="img2" order="2" y="bottom" url="2100_2.jpg">
+                <![CDATA[Customer ]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="2105" type="BulletImageBuild" animType="animsync" endType="Continue">
+          	<ui uid="3" type="bodyBullet"  width="680" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="10" yPad="0">
+      <![CDATA[Знаете ли вы о возможности, предусматриваемой деятельностью вашего отдела запасных частей?]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="11">
+      <![CDATA[<li>Запасные части для автомобилей - это рынок емкостью 244 миллиарда долларов</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="12">
+      <![CDATA[<li>Дополнительное оборудование для автомобилей - это рынок емкостью 38 миллиардов долларов</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="13">
+      <![CDATA[<li>Покупатель автомобиля в среднем тратит 12000 рублей на дополнительное оборудование с течение первых шести месяцев после приобретения автомобиля</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" width="400" order="14">
+      <![CDATA[<li>Покупатель грузового автомобиля тратит 36000 рублей</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" width="400" order="16">
+      <![CDATA[Этот рынок продолжает расти, открывая значительные возможности для развития вашего бизнеса по реализации запасных частей и дополнительного оборудования.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" fontSize="8" trans="fadeIn" ease="BackEaseOut">
+              <bodyNote id="gn1" order="99" time="1">
+      <![CDATA[Источник: Ассоциация производителей двигателей и оборудования (Motor and Equipment Manufacturers Association), Ассоциация в сфере рыночного сбыта специального оборудования (Specialty Equipment Marketing Association). Данные по США.]]>
+</bodyNote>
+            </ui>
+              <ui uid="1" type="bodyImage" width="260" height="195" x="right" y="bottom"  margin="10" time="1" trans="slideLeft" ease="BackEaseOut" syncType="add">
+              <bodyImage id="i1" order="2" url="2105_1.jpg">
+                <![CDATA[Parts Advisor]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="2200" sNumber="2200" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+      <![CDATA[Преимущества]]>
+            </header>
+          </ui>
+        </sceneitems>
+        <slides>
+         <slide sNumber="2205" type="Activity_Click2reveal" animType="none" endType="Continue">
+    		<ui uid="1" type="act" atype="click2reveal" order="2" time="1" x="0" y="50" margin="0" trans="slideUp" ease="QuintEaseOut">
+              <actui uid="1" type="backimage">
+                <item type="image" url="2200_backQ60.jpg">
+                  <![CDATA[DEALERSHIP PHOTO]]>
+</item>
+              </actui>
+              <actui uid="2" type="clickbtns" fillColor="0xD1E6F2" fillAlpha="0" frameColor="blue" frameSize="1" frameAlpha="1" fillColor2="0xD1E6F2" fontSize="20" fontColor="white" iconType="bitmap" iconShape="square" iconWidth="28" iconHeight="26" iconFrameSize="1" iconFrameColor="black" iconFrameAlpha="0" iconReady="icons/hsicon_ready.png" iconUncheck="icons/hsicon_unchecked.png" iconCheck="icons/hsicon_checked.png">
+                <option id='item1' x="8" y="112" width="250" height="68">
+                  <![CDATA[КЛИЕНТ]]>
+</option>
+                <option id='item2' x="8" y="201" width="250" height="68">
+                  <![CDATA[ДИЛЕРСКИЙ ЦЕНТР]]>
+</option>
+                <option id='item3' x="8" y="287" width="250" height="68">
+                  <![CDATA[КОНСУЛЬТАНТ ПО ЗАПАСНЫМ ЧАСТЯМ]]>
+</option>
+              </actui>
+              <actui type="txtboxs" x='360' y='40' width="320" height="320" xPad="12" yPad="12" fillColor="0xD1E6F2" fillAlpha=".8" frameColor="black" frameSize="2" frameAlpha="1" fontSize="18" fontColor="black">
+                <option id='item0'>
+      <![CDATA[Консультант по запасным частям может постоянно совершенствовать собственные навыки продаж, обеспечивая всеобщую выгоду. Чтобы узнать больше, щелкните по активному маркеру.]]>
+</option>
+                <option id='item1'>
+      <![CDATA[Разъяснение ценности продаваемого вами оборудования, а также соответствия этого оборудования потребностям клиента помогает сформировать атмосферу доверия и уважения к вам и вашему дилерскому центру. Клиент чувствует себя комфортно в отношении сделанного им приобретения и уверен в целесообразности коммерческих отношений с вами, что способствует его превращению в лояльного клиента.]]>
+</option>
+                <option id='item2'>
+      <![CDATA[Вы можете помочь своему дилерскому центру сформировать клиентскую базу из лояльных клиентов, что предполагает повторные коммерческие отношения и увеличение прибыли.]]>
+</option>
+                <option id='item3'>
+      <![CDATA[В чем ваша выгода? Осознание наличия у вас навыков, использование которых обеспечивает вам эффективные продажи, повышает вашу уверенность в собственных силах и выводит вас на более высокий профессиональный уровень. Таким образом вы становитесь для дилерского центра более ценным работником, что предполагает рост вашего собственного дохода.]]>
+</option>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="2300" sNumber="2300" sType="scocontent" continueBtnType="done">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+      <![CDATA[Типы клиентов]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide type="RPSS_BulletColumn_IMAGEGLOW" sNumber="2300" animType="timesync" endType="Continue">
+            <ui uid="1" type="bodyImageGlow" width="154" height="160"  x='left' y='50' margin="16" fontSize="14" fontColor="white"  fillColor="black" fillAlpha="1" frameShape="roundRect" frameColor="black" frameSize="2" frameAlpha="1" time="2" trans="slideLeft" ease="QuintEaseOut" syncType="buildx" xPad="16">
+              <item id="img1" timeIn="1" timeOut="999" url="ctypebox01.jpg" xPad="0">
+              <label>
+      <![CDATA[Клиент по телефону]]>
+      </label>
+</item>
+              <item id="img2" timeIn="1.5" timeOut="999" url="ctypebox02.jpg">
+                             <label>
+      <![CDATA[Очный клиент]]>
+  </label>
+</item>
+              <item id="img3" timeIn="2" timeOut="999" url="ctypebox03.jpg">
+                             <label>
+      <![CDATA[Внутренний клиент]]>
+  </label>
+</item>
+              <item id="img4" timeIn="2.5" timeOut="999" url="ctypebox04.jpg">
+                             <label>
+      <![CDATA[Интернет-клиент]]>
+  </label>
+</item>
+            </ui>
+            <ui uid="3" type="bodyBullet" x="left" y="230" width="600" margin="16" trans="slideRight" ease="QuintEaseOut" time="1" syncType="buildy" yPad="10">
+              <item id="bb1" timeIn="3" timeOut="20" yPad="0">
+      <![CDATA[Каждый клиент важен]]>
+</item>
+              <item id="bb2" timeIn="4" timeOut="20">
+      <![CDATA[Вы будете взаимодействовать с клиентами различных личностных типов, которые будут обращаться к вам четырьмя различными способами:]]>
+</item>
+              <item id="bb3" timeIn="5" timeOut="20" target="img1" targetTrigger="imageglow" targetParams="2">
+      <![CDATA[<li>По телефону</li>]]>
+</item>
+              <item id="bb4" timeIn="6" timeOut="20" target="img2" targetTrigger="imageglow" targetParams="2">
+      <![CDATA[<li>Лично, на участке запасных частей</li>]]>
+</item>
+              <item id="bb5" timeIn="7" timeOut="20" target="img3" targetTrigger="imageglow" targetParams="2">
+      <![CDATA[<li>Внутри дилерского центра</li>]]>
+</item>
+              <item id="bb6" timeIn="8" timeOut="20" target="img4" targetTrigger="imageglow" targetParams="2">
+      <![CDATA[<li>Через Интернет</li>]]>
+</item>
+            </ui>
+            <ui uid="3" type="bodyBulletCol" width="160" x="left" y="230"  margin="16" textStyle="textflow" fontSize="10" trans="slideUp" ease="QuintEaseOut" syncType="buildx" xPad="9">
+              <item id="bbc1" timeIn="21" target="img1" targetTrigger="imageglow" targetParams="4" xPad="0">
+      <![CDATA[<list><li>Могут быть оптовыми или розничными клиентами</li><li>Без визуального взаимодействия</li><li>Визуально различимые эмоционально-ситуативные индикаторы отсутствуют</li></list>]]>
+</item>
+              <item id="bbc2" timeIn="23" target="img2" targetTrigger="imageglow" targetParams="4">
+      <![CDATA[<list><li>Взаимодействие лицом к лицу</li><li>Визуально различимые эмоционально-ситуативные индикаторы просматриваются при зрительном контакте и в языке жестов</li><li>Тон голоса</li></list>]]></item>
+              <item id="bbc3" timeIn="24" target="img3" targetTrigger="imageglow" targetParams="4">
+      <![CDATA[<list><li>В эту группу входят консультанты по продажам, консультанты по обслуживанию, механики</li><li>Существующие отношения</li><li>Личное взаимодействие на том же уровне клиентского обслуживания, что и при обслуживании внешних клиентов</li><li>Визуально различимые эмоционально-ситуативные индикаторы и тон голоса</li></list>]]>
+</item>
+              <item id="bbc4" timeIn="25" target="img4" targetTrigger="imageglow" targetParams="4">
+      <![CDATA[<list><li>Подобны клиентам по телефону</li><li>Визуально различимые эмоционально-ситуативные или голосовые индикаторы отсутствуют</li><li>Важность грамотной и стилистически полноценной коммуникации</li></list>]]>
+</item>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

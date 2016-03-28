@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCERUWB" template="ASCE" localeID="ru" debug="false">
+    <title>
+      <![CDATA[Исключительный клиентский опыт]]>
+</title>
+  </course>
+  <section id="0" snumber="5000">
+    <header>
+      <![CDATA[КОНТАКТЫ НА ЛИЧНОМ УРОВНЕ]]>
+</header>
+    <scenes>
+      <scene sNumber="5100" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Сила индивидуального подхода]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="5105" type="BulletImageGlow" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="680" x="left" y="top"  margin="10" trans="slideRight" ease="QuintEaseOut" yPad="0">
+              <item id="bb1" order="1" time="1">
+                <![CDATA[Чтобы обеспечить лояльность клиентов, которые будут возвращаться к вам снова и снова, и активно рекомендовать вас своим знакомым, вам необходимо наладить личные контакты с максимально возможным количеством клиентов. Вот что для этого необходимо:]]>
+</item>
+            </ui>
+             <ui uid="3" type="bodyBulletCol"  width="160" x="left" y="270" margin="20" fontSize="12" fontColor="black" textStyle="textflow" time="1" trans="slideUp" ease="QuintEaseOut"  syncType="buildx" xPad="18">
+              <item id="bbc1" order="50" target="img1" targetTrigger="imageglow" targetParams="4" xPad="0">
+                <![CDATA[<list listStylePosition="outside" listStyleType="decimal"><li>Знайте клиента<list listStylePosition="outside"  listStyleType='disc'><li>Поближе познакомьтесь со своим клиентом, чтобы для вас он стал личностью, а не просто именем на заказе на ремонт</li></list></li></list>]]>
+</item>
+              <item id="bbc2" order="51" target="img2" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[<list listStylePosition="outside" listStyleType="decimal"><listMarkerFormat><ListMarkerFormat counterIncrement="ordered 2"/></listMarkerFormat><li>Дайте клиенту почувствовать себя особенным.<list listStylePosition="outside" listStyleType='disc'  paddingLeft="50" ><li>Предоставьте клиенту возможность рассказать о себе</li><li>Наладьте с клиентом общение, внимательно его слушайте, стараясь обнаружить общие с ним интересы. </li></list></li></list>]]>
+</item>
+              <item id="bbc3" order="52" target="img3" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[<list listStylePosition="outside" listStyleType="decimal"><listMarkerFormat><ListMarkerFormat counterIncrement="ordered 3"/></listMarkerFormat><li>Формируйте доверие и ценность.<list listStylePosition="outside" listStyleType='disc'><li>Станьте «адвокатом» потребностей клиента</li><li>Будьте честными и говорите все как есть. </li></list></li></list>]]>
+</item>
+              <item id="bbc4" order="53" target="img4" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[<list listStylePosition="outside" listStyleType="decimal"><listMarkerFormat><ListMarkerFormat counterIncrement="ordered 4"/></listMarkerFormat><li>Поддерживайте контакт.<list listStylePosition="outside" listStyleType='disc'><li>Не забывайте про клиента, как только он покинет дилерский центр</li></list></li></list>]]>
+</item>
+            </ui>
+            <ui uid="1" type="bodyImageGlow" x='20' y='90' width="154" height="160" margin="20" fillColor="black" fillAlpha="1" frameShape="roundRect" frameColor="black" frameSize="2" frameAlpha="1" pulseColor="orange" trans="slideLeft" ease="QuintEaseOut" syncType="buildx" xPad="24">
+              <item id="img1" order="2" time="1" url="5105_1.jpg" xPad="0">x</item>
+              <item id="img2" order="3" time="1" url="5105_2.jpg">x</item>
+              <item id="img3" order="4" time="1" url="5105_3.jpg">x</item>
+              <item id="img4" order="5" time="1" url="5105_4.jpg">x</item>
+            </ui>
+          </slide>
+          <slide sNumber="5110" type="Activity_MultipleChoice" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="10" yPad="10">
+              <actui type="ScreenText" width="710" syncType="buildy" yPad="10">
+                <item type="header" fontSize="24" yPad="0">
+                  <![CDATA[<b>Знайте своего клиента</b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+                  <![CDATA[Какими методами можно воспользоваться, чтобы поближе познакомиться со своим клиентом?]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                  <![CDATA[Указания: выберите все подходящие варианты ответа. Затем щелкните «Проверить ответ».]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="cb" width="680" height="36" x="0" y="0" margin="0" fontSize="14" fontColor="0x000000" fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="black" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="16">
+                <item id="i1" isanswer="true">
+                  <![CDATA[Узнайте имя клиента и используйте его при обращении к нему.]]>
+</item>
+                <item id="i2" isanswer="true">
+                  <![CDATA[Одобрите выбор клиентом автомобиля.]]>
+</item>
+                <item id="i3" isanswer="false">
+                  <![CDATA[Попросите каждого клиента предоставить вам свое фото и заполните форму с его личными данными.]]>
+</item>
+                <item id="i4" isanswer="true">
+                  <![CDATA[Скажите клиенту, чтобы он спрашивал именно вас, потому что вы позаботитесь о нем!]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="200" height="34" x="right" y="0" margin="10" fontSize="16" fontColor="black" fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[ПРОВЕРИТЬ ОТВЕТ]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct">
+                  <![CDATA[Верно! Используйте эти простые рекомендации для того, чтобы лучше узнать своих клиентов. Это -  первый шаг на пути к тому, чтобы ваш дилерский центр выделялся на фоне конкурентов, которые не прикладывают особых усилий для налаживания личных связей. Выберите ДАЛЕЕ, чтобы узнать о том, как еще можно поближе познакомиться со своими клиентами.]]>
+</item>
+                <item type="wrong">
+                  <![CDATA[Неверно. Правильные ответы: первый, второй и четвертый. Используйте эти простые рекомендации для того, чтобы лучше узнать своих клиентов. Это -  первый шаг на пути к тому, чтобы ваш дилерский центр выделялся на фоне конкурентов, которые не прикладывают особых усилий для установления личных отношений. Выберите ДАЛЕЕ, чтобы узнать о том, как еще можно ближе познакомиться со своими клиентами.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="5115" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="460" x="left" y="top" margin="10" fontSize="18" fontStyle="bold" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="29" fontSize="24" fontStyle="bold" time=".5" yPad="0">
+                <![CDATA[<b>Знайте своего клиента</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="30">
+                <![CDATA[<li>Представьтесь</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="31">
+                <![CDATA[<li>Поблагодарите клиента за сотрудничество</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="32">
+                <![CDATA[<li>Пригласите клиента на экскурсию по отделению</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="33">
+                <![CDATA[<li>Демонстрируя энтузиазм, постарайтесь, чтобы клиент вас запомнил</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="34">
+                <![CDATA[<li>Объясните, что за приобретением клиента стоит вся команда дилерского центра</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10" scaleMode="width" time="1" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="25">
+              <bodyImage id="i1" order="30" url="5115_1.jpg" yPad="0">
+                <![CDATA[image 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="32" url="5115_2.jpg">
+                <![CDATA[Image 2]]>
+</bodyImage>
+              <bodyImage id="i3" order="34" url="5115_3.jpg">
+                <![CDATA[Image 3]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="5120" type="Activity_MultipleChoice" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="10" yPad="10">
+              <actui type="ScreenText" width="710" syncType="buildy" yPad="10">
+                <item type="header" fontSize="24" yPad="0">
+                  <![CDATA[<b>Сделайте так, чтобы клиент почувствовал себя особенным</b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+                  <![CDATA[Как сделать так, чтобы клиенты почувствовали себя особенными?]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                  <![CDATA[Указания: выберите все подходящие варианты ответа. Затем щелкните «Проверить ответ».]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="cb" width="680" height="36" x="0" y="0" margin="0" fontSize="14" fontColor="0x000000" fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="black" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="16">
+                <item id="i1" isanswer="true">
+                  <![CDATA[Предоставьте клиенту возможность рассказать о себе.]]>
+</item>
+                <item id="i2" isanswer="false">
+                  <![CDATA[Расскажите ему о других клиентах, которые недавно обратились к вам с такой же потребностью в ремонте или техническом обслуживании.]]>
+</item>
+                <item id="i3" isanswer="true">
+                  <![CDATA[Наладьте отношения с клиентом, немного рассказав о себе, ищите «точки соприкосновения» и общие интересы.]]>
+</item>
+                <item id="i4" isanswer="false">
+                  <![CDATA[Заверьте клиента, что к нему будут относиться столь же внимательно, как и к остальным клиентам.]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="200" height="34" fontSize="16" fontColor="black" fontStyle="bold" pulseColor="orange">
+                <item id="chkbtn" type="submit" x="right" y="0">
+                  <![CDATA[ПРОВЕРИТЬ ОТВЕТ]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct">
+                  <![CDATA[Верно! Большинство клиентов положительно реагируют на ваши усилия, направленные на то, чтобы клиент почувствовал себя особенным. Выберите ДАЛЕЕ, чтобы узнать о других эффективных методах.]]>
+</item>
+                <item type="wrong">
+                  <![CDATA[Неверно. Правильные ответы: первый и третий. Большинство клиентов положительно реагируют на ваши усилия, которые вы направляете на то, чтобы они почувствовали себя особенными. Выберите ДАЛЕЕ, чтобы узнать о других эффективных методах.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="5125" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="460" x="left" y="top" margin="10" fontSize="18" fontStyle="bold" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="48" fontSize="24" fontStyle="bold" time=".5" yPad="0">
+                <![CDATA[<b>Сделайте так, чтобы клиент почувствовал себя особенным.</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="49">
+                <![CDATA[<li>Слушайте и активно поддерживайте клиента в желании поделиться своими мыслями</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="50">
+                <![CDATA[<li>Подстройтесь под личностные особенности клиента</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="51">
+                <![CDATA[<li>Проявляйте искренний интерес</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="52">
+                <![CDATA[<li>Сделайте так, чтобы клиент чувствовал себя как дома, рассказав ему про часы работы дилерского центра, предоставляемые центром услуги и ознакомив клиента с его планировкой</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="53">
+                <![CDATA[<li>Упомяните дополнительное оборудование и ответственные компоненты Mopar, которые есть в наличии</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10" scaleMode="width" time="1" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="25">
+              <bodyImage id="i1" order="49.5" url="5125_1.jpg" yPad="0">
+                <![CDATA[image 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="51.5" url="5125_2.jpg">
+                <![CDATA[Image 2]]>
+</bodyImage>
+              <bodyImage id="i3" order="53.5" url="5125_3.jpg">
+                <![CDATA[Image 3]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="5130" type="Activity_MultipleChoice" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="10" yPad="10">
+              <actui type="ScreenText" width="710" syncType="buildy" yPad="10">
+                <item type="header" fontSize="24" yPad="0">
+                  <![CDATA[<b>Формируйте доверие и ценность</b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+                  <![CDATA[Какие методы использовать при работе с клиентами для того, чтобы завоевать их доверие и обеспечить ценность?]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                  <![CDATA[Указания: выберите все подходящие варианты ответа. Затем щелкните «Проверить ответ».]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="cb" width="680" height="36" x="0" y="0" margin="0" fontSize="14" fontColor="0x000000" fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="black" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="16">
+                <item id="i1" isanswer="false">
+                  <![CDATA[Даже если в результате проверки автомобиля не удалось найти никаких проблем, выдумайте что-нибудь, чтобы клиент поверил, что вы выполняете свою работу.]]>
+</item>
+                <item id="i2" isanswer="true">
+                  <![CDATA[Всегда информируйте клиента о результатах осмотра / проверки, даже если дальнейшая работа не требуется.]]>
+</item>
+                <item id="i3" isanswer="false">
+                  <![CDATA[Выполните все необходимые ремонтные работы, даже те, о необходимости которых клиент может и не догадываться.]]>
+</item>
+                <item id="i4" isanswer="true">
+                  <![CDATA[Предложите сопутствующие запасные части, если это целесообразно.]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="200" height="34" x="right" y="0" margin="10" fontSize="16" fontColor="black" fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[ПРОВЕРИТЬ ОТВЕТ]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct">
+                  <![CDATA[Верно! Будьте честными и откровенными при общении с клиентами, и клиенты станут полагаться на вас во всех ситуациях, когда им будет необходима какая-либо услуга, связанная с их автомобилем.  Выберите ДАЛЕЕ, чтобы узнать, как еще можно завоевать доверите и обеспечить ценность.]]>
+</item>
+                <item type="wrong">
+                  <![CDATA[Неверно. Правильные ответы: второй и четвертый. Будьте честными и откровенными при общении с клиентами, и клиенты станут полагаться на вас во всех ситуациях, когда им будет необходима какая-либо услуга, связанная с их автомобилем.  Выберите ДАЛЕЕ, чтобы узнать, как еще можно завоевать доверите и обеспечить ценность.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="5135" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="460" x="left" y="top" margin="10" fontSize="18" fontStyle="bold" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="67" fontSize="24" fontStyle="bold" time=".5" yPad="0">
+                <![CDATA[<b>Формируйте доверие и ценность</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="68">
+                <![CDATA[<li>Сопереживайте клиентам, для которых ремонт автомобиля – это стресс</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="69">
+                <![CDATA[<li>Задокументируйте имеющиеся повреждения во избежание недоразумений в будущем</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="70">
+                <![CDATA[<li>Покажите, что вы цените время и деньги клиента (информирование о ходе ремонта)</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="71">
+                <![CDATA[<li>Помогите клиентам определить приоритетность необходимых ремонтных мероприятий</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="72">
+                <![CDATA[<li>Будьте последовательны в предоставлении обслуживания – например, если вы обычно моете автомобили клиентов после обслуживания, всегда мойте каждый автомобиль</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10" scaleMode="width" time="1" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="25">
+              <bodyImage id="i1" order="68.5" url="5135_1.jpg" yPad="0">
+                <![CDATA[image 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="70.5" url="5135_2.jpg">
+                <![CDATA[Image 2]]>
+</bodyImage>
+              <bodyImage id="i3" order="72.5" url="5135_3.jpg">
+                <![CDATA[Image 3]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="5140" type="Activity_MultipleChoice" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="10" yPad="10">
+              <actui type="ScreenText" width="710" syncType="buildy" yPad="10">
+                <item type="header" fontSize="24" yPad="0">
+                  <![CDATA[<b>Поддерживайте контакт</b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+                  <![CDATA[Какие методы можно использовать для поддержания контакта с клиентами?]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                  <![CDATA[Указания: выберите все подходящие варианты ответа. Затем щелкните «Проверить ответ».]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="cb" width="680" height="36" x="0" y="0" margin="0" fontSize="14" fontColor="0x000000" fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="black" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="16">
+                <item id="i1" isanswer="false">
+                  <![CDATA[Отправляйте клиенту каждую неделю текстовое сообщение с информацией о специальных предложениях, касающихся обслуживания.]]>
+</item>
+                <item id="i2" isanswer="false">
+                  <![CDATA[Звоните или отправляйте электронное сообщение раз в две недели, чтобы узнать, не нуждается ли клиент в услугах по ремонту или техническому обслуживанию.]]>
+</item>
+                <item id="i3" isanswer="true">
+                  <![CDATA[Предоставляйте клиенту акционные купоны.]]>
+</item>
+                <item id="i4" isanswer="true">
+                  <![CDATA[Если это целесообразно, пошлите поздравительную открытку ко дню рождения ли к другому событию.]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="200" height="34" x="right" y="0" margin="10" fontSize="16" fontColor="black" fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[ПРОВЕРИТЬ ОТВЕТ]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct">
+                  <![CDATA[Верно! Большинству клиентов нравится время от времени получать от вас весточку, и это также позволяет вам быть у клиентов «на слуху», чтобы они наверняка вспомнили о вас, когда у них возникнет необходимость в обслуживании. Выберите ДАЛЕЕ, чтобы узнать о других способах поддержания контакта с клиентами.]]>
+</item>
+                <item type="wrong">
+                  <![CDATA[Неверно. Правильные ответы: третий и четвертый. Большинству клиентов нравится время от времени получать от вас весточку, и это также позволяет вам быть у клиентов «на слуху», чтобы они наверняка вспомнили о вас, когда у них возникнет необходимость в обслуживании. Выберите ДАЛЕЕ, чтобы узнать о других способах поддержания контакта с клиентами.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="5145" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="460" x="left" y="top" margin="10" fontSize="18" fontStyle="bold" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="1" fontSize="24" fontStyle="bold" time=".5" yPad="0">
+                <![CDATA[<b>Поддерживайте контакт</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="87">
+                <![CDATA[<li>Позвоните клиенту вскоре после его визита с целью обслуживания, чтобы проверить, все ли хорошо</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="88">
+                <![CDATA[<li>Отправьте клиенту электронное сообщение или письмо с выражением благодарности за сотрудничество</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="89">
+                <![CDATA[<li>Держите клиентов в курсе знаменательных событий и мероприятий, которые проводятся в дилерском центре, таких как краткие семинары по обслуживанию для владельцев автомобилей</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10" scaleMode="width" time="1" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="25">
+              <bodyImage id="i1" order="87.5" url="5145_1.jpg" yPad="0">
+                <![CDATA[image 1]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

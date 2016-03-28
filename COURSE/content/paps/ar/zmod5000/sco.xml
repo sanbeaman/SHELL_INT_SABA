@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="PAPSARWB" template="PAPS" localeID="ar" debug="false">
+    <title>
+      <![CDATA[قطع غيار مهارات البيع بالتجزئة]]>
+</title>
+  </course>
+  <section id="1" snumber="5000">
+    <header>
+      <![CDATA[تطبيق العملية]]>
+</header>
+    <scenes>
+      <scene id="5100" sNumber="5100" sType="gps" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" width="600" height="50" x="left" y="0" margin="10" trans="on" ease="none">
+            <header id="h1" order="0" time="0" x="0" y="0">
+              <![CDATA[الاتصال الهاتفي بالعميل]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="5101" type="BulletBuild" animType="animsync" endType="Continue">
+          <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step01a" syncType="append" trans="animbuild" order="1">
+          <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" />
+          <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration="2" ease="BackEaseOut" />
+          <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step01" />
+          </ui> 
+            <ui uid="1" type="bodyImage" margin="10">
+              <bodyImage id="i2" width="160" height="200" x="right" y="bottom" margin="10" trans="slideLeft" ease="BackEaseOut" url="CustomerPhone2.jpg" order="5" time="1">
+                <![CDATA[Customer Phone]]>
+</bodyImage>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="500" x="left" y="40" margin="10" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="20" yPad="0">
+                <![CDATA[في هذه الوحدة، تدرب على مهارات البيع حتى تتمكن من تطبيقها في وظيفتك.]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="21">
+                <![CDATA[اقرأ السيناريو المحادثة التالية بين استشاري قطع غيار وعميل متصل عبر الهاتف يرغب في شراء فرامل للسيارة الجيب التي يملكها. استعد للإجابة عن سؤال كيفية اتباع عملية بيع قطع الغيار المدفوعة برغبة العميل لإتمام عملية البيع.]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22" trans="slideUp" ease="QuintEaseOut">
+                <dialogLabel>
+                  <![CDATA[<b>استشاري قطع الغيار:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ "مرحبًا، أنا بيت من قسم قطع الغيار بشركة هوم تاون كرايسلر دودج جيب رام. كيف يمكنني مساعدتك؟"]]>
+</dialogText>
+              </bodyBullet>
+              <bodyBullet id="bb3" order="26" trans="slideUp" ease="QuintEaseOut">
+                <dialogLabel>
+                  <![CDATA[<b>العميل:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ "أهلا. أنا أتصل لأعرف ما إذا كان لديكم قطع غيار للفرامل الأمامية لسيارة جيب باتريوت."]]>
+</dialogText>
+              </bodyBullet>
+              <bodyBullet id="bb4" order="27" trans="slideUp" ease="QuintEaseOut">
+                <dialogLabel>
+                  <![CDATA[<b>استشاري قطع الغيار:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ "أحتاج لمزيد من المعلومات للرد على سؤالك. هل لديك رقم تعريف المركبة الخاصة بالسيارة الجيب لديك؟"]]>
+</dialogText>
+              </bodyBullet>
+              <bodyBullet id="bb5" order="28" trans="slideUp" ease="QuintEaseOut">
+                <dialogLabel>
+                  <![CDATA[<b>استشاري قطع الغيار:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ "ماذا! انتظر دقيقة. سأعود حالاً."]]>
+</dialogText>
+              </bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="5105" type="act" animType="animsync" endType="Continue">
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step01" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="0" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="500" x="left" margin="10" fontSize="18" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[بناءً على  ما قراءته للتو، ما الذي ستفعله بشكل مختلف؟ حدد كل من ينطبق ثم انقر فوق "التحقق من الإجابة".]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="cb" width="480" height="36" x="left" y="0" xPad='8' yPad='16' fontColor='dkgrey' fontSize='16' fontStyle='reg' fillColor='white' fillAlpha="1">
+                <item id='a' isanswer='false'>
+                  <![CDATA[قدِّم تحية أكثر تقديرًا واحترامًا]]>
+</item>
+                <item id='b' isanswer='true'>
+                  <![CDATA[اسأل عن اسم العميل]]>
+</item>
+                <item id='c' isanswer='true'>
+                  <![CDATA[اطلب الإذن بوضع العميل في الانتظار]]>
+</item>
+                <item id='c' isanswer='false'>
+                  <![CDATA[قم بنوجيه العميل إلى موقع الويب الخاص بالوكيل]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="180" height="34" fontSize="16" fontColor="black" fontStyle="bold">
+                  <![CDATA[تحديد الإجابة]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" x='0' y='120' width="680">
+                <item type="correct" afile="">
+                  <![CDATA[استمر إلى الخطوة 2.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[يجب أن يكون استشاري قطع الغيار قد سأل عن اسم العميل وإذنه لوضعه على الانتظار.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="5110" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step02a" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" />
+              <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration="2" ease="BackEaseOut" />
+              <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step02" />
+            </ui>
+            <ui uid="1" type="bodyImage" margin="10" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" order="5" time="1" width="160" height="200" x="right" y="bottom" margin="10" url="CustomerPhone2.jpg">
+                <![CDATA[Customer Phone]]>
+</bodyImage>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="500" x="left" y="40" margin="10" time="1" trans="slideUp" ease="QuintEaseOut">
+              <bodyBullet id="bb1" order="21" time="1" yPad="0">
+                <dialogLabel>
+                  <![CDATA[<b>استشاري قطع الغيار:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ "آسف على هذا. إلى أين وصلنا؟ آه نعم، كنت تسأل عن قطع غيار للفرامل الأمامية لسيارة جيب باتريوت وسألتك أنا لو كان لديك رقم تعريف السيارة."]]>
+</dialogText>
+              </bodyBullet>
+              <bodyBullet id="bb2" order="22" time="1">
+                <dialogLabel>
+                  <![CDATA[<b>العميل:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ "نعم لدي، إنه 1J8FT28088D679188."]]>
+</dialogText>
+              </bodyBullet>
+              <bodyBullet id="bb3" order="24" time="1">
+                <dialogLabel>
+                  <![CDATA[<b>استشاري قطع الغيار:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ "شكرًا لك. أرى أن السيارة باتريوت طراز عام 2008. هل تعلم المسافة التي قطعتها السيارة؟"]]>
+</dialogText>
+              </bodyBullet>
+              <bodyBullet id="bb4" order="26" time="1">
+                <dialogLabel>
+                  <![CDATA[<b>العميل:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ "حوالي 68.000 كيلومتر."]]>
+</dialogText>
+              </bodyBullet>
+              <bodyBullet id="bb7" order="28" time="1">
+                <dialogLabel>
+                  <![CDATA[<b>استشاري قطع الغيار:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ "حسنًا، شكرًا لك. للأسف لن يغطي ضمانك هذه القطعة. هل تعلم بالضبط ما تحتاج إليه؟"]]>
+</dialogText>
+              </bodyBullet>
+              <bodyBullet id="bb8" order="30" time="1">
+                <dialogLabel>
+                  <![CDATA[<b>العميل:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ "احتاج إلى مساكات على كلا الجانبين وبطانات. هل هي لديكم؟"]]>
+</dialogText>
+              </bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="5115" type="act" animType="animsync" endType="Continue">
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step02" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+            <ui uid="1" type="act" atype="mc" width="700" height="450" x="left" y="40" margin="10" order="10" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="460" x="left" margin="10" fontSize="18" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[ما الذي كان يجب أن يفعله استشاري قطع الغيار بشكل مختلف؟ اختر أفضل إجابة وانقر فوق التحقق من الإجابة.]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="480" x="left" y="0" height="36" xPad='8' yPad='16' fontColor='dkgrey' fontSize='16' fontStyle='reg' fillColor='white' fillAlpha="1">
+                <item id='a' isanswer='false'>
+                  <![CDATA[طلب رقم تعريف المركبة]]>
+</item>
+                <item id='b' isanswer='false'>
+                  <![CDATA[توفير أسعار قطع الغيار]]>
+</item>
+                <item id='c' isanswer='true'>
+                  <![CDATA[طرح أسئلة مفتوحة للحصول على المزيد من المعلومات]]>
+</item>
+                <item id='c' isanswer='false'>
+                  <![CDATA[الطلب من العميل الحضور إلى الوكالة للبحث عن قطع غيار الفرامل]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[تحديد الإجابة]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" x='0' y='120' width="680">
+                <item type="correct" afile="">
+                  <![CDATA[استمر إلى الخطوة 3.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[طلب استشاري قطع الغيار رقم تعريف المركبة، ولكن كان يجب عليه أن يسأل المزيد من الأسئلة لاكتشاف ما إذا كان العميل يطلب القطع الصحيحة - ولتحديد فرص البيع الإضافية، مثل الجلب التي تسد خرطوم الفرامل مع المساكات.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="5120" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step03a" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+              <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration=".5" ease="BackEaseOut" />
+              <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step03" />
+            </ui>
+            <ui uid="1" type="bodyImage" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i2" width="160" height="200" x="right" y="bottom" margin="10" url="CustomerPhone2.jpg" order="5" time="1">
+                <![CDATA[Customer Phone]]>
+</bodyImage>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="500" x="left" y="40" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="20" yPad="0">
+                <dialogLabel>
+                  <![CDATA[<b>استشاري قطع الغيار:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ إذن، أنت تنوي القيام ببعض الأعمال على الفرامل الأمامية للسيارة باتريوت التي تملكها. لقد وجدنا على بطانات الفرامل التي تحتاج إليها في كتالوج قطع الغيار لدينا. هل كنت تعرف أنك سوف تحتاج أيضًا إلى ورَد غلق خرطوم الفرامل مع المساكات؟ هذه معدات قطع غيار Mopar الأصلية، لذلك فهي مصممة خصيصًا من أجل مركبتك.]]>
+</dialogText>
+              </bodyBullet>
+              <bodyBullet id="bb2" order="21">
+                <dialogLabel>
+                  <![CDATA[<b>العميل:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ حسنًا، شكرًا لك. هل لديكم هذه القطع في المخازن؟]]>
+</dialogText>
+              </bodyBullet>
+              <bodyBullet id="bb3" order="21">
+                <dialogLabel>
+                  <![CDATA[<b>استشاري قطع الغيار:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ كلا، ليست لدينا حاليًُا.]]>
+</dialogText>
+              </bodyBullet>
+              <bodyBullet id="bb4" order="26">
+                <dialogLabel>
+                  <![CDATA[<b>العميل:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ حسنًا، إذا لم تكن هذه القطع لديكم، ساضطر إلى الذهاب لمكان آخر]]>
+</dialogText>
+              </bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="5125" type="act" animType="animsync" endType="Continue">
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step03" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+            <ui uid="1" type="act" atype="mc" x="left" y="40" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" order="10" yPad="10">
+              <actui type="ScreenText" width="510" x="left" margin="10" fontSize="18" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[يبدو أن استشاري قطع الغيار أوشك على فقدان عملية البيع - ما الذي يمكن أن تفعله عند تقديم حل لإنقاذ عملية البيع؟ اختر أفضل إجابة وانقر فوق التحقق من الإجابة.]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="480" height="36" x="left" y="0" xPad='8' yPad='16' fontColor='dkgrey' fontSize='16' fontStyle='reg' fillColor='white' fillAlpha="1">
+                <item id='a' isanswer='true'>
+                  <![CDATA[كن إيجابيًا. تقديم حل يوفر للعميل ما يحتاج إليه]]>
+</item>
+                <item id='b' isanswer='false'>
+                  <![CDATA[إخبار العميل عن المكان الذي يمكن الذهاب إليه للحصول على قطع الغيار التي يحتاجها]]>
+</item>
+                <item id='c' isanswer='false'>
+                  <![CDATA[اقتراح عملية إصلاح بديلة تتطلب قطع الغيار الموجودة بالمخازن]]>
+</item>
+                <item id='c' isanswer='false'>
+                  <![CDATA[قدِّم تقدير لتكلفة قطع الغيار]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[تحديد الإجابة]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" x='0' y='120' width="680">
+                <item type="correct" afile="">
+                  <![CDATA[استمر إلى الخطوة 4.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[تذكر أنك ترغب دائمًا في أن تكون إيجابيًا وتقدم حل يلبي احتياجات العميل.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="5130" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step04a" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+              <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration=".5" ease="BackEaseOut" />
+              <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step04" />
+            </ui>
+            <ui uid="1" type="bodyImage" margin="10" trans="slideLeft" ease="BackEaseOut" time="1">
+              <bodyImage id="i2" width="160" height="200" x="right" y="bottom" margin="10" url="CustomerPhone2.jpg" order="5" time="1">
+                <![CDATA[Customer Phone]]>
+</bodyImage>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="500" x="left" y="40" margin="10" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="6">
+              <bodyBullet id="bb1" order="20" time="1" yPad="0">
+                <dialogLabel>
+                  <![CDATA[<b>استشاري قطع الغيار:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ "مرحباً، أنا بيت من قسم قطع الغيار بشركة هوم تاون كرايسلر دودج جيب رام أعاود الاتصال بك. لقد عثرت على قطع الغيار التي تحتاج إليها لإصلاح فرامل سيارتك. يمكنني أن أوفرها لك الساعة 4.00 عصر اليوم. هل تود أن تأتي لتأخذه حينئذ؟"]]>
+</dialogText>
+              </bodyBullet>
+              <bodyBullet id="bb2" order="21">
+                <dialogLabel>
+                  <![CDATA[<b>العميل:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ "لا أعرف. لست متأكدًا وأقارن بين المزية وما سأحصل عليه من المتجر في آخر الشارع. "إنها نفس قطع الغيار."]]>
+</dialogText>
+              </bodyBullet>
+              <bodyBullet id="bb3" order="21">
+                <dialogLabel>
+                  <![CDATA[<b>استشاري قطع الغيار:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ "إذن، أنا أسمع أنك لست متأكدًا من حصولك على قيمة جيدة مقابل أموالك هل هذا صحيح؟"]]>
+</dialogText>
+              </bodyBullet>
+              <bodyBullet id="bb4" order="26">
+                <dialogLabel>
+                  <![CDATA[<b>العميل:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ "أعتقد هذا."]]>
+</dialogText>
+              </bodyBullet>
+              <bodyBullet id="bb5" order="28">
+                <dialogLabel>
+                  <![CDATA[<b>استشاري قطع الغيار:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ "دعني أشرح لك القيمة التي تحصل عليها عند استخدام قطع غيار Mopar الأصلية. كما ذكرت، إنها مصممة خصيصًا من أجل السيارة باتريوت لديك. أما قطع الغيار غير الأصلية في متاجر الشارع مصممة للتركيب في عدة سيارات، لذلك فهي لا ترتقي إلى مستوى قطع الغيار لدينا ولا قوة تحملها... هل يمكن أن أدون هذه الأسعار لك؟"]]>
+</dialogText>
+              </bodyBullet>
+              <bodyBullet id="bb6" order="30">
+                <dialogLabel>
+                  <![CDATA[<b>العميل:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ "لقد أقنعتني. إليك رقم بطاقة الائتمان خاصتي."]]>
+</dialogText>
+              </bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="5135" type="act" animType="animsync" endType="Continue">
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step04" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+            <ui uid="1" type="act" atype="mc" x="left" y="40" margin="10" trans="slideUp" ease="QuintEaseOut" order="10" time="1" yPad="10">
+              <actui type="ScreenText" width="460" x="left" margin="10" fontSize="18" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[أي من الإجراءات التالية اتخذها استشاري قطع الغيار؟ حدد كل ما ينطبق ثم انقر فوق "التحقق من الإجابة".]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="cb" width="480" height="36" x="left" y="0" xPad='8' yPad='16' fontColor='dkgrey' fontSize='16' fontStyle='reg' fillColor='white' fillAlpha="1">
+                <item id='a' isanswer='true'>
+                  <![CDATA[مطلوب للبيع من خلال افتراض موافقة العميل على الشراء]]>
+</item>
+                <item id='b' isanswer='true'>
+                  <![CDATA[بناء الثقة من خلال توضيح القيمة]]>
+</item>
+                <item id='c' isanswer='true'>
+                  <![CDATA[التغلب على اعتراض العميل]]>
+</item>
+                <item id='c' isanswer='true'>
+                  <![CDATA[الأسئلة المطروحة للتأكد من الفهم]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[تحديد الإجابة]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" x='0' y='120' width="680">
+                <item type="correct" afile="">
+                  <![CDATA[جميع الإجابات صحيحة]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[استشاري قطع الغيار فعل كل شيء بشكل جيد هنا ونفذ عملية البيع.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="5200" sNumber="5200" sType="gps" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" width="600" height="50" x="left" y="0" margin="10" trans="on" ease="none">
+            <header id="h1" order="0" time="0" x="0" y="0">
+              <![CDATA[مقابلة العميل شخصيًا ]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="5201" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step01a" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+              <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration=".5" ease="BackEaseOut" />
+              <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step01" />
+            </ui>
+            <ui uid="1" type="bodyImage" margin="10" trans="slideLeft" ease="BackEaseOut" time="1">
+              <bodyImage id="i2" order="5" time="1" width="160" height="200" x="right" y="bottom" margin="10" url="CustomerInPerson2.jpg">
+                <![CDATA[CustomerInPerson1]]>
+</bodyImage>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="500" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut">
+              <bodyBullet id="bb1" order="20" yPad="0">
+                <![CDATA[اقرأ السيناريو التالي لصفقة بين استشاري قطع الغيار وعميل شخصي.]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22" trans="slideUp" ease="QuintEaseOut">
+                <dialogLabel>
+                  <![CDATA[<b>استشاري قطع الغيار:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ "شكرًا لك على الانتظار يا سيدتي. اسمي بيت. كيف يمكنني مساعدتك؟"]]>
+</dialogText>
+              </bodyBullet>
+              <bodyBullet id="bb3" order="24" trans="slideUp" ease="QuintEaseOut">
+                <dialogLabel>
+                  <![CDATA[<b>العميل:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ "أحتاج إلى حلقة تثبيت مقطورة لسيارتي طراز رام 1500"]]>
+</dialogText>
+              </bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="5205" type="act" animType="animsync" endType="Continue">
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step01" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="460" x="left" margin="10" fontSize="18" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[اختر أفضل إجابة ثم انقر فوق التحقق من الإجابة.]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="480" height="36" x="left" y="0" xPad='8' yPad='16' fontColor='dkgrey' fontSize='16' fontStyle='reg' fillColor='white' fillAlpha="1">
+                <item id='a' isanswer='true'>
+                  <![CDATA[الاتصال البصري وإعطاء العميل اهتمامي الكامل]]>
+</item>
+                <item id='b' isanswer='false'>
+                  <![CDATA[تحديد فرص البيع الإضافية]]>
+</item>
+                <item id='c' isanswer='false'>
+                  <![CDATA[أخذ العميل مباشرة إلى دليل قطع غيار StarParts المصور]]>
+</item>
+                <item id='c' isanswer='false'>
+                  <![CDATA[تقديم تقدير لتكلفة قطعة الغيار]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[تحديد الإجابة]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" x='0' y='120' width="680">
+                <item type="correct" afile="">
+                  <![CDATA[صحيح: استمر إلى الخطوة 2.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[إنك بدأت العلاقة للتو. في تحفيز العلاقة. لا تتعجل تواصل بالعينين وامنح العميل كامل انتباهك.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="5210" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step02a" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+              <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration=".5" ease="BackEaseOut" />
+              <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step02" />
+            </ui>
+            <ui uid="3" type="bodyBullet" width="500" x="left" y="40" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="21" yPad="0">
+                <dialogLabel>
+                  <![CDATA[<b>استشاري قطع الغيار:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ "بالتأكيد. يمكنني البحث عن معدة جر للطراز 1500، ولكن لمعرفة ما تحتاجينه بالضبط، أريد سنة طراز شاحنتك."]]>
+</dialogText>
+              </bodyBullet>
+              <bodyBullet id="bb2" order="26">
+                <dialogLabel>
+                  <![CDATA[<b>العميل:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ "إنها 2010 SLT. لقد اشتريت للتو مقطورة معسكرات سوف أجرها في العطلات الأسبوعية هذا الصيف."]]>
+</dialogText>
+              </bodyBullet>
+              <bodyBullet id="bb3" order="27">
+                <dialogLabel>
+                  <![CDATA[<b>استشاري قطع الغيار:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ "هذا رائع!"]]>
+</dialogText>
+              </bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="5215" type="act" animType="animsync" endType="Continue">
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step02" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="500" x="left" margin="10" fontSize="18" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[ما الذي يجب أن تقوم به بعد ذلك؟ اختر أفضل إجابة وانقر فوق التحقق من الإجابة.]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="450" height="36" x="left" y="0" xPad='20' yPad='16' fontColor='dkgrey' fontSize='16' fontStyle='reg' fillColor='white' fillAlpha="1">
+                <item id='a' isanswer='false'>
+                  <![CDATA[البحث عن لحلقات تثبيت مقطورات للشاحنة]]>
+</item>
+                <item id='b' isanswer='false'>
+                  <![CDATA[اقتراح قطع غيار إضافية مطلوبة لحلقة التثبيت]]>
+</item>
+                <item id='c' isanswer='true'>
+                  <![CDATA[مواصلة طرح الاسئلة للتمكن من تحديد قطعة الغيار المناسبة]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[تحديد الإجابة]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" x='0' y='120' width="680">
+                <item type="correct" afile="">
+                  <![CDATA[استمر إلى الخطوة 3.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[أنت لست مستعد للبحث عن حلقات التثبيت أو اقتراح قطع غيار إضافية. و تحتاج إلى المزيد من المعلومات عن وزن المقطورة والمواصفات الأخرى لتتمكن من ترشيح حلقة تثبيت المقطورة المناسبة.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="5220" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step03a" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+              <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration=".5" ease="BackEaseOut" />
+              <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step03" />
+            </ui>
+            <ui uid="3" type="bodyBullet" width="500" x="left" y="40" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="22" yPad="0">
+                <dialogLabel>
+                  <![CDATA[<b>استشاري قطع الغيار:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ يمكنك أن ترى هنا في دليل قطع غيار StarParts المصور ما سوف تحتاج إليه لجر مقطورة المعسكرات خاصتك بالشاحنة 2010 رام. إن شاحنتك موصلة بأسلاك بالفعل، لذلك مع وجود مقطورة المعسكرات 1600كيلومتر، سوف تحتاج إلى مستقبل حلقة التثبيت وكرة حلقة التثبيت ومهياء تركيب الكرة هذا. هل لديك أية أسئلة؟"]]>
+</dialogText>
+              </bodyBullet>
+              <bodyBullet id="bb2" order="24">
+                <dialogLabel>
+                  <![CDATA[<b>العميل:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ "لا أعتقد هذا."]]>
+</dialogText>
+              </bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="5225" type="act" animType="animsync" endType="Continue">
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step03" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="500" x="left" margin="10" fontSize="18" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[ما الذي يجب أن تقوم به بعد ذلك؟ اختر أفضل إجابة وانقر فوق التحقق من الإجابة.]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="480" height="36" x="left" y="0" xPad='8' yPad='16' fontColor='dkgrey' fontSize='16' fontStyle='reg' fillColor='white' fillAlpha="1">
+                <item id='a' isanswer='false'>
+                  <![CDATA[طلب البيع]]>
+</item>
+                <item id='b' isanswer='true'>
+                  <![CDATA[تحديد فرص البيع الإضافية]]>
+</item>
+                <item id='c' isanswer='false'>
+                  <![CDATA[طرح أسئلة إضافية للتأكد من الفهم]]>
+</item>
+                <item id='d' isanswer='false'>
+                  <![CDATA[توفير تقديرات للتكلفة والوقت]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[تحديد الإجابة]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" x='0' y='120' width="680">
+                <item type="correct" afile="">
+                  <![CDATA[استمر إلى الخطوة 4.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[قد يحتاج هذا العميل أيضًا وحدة تحكم في فرامل المقطورة المتكاملة في شاحنة رام وقابس لمستقبل حلقة التثبيت. تذكر أن تبحث عن هذه الفرص الإضافية البيع.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="5230" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step04a" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+              <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration=".5" ease="BackEaseOut" />
+              <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step04" />
+            </ui>
+            <ui uid="3" type="bodyBullet" width="500" x="left" y="40" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="22" yPad="0">
+                <dialogLabel>
+                  <![CDATA[<b>استشاري قطع الغيار:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ "هذه هي كل قطع الغيار التي ستحتاجها لتوصيلها بسيارة كامر الجديدة التي تملكها. وقد عرضت عليك كيفية قيامي بتحديدها للتأكد من أنك حصلت متطلبات المركبة والجر. وتم اجتازت قطع الغيار هذه اختبار الحمل المكثف من كرايسلر لقدرة التحمل والقوة. متى تود أن يتم تركيب حلقة التثبيت؟"]]>
+</dialogText>
+              </bodyBullet>
+              <bodyBullet id="bb2" order="24">
+                <dialogLabel>
+                  <![CDATA[<b>العميل:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ "حسنًا، أعرف أنني أخذت الكثير من وقتك، لكني لم أتوقع أن يكلفني هذا كثيرًا."]]>
+</dialogText>
+              </bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="5235" type="act" animType="animsync" endType="Continue">
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step04" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="420" x="left" margin="10" fontSize="18" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[كيف ستتغلب على هذا الاعتراض؟ اختر أفضل إجابة وانقر فوق التحقق من الإجابة.]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="480" height="36" x="left" y="0" xPad='8' yPad='16' fontColor='dkgrey' fontSize='16' fontStyle='reg' fillColor='white' fillAlpha="1">
+                <item id='a' isanswer='true'>
+                  <![CDATA[تعزيز السعر التنافسي والقيمة]]>
+</item>
+                <item id='b' isanswer='false'>
+                  <![CDATA[امنح العميل خسم]]>
+</item>
+                <item id='c' isanswer='false'>
+                  <![CDATA[واصل طلب البيع]]>
+</item>
+                <item id='d' isanswer='false'>
+                  <![CDATA[قلل عدد قطع الغيار بالطلب]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[تحديد الإجابة]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" x='0' y='120' width="680">
+                <item type="correct" afile="">
+                  <![CDATA[لقد تغلبت على الاعتراض وأنت الآن في طريقك لإتمام عملية البيع.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[من خلال إعادة التأكيد على أن العميل يحصل على قطع غيار بأعلى جودة وبسعر تنافسي، بذلك تبني الثقة والمصداقية، وسوف يقوم العميل بالشراء.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="5300" sNumber="5300" sType="gps" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" width="600" height="50" x="left" y="0" margin="10" trans="on" ease="none">
+            <header id="h1" order="0" time="0" x="0" y="0">
+              <![CDATA[العميل الداخلي ]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="5301" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step01a" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+              <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration=".5" ease="BackEaseOut" />
+              <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step01" />
+            </ui>
+            <ui uid="1" type="bodyImage" margin="10" order="1" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyImage id="i2" width="160" height="200" x="right" y="bottom" margin="10" trans="slideLeft" ease="QuintEaseOut" url="CustomerInternal2.jpg" order="5">
+                <![CDATA[CustomerInternal]]>
+</bodyImage>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="500" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="20" yPad="0">
+                <![CDATA[اقرأ السيناريو التالي بين استشاري قطع الغيار وعميل داخلي. استعد للإجابة عن كيفية اتباع عملية بيع قطع الغيار المدفوعة طبقًا لرغبة العميل لإتمام عملية البيع.]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="21" trans="slideUp" ease="QuintEaseOut">
+                <dialogLabel>
+                  <![CDATA[<b>استشاري المبيعات:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ "أهلا بيت، أنا أعمل مع عميل يريد فرش لأرضية سيارة جراند فوياجر جديدة. ما هو سعرها؟"]]>
+</dialogText>
+              </bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="5305" type="act" animType="animsync" endType="Continue">
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step01" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="460" x="left" margin="10" fontSize="18" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[تعامل مع العميل الداخلي كما تتعامل مع العميل الخارجي. ما الذي يجب عليك فعله من أجل "بدء العلاقة"؟ اختر أفضل إجابة وانقر فوق التحقق من الإجابة.]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="480" height="36" x="left" y="0" xPad='8' yPad='16' fontColor='dkgrey' fontSize='16' fontStyle='reg' fillColor='white' fillAlpha="1">
+                <item id='a' isanswer='false'>
+                  <![CDATA[طلب رقم تعريف المركبة الخاص بالمركبة]]>
+</item>
+                <item id='b' isanswer='false'>
+                  <![CDATA[ابحث عن فرش الأرضية في دليل قطع غيار StarParts المصور]]>
+</item>
+                <item id='c' isanswer='false'>
+                  <![CDATA[قم بإعطاء نشرة إكسسوارات لاستشاري المبيعات ليأخذها إلى العميل]]>
+</item>
+                <item id='d' isanswer='true'>
+                  <![CDATA[إعطاء انتباهي الكامل لاستشاري المبيعات]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[تحديد الإجابة]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" x='0' y='120' width="680">
+                <item type="correct" afile="">
+                  <![CDATA[استمر إلى الخطوة 2.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[رغم أنك قد بنيت العلاقة بالفعل مع استشاري المبيعات، فإنه لا يزال يستحق انتباهك الكامل وأنت تستعد لاستكشاف المزيد من المعلومات.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="5310" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step02a" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+              <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration=".5" ease="BackEaseOut" />
+              <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step02" />
+            </ui>
+            <ui uid="3" type="bodyBullet" width="500" x="left" y="40" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="22" yPad="0">
+                <dialogLabel>
+                  <![CDATA[<b>استشاري قطع الغيار:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ "ليس بهذه السرعة، تيد. احتاج بعض المعلومات أولاً."]]>
+</dialogText>
+              </bodyBullet>
+              <bodyBullet id="bb2" order="24" time="1" trans="slideUp" ease="QuintEaseOut">
+                <dialogLabel>
+                  <![CDATA[<b>استشاري المبيعات:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ "ما الذي تحتاج إلى معرفته؟ كنت أعتقد أن فرش الأرضية هي ممسحات الأرضية."]]>
+</dialogText>
+              </bodyBullet>
+              <bodyBullet id="bb3" order="28" time="1" trans="slideUp" ease="QuintEaseOut">
+                <dialogLabel>
+                  <![CDATA[<b>استشاري قطع الغيار:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ "حسنًا، إليك هذه الخيارات. يجب أن تسأل عميلك بعض الأسئلة."]]>
+</dialogText>
+              </bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="5315" type="act" animType="animsync" endType="Continue">
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step02" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="460" x="left" margin="10" fontSize="18" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[كيف يجب عليك المتابعة؟ اختر أفضل إجابة وانقر فوق التحقق من الإجابة.]]>
+</item>
+              </actui>
+ <actui type="cboxes" itemType="rb" width="510" height="36" x="left" y="0" xPad='8' yPad='16' fontColor='dkgrey' fontSize='16' fontStyle='reg' fillColor='white' fillAlpha="1">
+                <item id='a' isanswer='false'>
+                  <![CDATA[قم بإعطاء نشرة إكسسوارات لاستشاري المبيعات ليأخذها إلى عميله]]>
+</item>
+                <item id='b' isanswer='false'>
+                  <![CDATA[إخبار استشاري المبيعات أن يستخدم دليل قطع غيار StarParts المصور لمعرفة ما يريده العميل ويعود]]>
+</item>
+                <item id='c' isanswer='true'>
+                  <![CDATA[اشرح لاستشاري المبيعات ماهية المعلومات المحددة التي تحتاجها لتزويد العميل بما يريده]]>
+</item>
+                <item id='d' isanswer='false'>
+                  <![CDATA[أخبر استشاري المبيعات أن لديك عميل آخر ينتظر، وأنك سوف تعود إليه لاحقًا]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" y="row" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[تحديد الإجابة]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" x="right" y="row" width="680">
+                <item type="correct" afile="">
+                  <![CDATA[استمر إلى الخطوة 3.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[إذا كان استشاري المبيعات يفضل التعامل مع عميله مباشرة، يجب عليك أن تخبره بالمعلومات التي تحتاج إليها للتوصية بفرش الأرضية الذي يلبي حاجة العميل.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="5320" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step03a" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+              <anim type="slideDown" tweenType="insert" tweenOrder="2" tweenTime="0" tweenDuration=".5" ease="BackEaseOut" />
+              <anim type="frameTween" tweenType="append" tweenOrder="3" tweenTime="1" tweenDuration="1" ease="QuintEaseOut" frameEnd="step03" />
+            </ui>
+            <ui uid="3" type="bodyBullet" width="500" x="left" y="40" margin="10" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="22" yPad="0">
+                <dialogLabel>
+                  <![CDATA[<b>استشاري المبيعات:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ "إليك المعلومات التي أردتها. لم تكن العميلة متأكدة من فرش الأرضية الأصلي أو غير الأصلي. تريد فقط ما يعطي الشكل الداخلي لمسة فخمة."]]>
+</dialogText>
+              </bodyBullet>
+              <bodyBullet id="bb2" order="24">
+                <dialogLabel>
+                  <![CDATA[<b>استشاري قطع الغيار:</b>]]>
+</dialogLabel>
+                <dialogText>
+                  <![CDATA[ "أشكرك يا تيد. سوف أوصى بشراء فرش الأرضية الأصلي إذن. ومع وجود شعار كرايسلر عليها، سوف تبدو راقية للغاية. وسوف يرغب العميل في التوفيق بينها وبين الشكل الداخلي أيضًا. ويمكن تركيب هذا الفرش عند إعداد المركبة للتسليم."]]>
+</dialogText>
+              </bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="5325" type="act" animType="animsync" endType="Continue">
+            <ui uid="animMC1" type="bodyAnim" width="160" height="160" x="right" y="top" margin="10" url="MCprocessAnim.swf" frameStart="step03" syncType="append" trans="animbuild" order="1">
+              <anim type="fadeOn" tweenType="append" tweenOrder="1" tweenTime="1" tweenDuration=".5" ease="QuintEaseOut" />
+            </ui>
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="460" x="left" margin="10" fontSize="18" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[سوف يقوم استشاري المبيعات بإتمام عملية بيع فرش الأرضية مع عملية بيع المركبة، لذلك لن تقوم بالخطوة 4. لكن هناك شيء آخر يجب أن تفعله. اختر أفضل إجابة وانقر فوق للتحقق من الإجابة.]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="480" height="36" x="left" y="0" xPad='8' yPad='16' fontColor='dkgrey' fontSize='16' fontStyle='reg' fillColor='white' fillAlpha="1">
+                <item id='a' isanswer='false'>
+                  <![CDATA[التغلب على اعتراض العميل]]>
+</item>
+                <item id='b' isanswer='true'>
+                  <![CDATA[تقديم تقدير للتكلفة]]>
+</item>
+                <item id='c' isanswer='false'>
+                  <![CDATA[التأكد من حصولك على عمولة البيع]]>
+</item>
+                <item id='d' isanswer='false'>
+                  <![CDATA[اسأل عن فرص بيع إضافية]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[تحديد الإجابة]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" x='0' y='120' width="680">
+                <item type="correct" afile="">
+                  <![CDATA[صحيح! لقد قمت بتسليح استشاري المبيعات بنقاط بيع جيدة وسعر تنافسي. ]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[غير صحيح. يعرف استشاري المبيعات كيفية عرض فوائد وقيمة فرش الأرضية. لكنه بحاجة إلى السعر لإتمام الصفقة.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

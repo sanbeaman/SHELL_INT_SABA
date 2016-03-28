@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="PAPSESWB" template="PAPS" localeID="es" debug="false">
+    <title>
+      <![CDATA[Habilidades Para La Venta Minorista De Partes]]>
+</title>
+  </course>
+  <section id="0" snumber="99000">
+    <header>
+      <![CDATA[COMPLETAR Y SALIR]]>
+</header>
+    <scenes>
+      <scene id="99100" sNumber="99000" sType="completeexit" continueBtnType="exit">
+        <sceneitems>
+            <ui uid="1" type="bodyIcon"  width="600" height="125" x="center" y="top" margin="20" trans="slideup" ease="BackEaseOut">
+            <bodyImage id="i1" order="0" time="1" scaleMode="none" url="logo_course.png">
+              <![CDATA[Course Logo]]>
+</bodyImage>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="99110" type="CourseNotComplete" endType="stop">
+          <ui uid="0" type="sectionHeader">
+          <![CDATA[Curso no completado (en este intento)]]>
+          </ui>
+             <ui uid="2" type="BodyText" width="660" height="230" x="center" y="150"  margin="0" trans="slideup" ease="QuintEaseOut">
+              <bodyBullet id="bb1" order="2" time="1"><![CDATA[Usted <b>NO HA</b> completado (en este intento) todos los artículos del menú requeridos para este curso.  Seleccione todos los artículos requeridos del menú que no hayan sido completados.  <b>Después de ello, usted debe regresar a esta pantalla para seleccionar el botón COMPLETAR Y SALIR que se encuentra abajo.</b> ]]>
+</bodyBullet>
+            </ui>
+                <ui uid="3" type="BodyButton" trans="slideup" ease="QuintEaseOut" order="50" time="1">
+               <item id="trigger" type="completeAndExit" x="center" y="bottom" width="200" height="36" fontSize="16" fontColor="black" fontStyle="reg" pulseColor="orange" xPad="10" yPad="10" isActive="no" >
+              <![CDATA[COMPLETAR Y SALIR]]>
+</item>
+          </ui>
+          </slide>
+          <slide sNumber="99120" type="CourseComplete" endType="exit">
+            <ui uid="0" type="sectionHeader">
+          <![CDATA[Curso completado (en este intento)]]>
+          </ui>
+             <ui uid="2" type="BodyText" width="680"  x="center" y="200" margin="10" trans="slideup" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="2" yPad="0">
+                <![CDATA[Usted <b>HA</b> completado todos los artículos del menú para este curso (en este intento).  El encabezamiento de las lecciones no muestra marcas de verificación.  Nota:  La primera vez que reinicie el curso después de un intento completado, sus favoritos se reconfigurarán y no estarán inicialmente llenos ni seleccionados.]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="3" >
+                <![CDATA[<b>SALGA CORRECTAMENTE: Debe seleccionar el botón COMPLETAR Y SALIR para enviar un registro de progresos completados al Centro de Aprendizaje.</b>  Después de ello, asegúrese de iniciar la Prueba y cualquier artículo requerido de la página de Tareas del Centro de Aprendizaje de este curso.]]>
+</bodyBullet>
+            </ui>
+               <ui uid="3" type="BodyButton" trans="slideup" ease="QuintEaseOut" order="50" time="1">
+               <item id="trigger" type="completeAndExit" x="center" y="bottom" width="200" height="36" fontSize="16" fontColor="black" fontStyle="reg" pulseColor="orange" xPad="10" yPad="10" isActive="yes" >
+              <![CDATA[COMPLETAR Y SALIR ]]>
+</item>
+          </ui>
+          </slide>
+        
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

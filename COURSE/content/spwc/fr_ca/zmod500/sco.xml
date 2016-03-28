@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="SPWCGWB" template="SPWC" localeID="fr_CA" debug="false">
+            <title><![CDATA[BIENVENUE APRÈS-VENTE DE CHRYSLER]]>
+</title>
+  </course>
+  <section id="0" snumber="500">
+    <header id="sech1">
+      <![CDATA[Bienvenue]]>
+</header>
+    <scenes>
+      <scene id="500" sNumber="500" sType="splash" continueBtnType="start">
+        <sceneitems>
+          <ui uid="1" type="bodyIcon" width="600" height="125" x="center" y="top" margin="0" trans="slideup" ease="BackEaseOut">
+            <bodyImage id="i1" order="0" time="1" scaleMode="none" url="logo_course.png">
+              <![CDATA[Course Logo]]>
+</bodyImage>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="500" type="splash" animType="animsync" endType="trigger">
+           <ui uid="2" type="bodyBullet" width="600" x="center" y="150" fontColor="0x000000" fontSize="12" trans="slideup" ease="QuintEaseOut" syncType="buildy" yPad="5">
+         <bodyBullet id="bb0" order="4" yPad="0">
+                <![CDATA[<b>Chaque fois que vous utilisez un autre ordinateur pour ouvrir ce cours, sélectionnez l'élément de menu Vérificateur du système pour contrôler votre système de nouveau.</b>]]>
+</bodyBullet>
+<bodyBullet id="bb2" order="4">
+                <![CDATA[<b>Obtenir les crédits</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="6">
+                <![CDATA[Pour recevoir les crédits pour ce cours, vous devez :]]>
+</bodyBullet>
+<bodyBullet id="bb6" order="8" yPad="0">
+                <![CDATA[<li>Recevoir une coche jaune pour chacun des sujets (les en-têtes des leçons ne sont pas cochés)  </li>]]>
+</bodyBullet>
+              <bodyBullet id="bb8" order="10" yPad="0">
+                <![CDATA[<li>Quitter correctement en sélectionnant l'élément de menu et le bouton Terminer et quitter</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb10" order="12" yPad="0">
+                <![CDATA[<li>Ouvrir le test et les autres éléments requis se trouvant sur la page Travaux d'apprentissage du Centre d'apprentissage pour ce cours
+</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb12" order="14">
+                <![CDATA[<b>Quitter le cours</b>]]>
+</bodyBullet>
+<bodyBullet id="bb14" order="16">
+                <![CDATA[<li><b>Quitter rapidement :</b>  Si vous fermez la fenêtre de votre navigateur avant d'avoir complété le cours, votre progrès pour tous les sujets complétés au cours de cette session sera sauvegardé</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb16" order="18" yPad="0">
+                <![CDATA[<li><b>Terminer et quitter :</b>  Après avoir complété tous les éléments de menu requis, sélectionnez l'élément de menu Terminer et quitter puis cliquez sur le bouton Terminer et quitter. <b>(Cela est requis pour transférer le progrès final et accorder le crédit pour ce cours.)</b></li>]]>
+</bodyBullet>
+<bodyBullet id="bb18" order="20" yPad="0">
+                <![CDATA[<li><b>Nota :</b> La première fois que vous relancez le cours après avoir essayé de le compléter, vos signets seront remis à zéro et ne seront pas initialement remplis ou cochés</li>]]>
+</bodyBullet>
+            </ui>
+           <ui uid="3" type="BodyButton" trans="slideup" ease="QuintEaseOut" order="50" time="1">
+              <item id="trigger" type="startcourse" width="220" height="36" x="center" y="bottom" margin="6" fontSize="16" fontColor="0xffffff" fontStyle="reg" pulseColor="0xfe9003">
+                <![CDATA[LANCER LE COURS]]>
+</item>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

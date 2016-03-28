@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCERUWB" template="ASCE" localeID="ru" debug="false">
+    <title>
+      <![CDATA[Исключительный клиентский опыт]]>
+</title>
+  </course>
+  <section id="0" snumber="2000">
+    <header>
+      <![CDATA[ЗНАЧИМОСТЬ ЛОЯЛЬНОСТИ]]>
+</header>
+    <scenes>
+      <scene id="2100" sNumber="2100" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1" fontSize="18">
+              <![CDATA[Сравнение клиентов, удовлетворенных обслуживанием, и лояльных клиентов]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+
+          <slide sNumber="2105" type="BulletImageGlow0" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="680" x="left" y="top" margin="10" fontSize="20" fontColor="black" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <item id="bb1" order="1" time=".2" yPad="0">
+                <![CDATA[С какими компаниями вам больше всего нравится работать? Почему вы все время возвращаетесь к ним и пользуетесь их услугами?]]>
+</item>
+            </ui>
+           <ui uid="3" type="bodyBulletCol" width="160" x="left" y="260" margin="14" fontSize="12" fontColor="black" time="1" trans="slideUp" ease="QuintEaseOut" textStyle="none" syncType="buildx" xPad="18">
+              <item id="bbc1" order="50" target="i1" targetTrigger="imageglow" targetParams="4" xPad="0">
+                <![CDATA[Не важно, какие это компании: возможно, это магазин, в котором вы покупаете продукты …]]>
+</item>
+              <item id="bbc2" order="51" target="i2" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[Или банк, услугами которого вы пользуетесь …]]>
+</item>
+              <item id="bbc3" order="52" target="i3" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[Или кафе или ресторан, в котором вы обедаете или ужинаете…]]>
+</item>
+              <item id="bbc4" order="53" target="i4" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[Парикмахерская, в которой вы стрижетесь, или любая другая компания, предоставляющая вам услуги]]>
+</item>
+            </ui>
+              <ui uid="1" type="bodyImageGlow" width="154" height="160" x='left' y='80' margin="20" fillColor="black" fillAlpha="1" frameShape="roundRect" frameColor="black" frameSize="2" frameAlpha="1" pulseColor="0xfe9003" time="1" trans="slideLeft" ease="QuintEaseOut" syncType="buildx" xPad="24">
+              <item id="i1" order="2" url="2105_1.jpg" xPad="0">x</item>
+              <item id="i2" order="3" url="2105_2.jpg">x</item>
+              <item id="i3" order="4" url="2105_3.jpg">x</item>
+              <item id="i4" order="5" url="2105_4.jpg">x</item>
+            </ui>
+          </slide>
+          <slide sNumber="2110" type="TextImageReplace" animType="timesync" endType="continue">
+            <ui uid="2" type="BodyText" width="640" height="190" x="center" y="270" margin="0" fontSize="18" fontColor="black" fontAlign="center" effect="none" time="1" ease="QuintEaseOut" trans="slideLeft" syncType="replace">
+             <bodyText id="bt1" timeIn="0.5" timeOut="7">
+                <![CDATA[Возможно, вы вновь и вновь пользуетесь их услугами, потому что эти компании заслужили ваше лояльное отношение к ним благодаря отличному обслуживанию.]]>
+</bodyText>
+              <bodyText id="bt2" timeIn="7.5" timeOut="14">
+                <![CDATA[Они стремятся найти и предложить вам именно то решение, которое вам подходит, удовлетворяет ваши потребности и соответствует вашему бюджету. Они строят взаимоотношения, основанные на доверии.]]>
+</bodyText>
+              <bodyText id="bt3" timeIn="14.5" timeOut="999">
+                <![CDATA[И вы не только обращаетесь к ним за предоставлением услуг, вы, вероятно, рекомендуете эти компании своим друзьям, родным и коллегам.]]>
+</bodyText>
+            </ui>
+            <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" scaleMode="none" time="3" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="2110_1.jpg" time="1" timeIn=".2" timeOut="7">
+                <![CDATA[image1]]>
+</bodyImage>
+              <bodyImage id="i2" url="2110_2.jpg" timeIn="7.5" timeOut="14">
+                <![CDATA[Image2]]>
+</bodyImage>
+              <bodyImage id="i3" url="2110_3.jpg" timeIn="14.5" timeOut="999">
+                <![CDATA[image3]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="2115" type="TextImageReplace" animType="timesync" endType="continue">
+            <ui uid="2" type="BodyText" width="660" height="190" x="center" y="270" margin="0" fontSize="18" fontColor="black" fontAlign="center" effect="none" time="2" trans="slideLeft" ease="QuintEaseOut" syncType="replace">
+              <bodyBullet id="bb1" timeIn=".5" timeOut="999">
+                <![CDATA[Вы, как консультант участка обслуживания или запасных частей, возможно, более чем любой другой сотрудник дилерского центра, способны вызвать такого рода энтузиазм и обеспечить лояльность ваших клиентов.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" scaleMode="none" time="1" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="2115_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[image1]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="2120" type="Activity_DragRate" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="dragrate" x="0" y="10" margin="10"  order="1" time="1" trans="slideUp" ease="QuintEaseOut">
+              <screen id="1" x="0" y="0">
+                <actui uid="1" type="ScreenText" width="700" screen="1" syncType="buildy" yPad="5">
+                   <item type="screentext" fontSize="18">
+                <![CDATA[Предоставляете ли вы своим клиентам тот уровень обслуживания, которого ожидаете вы сами? Следующее упражнение поможет вам определить это.]]>
+</item>
+              <item type="directiontext" fontSize="12">
+                <![CDATA[Из списка ожиданий клиентов, приведенного слева, перетащите пять ожиданий, которым, по вашему мнению, вам важнее всего соответствовать на работе, в поля справа. Затем щелкните «Готово». Чтобы начать заново, нажмите «Сброс».]]>
+</item>
+                </actui>
+                <actui uid="20" type="SubHeader" order="5" fontColor="black" fontSize="16" screen="1">
+                  <item id="i1" type="dragHeader" x="0" y="0" width="300" height="40" fontAlign="center">
+                <![CDATA[Ожидания клиента]]>
+</item>
+                  <item id="i2" type="dropHeader" x="0" y="0" width="360" height="40" fontAlign="center">
+                <![CDATA[Для меня важнее всего соответствовать следующим ожиданиям]]>
+</item>
+                </actui>
+                <actui uid="24" type="ItemDragBox" width="320" height="42" x="0" y="0" layout="1col" columnPadding="20" rowPadding="4" fontSize="10" fontColor="black" fontStyle="reg" fontAlign="left" fontVertAlign="middle" frameSize="1" frameColor="white" fillType="gradient" fillColor="greycc" fillAlpha="1" fillColor2="greycc" xPad="20" yPad="10" order="30">
+                     <item id="i1" isanswer="drop00">
+                <![CDATA[Доброжелательно приветствовать клиентов по имени сразу же по их прибытии]]>
+</item>
+              <item id="i2" isanswer="drop00">
+                <![CDATA[Четко объяснять, какую работу будет необходимо проделать, какие услуги, запасные части потребуются и т.д.]]>
+</item>
+              <item id="i3" isanswer="drop00">
+                <![CDATA[Внимательно слушать клиента, задавать вопросы, чтобы убедиться, что вы все правильно поняли]]>
+</item>
+              <item id="i4" isanswer="drop00">
+                <![CDATA[Установить личный контакт с клиентом, узнав его получше, сделав так, чтобы клиент почувствовал себя особенным, и заслужив доверие клиента]]>
+</item>
+              <item id="i5" isanswer="drop00">
+                <![CDATA[Предоставлять клиенту текущую информацию о ходе выполнения работ по обслуживанию]]>
+</item>
+              <item id="i6" isanswer="drop00">
+                <![CDATA[Все делать правильно и как следует с первого раза]]>
+</item>
+                  <item id="i7" isanswer="drop00">
+                <![CDATA[Благодарить клиентов за сотрудничество]]>
+</item>
+                </actui>
+                <actui uid="28" type="ItemDropBox" height="42" x="340" y="0" layout="labelfirst" columnPadding="8" rowPadding="4" fontSize="16" fontColor="black" fontStyle="bold" fontAlign="center" frameSize="1" frameColor="white" frameAlpha="1" fillType="gradient" fillColor="orangegrad1" fillAlpha="1" fillColor2="orangegrad2" fillColorLabel="ltgrey" fillAlphaLabel="1" frameColorLabel="dkgrey" frameAlphaLabel="1" xPad="10" yPad="10">
+                  <item id="i1" isanswer="drop00">
+                    <![CDATA[1]]>
+</item>
+                  <item id="i2" isanswer="drop00">
+                    <![CDATA[2]]>
+</item>
+                  <item id="i3" isanswer="drop00">
+                    <![CDATA[3]]>
+</item>
+                  <item id="i4" isanswer="drop00">
+                    <![CDATA[4]]>
+</item>
+                  <item id="i5" isanswer="drop00">
+                    <![CDATA[5]]>
+</item>
+                </actui>
+                <actui uid="30" type="actbtns" order="50" width="160" height="34" x="right" y="bottom" margin="10" layout="abs" fontSize="16" fontColor="black" fontStyle="bold" pulseColor="orange" yPad="20" screen="1">
+                  <item id="chkbtn" type="reset" x="0" y="0" isActive="no">
+                    <![CDATA[СБРОС]]> 
+</item>
+                  <item id="chkbtn" type="submit" x="180" y="0" isActive="no">
+                    <![CDATA[ГОТОВО]]>
+</item>
+                </actui>
+              </screen>
+              <screen id="2" x="0" y="0">
+                <actui uid="1" type="ScreenText" width="710" x="0" y="0" synType="buildy" yPad="10">
+                   <item type="screentext" fontSize="20">
+                <![CDATA[Предоставляете ли вы своим клиентам тот уровень обслуживания, которого ожидаете вы сами?]]>
+</item>
+              <item type="directiontext" fontSize="14">
+                <![CDATA[Указания: с помощью бегунка, не кривя душой, оцените, насколько вы соответствуете каждому ожиданию (1 = плохо, 5 = отлично). По завершении оценки нажмите «Печать», чтобы использовать эту оценку как справочный материал в течение всего курса.]]>
+</item>
+                </actui>
+                <actui uid="10" type="newheader" order="10" fontColor="black" fontSize="18">
+                  <item id="i1" type="itemHeader" x="0" y="0" width="300" height="44" fontAlign="left" fontVertAlign="bottom" xPad="0">
+                    <![CDATA[Ожидания клиентов]]>
+</item>
+                </actui>
+                <actui uid="12" type="rateheader" order="10" fontColor="black" fontSize="18">
+                  <item id="i2" type="rateHeader" x="0" y="0" width="300" height="22" fontAlign="left" fontVertAlign="bottom" xPad="20">
+                    <![CDATA[Плохо]]>
+</item>
+                  <item id="i3" type="rateHeader" x="0" y="0" width="300" height="22" fontAlign="right" fontVertAlign="bottom">
+                    <![CDATA[Отлично]]>
+</item>
+                  <item id="i4" type="rateNumbers" x="0" y="22" width="325" height="22" fontAlign="left" fontVertAlign="bottom" fontSize="14" fontColor="black">
+                    <![CDATA[1|2|3|4|5]]>
+</item>
+                </actui>
+                <actui uid="15" type="ItemRateSlider" width="300" height="42" x="0" y="0" order="20" layout="rel" columnPadding="10" rowPadding="6" fontSize="16" fontColor="dkgrey" fontStyle="bold" fontAlign="center" fontVertAlign="middle" fillColor="ltgrey" frameSize="1" frameColor="dkgrey">
+                  <item id="r1">
+                    <![CDATA[1]]>
+</item>
+                  <item id="r2">
+                    <![CDATA[2]]>
+</item>
+                  <item id="r3">
+                    <![CDATA[3]]>
+</item>
+                  <item id="r4">
+                    <![CDATA[4]]>
+</item>
+                  <item id="r5">
+                    <![CDATA[5]]>
+</item>
+                </actui>
+                <actui uid="20" type="actbtns" order="50" width="160" height="34" fontSize="16" fontColor="black" fontStyle="bold" pulseColor="orange" layout="abs" x="right" y="bottom" margin="10" yPad="0">
+                  <item id="chkbtn" type="print" x="0" y="0" isActive="yes">
+                    <![CDATA[ПЕЧАТЬ]]>
+</item>
+                </actui>
+              </screen>
+            </ui>
+          </slide>
+            <slide sNumber="2130" type="BulletImageGlow2" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="700" x="top" y="left" margin="10" time="1" trans="slideRight" ease="QuintEaseOut">
+              <item id="bb1" order="1" yPad="0">
+                <![CDATA[Делать все для того, чтобы клиенты были просто удовлетворены обслуживанием, недостаточно, потому что такие клиенты не становятся автоматически лояльными клиентами. Подумайте о следующих отличиях.]]>
+</item>
+            </ui>
+            <ui uid="3" type="bodyBulletCol" width="320" x="left" y="260" margin="10" fontSize="10" fontAlign="left" textStyle="textflow" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="4">
+               <item id="bbc42" order="42" yPad="0">
+                <![CDATA[<list><li>Удовлетворенность иногда определяется как «отсутствие проблем»</li></list>]]>
+</item>
+              <item id="bbc43" order="43">
+                <![CDATA[<list><li>Клиенты, которые попросту довольны обслуживанием, не склонны прикладывать дополнительные усилия для того, чтобы воспользоваться именно вашими продуктами или услугами; они также далеки от порыва заплатить вам премиальные</li></list>]]>
+</item>
+              <item id="bbc44" order="44">
+                <![CDATA[<list><li>Клиенты, которые просто удовлетворены обслуживанием, легко переходят к инициативным конкурентам</li></list>]]>
+</item>
+              <item id="bbc45" order="45">
+                <![CDATA[<list><li>80% клиентов, которые переходят к конкурентам, являются именно «удовлетворенными» клиентами</li></list>]]>
+</item>
+            </ui>
+            <ui uid="3" type="bodyBulletCol" width="320" x="right" y="260" margin="10" fontSize="10" fontAlign="left" textStyle="textflow" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="4">
+             <item id="bbc46" order="46" yPad="0">
+                <![CDATA[<list><li>Лояльные клиенты отказываются от сотрудничества с другими партнерами</li></list>]]>
+</item>
+              <item id="bbc47" order="47">
+                <![CDATA[<list><li>Вероятность того, что лояльные клиенты совершат повторную покупку, в 10 раз выше</li></list>]]>
+</item>
+              <item id="bbc48" order="48">
+                <![CDATA[<list><li>Каждый из лояльных клиентов рекомендует вас 5 лицам, которые хотят осуществить покупку</li></list>]]>
+</item>
+              <item id="bbc49" order="49">
+                <![CDATA[<list><li>Лояльные клиенты приносят на 23% больше прибыли, чем клиенты, которые просто удовлетворены обслуживанием</li></list>]]>
+</item>
+            </ui>
+             <ui uid="5" type="slideEndNote" fontSize="10" time=".2" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" time="1"  order="62">
+                <![CDATA[Источник: Bain & Company, 2009 г.]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyImageGlow" width="154" height="160" y='80' margin="110" fillColor="black" fillAlpha="1" frameShape="roundRect" frameColor="black" frameSize="2" frameAlpha="1" pulseColor="orange" time="1" ease="QuintEaseOut" syncType="add">
+              <item id="img1" order="2" url="2130_1.jpg" x='left' trans="slideright">
+                <label>
+                <![CDATA[Удовлетворенный клиент]]>
+</label>
+              </item>
+              <item id="img2" order="3" url="2130_2.jpg" x='right' trans="slideleft">
+                <label>
+                <![CDATA[Лояльный клиент]]>
+</label>
+              </item>
+            </ui>
+          </slide>
+          <slide sNumber="2135" type="TextImageReplace" animType="timesync" endType="continue">
+            <ui uid="2" type="BodyText" width="660" height="190" x="center" y="270" margin="0" fontAlign="center" effect="none" fontSize="18" fontColor="black" trans="slideLeft" time="2" ease="QuintEaseOut" syncType="replace">
+              <bodyBullet id="bb1" timeIn=".5" timeOut="999">
+                <![CDATA[Смещение акцента с удовлетворенности обслуживанием на лояльность может потребовать больших изменений в том, как вы работаете, но это будет способствовать долгосрочному росту и повышению прибыльности.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" scaleMode="none" time=".1" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="2135_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[image1]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="2200" sNumber="2200" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Лояльность и прибыльность]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="2205" type="TextImageReplace" animType="timesync" endType="continue">
+            <ui uid="2" type="BodyText" width="660" height="190" x="center" y="270" margin="0" fontSize="18" fontColor="black" fontAlign="center" effect="none" time="2" ease="QuintEaseOut" trans="slideLeft" syncType="replace">
+             <bodyText id="bt1" timeIn="0.5" timeOut="999">
+                <![CDATA[На самом деле, группа Chrysler Group в своей деятельности переносит акцент с достижения удовлетворенности клиента обслуживанием на обеспечение лояльности клиента.  <br />На некоторых рынках на смену таким показателям, как индекс удовлетворенности уровнем продаж (SSI) и индекс удовлетворенности клиентов (CSI), уже пришел Активатор отношений с клиентами.]]>
+</bodyText>
+            </ui>
+            <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" scaleMode="none" time=".5" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="2205_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[image1]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="2210" type="TextImageReplace" animType="timesync" endType="continue">
+            <ui uid="2" type="BodyText" width="660" height="190" x="center" y="270" margin="0" fontSize="18" fontColor="black" fontAlign="center" effect="none" time="2" trans="slideLeft" ease="QuintEaseOut" syncType="replace">
+               <bodyText id="bt1" timeIn="0.5" timeOut="10">
+                <![CDATA[На протяжении многих лет мы в США измеряли степень удовлетворенности клиентов такими параметрами, как впечатление от продажи и обслуживания.  И на протяжении многих лет показатели удовлетворенности клиентов неизменно возрастали!]]>
+</bodyText>
+              <bodyText id="bt2" timeIn="10.5" timeOut="20">
+                <![CDATA[Но этого явно недостаточно.  Хотя показатели удовлетворенности клиентов возрастали, лояльность наших клиентов по отношению к компании, марке и дилерскому центру эту тенденцию НЕ поддерживали!]]>
+</bodyText>
+              <bodyText id="bt3" timeIn="20.5" timeOut="999">
+                <![CDATA[Наши «удовлетворенные обслуживанием» клиенты переходили к использованию продукции других марок и услуг других дилерских центров.]]>
+</bodyText>
+            </ui>
+            <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" scaleMode="none" time="3" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="2210_1.jpg" timeIn=".2" timeOut="999" time=".1">
+                <![CDATA[image1]]>
+</bodyImage>
+            </ui>
+            <ui uid="5" type="slideEndNote" fontSize="10" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="9" timeIn="4" timeOut="999">
+                <![CDATA[*График построен с использованием данных по США.]]>
+</bodyNote>
+            </ui>
+          </slide>
+          <slide sNumber="2215" type="TextImageAround" animType="timesync" endType="Continue">
+            <ui uid="2" type="BodyText" width="280" height="200" x="center" y="200" fontSize="18" fontColor="black" fontAlign="center" effect="none" time="1" trans="slideup" ease="QuintEaseOut" syncType="replace">
+             <bodyText id="bt1" timeIn="0.5" timeOut="10">
+                <![CDATA[К счастью, такое несоответствие «удовлетворенности» и лояльности не ограничивается только нашей отраслью и в последние годы активно изучалось.]]>
+</bodyText>
+              <bodyText id="bt2" timeIn="10.5" timeOut="20">
+                <![CDATA[Ведущие исследователи вопроса лояльности определили способ связать отношение клиентов и их поведение, а также установили взаимосвязь этих факторов с ростом компании.]]>
+</bodyText>
+              <bodyText id="bt3" timeIn="20.5" timeOut="999">
+                <![CDATA[Способ основан на ответах клиентов на один простой вопрос, который называют «основным вопросом»… и который является основой Активатора отношений с клиентами.]]>
+</bodyText>
+            </ui>
+            <ui uid="1" type="BodyImage" x="center" y="top" margin="10" width="240" height="160" effect="none" scaleMode="none" centerIt="true" time="1" trans="slideup" ease="QuintEaseOut">
+              <bodyImage id="img1" url="2215_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[main image]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="BodyImage" x="left" y="top" margin="10" width="150" height="100" effect="none" scaleMode="none" trans="slideright" ease="QuintEaseOut" time="1" syncType="buildy" yPad="7">
+              <bodyImage id="img2" url="2215_2.jpg" timeIn="2" timeOut="999" yPad="0">
+                <![CDATA[img2]]>
+</bodyImage>
+              <bodyImage id="img4" url="2215_4.jpg" timeIn="4" timeOut="999">
+                <![CDATA[img4]]>
+</bodyImage>
+              <bodyImage id="img6" url="2215_6.jpg" timeIn="6" timeOut="999">
+                <![CDATA[img6]]>
+</bodyImage>
+              <bodyImage id="img8" url="2215_8.jpg" timeIn="8" timeOut="999">
+                <![CDATA[img8]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="BodyImage" x="right" y="top" margin="10" width="150" height="100" effect="none" scaleMode="none" trans="slideleft" ease="QuintEaseOut" time="1" syncType="buildy" yPad="7">
+              <bodyImage id="img3" url="2215_3.jpg" timeIn="3" timeOut="999" yPad="0">
+                <![CDATA[img3]]>
+</bodyImage>
+              <bodyImage id="img5" url="2215_5.jpg" timeIn="5" timeOut="999">
+                <![CDATA[img5]]>
+</bodyImage>
+              <bodyImage id="img7" url="2215_7.jpg" timeIn="7" timeOut="999">
+                <![CDATA[img7]]>
+</bodyImage>
+              <bodyImage id="img9" url="2215_9.jpg" timeIn="9" timeOut="999">
+                <![CDATA[img9]]>
+</bodyImage>
+            </ui>
+          </slide>
+                <slide sNumber="2220" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="480" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="74" yPad="0">
+                <![CDATA[Этот вопрос звучит так: «Будете ли вы рекомендовать нас своему другу или коллеге?»]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="75">
+                <![CDATA[<li>Исследования показали, что чем более клиент склонен рекомендовать компанию или продукт другим людям, тем больше вероятность того, что он останется лояльным по отношению к этой компании или ее продукции в долгосрочной перспективе</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="76">
+                <![CDATA[<li>Исследования также показывают, что то, что клиент сказал, что он «удовлетворен» конкретным эпизодом обслуживания, совершенно не означает, что он будет готов рекомендовать вашу компанию или останется лоялен ей в дальнейшем</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="77">
+                <![CDATA[<li>Следовательно, обслуживание клиентов на исключительно высоком уровне является чрезвычайно важным фактором достижения лояльности… И, безусловно, как только вы добьетесь лояльности клиента, вы получите огромное дополнительное преимущество: клиентов, которые пришли по рекомендации</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10" scaleMode="width" time="1" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="25">
+              <bodyImage id="i1" order="75.5" url="2220_1.jpg" yPad="0">
+                <![CDATA[image 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="76.5" url="2220_2.jpg">
+                <![CDATA[Image 2]]>
+</bodyImage>
+              <bodyImage id="i3" order="77.5" url="2220_3.jpg">
+                <![CDATA[Image 3]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="2225" type="TextImageReplace" animType="timesync" endType="Continue">
+            <ui uid="2" type="BodyText" width="680" height="190" x="center" y="270" margin="0" fontAlign="center" effect="none" time="2" trans="slideLeft" ease="QuintEaseOut" syncType="replace">
+                <bodyText id="bt1" timeIn="0.5" timeOut="999">
+                <![CDATA[Именно поэтому группа Chrysler Group на многих рынках переходит к использованию показателя CPS. Получив ответ на этот единственный вопрос, а также уточнив, почему клиент готов или не готов вас рекомендовать другим, вы получите ценную информацию, которая поможет вам использовать и развивать сильные стороны и устранить проблемы. <br /> И даже если вы пока не используете показатель CPS, вы все равно можете использовать лежащую в его основе концепцию для того, чтобы сфокусировать ваши усилия по совершенствованию своей деятельности.]]>
+</bodyText>
+            </ui>
+            <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" scaleMode="none" time=".5" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="2225_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[image1]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

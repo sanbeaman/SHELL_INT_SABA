@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="PAPSESWB" template="PAPS" localeID="es" debug="false">
+    <title>
+      <![CDATA[Habilidades Para La Venta Minorista De Partes]]>
+</title>
+  </course>
+  <section id="1" snumber="6000">
+    <header>
+      <![CDATA[RESUMEN DEL CURSO]]>
+</header>
+    <scenes>
+      <scene id="6100" sNumber="6100" sType="gps" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" width="600" height="50" x="left" y="0" margin="10" trans="none" ease="none">
+            <header id="h1" order="1">
+              <![CDATA[Objetivos de desempeño]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="6101" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="680" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="11" yPad="0">
+                <![CDATA[¡Felicitaciones! Ha llegado al final  del curso sobre Habilidades para la venta minorista de partes. Ahora usted sabrá:]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="12">
+                <![CDATA[<li>Explicar las razones comerciales para mejorar las habilidades para la venta minorista de partes</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="13">
+                <![CDATA[<li>Explicar las características y ventajas de las partes y accesorios Mopar</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="14" time="1">
+                <![CDATA[<li>Identificar las características de los cuatro tipos de clientes</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="15" time="1">
+                <![CDATA[<li>Explicar el proceso de venta de partes orientado al cliente</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="16" time="1">
+                <![CDATA[<li>Dar respuesta a otras oportunidades de venta y a objeciones comunes del cliente</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb7" order="17" time="1">
+                <![CDATA[<li>Aplicar el proceso de venta de partes orientado al cliente</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="6200" sNumber="6200" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" width="600" height="50" x="0" y="0" margin="10" trans="none" ease="none">
+            <header id="h1" order="1">
+              <![CDATA[Puntos claves]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="6201" type="BodyBulletBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="680" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="20" yPad="0">
+                <![CDATA[Repasemos los puntos de aprendizaje claves de este curso:]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22">
+                <![CDATA[<li>Las partes y accesorios son un mercado en expansión con un gran potencial de beneficios</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="24">
+                <![CDATA[<li>Mejorar las habilidades de venta le ayuda a fomentar la confianza de sus clientes, convirtiéndolos en clientes habituales, y aumentando su valor e ingresos</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="26">
+                <![CDATA[<li>Mopar ofrece ventajas respecto al mercado secundario que contribuyen a incrementar las ventas:</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="28" formatType="subbullet" yPad="0">
+                <![CDATA[<li>Las partes han sido diseñadas conforme a las especificaciones originales</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5a" order="29" formatType="subbullet" yPad="0">
+                <![CDATA[<li>Una sólida garantía</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="30" formatType="subbullet" yPad="0">
+                <![CDATA[<li>Precios competitivos</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb7" order="32">
+                <![CDATA[<li>Mopar también ofrece herramientas y recursos para una venta efectiva:</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb8" order="34" formatType="subbullet" yPad="0">
+                <![CDATA[<li>Expositores de accesorios</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb9" order="36" formatType="subbullet" yPad="0">
+                <![CDATA[<li>El catálogo StarParts</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="6205" type="BodyBulletBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="680" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb2" order="12" yPad="0">
+                <![CDATA[<li>Hay cuatro tipos de clientes: por teléfono, en persona, interno y por Internet</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="13">
+                <![CDATA[<li>Todos los clientes son importantes</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="14">
+                <![CDATA[<li>El Proceso de venta de partes orientado al cliente le ayuda a ser más efectivo</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="15">
+                <![CDATA[<li>Para superar objeciones del cliente: escuche activamente, parafrasee y responda, y solicite la compra</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="6300" sNumber="6300" sType="scocontent" continueBtnType="done">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" width="600" height="50" x="left" y="0" margin="10" trans="on" ease="none">
+            <header id="h1" order="1">
+              <![CDATA[Conclusión]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="6301" type="scocontent" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="680" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="12" yPad="0">
+                <![CDATA[<li>Usted tiene las habilidades y el conocimiento necesario para mejorar</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="12">
+                <![CDATA[<li>Usted sabe lo que es la Ventaja de Mopar</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="13">
+                <![CDATA[<li>Usted sabe cómo conectar con los clientes para iniciar una relación, identificar las necesidades, sugerir una solución y, lo que es más importante, solicitar la compra</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="14">
+                <![CDATA[<li>Cuanto más venda, mayores serán sus ingresos personales</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="15">
+                <![CDATA[<li>Las habilidades de venta que tienen los asesores de partes impulsan las ventas en el departamento de servicio, aumentando al mismo tiempo las ventas de partes</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="16">
+                <![CDATA[<li>Aplique lo que ha aprendido en su departamento de partes y aprovéchelo para aumentar sus ventas de partes, la rentabilidad de su concesionario y sus propios ingresos</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

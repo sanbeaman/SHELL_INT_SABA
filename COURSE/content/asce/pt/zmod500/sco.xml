@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCEPOWB" template="ASCE" localeID="pt" debug="false">
+    <title>
+      <![CDATA[Experiência Excepcional do Cliente]]>
+</title>
+  </course>
+  <section id="0" snumber="500">
+    <header id="sech1">
+      <![CDATA[Bem-vindo]]>
+</header>
+    <scenes>
+      <scene sNumber="500" sType="splash" continueBtnType="start">
+        <sceneitems>
+          <ui uid="1" type="bodyIcon" width="600" height="125" x="center" y="top" margin="10" trans="slideup" ease="BackEaseOut">
+            <bodyImage id="i1" order="0" time="1" scaleMode="none" url="logo_course.png">
+              <![CDATA[Course Logo]]>
+</bodyImage>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="500" type="splash" animType="animsync" endType="trigger">
+            <ui uid="2" type="bodyBullet" width="680" margin="10" x="center" y="150" fontColor="0x000000" fontSize="10" trans="slideup" ease="QuintEaseOut" syncType="buildy" yPad="5">
+              <bodyBullet id="bb0" order="2" yPad="0">
+                <![CDATA[<b>Sempre que você usar um computador diferente para reiniciar o curso, selecione o item do menu Verificador do Sistema para retestar o sistema.</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4" yPad="10">
+                <![CDATA[<b>Obtendo crédito</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1a" order="5">
+                <![CDATA[Para receber créditos para este curso você deve:]]>
+</bodyBullet>
+              <bodyBullet id="bb1a1" order="6">
+                <![CDATA[<li>Ter um marcador amarelo em cada item do menu (os cabeçalhos de lição não mostram marcadores)</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1a2" order="8">
+                <![CDATA[<li>Sair corretamente, selecionando o item de menu e o botão Concluir e Sair</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1a3" order="10">
+ <![CDATA[<li>Iniciar o teste e outros itens exigidos, localizados na página Atribuições de Aprendizagem do Learning Center para este curso</li>]]>
+ </bodyBullet>
+              <bodyBullet id="bb2" order="12" yPad="10">
+                <![CDATA[<b>Saindo do curso</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb2a1" order="14">
+                <![CDATA[<li>Saída antecipada:  Fechar a janela do navegador antes de concluir o curso salva o progresso para todos os tópicos concluídos dentro da sessão.</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2a2" order="16">
+                <![CDATA[<li>Concluir e sair:  Depois de concluir todos os itens de menu exigidos, selecione o item de menu Concluir e sair e o botão Concluir e sair. <b>(Obrigatório para transferir o progresso final e obter crédito para este curso.)</b></li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2a3" order="18">
+                <![CDATA[<li>Nota:  Na primeira vez que você reiniciar o curso depois de uma tentativa concluída, seus marcadores são redefinidos, e inicialmente não são preenchidos ou marcados.</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="BodyButton" trans="slideup" ease="QuintEaseOut" order="50" time="1">
+              <item id="trigger" type="startcourse" width="200" height="36" x="center" y="bottom" margin="5" fontSize="16" fontColor="0x000000" fontStyle="reg" pulseColor="0xfe9003">
+                <![CDATA[INICIAR CURSO]]>
+</item>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

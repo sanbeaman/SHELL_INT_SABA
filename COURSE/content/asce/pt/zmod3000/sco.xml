@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCEPOWB" template="ASCE" localeID="pt" debug="false">
+    <title>
+      <![CDATA[Experiência Excepcional do Cliente]]>
+</title>
+  </course>
+  <section id="0" snumber="3000">
+    <header>
+      <![CDATA[COMO CONSTRUIR FIDELIDADE?]]>
+</header>
+    <scenes>
+      <scene sNumber="3100" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Cinco Principais Acionadores da Fidelidade com Serviço]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3105" type="TextImageAround" animType="timesync" endType="Continue">
+            <ui uid="2" type="BodyText" width="300" height="200" x="center" y="200" fontSize="18" fontColor="black" fontAlign="center" effect="none" time="1" trans="slideup" ease="QuintEaseOut" syncType="replace">
+              <bodyBullet id="bb1" timeIn="1" timeOut="999">
+                <![CDATA[Você ganha a fidelidade dos clientes quando excede suas expectativas em cada uma das muitas interações e atividades que compõem a experiência de serviço em geral. A maioria dos pontos de contato desses clientes pode ser agrupada em cinco categorias.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="BodyImage" width="240" height="160" x="center" y="top" margin="20" effect="none" scaleMode="none" time="1" trans="slideup" ease="QuintEaseOut">
+              <bodyImage id="img1" url="3105_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[main image]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="BodyImage" width="150" height="100" x="left" y="100" margin="20" effect="none" scaleMode="none" trans="slideright" ease="QuintEaseOut" time="1" syncType="buildy" yPad="80">
+              <bodyImage id="img2" url="3105_2.jpg" timeIn="2" timeOut="999" yPad="0">
+                <![CDATA[img2]]>
+</bodyImage>
+              <bodyImage id="img4" url="3105_4.jpg" timeIn="4" timeOut="999">
+                <![CDATA[img4]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="BodyImage" x="right" y="100" margin="20" width="150" height="100" effect="none" scaleMode="none" trans="slideleft" ease="QuintEaseOut" time="1" syncType="buildy" yPad="80">
+              <bodyImage id="img3" url="3105_3.jpg" timeIn="3" timeOut="999" yPad="0">
+                <![CDATA[img3]]>
+</bodyImage>
+              <bodyImage id="img5" url="3105_5.jpg" timeIn="5" timeOut="999">
+                <![CDATA[img5]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="3110" type="TextImageReplace" animType="timesync" endType="continue">
+            <ui uid="2" type="BodyText" width="660" height="190" x="center" y="270" margin="0" fontSize="18" fontColor="black" fontAlign="center" effect="none" time="2" ease="QuintEaseOut" trans="slideLeft" syncType="replace">
+              <bodyBullet id="bb1" timeIn=".5" timeOut="6">
+                <![CDATA[Consultor de Serviço]]>
+</bodyBullet>
+              <bodyBullet id="bb2" timeIn="6.5" timeOut="12">
+                <![CDATA[Qualidade de Serviço/Primeira visita com reparo]]>
+</bodyBullet>
+              <bodyBullet id="bb3" timeIn="12.5" timeOut="18">
+                <![CDATA[Sistema/Processo de Serviço]]>
+</bodyBullet>
+              <bodyBullet id="bb4" timeIn="18.5" timeOut="24">
+                <![CDATA[Instalação/Área de Espera]]>
+</bodyBullet>
+              <bodyBullet id="bb5" timeIn="24.5" timeOut="999">
+                <![CDATA[Preço/Cobrança do Serviço]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="20" scaleMode="none" time="1" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="3110_1.jpg" timeIn=".2" timeOut="6">
+                <![CDATA[image1]]>
+</bodyImage>
+              <bodyImage id="i2" url="3110_2.jpg" timeIn="6.5" timeOut="12">
+                <![CDATA[Image2]]>
+</bodyImage>
+              <bodyImage id="i3" url="3110_3.jpg" timeIn="12.5" timeOut="18">
+                <![CDATA[image3]]>
+</bodyImage>
+              <bodyImage id="i2" url="3110_4.jpg" timeIn="18.5" timeOut="24">
+                <![CDATA[Image4]]>
+</bodyImage>
+              <bodyImage id="i5" url="3110_5.jpg" timeIn="24.5" timeOut="999">
+                <![CDATA[image5]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="3115" type="TextImageAround" animType="timesync" endType="Continue">
+            <ui uid="2" type="BodyText" width="300" height="200" x="center" y="200" margin="0" fontSize="18" fontColor="black" fontAlign="center" effect="none" time="1" trans="slideup" ease="QuintEaseOut" syncType="build">
+              <bodyBullet id="bb1" timeIn="1" timeOut="999">
+                <![CDATA[Mesmo que sua concessionária organize a experiência do cliente em categorias ligeiramente diferentes, é possível que você ainda tente obter clientes satisfeitos e leais em todas as áreas. E você sabe que é preciso trabalho em equipe em todas as áreas para realmente ter sucesso.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="BodyImage" width="240" height="160" x="center" y="top" margin="20" effect="none" scaleMode="none" time="1" trans="slideup" ease="QuintEaseOut">
+              <bodyImage id="img1" url="3115_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[main image]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="BodyImage" width="150" height="100" x="left" y="100" margin="20" effect="none" scaleMode="none" time="1" trans="slideright" ease="QuintEaseOut" syncType="buildy" yPad="80">
+              <bodyImage id="img2" url="3115_2.jpg" timeIn="2" timeOut="999" yPad="0">
+                <![CDATA[img2]]>
+</bodyImage>
+              <bodyImage id="img4" url="3115_4.jpg" timeIn="4" timeOut="999">
+                <![CDATA[img4]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="BodyImage" width="150" height="100" x="right" y="100" margin="20" effect="none" scaleMode="none" time="1" trans="slideleft" ease="QuintEaseOut" syncType="buildy" yPad="80">
+              <bodyImage id="img3" url="3115_3.jpg" timeIn="3" timeOut="999" yPad="0">
+                <![CDATA[img3]]>
+</bodyImage>
+              <bodyImage id="img5" url="3115_5.jpg" timeIn="5" timeOut="999">
+                <![CDATA[img5]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="3120" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="480" x="left" y="20" margin="10" fontSize="18" fontColor="black" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="2" yPad="0">
+                <![CDATA[<li>Pense em quem são os membros de sua equipe, dentro de seu departamento e em toda a concessionária</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+                <![CDATA[<li>Todos dependem uns dos outros para manter um fluxo de trabalho eficiente e manter os clientes felizes</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="10">
+                <![CDATA[<li>Dependendo da situação, diferentes membros da equipe precisam assumir a liderança em diversos momentos para atingir a meta geral</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="20" margin="10" trans="slideLeft" ease="BackEaseOut" time="1" syncType="buildy" yPad="15">
+              <bodyImage id="i1" order="4" yPad="0" url="3120_1.jpg">
+                <![CDATA[image 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="8" url="3120_2.jpg">
+                <![CDATA[Image 2]]>
+</bodyImage>
+              <bodyImage id="i3" order="12" url="3120_3.jpg">
+                <![CDATA[Image 3]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="3125" type="Activity_Match" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="match" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut">
+              <actui type="ScreenText" x="0" y="0" width="710" yPad="10">
+                <item type="screentext" fontSize="20">
+                  <![CDATA[Vejamos como reconhecer como um membro da equipe assume a liderança.]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                  <![CDATA[Instruções: Corresponda o membro da equipe à esquerda com o que ele faz à direita para assumir a liderança e entregar serviço ao cliente excepcional.]]>
+</item>
+              </actui>
+              <actui uid="0" type="SubHeader" order="5" fontColor="black" fontSize="18" screen="1">
+                <item id="i1" type="dragHeader" width="200" height="40" fontAlign="center">
+                  <![CDATA[Membro da Equipe]]>
+</item>
+                <item id="i2" type="dropHeader" width="360" height="40" fontAlign="center">
+                  <![CDATA[Tarefa de Liderança]]>
+</item>
+              </actui>
+              <actui uid="1" type="MatchBtn" width="200" height="40" x="0" y="0" layout="1col" fontSize="14" fontColor="black" fontStyle="bold" fontAlign="center" fontVertAlign="middle" fillColor="greycc" fillAlpha="1" frameSize="1" frameColor="white" frameAlpha="1" fillType="gradient" fillColor2="greycc" xPad="20" yPad="10">
+                <item id="i1" isanswer="drop01">
+                  <![CDATA[Consultor de Serviço]]>
+</item>
+                <item id="i2" isanswer="drop02">
+                  <![CDATA[Recepcionista]]>
+</item>
+                <item id="i3" isanswer="drop03">
+                  <![CDATA[Consultor de Peças]]>
+</item>
+                <item id="i4" isanswer="drop04">
+                  <![CDATA[Caixa]]>
+</item>
+                <item id="i5" isanswer="drop05">
+                  <![CDATA[Técnico de Serviço  ]]>
+</item>
+                <item id="i6" isanswer="drop06">
+                  <![CDATA[Administrador de Garantia]]>
+</item>
+              </actui>
+              <actui uid="1" type="MatchTarget" width="360" height="40" x="right" y="0" margin="0" layout="default" fontSize="12" fontColor="black" fontStyle="reg" fontAlign="left" fontVertAlign="middle" fillColor="orangegrad1" fillAlpha="1" frameSize="1" frameColor="white" frameAlpha="1" fillType="gradient" fillColor2="orangegrad2" xPad="10" yPad="10">
+                <item id="i1" isanswer="drop01">
+                  <![CDATA[Conduz a inspeção com o cliente para criar lealdade/confiança]]>
+</item>
+                <item id="i2" isanswer="drop02">
+                  <![CDATA[Garante que um veículo limpo seja entregue na área de entrega ao cliente]]>
+</item>
+                <item id="i3" isanswer="drop03">
+                  <![CDATA[Tem peças prontas para os técnicos que trabalham em reparos agendados]]>
+</item>
+                <item id="i4" isanswer="drop04">
+                  <![CDATA[Fornece uma visão geral das cobranças ao cliente para confirmar que todo o trabalho tenha sido concluído]]>
+</item>
+                <item id="i5" isanswer="drop05">
+                  <![CDATA[Conserta o veículo corretamente na primeira vez. Relata necessidades adicionais de reparos ou manutenção]]>
+</item>
+                <item id="i6" isanswer="drop06">
+                  <![CDATA[Agiliza as solicitações de garantia para economizar custos para o cliente e para a concessionária]]>
+</item>
+              </actui>
+              <actui uid="3" type="feedbacktext" width="710" height="80" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct" id="pos">
+                  <![CDATA[Bom trabalho! Você pode ver como cada membro da equipe contribui para criar fidelidade do cliente. O conceito de trabalho em equipe também se aplica entre as áreas de Vendas e Pós Vendas. Exemplos incluem Consultores de Vendas apresentando clientes ao pessoal de Peças e Serviços e ajudando os novos proprietários a agendar sua primeira revisão. Vocês dependem uns dos outros para entregar consistentemente uma experiência excepcional!]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene sNumber="3200" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[O que os Clientes Estão Pensando?]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3205" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="480" x="left" y="top" margin="10" fontColor="black" fontSize="18" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="2" time=".2" yPad="0">
+                <![CDATA[Como você sabe quando está fazendo as coisas certas? Pergunte a eles! ]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+                <![CDATA[O feedback do cliente é sua ferramenta mais importante para melhorar os pontos fortes e eliminar pontos fracos. Os seguintes métodos que podem ser utilizados dependem de seu mercado e da concessionária.]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="10" fontSize="14">
+                <![CDATA[<li><b>Pergunte você mesmo aos clientes.</b> Pergunte aos clientes como pode melhorar a experiência de serviço. Encoraje o feedback durante a visita de serviço ou durante o acompanhamento por telefone, e-mail ou mensagem de texto</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="12" fontSize="14">
+                <![CDATA[<li><b>Use SSI e CSI.</b> Seu mercado pode estar entre os que usam os resultados da pesquisa com clientes da J.D. Power. Apesar de serem úteis para ajudá-lo a encontrar e corrigir problemas para aumentar a satisfação, lembre-se de que satisfação não é o mesmo que fidelidade</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="14" fontSize="14">
+                <![CDATA[<li><b>Use a Pontuação do CPS.</b> As concessionárias da Chrysler Group na América do Norte e em alguns outros mercados agora usam o CPS como mecanismo principal de feedback. Seu foco em fidelidade ajuda a concentrar os esforços em melhorar o que você já faz bem</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10" trans="slideLeft" ease="BackEaseOut" time="1" syncType="buildy" yPad="25">
+              <bodyImage id="i1" order="4" url="3205_1.jpg" yPad="0">
+                <![CDATA[image 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="8" url="3205_2.jpg">
+                <![CDATA[Image 2]]>
+</bodyImage>
+              <bodyImage id="i3" order="12" url="3205_3.jpg">
+                <![CDATA[Image 3]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="3210" type="BulletReplace" animType="timesync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="700" x="left" y="top" margin="10" fontSize="20" fontColor="black" time="1" trans="slideRight" ease="QuintEaseOut" yPad="0">
+              <item id="bb0" order="1" timeIn=".5" timeOut="999">
+                <![CDATA[Independentemente de como você obtém feedback dos clientes, um processo eficiente para usá-lo para criar fidelidade deve incluir:]]>
+</item>
+            </ui>
+            <ui uid="6" type="bodyBullet" x="left" y="60" width="640" margin="10" fontSize="18" fontColor="black" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <item id="bb1" order="4" timeIn="2" timeOut="35">
+                <![CDATA[<li>Chegar às informações por trás das pontuações ou das respostas iniciais. Pergunte continuamente "Por quê?" para descobrir os verdadeiros motivos pelos quais um cliente recomendaria ou não você aos amigos e familiares ou não gosta de uma parte específica da experiência</li>]]>
+</item>
+              <item id="bb2" order="6" timeIn="4" timeOut="35">
+                <![CDATA[<li>Tomar ação imediata. Ao falar com clientes leais para descobrir que ações específicas você toma que fazem com que eles retornem, agradeça pelas informações e explique o que fará para garantir que todos os clientes recebam o mesmo tratamento  </li>]]>
+</item>
+              <item id="bb3" order="8" timeIn="6" timeOut="35">
+                <![CDATA[<li>Se você descobrir um problema, faça o possível para corrigi-lo imediatamente.  Se a situação não puder ser corrigida imediatamente, peça desculpas e informe-os sobre os passos que tomará para garantir que não ocorra novamente</li>]]>
+</item>
+            </ui>
+            <ui uid="8" type="bodyBullet" x="left" y="60" width="640" margin="10" fontSize="18" fontColor="black" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <item id="bb4" order="10" timeIn="35.5" timeOut="999">
+                <![CDATA[<li>Estabelecer a responsabilidade. Os gerentes devem analisar tendências e progressos em reuniões de equipe semanais</li>]]>
+</item>
+              <item id="bb5" order="12" timeIn="35.5" timeOut="999">
+                <![CDATA[<li>Fazer com que a fidelidade do cliente seja uma prioridade para todos na concessionária</li>]]>
+</item>
+              <item id="bb6" order="14" timeIn="35.5" timeOut="999">
+                <![CDATA[<li>Melhorar os processos. Crie equipes para tratar pontos fortes e fracos com melhorias nos processos</li>]]>
+</item>
+            </ui>
+          </slide>
+          <slide sNumber="3215" type="TextImageReplace" animType="timesync" endType="continue">
+            <ui uid="2" type="BodyText" width="660" height="150" x="center" y="290" margin="0" fontSize="18" fontColor="black" fontAlign="center" effect="none" time="1" trans="slideLeft" ease="QuintEaseOut" syncType="replace">
+              <bodyBullet id="bb1" timeIn=".5" timeOut="999">
+                <![CDATA[Usar o feedback do cliente para direcionar as melhorias na concessionária é importante, mas é como tentar dirigir um carro olhando pelo retrovisor: você só pode ver onde esteve, não onde deseja ir. Você pode fazer uma série de coisas, começando hoje, que ajudem a eliminar problemas e criar fidelidade sem esperar pelo feedback do cliente. ]]>
+</bodyBullet>
+            </ui>
+            <ui uid="4" type="BodyImage" width="375" height="250" x="center" y="top" margin="20" time=".5" trans="fadeOn" ease="QuintEaseOut" scaleMode="none" syncType="replace">
+              <bodyImage id="i1" url="3215_1.jpg" timeIn=".5" timeOut="999">
+                <![CDATA[image1]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

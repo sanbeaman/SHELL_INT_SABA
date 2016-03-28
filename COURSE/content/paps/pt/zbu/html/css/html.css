@@ -1,0 +1,102 @@
+BODY
+
+{
+
+	margin:0;
+
+	padding:0;
+
+	overflow:hidden;
+
+	background-color: #cccccc;
+
+	color:#000000;
+
+	background-image:url(../images/ShellBack.jpg);
+
+	background-repeat:no-repeat;
+
+	font-family:tahoma,arial,san serif;
+
+	font-size:12pt;
+
+	width:755px;
+
+}
+
+
+
+H1
+
+{
+
+	font-family:tahoma,arial,san serif;
+
+	font-size:16pt;
+
+	font-weight:bold;
+
+	text-align:center;
+
+}
+
+
+
+TD
+
+{
+
+	font-family:tahoma,arial,helvetica,san serif;
+
+	font-size:12pt;
+
+}
+
+
+
+#content
+
+{
+
+	padding:190px 100px 0 100px;
+
+	width:410px;
+
+	text-align:left;
+
+}
+
+
+
+#sco
+
+{
+
+	width:755px;
+
+}
+
+
+
+#scocontent
+
+{
+
+	width:600px;
+
+	text-align:left; 
+
+	margin-top:50px;
+
+}
+
+img.cologo
+
+{
+
+	height:auto;
+
+
+
+}
+

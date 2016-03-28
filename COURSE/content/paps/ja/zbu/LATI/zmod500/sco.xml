@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+<course code="PAPSJAWB" template="PAPS" localeID="ja" debug="true">
+<title>
+      <![CDATA[小売パーツ販売スキル]]>
+</title>
+  </course>
+  <!-- LATI -->
+  <section id="0" snumber="500">
+    <header>
+              <![CDATA[ようこそ！]]>
+</header>
+    <scenes>
+      <scene sNumber="500" sType="splash" continueBtnType="start">
+        <sceneitems>
+          <ui uid="1" type="bodyIcon" width="600" height="125" x="center" y="top" margin="20" trans="slideup" ease="BackEaseOut">
+            <bodyImage id="i1" order="0" time="1" scaleMode="none" url="logo_course.png">
+              <![CDATA[Course Logo]]>
+</bodyImage>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="500" type="splash" animType="animsync" endType="trigger">
+           <ui uid="2" type="bodyBullet" width="680" margin="10" x="center" y="150" fontColor="0x000000" fontSize="10" trans="slideup" ease="QuintEaseOut" syncType="buildy" yPad="5">
+              <bodyBullet id="bb0" order="2" yPad="0">
+                <![CDATA[単位を取得する]]>
+</bodyBullet>
+              <bodyBullet id="item1" order="4">
+                <![CDATA[このコースの単位を取得するには次のことが必要です：]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="5" yPad="0">
+                <![CDATA[<li>すべてのアイテムでグｒ-んブックマークを取得する</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="6" yPad="0">
+                <![CDATA[<li>テストに合格する</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="7">
+                <![CDATA[コースから退出する]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="8">
+                <![CDATA[<li>途中で退出する: コース終了前にブラウザを閉じると、それまでのセッションで既に完了したトピックまでの進捗を保存します</li>]]>
+</bodyBullet>
+            </ui>
+             <ui uid="3" type="BodyButton" trans="slideup" ease="QuintEaseOut" order="50" time="1">
+              <item id="trigger" type="startcourse" width="200" height="36" x="center" y="bottom" margin="5" fontSize="16" fontColor="0x000000" fontStyle="reg" pulseColor="0xfe9003">
+                <![CDATA[コース開始]]>
+</item>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

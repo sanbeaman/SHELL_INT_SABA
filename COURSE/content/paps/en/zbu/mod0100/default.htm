@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<title>System Checker</title>
+
+<meta charset="utf-8">
+
+<link rel="stylesheet"  href="css/main.css" />
+
+<script type="text/javascript" src="../js/config.js"></script><!--ADDED SCF-->
+<script type="text/javascript" src="../js/scormcookies.js"></script><!--ADDED SCF-->
+
+<script type="text/javascript" src="js/utils/APIWrapper.js"></script>
+<script type="text/javascript" src="js/utils/course-utils.js"></script>
+
+<script type="text/javascript" src="js/config.js"></script>
+
+<script type="text/javascript" src="js/detection/detect-plugin.js"></script>
+<script type="text/javascript" src="js/detection/detect-browser.js"></script>
+<script type="text/javascript" src="js/events/document-events.js"></script>
+<script type="text/javascript" src="js/ui/ui.js"></script>
+<script type="text/javascript" src="js/core/system-checker.js"></script>
+
+</head>
+
+<body onLoad="de.initEvents();">
+
+<noscript>
+	<div class="header"><span class="checker-title">SYSTEM CHECKER</span> <img src="assets/CA_logo.gif" class="logo"></div>
+
+	<div class="table-chart">
+		<div id="statusText" class="checker-status-text-failed checker-status-text-padded">System Checker Failed</div>
+	</div>
+
+	<div>
+		<table class="table-chart" width="100%" border="0" cellspacing="0">
+			<tr>
+				<th scope="col" align="center" width="5%">Status</th>
+				<th scope="col" align="left">System Checker</th>
+				<th scope="col" align="left">Your System</th>
+				<th scope="col" align="left">Minimum Requirements</th>
+				<th scope="col" align="left" width="20%">Info</th>
+			</tr>
+		    <tr class="row-color-1"><td align="center"><img src='assets/icon_ex.gif'></td><td>JavaScript</td><td>Disabled</td><td>Enabled</td><td>Please Enable JavaScript</td></tr>
+			<tr><td colspan="5"><br/>Note To allow scripting on this Web site only, and to leave scripting disabled in the Internet zone, add this Web site to the Trusted sites zone by adding the site: https://fgcg.sabanow.net/Saba/Web/Main  <h3>Internet Explorer 8.0 or 9.0 (Windows):</h3><ol><li>On the <strong>Tools</strong> menu, click <strong>Internet Options</strong>, and then click the <strong>Security</strong> tab.</li><li>Click the <strong>Internet zone</strong>.</li><li>If you do not have to customize your Internet security settings, click <strong>Default Level</strong>. Then do step 4<ul id='noListBullet'><li>If you have to customize your Internet security settings, follow these steps:</il></ul><ol id='alphaBullet'><li>Click <strong>Custom Level</strong>.</li><li>In the <strong>Security Settings – Internet Zone</strong> dialog box, click <strong>Enable</strong> for <strong>Active Scripting</strong> in the <strong>Scripting</strong> section.</li></ol></li><li>Click the <strong>Back</strong> button to return to the previous page, and then click the <strong>Refresh</strong> button to run scripts.</li></ol><h3>Safari 5.1 for (Mac):</h3><ol><li>Select <strong>Preferences</strong> from the Safari menu.</li><li>Click <strong>Security</strong>.</li><li>Check <strong>Enable JavaScript</strong>.</li><li>Close the <strong>Preferences</strong> window.</li><li>Click <strong>Reload</strong> to refresh the content on the page.</li></ol>If you require more assistance, right click on your browser and select the 'print' option to print this information, and give it to your system administrator.<br/><br/></td></tr>
+		</table>
+	</div>
+</noscript>
+
+<!-- CONTENT -->
+
+<div id="header" class="header"></div>
+
+<div id="mainContainer" class="main-container">
+
+	<div id="moreInfo" class="more-info shadow">
+		<a id="btnClose" class="button-close" href="javascript:void(0)">X</a>
+		<div id="moreInfoTitle"> </div>
+		<div id="moreInfoText"> </div>
+	</div>
+	<div class="table-chart">
+		<span id="courseName" class="status-bar-names"></span>
+		<span id="userName" class="status-bar-names"></span>
+
+		<div id="statusBlock">
+			<a id="btnContinue" class="button-orange" href="javascript:void(0)">Continue</a>
+			<a id="btnReTest" class="button-orange" href="javascript:void(0)">Re-Test</a>
+			<span id="statusText"></span>
+		</div>
+	</div>
+	<div id="mandatoryChart"></div>
+	<div id="additionalChart"></div>
+	<div id="contOverride">
+		<a id="btnOverride" class="button-orange" href="javascript:void(0)">Override</a>
+	</div>
+
+	<div id="disclaimer">
+		<div id="disclaimerMessage" class="disclaimer-message shadow-big">
+			<p id="disclaimerText"></p><br>
+			<p><a id="btnYes" href="javascript:void(0)" class="button">Yes</a><a id="btnNo" href="javascript:void(0)" class="button">No</a></p>
+		</div>
+	</div>
+	<div id="disclaimerBg" class="disclaimer-bg"></div>
+
+	<div id="moreInfoBg"></div>
+
+</div>
+
+<div id="pleaseWait">Please Wait...</div>
+
+<!-- ZOOM DETECTION SCRIPT -->
+<script type="text/javascript" src="js/detection/detect-zoom.js"></script>
+
+</body>
+</html>

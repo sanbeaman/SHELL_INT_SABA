@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="PAPSCHWB" template="PAPS" localeID="zh" debug="false">
+    <title>
+      <![CDATA[零售零件销售技能]]></title>
+  </course>
+  <section id="0" snumber="1000">
+    <header ud="sech1">
+      <![CDATA[简介]]>
+</header>
+    <scenes>
+      <scene sNumber="1100" sType="navbarmenu" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="1" type="SceneNavBar" width="160" height="80" fillColor1="#858585" fillColor2="#ffffff" frameColor="0x00B5D7" fontColor="#666666" fontSize="14" pulseColor="0x00B5D7">
+            <navbtn id='c2l1' width="60" height="60" x="33" y="4" order="2" time="1" target="1105" url="icons/icon_1105.png">
+              <![CDATA[课程目标]]>
+</navbtn>
+            <navbtn id='c2l2' width="60" height="60" x="266" y="4" order="2" time="1" target="1110" url="icons/icon_1110.png">
+              <![CDATA[课程大纲]]>
+</navbtn>
+            <navbtn id='c2l3' width="60" height="60" x="499" y="4" order="2" time="1" target="1115" url="icons/icon_1115.png">
+              <![CDATA[额外资源]]>
+</navbtn>
+          </ui>
+          <ui uid="3" type="sceneEndNote">
+            <bodyNote id="gn1" order="99" time="1">
+              <![CDATA[单击 √ 以继续。]]>
+</bodyNote>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide type="navbarmenu_content" sNumber="1101" animType="animsync" endType="Continue">
+            <ui uid="0" type="sceneHeader">
+              <header id="h1" width="680" order="1" time="1">
+                <![CDATA[欢迎参加“零售零件销售技能 <br />- 引导销售”课程]]>
+</header>
+            </ui>
+            <ui uid="3" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="999" time="1">
+                <![CDATA[单击图像，开始。]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyIcon" width="100" height="100" x="center" y="80"  time="1" trans="fadeIn" ease="QuintEaseOut">
+              <bodyIcon id="img1" scaleMode="none" url="icons/icon_mopar.png" order="1">
+                <![CDATA[Mopar Logo]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="1105" type="navbarmenu_content" animType="animsync" endType="Continue">
+            <ui uid="0" type="sceneHeader">
+              <header id="h1" order="0" time="0">
+                <![CDATA[课程目标]]>
+</header>
+            </ui>
+            <ui uid="2" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+               <bodyBullet id="bb0" order="12" yPad="0">
+                <![CDATA[<li>获得建立客户关系以及销售莫帕零配件的知识和技能</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="13">
+                <![CDATA[<li>解释提高零售零件销售技能的商业案例</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="14">
+                <![CDATA[<li>识别四种客户类型的特征</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="15">
+                <![CDATA[<li>“以客户为导向零配件销售的流程”</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="16">
+                <![CDATA[<li>对额外销售机会和常见客户异议做出反应</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="99" time="1">
+                <![CDATA[单击另一个图标，继续。]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyIcon" width="160" height="160" x="right" y="top" margin="10" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="0" time="1" url="icons/iconLarge_1105.png">
+                <![CDATA[Course Objectives]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="1110" type="navbarmenu_content" animType="animsync" endType="Continue">
+            <ui uid="0" type="sceneHeader" width="600">
+              <header id="h1" order="0" time=".5">
+                <![CDATA[课程大纲]]>
+</header>
+            </ui>
+            <ui uid="2" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="20" yPad="0">
+                <![CDATA[<li>提高零件销售技能的商业案例</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="21" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>您的客户、经销店和您如何能够从完善您的销售技能中获益</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22">
+                <![CDATA[<li>莫帕优势</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="23" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>为什么莫帕具有胜过竞争对手的重大优势</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="24">
+                <![CDATA[<li>“以客户为导向零配件销售的流程”</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="25">
+                <![CDATA[<li>应用“以客户为导向零配件销售的流程”</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="26" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>使用真实场景</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb7" order="27">
+                <![CDATA[<li>课程总结</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb8" order="28" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>回顾课程中的要点</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="999" time="1">
+                <![CDATA[单击另一个图标，继续。]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyIcon" width="160" height="160" x="right" y="top" margin="10" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" url="icons/iconLarge_1110.png" order="1">
+                <![CDATA[Course Outline]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="1115" type="navbarmenu_content" animType="animsync" endType="Done">
+            <ui uid="0" type="sceneHeader">
+              <header id="h1">
+                <![CDATA[额外资源]]>
+</header>
+            </ui>
+            <ui uid="2" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="32" yPad="0">
+                <![CDATA[本课程的工作辅助材料包括：]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="33">
+                <![CDATA[<li>“以客户为导向零配件销售的流程”</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="34">
+                <![CDATA[<li>化解客户异议</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="BackEaseOut">
+              <bodyNote id="gn1" order="999" time="1">
+                <![CDATA[单击另一个图标，继续。]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyIcon" width="160" height="160" x="right" y="top" margin="10" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="0" time="1" url="icons/iconLarge_1115.png">
+                <![CDATA[Additional Resources]]>
+</bodyIcon>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

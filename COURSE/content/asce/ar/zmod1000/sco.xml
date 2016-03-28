@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCEARWB" template="ASCE" localeID="ar" debug="false">
+    <title>
+      <![CDATA[تجربة عملاء رائعة]]>
+</title>
+  </course>
+  <section id="0" snumber="1000">
+    <header id="sech1">
+      <![CDATA[مقدمة]]>
+</header>
+    <scenes>
+      <scene sNumber="1100" sType="navbarmenu" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="1" type="SceneNavBar" width="160" height="80" fillColor1="#6688a2" fillColor2="#6688a2" frameColor="0xfe9003" fontColor="0xffffff" fontSize="14" pulseColor="0xfe9003">
+            <navbtn id='c2l1' width="60" height="60" x="33" y="4" order="2" time="1" target="1105" url="icons/icon_1105.png">
+      <![CDATA[أهداف الدورة التدريبية]]>
+</navbtn>
+            <navbtn id='c2l2' width="60" height="60" x="266" y="4" order="2" time="1" target="1110" url="icons/icon_1110.png">
+      <![CDATA[موجز الدورة التدريبية]]>
+</navbtn>
+            <navbtn id='c2l3' width="60" height="60" x="499" y="4" order="2" time="1" target="1115" url="icons/icon_1115.png">
+      <![CDATA[موارد إضافية]]>
+</navbtn>
+          </ui>
+          <ui uid="3" type="sceneEndNote">
+            <bodyNote id="gn1" order="99" time="1">
+      <![CDATA[انقر فوق ✓ للمتابعة.]]>
+</bodyNote>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="1101" type="navbarmenu_content" animType="animsync" endType="Continue">
+            <ui uid="1" type="slideHeader" width="680" height="50" x="20" y="20" fillAlpha="0" fontSize="24" fontColor="black" fontStyle="bold" trans="slideright" ease="BackEaseOut">
+              <header id="sh1" order="1" time="1">
+      <![CDATA[<b>مرحبًا بكم في تجربة العملاء الرائعة]]>
+</header>
+            </ui>
+            <ui uid="1" type="bodyImage" order="1" time="0" trans="fadeIn" ease="QuintEaseOut">
+              <bodyImage id="i1" width="420" height="280" scaleMode="none" x="center" y="60" url="1101_1.jpg">
+                <![CDATA[Photo 1101_1]]>
+</bodyImage>
+            </ui>
+            <ui uid="3" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="999" time="1">
+      <![CDATA[انقر فوق رمز آخر للمتابعة.]]>
+</bodyNote>
+            </ui>
+          </slide>
+          <slide sNumber="1105" type="navbarmenu_content" animType="animsync" endType="Continue">          
+                <ui uid="2" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="8">
+              <bodyBullet id="bb0" order="1" fontSize="24" fontStyle="bold" time=".2" yPad="0">
+    <![CDATA[<b>أهداف الدورة التدريبية</b>]]>
+    </bodyBullet>
+              <bodyBullet id="bb1" order="20" time="1">
+      <![CDATA[<li>توضيح الفارق بين العملاء المخلصين والعملاء الراضين عن الخدمة</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22" time="1">
+      <![CDATA[<li>تحديد العناصر الخمسة الرئيسية لتجربة الخدمة التي تؤثر بقوة على ولاء العميل</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="24" time="1">
+      <![CDATA[<li>اشرح الطرق المختلفة التي تستخدم لتحديد ما يفكر به العملاء بخصوص تجربة الخدمة لديك   </li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="26" time="1" width="680">
+      <![CDATA[<li>تحديد توقعات العملاء الرئيسية في سبعة مجالات من تجربة الخدمة</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="28" time="1" width="680">
+      <![CDATA[<li>وصف أربعة طرق لبناء علاقات شخصية من شأنها تعزيز ولاء العميل</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="999" time="1">
+      <![CDATA[انقر فوق رمز آخر للمتابعة.]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="160" x="right" y="top" margin="10" style="none" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="1" url="icons/iconLarge_1105.png">
+                <![CDATA[IMG Course Objectives]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="1110" type="navbarmenu_content" animType="animsync" endType="Continue">
+           <ui uid="2" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="8">
+              <bodyBullet id="bb0" order="1" fontSize="24" fontStyle="bold" time=".2" yPad="0">
+      <![CDATA[<b>موجز الدورة التدريبية</b>]]>
+</bodyBullet>
+              <bodyBullet id='bb1' order='2'>
+      <![CDATA[<li>أهمية ولاء العميل</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb1a' order='4' time='.5' formatType='subbullet' yPad="0">
+      <![CDATA[<li>الفرق بين العملاء المخلصين والعملاء الراضين عن الخدمة وتأثير العملاء المخلصين</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb2' order='6'>
+      <![CDATA[<li>كيف يمكنك بناء ولاء العميل؟</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb2a' order='8' time='.5' formatType='subbullet' yPad="0">
+      <![CDATA[<li>مقومات تجربة الخدمة الرئيسية الخمسة التي تؤثر على ولاء العميل</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb2b' order='10' time='.5' formatType='subbullet' yPad="0">
+      <![CDATA[<li>تعزيز نقاط القوة/التغلب على نقاط الضعف</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb3' order='12'>
+      <![CDATA[<li>تلبية توقعات العملاء الرئيسية</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb3a' order='14' time='.5' formatType='subbullet' yPad="0">
+      <![CDATA[<li>تحديد معايير الأداء لكل خطوة من خطوات عملية ما بعد البيع </li>]]>
+</bodyBullet>
+              <bodyBullet id='bb4' order='16'>
+      <![CDATA[<li>بناء علاقات شخصية</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb4a' width="680" order='18' time='.5' formatType='subbullet' yPad="0">
+      <![CDATA[<li>تجاوز المبادئ الأساسية لبناء علاقات شخصية مع العملاء والتي من شأنها تعزيز ولائهم</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb5' order='20'>
+      <![CDATA[<li>تطبيق العملية </li>]]>
+</bodyBullet>
+              <bodyBullet id='bb5a' order='22' time='.5' formatType='subbullet' yPad="0">
+      <![CDATA[<li>دراسات الحالة التي تتطلب منك التغلب على نقاط الضعف</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb6' order='24'>
+      <![CDATA[<li>ملخص الدورة التدريبية</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb6a' order='26' time='.5' formatType='subbullet' yPad="0">
+      <![CDATA[<li>مراجعة النقاط الرئيسية في الدورة التدريبية</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="999" time="1">
+      <![CDATA[انقر فوق رمز آخر للمتابعة.]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="160" x="right" y="top" margin="10" style="none" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="1" time="1" url="icons/iconLarge_1110.png">
+                <![CDATA[ICON Course Outline]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="1115" type="navbarmenu_content" animType="animsync" endType="Done">
+           <ui uid="2" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="8">
+              <bodyBullet id="bb0" order="1" fontSize="24" fontStyle="bold" time=".2" yPad="0">
+      <![CDATA[<b>موارد إضافية</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="30" time="1">
+      <![CDATA[تتضمن المساعدات الوظيفية لهذه الدورة التدريبية ما يلي:]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="32" time="1">
+      <![CDATA[<li>معايير تقديم خدمة ما بعد البيع</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="36" time="1">
+      <![CDATA[<li>أفضل أربعة طرق لبناء الثقة</li>]]>
+</bodyBullet>
+<bodyBullet id="bb4" order="38" time="1">
+                <![CDATA[تنزيل الموارد من اصفحة "مهام مركز التعلّم" لهذه الدورة التدريبية.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="BackEaseOut">
+              <bodyNote id="gn1" order="999" time="1">
+              <![CDATA[انقر فوق رمز آخر للمتابعة.]]>
+              </bodyNote>
+            </ui>
+               <ui uid="1" type="bodyImage" width="160" height="160" x="right" y="top" margin="10" style="none" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="1" url="icons/iconLarge_1115.png">
+                <![CDATA[ICON Additional Resources]]>
+</bodyIcon>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

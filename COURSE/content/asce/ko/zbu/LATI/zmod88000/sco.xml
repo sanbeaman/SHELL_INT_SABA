@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCEKOWB" template="ASCE" localeID="ko" debug="false">
+    <title>
+      <![CDATA[탁월한 고객 경험]]>
+</title>
+  </course>
+  <section id="0" snumber="88000">
+    <header>
+      <![CDATA[리소스]]>
+</header>
+    <scenes>
+      <scene id="88000" sNumber="88000" sType="resources" continueBtnType="done">
+        <sceneitems>
+          <ui uid="1" type="bodyIcon" width="600" height="125" x="center" y="top" margin="20" trans="slideup" ease="BackEaseOut">
+            <bodyImage id="i1" order="0" time="1" scaleMode="none" url="logo_course.png">
+              <![CDATA[Course Logo]]>
+</bodyImage>
+          </ui>
+          <ui uid="3" type="sceneEndNote">
+            <bodyNote id="gn1" order="99" time="1">
+              <![CDATA[계속하려면 ✓을 클릭합니다.]]>
+</bodyNote>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="88001" type="resources" endType="exit">
+            <ui uid="2" type="bodyBullet" x="55" y="220" width="650" padding="10" trans="slideup" ease="QuintEaseOut" syncType="buildy" fontAlign="center">
+              <bodyBullet id="bb1" order="2" time="1" timeIn="1" timeOut="999">
+                <![CDATA[<b>리소스</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="2" time="1" timeIn="1" timeOut="999">
+                <![CDATA[이러한 자료는 업무 수행에 도움이 됩니다. 이러한 자료를 보거나 나중에 사용할 수 있도록 인쇄하거나 저장할 수 있습니다.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="BodyButton" width="650" height="36" x="center" y="300" time="1" trans="slideup" ease="QuintEaseOut" syncType="buildy" pulseColor="orange" yPad="20">
+              <item id="trigger" type="pdfbtn" order="52" fontSize="16" fontColor="0x000000" fontStyle="bold" url="After_Sales_Performance_Standards_KO.pdf" isActive="yes">
+                <![CDATA[애프터 세일즈 성과 표준]]>
+</item>
+              <item id="trigger" type="pdfbtn" order="55" fontSize="16" fontColor="0x000000" fontStyle="bold" url="Top_Four_Ways_to_Build_Rapport_KO.pdf" isActive="yes">
+                <![CDATA[관계 형성을 위한 최고의 방법 네 가지]]>
+</item>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

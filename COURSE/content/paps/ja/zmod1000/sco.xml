@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="PAPSJAWB" template="PAPS" localeID="ja" debug="false">
+    <title>
+      <![CDATA[小売パーツ販売スキル]]>
+</title>
+  </course>
+  <section id="0" snumber="1000">
+    <header ud="sech1">
+      <![CDATA[はじめに]]>
+</header>
+    <scenes>
+      <scene id="1100" sNumber="1100" sType="navbarmenu" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="1" type="SceneNavBar" width="160" height="80" fillColor1="#858585" fillColor2="#ffffff" frameColor="0x00B5D7" fontColor="#666666" fontSize="14" pulseColor="0x00B5D7">
+            <navbtn id='c2l1' width="60" height="60" x="33" y="4" order="2" time="1" target="1105" url="icons/icon_1105.png">
+              <![CDATA[コースの目的]]>
+</navbtn>
+            <navbtn id='c2l2' width="60" height="60" x="266" y="4" order="2" time="1" target="1110" url="icons/icon_1110.png">
+              <![CDATA[コースの概要]]>
+</navbtn>
+            <navbtn id='c2l3' width="60" height="60" x="499" y="4" order="2" time="1" target="1115" url="icons/icon_1115.png">
+              <![CDATA[その他のリソース]]>
+</navbtn>
+          </ui>
+          <ui uid="3" type="sceneEndNote">
+            <bodyNote id="gn1" order="99" time="1">
+              <![CDATA[続行するには、√ をクリックします。]]>
+</bodyNote>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide type="navbarmenu_content" sNumber="1101" animType="animsync" endType="Continue">
+            <ui uid="0" type="sceneHeader">
+              <header id="h1" width="680" order="1" time="1">
+                <![CDATA[小売パーツ販売スキルコースへようこそ<br />ナビゲーション販売]]>
+</header>
+            </ui>
+            <ui uid="3" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="999" time="1">
+                <![CDATA[開始するには画像をクリックしてください。]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyIcon" width="100" height="100" x="center" y="80"  time="1" trans="fadeIn" ease="QuintEaseOut">
+              <bodyIcon id="img1" scaleMode="none" url="icons/icon_mopar.png" order="1">
+                <![CDATA[Mopar Logo]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="1105" type="navbarmenu_content" animType="animsync" endType="Continue">
+            <ui uid="0" type="sceneHeader">
+              <header id="h1" order="0" time="0">
+                <![CDATA[コースの目的]]>
+</header>
+            </ui>
+            <ui uid="2" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="20" yPad="0">
+                <![CDATA[<li>顧客との関係を構築し、Mopar パーツとアクセサリーを販売するための知識とスキルを身につける</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22">
+                  <![CDATA[<li>小売パーツの販売スキルを向上させるようなビジネス ケースを説明する</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="24">
+                <![CDATA[<li>4 つの顧客タイプの特徴を理解する</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="26">
+                <![CDATA[<li>顧客ニーズに基づいたパーツ販売プロセス</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="28">
+                <![CDATA[<li>付加的な販売チャンスと顧客からの拒絶に対応する</li>]]>
+                </bodyBullet>
+                
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="99" time="1">
+                <![CDATA[続行するには、別のアイコンをクリックします。]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyIcon" width="160" height="160" x="right" y="top" margin="10" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="0" time="1" url="icons/iconLarge_1105.png">
+                <![CDATA[Course Objectives]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="1110" type="navbarmenu_content" animType="animsync" endType="Continue">
+            <ui uid="0" type="sceneHeader" width="600">
+              <header id="h1" order="0" time=".5">
+                <![CDATA[コースの概要]]>
+</header>
+            </ui>
+            <ui uid="2" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="30" yPad="0">
+                <![CDATA[<li>パーツ販売スキルを向上させるビジネス ケース</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="32" time=".5" formatType="subbullet" yPad="2">
+                <![CDATA[<li>完璧な販売スキルから得られる顧客、ディーラー、自分自身のメリットは何か</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="34">
+                <![CDATA[<li>Mopar のメリット</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="36" time=".5" formatType="subbullet" yPad="2">
+                <![CDATA[<li>Mopar が競争上の優位に立つような顕著なメリットを提供する理由</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="38">
+                <![CDATA[<li>顧客ニーズに基づいたパーツ販売プロセス</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="40">
+                <![CDATA[<li>顧客ニーズに基づいたパーツ販売プロセスの実施</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb7" order="42" time=".5" formatType="subbullet" yPad="2">
+                <![CDATA[<li>実際のシナリオの利用</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb8" order="44">
+                <![CDATA[<li>まとめ</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb9" order="46" time=".5" formatType="subbullet" yPad="2">
+                <![CDATA[<li>コースのキー ポイントの確認</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="999" time="1">
+                <![CDATA[続行するには、別のアイコンをクリックします。]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyIcon" width="160" height="160" x="right" y="top" margin="10" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" url="icons/iconLarge_1110.png" order="1">
+                <![CDATA[Course Outline]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="1115" type="navbarmenu_content" animType="animsync" endType="Done">
+            <ui uid="0" type="sceneHeader">
+              <header id="h1">
+                <![CDATA[その他のリソース]]>
+</header>
+            </ui>
+            <ui uid="2" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="30" yPad="0">
+                <![CDATA[このコースに含まれる内容:]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="32">
+                <![CDATA[<li>顧客本位の部品販売手順</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="36">
+                <![CDATA[<li>顧客を満足させる</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="BackEaseOut">
+              <bodyNote id="gn1" order="99" time="1">
+                <![CDATA[続行するには、別のアイコンをクリックします。]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyIcon" width="160" height="160" x="right" y="top" margin="10" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="0" time="1" url="icons/iconLarge_1115.png">
+                <![CDATA[Additional Resources]]>
+</bodyIcon>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

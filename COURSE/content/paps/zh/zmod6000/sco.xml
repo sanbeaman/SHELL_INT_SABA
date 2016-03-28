@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="PAPSCHWB" template="PAPS" localeID="zh" debug="false">
+    <title>
+      <![CDATA[零售零件销售技能]]></title>
+  </course>
+  <section id="1" snumber="6000">
+    <header>
+      <![CDATA[课程摘要]]>
+</header>
+    <scenes>
+      <scene id="6100" sNumber="6100" sType="gps" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" width="600" height="50" x="left" y="0" margin="10" trans="none" ease="none">
+            <header id="h1" order="1">
+              <![CDATA[绩效目标]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="6101" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="680" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+                <bodyBullet id="bb0" order="3" yPad="0">
+                <![CDATA[祝贺您！您已经完成了本“零售零件销售技能”课程。现在，您应能够：]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4">
+                <![CDATA[<li>解释提高零售零件销售技能的商业案例</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="5">
+                <![CDATA[<li>解释莫帕零件与配件的特性和优势</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="6">
+                <![CDATA[<li>识别四种客户类型的特征</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="7">
+                <![CDATA[<li>解释”客户-驱动推动的零件销售流程”</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="8">
+                <![CDATA[<li>对额外销售机会和常见客户异议做出反应</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="9">
+                <![CDATA[<li>应用”客户-驱动推动的零件销售流程”</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="6200" sNumber="6200" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" width="600" height="50" x="0" y="0" margin="10" trans="none" ease="none">
+            <header id="h1" order="1">
+              <![CDATA[要点]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="6201" type="BodyBulletBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="680" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="13" yPad="0">
+                <![CDATA[我们来回顾本课程的学习要点。]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="14">
+                <![CDATA[<li>零配件是一个不断增长的市场，利润机会巨大 </li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="15">
+                <![CDATA[<li>提高销售技能可帮助您在客户中建立信任，产生再次购买业务，以及增加您的价值和收入</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="16">
+                <![CDATA[<li>莫帕具有胜过配件市场的优势，这些优势有助于增加销售量：</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="17" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>符合原始规格的零件</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="18" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>强有力的保修</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="19" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>极具竞争力的定价</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb7" order="20">
+                <![CDATA[<li>莫帕还提供了可实现有效销售的工具和资源：</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb8" order="21" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>配件展示</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb9" order="22" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>StarParts</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="6205" type="BodyBulletBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="680" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+                   <bodyBullet id="bb0" order="24" yPad="0">
+                <![CDATA[<li>四种客户类型包括电话客户、面对面的客户、内部客户和互联网客户</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="25">
+                <![CDATA[<li>所有客户都非常重要</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="26">
+                <![CDATA[<li>客户推动的的零件销售流程有助于提高您的效率</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="27">
+                <![CDATA[<li>为化解客户异议：成为积极的倾听者、解释并回应，以及提出销售要求</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="6300" sNumber="6300" sType="scocontent" continueBtnType="done">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" width="600" height="50" x="left" y="0" margin="10" trans="on" ease="none">
+            <header id="h1" order="1">
+              <![CDATA[结论]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="6301" type="scocontent" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="680" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="31" yPad="0">
+                <![CDATA[<li>您的技能和知识将得到改进</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="32">
+                <![CDATA[<li>您知道莫帕的优势是什么</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="33">
+                <![CDATA[<li>您知道如何与客户心意相通，以便建立关系，确定需求，提出解决方案，最重要的是，提出销售要求。</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="34">
+                <![CDATA[<li>您销售的越多，您的收入就越高</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="35">
+                <![CDATA[<li>零件顾问销售技能可推动服务部门的销售，以及增加零件销售量</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="36">
+                <![CDATA[<li>将您所学的知识带回到您的零件部门并加以应用，以便增加您的零件销售量，以及您经销店的盈利能力，同时增加您自己的收入。</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

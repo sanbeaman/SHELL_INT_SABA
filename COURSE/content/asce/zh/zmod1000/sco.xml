@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCECHWB" template="ASCE" localeID="zh" debug="false">
+    <title>
+      <![CDATA[卓越的客户体验]]>
+</title>
+  </course>
+  <section id="0" snumber="1000">
+    <header>
+      <![CDATA[简介]]>
+</header>
+    <scenes>
+      <scene sNumber="1100" sType="navbarmenu" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="1" type="SceneNavBar" width="180" height="80" fillColor1="#6688a2" fillColor2="#6688a2" frameColor="0xfe9003" fontColor="0xffffff" fontSize="14" pulseColor="0xfe9003">
+            <navbtn id='c2l1' width="60" height="60" x="33" y="4" order="2" time="1" target="1105" url="icons/icon_1105.png">
+              <![CDATA[课程目标]]>
+</navbtn>
+            <navbtn id='c2l2' width="60" height="60" x="266" y="4" order="2" time="1" target="1110" url="icons/icon_1110.png">
+              <![CDATA[课程大纲]]>
+</navbtn>
+            <navbtn id='c2l3' width="60" height="60" x="499" y="4" order="2" time="1" target="1115" url="icons/icon_1115.png">
+              <![CDATA[其它资源]]>
+</navbtn>
+          </ui>
+          <ui uid="3" type="sceneEndNote">
+            <bodyNote id="gn1" order="99" time="1">
+              <![CDATA[点击 ✓ 以继续。]]>
+</bodyNote>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="1101" type="navbarmenu_content" animType="animsync" endType="Continue">
+            <ui uid="1" type="slideHeader" width="680" height="50" x="left" y="top" margin="10" fillAlpha="0" fontSize="24" fontStyle="bold" trans="slideright" ease="BackEaseOut">
+              <header id="sh1" order="1" time="1">
+                <![CDATA[<b>欢迎进入卓越的客户体验</b>]]>
+</header>
+            </ui>
+            <ui uid="3" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="999" time="1">
+                <![CDATA[点击课程目标以继续。]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyImage" order="1" time="0" trans="fadeIn" ease="QuintEaseOut">
+              <bodyImage id="i1" width="420" height="280" scaleMode="none" x="center" y="60" url="1101_1.jpg">
+                <![CDATA[Photo 1101_1]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="1105" type="navbarmenu_content" animType="animsync" endType="Continue">
+            <ui uid="2" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="8">
+              <bodyBullet id="bb0" order="1" fontSize="24" fontStyle="bold" time=".2" yPad="0">
+                <![CDATA[<b>课程目标</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4">
+                <![CDATA[<li>说明满意的客户与忠诚客户之间的差异</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+                <![CDATA[<li>识别对客户忠诚度产生强烈影响的五大服务体验要素</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="8">
+                <![CDATA[<li>描述用以确定客户对于服务体验的看法的多种方式</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="10">
+                <![CDATA[<li>识别客户对于服务体验七个方面的基本期望</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="12">
+                <![CDATA[<li>描述四种用于建立个性化的联系、提高客户忠诚度的方法</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="99" time="1">
+                <![CDATA[点击另一个图标以继续。]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="160" x="right" y="top" margin="10" style="none" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="1" url="icons/iconLarge_1105.png">
+                <![CDATA[IMG Course Objectives]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="1110" type="navbarmenu_content" animType="animsync" endType="Continue">
+            <ui uid="2" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="8">
+              <bodyBullet id="bb0" order="1" fontSize="24" fontStyle="bold" time=".2" yPad="0">
+                <![CDATA[<b>课程大纲</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4">
+                <![CDATA[<li>忠诚度的重要性</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>满意的客户与忠诚的客户之间的差异，以及忠诚客户的重要性</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="8">
+                <![CDATA[<li>如何培养忠诚度？</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="10" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>影响忠诚度的五大服务体验要素</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="12" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>扬长避短</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="14">
+                <![CDATA[<li>满足客户的基本期望</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb7" order="16" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>制定售后流程各个步骤的工作标准</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb8" order="18">
+                <![CDATA[<li>建立个性化的联系</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb9" order="20" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>跨越常规，建立可以提高客户忠诚度的个性化的联系</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb10" order="22">
+                <![CDATA[<li>实施流程</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb11" order="24" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>要求避短的案例研究</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb12" order="26">
+                <![CDATA[<li>课程摘要</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb13" order="28" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>回顾课程中的要点</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="999" time="1">
+                <![CDATA[点击另一个图标以继续。]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="160" x="right" y="top" margin="10" style="none" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="1" time="1" url="icons/iconLarge_1110.png">
+                <![CDATA[ICON Course Outline]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="1115" type="navbarmenu_content" animType="animsync" endType="Done">
+            <ui uid="2" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="8">
+              <bodyBullet id="bb0" order="1" fontSize="24" fontStyle="bold" time=".2" yPad="0">
+                <![CDATA[<b>其它资源</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4">
+                <![CDATA[该课程的辅助工作包括：]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+                <![CDATA[<li>售后工作标准</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="8">
+                <![CDATA[<li>建立融洽关系的四种最佳方式</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="10">
+                <![CDATA[从“学习中心任务”页面中下载本课程的资源。]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="BackEaseOut">
+              <bodyNote id="gn1" order="999" time="1">
+                <![CDATA[点击另一个图标以继续。]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="160" x="right" y="top" margin="10" style="none" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="1" url="icons/iconLarge_1115.png">
+                <![CDATA[ICON Additional Resources]]>
+</bodyIcon>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+<course code="PAPSENWB" template="PAPS" localeID="en" debug="false">
+    <title><![CDATA[Retail Parts Selling Skills]]></title>
+</course>
+   <section id="0" snumber="2000">
+    <header ud="sech1">
+      <![CDATA[Business Case]]>
+</header>
+    <scenes>
+      <scene id="2100" sNumber="2100" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1"><![CDATA[The Opportunity]]></header>
+          </ui>
+        </sceneitems>
+        <slides>
+       
+          <slide sNumber="2101" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" fontColor="#666666" fontSize="16" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb2" order="4" yPad="0">
+                <![CDATA[<li>This module explains how improving selling skills benefits you, your dealership, and customers</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="5">
+                <![CDATA[<li>But first a look at the scope of the parts and accessories market</li>]]>
+</bodyBullet>
+            </ui>
+          	<ui uid="1" type="bodyImage" width="160" height="180" x="right" y="top" margin="10" time="1" trans="slideLeft" ease="BackEaseOut" syncType="build" >
+              <bodyImage id="img1" order="1" url="2100_1.jpg">
+                <![CDATA[Parts Advisor]]>
+</bodyImage>
+              <bodyImage id="img2" order="2" y="bottom" url="2100_2.jpg">
+                <![CDATA[Customer ]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="2105" type="BulletImageBuild" animType="animsync" endType="Continue">
+          	<ui uid="3" type="bodyBullet" width="680" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" width="600"  order="10" yPad="0">
+                <![CDATA[Do you know the opportunity your Parts Department represents?]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="11">
+                <![CDATA[<li>Auto parts are a $244 billion market</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="12">
+                <![CDATA[<li>Automotive accessories are a $38 billion market</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="13">
+                <![CDATA[<li>The average car buyer spends $400 on accessories within the first six months after purchase</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="14">
+                <![CDATA[<li>The average truck buyer spends $1,200</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" width="400" order="16">
+                <![CDATA[And this market is continuing to grow, so the opportunity to develop your parts and accessories business is great.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut" fontSize="12">
+              <bodyNote id="gn1" order="30" time="1" x="50" y="500" width="500">
+                <![CDATA[Source: Motor and Equipment Manufacturers Association, Specialty Equipment Marketing Association. US Data.]]>
+</bodyNote>
+            </ui>
+              <ui uid="1" type="bodyImage" width="260" height="195" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut" syncType="add">
+              <bodyImage id="i1" order="2" url="2105_1.jpg">
+                <![CDATA[Parts Advisor]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="2200" sNumber="2200" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1"><![CDATA[Benefits]]></header>
+          </ui>
+        </sceneitems>
+        <slides>
+         <slide sNumber="2205" type="Activity_Click2reveal" animType="none" endType="Continue">
+    		<ui uid="1" type="act" atype="click2reveal" order="2" time="1" x="0" y="50" margin="0" trans="slideUp" ease="QuintEaseOut">
+              <actui uid="1" type="backimage">
+                <item type="image" url="2200_backQ60.jpg">
+                  <![CDATA[DEALERSHIP PHOTO]]>
+</item>
+              </actui>
+              <actui uid="2" type="clickbtns" fillColor="0xD1E6F2" fillAlpha="0" frameColor="0x003366" frameSize="1" frameAlpha="1" fillColor2="0xD1E6F2" fontSize="24" fontColor="white" iconType="bitmap" iconShape="square" iconWidth="28" iconHeight="26" iconFrameSize="1" iconFrameColor="black" iconFrameAlpha="0" iconReady="icons/hsicon_ready.png" iconUncheck="icons/hsicon_unchecked.png" iconCheck="icons/hsicon_checked.png">
+                <option id='item1' x="8" y="112" width="250" height="68">
+                  <![CDATA[CUSTOMER]]>
+</option>
+                <option id='item2' x="8" y="201" width="250" height="68">
+                  <![CDATA[DEALERSHIP]]>
+</option>
+                <option id='item3' x="8" y="287" width="250" height="68">
+                  <![CDATA[PARTS ADVISOR]]>
+</option>
+              </actui>
+              <actui type="txtboxs" x='360' y='40' width="320" height="320" xPad="12" yPad="12" fillColor="0xD1E6F2" fillAlpha=".8" frameColor="black" frameSize="2" frameAlpha="1" fontSize="18" fontColor="black">
+                <option id='item0'>
+                  <![CDATA[A Parts Advisor can always improve his or her selling skills and that benefits everyone. Click on a hotspot to learn more.]]>
+</option>
+                <option id='item1'>
+                  <![CDATA[Explaining the value of what you’re selling and how it meets the customer’s needs builds trust and respect for you and your dealership. The customer feels good about the purchase and confident about doing business with you, which makes him or her a loyal customer.]]>
+</option>
+                <option id='item2'>
+                  <![CDATA[You can help your dealership build a loyal customer base which leads to repeat business and increased revenue.]]>
+</option>
+                <option id='item3'>
+                  <![CDATA[And what’s in it for you? Knowing you have the skills to sell effectively gives you more confidence so you perform at a higher level. That makes you more valuable to the dealership – and most important, increases your income.]]>
+</option>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="2300" sNumber="2300" sType="scocontent" continueBtnType="done">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Customer Types]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide type="RPSS_BulletColumn_IMAGEGLOW" sNumber="2300" animType="timesync" endType="Continue">
+            <ui uid="1" type="bodyImageGlow" width="154" height="160"  x='left' y='50' margin="16" fontSize="14" fontColor="white"  fillColor="black" fillAlpha="1" frameShape="roundRect" frameColor="black" frameSize="2" frameAlpha="1" time="2" trans="slideLeft" ease="QuintEaseOut" syncType="buildx" xPad="16">
+              <item id="img1" timeIn="1" timeOut="999" url="ctypebox01.jpg" xPad="0">
+                <![CDATA[Phone Customer]]>
+</item>
+              <item id="img2" timeIn="1.5" timeOut="999" url="ctypebox02.jpg">
+                <![CDATA[In-Person Customer]]>
+</item>
+              <item id="img3" timeIn="2" timeOut="999" url="ctypebox03.jpg">
+                <![CDATA[Internal Customer]]>
+</item>
+              <item id="img4" timeIn="2.5" timeOut="999" url="ctypebox04.jpg">
+                <![CDATA[Internet Customer]]>
+</item>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="600" x="left" y="230" margin="16" trans="slideRight" ease="QuintEaseOut" time="1" syncType="buildy" yPad="10">
+              <item id="bb1" timeIn="3" timeOut="20" yPad="0">
+                <![CDATA[Every customer matters]]>
+</item>
+              <item id="bb2" timeIn="4" timeOut="20">
+                <![CDATA[You will be dealing with all types of personalities, and your customers will come to you in four different ways:]]>
+</item>
+              <item id="bb3" timeIn="5" timeOut="20" target="img1" targetTrigger="imageglow" targetParams="2">
+                <![CDATA[<li>On the phone</li>]]>
+</item>
+              <item id="bb4" timeIn="6" timeOut="20" target="img2" targetTrigger="imageglow" targetParams="2">
+                <![CDATA[<li>In-person at your parts counter</li>]]>
+</item>
+              <item id="bb5" timeIn="7" timeOut="20" target="img3" targetTrigger="imageglow" targetParams="2">
+                <![CDATA[<li>From within the dealership</li>]]>
+</item>
+              <item id="bb6" timeIn="8" timeOut="20" target="img4" targetTrigger="imageglow" targetParams="2">
+                <![CDATA[<li>And through the internet</li>]]>
+</item>
+            </ui>
+            <ui uid="3" type="bodyBulletCol" width="160" x="left" y="230"  margin="16" fontSize="12" textStyle="textflow" trans="slideUp" ease="QuintEaseOut" syncType="buildx" xPad="9">
+              <item id="bbc1" timeIn="21" target="img1" targetTrigger="imageglow" targetParams="4" xPad="0">
+                <![CDATA[<list><li>May be retail or wholesale customers</li><li>No visual connection</li><li>No visual cues</li></list>]]>
+</item>
+              <item id="bbc2" timeIn="23" target="img2" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[<list><li>Face-to-face interaction</li><li>Visual cues such as eye contact and body language</li><li>Tone of voice</li></list>]]>
+</item>
+              <item id="bbc3" timeIn="24" target="img3" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[<list><li>Includes Sales Consultants, Service Advisors, Technicians</li><li>Existing relationship</li><li>Face-to-face interaction with same level of customer service as external customers</li><li>Visual cues and voice tone</li></list>]]>
+</item>
+              <item id="bbc4" timeIn="25" target="img4" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[<list><li>Similar to phone customers</li><li>No visual or voice cues</li><li>Well written communication is important</li></list>]]>
+</item>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

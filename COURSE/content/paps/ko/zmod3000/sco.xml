@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="PAPSKOWB" template="PAPS" localeID="ko" debug="false">
+
+    <title>
+      <![CDATA[부품 판매 기술에]]>
+</title>
+  </course>
+  <section id="0" snumber="3000">
+    <header id="sech1">
+      <![CDATA[MOPAR 장점]]>
+</header>
+    <scenes>
+      
+      <scene sNumber="3000" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[장점은 무엇인가?]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+        
+          <slide sNumber="3005" type="TextImageCascade" animType="animsync" endType="Continue">
+            <ui uid="2" type="bodyImageCascade" trans="none" ease="none" order="1" time="0" width="160" height="450" x="right" y="top">
+               <LoaderMax name="icimagemax"  load="false">
+            <ImageLoader name="3000_1" url="{imgdir}3000_1.jpg" estimatedBytes="45000" width="160" height="160" scaleMode="proportionalInside" />
+             <ImageLoader name="3000_2" url="{imgdir}3000_2.jpg" estimatedBytes="45000" width="160" height="160" scaleMode="proportionalInside" />
+              <ImageLoader name="3000_3" url="{imgdir}3000_3.jpg" estimatedBytes="45000" width="160" height="160" scaleMode="proportionalInside" />
+              <ImageLoader name="3000_4" url="{imgdir}3000_4.jpg" estimatedBytes="45000" width="160" height="160" scaleMode="proportionalInside" />
+            <ImageLoader name="3000_5" url="{imgdir}3000_5.jpg" estimatedBytes="45000" width="160" height="160" scaleMode="proportionalInside" />
+             <ImageLoader name="3000_6" url="{imgdir}3000_6.jpg" estimatedBytes="45000" width="160" height="160" scaleMode="proportionalInside" />
+               <ImageLoader name="3000_7" url="{imgdir}3000_7.jpg" estimatedBytes="45000" width="160" height="160" scaleMode="proportionalInside" />
+            </LoaderMax>
+            </ui>
+            <ui uid="1" type="bodyIcon" width="100" height="100" x="220" y="60" time="1" trans="fadeOn" ease="QuintEaseOut">
+              <bodyIcon id="img1" order="1" url="icons/icon_mopar.png">
+                <![CDATA[Mopar Logo]]>
+</bodyIcon>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="480" x="20" y="170" margin="10" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="3" yPad="0">
+                <![CDATA[<li>제품 특징에 대한 해박한 지식이 핵심입니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4">
+                <![CDATA[<li>Mopar 는 애프터마켓보다 더 큰 장점을 고객에게 제공합니다</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="bodyNote" width="480" x="20" y="320" margin="0" time="1" trans="slideRight" ease="QuintEaseOut">
+              <bodyNote id="bn1" order="40">
+                <![CDATA[이번 모듈에서는 이러한 장점과 더불어 이 장점을 활용해 매출을 늘리는 방법에 대해 알아 보겠습니다.]]>
+</bodyNote>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="3100" sNumber="3100" sType="navbarmenu" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="1" type="SceneNavBar" width="160" height="80" fillColor1="#858585" fillColor2="#ffffff" frameColor="0x00B5D7" fontColor="#666666" fontSize="14" pulseColor="0x00B5D7">
+            <navbtn id='c2l1' width="60" height="60" x="113" y="4" order="2" time="1" target="3110" url="icons/icon_3115.png">
+              <![CDATA[디자인 및 엔지니어링]]>
+</navbtn>
+            <navbtn id='c2l3' width="60" height="60" x="409" y="4" order="2" time="1" target="3125" url="icons/icon_3125.png">
+              <![CDATA[보증]]>
+</navbtn>
+          </ui>
+          <ui uid="3" type="sceneEndNote">
+            <bodyNote id="gn1" order="999" time="1">
+              <![CDATA[계속하려면 ► 을 클릭하십시오.]]>
+</bodyNote>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3105" type="navbarmenu_content"  animType="animsync" endType="Continue">
+            <ui uid="0" type="sceneHeader">
+              <header id="h1">
+                <![CDATA[장점은 무엇인가?]]>
+</header>
+            </ui>
+            <ui uid="2" type="bodyBullet" width="600" x="left" y="170" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="14" yPad="0">
+                <![CDATA[Mopar 는 다음과 같은 세 가지 분야에서 경쟁 우위를 차지하고 있습니다.]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="15">
+                <![CDATA[<li>디자인 및 엔지니어링</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="16">
+                <![CDATA[<li>보증</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="999" time="1">
+                <![CDATA[자세한 내용을 확인하려면 디자인 및 엔지니어링 아이콘을 클릭하십시오.]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyIcon" order="1" time="1" trans="fadeIn" ease="QuintEaseOut">
+              <bodyIcon id="img1" width="100" height="100" scaleMode="none" x="center" y="60" url="icons/icon_mopar.png">
+                <![CDATA[Mopar Logo]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="3110" type="navbarmenu_content" animType="animsync" endType="Continue">
+            <ui uid="0" type="sceneHeader">
+              <header id="h1">
+                <![CDATA[디자인 및 엔지니어링]]>
+</header>
+            </ui>
+            <ui uid="2" type="bodyTable" width="520" x="left" y="40"  margin="10" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="4">
+              <bodyTableRow id="bt0" type="head" align="center" order="30" yPad="0">
+                <tcol>
+                  <![CDATA[Mopar]]>
+</tcol>
+                <tcol>
+                <![CDATA[애프터마켓]]>
+</tcol>
+              </bodyTableRow>
+              <bodyTableRow id="bt1" type="norm" align="left" order="32" time="1">
+                <tcol>
+                <![CDATA[차량의 용도에 맞게 설계]]>
+</tcol>
+                <tcol>
+                <![CDATA[여러/다양한 용도]]>
+</tcol>
+              </bodyTableRow>
+              <bodyTableRow id="bt2" type="norm" align="left" order="34" time="1">
+                <tcol>
+                <![CDATA[원장비의 사양을 충족/뛰어넘음]]>
+</tcol>
+                <tcol>
+                <![CDATA[원장비 사양을 충족하거나, 충족하지 않을 수 있음]]>
+</tcol>
+              </bodyTableRow>
+              <bodyTableRow id="bt3" type="norm" align="left" order="36" time="1">
+                <tcol>
+                <![CDATA[품질 보장을 위한 광범위한 테스트를 거침]]>
+</tcol>
+                <tcol>
+                <![CDATA[광범위한 테스트 없음]]>
+</tcol>
+              </bodyTableRow>
+              <bodyTableRow id="bt4" type="norm" align="left" order="38" time="1">
+                <tcol>
+                <![CDATA[전국적인 딜러 망]]>
+</tcol>
+                <tcol>
+                <![CDATA[많은 소매점이 있으나 일부 지역에는 없음]]>
+</tcol>
+              </bodyTableRow>
+            </ui>
+            <ui uid="3" type="bodyNote" width="500" x="20" y="320" margin="10" fontSize="12" fontColor="0x000000" time="1" trans="slideRight" ease="QuintEaseOut">
+              <bodyNote id="bn1" order="40">
+                <![CDATA[Mopar 의 품질은 타의 추종을 불허합니다!]]>
+</bodyNote>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="99" time="1" x="100" y="300">
+                <![CDATA[계속하려면 또 다른 아이콘을 클릭하십시오.]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyIcon" width="100" height="100" x="right" y="top" margin="10" time="1"  trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="1"  url="icons/icon_3115.png">
+                <![CDATA[Design & Engineering]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="3125" type="navbarmenu_content" animType="animsync" endType="Continue">
+            <ui uid="0" type="sceneHeader" trans="none" time="0">
+              <header id="h1">
+                <![CDATA[보증]]>
+</header>
+            </ui>
+              <ui uid="2" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+           <bodyBullet id="bb0" order="32" yPad="0">
+                <![CDATA[<li>Mopar 보증은 여러분의 고객에게 신뢰와 든든함을 안겨 드립니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="33">
+                <![CDATA[<li>공인 딜러에서 설치한 부품은 부품과 공임 모두에 12개월 또는 20,000킬로미터 간 보증이 적용됩니다</li>]]>
+</bodyBullet>
+        </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="BackEaseOut">
+              <bodyNote id="gn1" order="99" time="0" x="50" y="500" width="500">
+                <![CDATA[계속하려면 또 다른 아이콘을 클릭하십시오.]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyIcon" width="100" height="100" x="right" y="top" margin="10" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="bi1" order="1" url="icons/icon_3125.png">
+                <![CDATA[Warranty]]>
+</bodyIcon>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="3200" sNumber="3200" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[장점 활용]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3201" type="BodyBulletBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="460" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="55" yPad="0">
+                <![CDATA[가장 정확한 최신 정보가 포함된 핵심 자료를 이용하여 Mopar의 장점을 활용합니다.]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="56">
+                <![CDATA[여기에는 다음이 포함됩니다]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="57">
+                <![CDATA[<li>액세서리 디스플레이</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="58">
+                <![CDATA[<li>StarParts 카탈로그</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="59">
+                <![CDATA[이 도구들을 이용하여 제품에 대한 지식을 높이고 고객과의 신뢰를 쌓으십시오.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="150" x="right" y="top" margin="10" time="1" trans="slideLeft" ease="BackEaseOut" yPad="30">
+              <bodyImage id="i1" order="4" url="3200_1.jpg" yPad="0">
+                <![CDATA[3200_1 image ]]>
+</bodyImage>
+              <bodyImage id="i2" order="6" y="bottom" yPad="0" url="3200_2.jpg">
+                <![CDATA[3200_2 Image]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="3300" sNumber="3300" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[액세서리 디스플레이]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3301" type="BodyBulletBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="470" x="left" y="40" margin="10" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+            <bodyBullet id="bb0" order="63" yPad="0">
+                <![CDATA[가장 잘 팔리는 상품과 홍보 용품을 전시장 및 서비스 센터의 고객 대기실 등에 전시해 액세서리 판매에 박차를 가할 수 있습니다.]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="64">
+                <![CDATA[액세서리 디스플레이를 이용하거나 다양한 Mopar 액세서리 가 장착된 차량을 전시하게 되면 고객에게 그 매력과 품질을 확실하게 보여줄 수 있습니다.]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="65">
+                <![CDATA[액세서리가 장착된 다양한 차량의 사진들을 모아 필요할 때 마다 고객에게 보여 준다면, 액세서리 판매에 훨씬 도움이 될 것 입니다.]]>
+</bodyBullet>
+            </ui>
+             <ui uid="1" type="bodyImage" width="200" height="140" x="right" y="top" margin="10" time="1" trans="slideLeft" ease="BackEaseOut" syncType="build" yPad="30">
+              <bodyImage id="i1" order="4" url="3300_1.jpg" yPad="0">
+                <![CDATA[Accessories Display 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="6" y="bottom" url="3300_2.jpg" yPad="0">
+                <![CDATA[Accessories Display 2]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="3400" sNumber="3400" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[StarParts]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3401" type="BodyBulletBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="470" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+             <bodyBullet id="bb0" order="69" yPad="0">
+                <![CDATA[StarParts 서비스 부품 카탈로그는 부품 정보를 위한 1차 자료이자 제원을 확인할 수 있는 도구입니다.]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="70">
+                <![CDATA[전체 StarParts 카탈로그는 www.starparts.chrysler.com 에 마련되어 있으며 정기적으로 갱신됩니다.]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="71">
+                <![CDATA[StarParts Lite 는 DVD 버전으로 온라인에서 사용할 수 있습니다.]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="72">
+                <![CDATA[VIN 을 입력하면 StarParts 에서 차량에 맞는 부품만 볼 수 있습니다.]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="73">
+                <![CDATA[고객과 StarParts 데이터를 공유할 수 있습니다. 예를 들어 PDF로 정보를 인쇄하거나 화면을 캡처하여 이를 고객에게 이메일 또는 팩스로 전송할 수 있습니다.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="150" x="right" y="top" margin="10" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i1" order="2" time="1"  url="3400_1.jpg">
+                <![CDATA[StarParts Screen Grab]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    <scene id="3500" sNumber="3500" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[미니 테스트]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+ <slide type="act" sNumber="3501" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="dd2row" width="700" height="450" x="0" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut">
+            <actui type="ScreenText" x="0" y="0" width="680" fontColor="black" margin="0" xPad="0" yPad="0">
+                <item type="questiontext" fontSize="18">
+                <![CDATA[핵심 내용을 상기해 보는 미니 테스트 시간입니다. 각 특징을 관련 있는 브랜드에 끌어다 놓으십시오.]]>
+</item>
+              </actui>
+              <actui uid="0" type="SubHeader" fontColor="blue" fontSize="18" xPad="4" yPad="4">
+                <item id="i1" type="dropHeader" x="0" y="0" width="260" height="20" fontAlign="left">
+                  <![CDATA[Mopar]]>
+</item>
+                <item id="i2" type="dropHeader" x="400" y="0" width="260" height="40" fontAlign="left">
+                <![CDATA[애프터마켓]]>
+</item>
+              </actui>
+              
+             <actui uid="1" type="ItemDragBox" layout="1row" x="0" y="50" width="124" height="60" columnPadding="8" rowPadding="10" fontSize="12" fontColor="0x000000" fontStyle="reg" fontAlign="center" fontVertAlign="middle" fillColor="#66ccff" fillAlpha="1" frameSize="1" frameColor="0x666666" frameAlpha="1" fillType="gradient" fillColor2="0xD1E6F2" xPad="20" yPad="10">
+                <item id="i1" isanswer="drop01">
+                <![CDATA[원장비의 사양을 충족/뛰어넘음]]>
+</item>
+                <item id="i2" isanswer="drop02">
+                <![CDATA[여러/다양한 용도]]>
+</item>
+                <item id="i3" isanswer="drop01">
+                <![CDATA[차량에 맞는 용도]]>
+</item>
+                <item id="i4" isanswer="drop01">
+                <![CDATA[전국적인 딜러 망]]>
+</item>
+                <item id="i5" isanswer="drop02">
+                <![CDATA[현지/지역 소매점]]>
+</item>
+              </actui>
+       
+         		<actui uid="1" type="ItemDropBox" layout="2x2" x="0" y="0" width="124" height="60" columnPadding="10" rowPadding="12" fontSize="16" fontColor="0x000000" fontStyle="bold" fontAlign="left" fontVertAlign="middle" frameSize="1" frameColor="0x666666" fillType="gradient" fillColor="0xcc6633" fillAlpha="1" fillColor2="0xff9933" xPad="10" yPad="10">
+                <col layout="2x2" x='0' y='0'>
+                  <item id='dropSet01_1' isanswer='drop01'></item>
+                  <item id='dropSet01_2' isanswer='drop01'></item>
+                  <item id='dropSet01_3' isanswer='drop01'></item>
+                  <item id='dropSet01_4' isanswer='drop01'></item>
+                </col>
+                <col layout="2x2" x='400' y='0'>
+                  <item id='dropSet02_1' isanswer='drop02'></item>
+                  <item id='dropSet02_2' isanswer='drop02'></item>
+                  <item id='dropSet02_3' isanswer='drop02'></item>
+                  <item id='dropSet02_4' isanswer='drop02'></item>
+                </col>
+              </actui>
+               <actui uid="3" type="feedbacktext" width="680" height="80" x="center" y="50" margin="10" fontSize="14" xPad="12">
+                <item type="correct" id="pos">
+                <![CDATA[정답입니다! Mopar 원장비 부품은 애프터마켓 경쟁 제품과는 비교도 되지 않을 만큼의 품질과 신뢰성이라는 장점을 고객에게 제공합니다.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="3600" sNumber="3600" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Mopar 가치 제안]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide type="BulletBuild" sNumber="3601" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="650" x="left" y="170" margin="10" trans="slideRight" ease="QuintEaseOut">
+                <bodyBullet id="bb0" order="89" yPad="0">
+                <![CDATA[Mopar 가 여러분의 고객에게 가져다 주는 가치를 다시 요약해 봅시다.]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="90">
+                <![CDATA[<li>우수한 품질 대 애프터마켓 경쟁 업체</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="91">
+                <![CDATA[<li>특정 차량에 맞게 설계되어 원장비 사양을 충족하거나 뛰어넘음</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="92">
+                <![CDATA[<li>신뢰성과 내구성을 보장하기 위한 광범위한 테스트 실시</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="93">
+                   <![CDATA[<li>Mopar 보증은 애프터마켓 보증에 대해 경쟁력을 보유하고 있습니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="94">
+             <![CDATA[<li>StarParts 를 통해 올바른 부품의 사양을 파악해 판매하는 데 도움을 받을 수 있습니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="95">
+                 <![CDATA[영업을 해나가면서 이러한 장점들을 활용해 고객의 요구 사항을 해결할 수 있습니다.]]>
+</bodyBullet>
+            </ui>
+             <ui uid="1" type="bodyImage" width="100" height="100" x="326" y="60" time="1" trans="fadeIn" ease="QuintEaseOut">
+              <bodyImage id="i1" url="icons/icon_mopar.png" order="1">
+                <![CDATA[Mopar Logo]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

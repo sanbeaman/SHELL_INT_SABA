@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCEJAWB" template="ASCE" localeID="ja" debug="false">
+    <title>
+      <![CDATA[優れた顧客経験]]>
+</title>
+  </course>
+  <section id="0" snumber="7000">
+    <header>
+      <![CDATA[まとめ]]>
+</header>
+    <scenes>
+      <scene sNumber="7100" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[学習目標]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+         <slide sNumber="7105" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" time=".5" order="2" yPad="0">
+                <![CDATA[おめでとうございます。「優れた顧客経験」コースはこれで終了です。ここでは次のスキルを習得したことになります。]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4">
+                <![CDATA[<li>「満足している」顧客と上顧客の違いを説明する</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+                <![CDATA[<li>顧客ロイヤリティに最も大きく影響するサービス経験の 5 つの要素を見極める</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="8">
+                <![CDATA[<li>サービス経験について顧客がどう思っているかを判断するさまざまな方法を説明する   </li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="10">
+                <![CDATA[<li>サービス経験の 7 つの分野において顧客が基本的に何を期待しているかを見極める</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="12">
+                <![CDATA[<li>顧客ロイヤリティの向上につながる個人的なつながりを構築するための 4 つのテクニックを説明する</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10" scaleMode="width"  time="1" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="25">
+              <bodyImage id="i1" order="3" time=".5" url="7105_1.jpg" yPad="0">
+                <![CDATA[image 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="7" url="7105_2.jpg">
+                <![CDATA[Image 2]]>
+</bodyImage>
+              <bodyImage id="i3" order="11" url="7105_3.jpg">
+                <![CDATA[Image 3]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene sNumber="7200" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[キー ポイント]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="7205" type="BulletImageGlow" animType="animsync" endType="Continue">
+           <ui uid="1" type="bodyImageGlow" width="154" height="160" x='left' y='60' margin="20" fillColor="0x000000" fillAlpha="1" frameShape="roundRect" frameColor="0x000000" frameSize="2" frameAlpha="1" pulseColor="0xfe9003" trans="slideLeft" ease="QuintEaseOut" syncType="buildx" xPad="24">
+            <item id="img1" order="2" time="1" url="7205_1.jpg" xPad="0">x</item>
+              <item id="img2" order="3" time="1" url="7205_2.jpg">x</item>
+              <item id="img3" order="4" time="1" url="7205_3.jpg">x</item>
+              <item id="img4" order="5" time="1" url="7205_4.jpg">x</item>
+            </ui>
+                 <ui uid="3" type="bodyBullet" width="680" x="left" y="top" margin="12" fontSize="20" fontColor="0x000000" trans="slideRight" ease="QuintEaseOut" yPad="0">
+              <item id="bb1" order="1" time=".3">
+                <![CDATA[このコースの主な学習ポイントを復習しましょう。]]>
+</item>
+            </ui>
+            <ui uid="3" type="bodyBulletCol" width="160" x="left" y="240" margin="20" textStyle="textflow" fontSize="12" fontColor="0x000000" fontAlign="left" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildx" xPad="18">
+              <item id="bbc1" order="50" target="img1" targetTrigger="imageglow" targetParams="4" xPad="0">
+                <![CDATA[<list><li>上顧客は単に「満足している」顧客と比べると、再来店したり、知人等にあなたを推薦してくれる可能性がずっと高い </li></list>]]>
+</item>
+              <item id="bbc2" order="51" target="img2" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[<list><li>長所を最大活用し短所を克服してサービスやプロセスを改善するには、顧客のフィードバックを収集し、それを基に行動することが不可欠である </li></list>]]>
+</item>
+              <item id="bbc3" order="52" target="img3" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[<list><li>顧客の主な期待を満たすことが重要なのはもちろんであるが、真のロイヤリティを構築するにはそれ以上の事が求められる</li></list>]]>
+</item>
+              <item id="bbc4" order="53" target="img4" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[<list><li>あなたが顧客との間に築いた個人的なつながりこそが、リピーターや紹介客の増加をもたらす、持続的な人脈構築に役立つ</li></list>]]>
+</item>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene sNumber="7300" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[結論]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="7305" type="TextImageReplace" animType="timesync" endType="continue">
+        <ui uid="2" type="BodyText" width="680" height="190" x="center" y="270" margin="0" fontColor="0x000000" fontAlign="center" effect="none" time="1" ease="QuintEaseOut" trans="slideLeft" syncType="replace">
+           <bodyText id="bt1" timeIn="0.2" timeOut="999">
+                <![CDATA[お店に繰り返し足を運んでくださり、あなたの提供した質の高いサービス経験を他の人にも話してくれる「上顧客」を生み出すサービス。これが優れた顧客サービスです。さあこれで、ご自身の顧客サービス能力に確信がもてたことでしょう。<br /> 健闘を祈ります。]]>
+</bodyText>
+            </ui>
+                <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" scaleMode="none"  time=".5" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="img1" url="7305_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[image1]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

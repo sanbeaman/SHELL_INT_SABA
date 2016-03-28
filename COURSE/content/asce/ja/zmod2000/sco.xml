@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCEJAWB" template="ASCE" localeID="ja" debug="false">
+    <title>
+      <![CDATA[優れた顧客経験]]>
+</title>
+  </course>
+  <section id="0" snumber="2000">
+    <header>
+      <![CDATA[ロイヤリティの重要性]]>
+</header>
+    <scenes>
+      <scene id="2100" sNumber="2100" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[「満足している」顧客と上顧客の違い]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="2105" type="BulletImageGlow0" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="680" x="left" y="10" margin="20" fontSize="20"  trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <item id="bb1" order="1" time=".2" yPad="0">
+                <![CDATA[あなた自身が好んで利用する店やサービスは何ですか。また、その店やサービスを何度も繰り返し利用するのはなぜですか。]]>
+</item>
+            </ui>
+            <ui uid="3" type="bodyBulletCol" width="160" x="left" y="260" margin="20" fontSize="12"  time="1" trans="slideUp" ease="QuintEaseOut" textStyle="none" syncType="buildx" xPad="18">
+              <item id="bbc1" order="50" target="i1" targetTrigger="imageglow" targetParams="4" xPad="0">
+                <![CDATA[食料品の買い出し、]]>
+</item>
+              <item id="bbc2" order="51" target="i2" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[銀行手続き、]]>
+</item>
+              <item id="bbc3" order="52" target="i3" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[外食、]]>
+</item>
+              <item id="bbc4" order="53" target="i4" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[ヘアカットなど、さまざまな場面での顧客経験について考えてみましょう。]]>
+</item>
+            </ui>
+            <ui uid="1" type="bodyImageGlow" width="154" height="160" x='left' y='80' margin="20" fillColor="black" fillAlpha="1" frameShape="roundRect" frameColor="black" frameSize="2" frameAlpha="1" pulseColor="0xfe9003" time="1" trans="slideLeft" ease="QuintEaseOut" syncType="buildx" xPad="24">
+              <item id="i1" order="2" url="2105_1.jpg" xPad="0">x</item>
+              <item id="i2" order="3" url="2105_2.jpg">x</item>
+              <item id="i3" order="4" url="2105_3.jpg">x</item>
+              <item id="i4" order="5" url="2105_4.jpg">x</item>
+            </ui>
+          </slide>
+          <slide sNumber="2110" type="TextImageReplace" animType="timesync" endType="continue">
+            <ui uid="2" type="BodyText" width="680" height="190" x="center" y="270" margin="0" fontAlign="center" effect="none" time="1" ease="QuintEaseOut" trans="slideLeft" syncType="replace">
+              <bodyBullet id="bb1" timeIn=".5" timeOut="15.5">
+                <![CDATA[あなたが繰り返し利用するのは、これらの店舗が非常にレベルの高いサービスを提供することであなたのロイヤリティを獲得したからでしょう。]]>
+</bodyBullet>
+              <bodyBullet id="bb2" timeIn="16" timeOut="31">
+                <![CDATA[そのような店舗は、あなたのニーズや予算に適した、まさしくあなたにぴったりの解決策を見つけようと尽力し、信頼に基づいた関係を構築しています。]]>
+</bodyBullet>
+              <bodyBullet id="bb3" timeIn="31.5" timeOut="999">
+                <![CDATA[また、あなた自身が利用するだけでなく、ときには友人や家族、同僚に紹介することもあるでしょう。]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" scaleMode="none" time="3" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="2110_1.jpg" time="1" timeIn=".2" timeOut="15.5">
+                <![CDATA[image1]]>
+</bodyImage>
+              <bodyImage id="i2" url="2110_2.jpg" timeIn="16" timeOut="31">
+                <![CDATA[Image2]]>
+</bodyImage>
+              <bodyImage id="i3" url="2110_3.jpg" timeIn="31.5" timeOut="999">
+                <![CDATA[image3]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="2115" type="TextImageReplace" animType="timesync" endType="continue">
+            <ui uid="2" type="BodyText" width="680" height="190" x="center" y="270" margin="0" fontAlign="center" effect="none" time="2" trans="slideLeft" ease="QuintEaseOut" syncType="replace">
+              <bodyBullet id="bb1" timeIn=".5" timeOut="999">
+                <![CDATA[サービスまたはパーツ アドバイザーとして、ディーラーの他の業務担当者以上に、あなたはこのような顧客の熱意やロイヤリティを生み出しやすい立場にあるのです。]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" scaleMode="none" time="1" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="2115_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[image1]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="2120" type="Activity_DragRate" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="dragrate" x="left" y="10" margin="10"  order="1" time="1" trans="slideUp" ease="QuintEaseOut">
+              <screen id="1" x="0" y="0">
+                <actui uid="1" type="ScreenText" width="700" screen="1" syncType="buildy" yPad="5">
+                   <item type="screentext" fontSize="18">
+                <![CDATA[あなたの顧客には、あなた自身が期待するレベルのサービスを提供していますか。 次の演習で確認してみましょう。]]>
+</item>
+              <item type="directiontext" fontSize="12">
+                <![CDATA[左側にある顧客の期待事項リストから、あなたの職務において満たすべきだと思う最も重要な 5 つの項目を右側のスペースにドラッグします。終わったら [提出] をクリックします。初めからやり直すには、[リセット] をクリックします。]]>
+</item>
+                </actui>
+                <actui uid="20" type="SubHeader" order="5"  fontSize="16" screen="1">
+                  <item id="i1" type="dragHeader" x="0" y="0" width="300" height="40" fontAlign="center">
+                <![CDATA[顧客の期待事項]]>
+</item>
+                  <item id="i2" type="dropHeader" x="0" y="0" width="300" height="40" fontAlign="center">
+                <![CDATA[自分が満たすべきだ最重要項目]]>
+</item>
+                </actui>
+                <actui uid="24" type="ItemDragBox" width="320" height="42" x="0" y="0" layout="1col" columnPadding="20" rowPadding="4" fontSize="12"  fontStyle="reg" fontAlign="left" fontVertAlign="middle" frameSize="1" frameColor="white" fillType="gradient" fillColor="greycc" fillAlpha="1" fillColor2="greycc" xPad="20" yPad="10" order="30">
+                   <item id="i1" isanswer="drop00">
+                <![CDATA[顧客が来店の際には直ちに、名前で呼び親しみを込めた挨拶をする]]>
+</item>
+              <item id="i2" isanswer="drop00">
+                <![CDATA[必要な作業やサービス内容、パーツなどについて明確に説明する]]>
+</item>
+              <item id="i3" isanswer="drop00">
+                <![CDATA[注意深く顧客の話を聞き、質問を投げかけて正しく理解してる事を確認する]]>
+</item>
+              <item id="i4" isanswer="drop00">
+                <![CDATA[顧客をよく知り、顧客に「特別な存在である」と感じさせ、信頼を築くことで、個人的なつながりの構築を図る]]>
+</item>
+              <item id="i5" isanswer="drop00">
+                <![CDATA[サービス作業の進捗状況を顧客に連絡する]]>
+</item>
+              <item id="i6" isanswer="drop00">
+                <![CDATA[問題を来店初回で適切に解決する]]>
+</item>
+              <item id="i7" isanswer="drop00">
+                <![CDATA[顧客に利用のお礼を述べる]]>
+</item>
+                </actui>
+                <actui uid="28" type="ItemDropBox" height="42" x="340" y="0" layout="labelfirst" columnPadding="8" rowPadding="4" fontSize="16"  fontStyle="bold" fontAlign="center" frameSize="1" frameColor="white" frameAlpha="1" fillType="gradient" fillColor="0xcc6633" fillAlpha="1" fillColor2="orangegrad2" fillColorLabel="ltgrey" fillAlphaLabel="1" frameColorLabel="dkgrey" frameAlphaLabel="1" xPad="10" yPad="10">
+                  <item id="i1" isanswer="drop00">
+                    <![CDATA[1]]>
+</item>
+                  <item id="i2" isanswer="drop00">
+                    <![CDATA[2]]>
+</item>
+                  <item id="i3" isanswer="drop00">
+                    <![CDATA[3]]>
+</item>
+                  <item id="i4" isanswer="drop00">
+                    <![CDATA[4]]>
+</item>
+                  <item id="i5" isanswer="drop00">
+                    <![CDATA[5]]>
+</item>
+                </actui>
+                <actui uid="30" type="actbtns" order="50" width="160" height="34" x="right" y="bottom" margin="10" layout="abs" fontSize="16"  fontStyle="bold" pulseColor="orange" yPad="20" screen="1">
+                  <item id="chkbtn" type="reset" x="0" y="0" isActive="no">
+                    <![CDATA[リセット]]>
+</item>
+                  <item id="chkbtn" type="submit" x="180" y="0" isActive="no">
+                    <![CDATA[提出]]>
+</item>
+                </actui>
+              </screen>
+              <screen id="2" x="0" y="0">
+                <actui uid="1" type="ScreenText" width="710" x="0" y="0" synType="buildy" yPad="10">
+                <item type="screentext" fontSize="20">
+                <![CDATA[あなたの顧客には、あなた自身が期待するレベルのサービスを提供していますか。]]>
+</item>
+              <item type="directiontext" fontSize="14">
+                <![CDATA[解答方法: スライダーを使用して、各期待事項に対しあなたが提供しているサービスを正直に評価してください (1 = 悪い、5 = 非常に優れている)。終わったら [印刷] をクリックし、コースを通じてこのシートを参照します。]]>
+</item>
+                </actui>
+                <actui uid="10" type="newheader" order="10"  fontSize="18">
+                  <item id="i1" type="itemHeader" x="0" y="0" width="300" height="44" fontAlign="left" fontVertAlign="bottom" xPad="0">
+                <![CDATA[顧客の期待事項]]>
+</item>
+                </actui>
+                <actui uid="12" type="rateheader" order="10"  fontSize="18">
+                  <item id="i2" type="rateHeader" x="0" y="0" width="300" height="22" fontAlign="left" fontVertAlign="bottom" xPad="20">
+                <![CDATA[悪い]]>
+</item>
+                  <item id="i3" type="rateHeader" x="0" y="0" width="300" height="22" fontAlign="right" fontVertAlign="bottom">
+                <![CDATA[非常に優れている]]>
+</item>
+                  <item id="i4" type="rateNumbers" x="0" y="22" width="325" height="22" fontAlign="left" fontVertAlign="bottom" fontSize="14" >
+                    <![CDATA[1|2|3|4|5]]>
+</item>
+                </actui>
+                <actui uid="15" type="ItemRateSlider" width="300" height="42" x="0" y="0" order="20" layout="rel" columnPadding="10" rowPadding="6" fontSize="16" fontColor="dkgrey" fontStyle="bold" fontAlign="center" fontVertAlign="middle" fillColor="ltgrey" frameSize="1" frameColor="dkgrey">
+                  <item id="r1">
+                    <![CDATA[1]]>
+</item>
+                  <item id="r2">
+                    <![CDATA[2]]>
+</item>
+                  <item id="r3">
+                    <![CDATA[3]]>
+</item>
+                  <item id="r4">
+                    <![CDATA[4]]>
+</item>
+                  <item id="r5">
+                    <![CDATA[5]]>
+</item>
+                </actui>
+                <actui uid="20" type="actbtns" order="50" width="160" height="34" fontSize="16"  fontStyle="bold" pulseColor="orange" layout="abs" x="right" y="bottom" margin="10" yPad="0">
+                  <item id="chkbtn" type="print" x="0" y="0" isActive="yes">
+                    <![CDATA[印刷]]>
+</item>
+                </actui>
+              </screen>
+            </ui>
+          </slide>
+          <slide sNumber="2130" type="BulletImageGlow2" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="700" x="top" y="left" margin="10" time="1" trans="slideRight" ease="QuintEaseOut">
+              <item id="bb1" order="1" yPad="0">
+            <![CDATA[顧客を単に満足させるだけのサービスでは十分とは言えません。これは、「満足している」顧客が必ずしも上顧客というわけではないからです。次の違いを十分認識してください。]]>
+</item>
+            </ui>
+            <ui uid="3" type="bodyBulletCol" width="320" x="left" y="260" margin="10" fontSize="12"  fontAlign="left" textStyle="textflow" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <item id="bbc1" order="50" yPad="0">
+                <![CDATA[<list><li>満足は、単に「問題がない」ことを意味する場合がある</li></list>]]>
+</item>
+              <item id="bbc2" order="52">
+                <![CDATA[<list><li>ただ「満足している」顧客は、手間暇かけてまで製品やサービスを使用したり、プレミアム料金を払ったりしない</li></list>]]>
+</item>
+              <item id="bbc3" order="55">
+                <![CDATA[<list><li>「満足している」顧客は、魅力的な条件を提示されれば容易に競合相手に乗り換える</li></list>]]>
+</item>
+              <item id="bbc4" order="58">
+                <![CDATA[<list><li>他店を利用する顧客の 80% は「「満足している」」と答えた顧客である</li></list>]]>
+</item>
+            </ui>
+            <ui uid="3" type="bodyBulletCol" width="320" x="right" y="260" margin="10" fontSize="12"  fontAlign="left" textStyle="textflow" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <item id="bbc5" order="60" yPad="0">
+                <![CDATA[<list><li>上顧客は他店に移りたがらない</li></list>]]>
+</item>
+              <item id="bbc6" order="61">
+                <![CDATA[<list><li>上顧客は約 10 倍の確率で再購入する</li></list>]]>
+</item>
+              <item id="bbc7" order="66">
+                <![CDATA[<list><li>上顧客は各々、 5 件の購入につながる新規顧客を紹介してくれる</li></list>]]>
+</item>
+              <item id="bbc8" order="68">
+                <![CDATA[<list><li>上顧客は「満足している」顧客よりも 23% 高い利益をもたらす</li></list>]]>
+</item>
+            </ui>
+             <ui uid="5" type="slideEndNote" fontSize="10" time=".2" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" time="1"  order="62">
+                <![CDATA[出典: Bain & Company, 2009]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyImageGlow" width="154" height="160" y='80' margin="110" fillColor="black" fillAlpha="1" frameShape="roundRect" frameColor="black" frameSize="2" frameAlpha="1" pulseColor="orange" time="1" ease="QuintEaseOut" syncType="add">
+              <item id="img1" order="2" url="2130_1.jpg" x='left' trans="slideright">
+                <label>
+                <![CDATA[満足している顧客]]>
+</label>
+              </item>
+              <item id="img2" order="3" url="2130_2.jpg" x='right' trans="slideleft">
+                <label>
+                <![CDATA[上顧客]]>
+</label>
+              </item>
+            </ui>
+          </slide>
+          <slide sNumber="2135" type="TextImageReplace" animType="timesync" endType="continue">
+            <ui uid="2" type="BodyText" width="680" height="190" x="center" y="270" margin="0" fontAlign="center" effect="none"  trans="slideLeft" time="2" ease="QuintEaseOut" syncType="replace">
+              <bodyBullet id="bb1" timeIn=".5" timeOut="999">              <![CDATA[満足度からロイヤリティへと焦点を移すと、業務の取り組み方に大幅な変更が必要となる場合がありますが、このことが長期的な成長および収益増につながります。]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" scaleMode="none" time=".1" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="2135_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[image1]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="2200" sNumber="2200" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[ロイヤリティと収益性]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="2205" type="TextImageReplace" animType="timesync" endType="continue">
+            <ui uid="2" type="BodyText" width="680" height="190" x="center" y="270" margin="0" fontAlign="center" effect="none" time="2" ease="QuintEaseOut" trans="slideLeft" syncType="replace">
+              <bodyBullet id="bb1" timeIn=".5" timeOut="999">
+              <![CDATA[実際、クライスラー グループは顧客満足から顧客ロイヤリティ志向へとビジネスの焦点を移しつつあります。 <br /> 一部市場に関してはすでに SSI/CSI 測定基準に代わり、顧客プロモーション スコア (CPS) を導入しています。]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" scaleMode="none" time=".5" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="2205_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[image1]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="2210" type="TextImageReplace" animType="timesync" endType="continue">
+            <ui uid="2" type="BodyText" width="680" height="190" x="center" y="270" margin="0" fontAlign="center" effect="none" time="2" trans="slideLeft" ease="QuintEaseOut" syncType="replace">
+              <bodyBullet id="bb1" timeIn=".5" timeOut="10">                <![CDATA[米国内では、販売とサービスを通じた経験に対する顧客満足度を、長年にわたって調査してきました。その結果満足度スコアは長年の間ずっと上昇傾向にあります。]]>
+</bodyBullet>
+              <bodyBullet id="bb2" timeIn="10.5" timeOut="20">
+                <![CDATA[しかし、当然これだけでは不十分です。満足度スコアがずっと向上する一方で、当社およびブランド、ディーラーに対する顧客ロイヤリティはそれに伴っていません。]]>
+</bodyBullet>
+              <bodyBullet id="bb3" timeIn="20.5" timeOut="999">
+                <![CDATA[「「満足している」」顧客には、他のブランドやディーラーへの鞍替えが目立ちます。]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" scaleMode="none" time="3" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="2210_1.jpg" timeIn=".2" timeOut="999" time=".1">
+                <![CDATA[image1]]>
+</bodyImage>
+            </ui>
+            <ui uid="5" type="slideEndNote" fontSize="10" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="9" timeIn="4" timeOut="999">
+                <![CDATA[*グラフは米国のデータに基づくものです。]]>
+</bodyNote>
+            </ui>
+          </slide>
+          <slide sNumber="2215" type="TextImageAround" animType="timesync" endType="Continue">
+            <ui uid="2" type="BodyText" width="280" height="200" x="center" y="200" fontAlign="center" effect="none" time="1" trans="slideup" ease="QuintEaseOut" syncType="replace">
+             <bodyText id="bt1" timeIn="0.5" timeOut="10">
+                <![CDATA[幸い、「満足」とロイヤリティが必ずしも連動しないという事実はこの業界に限られたことではなく、近年さかんに調査が行われています。]]>
+</bodyText>
+              <bodyText id="bt2" timeIn="10.5" timeOut="20">
+                <![CDATA[その結果、ロイヤリティ調査の第一人者らは、顧客の態度と行動、そして企業の成長の間に関連性を見出しました。]]>
+</bodyText>
+              <bodyText id="bt3" timeIn="20.5" timeOut="999">
+                <![CDATA[ひとつの簡単な「究極の質問」に対する顧客の反応に基づいて評価を行い、これを基準として顧客プロモーション スコアを導くことができます。]]>
+</bodyText>
+            </ui>
+            <ui uid="1" type="BodyImage" width="240" height="160" x="center" y="top" margin="10" effect="none" scaleMode="none" centerIt="true" time="1" trans="slideup" ease="QuintEaseOut">
+              <bodyImage id="img1" url="2215_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[main image]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="BodyImage" width="150" height="100" x="left" y="top" margin="10" effect="none" scaleMode="none" trans="slideright" ease="QuintEaseOut" time="1" syncType="buildy" yPad="7">
+              <bodyImage id="img2" url="2215_2.jpg" timeIn="2" timeOut="999" yPad="0">
+                <![CDATA[img2]]>
+</bodyImage>
+              <bodyImage id="img4" url="2215_4.jpg" timeIn="4" timeOut="999">
+                <![CDATA[img4]]>
+</bodyImage>
+              <bodyImage id="img6" url="2215_6.jpg" timeIn="6" timeOut="999">
+                <![CDATA[img6]]>
+</bodyImage>
+              <bodyImage id="img8" url="2215_8.jpg" timeIn="8" timeOut="999">
+                <![CDATA[img8]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="BodyImage"  width="150" height="100" x="right" y="top" margin="10" effect="none" scaleMode="none" trans="slideleft" ease="QuintEaseOut" time="1" syncType="buildy" yPad="7">
+              <bodyImage id="img3" url="2215_3.jpg" timeIn="3" timeOut="999" yPad="0">
+                <![CDATA[img3]]>
+</bodyImage>
+              <bodyImage id="img5" url="2215_5.jpg" timeIn="5" timeOut="999">
+                <![CDATA[img5]]>
+</bodyImage>
+              <bodyImage id="img7" url="2215_7.jpg" timeIn="7" timeOut="999">
+                <![CDATA[img7]]>
+</bodyImage>
+              <bodyImage id="img9" url="2215_9.jpg" timeIn="9" timeOut="999">
+                <![CDATA[img9]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="2220" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+             <bodyBullet id="bb0" order="2" yPad="0">
+                <![CDATA[その質問とは、「友人や同僚に当社を勧めますか。」です。]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4">
+                <![CDATA[<li>調査により、顧客が会社や製品を推薦する可能性が高いほど、その会社や製品に対する長期的なロイヤリティを持つ傾向が強いことがわかっています。</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+                <![CDATA[<li>また、顧客が特定の経験に「「満足している」」と答えたからといって、必ずしもその会社を人に推薦したり、長期的なロイヤリティを抱くとは限らないことも明らかになりました。</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="8">
+                <![CDATA[<li>つまり、ロイヤリティ構築には優れたサービスの提供が不可欠なのです。そしてもちろん、顧客ロイヤリティを一度獲得すれば、あなた自身にも大きなメリットがもたらされます。それは、その顧客からの紹介客です。</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10" scaleMode="width" time="1" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="25">
+              <bodyImage id="i1" order="3" url="2220_1.jpg" yPad="0">
+                <![CDATA[image 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="5" url="2220_2.jpg">
+                <![CDATA[Image 2]]>
+</bodyImage>
+              <bodyImage id="i3" order="7" url="2220_3.jpg">
+                <![CDATA[Image 3]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="2225" type="TextImageReplace" animType="timesync" endType="Continue">
+            <ui uid="2" type="BodyText" width="680" height="190" x="center" y="270" margin="0" fontAlign="center" effect="none" time="2" trans="slideLeft" ease="QuintEaseOut" syncType="replace">
+             <bodyText id="bt1" timeIn="0.5" timeOut="999">
+                <![CDATA[クライスラー グループが多くの市場で CPS の使用へと移行しているのはこのためです。究極の質問への答え、そして顧客があなたを推薦する、または推薦しない理由を突き止めることは、長所を最大活用し短所を克服するための有効な手段となるでしょう。 <br /> CPS をまだ使用していない方も、その根底にあるコンセプトを取り入れることで、重要事項に焦点を絞った改善努力が可能となります。]]>
+</bodyText>
+            </ui>
+            <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" scaleMode="none" time=".5" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="2225_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[image1]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

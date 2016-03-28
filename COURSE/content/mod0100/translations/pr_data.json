@@ -1,0 +1,86 @@
+{
+	"General": {
+		"Yes" : "Yes",
+		"No" : "No",
+		"Or" : "ou",
+		"Enabled" : "Habilitado",
+		"Disabled" : "Desabilitado",
+		"PrePercent" : "em zoom de ",
+		"PostPercent" : "%",
+		"Override" : "Substituir",
+		"Continue" : "Continuar",
+		"ReTest" : "Retestar",
+		"Alert" : "Impossível localizar implementação do API LMS.\n Comunicação com o LMS não ocorrerá.",
+		"Wait" : "Por favor, aguarde..."
+	},
+
+	"Headers" : {
+		"PageTitle" : "Verificador do Sistema",
+		"CAImage": "assets/CA_logo.gif",
+		"SysChecFail" : "Verificador do Sistema falhou", 
+		"CurrentPass" : "Sistema atual aprovado",
+		"Status" : "Status",
+		"SysComp" : "Componente do sistema",
+		"MinReq" : "Requisitos mínimos",            
+		"YourSys" : "Seu sistema",
+		"Info" : "Info/Links"
+	},
+
+	"AdditionalRequirements": {
+		"Name": "Requisitos adicionais (não verificados)",
+		"Requirements": [
+			{ "Type" : "Som" , "Value" : "Placa de som, alto-falantes ou fones"},
+			{ "Type" : "Bloqueadores de pop-up devem ser desativados" , "Value" : "" },
+			{ "Type" : "Cor do monitor" , "Value" : "16 bits no mínimo" },
+			{ "Type" : "Velocidade de conexão" , "Value" : "Internet de banda larga recomendada"}
+		]
+	},
+
+	"UIText": {
+		"InstructionalTextCorrect" : "Se você sair do curso antes de concluir e depois continuá-lo em um computador diferente, recomendamos retestar seu sistema usando o Verificador do Sistema.<br><br>Uma conexão de internet confiável e de banda larga. Antes de iniciar este curso, verifique se o curso correto é exibido acima. Uma vez no curso, você pode fechar a janela do navegador para salvar seu progresso em todos os tópicos concluídos e sair. Selecione Continuar para iniciar o curso.",
+		"InstructionalTextFailed" : "Seu sistema não satisfaz os requisitos mínimos para executar este programa.<br/><br/>Consulte a tabela abaixo. Selecione 'Mais informações' para obter as informações de atualização e os links de download. Se a sua ação não exigir um download e/ou reinicialização, selecione 'Retestar' quando estiver pronto.",
+		"InstructionalTextOverridePopup" : "Aviso: este curso pode não funcionar conforme planejado. Tem certeza de que deseja prosseguir?"
+	},
+
+	"Mandatory": {
+		"MoreInfo": "Mais informações",
+		"OpSys": "Sistema operacional",
+		"JS":"JavaScript",
+		"WebBrowser": "Navegador da Web",
+		"Cookies":"Cookies",
+		"MSR": "Resolução da tela principal",
+		"FlashVersion" : "Versão do Flash",
+		"PDF": "Leitor de PDF"
+    },
+
+    "MoreInfo": {
+		"OperatingSystems": { 
+			"Title":"Qual sistema operacional você usa?", 
+			"Content":"Todos os computadores exigem um sistema operacional para executar aplicativos. Os exemplos incluem Microsoft Windows, Apple Macintosh e UNIX. Se você recebeu uma mensagem de alerta, troque para um computador que execute o Microsoft Windows ou Apple Macintosh com uma versão recente do sistema operacional instalado.<br /><br />Se você precisar de mais ajuda, clique com o botão direito em seu navegador e selecione a opção 'imprimir' para imprimir estas informações, e forneça-as ao administrador do sistema." },
+		"Browser": { 
+			"Title":"Seu navegador está atualizado?", 
+			"Content":"Para executar nosso curso na Internet, é melhor que o seu computador tenha uma versão atualizada do navegador da web. Você pode tentar o Internet Explorer, Mozilla Firefox, Google Chrome ou Safari (apenas Mac) e ver qual oferece o melhor resultado. Alguns cursos podem funcionar melhor com uma versão recente. Se necessário, você pode baixar uma atualização selecionando um dos links fornecidos.<br /><div class='moreInfoLinks'><a href='http://www.microsoft.com/en-us/download/ie.aspx?q=internet+explorer' target='_blank'><img src='./assets/ie.png' alt='Internet Explorer' /></a><a href='http://www.mozilla.org/en-US/firefox/new/' target='_blank'><img src='./assets/firefox.png' alt='Mozilla Firefox' /></a><a href='https://www.google.com/intl/en/chrome/browser/welcome.html' target='_blank'><img src='./assets/chrome.png' alt='Google Chrome' /></a><a href='http://www.apple.com/safari/' target='_blank'><img src='./assets/safari.png' alt='Safari' /></a></div><br />Se você precisar de mais ajuda, clique com o botão direito em seu navegador e selecione a opção 'imprimir' para imprimir estas informações, e forneça-as ao administrador do sistema. Alguns downloads também estão disponíveis em DealerCONNECT/eSupport/Library/Downloads" },
+		"JavaScript": { 
+			"Title":"Como verificar e alterar suas configurações do JavaScript", 
+			"Content":"Nota: Para permitir a execução de scripts apenas neste site e deixá-los desativados na zona da Internet, adicione este site à zona de sites confiáveis: https://fgcg.sabanow.net/Saba/Web/Main<h3>Internet Explorer 8.0 ou 9.0 (Windows):</h3><ol><li>No menu Ferramentas, clique em Opções da Internet e na guia Segurança.</li><li>Clique na zona da Internet.</li><li>Se você não precisa personalizar as configurações de segurança da Internet, clique em Nível padrão. Em seguida, conclua a etapa 4.<ul id='noListBullet'><li>Se você precisa personalizar as configurações de segurança da Internet, siga estas etapas:Clique em Nível personalizado.</li><li>Na caixa de diálogo Configurações de segurança - zona da Internet, clique em Habilitar para Scripts ativos na seção Scripts.</li></ol></li><li>Clique no botão Voltar para retornar à página prévia, e em seguida no botão Atualizar para executar scripts.</li></ol><h3>Safari 5.1 (Mac):</h3><ol><li>Selecione Preferências no menu Safari.</li><li>Clique em Segurança.</li><li>Marque Habilitar JavaScript.</li><li>Feche a janela Preferências.</li><li>Clique em Recarregar para atualizar o conteúdo da página.</li></ol>Se você precisar de mais ajuda, clique com o botão direito em seu navegador e selecione a opção 'imprimir' para imprimir estas informações, e forneça-as ao administrador do sistema." },
+		"Cookies": { 
+			"Title":"Como habilitar Cookies?", 
+			"Content":"Bloquear todos os cookies pode ajudar a proteger sua privacidade, mas também pode limitar sua experiência em alguns sites. Você pode começar bloqueando todos os cookies, e depois permiti-los conforme necessários nos sites em que você confia. Para que estes cursos funcionem corretamente, exigimos que você habilite os cookies.<h3>Internet Explorer 8.0 (Windows):</h3><ol><li>Abra o Internet Explorer clicando no botão Iniciar e em Internet Explorer.<img src='./assets/start.png' alt='Start Button' /></li><li>Clique no botão Ferramentas e em Opções da Internet.</li><li>Clique na guia Privacidade e, em Configurações, mova o botão deslizante para baixo para habilitar todos os cookies, e clique em OK.</li></ol><h3>Internet Explorer 9.0 (Windows):</h3><ol><li>Abra o Internet Explorer clicando no botão Iniciar. Na caixa de pesquisa, digite Internet Explorer e na lista de resultados clique em Internet Explorer.<img src='./assets/start.png' alt='Start Button' /></li><li>Clique no botão Ferramentas e em Opções da Internet.<img src='./assets/tools.jpg' alt='Tools Button' /></li><li>Clique na guia Privacidade e, em Configurações, mova o botão deslizante para baixo para habilitar todos os cookies, e clique em OK.</li></ol><h3>Safari 5.1 (Mac):</h3><ol><li>No Safari, no menu Safari, selecione Preferências.</li><li>Na janela de preferências do Safari, clique em Privacidade.</li><li>Para configurar suas preferências para aceitar cookies, ao lado de 'Bloquear cookies:' selecione Sempre ou Nunca para terceiros e anunciantes.</li><li>Se você tiver cookies ou outros dados de sites armazenados, clique em Detalhes. Para remover os dados de um site, destaque e clique em Remover. Para remover os dados de todos os sites, clique em Remover tudo. Quando terminar, clique em Concluído para retornar à janela de preferências.</li><li>Se você precisar de mais ajuda, clique com o botão direito em seu navegador e selecione a opção 'imprimir' para imprimir estas informações, e forneça-as ao administrador do sistema.</li></ol>" },
+		"Resolution": { 
+			"Title":"Como alterar a resolução da sua tela?", 
+			"Content":"<h3>PC com Windows 7:</h3><ol><li>Abra a Resolução da tela clicando no botão Iniciar, Painel de controle e, em Aparência e personalização, clique em Ajustar resolução da tela.<img src='./assets/start.png' alt='Start Button' /></li><li>Clique na lista suspensa ao lado de Resolução, mova o botão deslizante até a resolução desejada e clique em Aplicar.</li><li>Clique em Manter para usar a resolução nova, ou em Reverter para voltar à prévia.<br/><img src='./assets/resolutionCap.jpg' alt='Resolution Change Image' id='resolutionImage' /><br/>A Resolução da tela no Painel de controle mostra a resolução recomendada para seu monitor.</li></ol><h3>Mac OS X:</h3><ol><li>Clique no logotipo da Apple no canto esquerdo superior do display.<img src='./assets/appleLogo.jpg' alt='Apple Logo' /></li><li>Clique em 'Preferências do sistema' e em 'Displays'.</li><li>Clique em 'Display' se não estiver selecionado.</li><li>Selecione uma resolução na lista de resoluções disponíveis. A resolução mais comum é 1280x1024 para telas padrão e 1280x800 para wide screens desde fevereiro de 2012. O Mac OS X aplica a nova configuração imediatamente.</li></ol><br/><br/>Leia mais: Como alterar a resolução da tela no Mac:<a href='http://www.macworld.com/article/1158603/macresolution.html' target='_blank'>http://www.macworld.com/article/1158603/macresolution.html</a> <br /><br/>Se você precisar de mais ajuda, clique com o botão direito em seu navegador e selecione a opção 'imprimir' para imprimir estas informações, e forneça-as ao coordenador do sistema." },
+		"Flash": { 
+			"Title":"A versão mais recente do Flash está instalada?", 
+			"Content":"O Flash é um plug-in que permite a reprodução da multimídia através do navegador. O leitor do Flash pode ser baixado ou atualizado gratuitamente no site Adobe.com, o fabricante de software que suporta o Flash. Basta selecionar o link fornecido e seguir as instruções na tela.<br /><br/><div class='moreInfoLinks'><a href='http://get.adobe.com/flashplayer/' target='_blank'><img src='./assets/flash.png' alt='Flash logo' /></a></div><br /><br/>Se você precisar de mais ajuda, clique com o botão direito em seu navegador e selecione a opção 'imprimir' para imprimir estas informações, e forneça-as ao administrador do sistema. Alguns downloads também estão disponíveis em DealerCONNECT/eSupport/Library/Downloads." },
+		"AdobeReader": { 
+			"Title":"A versão mais recente do Adobe Reader está instalada?", 
+			"Content":"O Adobe Acrobat Reader é um plug-in que permite a visualização de um arquivo PDF através do navegador. O Adobe Acrobat Reader pode ser baixado ou atualizado gratuitamente no site www.adobe.com. Basta selecionar o link fornecido e seguir as instruções na tela.<br /><br /><div class='moreInfoLinks'><a href='http://www.adobe.com/ca/products/reader.html' target='_blank'><img src='./assets/adobeReader.gif' alt='Adobe Reader' id='adobeImage'></a></div><br /><br />Se você precisar de mais ajuda, clique com o botão direito em seu navegador e selecione a opção 'imprimir' para imprimir estas informações, e forneça-as ao administrador do sistema. Alguns downloads também estão disponíveis em DealerCONNECT/eSupport/Library/Downloads.<h3>Baixando Adobe Reader</h3>Downloads atuais (suportados pela DealerCONNECT) podem ser acessados no portal DealerCONNECT clicando em DealerCONNECT/eSupport/Library/Downloads." }
+    },
+
+	"Additional": [
+		{ "Name":"Som", "Value":"Placa de som, alto-falantes ou fones" },
+		{ "Name":"Bloqueadores de pop-up ", "Value":"devem ser desativados" },
+		{ "Name":"Cor do monitor", "Value":"16 bits no mínimo" },
+		{ "Name":"Velocidade de conexão", "Value":"Internet de banda larga recomendada" }
+	]
+}

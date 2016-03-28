@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCECHWB" template="ASCE" localeID="zh" debug="false">
+    <title>
+      <![CDATA[卓越的客户体验]]>
+</title>
+  </course>
+  <section id="0" snumber="5000">
+    <header>
+      <![CDATA[建立个性化的沟通]]>
+</header>
+    <scenes>
+      <scene sNumber="5100" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[个性化接触的力量]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="5105" type="BulletImageGlow" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="680" x="left" y="top" margin="10" fontSize="18" time="1" trans="slideRight" ease="QuintEaseOut" yPad="0">
+              <item id="bb1" order="1" time="1">
+                <![CDATA[要培养经常光顾且积极将您推荐给其他人的忠诚客户，您需要与尽可能多的客户建立个性化的联系。以下是可以采用的方法。]]>
+</item>
+            </ui>
+            <ui uid="3" type="bodyBulletCol" width="160" x="left" y="270" margin="20" fontSize="12" textStyle="textflow" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildx" xPad="18">
+              <item id="bbc1" order="50" target="img1" targetTrigger="imageglow" targetParams="4" xPad="0">
+                <![CDATA[<list listStylePosition="outside" listStyleType="decimal" paddingLeft="10"><listMarkerFormat><ListMarkerFormat counterIncrement="ordered 1" /></listMarkerFormat> <li>了解客户 <list listStylePosition="outside"  listStyleType="disc" ><listMarkerFormat><ListMarkerFormat beforeContent="" /></listMarkerFormat> <li>要了解客户本人，而不只是维修单上的名字</li> </list></li></list>]]>
+</item>
+              <item id="bbc2" order="51" target="img2" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[<list listStylePosition="outside" listStyleType="decimal" paddingLeft="24"><listMarkerFormat><ListMarkerFormat counterIncrement="ordered 2"/></listMarkerFormat> <li>让客户感觉受到特殊礼遇 <list listStyleType="disc" paddingLeft="50"><listMarkerFormat><ListMarkerFormat /></listMarkerFormat> <li>引导客户谈论他们自己</li> <li>在倾听过程中寻找共同的兴趣点，与客户建立个性化的联系</li> </list></li></list>]]>
+</item>
+              <item id="bbc3" order="52" target="img3" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[<list listStylePosition="outside" listStyleType="decimal"> <listMarkerFormat><ListMarkerFormat counterIncrement="ordered 3"/></listMarkerFormat> <li>培养信任感和价值感 <list listStylePosition="outside" listStyleType="disc"> <li>支持客户的需求</li> <li>诚实坦率</li> </list></li></list>]]>
+</item>
+              <item id="bbc4" order="53" target="img4" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[<list listStylePosition="outside" listStyleType="decimal"><listMarkerFormat><ListMarkerFormat counterIncrement="ordered 4"/></listMarkerFormat> <li>保持联系<list listStylePosition="outside" listStyleType="disc"> <li>不要客人一走就将其抛在脑后</li> </list></li></list>]]>
+</item>
+            </ui>
+            <ui uid="5" type="bodyImageGlow" x='20' y='90' width="154" height="160" margin="20" fillColor="0x000000" fillAlpha="1" frameShape="roundRect" frameColor="0x000000" frameSize="2" frameAlpha="1" pulseColor="orange" trans="slideLeft" ease="QuintEaseOut" syncType="buildx" xPad="24">
+              <item id="img1" order="2" time="1" url="5105_1.jpg" xPad="0">x</item>
+              <item id="img2" order="3" time="1" url="5105_2.jpg">x</item>
+              <item id="img3" order="4" time="1" url="5105_3.jpg">x</item>
+              <item id="img4" order="5" time="1" url="5105_4.jpg">x</item>
+            </ui>
+          </slide>
+          <slide sNumber="5110" type="Activity_MultipleChoice" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" trans="slideUp" ease="QuintEaseOut" xPad="10" yPad="10">
+              <actui type="ScreenText" width="680" x="left" y="0" margin="0" syncType="buildy" yPad="10">
+                <item type="header" fontSize="24" yPad="0">
+                  <![CDATA[<b>了解客户</b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+                  <![CDATA[了解客户的技巧有哪些？]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                  <![CDATA[说明：请选择所有适用的选项。然后点击“核对答案”。]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="cb" width="660" height="36" x="left" y="0" margin="0" fontSize="16" fontColor="0x000000" fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="0x000000" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="16">
+                <item id="i1" isanswer="true">
+                  <![CDATA[知道并称呼客户的名字]]>
+</item>
+                <item id="i2" isanswer="true">
+                  <![CDATA[称赞客人选车的眼光]]>
+</item>
+                <item id="i3" isanswer="false">
+                  <![CDATA[请每一位客户提交一张本人照片，并填写个人信息登记表]]>
+</item>
+                <item id="i4" isanswer="true">
+                  <![CDATA[告诉客户有问题尽管来找您或向您咨询 – 您将为其提供贴心的服务！]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="200" height="34" x="right" y="0" margin="10" fontSize="16" fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[核对答案]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct">
+                  <![CDATA[正确！使用这些简单的建议来了解客户。这是使您的经销商与未努力建立个性化联系的竞争对手区分开的第一步。选择“下一步”，查看更多了解客户的方式。]]>
+</item>
+                <item type="wrong">
+                  <![CDATA[错误。第一个、第二个和第四个答案是正确的。使用这些简单的建议来了解客户。这是将您的经销商与未着手建立个性化的联系的竞争对手区分开的第一步。选择“下一步”，查看更多了解客户的方式。]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="5115" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="2" fontSize="24" fontStyle="bold" time=".5" yPad="0">
+                <![CDATA[<b>了解客户</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4">
+                <![CDATA[<li>自我介绍</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+                <![CDATA[<li>感谢客户的光临</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="8">
+                <![CDATA[<li>邀请客户参观服务部的其它区域</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="10">
+                <![CDATA[<li>以热忱的服务给客户留下深刻的印象</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="12">
+                <![CDATA[<li>说明经销商团队将竭诚为客户提供优质的售后服务</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10" scaleMode="width" time="1" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="25">
+              <bodyImage id="i1" order="5" url="5115_1.jpg" yPad="0">
+                <![CDATA[image 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="7" url="5115_2.jpg">
+                <![CDATA[Image 2]]>
+</bodyImage>
+              <bodyImage id="i3" order="11" url="5115_3.jpg">
+                <![CDATA[Image 3]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="5120" type="Activity_MultipleChoice" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" yPad="10" xPad="10" trans="slideUp" ease="QuintEaseOut">
+              <actui type="ScreenText" width="680" x="left" y="0" margin="0" syncType="buildy" yPad="10">
+                <item type="header" fontSize="24" yPad="0">
+                  <![CDATA[<b>让客户感觉受到特殊礼遇</b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+                  <![CDATA[有哪些技巧可以使客户感觉受到特殊礼遇？]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                  <![CDATA[说明：请选择所有适用的选项。然后点击“核对答案”。]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="cb" width="600" height="36" x="left" y="0" margin="0" fontSize="16" fontColor="0x000000" fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="0x000000" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="16">
+                <item id="i1" isanswer="true">
+                  <![CDATA[引导客户谈论他们自己]]>
+</item>
+                <item id="i2" isanswer="false">
+                  <![CDATA[告诉他们近期也有其他客户提出过同样的维修或维护需求]]>
+</item>
+                <item id="i3" isanswer="true">
+                  <![CDATA[通过分享一些您自己的事情，寻找共同的兴趣点，从而建立联系的纽带]]>
+</item>
+                <item id="i4" isanswer="false">
+                  <![CDATA[再次向客户保证，他们将受到与其他客户同等的待遇]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="200" height="34" x="right" y="0" margin="20" fontSize="16" fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[核对答案]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct">
+                  <![CDATA[正确！对于您为使客户感觉受到特殊礼遇而作出的努力，大多数客户都会作出积极的回应。选择“下一步”,查看更多有效的技巧。]]>
+</item>
+                <item type="wrong">
+                  <![CDATA[错误。第一个和第三个答案是正确的。对于您为使客户感觉受到特殊礼遇而作出的努力，大多数客户都会作出积极的回应。选择“下一步”，查看更多有效的技巧。]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="5125" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="2" fontSize="24" fontStyle="bold" time=".5" yPad="0">
+                <![CDATA[<b>让客户感觉受到特殊礼遇</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4">
+                <![CDATA[<li>用心倾听，积极引导客户分享自己的相关信息</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+                <![CDATA[<li>迎合客户的个性</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="8">
+                <![CDATA[<li>对客户分享的信息表现出真诚的兴趣</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="10">
+                <![CDATA[<li>通过介绍经销商工作时间、服务和布局，让客户感觉轻松自在</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="12">
+                <![CDATA[<li>推荐可用的莫帕配件和性能零件</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10" scaleMode="width" time="1" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="25">
+              <bodyImage id="i1" order="5" url="5125_1.jpg" yPad="0">
+                <![CDATA[image 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="7" url="5125_2.jpg">
+                <![CDATA[Image 2]]>
+</bodyImage>
+              <bodyImage id="i3" order="11" url="5125_3.jpg">
+                <![CDATA[Image 3]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="5130" type="Activity_MultipleChoice" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" yPad="10" xPad="10" trans="slideUp" ease="QuintEaseOut">
+              <actui type="ScreenText" width="680" x="left" y="0" margin="0" syncType="buildy" yPad="10">
+                <item type="header" fontSize="24" yPad="0">
+                  <![CDATA[<b>培养信任感和价值感</b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+                  <![CDATA[可以使用哪些技巧来培养客户的信任感和价值感？]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                  <![CDATA[说明：请选择所有适用的选项。然后点击“核对答案”。]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="cb" width="660" height="36" x="left" y="0" margin="0" fontSize="16" fontColor="0x000000" fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="0x000000" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="16">
+                <item id="i1" isanswer="false">
+                  <![CDATA[即使在车辆检查过程中没有发现什么问题，也要编造一些问题，以使客户感觉您已尽到自己的职责]]>
+</item>
+                <item id="i2" isanswer="true">
+                  <![CDATA[始终报告检查结果，即便不需要任何操作也应如此]]>
+</item>
+                <item id="i3" isanswer="false">
+                  <![CDATA[完成所有必要的维修，包括客户未意识到的操作]]>
+</item>
+                <item id="i4" isanswer="true">
+                  <![CDATA[适时向客户推介相关零件]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="200" height="34" x="right" y="0" margin="10" fontSize="16" fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[核对答案]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct">
+                  <![CDATA[正确！坦诚对待客户，客户将会信赖您，并希望您为其提供所有的车辆服务。选择“下一步”，查看更多培养信任感和价值感的方式。]]>
+</item>
+                <item type="wrong">
+                  <![CDATA[错误。第二个和第四个答案是正确的。坦诚对待客户，客户将会信赖您，并希望您为其提供所有的车辆服务。选择“下一步”，查看更多培养信任感和价值感的方式。]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="5135" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="2" fontSize="24" fontStyle="bold" time=".5" yPad="0">
+                <![CDATA[<b>培养信任感和价值感</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4">
+                <![CDATA[<li>向对车辆维修感到有压力的客户表示理解</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+                <![CDATA[<li>记录已经存在的车辆损坏，以免日后产生争议</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="8">
+                <![CDATA[<li>表示关注客户的时间（状态更新）和费用</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="10">
+                <![CDATA[<li>帮助客户将需要进行的维修工作排出优先次序</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="12">
+                <![CDATA[<li>提供始终如一的服务 – 例如，如果您一般会在服务结束后洗车，则应坚持清洗每一辆车</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10" scaleMode="width" time="1" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="25">
+              <bodyImage id="i1" order="5" url="5135_1.jpg" yPad="0">
+                <![CDATA[image 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="7" url="5135_2.jpg">
+                <![CDATA[Image 2]]>
+</bodyImage>
+              <bodyImage id="i3" order="11" url="5135_3.jpg">
+                <![CDATA[Image 3]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="5140" type="Activity_MultipleChoice" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="mc" x="left" y="10" margin="10" yPad="10" xPad="10" trans="slideUp" ease="QuintEaseOut">
+              <actui type="ScreenText" width="680" x="left" y="0" margin="0" syncType="buildy" yPad="10">
+                <item type="header" fontSize="24" yPad="0">
+                  <![CDATA[<b>保持联系</b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+                  <![CDATA[可以使用哪些技巧与客户保持联系？]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                  <![CDATA[说明：请选择所有适用的选项。然后点击“核对答案”。]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="cb" width="600" height="36" x="left" y="0" margin="0" fontSize="16" fontColor="0x000000" fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="0x000000" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="16">
+                <item id="i1" isanswer="false">
+                  <![CDATA[每周向客户发送短信，推荐服务特惠活动]]>
+</item>
+                <item id="i2" isanswer="false">
+                  <![CDATA[每两周电话或电子邮件联系客户，了解客户是否需要任何维修或维护服务]]>
+</item>
+                <item id="i3" isanswer="true">
+                  <![CDATA[提供服务优惠券]]>
+</item>
+                <item id="i4" isanswer="true">
+                  <![CDATA[如若合适的话，向客户寄送生日或特殊时刻贺卡]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="200" height="34" x="right" y="0" margin="20" fontSize="16" fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[核对答案]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct">
+                  <![CDATA[正确！如果能偶尔收到您发来的信息，大多数客户都会心存感动；并且在客户确实需要服务时，他们的脑海中会自然地浮现出您的名字 选择“下一步”，查看更多保持联系的方法。]]>
+</item>
+                <item type="wrong">
+                  <![CDATA[错误。第三个和第四个答案是正确的。如果能偶尔收到您发来的信息，大多数客户都会心存感动；并且在客户确实需要服务时，他们的脑海中会自然地浮现出您的名字 选择“下一步”,查看更多保持联系的方法。]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="5145" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="2" fontSize="24" fontStyle="bold" time=".5" yPad="0">
+                <![CDATA[<b>保持联系</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4">
+                <![CDATA[<li>客户光顾不久之后，拨打回访电话，以了解一切是否正常</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+                <![CDATA[<li>发送一封感谢电子邮件或信函，以感谢客户的光顾</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="8">
+                <![CDATA[<li>让客户随时了解经销商的重大活动，例如我们为车主提供“service clinics 专享顾问”服务</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10" scaleMode="width" time="1" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="25">
+              <bodyImage id="i1" order="5" url="5145_1.jpg" yPad="0">
+                <![CDATA[image 1]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

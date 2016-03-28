@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCECHWB" template="ASCE" localeID="zh" debug="false">
+    <title>
+      <![CDATA[卓越的客户体验]]>
+</title>
+  </course>
+  <section id="0" snumber="6000">
+    <header>
+      <![CDATA[提供卓越的服务]]>
+</header>
+    <scenes>
+      <scene sNumber="6100" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[准备练习]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="6105" type="TextImageReplace" animType="timesync" endType="continue">
+            <ui uid="2" type="BodyText" width="680" height="180" x="center" y="270" margin="0" fontAlign="center" effect="none" time="2" trans="slideLeft" ease="QuintEaseOut" syncType="replace">
+              <bodyText id="bt1" timeIn="0.5" timeOut="999">
+                <![CDATA[前面您学习了提供卓越客户服务的技能和知识，现在，请进行实践练习，检验您所学到的技能和知识。本模块包括您在工作中可能经历的四个场景。]]>
+</bodyText>
+            </ui>
+            <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" time="2" trans="fadeOn" ease="QuintEaseOut" scaleMode="none" syncType="replace">
+              <bodyImage id="img1" url="6105_1.jpg" timeIn=".2" timeOut="5.5" time="1">
+                <![CDATA[image1]]>
+</bodyImage>
+              <bodyImage id="img2" url="6105_2.jpg" timeIn="6" timeOut="11">
+                <![CDATA[Image2]]>
+</bodyImage>
+              <bodyImage id="img3" url="6105_3.jpg" timeIn="11.5" timeOut="999">
+                <![CDATA[image3]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="6110" type="Activity_MultipleChoice" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="10" yPad="10">
+              <actui type="ScreenText" width="680" x="left" y="0" margin="0" syncType="buildy" yPad="10">
+                <item type="header" fontSize="24" yPad="0">
+                  <![CDATA[<b>案例研究 1</b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+                  <![CDATA[一位客户前来赶赴 13000 公里车辆维护预约。客户驶入服务车道后，作为服务顾问，您应该..….]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                  <![CDATA[说明：请选择所有适用的选项。然后点击“核对答案”。]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="cb" width="660" height="36" x="left" y="0" margin="0" fontSize="16" fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="0x000000" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="12">
+                <item id="i1" isanswer="false">
+                  <![CDATA[示意客户去最近的一家商店，以便技术人员能够立即开始工作]]>
+</item>
+                <item id="i2" isanswer="true">
+                  <![CDATA[在交谈过程中，与客户一起查看客户车辆是否适用任何公开召回或快速响应传输 政策]]>
+</item>
+                <item id="i3" isanswer="false">
+                  <![CDATA[让客户在预先写好的维修单上签字，该维修单上列出了适用于客户的所有服务菜单选项]]>
+</item>
+                <item id="i4" isanswer="true">
+                  <![CDATA[热情地向客户打招呼，并与其再次确认来访的原因，询问是否还有其它希望了解的服务需求]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="200" height="34" x="right" y="0" margin="10" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[核对答案]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct">
+                  <![CDATA[正确！热情地向客户打招呼，并与其确认来访原因。同时还应与客户一起查看客户车辆是否适用任何公开召回或快速响应传输 政策，然后寻找开展追加销售的机会。]]>
+</item>
+                <item type="wrong">
+                  <![CDATA[错误。第二个和第四个答案是正确的。热情地向客户打招呼，并与其确认来访原因。同时还应与客户一起查看客户车辆是否适用任何公开召回或快速响应传输 (RRT) 政策，然后寻找开展追加销售的机会。]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="6115" type="Activity_MultipleChoice" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="10" yPad="10">
+              <actui type="ScreenText" width="680" x="left" y="0" margin="0" syncType="buildy" yPad="10">
+                <item type="header" fontSize="24" yPad="0">
+                  <![CDATA[<b>案例研究 2</b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+                  <![CDATA[客户很不满意地回到您的经销店，因为她不得不在同一天因为同样的问题再次回来。与这位客户接触时，要将消极体验转变为积极体验，最重要的是什么？]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                  <![CDATA[说明：请选择正确的答案。然后点击“核对答案”。]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="600" height="36" x="left" y="0" margin="0" fontSize="16" fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="0x000000" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="12">
+                <item id="i1" isanswer="false">
+                  <![CDATA[安排另一次预约，请客户在指定的时间再次返回店里]]>
+</item>
+                <item id="i2" isanswer="false">
+                  <![CDATA[了解经销商的退款政策]]>
+</item>
+                <item id="i3" isanswer="false">
+                  <![CDATA[出示带有客户书面许可的维修单复印件]]>
+</item>
+                <item id="i4" isanswer="true">
+                  <![CDATA[愿意听取客户的意见，并立即解决问题]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="200" height="34" x="right" y="0" margin="10" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[核对答案]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct">
+                  <![CDATA[正确！通过聆听客户的意见并立即为其解决问题，竭力使事情朝着积极的方向发展。]]>
+</item>
+                <item type="wrong">
+                  <![CDATA[错误。第四个答案是正确的。通过聆听客户的意见并立即为其解决问题，竭力使事情朝着积极的方向发展。]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="6120" type="Activity_MultipleChoice" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="10" yPad="10">
+              <actui type="ScreenText" width="680" x="left" y="0" margin="0" syncType="buildy" yPad="10">
+                <item type="header" fontSize="24" yPad="0">
+                  <![CDATA[<b>案例研究 3</b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+                  <![CDATA[客户取回自己修好的车，但是付款后返回服务区，看似有点失望。当您前去询问时，她解释说，每次来修车后，经销商都会为其洗车。但是，这一次却没有。您该如何回应？]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                  <![CDATA[说明：请选择正确的答案。然后点击“核对答案”。]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="600" height="36" x="left" y="0" margin="0" fontSize="16" fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="0x000000" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="12">
+                <item id="i1" isanswer="true">
+                  <![CDATA[为此疏忽向客户道歉，并保证为其提供优质的车辆清洗服务，然后将此次服务的不一致性告知服务经理]]>
+</item>
+                <item id="i2" isanswer="false">
+                  <![CDATA[向客户道歉，但向其解释，是否提供洗车服务由经销商自行决定，如有需要，应在服务登记时提出来]]>
+</item>
+                <item id="i3" isanswer="false">
+                  <![CDATA[立即联系服务经理，然后转而接待其他客户]]>
+</item>
+                <item id="i4" isanswer="false">
+                  <![CDATA[无需道歉，告诉客户，经销商将在他或她下次光临时为其洗车]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="200" height="34" x="right" y="0" margin="10" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[核对答案]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct">
+                  <![CDATA[正确！您不希望客户闷闷不乐地离开，也不希望仅以道歉或优惠券将客户打发走。要确保客户高高兴兴地离开，并愿意再次光临。]]>
+</item>
+                <item type="wrong">
+                  <![CDATA[错误。第一个答案是正确的。您不希望客户闷闷不乐地离开，也不希望仅以道歉或优惠券将客户打发走。要确保客户高高兴兴地离开，并愿意再次光临。]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="6125" type="Activity_MultipleChoice" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="10" yPad="10">
+              <actui type="ScreenText" width="680" x="left" y="0" margin="0" syncType="buildy" yPad="10">
+                <item type="header" fontSize="24" yPad="0">
+                  <![CDATA[<b>案例研究 4</b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+                  <![CDATA[一位客户打来电话，要求预约安装一直延期交货的后座 DVD 娱乐系统。安排预约后，作为一名服务顾问，接下来您应该怎么做？]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                  <![CDATA[说明：请选择正确的答案。然后点击“核对答案”。]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="600" height="36" x="left" y="0" margin="0" fontSize="16" fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="0x000000" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="12">
+                <item id="i1" isanswer="false">
+                  <![CDATA[联系技术人员，确保已从 DealerCONNECT 下载恰当的安装程序]]>
+</item>
+                <item id="i2" isanswer="true">
+                  <![CDATA[通知零件部和调度员客户将于何时光临，并确认零件是否已收到以及维修人员是否有空]]>
+</item>
+                <item id="i3" isanswer="false">
+                  <![CDATA[让零件部再次联系客户，并再次确认零件是否有现货]]>
+</item>
+                <item id="i4" isanswer="false">
+                  <![CDATA[直接通过 DealerCONNECT “零件” 选项卡联系克莱斯勒确认是否已收到零件]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="200" height="34" x="right" y="0" margin="10" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[核对答案]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct">
+                  <![CDATA[正确！这正是一个团队通力合作提供卓越客户服务的范例！]]>
+</item>
+                <item type="wrong">
+                  <![CDATA[错误。第二个答案是正确的。这正是一个团队通力合作提供卓越客户服务的范例！]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

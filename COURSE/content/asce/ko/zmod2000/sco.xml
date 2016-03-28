@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCEKOWB" template="ASCE" localeID="ko" debug="false">
+    <title>
+      <![CDATA[탁월한 고객 경험]]>
+</title>
+  </course>
+  <section id="0" snumber="2000">
+    <header>
+      <![CDATA[충성도의 중요성]]>
+</header>
+    <scenes>
+      <scene id="2100" sNumber="2100" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[만족한 고객  vs. 충성도가 높은 고객]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="2105" type="BulletImageGlow0" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="680" x="left" y="10" margin="20" fontSize="20" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <item id="bb1" order="1" time=".2" yPad="0">
+                <![CDATA[여러분이 좋아하는 고객 서비스 분야는 무엇입니까? 계속 다시 찾는 이유는 무엇인가요?]]>
+                </item>
+            </ui>
+            <ui uid="3" type="bodyBulletCol" width="160" x="left" y="260" margin="20" fontSize="12" time="1" trans="slideUp" ease="QuintEaseOut" textStyle="none" syncType="buildx" xPad="18">
+              <item id="bbc1" order="50" target="i1" targetTrigger="imageglow" targetParams="4" xPad="0">
+                <![CDATA[식료품을 구입하는 곳]]>
+</item>
+              <item id="bbc2" order="51" target="i2" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[은행 업무를 보는 곳…]]>
+</item>
+              <item id="bbc3" order="52" target="i3" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[외식을 하는 곳…]]>
+</item>
+              <item id="bbc4" order="53" target="i4" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[머리를 자르는 곳 – 또는 다른 고객 의 경험]]>
+</item>
+            </ui>
+            <ui uid="1" type="bodyImageGlow" width="154" height="160" x='left' y='80' margin="20" fillColor="0x000000" fillAlpha="1" frameShape="roundRect" frameColor="0x000000" frameSize="2" frameAlpha="1" pulseColor="0xfe9003" time="1" trans="slideLeft" ease="QuintEaseOut" syncType="buildx" xPad="24">
+              <item id="i1" order="2" url="2105_1.jpg" xPad="0">x</item>
+              <item id="i2" order="3" url="2105_2.jpg">x</item>
+              <item id="i3" order="4" url="2105_3.jpg">x</item>
+              <item id="i4" order="5" url="2105_4.jpg">x</item>
+            </ui>
+          </slide>
+          <slide sNumber="2110" type="TextImageReplace" animType="timesync" endType="continue">
+            <ui uid="2" type="BodyText" width="680" height="180" x="center" y="270" margin="10" fontAlign="center" effect="none" time="1" ease="QuintEaseOut" trans="slideLeft" syncType="replace">
+              <bodyText id="bt1" timeIn="0.5" timeOut="7">
+                <![CDATA[아마도 그러한 서비스 분야에서 탁월한 수준의 서비스를 제공해 여러분의 충성심을 얻었기 때문에 계속 다시 찾게 되는 것일 것입니다.]]>
+</bodyText>
+              <bodyText id="bt2" timeIn="7.5" timeOut="14">
+                <![CDATA[이러한 서비스 분야는 여러분, 여러분에게 필요한 것, 여러분의 예산에 맞는 솔루션을 찾기 위해 노력합니다. 그리고 신뢰를 기반으로 관계를 형성합니다.]]>
+</bodyText>
+              <bodyText id="bt3" timeIn="14.5" timeOut="999">
+                <![CDATA[또한 단골이 되는 것 뿐만 아니라 여러분은 친구, 가족 및 동료들에게 이 가게를 추천하기도 합니다.]]>
+</bodyText>
+            </ui>
+            <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" scaleMode="none" time="3" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="2110_1.jpg" time="1" timeIn=".2" timeOut="7">
+                <![CDATA[image1]]>
+</bodyImage>
+              <bodyImage id="i2" url="2110_2.jpg" timeIn="7.5" timeOut="14">
+                <![CDATA[Image2]]>
+</bodyImage>
+              <bodyImage id="i3" url="2110_3.jpg" timeIn="14.5" timeOut="999">
+                <![CDATA[image3]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="2115" type="TextImageReplace" animType="timesync" endType="continue">
+            <ui uid="2" type="BodyText" width="680" height="180" x="center" y="270" margin="0" fontAlign="center" effect="none" time="2" trans="slideLeft" ease="QuintEaseOut" syncType="replace">
+                  <bodyText id="bt1" timeIn="0.5" timeOut="999">
+                <![CDATA[서비스 또는 부품 어드바이저로서 여러분은 대리점의 어떤 직책보다도 이러한 종류의 열의와 충성심을 고객에게 심어줄 수 있는 능력을 가지고 있습니다.]]>
+</bodyText>
+            </ui>
+            <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" scaleMode="none" time="1" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="2115_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[image1]]>
+</bodyImage>
+            </ui>
+          </slide>
+        <slide sNumber="2120" type="Activity_DragRate" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="dragrate" order="1"  x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut">
+              <screen id="1" x="0" y="0">
+                <actui uid="1" type="ScreenText" width="710" screen="1" syncType="buildy" yPad="5">
+                  <item type="screentext" fontSize="18">
+                <![CDATA[여러분은 여러분이 기대하는 수준의 서비스를 여러분의 고객에게 제공하고 있습니까? 다음은 이를 알아보는 데 도움이 될만한 연습 문제입니다.]]>
+</item>
+                  <item type="directiontext" fontSize="12" screen="1">
+                <![CDATA[좌측에 있는 고객 기대치 목록에서 여러분이 본인의 직무를 다 하는 데 가장 중요하다고 생각되는 다섯 가지 항목을 우측 공란에 끌어다 놓으십시오. 그런 다음 '제출'을 클릭하십시오. 처음부터 다시 시작하려면 '리셋'을 클릭하십시오.]]>
+</item>
+                </actui>
+                <actui uid="20" type="SubHeader" order="5"  fontSize="16" screen="1">
+                  <item id="i1" type="dragHeader" x="0" y="0" width="320" height="40" fontAlign="center">
+                <![CDATA[고객의 기대치]]>
+</item>
+                  <item id="i2" type="dropHeader" x="0" y="0" width="360" height="40" fontAlign="center">
+                <![CDATA[업무 수행을 위해 나에게 가장 중요한 점]]>
+</item>
+                </actui>
+                <actui uid="24" type="ItemDragBox" width="320" height="42" x="0" y="0" layout="1col" columnPadding="20" rowPadding="4" fontSize="12" fontColor="0x000000" fontStyle="reg" fontAlign="left" fontVertAlign="middle" frameSize="1" frameColor="0xffffff" fillType="gradient" fillColor="0xcccccc" fillAlpha="1" fillColor2="0xcccccc" xPad="20" yPad="10" order="30">
+                    <item id="i1" isanswer="drop00">
+                <![CDATA[고객이 방문하면 고객의 이름을 부르면서 즉각 우호적인 자세로 고객을 맞이합니다]]>
+</item>
+              <item id="i2" isanswer="drop00">
+                <![CDATA[실시해야 하는 작업, 필요한 서비스, 부품 등을 명확하게 설명합니다]]>
+</item>
+              <item id="i3" isanswer="drop00">
+                <![CDATA[고객의 말을 주의깊게 경청하고 질문을 통해 이해했는지 확인합니다]]>
+</item>
+              <item id="i4" isanswer="drop00">
+                <![CDATA[고객이 특별한 존재라는 생각이 들게 하고 신뢰를 쌓으면서 고객을 알아가는 과정을 통해 개인적인 관계를 형성합니다]]>
+</item>
+              <item id="i5" isanswer="drop00">
+                <![CDATA[서비스 작업의 진척 상황을 고객에게 알려줍니다]]>
+</item>
+              <item id="i6" isanswer="drop00">
+                <![CDATA[처음부터 제대로 수리합니다]]>
+</item>
+              <item id="i7" isanswer="drop00">
+                <![CDATA[고객에게 거래에 대한 감사의 인사를 전합니다]]>
+</item>
+                </actui>
+                <actui uid="28" type="ItemDropBox" height="42" x="340" y="0" layout="labelfirst" columnPadding="8" rowPadding="4" fontSize="16"  fontStyle="bold" fontAlign="center" frameSize="1" frameColor="0xffffff" frameAlpha="1" fillType="gradient" fillColor="0xcc6633" fillAlpha="1" fillColor2="0xff9933" fillColorLabel="0xdcded9" fillAlphaLabel="1" frameColorLabel="0x666666" frameAlphaLabel="1" xPad="10" yPad="10">
+                  <item id="i1" isanswer="drop00">
+                    <![CDATA[1]]>
+</item>
+                  <item id="i2" isanswer="drop00">
+                    <![CDATA[2]]>
+</item>
+                  <item id="i3" isanswer="drop00">
+                    <![CDATA[3]]>
+</item>
+                  <item id="i4" isanswer="drop00">
+                    <![CDATA[4]]>
+</item>
+                  <item id="i5" isanswer="drop00">
+                    <![CDATA[5]]>
+</item>
+                </actui>
+                <actui uid="30" type="actbtns" order="50" width="160" height="34" x="right" y="bottom" margin="10" layout="abs" fontSize="16"  fontStyle="bold" pulseColor="orange" yPad="20" screen="1">
+                  <item id="chkbtn" type="reset" x="0" y="0" isActive="no">
+                <![CDATA[리셋]]>
+</item>
+                  <item id="chkbtn" type="submit" x="180" y="0" isActive="no">
+                <![CDATA[제출]]>
+</item>
+                </actui>
+              </screen>
+              <screen id="2" x="0" y="0">
+                <actui uid="1" type="ScreenText" width="710" x="0" y="0" synType="buildy" yPad="10">
+                  <item type="screentext" fontSize="18">
+                <![CDATA[여러분은 여러분이 기대하는 수준의 서비스를 여러분의 고객에게 제공하고 있습니까?]]>
+</item>
+                  <item type="directiontext" fontSize="12" screen="2">
+                <![CDATA[설명: 슬라이더를 이용해 각 기대치에 대한 여러분의 수행 능력을 솔직하게 평가해 주십시오 (1 = 형편없음, 5 = 탁월함). 모두 완료하고 나면 '인쇄'를 클릭하여 이 자료를 코스가 진행되는 내내 참고 자료로 활용하십시오.]]>
+</item>
+                </actui>
+                <actui uid="10" type="newheader" order="10"  fontSize="16">
+                  <item id="i1" type="itemHeader" x="0" y="0" width="300" height="44" fontAlign="left" fontVertAlign="bottom" xPad="0">
+                <![CDATA[고객 기대치]]>
+</item>
+                </actui>
+                <actui uid="12" type="rateheader" order="10"  fontSize="16">
+                  <item id="i2" type="rateHeader" x="0" y="0" width="300" height="22" fontAlign="left" fontVertAlign="bottom" xPad="20">
+                <![CDATA[형편없음]]>
+</item>
+                  <item id="i3" type="rateHeader" x="0" y="0" width="300" height="22" fontAlign="right" fontVertAlign="bottom">
+                <![CDATA[탁월함]]>
+</item>
+                  <item id="i4" type="rateNumbers" x="0" y="22" width="325" height="22" fontAlign="left" fontVertAlign="bottom" fontSize="14" >
+                    <![CDATA[1|2|3|4|5]]>
+</item>
+                </actui>
+                <actui uid="15" type="ItemRateSlider" width="300" height="42" x="0" y="0" order="20" layout="rel" columnPadding="10" rowPadding="6" fontSize="16" fontColor="0x666666" fontStyle="bold" fontAlign="center" fontVertAlign="middle" fillColor="0xdcded9" frameSize="1" frameColor="0x666666">
+                  <item id="r1">
+                    <![CDATA[1]]>
+</item>
+                  <item id="r2">
+                    <![CDATA[2]]>
+</item>
+                  <item id="r3">
+                    <![CDATA[3]]>
+</item>
+                  <item id="r4">
+                    <![CDATA[4]]>
+</item>
+                  <item id="r5">
+                    <![CDATA[5]]>
+</item>
+                </actui>
+                <actui uid="20" type="actbtns" order="50" width="160" height="34" fontSize="16"  fontStyle="bold" pulseColor="orange" layout="abs" x="right" y="bottom" margin="10" yPad="0">
+                  <item id="chkbtn" type="print" x="0" y="0" isActive="yes">
+                    <![CDATA[인쇄]]>
+</item>
+                </actui>
+              </screen>
+            </ui>
+          </slide>
+          <slide sNumber="2130" type="BulletImageGlow2" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="680" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut">
+              <item id="bb1" order="1" yPad="0">
+                <![CDATA[만족감을 느낀다고 해서 고객이 저절로 충성도가 높은 고객으로 바뀌는 것은 아니므로 고객을 만족시킬 정도로 노력하는 것만으로는 부족합니다. 다음과 같은 차이를 살펴 보십시오.]]>
+</item>
+            </ui>
+            <ui uid="3" type="bodyBulletCol" width="320" x="left" y="260" margin="10" fontSize="12" fontAlign="left" textStyle="textflow" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <item id="bbc1" order="50" yPad="0">
+                <![CDATA[<list><li>만족은 종종 “문제가 없음”을 말합니다.</li></list>]]>
+</item>
+              <item id="bbc2" order="52">
+                <![CDATA[<list><li>단순히 만족하기만 한 고객은 특별히 애를 써서 여러분의 제품이나 서비스를 이용하려 하지 않으며 더 높은 가격을 지불하려는 의사가 없습니다.</li></list>]]>
+</item>
+              <item id="bbc3" order="55">
+                <![CDATA[<list><li>만족한 고객은 경쟁 업체의 제안에 쉽게 흔들립니다.</li></list>]]>
+</item>
+              <item id="bbc4" order="58">
+                <![CDATA[<list><li>다른 곳으로 거래처를 바꾼 고객 중 80%가 이곳의 서비스에 “만족”했다고 합니다.</li></list>]]>
+</item>
+            </ui>
+            <ui uid="3" type="bodyBulletCol" width="320" x="right" y="260" margin="10" fontSize="12"  fontAlign="left" textStyle="textflow" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <item id="bbc5" order="60" yPad="0">
+                <![CDATA[<list><li>충성도가 높은 고객은 거래처를 바꾸려 하지 않습니다</li></list>]]>
+</item>
+              <item id="bbc6" order="61">
+                <![CDATA[<list><li>충성도가 높은 고객은 다시 구매할 가능성이 10배 더 높습니다</li></list>]]>
+</item>
+              <item id="bbc7" order="66">
+                <![CDATA[<list><li>충성도가 높은 고객은 각각 5명의 새로운 고객을 추천합니다</li></list>]]>
+</item>
+              <item id="bbc8" order="68">
+                <![CDATA[<list><li>충성도가 높은 고객은 만족도가 높은 고객보다 23% 더 많은 수익을 가져다 줍니다</li></list>]]>
+</item>
+            </ui>
+             <ui uid="5" type="slideEndNote" fontSize="10" time=".2" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" time="1"  order="70">
+                <![CDATA[출처: Bain & Company, 2009]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyImageGlow" width="154" height="160" y='80' margin="110" fontSize="14" fillColor="0x000000" fillAlpha="1" frameShape="roundRect" frameColor="0x000000" frameSize="2" frameAlpha="1" pulseColor="orange" time="1" ease="QuintEaseOut" syncType="add">
+              <item id="img1" order="2" url="2130_1.jpg" x='left' trans="slideright">
+                <label>
+                <![CDATA[만족도가 높은 고객]]>
+</label>
+              </item>
+              <item id="img2" order="3" url="2130_2.jpg" x='right' trans="slideleft">
+                <label>
+                <![CDATA[충성도가 높은 고객]]>
+</label>
+              </item>
+            </ui>
+          </slide>
+          <slide sNumber="2135" type="TextImageReplace" animType="timesync" endType="continue">
+            <ui uid="2" type="BodyText" width="680" height="180" x="center" y="270" margin="0" fontAlign="center" effect="none" time="2" trans="slideLeft" ease="QuintEaseOut" syncType="replace">
+              <bodyBullet id="bb1" timeIn=".5" timeOut="999">
+                <![CDATA[초점을 만족도에서 충성도로 바꾸려면 업무를 수행하는 방법을 대대적으로 바꾸어야 할 수도 있으나 장기적으로는 성장과 수익성을 높이는 데 도움이 됩니다.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" scaleMode="none" time=".1" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="2135_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[image1]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="2200" sNumber="2200" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[충성도와 수익성]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="2205" type="TextImageReplace" animType="timesync" endType="continue">
+            <ui uid="2" type="BodyText" width="680" height="180" x="center" y="270" margin="0" fontAlign="center" effect="none" time="2" ease="QuintEaseOut" trans="slideLeft" syncType="replace">
+                 <bodyText id="bt1" timeIn="0.5" timeOut="999">
+                <![CDATA[사실 크라이슬러 그룹은 업무의 중점을 고객 만족도 지향에서 고객 충성도로 바꾸고 있습니다. <br />일부 시장에서는 SSI 및 CSI 측정이 이미 고객 판촉 점수로 대체되었습니다.]]>
+</bodyText>
+            </ui>
+            <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" scaleMode="none" time=".5" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="2205_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[image1]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="2210" type="TextImageReplace" animType="timesync" endType="continue">
+            <ui uid="2" type="BodyText" width="680" height="180" x="center" y="270" margin="0" fontAlign="center" effect="none" time="2" trans="slideLeft" ease="QuintEaseOut" syncType="replace">
+              <bodyText id="bt1" timeIn="0.5" timeOut="10">
+                <![CDATA[우리는 미국에서 여러 해 동안 영업 및 서비스 경험과 관련된 고객 만족도를 측정해 왔습니다.  수 년간 이 만족도 점수는 상승 추세가 지속되어 왔습니다.]]>
+</bodyText>
+              <bodyText id="bt2" timeIn="10.5" timeOut="20">
+                <![CDATA[하지만 분명히 이것만으로는 부족합니다.  만족도 점수가 올라가는 동안 회사, 브랜드 및 대리점에 대한 고객들의 충성도는 동반 상승하지 않았습니다!]]>
+</bodyText>
+              <bodyText id="bt3" timeIn="20.5" timeOut="999">
+                <![CDATA[우리에게 “만족”한 고객들이 다른 브랜드, 그리고 다른 대리점으로 돌아서고 있습니다.]]>
+</bodyText>
+            </ui>
+            <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" scaleMode="none" time="3" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="2210_1.jpg" timeIn=".2" timeOut="999" time=".1">
+                <![CDATA[image1]]>
+</bodyImage>
+            </ui>
+            <ui uid="5" type="slideEndNote" fontSize="10" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" timeIn="4" timeOut="999">
+                <![CDATA[*미국 지역 데이터 기반 그래프]]>
+</bodyNote>
+            </ui>
+          </slide>
+          <slide sNumber="2215" type="TextImageAround" animType="timesync" endType="Continue">
+            <ui uid="2" type="BodyText" width="280" height="200" x="center" y="200" fontAlign="center" effect="none" time="1" trans="slideup" ease="QuintEaseOut" syncType="replace">
+              <bodyText id="bt1" timeIn="0.5" timeOut="10">
+                <![CDATA[다행스럽게도 “만족도”와 충성도 간의 상관 관계가 이와 같이 높지 않은 현상은 이 업계에서만 일어나는 상황이 아니어서 최근 수 년간 이에 대한 활발한 연구가 진행되었습니다]]>
+</bodyText>
+              <bodyText id="bt2" timeIn="10.5" timeOut="20">
+                <![CDATA[충성도에 관한 세계 최고 권위의 연구가들은 고객의 태도가 행동, 그리고 기업 성장으로 이어지게 하는 방법을 알아냈습니다.]]>
+</bodyText>
+              <bodyText id="bt3" timeIn="20.5" timeOut="999">
+                <![CDATA[이 측정은 “궁극적 질문”이라고 알려진 간단한 질문에 대한 고객의 답변을 기반으로 하는데, 이는 고객 판촉 점수의 근거가 됩니다.]]>
+</bodyText>
+            </ui>
+            <ui uid="1" type="BodyImage" width="240" height="160" x="center" y="top" margin="10" effect="none" scaleMode="none" centerIt="true" time="1" trans="slideup" ease="QuintEaseOut">
+              <bodyImage id="img1" url="2215_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[main image]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="BodyImage" x="left" y="top" margin="20" width="150" height="100" effect="none" scaleMode="none" trans="slideright" ease="QuintEaseOut" time="1" syncType="buildy" yPad="7">
+              <bodyImage id="img2" url="2215_2.jpg" timeIn="2" timeOut="999" yPad="0">
+                <![CDATA[img2]]>
+</bodyImage>
+              <bodyImage id="img4" url="2215_4.jpg" timeIn="4" timeOut="999">
+                <![CDATA[img4]]>
+</bodyImage>
+              <bodyImage id="img6" url="2215_6.jpg" timeIn="6" timeOut="999">
+                <![CDATA[img6]]>
+</bodyImage>
+              <bodyImage id="img8" url="2215_8.jpg" timeIn="8" timeOut="999">
+                <![CDATA[img8]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="BodyImage" x="right" y="top" margin="20" width="150" height="100" effect="none" scaleMode="none" trans="slideleft" ease="QuintEaseOut" time="1" syncType="buildy" yPad="7">
+              <bodyImage id="img3" url="2215_3.jpg" timeIn="3" timeOut="999" yPad="0">
+                <![CDATA[img3]]>
+</bodyImage>
+              <bodyImage id="img5" url="2215_5.jpg" timeIn="5" timeOut="999">
+                <![CDATA[img5]]>
+</bodyImage>
+              <bodyImage id="img7" url="2215_7.jpg" timeIn="7" timeOut="999">
+                <![CDATA[img7]]>
+</bodyImage>
+              <bodyImage id="img9" url="2215_9.jpg" timeIn="9" timeOut="999">
+                <![CDATA[img9]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="2220" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="2" yPad="0">
+                <![CDATA[이 질문은 바로 “친구나 회사 동료에게 저희 지점을 추천하시겠습니까?”입니다.]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4">
+                <![CDATA[<li>연구에 따르면 고객이 회사나 제품을 추천할 가능성이 높을수록 장기적으로 이 회사와 제품에 대한 본인들의 충성도가 계속 유지될 가능성이 더 높다는 결과가 나왔습니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+                <![CDATA[<li>또한 이 연구는 고객이 특정 경험에 대해 "만족스러웠다"고 표현하더라도 반드시 이 회사를 다른 이에게 추천할 의사가 있는 것은 아니며 장기간 높은 충성도로 이 회사만을 이용하려는 의사가 있다는 것도 아니라는 것을 보여주었습니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="8">
+                <![CDATA[<li>따라서 고객에게 탁월한 서비스를 제공하는 것이 충성도를 높이는 데 필수적인 요소입니다. 물론 고객의 충성도를 높이는 데 성공하면 고객 추천이라는 강력한 혜택을 추가로 얻을 수 있습니다</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10" scaleMode="width" time="1" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="25">
+              <bodyImage id="i1" order="3" url="2220_1.jpg" yPad="0">
+                <![CDATA[image 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="5" url="2220_2.jpg">
+                <![CDATA[Image 2]]>
+</bodyImage>
+              <bodyImage id="i3" order="7" url="2220_3.jpg">
+                <![CDATA[Image 3]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="2225" type="TextImageReplace" animType="timesync" endType="Continue">
+            <ui uid="2" type="BodyText" width="680" height="180" x="center" y="270" margin="0" fontAlign="center" effect="none" time="2" trans="slideLeft" ease="QuintEaseOut" syncType="replace">
+               <bodyText id="bt1" timeIn="0.5" timeOut="999">
+                <![CDATA[이런 이유로 크라이슬러 그룹은 많은 시장에서 목표를 CPS로 전환하고 있습니다. 이 한 가지 질문에 대한 답을 알아내고 고객이 여러분을 추천하거나 추천하지 않으려는 이유를 알아내면 이 소중한 정보를 활용해 여러분의 강점을 강화하고 문제점을 없앨 수 있습니다. <br />또한 아직은 CPS를 활용하지 않고 있다 하더라도 이 이면에 있는 개념을 이용해 개선의 노력에 박차를 가할 수 있습니다.]]>
+</bodyText>
+            </ui>
+            <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" scaleMode="none" time=".5" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="2225_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[image1]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

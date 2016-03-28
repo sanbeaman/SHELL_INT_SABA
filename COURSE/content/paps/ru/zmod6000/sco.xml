@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="PAPSRUWB" template="PAPS" localeID="ru" debug="false">
+    <title>
+      <![CDATA[Навыки розничной продажи запасных частей]]>
+</title>
+  </course>
+  <section id="1" snumber="6000">
+    <header>
+      <![CDATA[РЕЗЮМЕ КУРСА]]>
+</header>
+    <scenes>
+      <scene id="6100" sNumber="6100" sType="gps" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" width="600" height="50" x="left" y="0" margin="10" trans="none" ease="none">
+            <header id="h1" order="0" time="0" x="0" y="0">
+              <![CDATA[Конечные цели]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide type="BulletImageBuild" sNumber="6100" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="600" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="11" yPad="0">
+      <![CDATA[Поздравляем! Вы подошли к концу курса «Навыки розничной продажи запасных частей». Теперь вы должны уметь:]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="12" time="1">
+      <![CDATA[<li>Объяснить экономический смысл наращивания навыков продаж в направлении розничной реализации запасных частей</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="13" time="1">
+      <![CDATA[<li>Описывать характеристики и подчеркивать преимущества запасных частей/элементов и дополнительного оборудования Mopar</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="14" time="1">
+      <![CDATA[<li>Определять характеристики четырех типов клиентов</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="15" time="1">
+      <![CDATA[<li>Объяснить Процесс продажи запасных частей, ориентированный на клиента</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="16" time="1">
+      <![CDATA[<li>Реагировать на возможности дополнительных продаж и распространенные возражения клиентов</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb7" order="17" time="1">
+      <![CDATA[<li>Применять Процесс продажи запасных частей, ориентированный на клиента</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="6200" sNumber="6200" sType="gps" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" width="600" height="50" x="0" y="0" margin="10" trans="none" ease="none">
+            <header id="h1" order="0" time="0" x="0" y="0">
+      <![CDATA[Ключевые моменты]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide type="gps_content" sNumber="6200" endType="Continue">
+            <ui uid="3" type="bodyBullet" x="left" y="40" width="600" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="20" yPad="0">
+      <![CDATA[Рассмотрим основные обучающие моменты данного курса.]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22">
+      <![CDATA[<li>Запасные части и дополнительное оборудование - это развивающийся рынок с реальными возможностями ведения прибыльной коммерческой деятельности</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="24">
+      <![CDATA[<li>Наращиваемые навыки продаж помогут вам в установлении доверительных отношений с клиентами, обеспечат повторные коммерческие отношения, повысят вашу профессиональную значимость и увеличат ваш доход</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="26">
+      <![CDATA[<li>Продукция Mopar превосходит аналоги вторичного рынка за счет следующих преимуществ, способных повысить уровень продаж:</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="28" formatType="subbullet" yPad="0">
+      <![CDATA[<li>Технологические параметры запасных частей идентичны технологическим параметрам оригинального оборудования</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5a" order="29" formatType="subbullet" yPad="0">
+      <![CDATA[<li>Твердая гарантия</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="30" formatType="subbullet" yPad="0">
+      <![CDATA[<li>Конкурентоспособные цены</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb7" order="32">
+      <![CDATA[<li>Mopar также предоставляет ресурсы и средства для стимулирования эффективных продаж:</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb8" order="34" formatType="subbullet" yPad="0">
+      <![CDATA[<li>Стенды с дополнительным оборудованием</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb9" order="36" formatType="subbullet" yPad="0">
+      <![CDATA[<li>Каталог StarParts</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+          <slide type="gps_content" sNumber="6205" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="600" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb2" order="12" yPad="0">
+      <![CDATA[<li>Мы выделяем четыре типами клиентов: клиенты по телефону, очные клиенты, внутренние клиенты и Интернет-клиенты</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="13">
+      <![CDATA[<li>Все клиенты важны</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="14">
+      <![CDATA[<li>Процесс продажи запасных частей, ориентированный на клиента, поможет вам повысить собственную эффективность</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="15">
+      <![CDATA[<li>Чтобы преодолеть возражения клиентов: будьте активным слушателем, перефразируйте и отреагируйте, обратитесь с просьбой о продаже</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="6300" sNumber="6300" sType="gps" continueBtnType="done">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" width="600" height="50" x="left" y="0" margin="10" trans="on" ease="none">
+            <header id="h1" order="0" time="0" x="0" y="0">
+      <![CDATA[Заключение]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide type="gps_content" sNumber="6300" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="600" x="left" y="40"  margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="12" yPad="0">
+      <![CDATA[<li>Ваши знания и навыки подлежат наращиванию и совершенствованию</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="12">
+      <![CDATA[<li>Вы знаете, что такое Преимущество Mopar</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="13">
+      <![CDATA[<li>Вы знаете, как установить контакт с клиентами, чтобы инициировать отношения, определить потребности, предложить решение и, самое важное, обратиться с просьбой о продаже</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="14">
+      <![CDATA[<li>Чем больше вы продаете, тем больше вы зарабатываете</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="15">
+      <![CDATA[<li>Навыки консультантов по запасным частям стимулируют продажи на участке обслуживания и повышают объем продаж запасных частей</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="16">
+      <![CDATA[<li>Запомните все, что вы узнали, и примените новые приемы на своих участках запасных частей, чтобы поднять уровень продаж, увеличить доход вашего дилерского центра и повысить собственный доход</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="PAPSCHWB" template="PAPS" localeID="zh" debug="false">
+    <title>
+      <![CDATA[零售零件销售技能]]>
+</title>
+  </course>
+  <section id="0" snumber="3000">
+    <header id="sech1">
+      <![CDATA[莫帕优势]]>
+</header>
+    <scenes>
+      <scene sNumber="3000" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[莫帕优势是什么？]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3005" type="TextImageCascade" animType="animsync" endType="Continue">
+            <ui uid="2" type="bodyImageCascade" trans="none" ease="none" order="1" time="0" width="160" height="450" x="right" y="top">
+              <LoaderMax name="icimagemax" load="false">
+                <ImageLoader name="3000_1" url="{imgdir}3000_1.jpg" estimatedBytes="45000" width="160" height="160" scaleMode="proportionalInside" />
+                <ImageLoader name="3000_2" url="{imgdir}3000_2.jpg" estimatedBytes="45000" width="160" height="160" scaleMode="proportionalInside" />
+                <ImageLoader name="3000_3" url="{imgdir}3000_3.jpg" estimatedBytes="45000" width="160" height="160" scaleMode="proportionalInside" />
+                <ImageLoader name="3000_4" url="{imgdir}3000_4.jpg" estimatedBytes="45000" width="160" height="160" scaleMode="proportionalInside" />
+                <ImageLoader name="3000_5" url="{imgdir}3000_5.jpg" estimatedBytes="45000" width="160" height="160" scaleMode="proportionalInside" />
+                <ImageLoader name="3000_6" url="{imgdir}3000_6.jpg" estimatedBytes="45000" width="160" height="160" scaleMode="proportionalInside" />
+                <ImageLoader name="3000_7" url="{imgdir}3000_7.jpg" estimatedBytes="45000" width="160" height="160" scaleMode="proportionalInside" />
+              </LoaderMax>
+            </ui>
+            <ui uid="1" type="bodyIcon" width="100" height="100" x="220" y="60" time="1" trans="fadeOn" ease="QuintEaseOut">
+              <bodyIcon id="img1" order="1" url="icons/icon_mopar.png">
+                <![CDATA[Mopar Logo]]>
+</bodyIcon>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="480" x="20" y="170" margin="10" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="30" ypad="0">
+                <![CDATA[<li>具有广泛的产品特性知识非常关键</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="32">
+                <![CDATA[<li>莫帕为客户提供胜过配件市场的重大优势</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="bodyNote" width="480" x="20" y="320" margin="0" time="1" trans="slideRight" ease="QuintEaseOut">
+              <bodyNote id="bn1" order="40">
+                <![CDATA[在本单元中，您将了解这些优势，以及如何充分利用它们来增加销售量。]]>
+</bodyNote>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="3100" sNumber="3100" sType="navbarmenu" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="1" type="SceneNavBar" width="160" height="80" fillColor1="#858585" fillColor2="#ffffff" frameColor="0x00B5D7" fontColor="#666666" fontSize="14" pulseColor="0x00B5D7">
+            <navbtn id='c2l1' width="60" height="60" x="33" y="4" order="2" time="1" target="3110" url="icons/icon_3115.png">
+              <![CDATA[设计与工程]]>
+</navbtn>
+            <navbtn id='c2l2' width="60" height="60" x="266" y="4" order="2" time="1" target="3120" url="icons/icon_3120.png">
+              <![CDATA[价格]]>
+</navbtn>
+            <navbtn id='c2l3' width="60" height="60" x="499" y="4" order="2" time="1" target="3125" url="icons/icon_3125.png">
+              <![CDATA[保修]]>
+</navbtn>
+          </ui>
+          <ui uid="3" type="sceneEndNote">
+            <bodyNote id="gn1" order="999" time="1">
+              <![CDATA[单击 ► 以继续。]]>
+</bodyNote>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3105" type="navbarmenu_content" animType="animsync" endType="Continue">
+            <ui uid="0" type="sceneHeader">
+              <header id="h1">
+                <![CDATA[<b>莫帕优势是什么？</b>]]>
+</header>
+            </ui>
+            <ui uid="2" type="bodyBullet" width="600" x="left" y="170" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="14" yPad="0">
+                <![CDATA[莫帕在三个方面优胜于竞争对手：]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="15">
+                <![CDATA[<li>设计与工程</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="16">
+                <![CDATA[<li>价格</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="17">
+                <![CDATA[<li>保修</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="999" time="1">
+                <![CDATA[单击“设计与工程”图标，了解更多信息。]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyIcon" order="1" time="1" trans="fadeIn" ease="QuintEaseOut">
+              <bodyIcon id="img1" width="100" height="100" scaleMode="none" x="center" y="60" url="icons/icon_mopar.png">
+                <![CDATA[Mopar Logo]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="3110" type="navbarmenu_content" animType="animsync" endType="Continue">
+            <ui uid="0" type="sceneHeader">
+              <header id="h1">
+                <![CDATA[<b>设计与工程</b>]]>
+</header>
+            </ui>
+            <ui uid="2" type="bodyTable" width="520" x="left" y="40" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="4">
+              <bodyTableRow id="bt0" type="head" align="center" order="30" yPad="0">
+                <tcol>
+                  <![CDATA[莫帕]]>
+</tcol>
+                <tcol>
+                  <![CDATA[配件市场]]>
+</tcol>
+              </bodyTableRow>
+              <bodyTableRow id="bt1" type="norm" align="left" order="32" time="1">
+                <tcol>
+                  <![CDATA[专为车辆特定应用而设计]]>
+</tcol>
+                <tcol>
+                  <![CDATA[多个/组合的应用]]>
+</tcol>
+              </bodyTableRow>
+              <bodyTableRow id="bt2" type="norm" align="left" order="34" time="1">
+                <tcol>
+                  <![CDATA[符合/超越原始设备规格]]>
+</tcol>
+                <tcol>
+                  <![CDATA[可能符合，也可能不符合原始规格]]>
+</tcol>
+              </bodyTableRow>
+              <bodyTableRow id="bt3" type="norm" align="left" order="36" time="1">
+                <tcol>
+                  <![CDATA[大规模产品验证，确保质量]]>
+</tcol>
+                <tcol>
+                  <![CDATA[无规模产品验证]]>
+</tcol>
+              </bodyTableRow>
+              <bodyTableRow id="bt4" type="norm" align="left" order="38" time="1">
+                <tcol>
+                  <![CDATA[全国范围的经销商网络]]>
+</tcol>
+                <tcol>
+                  <![CDATA[许多零售商不是全国范围的]]>
+</tcol>
+              </bodyTableRow>
+            </ui>
+            <ui uid="3" type="bodyNote" width="500" x="20" y="320" margin="10" fontSize="12" fontColor="0x000000" time="1" trans="slideRight" ease="QuintEaseOut">
+              <bodyNote id="bn1" order="40">
+                <![CDATA[竞争对手对莫帕的质量望尘莫及！]]>
+</bodyNote>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="999" time="1" x="100" y="300">
+                <![CDATA[单击另一个图标，继续。]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyIcon" width="100" height="100" x="right" y="top" margin="10" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="1" url="icons/icon_3115.png">
+                <![CDATA[Design & Engineering]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="3120" type="navbarmenu_content" animType="animsync" endType="Continue">
+            <ui uid="0" type="sceneHeader">
+              <header id="h1">
+                <![CDATA[<b>价格</b>]]>
+</header>
+            </ui>
+            <ui uid="2" type="bodyBullet" x="left" y="40" width="510" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="35" yPad="0">
+                <![CDATA[<li>与其他原始设备制造商以及配件市场零售商相比，莫帕零件和配件的价格极具竞争力。</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="36">
+                <![CDATA[<li>克莱斯勒最近委托了一家独立研究公司来调查销量最好的 500 个零件与这些竞争对手的价格比较。结果表明，总体上我们的价格具有竞争力。</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="37">
+                <![CDATA[<li>当我们的价格没有竞争力时，克莱斯勒要求经销商通过 NSC/GD 或地区办事处提供反馈。</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="38">
+                <![CDATA[<li>我们的定价团队对提交的每个反馈进行评估，通常会调整价格或让采购部门推动我们的采购地位，以便获得竞争优势。</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="39">
+                <![CDATA[<li>数千种零件的价格已降低。此举可以增加市场份额 – 并且增加经销商的收入。</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="BackEaseOut">
+              <bodyNote id="gn1" order="999" time="1" x="50" y="500" width="500">
+                <![CDATA[单击另一个图标，继续。]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyIcon" width="100" height="100" x="right" y="top" margin="10" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="1" url="icons/icon_3120.png">
+                <![CDATA[Pricing]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="3125" type="navbarmenu_content" animType="animsync" endType="Continue">
+            <ui uid="0" type="sceneHeader" trans="none" time="0">
+              <header id="h1">
+                <![CDATA[<b>保修</b>]]>
+</header>
+            </ui>
+            <ui uid="3" type="bodyPages" width="510" height="300" x="left" y="40" margin="10" order="30" time="1" trans="pageOn" ease="animsync">
+              <page id="pg1" yPad="10">
+                <item id="b1" type="bodyBullet" order="36" time="1" width="510" fontSize="16" yPad="0">
+                  <![CDATA[<li>莫帕保修为您客户提供了信心和保护</li>]]>
+</item>
+                <item id="b2" type="bodyBullet" order="36" time="1" width="510" fontSize="16">
+                  <![CDATA[<li>通过柜台销售的莫帕和莫帕价值线零件, 具有 12 个月的工艺/材料缺陷保修, 或者不限里程数仅更换零件 – 以对客户更有利者为准</li>]]>
+</item>
+                <item id="b3" type="bodyBullet" order="36" time="1" width="510" fontSize="16">
+                  <![CDATA[<li>在授权经销商处安装的零件，享有12个的月保修期, 或在20,000 公里内覆盖零件和人工，或者保修 12 个月/不限里程数仅更换零件 – 以对客户更有利者为准</li>]]>
+</item>
+                <item id="btn1" type="btnnextpage" width="180" height="34" fontSize="14" fontColor="black" fontStyle="reg" order="80">
+                  <![CDATA[下一步页]]>
+</item>
+              </page>
+              <page id="pg2" yPad="10">
+                <item id="b1" type="bodyBullet" order="36" time="1" width="510" fontSize="16" yPad="0">
+                  <![CDATA[<li>由授权经销商销售和安装的莫帕价值线消音器、减振器、滑柱，以及莫帕皮卡耐磨衬里，在安装它们所在的车辆生命周期内具有工艺或材料缺陷的保修（原始零售购买者/不可转让）</li>]]>
+</item>
+                <item id="b2" type="bodyBullet" order="36" time="1" width="510" fontSize="16">
+                  <![CDATA[<li>销售的垫片、密封件和高性能零件没有任何类型的保修。未安装在赛车上的发动机整机具有90天的保修期 </li>]]>
+</item>
+                <item id="b3" type="bodyBullet" order="36" time="1" width="680" fontSize="16">
+                  <![CDATA[<li>如果 Mopar 部件（仍在保修期内）是由经授权的 Chrysler Group International 经销商安装于 Chrysler Group International 车辆上，且该部件导致其他部件发生故障或损坏，则这些部件将根据保修规定进行维修或替换，无论这些部件在发生故障时是否属于 Chrysler Group International 的保修范围。</li>]]>
+</item>
+                <item id="btn2" type="btnprevpage" width="180" height="34" x="left" margin="10" fontSize="14" fontColor="black" fontStyle="reg" order="80">
+                  <![CDATA[上一页页码]]>
+</item>
+              </page>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="BackEaseOut">
+              <bodyNote id="gn1" order="99" time="0" x="50" y="500" width="500">
+                <![CDATA[单击另一个图标，继续。]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyIcon" width="100" height="100" x="right" y="top" margin="10" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="bi1" order="1" url="icons/icon_3125.png">
+                <![CDATA[Warranty]]>
+</bodyIcon>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="3200" sNumber="3200" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[充分利用优势]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3201" type="BodyBulletBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="460" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="55" yPad="0">
+                <![CDATA[通过使用具有最准确、最新的关键资源，充分利用莫帕优势。]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="56">
+                <![CDATA[它们包括：]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="57">
+                <![CDATA[<li>配件展示</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="58">
+                <![CDATA[<li>StarParts 目录</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="59">
+                <![CDATA[使用这些工具来增强您的产品知识，以及在您客户中建立信誉。]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="150" x="right" y="top" margin="10" time="1" trans="slideLeft" ease="BackEaseOut" yPad="30">
+              <bodyImage id="i1" order="4" url="3200_1.jpg" yPad="0">
+                <![CDATA[3200_1 image ]]>
+</bodyImage>
+              <bodyImage id="i2" order="6" y="bottom" yPad="0" url="3200_2.jpg">
+                <![CDATA[3200_2 Image]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="3300" sNumber="3300" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[配件展示]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3301" type="BodyBulletBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="470" x="left" y="40" margin="10" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="63" yPad="0">
+                <![CDATA[通过在展示厅、服务部门和零件部门中展示热销产品和促销产品，促进配件销售。]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="64">
+                <![CDATA[使用配件展示和/或以各种莫帕配件和高性能零件定制的“展览”车辆向客户展示这些零配件的外观与质量。]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="65">
+                <![CDATA[创建装饰一新的车辆图片册，向客户展示他们能够怎样个性化自己的轿车和卡车。]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="140" x="right" y="top" margin="10" time="1" trans="slideLeft" ease="BackEaseOut" syncType="build" yPad="30">
+              <bodyImage id="i1" order="4" url="3300_1.jpg" yPad="0">
+                <![CDATA[Accessories Display 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="6" y="bottom" url="3300_2.jpg" yPad="0">
+                <![CDATA[Accessories Display 2]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="3400" sNumber="3400" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[<b>StarParts</b>]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3401" type="BodyBulletBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="470" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="69" yPad="0">
+                <![CDATA[StarParts 维修零件目录是零件信息的主要来源和指定工具。]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="70">
+                <![CDATA[完整 StarParts 目录可在 www.starparts.chrysler.com 上获得，该目录定期更新。]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="71">
+                <![CDATA[StarParts Lite 是DVD 版本。]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="72">
+                <![CDATA[输入 VIN 和 StarParts，仅显示适合此车辆的零件。]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="73">
+                <![CDATA[您可以与客户分享 StarParts 数据。例如，您可以将信息打印到 PDF，或者进行截屏，然后通过电子邮件或传真将截屏发送给客户。]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="150" x="right" y="top" margin="10" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i1" order="2" time="1" url="3400_1.jpg">
+                <![CDATA[StarParts Screen Grab]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="3500" sNumber="3500" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[<b>知识测验</b>]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide type="act" sNumber="3501" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="dd2row" width="700" height="450" x="0" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut">
+              <actui type="ScreenText" x="0" y="0" width="680" fontColor="black" margin="0" xPad="0" yPad="0">
+                <item type="questiontext" fontSize="18">
+                  <![CDATA[到进行知识测验以巩固学习要点的时间了。请将每个特征拖到其相关的品牌。]]>
+</item>
+              </actui>
+              <actui uid="0" type="SubHeader" fontColor="blue" fontSize="18" xPad="4" yPad="4">
+                <item id="i1" type="dropHeader" x="0" y="0" width="260" height="20" fontAlign="left">
+                  <![CDATA[莫帕]]>
+</item>
+                <item id="i2" type="dropHeader" x="400" y="0" width="260" height="40" fontAlign="left">
+                  <![CDATA[配件市场]]>
+</item>
+              </actui>
+              <actui uid="1" type="ItemDragBox" layout="1row" x="0" y="50" width="124" height="60" columnPadding="8" rowPadding="10" fontSize="12" fontColor="0x000000" fontStyle="reg" fontAlign="center" fontVertAlign="middle" fillColor="#66ccff" fillAlpha="1" frameSize="1" frameColor="0x666666" frameAlpha="1" fillType="gradient" fillColor2="0xD1E6F2" xPad="20" yPad="10">
+                <item id="i1" isanswer="drop01">
+                  <![CDATA[符合/超越原始规格]]>
+</item>
+                <item id="i2" isanswer="drop02">
+                  <![CDATA[多个/组合的应用]]>
+</item>
+                <item id="i3" isanswer="drop01">
+                  <![CDATA[车辆特定应用]]>
+</item>
+                <item id="i4" isanswer="drop01">
+                  <![CDATA[全国范围的经销商网络]]>
+</item>
+                <item id="i5" isanswer="drop02">
+                  <![CDATA[当地/地区零售商]]>
+</item>
+              </actui>
+              <actui uid="1" type="ItemDropBox" layout="2x2" x="0" y="0" width="124" height="60" columnPadding="10" rowPadding="12" fontSize="16" fontColor="0x000000" fontStyle="bold" fontAlign="left" fontVertAlign="middle" frameSize="1" frameColor="0x666666" fillType="gradient" fillColor="0xcc6633" fillAlpha="1" fillColor2="0xff9933" xPad="10" yPad="10">
+                <col layout="2x2" x='0' y='0'>
+                  <item id='dropSet01_1' isanswer='drop01'></item>
+                  <item id='dropSet01_2' isanswer='drop01'></item>
+                  <item id='dropSet01_3' isanswer='drop01'></item>
+                  <item id='dropSet01_4' isanswer='drop01'></item>
+                </col>
+                <col layout="2x2" x='400' y='0'>
+                  <item id='dropSet02_1' isanswer='drop02'></item>
+                  <item id='dropSet02_2' isanswer='drop02'></item>
+                  <item id='dropSet02_3' isanswer='drop02'></item>
+                  <item id='dropSet02_4' isanswer='drop02'></item>
+                </col>
+              </actui>
+              <actui uid="3" type="feedbacktext" width="680" height="80" x="center" y="50" margin="10" fontSize="14" xPad="12">
+                <item type="correct" id="pos">
+                  <![CDATA[正确！莫帕原始设备零件为客户提供了配件市场竞争对手望尘莫及的质量和可靠性优势。]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="3600" sNumber="3600" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[莫帕价值主张]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide type="BulletBuild" sNumber="3601" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="650" x="left" y="170" margin="10" trans="slideRight" ease="QuintEaseOut">
+              <bodyBullet id="bb0" order="89" yPad="0">
+                <![CDATA[让我们来重述莫帕为您的客户提供的价值：]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="90">
+                <![CDATA[<li>比配件市场竞争对手更高的质量</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="91">
+                <![CDATA[<li>专为特定车辆而设计，符合或超越原始规格</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="92">
+                <![CDATA[<li>经过大规模产品验证，确保可靠性和耐用性</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="93">
+                <![CDATA[<li>竞争性的价格</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="94">
+                <![CDATA[<li>与配件市场提供的保修相比，莫帕保修极具竞争力</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="95">
+                <![CDATA[<li>StarParts 有助于您符合规格以及销售正确的零件</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb7" order="96">
+                <![CDATA[利用这些优势来满足客户需求，导航您的销售。]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="100" height="100" x="326" y="60" time="1" trans="fadeIn" ease="QuintEaseOut">
+              <bodyImage id="i1" url="icons/icon_mopar.png" order="1">
+                <![CDATA[Mopar Logo]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

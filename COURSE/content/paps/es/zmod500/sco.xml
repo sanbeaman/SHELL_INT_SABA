@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="PAPSESWB" template="PAPS" localeID="es" debug="false">
+    <title>
+ <![CDATA[Habilidades Para La Venta Minorista De Partes]]>
+</title>
+  </course>
+  <section id="0" snumber="550">
+    <header id="sech1">
+      <![CDATA[BIENVENIDO]]>
+</header>
+    <scenes>
+      <scene sNumber="550" sType="splash" continueBtnType="start">
+        <sceneitems>
+          <ui uid="1" type="bodyIcon" width="600" height="125" x="center" y="top" margin="10" trans="slideup" ease="BackEaseOut">
+            <bodyImage id="i1" order="0" time="1" scaleMode="none" url="logo_course.png">
+              <![CDATA[Course Logo]]>
+</bodyImage>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="550" type="splash" animType="animsync" endType="trigger">
+            <ui uid="2" type="bodyBullet" width="680" margin="10" x="center" y="150" fontColor="0x000000" fontSize="10" trans="slideup" ease="QuintEaseOut" syncType="buildy" yPad="5">
+              <bodyBullet id="bb0" order="2" yPad="0">
+                <![CDATA[<b>Cada vez que use una computadora distinta para reiniciar este curso, seleccione el menú de Verificador del sistema para volver a verificar su sistema.</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4" yPad="10">
+                <![CDATA[<b>Cómo obtener créditos </b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1a" order="5">
+                <![CDATA[Para recibir crédito por este curso usted debe:]]>
+</bodyBullet>
+              <bodyBullet id="bb1a1" order="6">
+                <![CDATA[<li>Tener una marca de verificación amarilla en cada tema (el encabezamiento de cada lección no mostrará marcas de verificación)</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1a2" order="8">
+                <![CDATA[<li>Salga adecuadamente seleccionando el artículo del menú y botón Completar y salir</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1a3" order="10">
+                <![CDATA[<li>Iniciar la prueba y cualquier otro artículo requerido que se encuentre en la página de Tareas del Centro de Aprendizaje del Curso</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="12" yPad="10">
+                <![CDATA[<b>Cómo salir del curso</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb2a1" order="14">
+                <![CDATA[<li>Salir antes de tiempo:  Si cierra la ventana del explorador antes de haber completado el curso, el sistema guardará su progreso en todos los temas que haya completado durante la sesión</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2a2" order="16">
+                <![CDATA[<li>Completar y Salir:  Después de completar todos los artículos que se requieran del menú, seleccione el artículo del menú Completar y Salir, y luego seleccione el botón Completar y Salir.<b>(Debe hacerlo para transferir su progreso final y obtener crédito por este curso)</b></li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2a3" order="18">
+                <![CDATA[<li>Nota:  La primera vez que reinicie el curso después de un intento completado, sus favoritos se reconfigurarán y no estarán inicialmente llenos ni seleccionados</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="BodyButton" trans="slideup" ease="QuintEaseOut" order="50" time="1">
+              <item id="trigger" type="startcourse" width="300" height="36" x="center" y="bottom" margin="5" fontSize="16" fontColor="0x000000" fontStyle="reg" pulseColor="0xfe9003">
+                <![CDATA[COMENZAR EL CURSO]]>
+</item>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

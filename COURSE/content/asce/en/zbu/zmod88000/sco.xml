@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCEENWB" template="ASCE" localeID="en" debug="false">
+    <title>
+      <![CDATA[Exceptional Customer Experience]]>
+</title>
+  </course>
+  <section id="0" snumber="88000">
+    <header>
+      <![CDATA[Resources]]>
+</header>
+    <scenes>
+      <scene id="88000" sNumber="88000" sType="resources" continueBtnType="done">
+      <sceneitems>
+          <ui uid="1" type="bodyIcon" width="600" height="200" x="center" y="top" margin="20" trans="slideup" ease="BackEaseOut">
+            <bodyImage id="i1" order="0" time="1" scaleMode="none" url="logo_course.png">
+              <![CDATA[Course Logo]]>
+</bodyImage>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="88100" type="resources" animType="animSync" endType="done">
+            <ui uid="2" type="bodyBullet" width="650" x="center" y="220" margin="0" fontSize="18"  fontAlign="left" trans="slideup" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="2" time="1" yPad="0">
+                <![CDATA[<b>Resources</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="3" time="1">
+                <![CDATA[These resources will help your job performance. You can view, print or save these resources for future use.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="BodyButton" width="650" height="36" x="center" y="300" time="1" trans="slideup" ease="QuintEaseOut" syncType="buildy" pulseColor="orange" yPad="20">
+              <item id="trigger" type="pdfbtn" order="52" fontSize="16"  fontStyle="bold" url="After_Sales_Performance_Standards_EN.pdf" isActive="yes">
+                <![CDATA[After Sales Performance Standards]]>
+</item>
+              <item id="trigger" type="pdfbtn" order="55" fontSize="16"  fontStyle="bold" url="Top_Four_Ways_to_Build_Rapport_EN.pdf" isActive="yes">
+                <![CDATA[Top Four Ways to Build Rapport]]>
+</item>
+            </ui>
+            
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

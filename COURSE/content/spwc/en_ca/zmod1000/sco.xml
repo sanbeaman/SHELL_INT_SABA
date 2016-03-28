@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="SPWCGWB" template="SPWC" localeID="en_CA" debug="false">          
+  <title><![CDATA[WELCOME TO CHRYSLER &#8212; AFTER SALES]]>
+</title>
+  </course>
+    <section id="0" snumber="1000">
+    <header id="sech1">
+      <![CDATA[Introduction]]>
+</header>
+    <scenes>
+      <scene id="1000" sNumber="1000" sType="audiosync" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="music" url="1005.mp3" duration="62.29" size="505000" loops="-1" />
+        </sceneitems>
+        <slides>
+          <slide sNumber="1005" type="TextImageBuild" animType="timesync" endType="Continue">
+            <ui uid="2" type="BodyText" width="500"  x="center" y="400" fontAlign="center" effect="none" margin="0" trans="slideLeft" ease="QuintEaseOut" syncType="add">
+              <bodyBullet id="bb1" order="5" timeIn=".5" timeOut="999">
+                <![CDATA[Each of these legendary brands were built by visionaries and have launched entire new segments within their categories.]]>
+</bodyBullet>
+            </ui>
+             <ui uid="1" type="BodyImage" width="420" height="280" x="center" y="top" margin="30" time="2" trans="fadeOn" ease="QuintEaseOut" >
+              <bodyImage id="i1" order="10" scaleMode="proportionalOutside" effect="none" url="logo_welcome.png" timeIn=".5" timeOut="999">
+                <![CDATA[Welcome Logo]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="BodyImage" x="50" y="320" margin="0" effect="none" scaleMode="none" trans="slideleft" ease="QuintEaseOut" time="1" syncType="buildx" xPad="0">
+              <bodyImage id="i1" order="11" url="logo_1.png" width="80" height="42" time="1" timeIn="1" timeOut="999">
+                <![CDATA[logo1]]>
+</bodyImage>
+              <bodyImage id="i2" order="12" url="logo_2.png" width="137" time="1" timeIn="1.5" timeOut="999">
+                <![CDATA[logo1]]>
+</bodyImage>
+              <bodyImage id="i3" order="13" url="logo_3.png" width="139" height="42" time="1" timeIn="2" timeOut="999">
+                <![CDATA[logo1]]>
+</bodyImage>
+              <bodyImage id="i4" order="14" url="logo_4.png" width="83" height="42" time="1" timeIn="2.5" timeOut="999">
+                <![CDATA[logo1]]>
+</bodyImage>
+              <bodyImage id="i5" order="15" url="logo_5.png" width="98" height="42" time="1" timeIn="3" timeOut="999">
+                <![CDATA[logo1]]>
+</bodyImage>
+              <bodyImage id="i6" order="16" url="logo_6.png" width="56" height="42" time="1" timeIn="3.5" timeOut="999">
+                <![CDATA[logo1]]>
+</bodyImage>
+              <bodyImage id="i7" order="17" url="logo_7.png" width="62" height="42" time="1" timeIn="4" timeOut="999">
+                <![CDATA[logo1]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="1010" type="TextImageReplace" animType="timesync" endType="Continue">
+            <ui uid="2" type="BodyText"  width="500"  x="center" y="380" margin="0"  fontAlign="center" effect="none" time="1" trans="slideLeft" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="20"  timeIn=".5" timeOut="999" yPad="0" >
+                <![CDATA[Our leadership and innovation earned us the label of Detroit’s “engineering company.”]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22" timeIn="2.5" timeOut="999">
+                <![CDATA[Strategic Vision 2012 Total Quality Index study names Chrysler Group LLC most improved automaker]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="BodyImage" width="420" height="280" x="center" y="top" margin="30"  scaleMode="proportionalOutside" effect="shadow" time="1" trans="slideLeft" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" order="20" url="1010_1.jpg" timeIn="0" timeOut="2.0">
+                <![CDATA[Chrysler 300]]>
+</bodyImage>
+              <bodyImage id="i2" order="42" url="1010_2.jpg"  timeIn="2.5" timeOut="4.5">
+                <![CDATA[Dodge Dart]]>
+</bodyImage>
+              <bodyImage id="i3" order="44" url="1010_3.jpg"  timeIn="5" timeOut="7.5">
+                <![CDATA[Ram 2500]]>
+</bodyImage>
+              <bodyImage id="i4" order="42" url="1010_4.jpg" timeIn="8" timeOut="10.5">
+                <![CDATA[jeep Grand Cherokee]]>
+</bodyImage>
+              <bodyImage id="i5" order="42" url="1010_5.jpg"  timeIn="11" timeOut="13.5">
+                <![CDATA[FIAT 500]]>
+</bodyImage>
+              <bodyImage id="i6" order="42" url="1010_6.jpg"  timeIn="14" timeOut="16.5">
+                <![CDATA[SRT Viper]]>
+</bodyImage>
+              <bodyImage id="i7" order="42" url="1010_7.jpg" timeIn="17" timeOut="999">
+                <![CDATA[Mopar product]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="1015" type="TextImageReplace" animType="timesync" endType="Continue">
+            <ui uid="2" type="BodyText" width="500" x="center" y="380"  margin="0" fontAlign="left" effect="none"  time="1" trans="slideLeft" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="20" timeIn=".5" timeOut="999" yPad="0">
+                <![CDATA[We’re building on Chrysler Group’s culture of innovation and FIAT SpA’s complementary technology to expand the product portfolio in North America and overseas.]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22" x="250" fontStyle="italic" fontSize="14" timeIn="1" timeOut="999">
+                <![CDATA[Sergio Marchionne<br />Chairman and CEO, Chrysler Group LLC<br/>CEO, FIAT S.p.A]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="BodyImage" width="420" height="280" x="center" y="top" margin="30" time="1" trans="slideLeft" ease="QuintEaseOut" scaleMode="proportionalOutside" effect="shadow" syncType="replace">
+              <bodyImage id="i1" order="20" url="1015_1.jpg" timeIn=".5" timeOut="999">
+                <![CDATA[Sergio Marchionne]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="1020" type="TextImageAround" animType="timesync" endType="Continue">
+            <ui uid="2" type="BodyText"  width="300" x="227" y="300" fontSize="16" fontAlign="center" effect="none" margin="10" trans="slideup" ease="QuintEaseOut">
+              <bodyBullet id="bb1" order="21" syncType="buildy" time="1" timeIn=".5" timeOut="999">
+                <![CDATA[Dodge, Jeep<font face='Subscript'>&#174;</font>, Chrysler, Ram and FIAT vehicles offer …]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22" syncType="buildy" time="1" timeIn="1" timeOut="999">
+                <![CDATA[outstanding safety and security …]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="23" syncType="buildy" time="1" timeIn="3" timeOut="999">
+                <![CDATA[… state-of-the art innovation]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="24" syncType="buildy" time="1" timeIn="4" timeOut="999">
+                <![CDATA[… and incredible performance]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage"  width="240" height="160" x="center" y="top" margin="30" effect="shadow" scaleMode="none" trans="fadeOn" ease="QuintEaseOut">
+              <bodyImage id="i1" url="1020_1.jpg"  order="10" timeIn="0" timeOut="999">
+                <![CDATA[Dodge Dart]]>
+</bodyImage>
+            </ui>
+              <ui uid="1" type="BodyImage" width="150" height="100" x="left" y="80" margin="0"  effect="none" scaleMode="none" time="1" trans="slideright" ease="QuintEaseOut" syncType="buildy" yPad="100">
+              <bodyImage id="i2" url="1020_2.jpg"  order="2"  timeIn="1.5" timeOut="999"  yPad="0">
+                <![CDATA[Jeep Grand Cherokee]]>
+</bodyImage>
+              <bodyImage id="i3" url="1020_3.jpg" order="13"  timeIn="3.5" timeOut="999">
+                <![CDATA[Chrysler 300]]>
+</bodyImage>
+            </ui>
+               <ui uid="1" type="BodyImage" width="150" height="100" x="right" y="80" margin="0"  effect="none" scaleMode="none" time="1" trans="slideleft" ease="QuintEaseOut" syncType="buildy" yPad="100">
+              <bodyImage id="i4" url="1020_4.jpg" timeIn="3.5" timeOut="999" yPad="0">
+                <![CDATA[Ram HD]]>
+</bodyImage>
+              <bodyImage id="i5" url="1020_5.jpg" timeIn="4.5" timeOut="999">
+                <![CDATA[Fiat]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="1025" type="TextImageAround" animType="timesync" endType="Continue">
+                <ui uid="2" type="BodyText"  width="300" x="227" y="300" margin="10" fontSize="16" fontAlign="center" effect="none" trans="slideup" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="21" timeIn=".5" timeOut="999" yPad="0">
+                <![CDATA[It’s YOUR job to communicate this to customers]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22" timeIn="1" timeOut="999">
+                <![CDATA[Understanding After Sales processes – and Chrysler Group’s commitment to building customer loyalty – will help you do that]]>
+</bodyBullet>
+            </ui>
+               <ui uid="1" type="bodyImage"  width="240" height="160" x="center" y="top" margin="30" effect="shadow" scaleMode="none" trans="fadeOn" ease="QuintEaseOut">
+              <bodyImage id="i1" url="1025_1.jpg" order="10" timeIn="0" timeOut="999">
+                <![CDATA[Serv/Parts Advisor w/ customer]]>
+</bodyImage>
+            </ui>
+             <ui uid="1" type="BodyImage" width="150" height="100" x="right" y="80" margin="0"  effect="none" scaleMode="none" time="1" trans="slideleft" ease="QuintEaseOut" syncType="buildy" yPad="100">
+              <bodyImage id="i2" url="1025_2.jpg" order="2" timeIn="1.5" timeOut="999" yPad="0">
+                <![CDATA[Serv/Parts Advisor w/ customer]]>
+</bodyImage>
+             <bodyImage id="i3" url="1025_3.jpg" order="13" timeIn="3.5" timeOut="999">
+                <![CDATA[Chrysler 300]]>
+</bodyImage>
+             </ui>
+              <ui uid="1" type="BodyImage" width="150" height="100" x="left" y="80" margin="0"  effect="none" scaleMode="none" time="1" trans="slideright" ease="QuintEaseOut" syncType="buildy" yPad="100">
+              <bodyImage id="i4" url="1025_4.jpg" timeIn="3.5" timeOut="999" yPad="0">
+                <![CDATA[Ram HD]]>
+</bodyImage>
+              <bodyImage id="i5" url="1025_5.jpg" timeIn="4.5" timeOut="999" >
+                <![CDATA[Fiat]]>
+</bodyImage>
+              </ui>
+          </slide>
+          <slide sNumber="1030" type="TextImageBuild" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="1030.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="BodyText" width="500" x="center" y="380"  margin="0" fontAlign="center" effect="none" trans="slideLeft" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="20" timeIn=".5" timeOut="999" yPad="0">
+                <![CDATA[Momentum is building]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="20" timeIn="3.0" timeOut="999">
+                <![CDATA[The right company]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22" timeIn="5.1" timeOut="999">
+                <![CDATA[The right time]]>
+</bodyBullet>
+            </ui>
+             <ui uid="1" type="BodyImage" width="420" height="280" x="center" y="top" margin="30"  scaleMode="proportionalOutside" effect="shadow" time="2" trans="slideLeft" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" order="10" url="1030_1.jpg" timeIn="0" timeOut="2.5">
+                <![CDATA[Viper Image]]>
+</bodyImage>
+              <bodyImage id="i2" order="12" url="1030_2.jpg" timeIn="3.1" timeOut="4.5">
+                <![CDATA[Chrylser HQ]]>
+</bodyImage>
+              <bodyImage id="i3" order="14" url="1030_3.jpg" timeIn="5.1" timeOut="999">
+                <![CDATA[Service Advisor]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="1035" type="TextImageBuild" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="1035.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="BodyText"  width="500" x="center" y="380" fontAlign="center" effect="none" margin="0" trans="slideLeft" ease="QuintEaseOut">
+              <bodyBullet id="bb0" order="20" syncType="add" time="1" timeIn="7.1" timeOut="999">
+                <![CDATA[<b>You will learn:</b>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="2" type="BodyText" width="500" x="center" y="420"  margin="0" fontAlign="center" effect="none"  trans="slideLeft" ease="QuintEaseOut" syncType="replace">
+              <bodyBullet id="bb1" order="20" timeIn="7.5" timeOut="10.5">
+                <![CDATA[About Chrysler Group and its brands]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22" timeIn="11.1" timeOut="18.3">
+                <![CDATA[How top-performing Service, Parts, and Warranty professionals work together to meet and exceed the needs of their internal and external customers …]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="24" timeIn="19.1" timeOut="24.2">
+                <![CDATA[The importance of customer loyalty to the success of the dealership and its employees …]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="26"  timeIn="25.1" timeOut="999">
+                <![CDATA[How to take advantage of Chrysler tools and resources to build your professional skills and career]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="BodyImage" width="420" height="280" x="166" y="top" margin="30"  scaleMode="proportionalOutside" effect="shadow" time="2" trans="fadeOn" ease="QuintEaseOut">
+              <bodyImage id="i1" order="10" url="1035_1.jpg" timeIn="0" timeOut="10.5">
+                <![CDATA[Collage of Chrysler brands]]>
+</bodyImage>
+              <bodyImage id="i2" order="12" url="1035_2.jpg" timeIn="11.1" timeOut="18.3">
+                <![CDATA[Service professional with customer]]>
+</bodyImage>
+              <bodyImage id="i3" order="14"  url="1035_3.jpg" timeIn="19.1" timeOut="24.2">
+                <![CDATA[parts professional with customer]]]>
+</bodyImage>
+              <bodyImage id="i4" order="16" url="1035_4.jpg" timeIn="25.1" timeOut="999">
+                <![CDATA[screengrab dealerconnect]]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="1040" type="TextImageBuild" animType="timesync" endType="DONE">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="1040.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="BodyText" width="500" x="150" y="380" margin="0" fontAlign="center" effect="none"  time="2" trans="slideup" ease="QuintEaseOut" syncType="replace">
+              <bodyBullet id="bb0" order="20" timeIn="8" timeOut="999">
+                <![CDATA[Get tips and best practices to create customers for life]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="BodyImage" width="420" height="280" x="166" y="top" margin="30"  scaleMode="proportionalOutside" effect="none"  time="2"  trans="fadeOn" ease="QuintEaseOut">
+              <bodyImage id="i1" order="10" url="logo_welcome.png" timeIn=".5" timeOut="999">
+                <![CDATA[Welcome Logo]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

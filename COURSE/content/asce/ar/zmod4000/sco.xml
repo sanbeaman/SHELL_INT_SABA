@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCEARWB" template="ASCE" localeID="ar" debug="false">
+    <title>
+      <![CDATA[تجربة عملاء رائعة]]>
+</title>
+  </course>
+  <section id="0" snumber="4000">
+    <header>
+      <![CDATA[تلبية توقعات العملاء الرئيسية]]>
+</header>
+    <scenes>
+      <scene sNumber="4100" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+      <![CDATA[عملية تقديم الخدمة]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="4105" type="Activity_Match" animType="none" endType="Continue">
+           <ui uid="1" type="act" atype="match" x="right" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut">
+              <actui type="ScreenText" width="710" yPad="10">
+                <item type="screentext" fontSize="20" yPad="0">
+      <![CDATA[يتحتم على كل وكالة بيع تلبية الحد الأدنى لتوقعات العملاء فيما يتعلق بعملية تقديم الخدمة.]]>
+</item>
+                <item type="directiontext" fontSize="14">
+      <![CDATA[تعليمات: مطابقة خطوات عملية تقديم الخدمة الموجودة على اليسار من خلال النقر على توقع العميل الملائم على اليمين]]>
+</item>
+              </actui>
+              <actui uid="0" type="SubHeader" order="5" width="300" height="40" fontColor="0x000000" fontSize="18">
+                <item id="i1" type="dragHeader" width="220" fontAlign="center">
+      <![CDATA[توقعات العملاء]]>
+</item>
+                <item id="i2" type="dropHeader" width="360">
+      <![CDATA[خطوات العملية]]>
+</item>
+              </actui>
+              <actui uid="1" type="MatchBtn" width="220" height="40" x="0" y="0" layout="1col" fontSize="16" fontColor="0x000000" fontStyle="bold" fontAlign="center" fontVertAlign="middle" fillColor="greycc" fillAlpha="1" frameSize="1" frameColor="white" frameAlpha="1" fillType="gradient" fillColor2="greycc" xPad="20" yPad="7">
+                <item id="i1" isanswer="drop01">
+      <![CDATA[الاستفسار]]>
+</item>
+                <item id="i2" isanswer="drop02">
+      <![CDATA[التدوين]]>
+</item>
+                <item id="i3" isanswer="drop03">
+      <![CDATA[الفحص والتصليح]]>
+</item>
+                <item id="i4" isanswer="drop04">
+      <![CDATA[استشارة العملاء]]>
+</item>
+                <item id="i5" isanswer="drop05">
+      <![CDATA[ضمان الجودة]]>
+</item>
+                <item id="i6" isanswer="drop06">
+      <![CDATA[التسليم]]>
+</item>
+                <item id="i7" isanswer="drop07">
+      <![CDATA[المتابعة]]>
+</item>
+              </actui>
+              <actui uid="1" type="MatchTarget" width="360" height="40" x="right" y="0" layout="default"  fontSize="12" fontColor="0x000000" fontStyle="reg" fontAlign="left" fontVertAlign="middle" fillColor="orangegrad1" fillAlpha="1" frameSize="1" frameColor="white" frameAlpha="1" fillType="gradient" fillColor2="orangegrad2" xPad="10" yPad="7">
+                <item id="i1" isanswer="drop01">
+      <![CDATA[الرد علىَّ سريعًا، وبالطريقة التي طلبت بها، ومع كل المعلومات التي طلبتها]]>
+</item>
+                <item id="i2" isanswer="drop02">
+      <![CDATA[اهتمام سريع وبالغ باحتياجاتي]]>
+</item>
+                <item id="i3" isanswer="drop03">
+      <![CDATA[إبلاغي بالإصلاحات أو الصيانة المطلوبة]]>
+</item>
+                <item id="i4" isanswer="drop04">
+      <![CDATA[مراجعة ما يلزم إجراؤه معي، وكم سيتكلف ومتى سيكتمل]]>
+</item>
+                <item id="i5" isanswer="drop05">
+      <![CDATA[إصلاح سيارتي بشكل صحيح من المرة الأولى]]>
+</item>
+                <item id="i6" isanswer="drop06">
+      <![CDATA[سيارتي جاهزة للاستلام في الموعد المتفق عليه عملية الاستلام خالية من المشاحنات]]>
+</item>
+                <item id="i7" isanswer="drop07">
+      <![CDATA[سوف يتصل شخص ما بي للمتابعة والتأكيد على أن كل شيء يسير على ما يرام]]>
+</item>
+              </actui>
+              <actui uid="3" type="feedbacktext" width="710" x="center" y="bottom" margin="10">
+                <item type="correct" id="pos">
+      <![CDATA[تعد معرفة ما يتوقعه العميل في كل خطوة أمرًا مهمًا. من المهم أيضًا اتباع معايير الأداء باستمرار لضمان تلبية التوقعات. ]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+           <slide sNumber="4110" type="Activity_TextAreaInput" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="tai" x="right" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" width="710" yPad="8">
+              <item type="header" yPad="0" fontSize="24">
+      <![CDATA[<b>الاستفسار</b>]]>
+</item>
+                <item type="questiontext" fontSize="16">
+   <![CDATA[توقعات العميل: الرد على سريعًا، وبالطريقة التي طلبت بها، ومع كل المعلومات التي طلبتها.
+ثمة العديد من معايير الأداء التي تستخدمها وكالات البيع لتلبية توقعات العميل. ما هي بعض هذه المعايير التي تشعر أنها فعَّالة على وجه الخصوص؟ ]]></item>
+                <item type="directiontext" fontSize="14">
+      <![CDATA[تعليمات: اكتب إجابتك، ثم انقر فوق "إرسال" للحصول على بعض الأفكار الإضافية. يمكنك طباعة إجاباتك للرجوع إليها أثناء القيام بالمهمة.]]>
+</item>
+              </actui>
+              
+              
+              <actui type="actui" xPad="8" yPad="8">
+                <item type="txtinput" width="246" x="left" y="0" fontSize="16" fontColor="0x000000" fontStyle="reg" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1">
+                  <![CDATA[ابدأ الكتابة هنا.]]>
+
+</item>
+                <item type="txtresult" width="444" x="right" y="0" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1" fontColor="0x000000" fontSize="13" fontStyle="reg" textStyle="textflow">
+                <![CDATA[<list listStylePosition="outside" listStyleType="disc"><li>الرد على جميع المكالمات الهاتفية بعد ثلاث رنّات، والتأكد من عدم تجاوز وقت "الانتظار" 30 ثانية</li><li>الرد على جميع الاستفسارات الإلكترونية ( الصيانة وقطع الغيار ) خلال ساعة عمل واحدة باستخدام الطريقة التي طلبها العميل  ( لا تعتبر رسائل الرد التلقائي عبر البريد الإلكتروني ردًا )</li><li>معالجة طلب العميل بشكل كامل</li><li>توفير نظام مواعيد للعملاء لتحديد تاريخ وموعد محددين لتدوين خدمة السيارة</li><li>تقديم أوقات وكالة البيع التي تتميَّز بالتنافس في السوق</li><li>تقديم خيار ( خيارات ) نقل بديل لعملاء الخدمة </li></list>]]></item>         
+</actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="orange">
+                <item id="chkbtn" type="submit" x="right">
+                  <![CDATA[إرسال]]>
+</item>
+                <item id="chkbtn" type="print" x="left">
+                  <![CDATA[طباعة]]></item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="4115" type="Activity_TextAreaInput" animType="none" endType="Continue">
+          <ui uid="1" type="act" atype="tai" x="right" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" width="710" yPad="8">
+              <item type="header" yPad="0" fontSize="24">
+      <![CDATA[<b>التدوين</b>]]>
+</item>
+                <item type="questiontext" fontSize="16">
+      <![CDATA[توقعات العميل: اهتمام سريع وبالغ باحتياجاتي ثمة العديد من معايير الأداء التي تستخدمها وكالات البيع لتلبية توقعات العميل. ما هي بعض هذه المعايير التي تشعر أنها فعَّالة على وجه الخصوص؟  ]]>
+</item>
+                <item type="directiontext" fontSize="14">
+      <![CDATA[تعليمات: اكتب إجابتك، ثم انقر فوق "إرسال" للحصول على بعض الأفكار الإضافية. يمكنك طباعة إجاباتك للرجوع إليها أثناء القيام بالمهمة.]]>
+</item>
+              </actui>
+               <actui type="actui" xPad="8" yPad="8">
+                <item type="txtinput" width="246" x="left" y="0" fontSize="16" fontColor="0x000000" fontStyle="reg" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1">
+                  <![CDATA[ابدأ الكتابة هنا.]]>
+
+</item>
+                <item type="txtresult" width="444" x="right" y="0" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1" fontColor="0x000000" fontSize="13" fontStyle="reg">
+ <![CDATA[<li>قدم التحية للعملاء بترحاب، أعد التأكيد على سبب زيارتهم، اسألهم عما إذا كان هناك أي متطلبات خدمة إضافية </li><li>مراجعة احتياجات التصليح أو الصيانة لدى العميل وتأكيدها</li><li>القيام بجولة تفقدية بالسيارة لفحص السيارة بالنظر</li><li>تحديث معلومات جهات الاتصال بالعميل والسيارة</li><li>تحديد أي استدعاءات مفتوحة أو إحالات الاستجابة السريعة التي تنطبق على سياراتهم وطلب إذن لإجرائها</li><li>مراجعة طلب الإصلاح مع العميل للتأكيد على احتياجات التصليح</li><li>تقديم وقت التصليح المُقدَّر</li><li>توفير مكان نظيف ومريح للانتظار</li><li>توفير خيار (  خيارات )  نقل بديل</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit" x="right">
+                  <![CDATA[إرسال]]>
+</item>
+                <item id="chkbtn" type="print" x="left">
+                  <![CDATA[طباعة]]></item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="4120" type="Activity_TextAreaInput" animType="none" endType="Continue">
+           <ui uid="1" type="act" atype="tai" x="right" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" width="710" yPad="8">
+                 <item type="header" yPad="0" fontSize="24">
+      <![CDATA[<b>الفحص والتصليح</b>]]>
+</item>
+                <item type="questiontext" fontSize="16">
+      <![CDATA[توقعات العميل: إبلاغي بأي تصلحيات أو الصيانة المطلوبة. ثمة العديد من معايير الأداء التي تستخدمها وكالات البيع لتلبية توقعات العميل. ما هي بعض هذه المعايير التي تشعر أنها فعالة على وجه الخصوص؟ ]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                <![CDATA[تعليمات: اكتب إجابتك، ثم انقر فوق "إرسال" للحصول على بعض الأفكار الإضافية. يمكنك طباعة إجاباتك للرجوع إليها أثناء القيام بالمهمة.]]></item>
+              </actui>
+               <actui type="actui" xPad="8" yPad="8">
+                <item type="txtinput" width="246" x="left" y="0" fontSize="16" fontColor="0x000000" fontStyle="reg" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1">
+                  <![CDATA[ابدأ الكتابة هنا.]]>
+
+</item>
+                <item type="txtresult" width="444" x="right" y="0" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1" fontColor="0x000000" fontSize="13" fontStyle="reg">
+    <![CDATA[<li>التحقق من توفر فني مدرب جيدًا وتكليفه بالعمل </li><li>التحقق من وجود جميع قطع الغيار اللازمة في المخزن وتوفرها</li><li>القيام بفحص السيارة الذي يشمل تحديد الرموز التشخيصية للمشكلة والتحديثات التي يجب معالجتها وتدوينها</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit" x="right">
+                  <![CDATA[إرسال]]>
+</item>
+                <item id="chkbtn" type="print" x="left">
+                  <![CDATA[طباعة]]></item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="4125" type="Activity_TextAreaInput" animType="none" endType="Continue">
+          <ui uid="1" type="act" atype="tai" x="right" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" width="710" yPad="8">
+                 <item type="header" yPad="0" fontSize="24">
+      <![CDATA[<b>استشارة العملاء</b>]]>
+</item>
+                <item type="questiontext" fontSize="16">
+      <![CDATA[توقعات العملاء: مراجعة ما يجب، إجراؤه مع العميل، وكم سيتكلف وموعد اكتماله  ثمة العديد من معايير الأداء التي تستخدمها وكالات البيع لتلبية توقعات العميل.  ما هي بعض هذه المعايير التي تشعر أنها فعالة على وجه الخصوص؟ ]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                <![CDATA[تعليمات: اكتب إجابتك، ثم انقر فوق "إرسال" للحصول على بعض الأفكار الإضافية. يمكنك طباعة إجاباتك للرجوع إليها أثناء القيام بالمهمة.]]>
+</item>
+              </actui>
+               <actui type="actui" xPad="8" yPad="8">
+                <item type="txtinput" width="246" x="left" y="0" fontSize="16" fontColor="0x000000" fontStyle="reg" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1">
+                  <![CDATA[ابدأ الكتابة هنا.]]>
+
+</item>
+                <item type="txtresult" width="444" x="right" y="0" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1" fontColor="0x000000" fontSize="13" fontStyle="reg">
+    <![CDATA[<li>مراجعة النتائج، والتوصيات والتقدير الكامل للتكاليف وموعد الاكتمال مع العميل والحصول على موافقة للمتابعة</li><li>معالجة احتياجات الإصلاح الأساسية الخاصة بالعميل أولاً</li><li>التأكد من تفهم العميل وموافقته على التصليح وتكلفته</li><li>الاتصال بالعميل لإطلاعه على أي تغييرات في عمليات التصليح، أو توافر قطع الغيار، أو التكلفة أو موعد الاكتمال</li><li>إخطار العميل خلال يوم عمل واحد من وصول قطع غيار الطلب الخاص</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit" x="right">
+                  <![CDATA[إرسال]]>
+</item>
+                <item id="chkbtn" type="print" x="left">
+                  <![CDATA[طباعة]]></item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="4130" type="Activity_TextAreaInput" animType="none" endType="Continue">
+           <ui uid="1" type="act" atype="tai" x="right" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" width="710" yPad="8">
+                 <item type="header" yPad="0" fontSize="24">
+      <![CDATA[<b>ضمان الجودة</b>]]>
+</item>
+                <item type="questiontext" fontSize="16">
+      <![CDATA[توقعات العميل: تصليح سيارتي بشكل صحيح من المرة الأولى. ثمة العديد من معايير الأداء التي تستخدمها وكالات البيع لتلبية توقعات العميل. ما هي بعض هذه المعايير التي تشعر أنها فعالة على وجه الخصوص؟ ]]>
+</item>
+                <item type="directiontext" fontSize="14">
+<![CDATA[تعليمات: اكتب إجابتك، ثم انقر فوق "إرسال" للحصول على بعض الأفكار الإضافية. يمكنك طباعة إجاباتك للرجوع إليها أثناء القيام بالمهمة. ]]></item>
+              </actui>
+              <actui type="actui" xPad="8" yPad="8">
+                <item type="txtinput" width="236" x="left" y="0" fontSize="16" fontColor="0x000000" fontStyle="reg" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1">
+                  <![CDATA[ابدأ الكتابة هنا.]]>
+
+</item>
+                <item type="txtresult" width="444" x="right" y="0" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1" fontColor="0x000000" fontSize="13" fontStyle="reg">
+    <![CDATA[<li>إجراء فحص الجودة وتوثيقه للتأكد من اكتمال كل العمل المطلوب</li><li>حل أي مشكلات قبل إعادة السيارة للعميل</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit" x="right">
+                  <![CDATA[إرسال]]>
+</item>
+                <item id="chkbtn" type="print" x="left">
+                  <![CDATA[طباعة]]></item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="4135" type="Activity_TextAreaInput" animType="none" endType="Continue">
+           <ui uid="1" type="act" atype="tai" x="right" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" width="710" yPad="8">
+                 <item type="header" yPad="0" fontSize="24">
+   <![CDATA[<b>التسليم</b>]]>
+   </item>
+                <item type="questiontext" fontSize="16">
+      <![CDATA[توقعات العميل: سيارتي جاهزة في الموعد وعملية التسليم خالية من أي مشاحنات. ثمة العديد من معايير الأداء التي تستخدمها وكالات البيع لتلبية توقعات العميل. ما هي بعض هذه المعايير التي تشعر أنها فعالة على وجه الخصوص؟ ]]>
+</item>
+                <item type="directiontext" fontSize="14">
+      <![CDATA[تعليمات: اكتب إجابتك، ثم انقر فوق "إرسال" للحصول على بعض الأفكار الإضافية. يمكنك طباعة إجاباتك للرجوع إليها أثناء القيام بالمهمة.]]>
+</item>
+              </actui>
+              <actui type="actui" xPad="8" yPad="8">
+                <item type="txtinput" width="236" x="left" y="0" fontSize="16" fontColor="0x000000" fontStyle="reg" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1">
+                  <![CDATA[ابدأ الكتابة هنا.]]>
+
+</item>
+                <item type="txtresult" width="444" x="right" y="0" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1" fontColor="0x000000" fontSize="13" fontStyle="reg">
+    <![CDATA[<li>تقديم خيارات لتحقيق الاطلاع والاستلام المناسبين</li><li>التأكد من أن السيارة جاهزة للاستلام في الموعد المتفق عليه</li><li>تقديم شرح وافٍ للعميل عن التصليحات والرسوم</li><li>إمداد العميل بالوثائق الخاصة بالخدمة وقت استلام السيارة</li><li>عرض تحديد موعد لزيارة الصيانة التالية</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit" x="right">
+                  <![CDATA[إرسال]]>
+</item>
+                <item id="chkbtn" type="print" x="left">
+                  <![CDATA[طباعة]]></item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="4140" type="Activity_TextAreaInput" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="tai" x="right" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" width="710" yPad="8">
+                 <item type="header" yPad="0" fontSize="24">
+      <![CDATA[<b>المتابعة</b>]]>
+</item>
+                <item type="questiontext" fontSize="16">
+      <![CDATA[توقعات العميل: سوف يتصل بي شخص ما للمتابعة والتأكيد أن كل شيء يسير على ما يرام  ثمة العديد من معايير الأداء التي تستخدمها وكالات البيع لتلبية توقعات العميل. ما هي بعض هذه المعايير التي تشعر أنها فعالة على وجه الخصوص؟ ]]>
+</item>
+                <item type="directiontext" fontSize="14">
+      <![CDATA[تعليمات: اكتب إجابتك، ثم انقر فوق "إرسال" للحصول على بعض الأفكار الإضافية. يمكنك طباعة إجاباتك للرجوع إليها أثناء القيام بالمهمة.]]>
+</item>
+              </actui>
+              <actui type="actui" xPad="8" yPad="8">
+                <item type="txtinput" width="246" x="left" y="0" fontSize="16" fontColor="0x000000" fontStyle="reg" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1">
+                  <![CDATA[ابدأ الكتابة هنا.]]>
+
+</item>
+                <item type="txtresult" width="444" x="right" y="0" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1" fontColor="0x000000" fontSize="13" fontStyle="reg">
+    <![CDATA[<li>الاتصال بالعميل خلال يومين من الاستلام لتحديد مدى الرضاء عن السيارة وتجربة وكالة البيع وتحديد أي مخاوف لدى العميل</li><li>القيام بالمتابعة باستخدام الطريقة التي يرغبها العميل</li><li>الاتصال بجميع العملاء الذين لم يحضروا في الموعد المحدد ومحاولة تحديد مواعيد أخرى</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="orange">
+                <item id="chkbtn" type="submit" x="right">
+                  <![CDATA[إرسال]]>
+</item>
+                <item id="chkbtn" type="print" x="left">
+                  <![CDATA[طباعة]]></item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

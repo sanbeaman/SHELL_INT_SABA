@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="PAPSCHWB" template="PAPS" localeID="zh" debug="false">
+    <title>
+      <![CDATA[零售零件销售技能]]></title>
+  </course>
+  <section id="0" snumber="99000">
+    <header>
+      <![CDATA[课程未完成]]>
+</header>
+    <scenes>
+      <scene id="99100" sNumber="99000" sType="completeexit" continueBtnType="exit">
+        <sceneitems>
+            <ui uid="1" type="bodyIcon"  width="600" height="125" x="center" y="top" margin="20" trans="slideup" ease="BackEaseOut">
+            <bodyImage id="i1" order="0" time="1" scaleMode="none" url="logo_course.png">
+              <![CDATA[Course Logo]]>
+</bodyImage>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="99110" type="CourseNotComplete" endType="stop">
+          <ui uid="0" type="sectionHeader">
+                <![CDATA[课程未完成（对于此次尝试）]]>
+          </ui>
+             <ui uid="2" type="BodyText" width="660" height="230" x="center" y="150"  margin="0" trans="slideup" ease="QuintEaseOut">
+              <bodyBullet id="bb1" order="2" time="1">                <![CDATA[您尚未完成规定的所有菜单项（对于此次尝试）。选择所有尚未完成的规定菜单项。之后您必须返回此屏幕，选择下方的“完成并退出”按钮。]]>
+</bodyBullet>
+            </ui>
+                <ui uid="3" type="BodyButton" trans="slideup" ease="QuintEaseOut" order="50" time="1">
+               <item id="trigger" type="completeAndExit" x="center" y="bottom" width="200" height="36" fontSize="16" fontColor="0x000000" fontStyle="reg" pulseColor="0xfe9003" xPad="10" yPad="10" isActive="no" >
+                <![CDATA[完成并退出]]>
+</item>
+          </ui>
+          </slide>
+          <slide sNumber="99120" type="CourseComplete" endType="exit">
+            <ui uid="0" type="sectionHeader">
+                <![CDATA[课程已完成（对于此次尝试）]]>
+          </ui>
+             <ui uid="2" type="BodyText" width="680"  x="center" y="200" margin="10" trans="slideup" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="8" yPad="0">
+                <![CDATA[您已经完成本课程的所有菜单项（对于此次尝试）。课程标题不显示勾号。注意：完成尝试后，首次重新启动课程时，您的书签将会重置，不会处于最初的填充或选中状态。]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="9">
+                <![CDATA[<b>正确退出：您必须选择“完成并退出”按钮，将您的完成记录发送至“学习中心”。</b> 之后，请务必通过本课程的“学习中心学习任务”页面启动测试和任何其它项目。]]>
+</bodyBullet>
+            </ui>
+               <ui uid="3" type="BodyButton" trans="slideup" ease="QuintEaseOut" order="50" time="1">
+               <item id="trigger" type="completeAndExit" x="center" y="bottom" width="200" height="36" fontSize="16" fontColor="0x000000" fontStyle="reg" pulseColor="0xfe9003" xPad="10" yPad="10" isActive="yes" >
+                <![CDATA[完成并退出]]>
+</item>
+          </ui>
+          </slide>
+        
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

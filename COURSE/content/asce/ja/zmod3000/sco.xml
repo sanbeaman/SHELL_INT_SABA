@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCEJAWB" template="ASCE" localeID="ja" debug="false">
+    <title>
+      <![CDATA[優れた顧客経験]]>
+</title>
+  </course>
+  <section id="0" snumber="3000">
+    <header>
+      <![CDATA[ロイヤリティの構築方法]]>
+</header>
+    <scenes>
+      <scene sNumber="3100" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[サービス ロイヤリティを推進する 5 大要素]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+         <slide sNumber="3105" type="TextImageAround" animType="timesync" endType="Continue">
+           <ui uid="2" type="BodyText" width="300" height="200" x="center" y="200" fontAlign="center" effect="none" time="1" trans="slideup" ease="QuintEaseOut" syncType="replace">
+              <bodyText id="bt1" timeIn="1" timeOut="999">                <![CDATA[全体的なサービス経験は多くのコミュニケーションや業務で成り立っており、ロイヤリティを獲得するには、そのすべてにおいて顧客に期待以上のサービスを提供する必要があります。 <br /> 顧客とのやり取りにおける窓口は、おおむね 5 つのカテゴリに分類されます。]]>
+</bodyText>
+            </ui>
+            <ui uid="1" type="BodyImage" width="240" height="160" x="center" y="top" margin="20" effect="none" scaleMode="none" time="1" trans="slideup" ease="QuintEaseOut">
+              <bodyImage id="img1" url="3105_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[main image]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="BodyImage" width="150" height="100" x="left" y="100" margin="20" effect="none" scaleMode="none" trans="slideright" ease="QuintEaseOut" time="1" syncType="buildy" yPad="80">
+              <bodyImage id="img2" url="3105_2.jpg" timeIn="2" timeOut="999" yPad="0">
+                <![CDATA[img2]]>
+</bodyImage>
+              <bodyImage id="img4" url="3105_4.jpg" timeIn="4" timeOut="999">
+                <![CDATA[img4]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="BodyImage" x="right" y="100" margin="20" width="150" height="100" effect="none" scaleMode="none" trans="slideleft" ease="QuintEaseOut" time="1" syncType="buildy" yPad="80">
+              <bodyImage id="img3" url="3105_3.jpg" timeIn="3" timeOut="999" yPad="0">
+                <![CDATA[img3]]>
+</bodyImage>
+              <bodyImage id="img5" url="3105_5.jpg" timeIn="5" timeOut="999">
+                <![CDATA[img5]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="3110" type="TextImageReplace" animType="timesync" endType="continue">
+          <ui uid="2" type="BodyText" width="660" height="190" x="center" y="270" margin="0" fontAlign="center" effect="none" time="2" ease="QuintEaseOut" trans="slideLeft" syncType="replace">       
+              <bodyText id="bt1" timeIn="0.5" timeOut="6">
+                <![CDATA[サービス アドバイザー]]>
+</bodyText>
+              <bodyText id="bt2" timeIn="6.5" timeOut="12">
+                <![CDATA[サービスの質/FFV: Fixed First Visit (最初の来店時点で修理済み)]]>
+</bodyText>
+              <bodyText id="bt3" timeIn="12.5" timeOut="18">
+                <![CDATA[サービス システム/プロセス]]>
+</bodyText>
+              <bodyText id="bt4" timeIn="18.5" timeOut="24">
+                <![CDATA[施設/待合エリア]]>
+</bodyText>
+              <bodyText id="bt5" timeIn="24.5" timeOut="999">
+                <![CDATA[価格/サービス料金]]>
+</bodyText>
+            </ui>
+            <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="20" scaleMode="none" time="1" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="3110_1.jpg" timeIn=".2" timeOut="6">
+                <![CDATA[image1]]>
+</bodyImage>
+              <bodyImage id="i2" url="3110_2.jpg" timeIn="6.5" timeOut="12">
+                <![CDATA[Image2]]>
+</bodyImage>
+              <bodyImage id="i3" url="3110_3.jpg" timeIn="12.5" timeOut="18">
+                <![CDATA[image3]]>
+</bodyImage>
+              <bodyImage id="i2" url="3110_4.jpg" timeIn="18.5" timeOut="24">
+                <![CDATA[Image4]]>
+</bodyImage>
+              <bodyImage id="i5" url="3110_5.jpg" timeIn="24.5" timeOut="999">
+                <![CDATA[image5]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="3115" type="TextImageAround" animType="timesync" endType="Continue">
+            <ui uid="2" type="BodyText" width="300" height="200" x="center" y="200" margin="0" fontAlign="center" effect="none" time="1" trans="slideup" ease="QuintEaseOut" syncType="build">
+              <bodyText id="bt1" timeIn="1" timeOut="999">                <![CDATA[各ディーラーでは顧客経験を体系化するにあたり、それぞれ若干異なるカテゴリに編集している場合があります。けれども、すべての分野で「満足している」顧客と上顧客を生み出す事に努めている点ではおそらく変わりないでしょう。 <br /> ご存知の通り、確実に成功を収めるには、全分野にまたがるチームワークが必要です。]]>
+</bodyText>
+            </ui>
+            <ui uid="1" type="BodyImage" width="240" height="160"  x="center" y="top" margin="20" effect="none" scaleMode="none"  time="1" trans="slideup" ease="QuintEaseOut">
+              <bodyImage id="img1" url="3115_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[main image]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="BodyImage" width="150" height="100" x="left" y="100" margin="20" effect="none" scaleMode="none" time="1" trans="slideright" ease="QuintEaseOut" syncType="buildy" yPad="80">
+              <bodyImage id="img2" url="3115_2.jpg" timeIn="2" timeOut="999" yPad="0">
+                <![CDATA[img2]]>
+</bodyImage>
+              <bodyImage id="img4" url="3115_4.jpg" timeIn="4" timeOut="999">
+                <![CDATA[img4]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="BodyImage" width="150" height="100"  x="right" y="100" margin="20" effect="none" scaleMode="none" time="1"  trans="slideleft" ease="QuintEaseOut" syncType="buildy" yPad="80">
+              <bodyImage id="img3" url="3115_3.jpg" timeIn="3" timeOut="999" yPad="0">
+                <![CDATA[img3]]>
+</bodyImage>
+              <bodyImage id="img5" url="3115_5.jpg" timeIn="5" timeOut="999">
+                <![CDATA[img5]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="3120" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="480" x="left" y="20"  margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+             <bodyBullet id="bb0" order="2" yPad="0">
+                <![CDATA[<li>部門やディーラー全体の、チームメンバーについて思い浮かべてみましょう</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4">
+                <![CDATA[<li>効率的なワークフローを維持し、顧客満足を継続的させるためには、チーム メンバー同士の協力が不可欠です</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+                <![CDATA[<li> 全体目標を達成するには、状況に応じ、異なる場面において最適なチームメンバーがリーダーシップを発揮する必要があります</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="20" margin="10" trans="slideLeft" ease="BackEaseOut" time="1" syncType="buildy" yPad="15">
+              <bodyImage id="i1" order="3" yPad="0" url="3120_1.jpg">
+                <![CDATA[image 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="5" url="3120_2.jpg">
+                <![CDATA[Image 2]]>
+</bodyImage>
+              <bodyImage id="i3" order="7" url="3120_3.jpg">
+                <![CDATA[Image 3]]>
+</bodyImage>
+            </ui>
+          </slide>
+           <slide sNumber="3125" type="Activity_Match" animType="none" endType="Continue">
+               <ui uid="1" type="act" atype="match" x="left" y="top"  margin="10" order="1" time="1" trans="slideUp" ease="QuintEaseOut">
+              <actui type="ScreenText" x="0" y="0" width="710" yPad="10">
+              <item type="screentext" fontSize="20">
+                <![CDATA[ここで、各チーム メンバーがどの場面でリーダーシップを発揮すべきか少し確認してみましょう。]]>
+</item>
+              <item type="directiontext" fontSize="14">
+                <![CDATA[解答方法: 左側のチーム メンバーと、右側のタスク (優れた顧客サービスの提供をリードするためにそのメンバーがすべきこと) を結び付けます。]]>
+</item>
+              </actui>
+              <actui uid="0" type="SubHeader" order="5"  fontSize="18" screen="1">
+                <item id="i1" type="dragHeader" x="0" y="0" width="200" height="40" fontAlign="center">
+                <![CDATA[チーム メンバー]]>
+</item>
+                <item id="i2" type="dropHeader" x="0" y="0" width="360" height="40" fontAlign="center">
+                <![CDATA[主要タスク]]>
+</item>
+              </actui>
+              <actui uid="1" type="MatchBtn" width="200" height="40" x="0" y="0"  layout="1col" fontSize="14" fontColor="0x000000" fontStyle="bold" fontAlign="center" fontVertAlign="middle" fillColor="greycc" fillAlpha="1" frameSize="1" frameColor="white" frameAlpha="1" fillType="gradient" fillColor2="greycc" xPad="20" yPad="10">
+               <item id="i1" isanswer="drop1">
+                <![CDATA[サービス アドバイザー]]>
+</item>
+              <item id="i2" isanswer="drop2">
+                <![CDATA[車両回送係]]>
+</item>
+              <item id="i3" isanswer="drop3">
+                <![CDATA[パーツ アドバイザー]]>
+</item>
+              <item id="i4" isanswer="drop4">
+                <![CDATA[会計]]>
+</item>
+              <item id="i5" isanswer="drop5">
+                <![CDATA[技術者]]>
+</item>
+              <item id="i6" isanswer="drop6">
+                <![CDATA[保証業務担当者]]>
+</item>
+              </actui>
+              <actui uid="1" type="MatchTarget" width="360" height="40" x="right" y="0" margin="0" layout="default" fontSize="12" fontColor="0x000000" fontStyle="reg" fontAlign="left" fontVertAlign="middle" fillColor="0xcc6633" fillAlpha="1" frameSize="1" frameColor="white" frameAlpha="1" fillType="gradient" fillColor2="0xff9933" xPad="10" yPad="10">
+                <item id="i1" isanswer="drop1">
+                <![CDATA[顧客とともに目視点検を行い、ロイヤリティ/信頼の構築を図る]]>
+</item>
+              <item id="i2" isanswer="drop2">
+                <![CDATA[顧客引き取りエリアには必ず清掃済みの車両を届けるようにする]]>
+</item>
+              <item id="i3" isanswer="drop3">
+                <![CDATA[予定の修理を担当する技術者のためにパーツを用意する]]>
+</item>
+              <item id="i4" isanswer="drop4">
+                <![CDATA[顧客に料金概要を提示し、すべての業務が完了したことを確認する]]>
+</item>
+              <item id="i5" isanswer="drop5">
+                <![CDATA[車両の問題を初回来店時に適切に解決する 追加修理またはメンテナンスのニーズについて報告する]]>
+</item>
+              <item id="i6" isanswer="drop6">
+                <![CDATA[顧客およびディーラーのための費用節約の要請を迅速に処理する]]>
+</item>
+              </actui>
+              <actui uid="3" type="feedbacktext" width="710" height="80" x="center" y="bottom" margin="20" fontSize="14">
+                <item type="correct" id="pos">
+                <![CDATA[お疲れさま！これで、各チーム メンバーが顧客ロイヤリティの構築にどのように寄与するかを再確認できたことと思います。チームワークのコンセプトは、販売およびサービス・パーツ部門間の連携をとるという意味でも重要です。たとえば、販売コンサルタントが顧客にサービス・パーツ担当者を紹介し、車両購入者の最初のサービス アポイントメントを設定する際などがこれに該当します。常に最高のサービスを提供するには、チーム メンバー同士の協力が不可欠です。]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene sNumber="3200" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[顧客の声]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3205" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="480" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="2" yPad="0">
+                <![CDATA[自分が適切な行動をとっているかどうかを確認するにはどうすればよいでしょうか?  それは、顧客に尋ねるのが一番です。 顧客フィードバックは、長所を最大活用し短所を克服するための最も重要なツールです。次のうちどの方法をとるかは、市場やディーラーにより異なります。]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+                <![CDATA[<li><b>自ら顧客に尋ねる。</b>サービス経験を改善するにはどうすればよいかを顧客に尋ねます。サービスの来店時、または電話や電子メール、テキストでのフォローアップ時にフィードバックを求めましょう</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="8">
+                <![CDATA[<li><b>SSI および CSI を使用する。</b>市場によっては、J.D. Power による顧客アンケート調査の結果を使用しているかもしれません。これは顧客満足度向上のために問題を特定・解決するのに役立ちますが、満足度とロイヤリティは同じではないので注意してください</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="10">
+                <![CDATA[<li><b>顧客プロモーション スコア (CPS) を使用する。</b>クライスラー グループの北米およびその他一部のディーラーでは、フィードバックの主な手段として CPS を使用しています。ロイヤリティに焦点を当てたこのメカニズムを活用して、すでに健闘している分野のさらなる向上に向け集中した取り組みが可能となります</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10" trans="slideLeft" ease="BackEaseOut" time="1" syncType="buildy" yPad="25">
+              <bodyImage id="i1" order="3" url="3205_1.jpg" yPad="0">
+                <![CDATA[image 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="5" url="3205_2.jpg">
+                <![CDATA[Image 2]]>
+</bodyImage>
+              <bodyImage id="i3" order="7" url="3205_3.jpg">
+                <![CDATA[Image 3]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="3210" type="BulletReplace" animType="timesync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="700" x="left" y="top" margin="10" fontSize="18"   time="1" trans="slideRight" ease="QuintEaseOut" yPad="0">
+                <item id="bt1" timeIn="0.5" timeOut="999">
+                <![CDATA[その収集方法を問わず、顧客フィードバックをロイヤリティ構築に活用するための効果的なプロセスには、以下が必要です。]]>
+</item>
+            </ui>
+            <ui uid="6" type="bodyBullet"  x="left" y="60" width="680" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <item id="bb1" order="4" timeIn="2" timeOut="35" yPad="0">
+                <![CDATA[<li>スコアや初期回答が意味する情報を理解する。「なぜ？」を問い続け、顧客があなたを友人や家族に推薦する/しない、または特定の分野におけるサービス経験を気に入らなかった本当の理由を見極めます</li>]]>
+</item>
+              <item id="bb2" order="6" timeIn="4" timeOut="35">
+                <![CDATA[<li>直ちに対応する。長期的にご利用いただくには具体的にどうすればよいかを上顧客に尋ねた際は、アドバイスにお礼を述べ、すべての顧客に同レベルのサービスを提供するための今後の対応を説明します</li>]]>
+</item>
+              <item id="bb3" order="8" timeIn="6" timeOut="35">
+                <![CDATA[<li>何らかの問題が発覚した場合は、直ちに可能な限り対処する。問題が直ちに解決できない場合は、謝罪したうえで再発防止のためにどのような対策をとるかを伝えます</li>]]>
+</item>
+            </ui>
+            <ui uid="8" type="bodyBullet"  x="left" y="60" width="680" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <item id="bb4" order="10" timeIn="35.5" timeOut="999" yPad="0">
+                <![CDATA[<li>報告義務を徹底させる。マネージャは、週に一度のチーム ミーティングで傾向と進捗状況を確認します</li>]]>
+</item>
+              <item id="bb5" order="12" timeIn="35.5" timeOut="999">
+                <![CDATA[<li>顧客ロイヤリティの構築を、ディーラー全メンバーにとっての最優先事項と位置づける</li>]]>
+</item>
+              <item id="bb6" order="14" timeIn="35.5" timeOut="999">
+                <![CDATA[<li>プロセスを改善する。プロセス改善により、チームが長所強化と短所克服に取り組める環境を整えます</li>]]>
+</item>
+            </ui>
+          </slide>
+          <slide sNumber="3215" type="TextImageReplace" animType="timesync" endType="continue">
+            <ui uid="2" type="BodyText" width="660" height="150" x="center" y="290" margin="0" fontAlign="center" effect="none" time="1" trans="slideLeft" ease="QuintEaseOut" syncType="replace">
+               <bodyText id="bt1" timeIn="0.5" timeOut="999">                <![CDATA[ディーラー改善の指針として顧客フィードバックを活用することは重要ですが、これはいわばバックミラーを見ながら車を運転するようなもので、あくまでもすでに通って来た道を振り返るもので、これから進む道を反映するものではありません。<br />問題を排除してロイヤリティを構築するため、顧客フィードバックを待たずに今すぐできることがたくさんあります。]]>
+</bodyText>
+            </ui>
+            <ui uid="4" type="BodyImage" width="375" height="250" x="center" y="top" margin="20" time=".5" trans="fadeOn" ease="QuintEaseOut" scaleMode="none" syncType="replace">
+              <bodyImage id="i1" url="3215_1.jpg" timeIn=".5" timeOut="999"><![CDATA[image1]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

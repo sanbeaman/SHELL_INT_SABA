@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="SPWCGWB" template="SPWC" localeID="en_CA" debug="false">    
+  <title>
+      <![CDATA[WELCOME TO CHRYSLER &#8211; AFTER SALES]]>
+</title>
+  </course>
+  <section id="0" snumber="4000">
+    <header id="sech1">
+      <![CDATA[Chrysler Academy and Certification]]>
+</header>
+    <scenes>
+      <scene id="4105" sNumber="4105" sType="audiosync" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[What is Chrysler Academy?]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="4105" type="TextImageAdd" animType="timesync" endType="continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="4105.mp3" size="3500912" duration="35" />
+            <ui uid="1" type="BodyImage" width="420" height="280" x="166" y="top" margin="30" scaleMode="proportionalOutside" effect="shadow" trans="fadeOn" ease="QuintEaseOut" >
+              <bodyImage id="i1" order="11" url="4105_1.jpg" syncType="build" timeIn="0" timeOut="999">
+                <![CDATA[Chrysler Academy Logo ]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="BodyBullet" width="460" x="center" y="370" margin="0" fontAlign="left" effect="none" trans="slideLeft" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="21" syncType="buildy" timeIn=".5" timeOut="999" yPad="0">
+                <![CDATA[<li>Dealership training arm of Chrysler Group LLC</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22" syncType="buildy" timeIn="7.2" timeOut="999">
+                <![CDATA[<li>Resource for innovative learning solutions</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="21" syncType="buildy" timeIn="11" timeOut="999">
+                <![CDATA[<li>Helps dealership personnel develop skills to grow their careers</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="22" syncType="buildy" timeIn="17.2" timeOut="999">
+                <![CDATA[<li>Provides the knowledge, skills and tools to help retain customers and build loyalty</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="4110" type="TextImageAdd" animType="timesync" endType="continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="4110.mp3" size="214000" duration="27" />
+            <ui uid="2" type="c2rHeader" width="600" height="45" x="50" y="15" margin="0" fontAlign="left" effect="none"  trans="slideRight" fontSize="18" fontColor="white" fontStyle="bold" ease="QuintEaseOut" url="blue">
+              <item id="bb1" order="1" time="1" timeIn=".5" timeOut="999" xPad="20">
+                <![CDATA[After Sales training: ]]>
+</item>
+            </ui>
+            <ui uid="1" type="bodyImage" width="360" height="240" x="right" y="100" margin="0" style="blackframe" effect="shadow" scaleMode="none" trans="slideLeft" ease="QuintEaseOut">
+              <bodyImage id="i1" url="4110_1.jpg" order="2" timeIn="1.5" timeOut="999">
+                <![CDATA[Chrysler Academy Screen Grab]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="BodyBullet" width="300" x="50" y="100" margin="0" fontAlign="left" effect="none"  trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="20" timeIn="4.2" timeOut="999" yPad="0" >
+                <![CDATA[<li>Web-based courses</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="20" timeIn="6.2" timeOut="999" >
+                <![CDATA[<li>Virtual Classroom Online (VCO)</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="20" timeIn="12.2" timeOut="999" >
+                <![CDATA[<li>Live training events</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="20" timeIn="14.2" timeOut="999" >
+                <![CDATA[<li>Product launch</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="20" timeIn="16.2" timeOut="999" >
+                <![CDATA[<li>Best practices</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="20" timeIn="19.6" timeOut="999" >
+                <![CDATA[<li>And more</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

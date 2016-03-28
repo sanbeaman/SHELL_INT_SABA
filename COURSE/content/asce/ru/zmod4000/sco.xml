@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCERUWB" template="ASCE" localeID="ru" debug="false">
+    <title>
+      <![CDATA[Исключительный клиентский опыт]]>
+</title>
+  </course>
+  <section id="0" snumber="4000">
+    <header fontSize="12">
+      <![CDATA[СООТВЕТСТВУЙТЕ ОСНОВНЫМ ОЖИДАНИЯМ КЛИЕНТОВ]]>
+</header>
+    <scenes>
+      <scene sNumber="4100" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Процесс обслуживания]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="4105" type="Activity_Match" animType="none" endType="Continue">
+           <ui uid="1" type="act" atype="match" x="left" y="top" margin="10"  time="1" trans="slideUp" ease="QuintEaseOut">
+              <actui type="ScreenText" width="710" yPad="8">
+                  <item type="screentext" fontSize="20" yPad="0">
+                <![CDATA[Каждый дилерский центр должен соответствовать минимальным ожиданиям клиентов в отношении процесса обслуживания.]]>
+</item>
+              <item type="directiontext" fontSize="14">
+                <![CDATA[Указание: сопоставьте этапы процесса обслуживания (слева) с соответствующими ожиданиями клиентов (справа).]]>
+</item>
+              </actui>
+              <actui uid="0" type="SubHeader" order="5" fontColor="black" fontSize="16" screen="1">
+                <item id="i1" type="dragHeader" width="220" height="40" fontAlign="center">
+                <![CDATA[Этап процесса]]>
+</item>
+                <item id="i2" type="dropHeader" width="360" height="40" fontAlign="center">
+                <![CDATA[Ожидание клиента]]>
+</item>
+              </actui>
+              <actui uid="1" type="MatchBtn" layout="1col" x="0" y="0" width="220" height="40" fontSize="16" fontColor="black" fontStyle="bold" fontAlign="center" fontVertAlign="middle" fillColor="greycc" fillAlpha="1" frameSize="1" frameColor="white" frameAlpha="1" fillType="gradient" fillColor2="greycc" xPad="20" yPad="7">
+             <item id="i1" isanswer="drop1">
+                <![CDATA[Запрос]]>
+</item>
+              <item id="i2" isanswer="drop2">
+                <![CDATA[Вводный отчет]]>
+</item>
+              <item id="i3" isanswer="drop3">
+                <![CDATA[Осмотр и ремонт]]>
+</item>
+              <item id="i4" isanswer="drop4">
+                <![CDATA[Консультирование клиентов]]>
+</item>
+              <item id="i5" isanswer="drop5">
+                <![CDATA[Обеспечение качества]]>
+</item>
+              <item id="i6" isanswer="drop6">
+                <![CDATA[Доставка]]>
+</item>
+              <item id="i7" isanswer="drop7">
+                <![CDATA[Последующее сопровождение]]>
+</item>
+              </actui>
+              <actui uid="1" type="MatchTarget" x="right" y="0" width="360" height="40" layout="default"  fontSize="12" fontColor="black" fontStyle="reg" fontAlign="left" fontVertAlign="middle" fillColor="orangegrad1" fillAlpha="1" frameSize="1" frameColor="white" frameAlpha="1" fillType="gradient" fillColor2="orangegrad2" xPad="10" yPad="7">
+                <item id="i1" isanswer="drop1">
+                <![CDATA[Отвечайте мне быстро, так, как я требую, и предоставляйте всю информацию, которую я требую.]]>
+</item>
+              <item id="i2" isanswer="drop2">
+                <![CDATA[Немедленно и вежливо уделите внимание моим потребностям]]>
+</item>
+              <item id="i3" isanswer="drop3">
+                <![CDATA[Сообщите мне о любых необходимых работах по ремонту или техническому обслуживанию]]>
+</item>
+              <item id="i4" isanswer="drop4">
+                <![CDATA[Расскажите мне, что необходимо сделать, сколько это будет стоить, и когда это будет сделано.]]>
+</item>
+              <item id="i5" isanswer="drop5">
+                <![CDATA[Отремонтируйте мой автомобиль как следует с первого раза.]]>
+</item>
+              <item id="i6" isanswer="drop6">
+                <![CDATA[Мой автомобиль готов, и его можно забирать именно тогда, когда было обещано. <br />Автомобиль можно забрать без каких-либо проблем.]]>
+</item>
+              <item id="i7" isanswer="drop7">
+                <![CDATA[Кто-нибудь свяжется со мной впоследствии и убедится, что все нормально.]]>
+</item>
+              </actui>
+              <actui uid="3" type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct" id="pos">
+                <![CDATA[Важно знать, чего именно клиенты ожидают на каждом этапе процесса. Также важно неизменно следовать стандартам эффективности для обеспечения соответствия ожиданиям.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+           <slide sNumber="4110" type="Activity_TextAreaInput" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="tai" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" width="710" yPad="8">
+           <item type="header" fontSize="24" yPad="0">
+                <![CDATA[<b>Запрос</b>]]>
+</item>
+              <item type="questiontext" fontSize="16">
+                <![CDATA[Ожидание клиента: отвечайте мне быстро, так, как я требую, и предоставляйте всю информацию, которую я требую. Для соответствия этому ожиданию клиента в дилерском центре используется множество стандартов эффективности. Какие из этих стандартов, по вашему мнению, являются наиболее эффективными?]]>
+</item>
+              <item type="directiontext" fontSize="14">
+                <![CDATA[Указания: введите свой ответ, затем нажмите «Готово», чтобы поделиться своими дополнительными идеями. Вы можете распечатать ответы, чтобы использовать их во время работы.]]>
+</item>
+              </actui>
+             <actui type="actui" xPad="8" yPad="8">
+                <item type="txtinput" width="246" height="240" fontSize="14" fontColor="black" fontStyle="reg" fontAlign="left"  fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1">
+                  <![CDATA[Начните ввод текста здесь.]]>
+</item>
+                <item type="txtresult" width="444" height="240" x="260" y="0" margin="10" fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1" fontColor="black" fontSize="11" fontStyle="reg" fontAlign="left">
+   <![CDATA[<li>Отвечайте на все телефонные звонки в пределах трех звонков и позаботьтесь о том, чтобы время действия «режима ожидания» не превышало 30 секунд</li><li>Отвечайте на все запросы, поступившие через Интернет (по поводу обслуживания и запасных частей) в течение одного часа в рабочее время тем способом, о котором просил клиент (электронные сообщения автоответчика ответом не считаются)</li><li>Основательно и без каких-либо исключений изучите запрос клиента</li><li>Предоставьте клиенту возможность выбрать конкретную дату и время оформления вводного отчета по обслуживанию автомобиля</li><li>Обеспечьте часы работы дилерского центра, которые являются конку-рентоспособными на местном рынке</li><li>Предложите клиентам, которых вы обслуживаете, альтернативные варианты средств передвижения</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16" fontColor="black" fontStyle="bold" pulseColor="orange">
+                <item id="chkbtn" type="submit" x="86">
+                  <![CDATA[ГОТОВО]]>
+</item>
+                <item id="chkbtn" type="print" x="right" margin="10">
+                  <![CDATA[ПЕЧАТЬ]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="4115" type="Activity_TextAreaInput" animType="none" endType="Continue">
+          <ui uid="1" type="act" atype="tai" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" width="710" yPad="8">
+               <item type="header" fontSize="24" yPad="0">
+                <![CDATA[<b>Вводный отчет</b>]]>
+</item>
+              <item type="questiontext" fontSize="16">
+                <![CDATA[Ожидание клиента: немедленно и вежливо уделите внимание моим потребностям. Для соответствия этому ожиданию клиента в дилерском центре используется множество стандартов эффективности. Какие из этих стандартов, по вашему мнению, являются наиболее эффективными?]]>
+</item>
+              <item type="directiontext" fontSize="14">
+                <![CDATA[Указания: введите свой ответ, затем нажмите «Готово», чтобы поделиться своими дополнительными идеями. Вы можете распечатать ответы, чтобы использовать их во время работы.]]>
+</item>
+              </actui>
+               <actui type="actui" xPad="8" yPad="8">
+                <item type="txtinput" width="246" height="240" fontSize="14" fontColor="black" fontStyle="reg" fontAlign="left"  fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1">
+                  <![CDATA[Начните ввод текста здесь.]]>
+</item>
+                <item type="txtresult" x="266" y="0" width="444" height="240" fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1" fontColor="black" fontSize="11" fontStyle="reg" fontAlign="left">
+  <![CDATA[<li>Радушно поприветствуйте клиента, подтвердите причину визита клиента, спросите, есть ли у клиента какие-либо дополнительные потребности в обслуживании</li><li>Изучите и подтвердите потребности клиента в ремонте или техническом обслуживании</li><li>Обойдите вокруг автомобиля для его визуального осмотра</li><li>Обновите информацию об автомобиле и контактные данные клиента</li><li>Выявите все открытые отзывы или запросы об оперативном устранении дефектов, применимые к автомобилю клиента; попросите разрешения принять соответствующие меры</li><li>Проверьте заказ на ремонт вместе с клиентом для того, чтобы подтвердить потребности в ремонте</li><li>Сообщите примерное время, требуемое для ремонта</li><li>Обустройте чистую и удобную зону ожидания</li><li>Предоставьте альтернативные варианты средств передвижения</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16" fontColor="black" fontStyle="bold" pulseColor="orange">
+                <item id="chkbtn" type="submit" x="86">
+                  <![CDATA[ГОТОВО]]>
+</item>
+                <item id="chkbtn" type="print" x="right" margin="10">
+                  <![CDATA[ПЕЧАТЬ]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="4120" type="Activity_TextAreaInput" animType="none" endType="Continue">
+           <ui uid="1" type="act" atype="tai" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" width="710" yPad="8">
+              <item type="header" fontSize="24" yPad="0">
+                <![CDATA[<b>Осмотр и ремонт</b>]]>
+</item>
+              <item type="questiontext" fontSize="16">
+                <![CDATA[Ожидание клиента: сообщите мне о любых необходимых работах по ремонту или техническому обслуживанию. Для соответствия этому ожиданию клиента в дилерском центре используется множество стандартов эффективности. По вашему мнению, являются ли какие-либо из этих стандартов наиболее эффективными?]]>
+</item>
+              <item type="directiontext" fontSize="14">
+                <![CDATA[Указания: введите свой ответ, затем нажмите «Готово», чтобы поделиться своими дополнительными идеями. Вы можете распечатать ответы, чтобы использовать их во время работы.]]>
+</item>
+              </actui>
+               <actui type="actui" xPad="8" yPad="8">
+                <item type="txtinput" width="246" height="240" fontSize="14" fontColor="black" fontStyle="reg" fontAlign="left"  fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1">
+                  <![CDATA[Начните ввод текста здесь.]]>
+</item>
+                <item type="txtresult" x="266" y="0" width="444" height="240" fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1" fontColor="black" fontSize="14" fontStyle="reg" fontAlign="left">
+     <![CDATA[<li>Убедитесь в наличии специалиста, имеющего соответствующую техническую подготовку, и поручите ему выполнение работы</li><li>Убедитесь, что все необходимые запчасти имеются в наличии, и их можно получить</li><li>Проведите и задокументируйте осмотр автомобиля, включая определение диагностических кодов неисправностей и необходимости в обновлениях</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16" fontColor="black" fontStyle="bold" pulseColor="orange">
+                <item id="chkbtn" type="submit" x="86">
+                  <![CDATA[ГОТОВО]]>
+</item>
+                <item id="chkbtn" type="print" x="right" margin="10">
+                  <![CDATA[ПЕЧАТЬ]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="4125" type="Activity_TextAreaInput" animType="none" endType="Continue">
+          <ui uid="1" type="act" atype="tai" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" width="710" yPad="8">
+                <item type="header" fontSize="24" yPad="0">
+                <![CDATA[<b>Консультирование клиентов</b>]]>
+</item>
+              <item type="questiontext" fontSize="16">
+                <![CDATA[Ожидания клиента: обсудите с клиентом, что необходимо сделать, стоимость обслуживания и сроки выполнения работ. Для соответствия этому ожиданию клиента в дилерском центре используется несколько стандартов эффективности. По вашему мнению, являются ли какие-либо из этих стандартов наиболее эффективными?]]>
+</item>
+              <item type="directiontext" fontSize="14">
+                <![CDATA[Указания: введите свой ответ, затем нажмите «Готово», чтобы поделиться своими дополнительными идеями. Вы можете распечатать ответы, чтобы использовать их во время работы.]]>
+</item>
+              </actui>
+               <actui type="actui" xPad="8" yPad="8">
+                <item type="txtinput" width="246" height="240" fontSize="14" fontColor="black" fontStyle="reg" fontAlign="left"  fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1">
+                  <![CDATA[Начните ввод текста здесь.]]>
+</item>
+                <item type="txtresult" x="266" y="0" width="444" height="240" fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1" fontColor="black" fontSize="12" fontStyle="reg" fontAlign="left">
+    <![CDATA[<li>Изучите выводы, рекомендации и составьте вместе с клиентом примерную смету и график выполнения работ для получения разрешения приступить к выполнению работ</li><li>Сначала удовлетворите потребности клиента в основном ремонте</li><li>Обеспечьте понимание и одобрение клиентом специфики ремонтных мероприятий и их стоимости</li><li>Связывайтесь с клиентом и сообщайте ему о любых изменениях, касающихся ремонта, наличия компонентов/запасных частей, стоимости или сроков выполнения работ</li><li>Уведомите клиента в течение одного рабочего дня о прибытии специально заказанных запасных частей</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16" fontColor="black" fontStyle="bold" pulseColor="orange">
+                <item id="chkbtn" type="submit" x="86">
+                  <![CDATA[ГОТОВО]]>
+</item>
+                <item id="chkbtn" type="print" x="right" margin="10">
+                  <![CDATA[ПЕЧАТЬ]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="4130" type="Activity_TextAreaInput" animType="none" endType="Continue">
+           <ui uid="1" type="act" atype="tai" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" width="710" yPad="8">
+                   <item type="header" fontSize="24" yPad="0">
+                <![CDATA[<b>Обеспечение качества</b>]]>
+</item>
+              <item type="questiontext" fontSize="16">
+                <![CDATA[Ожидание клиента: отремонтируйте мой автомобиль как следует с первого раза.<br />Для соответствия этому ожиданию клиента в дилерском центре используется несколько стандартов эффективности. По вашему мнению, являются ли какие-либо из этих стандартов наиболее эффективными? ]]>
+</item>
+              <item type="directiontext" fontSize="14">
+                <![CDATA[Указания: введите свой ответ, затем нажмите «Готово», чтобы поделиться своими дополнительными идеями. Вы можете распечатать ответы, чтобы использовать их во время работы.]]>
+</item>
+              </actui>
+              <actui type="actui" xPad="8" yPad="8">
+                <item type="txtinput" width="246" height="240" fontSize="14" fontColor="black" fontStyle="reg" fontAlign="left"  fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1">
+                  <![CDATA[Начните ввод текста здесь.]]>
+</item>
+                <item type="txtresult" x="266" y="0" width="416" height="240" fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1" fontColor="black" fontSize="14" fontStyle="reg" fontAlign="left">
+                  <![CDATA[<li>Проведите и задокументируйте проверку качества для подтверждения того, что все требуемые работы были выполнены</li><li>Решите все вопросы и устраните все проблемы, прежде чем автомобиль будет возвращен клиенту</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16" fontColor="black" fontStyle="bold" pulseColor="orange">
+                <item id="chkbtn" type="submit" x="86">
+                  <![CDATA[ГОТОВО]]>
+</item>
+                <item id="chkbtn" type="print" x="right" margin="10">
+                  <![CDATA[ПЕЧАТЬ]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="4135" type="Activity_TextAreaInput" animType="none" endType="Continue">
+           <ui uid="1" type="act" atype="tai" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" width="710" yPad="8">
+             <item type="header" fontSize="24" yPad="0">
+                <![CDATA[<b>Доставка</b>]]>
+</item>
+              <item type="questiontext" fontSize="16">
+                <![CDATA[Ожидание клиента: мой автомобиль готов в обещанный срок, и его можно забрать без каких-либо проблем.  Для соответствия этому ожиданию клиента в дилерском центре используется несколько стандартов эффективности. По вашему мнению, являются ли какие-либо из этих стандартов наиболее эффективными?]]>
+</item>
+              <item type="directiontext" fontSize="14">
+                <![CDATA[Указания: введите свой ответ, затем нажмите «Готово», чтобы поделиться своими дополнительными идеями. Вы можете распечатать ответы, чтобы использовать их во время работы.]]>
+</item>
+              </actui>
+              <actui type="actui" xPad="8" yPad="8">
+                <item type="txtinput" width="246" height="240" fontSize="14" fontColor="black" fontStyle="reg" fontAlign="left"  fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1">
+                  <![CDATA[Начните ввод текста здесь.]]>
+</item>
+                <item type="txtresult" x="266" y="0" width="416" height="240" fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1" fontColor="black" fontSize="12" fontStyle="reg" fontAlign="left">
+                  <![CDATA[<li>Предложите удобную для клиента возможность проверить и забрать автомобиль</li><li>Позаботьтесь о том, чтобы автомобиль был готов, и его можно было забрать именно тогда, как было обещано</li><li>Предоставьте клиенту подробное объяснение ремонтных работ и стоимости</li><li>Предоставьте клиенту документацию по приобретенным клиентом сервисным услугам в момент передачи автомобиля</li><li>Предложите назначить дату/время следующего визита с целью обслуживания</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16" fontColor="black" fontStyle="bold" pulseColor="orange">
+                <item id="chkbtn" type="submit" x="86">
+                  <![CDATA[ГОТОВО]]>
+</item>
+                <item id="chkbtn" type="print" x="right" margin="10">
+                  <![CDATA[ПЕЧАТЬ]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="4140" type="Activity_TextAreaInput" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="tai" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" width="710" yPad="8">
+                   <item type="header" fontSize="24" yPad="0">
+                <![CDATA[<b>Последующее сопровождение</b>]]>
+</item>
+              <item type="questiontext" fontSize="16">
+                <![CDATA[Ожидание клиента: кто-нибудь свяжется со мной впоследствии и убедится, что все нормально. Для соответствия этому ожиданию клиента в дилерском центре используется несколько стандартов эффективности. По вашему мнению, являются ли какие-либо из этих стандартов наиболее эффективными?]]>
+</item>
+              <item type="directiontext" fontSize="14">
+                <![CDATA[Указания: введите свой ответ, затем нажмите «Готово», чтобы поделиться своими дополнительными идеями. Вы можете распечатать ответы, чтобы использовать их во время работы.]]>
+</item>
+              </actui>
+              <actui type="actui" xPad="8" yPad="8">
+                <item type="txtinput" width="246" height="240" fontSize="14" fontColor="black" fontStyle="reg" fontAlign="left"  fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1">
+                  <![CDATA[Начните ввод текста здесь.]]>
+</item>
+                <item type="txtresult" x="266" y="0" width="416" height="240" fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1" fontColor="black" fontSize="12" fontStyle="reg" fontAlign="left">
+                  <![CDATA[<li>Свяжитесь с клиентом в течение двух дней после передачи автомобиля, чтобы узнать, доволен ли клиент автомобилем и обслуживанием в дилерском центре, а также чтобы узнать о возможном недовольстве клиента и о том, что его беспокоит</li><li>Осуществляйте последующее сопровождение, используя метод поддержания связи, выбранный клиентом</li><li>Свяжитесь со всеми клиентами, которые не явились на запланированные встречи по вопросам сервисного обслуживания, и постарайтесь назначить встречи с ними заново</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16" fontColor="black" fontStyle="bold" pulseColor="orange">
+              <item id="chkbtn" type="submit" x="86">
+                  <![CDATA[ГОТОВО]]>
+</item>
+                <item id="chkbtn" type="print" x="right" margin="10">
+                  <![CDATA[ПЕЧАТЬ]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

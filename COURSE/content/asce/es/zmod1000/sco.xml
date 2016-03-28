@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCEESWB" template="ASCE" localeID="es" debug="false">
+    <title>
+      <![CDATA[BRINDANDO UN SERVICIO EXCEPCIONAL AL CLIENTE]]>
+</title>
+  </course>
+  <section id="0" snumber="1000">
+    <header id="sech1">
+       <![CDATA[INTRODUCCIÓN]]>
+</header>
+    <scenes>
+      <scene sNumber="1100" sType="navbarmenu" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="1" type="SceneNavBar" width="160" height="80" fillColor1="#6688a2" fillColor2="#6688a2" frameColor="orange" fontColor="white" fontSize="14" pulseColor="orange">
+            <navbtn id='c2l1' width="60" height="60" x="33" y="4" order="2" time="1" target="1105" url="icons/icon_1105.png">
+  <![CDATA[Objetivos del curso]]>
+  </navbtn>
+            <navbtn id='c2l2' width="60" height="60" x="266" y="4" order="2" time="1" target="1110" url="icons/icon_1110.png">
+                   <![CDATA[Resumen del curso]]>
+</navbtn>
+            <navbtn id='c2l3' width="60" height="60" x="499" y="4" order="2" time="1" target="1115" url="icons/icon_1115.png">
+                <![CDATA[Recursos adicionales]]>
+</navbtn>
+          </ui>
+          <ui uid="3" type="sceneEndNote">
+            <bodyNote id="gn1" order="99" time="1">
+               <![CDATA[Haga clic en la ✓ para continuar]]>
+</bodyNote>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="1101" type="navbarmenu_content" animType="animsync" endType="Continue">
+            <ui uid="1" type="slideHeader" width="680" height="50" x="20" y="20" fillAlpha="0" fontSize="24" fontColor="black" fontStyle="bold" trans="slideright" ease="BackEaseOut">
+              <header id="sh1" order="1" time="1">
+                    <![CDATA[<b>Bienvenido al curso Experiencia excepcional del cliente</b>]]>
+</header>
+            </ui>
+            <ui uid="1" type="bodyImage" order="1" time="0"  trans="fadeIn" ease="QuintEaseOut">
+              <bodyImage id="i1" width="420" height="280" scaleMode="none"  x="center" y="60" url="1101_1.jpg">
+                <![CDATA[Photo 1101_1]]>
+</bodyImage>
+            </ui>
+            <ui uid="3" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="999" time="1">
+              <![CDATA[Haga clic Objetivos del curso para continuar.]]>
+</bodyNote>
+            </ui>
+          </slide>
+          <slide sNumber="1105" type="navbarmenu_content" animType="animsync" endType="Continue">
+            <ui uid="2" type="bodyBullet" width="500" x="20" y="20" margin="10" fontColor="black" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="1" fontSize="24" fontColor="black" fontStyle="bold" time=".2" yPad="0">
+                <![CDATA[<b>Objetivos del curso</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="20" time="1">
+             <![CDATA[<li>Explique la diferencia entre clientes satisfechos y leales</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22" time="1">
+                 <![CDATA[<li>Identifique los cinco elementos principales de la experiencia de servicio que influyen considerablemente en la lealtad del cliente</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="24" time="1">
+                <![CDATA[<li>Describa varios métodos usados para determinar lo que los clientes piensan sobre su experiencia de servicio</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="26" time="1" width="680">
+                  <![CDATA[<li>Identifique las expectativas básicas del cliente en siete áreas de la experiencia de servicio</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="28" time="1" width="680">
+                <![CDATA[<li>Describa cuatro maneras de desarrollar relaciones personales que aumenten la lealtad del cliente</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="99" time="1">
+              <![CDATA[Haga clic en otro icono para continuar.]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyIcon" width="160" height="160" x="right" y="top" margin="10" style="none" effect="none" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="0" time="1" url="icons/iconLarge_1105.png">
+                <![CDATA[IMG Course Objectives]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="1110" type="navbarmenu_content" animType="animsync" endType="Continue">
+            <ui uid="2" type="bodyBullet" x="20" y="20" width="500" margin="20" fontColor="black" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="4">
+              <bodyBullet id="bb0" order="1" fontSize="24" fontColor="black" fontStyle="bold" time="1" yPad="0">
+                   <![CDATA[<b>Resumen del curso</b>]]>
+</bodyBullet>
+              <bodyBullet id='bb2' order='2'>
+      <![CDATA[<li>Importancia de la lealtad</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb4' order='4' time='.5' formatType='subbullet' yPad="0">
+      <![CDATA[<li>La diferencia entre clientes satisfechos y leales, y la importancia de los clientes leales</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb6' order='6'>
+      <![CDATA[<li>¿Cómo fomentar la lealtad?</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb8' order='8' time='.5' formatType='subbullet' yPad="0">
+      <![CDATA[<li>Cinco elementos claves de la experiencia de servicio que influyen en la lealtad</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb10' order='10' time='.5' formatType='subbullet' yPad="0">
+      <![CDATA[<li>Desarrolle los puntos fuertes/Elimine los puntos débiles</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb12' order='12'>
+      <![CDATA[<li>Cumpla las expectativas básicas del cliente</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb14' width='680' order='14' time='.5' formatType='subbullet' yPad="0">
+      <![CDATA[<li>Defina los estándares de desempeño para cada paso del proceso de posventa </li>]]>
+</bodyBullet>
+              <bodyBullet id='bb16' order='16'>
+      <![CDATA[<li>Fomente relaciones personales</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb18' width="680" order='18' time='.5' formatType='subbullet' yPad="0">
+      <![CDATA[<li>Vaya más allá de lo básico en el fomento de relaciones personales con los clientes para aumentar la lealtad</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb20' order='20'>
+      <![CDATA[<li>Aplique el proceso </li>]]>
+</bodyBullet>
+              <bodyBullet id='bb22' order='22' time='.5' formatType='subbullet' yPad="0">
+      <![CDATA[<li>Casos de estudio que requieren la eliminación de sus puntos débiles</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb24' order='24'>
+      <![CDATA[<li>Resumen del curso</li>]]>
+</bodyBullet>
+              <bodyBullet id='bb26' order='26' time='.5' formatType='subbullet' yPad="0">
+      <![CDATA[<li>Repaso de los puntos claves del curso</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="99" time="1">
+      <![CDATA[Haga clic en otro icono para continuar.]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyIcon" width="160" height="160" x="right" y="top" margin="10" style="none" effect="none" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="0" time="1" url="icons/iconLarge_1110.png">
+                <![CDATA[ICON Course Outline]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="1115" type="navbarmenu_content" animType="animsync" endType="Done">
+            <ui uid="2" type="bodyBullet" width="500" x="20" y="20" margin="20" fontColor="black" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="1" fontSize="24" fontColor="black" fontStyle="bold" time=".2" yPad="0">
+      <![CDATA[<b>Recursos adicionales</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="30" time="1">
+      <![CDATA[Entre las herramientas de este curso destacan:]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="32" time="1">
+      <![CDATA[<li>Estándares de desempeño en la posventa</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="36" time="1">
+      <![CDATA[<li>Las cuatro formas principales de fomentar el entendimiento y la confianza</li>]]>
+</bodyBullet>
+<bodyBullet id="bb4" order="38" time="1">
+                <![CDATA[Descargar los Recursos que aparecen en la página de Tareas del Centro de Aprendizaje de este curso.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="BackEaseOut">
+              <bodyNote id="gn1" order="99" time="1">
+      <![CDATA[Haga clic en otro icono para continuar.]]>
+</bodyNote>
+            </ui>
+             <ui uid="1" type="bodyIcon" width="160" height="160" x="right" y="top" margin="10" style="none" effect="none" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="0" time="1" url="icons/iconLarge_1115.png">
+                <![CDATA[ICON Additional Resources]]>
+</bodyIcon>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

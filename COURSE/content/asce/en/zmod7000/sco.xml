@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCEENWB" template="ASCE" localeID="en" debug="false">
+    <title>
+      <![CDATA[Exceptional Customer Experience]]>
+</title>
+  </course>
+  <section id="0" snumber="7000">
+    <header>
+      <![CDATA[COURSE SUMMARY]]>
+</header>
+    <scenes>
+      <scene sNumber="7100" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Performance Objectives]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+         <slide sNumber="7105" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="1" time=".5" yPad="0">
+                <![CDATA[Congratulations! You’ve come to the end of the Exceptional Customer Experience course. You should now be able to:]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="3">
+                <![CDATA[<li>Explain the differences between satisfied and loyal customers</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+                <![CDATA[<li>Identify the top five components of the service experience that strongly influence customer loyalty</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="10">
+                <![CDATA[<li>Describe various methods used to determine what customers think about your service experience</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="12">
+                <![CDATA[<li>Identify core customer expectations in seven areas of the service experience</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="14">
+                <![CDATA[<li>Describe four ways to make personal connections that enhance customer loyalty</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10" scaleMode="width"  time="1" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="25">
+              <bodyImage id="i1" order="2" url="7105_1.jpg" yPad="0">
+                <![CDATA[image 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="8" url="7105_2.jpg">
+                <![CDATA[Image 2]]>
+</bodyImage>
+              <bodyImage id="i3" order="12" url="7105_3.jpg">
+                <![CDATA[Image 3]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene sNumber="7200" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Key Points]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="7205" type="BulletImageGlow" animType="animsync" endType="Continue">
+          
+          
+           <ui uid="1" type="bodyImageGlow" width="154" height="160" x='20' y='60' margin="0" fillColor="0x000000" fillAlpha="1" frameShape="roundRect" frameColor="0x000000" frameSize="2" frameAlpha="1" pulseColor="orange" trans="slideLeft" ease="QuintEaseOut" syncType="buildx" xPad="24">
+            <item id="img1" order="2" time="1" url="7205_1.jpg" xPad="0">x</item>
+              <item id="img2" order="3" time="1" url="7205_2.jpg">x</item>
+              <item id="img3" order="4" time="1" url="7205_3.jpg">x</item>
+              <item id="img4" order="5" time="1" url="7205_4.jpg">x</item>
+            </ui>
+                 <ui uid="3" type="bodyBullet" width="680" x="left" y="top"  margin="10" fontSize="20" fontColor="0x000000" trans="slideRight" ease="QuintEaseOut" yPad="0">
+              <item id="bb1" order="1" time=".3">
+                <![CDATA[Let’s review the key learning points of this course.]]>
+</item>
+            </ui>
+            <ui uid="3" type="bodyBulletCol" width="160" x="left" y="240" margin="20" fontSize="12" fontColor="0x000000" fontAlign="left" textStyle="textflow" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildx" xPad="16">
+              <item id="bbc1" order="50" target="img1" targetTrigger="imageglow" targetParams="4" xPad="0">
+                <![CDATA[<list><li>Loyal customers are much more likely than satisfied customers to return and to recommend you to others </li></list>]]>
+</item>
+              <item id="bbc2" order="51" target="img2" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[<list><li>It’s essential to listen and act on customer feedback to build on your strengths and eliminate weaknesses in your services and processes</li></list>]]>
+</item>
+              <item id="bbc3" order="52" target="img3" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[<list><li>Meeting core customer expectations is important, but you must do more to build true loyalty</li></list>]]>
+</item>
+              <item id="bbc4" order="53" target="img4" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[<list><li>Personal connections you forge with customers help create lasting bonds that lead to increased repeat and referral business</li></list>]]>
+</item>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene sNumber="7300" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Conclusion]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="7305" type="TextImageReplace" animType="timesync" endType="continue">
+        <ui uid="2" type="BodyText" width="680" height="180" x="center" y="270" margin="0" fontColor="0x000000" fontAlign="center" effect="none" time="1" ease="QuintEaseOut" trans="slideLeft" syncType="replace">
+            <bodyBullet id="bb1" timeIn=".5" timeOut="999">
+     
+                <![CDATA[You should now be feeling confident of your ability to deliver exceptional customer service – the kind that creates loyal customers who come back over and over and also spread the word to others about the high quality experience you provide. Good luck! ]]>
+</bodyBullet>
+            </ui>
+                <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" scaleMode="none"  time=".5" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="img1" url="7305_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[image1]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="PAPSRUWB" template="PAPS" localeID="ru" debug="false">
+    <title>
+      <![CDATA[Навыки розничной продажи запасных частей]]>
+</title>
+  </course>
+  <section id="0" snumber="3000">
+    <header id="sech1">
+      <![CDATA[Преимущество Mopar ]]>
+</header>
+    <scenes>
+
+      <scene sNumber="3000" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+      <![CDATA[Что такое Преимущество?]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+        
+          <slide sNumber="3005" type="TextImageCascade" animType="animsync" endType="Continue">
+             <ui uid="2" type="bodyImageCascade" trans="none" ease="none" order="1" time="0" width="160" height="450" x="right" y="top">
+               <LoaderMax name="icimagemax"  load="false">
+            <ImageLoader name="3000_1" url="{imgdir}3000_1.jpg" estimatedBytes="45000" width="160" height="160" scaleMode="proportionalInside" />
+             <ImageLoader name="3000_2" url="{imgdir}3000_2.jpg" estimatedBytes="45000" width="160" height="160" scaleMode="proportionalInside" />
+              <ImageLoader name="3000_3" url="{imgdir}3000_3.jpg" estimatedBytes="45000" width="160" height="160" scaleMode="proportionalInside" />
+              <ImageLoader name="3000_4" url="{imgdir}3000_4.jpg" estimatedBytes="45000" width="160" height="160" scaleMode="proportionalInside" />
+            <ImageLoader name="3000_5" url="{imgdir}3000_5.jpg" estimatedBytes="45000" width="160" height="160" scaleMode="proportionalInside" />
+             <ImageLoader name="3000_6" url="{imgdir}3000_6.jpg" estimatedBytes="45000" width="160" height="160" scaleMode="proportionalInside" />
+               <ImageLoader name="3000_7" url="{imgdir}3000_7.jpg" estimatedBytes="45000" width="160" height="160" scaleMode="proportionalInside" />
+            </LoaderMax>
+            </ui>
+            <ui uid="1" type="bodyIcon" width="100" height="100" x="220" y="60" time="1" trans="fadeOn" ease="QuintEaseOut">
+              <bodyIcon id="img1" order="1" url="icons/icon_mopar.png">
+                <![CDATA[Mopar Logo]]>
+</bodyIcon>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="480" x="left" y="170" margin="10" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="30" yPad="0">
+      <![CDATA[<li>Детальные знания функциональных и структурных характеристик реализуемой продукции имеет ключевое значение</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="32">
+      <![CDATA[<li>Mopar предлагает клиентам существенные преимущества перед вторичным рынком</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="bodyNote" width="480" x="20" y="320" margin="0" time="1" trans="slideRight" ease="QuintEaseOut">
+              <bodyNote id="bn1" order="40">
+      <![CDATA[В этом модуле вы познакомитесь с такими преимуществами и узнаете, как, посредством их эффективного использования, повысить объем продаж.]]>
+</bodyNote>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="3100" sNumber="3100" sType="navbarmenu" continueBtnType="NEXT">
+        <sceneitems>
+        
+          <ui uid="1" type="SceneNavBar" width="160" height="80" fillColor1="#858585" fillColor2="#ffffff" frameColor="ltblue" fontColor="#666666" fontSize="14" pulseColor="ltblue">
+            <navbtn id='c2l1' width="60" height="60" x="33" y="4" order="2" time="1" target="3110" url="icons/icon_3115.png">
+      <![CDATA[Технологии]]>
+</navbtn>
+            <navbtn id='c2l2' width="60" height="60" x="266" y="4" order="2" time="1" target="3120" url="icons/icon_3120.png">
+      <![CDATA[Цена]]>
+</navbtn>
+            <navbtn id='c2l3' width="60" height="60" x="499" y="4" order="2" time="1" target="3125" url="icons/icon_3125.png">
+      <![CDATA[Гарантия]]>
+</navbtn>
+          </ui>
+          <ui uid="3" type="sceneEndNote">
+            <bodyNote id="gn1" order="999" time="1">
+      <![CDATA[Чтобы продолжить, нажмите ►.]]>
+</bodyNote>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3105" type="navbarmenu_content"  animType="animsync" endType="Continue">
+            <ui uid="0" type="sceneHeader">
+              <header id="h1">
+      <![CDATA[Что такое Преимущество?]]>
+</header>
+            </ui>
+            <ui uid="2" type="bodyBullet" width="600" x="20" y="170" margin="0" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="30" yPad="0">
+      <![CDATA[Mopar превосходит своих конкурентов по трем направлениям:]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="32">
+      <![CDATA[<li>Технологии</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="34">
+      <![CDATA[<li>Цена</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="36">
+      <![CDATA[<li>Гарантия</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="999" time="1">
+      <![CDATA[Чтобы узнать больше, щелкните по пиктограмме «Технологии».]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyIcon" order="1" time="1" trans="fadeIn" ease="QuintEaseOut">
+              <bodyIcon id="img1" width="100" height="100" scaleMode="none" x="center" y="60" url="icons/icon_mopar.png">
+                <![CDATA[Mopar Logo]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="3110" type="navbarmenu_content" animType="animsync" endType="Continue">
+            <ui uid="0" type="sceneHeader">
+              <header id="h1">
+      <![CDATA[Технологии]]>
+</header>
+            </ui>
+            <ui uid="2" type="bodyTable" width="520"  x="left" y="40" margin="10" fontSize="12" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="4">
+              <bodyTableRow id="bt0" type="head" align="center" order="30" time="1">
+                <tcol>
+      <![CDATA[Mopar]]>
+</tcol>
+                <tcol>
+      <![CDATA[Вторичный рынок]]>
+</tcol>
+              </bodyTableRow>
+              <bodyTableRow id="bt1" type="norm" align="left" order="32" time="1">
+                <tcol>
+      <![CDATA[Изготовлены для целевого применения в определенных автомобилях]]>
+</tcol>
+                <tcol>
+      <![CDATA[Элементы многоцелевого/комбинированного назначения]]>
+</tcol>
+              </bodyTableRow>
+              <bodyTableRow id="bt2" type="norm" align="left" order="34" time="1">
+                <tcol>
+      <![CDATA[Соответствуют/превосходят технические параметры оригинального оборудования]]>
+</tcol>
+                <tcol>
+      <![CDATA[Могут не соответствовать характеристикам оригинального оборудования]]>
+</tcol>
+              </bodyTableRow>
+              <bodyTableRow id="bt3" type="norm" align="left" order="36" time="1">
+                <tcol>
+      <![CDATA[В рамках гарантии качества предусмотрено комплексное тестирование]]>
+</tcol>
+                <tcol>
+      <![CDATA[Комплексное тестирование не предусмотрено]]>
+</tcol>
+              </bodyTableRow>
+              <bodyTableRow id="bt4" type="norm" align="left" order="38" time="1">
+                <tcol>
+      <![CDATA[Национальная дилерская сеть]]>
+</tcol>
+                <tcol>
+      <![CDATA[Множество розничных торговцев, не объединенных в национальную сеть]]>
+</tcol>
+              </bodyTableRow>
+            </ui>
+            <ui uid="3" type="bodyNote" width="680" x="left" y="340" margin="10" fontSize="12" fontColor="0x000000" time="1" trans="slideRight" ease="QuintEaseOut">
+              <bodyNote id="bn1" order="40">
+      <![CDATA[Конкурентам не под силу спорить с качеством Mopar!]]>
+</bodyNote>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="99" time="1" x="100" y="300" fontColor="0x000000">
+      <![CDATA[Чтобы продолжить, щелкните по другой пиктограмме.]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyIcon" width="100" height="100" x="right" y="top" margin="10" time="1"  trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="1"  url="icons/icon_3115.png">
+                <![CDATA[Design & Engineering]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="3120" type="navbarmenu_content" animType="animsync" endType="Continue">
+            <ui uid="0" type="sceneHeader">
+              <header id="h1">
+      <![CDATA[Цена]]>
+</header>
+            </ui>
+            
+            <ui uid="2" type="bodyBullet" x="left" y="40" width="610" margin="10" fontSize="14" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" width="550" order="30" yPad="0">
+      <![CDATA[<li>Запасные части и дополнительное оборудование Mopar предлагают своим покупателям преимущества конкурентоспособной цены, которая выгодно отличает продукцию Mopar от продукции других производителей оригинального оборудования и товаров, предлагаемых на вторичном рынке</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="32">
+      <![CDATA[<li>Не так давно по заказу Chrysler независимая исследовательская компания выполнила сравнительный анализ цен на 500 наиболее ходовых запасных частей с ценами на их аналоги от конкурентов. Результаты анализа подтвердили общую конкурентоспособность наших цен</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="34">
+      <![CDATA[<li>Если цены не являются конкурентоспособными, Chrysler просит дилеров предоставлять свои комментарии через национальную службу сбыта/генеральных дистрибьюторов (NSC/GD) или через региональные отделения</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="36">
+      <![CDATA[<li>Специалисты службы ценообразования рассматривают каждый комментарий и, как правило, пересматривают цены либо обращаются в отдел закупок с запросом об оптимизации закупочной политики с целью обеспечения преимущества перед конкурентами</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="38">
+      <![CDATA[<li>Цены на тысячи элементов и частей также были снижены. Ожидается, что такая мера приведет к увеличению доли рынка — и, как следствие, к повышению дохода дилеров</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="BackEaseOut">
+              <bodyNote id="gn1" order="999" time="1" x="50" y="500" width="500">
+      <![CDATA[Чтобы продолжить, щелкните по другой пиктограмме.]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyIcon" width="100" height="100" x="right" y="top" margin="10" time="1"  trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="1" url="icons/icon_3120.png">
+                <![CDATA[Pricing]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="3125" type="navbarmenu_content" animType="animsync" endType="Continue">
+            <ui uid="0" type="sceneHeader" trans="none" time="0">
+              <header id="h1">
+      <![CDATA[Гарантия]]>
+</header>
+            </ui>
+            <ui uid="3" type="bodyPages" width="500" height="300" x="left" y="40" margin="10" order="30" time="1" trans="pageOn" ease="animsync" yPad="0">
+              <page id="pg1" yPad="10">
+                <item id="b1" type="bodyBullet"  width="500" fontSize="14" order="36" time="1" yPad="0">
+      <![CDATA[<li>Гарантийные обязательства Mopar обеспечат доверие и защиту своих клиентов</li>]]>
+</item>
+                <item id="b2" type="bodyBullet" order="36" time="1" width="500" fontSize="14">
+      <![CDATA[<li>Гарантия на запасные части Mopar и Value Line, отпускаемые в розницу, предусматривает отсутствие дефектов на уровне качества изготовления или материалов и действует в течение 12 месяцев/без ограничения по пробегу (распространяется только на части) в зависимости от того, какой режим является более предпочтительным для клиента</li>]]>
+</item>
+                <item id="b3" type="bodyBullet" order="36" time="1" width="650" fontSize="14">
+      <![CDATA[<li>Гарантия на части, установленные в авторизованных дилерских центрах, действует в течение 12 месяцев или до 20000 километров пробега (распространяется на части и работу) или в течение 12 месяцев/без ограничений по пробегу (распространяется только на части), в зависимости от того, какой режим является более предпочтительным для клиентов</li>]]>
+</item>
+                <item id="btn1" type="btnnextpage" width="180" height="34" x="right" margin="10" fontSize="14" fontColor="black" fontStyle="reg" order="80">
+                  <![CDATA[Далее Страница]]>
+</item>
+              </page>
+              <page id="pg2" yPad="10">
+                <item id="b1" type="bodyBullet" order="36" time="1" width="500" fontSize="14" yPad="0">
+      <![CDATA[<li>Гарантия на глушители, рессоры, стойки Value Line и защитное покрытие Mopar для грузовиков типа «пикап», продаваемые и устанавливаемые в авторизованных дилерских центрах, предусматривает отсутствие дефектов на уровне качества изготовления и материалов на протяжении всего срока эксплуатации автомобиля, в/на котором они установлены (для первоначального покупателя/не подлежит передаче)</li>]]>
+</item>
+                <item id="b2" type="bodyBullet" order="36" time="1" width="650" fontSize="14">
+      <![CDATA[<li>Прокладки, уплотнения, а также детали для технического тюнинга продаются без каких бы то ни было гарантий. Гарантийное покрытие на комплектные двигатели, не участвующие в соревнованиях, распространяется только на части и действует в течение 90 дней</li>]]>
+</item>
+                <item id="b3" type="bodyBullet" order="36" time="1" width="650" fontSize="14">
+      <![CDATA[<li>Если деталь Mopar устанавливается на автомобиль компании Chrysler Group International уполномоченным дилером Chrysler Group International, и если, в то время как на такую деталь все еще действует гарантия, она приводит к повреждению или выходу из строя других деталей, то такие другие детали подлежат ремонту или замене по гарантии независимо от того, распространяется ли на остальные детали гарантия компании Chrysler Group International на момент поломки, или нет</li>]]>
+</item>
+                <item id="btn2" type="btnprevpage" width="180" height="34" x="10" margin="0" fontSize="14" fontColor="black" fontStyle="reg" order="80">
+                  <![CDATA[Предыдущая страница]]>
+</item>
+              </page>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="BackEaseOut">
+              <bodyNote id="gn1" order="99" time="0" x="50" y="500" width="500">
+      <![CDATA[Чтобы продолжить, щелкните по другой пиктограмме.]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyIcon" width="100" height="100" x="right" y="top" margin="10" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="bi1" order="1" url="icons/icon_3125.png">
+                <![CDATA[Warranty]]>
+</bodyIcon>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="3200" sNumber="3200" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Эффективное использование Преимущества]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3201" type="BodyBulletBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="460" x="20" y="40" margin="0" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="30" yPad="0">
+      <![CDATA[Повысьте эффект Преимущества Mopar, используя ключевые ресурсы с наиболее точной и актуальной информацией.]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="32">
+      <![CDATA[В частности:]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="34">
+      <![CDATA[<li>Стенды с дополнительным оборудованием</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="36">
+      <![CDATA[<li>Каталог StarParts</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="38">
+      <![CDATA[Используйте эти средства для популяризации вашей продукции и формирования доверительных отношений с вашими клиентами.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="150" x="right" y="40" margin="10" time="1" trans="slideLeft" ease="BackEaseOut" yPad="30">
+              <bodyImage id="i1" order="4" url="3200_1.jpg" yPad="0">
+                <![CDATA[3200_1 image ]]>
+</bodyImage>
+              <bodyImage id="i2" order="6" y="bottom" yPad="0" url="3200_2.jpg">
+                <![CDATA[3200_2 Image]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="3300" sNumber="3300" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Стенды с дополнительным оборудованием]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3301" type="BodyBulletBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyImage" width="200" height="140" x="right" y="40" margin="10" time="1" trans="slideLeft" ease="BackEaseOut" syncType="build" yPad="30">
+              <bodyImage id="i1" order="4" url="3300_1.jpg" yPad="0">
+                <![CDATA[Accessories Display 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="6" y="bottom" url="3300_2.jpg" yPad="0">
+                <![CDATA[Accessories Display 2]]>
+</bodyImage>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="420" x="left" y="40" margin="10" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="30" yPad="0">
+      <![CDATA[Стимулируйте продажи дополнительного оборудования, непосредственно демонстрируя популярную продукцию и акционные товары в выставочном зале, в отделе обслуживания и в отделе запасных частей.]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="32">
+      <![CDATA[Подготовьте альбом с фотографиями автомобилей с дополнительным оборудованием; демонстрируйте его клиентам, предлагая решения по индивидуальному оформлению их легковых и грузовых автомобилей.]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="34" t="">
+      <![CDATA[Подготовьте альбом с фотографиями старых моделей, структурно и технологически улучшенных за счет дополнительного оборудования; демонстрируйте его клиентам, предлагая решения по индивидуальному оформлению их легковых и грузовых автомобилей предыдущих моделей.]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="3400" sNumber="3400" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[StarParts]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3401" type="BodyBulletBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="420" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="30" yPad="0">
+      <![CDATA[Каталог запасных частей StarParts является основным источником информации о запасных частях и инструментом для их целевого подбора.]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="32">
+      <![CDATA[Полный каталог StarParts доступен для загрузки в сетевом режиме с веб-ресурса www.starparts.chrysler.com, на котором он регулярно обновляется.]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="34">
+      <![CDATA[StarParts Lite - автономная версия каталога, распространяемая на DVD-дисках.]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="36">
+      <![CDATA[Введите идентификационный номер автомобиля (VIN), и каталог StarParts отобразит только те запасные части и элементы, которые могут быть в нем использованы.]]>
+</bodyBullet>
+ <bodyBullet id="bb5" order="38">
+      <![CDATA[Вы можете передавать данные каталога StarParts клиентам. К примеру, распечатайте информацию из PDF-файла или отправьте клиенту снимок экрана по электронной почте или по факсу.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="150" x="right" y="40" margin="10" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i1" order="2" time="1"  url="3400_1.jpg">
+                <![CDATA[StarParts Screen Grab]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+          
+      <scene id="3500" sNumber="3500" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Проверка знаний]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+ <slide type="act" sNumber="3501" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="dd2row" order="2" time="1" width="700" height="450" x="0" y="40" margin="10" trans="slideUp" ease="QuintEaseOut">
+            <actui type="ScreenText" x="0" y="0" width="680" fontColor="black" syncType="buildy" yPad="0">
+                <item type="questiontext" fontSize="18" yPad="0">
+      <![CDATA[Время проверки знаний с целью закрепления ключевых моментов. Соотнесите каждую характеристику с соответствующим брендом.]]>
+</item>
+              </actui>
+              <actui uid="0" type="SubHeader" fontColor="blue" fontSize="18" xPad="4" yPad="4">
+                <item id="i1" type="dropHeader" x="0" y="0" width="260" height="20" fontAlign="left">
+                  <![CDATA[Mopar]]>
+</item>
+                <item id="i2" type="dropHeader" x="410" y="0" width="260" height="40" fontAlign="left">
+      <![CDATA[Вторичный рынок]]>
+</item>
+              </actui>
+              
+              <actui uid="1" type="ItemDragBox" layout="1row" x="0" y="20" width="130" height="90" columnPadding="8" rowPadding="10" fontSize="10" fontColor="0x000000" fontStyle="reg" fontAlign="center" fontVertAlign="middle" fillColor="#66ccff" fillAlpha="1" frameSize="1" frameColor="dkGrey" frameAlpha="1" fillType="gradient" fillColor2="0xD1E6F2" xPad="20" yPad="0">
+                <item id="i1" isanswer="drop01">
+      <![CDATA[Соответствуют технологическим параметрам оригинальных частей, элементов или оборудования/превосходят эти параметры]]>
+</item>
+                <item id="i2" isanswer="drop02">
+      <![CDATA[Элементы многоцелевого/комбинированного назначения]]>
+</item>
+                <item id="i3" isanswer="drop01">
+      <![CDATA[Предназначены для определенного целевого применения в автомобилях]]>
+</item>
+                <item id="i4" isanswer="drop01">
+      <![CDATA[Национальная дилерская сеть]]>
+</item>
+                <item id="i5" isanswer="drop02">
+      <![CDATA[Местные/региональные розничные продавцы]]>
+</item>
+              </actui>
+       
+                
+              <actui uid="1" type="ItemDropBox" layout="2x2" x="0" y="0" width="130" height="90" columnPadding="10" rowPadding="12" fontSize="16" fontColor="black" fontStyle="bold" fontAlign="left" fontVertAlign="middle" frameSize="1" frameColor="dkgrey" fillType="gradient" fillColor="orangegrad1" fillAlpha="1" fillColor2="orangegrad2" xPad="10" yPad="10">
+                <col layout="2x2" x='0' y='0'>
+                  <item id='dropSet01_1' isanswer='drop01'></item>
+                  <item id='dropSet01_2' isanswer='drop01'></item>
+                  <item id='dropSet01_3' isanswer='drop01'></item>
+                  <item id='dropSet01_4' isanswer='drop01'></item>
+                </col>
+                <col layout="2x2" x='410' y='0'>
+                  <item id='dropSet02_1' isanswer='drop02'></item>
+                  <item id='dropSet02_2' isanswer='drop02'></item>
+                  <item id='dropSet02_3' isanswer='drop02'></item>
+                  <item id='dropSet02_4' isanswer='drop02'></item>
+                </col>
+              </actui>
+              <actui uid="3" type="FeedBackText" x="0" y="50" xPad="10" yPad="10" width="660" height="80">
+                <item type="correct" id="pos">
+      <![CDATA[Верно! Оригинальные запасные части и оборудование Mopar предлагают клиентам преимущества на уровне качества и надежности, недостижимые для их конкурентов с вторичного рынка.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="3600" sNumber="3600" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+      <![CDATA[Ценностное предложение Mopar]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide type="BulletBuild" sNumber="3601" endType="Continue">
+            <ui uid="1" type="bodyImage" width="100" height="100" x="center" y="30" margin="10" time="0.5" trans="fadeIn" ease="QuintEaseOut">
+              <bodyImage id="i1" order="1" time="0"  url="icons/icon_mopar.png">
+                <![CDATA[Mopar Logo]]>
+</bodyImage>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="680" x="left" y="120" margin="10" fontSize="14" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="8">
+              <bodyBullet id="bb0" order="30"  yPad="0">
+      <![CDATA[Еще раз остановимся на тех ценностных преимуществах, которые Mopar обеспечивает своим клиентам:]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="32">
+      <![CDATA[<li>Более высокое качество в сравнении с качеством, предлагаемым конкурентами с вторичного рынка</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="34">
+      <![CDATA[<li>Запасные части, элементы и оборудование, разработанные строго для определенных автомобилей, соответствуют технологических параметрам оригинальных частей, элементов или оборудования или же превосходят эти параметры</li>]]>
+</bodyBullet>
+  <bodyBullet id="bb3" order="35">
+      <![CDATA[<li>Части, элементы и оборудование проходят комплексное тестирование, обеспечивающее их надежность и долговечность</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="36">
+      <![CDATA[<li>Конкурентоспособная цена</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="38">
+      <![CDATA[<li>Гарантийные обязательства Mopar позволяют конкурировать с предложениями вторичного рынка</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="40">
+      <![CDATA[<li>Каталог StarParts обеспечивает целевой подбор и продажу необходимых запасных частей, элементов или оборудования</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb7" order="42">
+      <![CDATA[Воспользуйтесь этими преимуществами, обеспечивая удовлетворение потребностей клиента в рамках продажи.]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

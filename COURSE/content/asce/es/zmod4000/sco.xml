@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCEESWB" template="ASCE" localeID="es" debug="false">
+    <title>
+      <![CDATA[BRINDANDO UN SERVICIO EXCEPCIONAL AL CLIENTE]]>
+</title>
+  </course>
+  <section id="0" snumber="4000">
+    <header>
+      <![CDATA[CUMPLA LAS EXPECTATIVAS BÁSICAS DEL CLIENTE]]>
+</header>
+    <scenes>
+      <scene sNumber="4100" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+      <![CDATA[El proceso de servicio]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="4105" type="Activity_Match" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="match" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut">
+              <actui type="ScreenText" x="0" y="0" width="710" yPad="10">
+                <item type="screentext" fontSize="20">
+                  <![CDATA[Todo concesionario debe satisfacer unas mínimas expectativas de los clientes respecto al proceso de servicio.]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                  <![CDATA[Instrucciones: Relacione cada paso del proceso de servicio de la izquierda haciendo clic en la expectativa apropiada del cliente de la derecha.]]>
+</item>
+              </actui>
+              <actui uid="0" type="SubHeader" order="5" fontColor="0x000000" fontSize="16" screen="1">
+                <item id="i1" type="dragHeader" x="0" y="0" width="200" height="40" fontAlign="center">
+      <![CDATA[Paso del proceso]]>
+</item>
+                <item id="i2" type="dropHeader" x="0" y="0" width="360" height="40" fontAlign="center">
+      <![CDATA[Expectativa del cliente]]>
+</item>
+              </actui>
+              <actui uid="1" type="MatchBtn" layout="1col" x="0" y="0" width="200" height="36" fontSize="16" fontColor="0x000000" fontStyle="bold" fontAlign="center" fontVertAlign="middle" fillColor="greycc" fillAlpha="1" frameSize="1" frameColor="white" frameAlpha="1" fillType="gradient" fillColor2="greycc" xPad="20" yPad="8" >
+                <item id="i1" isanswer="drop01">
+      <![CDATA[Información]]>
+</item>
+                <item id="i2" isanswer="drop02">
+      <![CDATA[Toma de pedido]]>
+</item>
+                <item id="i3" isanswer="drop03">
+      <![CDATA[Inspección y reparación]]>
+</item>
+                <item id="i4" isanswer="drop04">
+      <![CDATA[Consulta con el cliente]]>
+</item>
+                <item id="i5" isanswer="drop05">
+      <![CDATA[Control de calidad]]>
+</item>
+                <item id="i6" isanswer="drop06">
+      <![CDATA[Entrega]]>
+</item>
+                <item id="i7" isanswer="drop07">
+      <![CDATA[Seguimiento]]>
+</item>
+              </actui>
+              <actui uid="1" type="MatchTarget" x="right" y="0" width="360" height="36" layout="default"  fontSize="12" fontColor="0x000000" fontStyle="reg" fontAlign="left" fontVertAlign="middle" fillColor="orangegrad1" fillAlpha="1" frameSize="1" frameColor="white" frameAlpha="1" fillType="gradient" fillColor2="orangegrad2" xPad="10" yPad="8">
+                <item id="i1" isanswer="drop01">
+      <![CDATA[Respóndame rápido, como yo le pida, con toda la información que solicito]]>
+</item>
+                <item id="i2" isanswer="drop02">
+      <![CDATA[Preste atención a mis necesidades con diligencia y cortesía]]>
+</item>
+                <item id="i3" isanswer="drop03">
+      <![CDATA[Infórmeme de cualquier reparación o mantenimiento necesarios]]>
+</item>
+                <item id="i4" isanswer="drop04">
+      <![CDATA[Repase conmigo lo que necesita servicio, cuánto costará y cuándo se completará]]>
+</item>
+                <item id="i5" isanswer="drop05">
+      <![CDATA[Reparen mi vehículo correctamente la primera vez]]>
+</item>
+                <item id="i6" isanswer="drop06">
+      <![CDATA[Al recogerlo no debería haber complicación alguna]]>
+</item>
+                <item id="i7" isanswer="drop07">
+      <![CDATA[Alguien contactará conmigo para dar seguimiento y asegurarse de que todo esté bien]]>
+</item>
+              </actui>
+              <actui uid="3" type="feedbacktext" width="710" x="center" y="bottom" margin="20">
+                <item type="correct" id="pos">
+      <![CDATA[Es importante saber lo que esperan los clientes durante cada paso. Es también importante seguir consistentemente los estándares de desempeño para asegurarse de que se cumplan las expectativas.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+           <slide sNumber="4110" type="Activity_TextAreaInput" animType="none" endType="Continue">
+            <ui uid="2" type="act" atype="tai" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" width="680" yPad="10" fontColor="black">
+                 <item type="header" yPad="0" fontSize="24">
+                  <![CDATA[<b>Información</b>]]>
+</item>
+                <item type="questiontext" fontSize="16">
+      <![CDATA[Expectativa del cliente: Respóndame rápido, como yo le pida, con toda la información que solicito. Hay muchos estándares de desempeño que usan los concesionarios para satisfacer esta expectativa del cliente. ¿Puede mencionar algunos que considere especialmente eficaces?]]>
+</item>
+                <item type="directiontext" fontSize="14">
+      <![CDATA[Instrucciones: Teclee su respuesta, luego haga clic en “Enviar” para algunas ideas adicionales. Puede imprimir las respuestas para consultarlas en su trabajo.]]>
+</item>
+              </actui>
+             <actui type="actui" width="680" height="240" xPad="8" yPad="8">
+                <item type="txtinput" x="0" y="0" width="246" fontColor="0x000000" fontSize="16" fontStyle="reg" fontAlign="left" fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1">
+      <![CDATA[Empiece a escribir aquí.]]>
+</item>
+<item type="txtresult" width="444" height="240" x="266" y="0" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1" fontSize="12" fontColor="0x000000" fontStyle="reg" fontAlign="left">
+     <![CDATA[<li>Conteste todas las llamadas telefónicas antes de que suenen más de tres tonos, y asegúrese de que el tiempo de llamada en espera no exceda de 30 segundos</li><li>Responda todas las consultas por Internet (Servicio y Partes) antes de que transcurra una hora hábil usando el método solicitado por el cliente (los emails de respuesta automática no cuentan como respuesta)</li><li>Atienda cumplidamente la solicitud del cliente</li><li>Ofrezca un sistema de citas para que los clientes programen una fecha y hora para la toma del pedido de servicio del vehículo</li><li>Ofrezca un horario del concesionario que sea competitivo en el mercado </li><li>Ofrezca a los clientes de servicio opciones de transporte alternativas</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="orange">
+                <item id="chkbtn" type="submit" x="86">
+                  <![CDATA[ENVIAR]]>
+
+</item>
+                <item id="chkbtn" type="print" x="266">
+                  <![CDATA[IMPRIMIR]]>
+
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="4115" type="Activity_TextAreaInput" animType="none" endType="Continue">
+              <ui uid="2" type="act" atype="tai" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" width="680" yPad="10" fontColor="black">
+                 <item type="header" yPad="0" fontSize="24">
+      <![CDATA[<b>Toma de pedido</b>]]>
+</item>
+                <item type="questiontext" fontSize="16">
+      <![CDATA[Expectativa del cliente: Que se preste atención a mis necesidades con diligencia y cortesía. Hay muchos estándares de desempeño que usan los concesionarios para satisfacer esta expectativa del cliente. ¿Puede mencionar algunos que considere especialmente eficaces?]]>
+</item>
+                <item type="directiontext" fontSize="14">
+      <![CDATA[Instrucciones: Teclee su respuesta, luego haga clic en “Enviar” para algunas ideas adicionales. Puede imprimir las respuestas para consultarlas en su trabajo.]]>
+</item>
+              </actui>
+              <actui type="actui" width="680" height="240"  xPad="8" yPad="8">
+                <item type="txtinput" x="0" y="0" width="246"  fontColor="0x000000" fontSize="16" fontStyle="reg" fontAlign="left" fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1">
+                  <![CDATA[Empiece a escribir aquí.]]>
+
+</item>
+				<item type="txtresult" width="444" height="240" x="266" y="0" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1" fontSize="12" fontColor="0x000000" fontStyle="reg" fontAlign="left">
+    <![CDATA[<li>Salude amablemente al cliente, vuelva a cerciorarse del motivo de la visita, pregúntele si tiene cualquier otra necesidad de servicio</li><li>Revise y confirme las necesidades de reparación o mantenimiento del cliente</li><li>Realice una inspección en torno al vehículo para inspeccionarlo visualmente</li><li>Actualice la información de contacto del vehículo y del cliente</li><li>Identifique cualquier llamado a revisión o difusiones de respuesta rápida (RRT) vigentes aplicables a su vehículo y pida permiso para realizarlos</li><li>Repase con el cliente la solicitud de reparación para confirmar las necesidades de reparación</li><li>Dígale un tiempo de reparación estimado</li><li>Ofrézcale un área de espera limpia y cómoda</li><li>Ofrézcale opciones de transporte alternativas</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="orange">
+                <item id="chkbtn" type="submit" x="86">
+                  <![CDATA[ENVIAR]]>
+
+</item>
+                <item id="chkbtn" type="print" x="266">
+                  <![CDATA[IMPRIMIR]]>
+
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="4120" type="Activity_TextAreaInput" animType="none" endType="Continue">
+              <ui uid="2" type="act" atype="tai" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" width="680" yPad="10" fontColor="black">
+                 <item type="header" yPad="0" fontSize="24">
+  <![CDATA[<b>Inspección y reparación</b>]]>
+  </item>
+                <item type="questiontext" fontSize="16">
+      <![CDATA[Expectativa del cliente: Infórmeme de cualquier reparación o mantenimiento necesarios. Hay varios estándares de desempeño que usan los concesionarios para satisfacer esta expectativa del cliente. ¿Puede mencionar algunos que considere especialmente eficaces?]]>
+</item>
+                <item type="directiontext" fontSize="14">
+      <![CDATA[Instrucciones: Teclee su respuesta, luego haga clic en “Enviar” para algunas ideas adicionales. Puede imprimir las respuestas para consultarlas en su trabajo.]]>
+</item>
+              </actui>
+              <actui type="actui" width="680" height="240" xPad="8" yPad="8">
+                <item type="txtinput" width="246" x="0" y="0" fontColor="0x000000" fontSize="16" fontStyle="reg" fontAlign="left"  fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1">
+                  <![CDATA[Empiece a escribir aquí.]]>
+
+</item>
+<item type="txtresult" width="444" height="240" x="266" y="0" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1" fontSize="12" fontColor="0x000000" fontStyle="reg" fontAlign="left">
+    <![CDATA[<li>Verifique que hay disponible un técnico debidamente capacitado y asígnele el trabajo</li><li>Verifique que todas las partes necesarias están en existencias y disponibles</li><li>Realice y documente una inspección del vehículo que incluya determinar Códigos de Diagnóstico de Problemas y actualizaciones que haya que llevar a cabo</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="orange">
+                <item id="chkbtn" type="submit" x="86">
+                  <![CDATA[ENVIAR]]>
+
+</item>
+                <item id="chkbtn" type="print" x="266">
+                  <![CDATA[IMPRIMIR]]>
+
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="4125" type="Activity_TextAreaInput" animType="none" endType="Continue">
+           <ui uid="2" type="act" atype="tai" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" width="680" yPad="10" fontColor="black">
+                 <item type="header" yPad="0" fontSize="24">
+      <![CDATA[<b>Consulta con el cliente</b>]]>
+</item>
+                <item type="questiontext" fontSize="16">
+      <![CDATA[Expectativa del cliente: Repase con el cliente lo que hay que hacer, cuánto costará y cuándo se completará. Hay muchos estándares de desempeño que usan los concesionarios para satisfacer esta expectativa del cliente. ¿Puede mencionar algunos que considere especialmente eficaces?]]>
+</item>
+                <item type="directiontext" fontSize="14">
+      <![CDATA[Instrucciones: Teclee su respuesta, luego haga clic en “Enviar” para algunas ideas adicionales. Puede imprimir las respuestas para consultarlas en su trabajo.]]>
+</item>
+              </actui>
+              <actui type="actui" width="680" height="240"  xPad="8" yPad="8">
+                <item type="txtinput" width="246" x="0" y="0" fontColor="0x000000" fontSize="16" fontStyle="reg" fontAlign="left"  fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1">
+                  <![CDATA[Empiece a escribir aquí.]]>
+
+</item>
+<item type="txtresult" width="444" height="240" x="266" y="0" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1"  fontSize="12" fontColor="0x000000" fontStyle="reg" fontAlign="left">
+    <![CDATA[<li>Repase con el cliente lo que averiguó, las recomendaciones y todos los costos estimados y el tiempo estimado para completar el servicio, obteniendo su aprobación para proceder</li><li>Atienda primero las necesidades de reparación principales del cliente</li><li>Asegúrese de que el cliente entienda y apruebe la reparación y el costo</li><li>Contacte al cliente para avisarle de cualquier cambio en las reparaciones, partes, disponibilidad, costo o tiempo estimado para completar el servicio</li><li>Notifique al cliente del recibo de cualquier componente especial solicitado en un máximo de un día hábil  </li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="orange">
+                <item id="chkbtn" type="submit" x="86">
+                  <![CDATA[ENVIAR]]>
+
+</item>
+                <item id="chkbtn" type="print" x="266">
+                  <![CDATA[IMPRIMIR]]>
+
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="4130" type="Activity_TextAreaInput" animType="none" endType="Continue">
+            <ui uid="2" type="act" atype="tai" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" width="680" yPad="10" fontColor="black">
+                 <item type="header" yPad="0" fontSize="24">
+      <![CDATA[<b>Control de calidad</b>]]>
+</item>
+                <item type="questiontext" fontSize="16">
+      <![CDATA[Expectativa del cliente: Reparen mi vehículo correctamente la primera vez. Hay varios estándares de desempeño que usan los concesionarios para satisfacer esta expectativa del cliente. ¿Puede mencionar algunos que considere especialmente eficaces? ]]>
+</item>
+                <item type="directiontext" fontSize="14">
+      <![CDATA[Instrucciones: Teclee su respuesta, luego haga clic en “Enviar” para algunas ideas adicionales. Puede imprimir las respuestas para consultarlas en su trabajo.]]>
+</item>
+              </actui>
+              <actui type="actui" width="680" height="240" xPad="8" yPad="8">
+                <item type="txtinput" width="246"  x="0" y="0" fontColor="0x000000" fontSize="16" fontStyle="reg" fontAlign="left" fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1">
+                  <![CDATA[Empiece a escribir aquí.]]>
+</item>
+<item type="txtresult" width="444" height="240" x="266" y="0" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1"  fontSize="12" fontColor="0x000000" fontStyle="reg" fontAlign="left">
+    <![CDATA[<li>Realice y documente un chequeo de calidad para confirmar que se ha completado todo el trabajo solicitado</li><li>Resuelva cualquier problema antes de que se devuelva el vehículo al cliente</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="orange">
+                <item id="chkbtn" type="submit" x="86">
+                  <![CDATA[ENVIAR]]>
+
+</item>
+                <item id="chkbtn" type="print" x="266">
+                  <![CDATA[IMPRIMIR]]>
+
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="4135" type="Activity_TextAreaInput" animType="none" endType="Continue">
+           <ui uid="2" type="act" atype="tai" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText"  width="680" yPad="10" fontColor="black">
+                 <item type="header" yPad="0" fontSize="24">
+      <![CDATA[<b>Entrega</b>]]>
+</item>
+                <item type="questiontext" fontSize="16">
+      <![CDATA[Expectativa del cliente: Mi vehículo está listo cuando se me prometió y lo recojo sin complicaciones. Hay varios estándares de desempeño que usan los concesionarios para satisfacer esta expectativa del cliente. ¿Puede mencionar algunos que considere especialmente eficaces?]]>
+</item>
+                <item type="directiontext" fontSize="14">
+      <![CDATA[Instrucciones: Teclee su respuesta, luego haga clic en “Enviar” para algunas ideas adicionales. Puede imprimir las respuestas para consultarlas en su trabajo.]]>
+</item>
+              </actui>
+              <actui type="actui" width="680" height="240"  xPad="8" yPad="8">
+                <item type="txtinput" x="0" y="0" width="246" fontColor="0x000000" fontSize="16" fontStyle="reg" fontAlign="left"   fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1">
+                  <![CDATA[Empiece a escribir aquí.]]>
+
+</item>
+                <item type="txtresult" width="444" height="240" x="266" y="0" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1"  fontSize="12" fontColor="0x000000" fontStyle="reg" fontAlign="left">
+    <![CDATA[<li>Ofrecer opciones convenientes para pagar y para recoger el vehículo</li><li>Asegurarse de que el vehículo esté listo para entregarse cuando se prometió</li><li>Ofrecer al cliente una explicación completa de las reparaciones y los costos</li><li>Proporcionar al cliente la documentación de la transacción del servicio cuando se le entrega el vehículo</li><li>Sugerir la programación de la cita para la próxima visita de servicio</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="orange">
+                <item id="chkbtn" type="submit" x="86">
+                  <![CDATA[ENVIAR]]>
+
+</item>
+                <item id="chkbtn" type="print" x="266">
+                  <![CDATA[IMPRIMIR]]>
+
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="4140" type="Activity_TextAreaInput" animType="none" endType="Continue">
+             <ui uid="2" type="act" atype="tai" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="0" yPad="10">
+              <actui type="ScreenText" width="680" yPad="10" fontColor="black">
+                 <item type="header" yPad="0" fontSize="24">
+      <![CDATA[<b>Seguimiento</b>]]>
+</item>
+                <item type="questiontext" fontSize="16">
+                      <![CDATA[Expectativa del cliente: Alguien me contactará para dar seguimiento y asegurarse de que todo esté bien. Hay varios estándares de desempeño que usan los concesionarios para satisfacer esta expectativa del cliente. ¿Puede mencionar algunos que considere especialmente eficaces?]]>
+
+</item>
+                <item type="directiontext" fontSize="14">
+      <![CDATA[Instrucciones: Teclee su respuesta, luego haga clic en “Enviar” para algunas ideas adicionales. Puede imprimir las respuestas para consultarlas en su trabajo.]]>
+</item>
+              </actui>
+              <actui type="actui" width="680" height="240" xPad="8" yPad="8">
+                <item type="txtinput" width="246" x="0" y="0"  fontColor="0x000000" fontSize="16" fontStyle="reg" fontAlign="left"  fillColor="ltgrey" fillAlpha=".5" frameColor="black" frameSize="2" frameAlpha="1">
+                  <![CDATA[Empiece a escribir aquí.]]>
+
+</item>
+               <item type="txtresult" width="444" height="240" x="266" y="0" fillColor="0xdcded9" fillAlpha=".5" frameColor="0x000000" frameSize="2" frameAlpha="1"  fontSize="12" fontColor="0x000000" fontStyle="reg" fontAlign="left">
+    <![CDATA[<li>Contactar al cliente en un máximo de dos días después de la entrega para determinar su satisfacción con el vehículo, la experiencia en el concesionario, e identificar cualquier inquietud</li><li>Realizar el seguimiento usando el método deseado por el cliente</li><li>Contactar a todos los clientes con quienes no haya podido concertar una cita de servicio e intentar concertarla de nuevo</li>]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="160" height="34" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="orange">
+                <item id="chkbtn" type="submit" x="86">
+                  <![CDATA[ENVIAR]]>
+
+</item>
+                <item id="chkbtn" type="print" x="266">
+                  <![CDATA[IMPRIMIR]]>
+
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

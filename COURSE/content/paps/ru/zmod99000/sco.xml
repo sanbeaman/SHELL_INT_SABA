@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+<course code="PAPSRUWB" template="PAPS" localeID="ru" debug="false">
+    <title>
+      <![CDATA[Навыки розничной продажи запасных частей]]>
+</title>
+  </course>
+  <section id="0" snumber="99000">
+    <header>
+<![CDATA[ЗАВЕРШИТЬ И ВЫЙТИ]]>
+</header>
+    <scenes>
+      <scene id="99100" sNumber="99000" sType="completeexit" continueBtnType="exit">
+        <sceneitems>
+            <ui uid="1" type="bodyIcon"  width="600" height="125" x="center" y="top" margin="20" trans="slideup" ease="BackEaseOut">
+            <bodyImage id="i1" order="0" time="1" scaleMode="none" url="logo_course.png">
+              <![CDATA[Course Logo]]>
+</bodyImage>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="99100" type="CourseNotComplete" endType="stop">
+          <ui uid="0" type="sectionHeader">
+      <![CDATA[Курс не завершен (данная попытка)]]>
+          </ui>
+             <ui uid="2" type="BodyText" width="660" height="230" x="center" y="150"  margin="0" trans="slideup" ease="QuintEaseOut">
+              <bodyBullet id="bb1" order="2" time="1"><![CDATA[Вы НЕ завершили все обязательные пункты меню (данная попытка). Выберите обязательные пункты меню, которые не были завершены. <b>После этого необходимо вернуться на этот экран, чтобы воспользоваться кнопкой «ЗАВЕРШИТЬ И ВЫЙТИ» ниже. </b> ]]>
+</bodyBullet>
+            </ui>
+                <ui uid="3" type="BodyButton"  width="240" height="36" x="center" y="bottom" margin="20" time="1" trans="slideup" ease="QuintEaseOut" order="50">
+               <item id="trigger" type="completeAndExit" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="0xfe9003" xPad="10" yPad="10" isActive="no" >
+              <![CDATA[ЗАВЕРШИТЬ И ВЫЙТИ]]>
+</item>
+          </ui>
+          </slide>
+          <slide sNumber="99200" type="CourseComplete" endType="exit">
+            <ui uid="0" type="sectionHeader">
+      <![CDATA[Курс завершен (данная попытка)]]>
+          </ui>
+             <ui uid="2" type="BodyText" width="680"  x="center" y="200" margin="10" trans="slideup" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="2" yPad="0">
+                <![CDATA[Вы <b>УЖЕ</b> завершили все пункты меню для данного курса (данная попытка).  <br />Названия уроков галочками не отмечаются. Примечание: при повторном прохождении курса после его полного завершения ваши прежние закладки будут сброшены, записи и галочки удалены.]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="3" >
+                <![CDATA[<b>ВЫХОДИТЕ ИЗ КУРСА КОРРЕКТНО: необходимо нажать на кнопку «ЗАВЕРШИТЬ И ВЫЙТИ», чтобы отправить свой результат в Учебный центр.</b> После этого обязательно запустите тест и все остальные необходимые элементы, расположенные на странице «Назначения обучения по курсу Учебного центра».]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="BodyButton"  width="240" height="36" x="center" y="bottom" margin="20" time="1" trans="slideup" ease="QuintEaseOut" order="50">
+               <item id="trigger" type="completeAndExit" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="0xfe9003" xPad="10" yPad="10" isActive="yes" >
+              <![CDATA[ЗАВЕРШИТЬ И ВЫЙТИ]]>
+</item>
+          </ui>
+          </slide>
+        
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

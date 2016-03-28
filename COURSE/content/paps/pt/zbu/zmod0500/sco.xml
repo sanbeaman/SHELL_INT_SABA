@@ -1,0 +1,46 @@
+<shell>
+  <course code="PAPSPOWB" localeID="pt" debug="false">
+    <title>
+      <![CDATA[Habilidades de Vendas de Peças no Varejo]]>
+</title>
+  </course>
+  <section id="0" snumber="500">
+    <header>
+      <![CDATA[Bem Vindo!]]>
+</header>
+    <scenes>
+      <scene id="510" sNumber="510" sType="splash" continueBtnType="start">
+        <sceneitems>
+          <ui uid="1" type="bodyImage" padding="20" trans="slideup" ease="BackEaseOut">
+            <bodyImage id="i1" order="0" time="1" scaleMode="none" width="600" height="150" xLoc="center" yLoc="top" yPad="0" sfile="media/LogoCourseINT_pt.jpg">
+              <![CDATA[Course Logo]]>
+</bodyImage>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="511" type="gps_content" endType="Continue">
+            <ui uid="2" type="bodyBullet" x="20" y="200" width="600" padding="10" trans="slideup" ease="QuintEaseOut">
+              <bodyBullet id="bb1" order="2" time="1">
+                <![CDATA[<b>Para receber crédito</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="3" time="1">
+                <![CDATA[Para receber créditos para este curso você deve:<li>Ter um marcador verde em cada ítem</li><li>Passar no teste</li></br>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="4" time="1">
+                <![CDATA[<b>Saindo do curso</b>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="5" time="1">
+                <![CDATA[<li>Saída antecipada: Fechar a janela do navegador antes de concluir o curso salva o progresso para todos os tópicos concluídos dentro da sessão</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="3" type="BodyButton" trans="slideup" ease="QuintEaseOut" order="50" time="1">
+              <item id="trigger" type="startcourse" xLoc="center" yLoc="bottom" width="200" height="36" fontSize="16" fontColor="black" fontStyle="reg" xPad="10" yPad="10">
+                <![CDATA[INICIAR CURSO]]>
+</item>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

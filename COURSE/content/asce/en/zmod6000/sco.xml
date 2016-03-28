@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCEENWB" template="ASCE" localeID="en" debug="false">
+    <title>
+      <![CDATA[Exceptional Customer Experience]]>
+</title>
+  </course>
+  <section id="0" snumber="6000">
+    <header>
+      <![CDATA[DELIVERING EXCEPTIONAL SERVICE ]]>
+</header>
+    <scenes>
+      <scene sNumber="6100" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Prepare to Practice]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="6105" type="TextImageReplace" animType="timesync" endType="continue">
+      <ui uid="2" type="BodyText" width="680" height="180" x="center" y="270" margin="0" fontAlign="center" effect="none" time="2" trans="slideLeft" ease="QuintEaseOut" syncType="replace">
+              <bodyBullet id="bb1" timeIn=".5" timeOut="999">
+                <![CDATA[Now that you have the skills and knowledge to deliver exceptional customer service, it’s time to put into practice what you’ve learned. This module presents four scenarios you might experience on the job.]]>
+</bodyBullet>
+            </ui>
+             <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" time="2" trans="fadeOn" ease="QuintEaseOut" scaleMode="none" syncType="replace">
+              <bodyImage id="img1" url="6105_1.jpg" timeIn=".2" timeOut="5.5" time="1">
+                <![CDATA[image1]]>
+</bodyImage>
+              <bodyImage id="img2" url="6105_2.jpg" timeIn="6" timeOut="11">
+                <![CDATA[Image2]]>
+</bodyImage>
+              <bodyImage id="img3" url="6105_3.jpg" timeIn="11.5" timeOut="999">
+                <![CDATA[image3]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="6110" type="Activity_MultipleChoice" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="10" yPad="10">
+              <actui type="ScreenText" width="680" x="left" y="0" margin="0" syncType="buildy" yPad="10">
+                <item type="header" fontSize="24" yPad="0">
+                  <![CDATA[<b>Case Study 1</b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+                  <![CDATA[A customer arrives in his vehicle for his 13,000 kilometer maintenance appointment. He pulls into the service drive and you, as the Service Advisor …]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                  <![CDATA[Directions: Select all that apply. Then click “Check Answer.”]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="cb" width="660" height="36" x="left" y="0" margin="0" fontSize="16" fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="0x000000" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="12">
+                <item id='a' isanswer='false'>
+                  <![CDATA[Wave the customer over to the first available shop stall so the Technician can begin work immediately]]>
+</item>
+                <item id='b' isanswer='true'>
+                  <![CDATA[During the interview review with the customer any open recalls or Rapid Response Transmittals that apply to their vehicle]]>
+</item>
+                <item id='c' isanswer='false'>
+                  <![CDATA[Have the customer immediately sign a pre-written Repair Order that lists every service menu option available]]>
+</item>
+                <item id='d' isanswer='true'>
+                  <![CDATA[Greet the customer warmly, reconfirm the reason for their visit, ask if there are any additional service needs they want checked]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="200" height="34" x="right" y="0" margin="10" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[CHECK ANSWER]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[Correct! Offer a warm greeting and confirm the reason for his visit. Also review any open recalls or Rapid Response Transmittals then identify opportunities for additional sales.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[Incorrect. The second and fourth answers are correct. Offer a warm greeting and confirm the reason for his visit. Also review any open recalls or Rapid Response Transmittals then identify opportunities for additional sales.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="6115" type="Activity_MultipleChoice" animType="none" endType="Continue">
+              <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="10" yPad="10">
+              <actui type="ScreenText" width="680" x="left" y="0" margin="0" syncType="buildy" yPad="10">
+                <item type="header" fontSize="24" yPad="0">
+                  <![CDATA[<b>Case Study 2</b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+                  <![CDATA[A customer returns to your dealership and is dissatisfied because she was forced to come back about the same issue on the same day. When working with this customer, what is the most important thing you have to turn a negative into a positive experience?]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                  <![CDATA[Directions: Select the correct answer. Then click “Check Answer.”]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="600" height="36" x="left" y="0" margin="0" fontSize="16" fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="0x000000" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="12">
+                <item id='a' isanswer='false'>
+                  <![CDATA[Ability to schedule another appointment and the customer to return at the designated time]]>
+</item>
+                <item id='b' isanswer='false'>
+                  <![CDATA[Knowledge of your dealership’s return policy]]>
+</item>
+                <item id='c' isanswer='false'>
+                  <![CDATA[A copy of the Repair Order which shows the customer’s written approval]]>
+</item>
+                <item id='d' isanswer='true'>
+                  <![CDATA[Willingness to listen to the customer and immediately address the problem]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="200" height="34" x="right" y="0" margin="10" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[CHECK ANSWER]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[Correct! Go out of your way to turn things around by listening to the customer and addressing the problem immediately. ]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[Incorrect. The fourth answer is correct. Go out of your way to turn things around by listening to the customer and addressing the problem immediately.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="6120" type="Activity_MultipleChoice" animType="none" endType="Continue">
+             <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="10" yPad="10">
+              <actui type="ScreenText" width="680" x="left" y="0" margin="0" syncType="buildy" yPad="10">
+                <item type="header" fontSize="24" yPad="0">
+                  <![CDATA[<b>Case Study 3</b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+                  <![CDATA[A customer picks up her car after it has been serviced, but comes back to the service area after paying, looking disappointed. When you inquire, she explains that her car has always been washed after being serviced. That didn’t happen this time.  How do you respond?]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                  <![CDATA[Directions: Select the correct answer. Then click “Check Answer.”]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="600" height="36" x="left" y="0" margin="0" fontSize="16" fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="0x000000" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="12">
+                 <item id='id0' isanswer='true'>
+                  <![CDATA[Apologize for the oversight, ensure a quality car wash is completed and notify Service Manager of discrepancy]]>
+</item>
+                <item id='b' isanswer='false'>
+                  <![CDATA[Apologize but explain to the customer that the car wash is at the dealer’s discretion and needs to be requested at write-up]]>
+</item>
+                <item id='c' isanswer='false'>
+                  <![CDATA[Immediately contact the Service Manager and move on to other customers]]>
+</item>
+                <item id='d' isanswer='false'>
+                  <![CDATA[No need to apologize, instruct customer that they’ll get their car washed on their next visit ]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="200" height="34" x="right" y="0" margin="10" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[CHECK ANSWER]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[Correct! You don’t want the customer to leave unhappy, and you don’t want to brush her off with just an apology or a coupon. Make sure the customer leaves happy and has a reason to come back.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[Incorrect. The first answer is correct. You don’t want the customer to leave unhappy, and you don’t want to brush her off with just an apology or a coupon. Make sure the customer leaves happy and has a reason to come back.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="6125" type="Activity_MultipleChoice" animType="none" endType="Continue">
+           <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="10" yPad="10">
+              <actui type="ScreenText" width="680" x="left" y="0" margin="0" syncType="buildy" yPad="10">
+                <item type="header" fontSize="24" yPad="0">
+                  <![CDATA[<b>Case Study 4</b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+                  <![CDATA[A customer calls in to schedule an appointment to have a Rear Seat DVD Entertainment System installed that had been on back order.  After you set the appointment, what should you, as a Service Advisor, do next?]]>
+</item>
+                <item type="directiontext" fontSize="14">
+                  <![CDATA[Directions: Select the correct answer. Then click “Check Answer.”]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="600" height="36" x="left" y="0" margin="0" fontSize="16" fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="0x000000" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="12">
+                <item id='a' isanswer='false'>
+                  <![CDATA[Work with Technician to ensure proper installation procedures have been downloaded from DealerCONNECT]]>
+</item>
+                <item id='b' isanswer='true'>
+                  <![CDATA[Notify the Parts Department and dispatcher when the customer is coming in and confirm receipt of part and Technician availability]]>
+</item>
+                <item id='c' isanswer='false'>
+                  <![CDATA[Have Parts Department contact customer again reconfirming that part is now in stock ]]>
+</item>
+                <item id='d' isanswer='false'>
+                  <![CDATA[Contact Chrysler directly via DealerCONNECT Parts tab to confirm receipt of part]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="200" height="34" x="right" y="0" margin="10" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[CHECK ANSWER]]>
+</item>
+              </actui>
+             <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[Correct! That’s how a team works together to deliver exceptional customer service!]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[Incorrect. The second answer is correct. That’s how a team works together to deliver exceptional customer service!]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

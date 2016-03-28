@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCEPOWB" template="ASCE" localeID="pt" debug="false">
+    <title>
+      <![CDATA[Experiência Excepcional do Cliente]]>
+</title>
+  </course>
+  <section id="0" snumber="6000">
+    <header>
+      <![CDATA[ENTREGA DE SERVIÇO EXCEPCIONAL]]>
+</header>
+    <scenes>
+      <scene sNumber="6100" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+      <![CDATA[Preparação para a Prática]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="6105" type="TextImageReplace" animType="timesync" endType="continue">
+      <ui uid="2" type="BodyText" width="660" height="150" x="center" y="290" margin="0" fontSize="18" fontAlign="center" effect="none" time="2" trans="slideLeft" ease="QuintEaseOut" syncType="replace">
+              <bodyBullet id="bb1" timeIn=".5" timeOut="999">
+      <![CDATA[Agora que você tem as habilidades e o conhecimento para entregar serviço excepcional ao cliente, é hora de colocar em prática o que aprendeu. Este módulo apresenta quatro cenários que você poderá encontrar no dia-a-dia.]]>
+</bodyBullet>
+            </ui>
+             <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="20" time="2" trans="fadeOn" ease="QuintEaseOut" scaleMode="none" syncType="replace">
+              <bodyImage id="img1" url="6105_1.jpg" timeIn=".2" timeOut="5.5" time="1">
+                <![CDATA[image1]]>
+</bodyImage>
+              <bodyImage id="img2" url="6105_2.jpg" timeIn="6" timeOut="11">
+                <![CDATA[Image2]]>
+</bodyImage>
+              <bodyImage id="img3" url="6105_3.jpg" timeIn="11.5" timeOut="999">
+                <![CDATA[image3]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="6110" type="Activity_MultipleChoice" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="10" yPad="10">
+              <actui type="ScreenText" width="710" syncType="buildy" yPad="10">
+                <item type="header" fontSize="24" yPad="0">
+      <![CDATA[<b>Estudo de Caso 1</b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+      <![CDATA[Um cliente chega para o agendamento de manutenção de 12.000 quilômetros do veículo. Ele entra no local de serviço e você, como Consultor de Serviço:]]>
+</item>
+                <item type="directiontext" fontSize="14">
+      <![CDATA[Instruções: Selecione todas as que se aplicam. Depois, clique em "Verificar resposta".]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="cb" width="680" height="36" fontSize="16" fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="0x000000" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="12">
+                <item id='a' isanswer='false'>
+      <![CDATA[Acena para que o cliente vá para a primeira vaga disponível na oficina para que o Técnico possa começar o trabalho imediatamente]]>
+</item>
+                <item id='b' isanswer='true'>
+      <![CDATA[Durante a entrevista com o cliente, revise recalls ou Transmissões de Resposta Rápidas (RRTs) abertos que se apliquem ao veículo]]>
+</item>
+                <item id='c' isanswer='false'>
+      <![CDATA[Faça com que o cliente assine imediatamente uma ordem de serviço pré-escrita que lista todas as opções disponíveis do menu de serviço]]>
+</item>
+                <item id='d' isanswer='true'>
+      <![CDATA[Cumprimente o cliente calorosamente, reconfirme o motivo da visita, pergunte se ele tem necessidades adicionais de serviço que queira verificar]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="220" height="34" x="right" y="0" margin="10" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[VERIFICAR RESPOSTA]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct" afile="">
+      <![CDATA[Correto! Ofereça um cumprimento caloroso e confirme o motivo da visita. Revise também recalls ou RRTs abertos para identificar oportunidade de vendas adicionais.]]>
+</item>
+                <item type="wrong" afile="">
+      <![CDATA[Incorreto. As respostas dois e quatro estão corretas. Ofereça um cumprimento caloroso e confirme o motivo da visita. Revise também recalls ou RRTs abertos para identificar oportunidade de vendas adicionais.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="6115" type="Activity_MultipleChoice" animType="none" endType="Continue">
+              <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="10" yPad="10">
+              <actui type="ScreenText" width="710" syncType="buildy" yPad="10">
+                <item type="header" fontSize="24" yPad="0">
+      <![CDATA[<b>Estudo de Caso 2</b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+      <![CDATA[Uma cliente retorna à concessionária e está insatisfeita porque foi forçada a voltar por causa do mesmo problema no mesmo dia. Ao atender essa cliente, qual é a coisa mais importante que você tem para transformar uma experiência negativa em uma positiva?]]>
+</item>
+                <item type="directiontext" fontSize="14">
+      <![CDATA[Instruções: Selecione a resposta correta. Depois, clique em "Verificar resposta".]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="680" height="36" fontSize="16" fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="black" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="12">
+                <item id='a' isanswer='false'>
+      <![CDATA[Capacidade de marcar quantos agendamentos forem necessários para corrigir um problema não resolvido de um cliente]]>
+</item>
+                <item id='b' isanswer='false'>
+      <![CDATA[Conhecimento da política de retorno da concessionária]]>
+</item>
+                <item id='c' isanswer='false'>
+      <![CDATA[Uma cópia da ordem de serviço que mostra a aprovação por escrito do cliente]]>
+</item>
+                <item id='d' isanswer='true'>
+      <![CDATA[Disposição de ouvir o cliente e tratar o problema imediatamente]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="220" height="34" x="right" y="0" margin="10" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[VERIFICAR RESPOSTA]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[Correto! Saia de seu caminho para mudar as coisas ouvindo o cliente e tratando o problema imediatamente.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[Incorreto.  A resposta quatro é correta. Saia de seu caminho para mudar as coisas ouvindo o cliente e tratando o problema imediatamente.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="6120" type="Activity_MultipleChoice" animType="none" endType="Continue">
+              <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="10" yPad="10">
+              <actui type="ScreenText" width="710" syncType="buildy" yPad="10">
+                <item type="header" fontSize="24" yPad="0">
+      <![CDATA[<b>Estudo de Caso 3</b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+      <![CDATA[Uma cliente retira o carro depois que ele foi reparado, mas volta para a área de serviço depois de pagar, parecendo desapontada. Quando você pergunta, ela explica que seu carro sempre é lavado depois do serviço. Isso não aconteceu desta vez. Como você responde?]]>
+</item>
+                <item type="directiontext" fontSize="14">
+      <![CDATA[Instruções: Selecione a resposta certa. Depois, clique em "Verificar resposta".]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="680" height="36" fontSize="16" fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="black" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="12">
+                 <item id='id0' isanswer='true'>
+      <![CDATA[Pede desculpas pela falha, garante que uma lavagem de qualidade seja realizada e notifica o Gerente de Serviço sobre a discrepância]]>
+</item>
+    <item id='id1' isanswer='false'>
+      <![CDATA[Pede desculpas, mas explica ao cliente que a lavagem do carro é decisão da concessionária e deve ser solicitada no registro]]>
+</item>
+    <item id='id2' isanswer='false'>
+      <![CDATA[Entra em contato imediatamente com o Gerente de Serviço e passa para outros clientes]]>
+</item>
+    <item id='id3' isanswer='false'>
+      <![CDATA[Não é preciso pedir desculpas, instrui o cliente que a concessionária lavará o carro durante a próxima visita ]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="220" height="34" x="right" y="0" margin="10" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[VERIFICAR RESPOSTA]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct" afile="">
+      <![CDATA[Correto! Você não quer que o cliente parta descontente e não quer dispensá-la somente com uma desculpa ou um cupom. Garanta que o cliente parta contente e tenha um motivo para voltar.]]>
+</item>
+                <item type="wrong" afile="">
+      <![CDATA[Incorreto. A resposta um é a correta. Você não quer que o cliente parta descontente e não quer dispensá-la somente com uma desculpa ou um cupom. Garanta que o cliente parta contente e tenha um motivo para voltar.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="6125" type="Activity_MultipleChoice" animType="none" endType="Continue">
+           <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="10" yPad="10">
+              <actui type="ScreenText" width="710" syncType="buildy" yPad="10">
+                <item type="header" fontSize="24" yPad="0">
+      <![CDATA[<b>Estudo de Caso 4</b>]]>
+</item>
+                <item type="questiontext" fontSize="18">
+      <![CDATA[Um cliente telefona para marcar um agendamento para instalar um sistema de entretenimento de DVD do banco traseiro que estava em falta. Depois de marcar o agendamento, o que você, como Consultor de Serviço, deverá fazer a seguir?]]>
+</item>
+                <item type="directiontext" fontSize="14">
+      <![CDATA[Instruções: Selecione a resposta correta. Depois, clique em "Verificar resposta".]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="680" height="36" fontSize="16" fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="black" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="12">
+                <item id='a' isanswer='false'>
+      <![CDATA[Trabalhar com o Técnico para garantir que os procedimentos adequados de instalação foram baixados do DealerCONNECT]]>
+</item>
+                <item id='b' isanswer='true'>
+      <![CDATA[Notificar o Departamento de Peças e o despachante quando o cliente chegar e confirmar o recebimento das peças e a disponibilidade do Técnico]]>
+</item>
+                <item id='c' isanswer='false'>
+      <![CDATA[Pedir que o Departamento de Peças entre em contato com o cliente novamente para confirmar de novo que a peça agora está em estoque ]]>
+</item>
+                <item id='d' isanswer='false'>
+      <![CDATA[Entrar em contato diretamente com a Chrysler por meio da guia Peças do DealerCONNECT para confirmar o recebimento da peça]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="220" height="34" x="right" y="0" margin="10" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[VERIFICAR RESPOSTA]]>
+</item>
+              </actui>
+             <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct" afile="">
+      <![CDATA[Correto! É assim que uma equipe trabalha em conjunto para entregar serviço excepcional ao cliente!]]>
+</item>
+                <item type="wrong" afile="">
+      <![CDATA[Incorreto. A resposta dois é a correta. É assim que uma equipe trabalha em conjunto para entregar serviço excepcional ao cliente!]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

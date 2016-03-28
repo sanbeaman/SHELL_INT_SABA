@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCECHWB" template="ASCE" localeID="zh" debug="false">
+    <title>
+      <![CDATA[卓越的客户体验]]>
+</title>
+  </course>
+  <section id="0" snumber="2000">
+    <header>
+      <![CDATA[忠诚度的重要性]]>
+</header>
+    <scenes>
+      <scene sNumber="2100" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[满意的客户与忠诚的客户]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="2105" type="BulletImageGlow0" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="680" x="left" y="10" margin="20" fontSize="20" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <item id="bb1" order="1" time=".2" yPad="0">
+                <![CDATA[您最喜欢光顾的商业场所是哪里？您为什么会再三光顾那里？]]>
+</item>
+            </ui>
+            <ui uid="3" type="bodyBulletCol" width="140" x="left" y="260" margin="20" fontSize="12" time="1" trans="slideUp" ease="QuintEaseOut" textStyle="none" syncType="buildx" xPad="38">
+              <item id="bbc1" order="50" target="i1" targetTrigger="imageglow" targetParams="4" xPad="0">
+                <![CDATA[可以是您购买食品杂货的地方……]]>
+</item>
+              <item id="bbc2" order="51" target="i2" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[办理银行业务的地方……]]>
+</item>
+              <item id="bbc3" order="52" target="i3" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[在外用餐的地方……]]>
+</item>
+              <item id="bbc4" order="53" target="i4" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[理发的地方 – 或其它任何客户体验场所]]>
+</item>
+            </ui>
+            <!-- changed width -->
+            <ui uid="1" type="bodyImageGlow" width="154" height="160" x='left' y='80' margin="20" fillColor="0x000000" fillAlpha="1" frameShape="roundRect" frameColor="0x000000" frameSize="2" frameAlpha="1" pulseColor="0xfe9003" time="1" trans="slideLeft" ease="QuintEaseOut" syncType="buildx" xPad="24">
+              <item id="i1" order="2" url="2105_1.jpg" xPad="0">x</item>
+              <item id="i2" order="3" url="2105_2.jpg">x</item>
+              <item id="i3" order="4" url="2105_3.jpg">x</item>
+              <item id="i4" order="5" url="2105_4.jpg">x</item>
+            </ui>
+          </slide>
+          <slide sNumber="2110" type="TextImageReplace" animType="timesync" endType="continue">
+            <ui uid="2" type="BodyText" width="680" height="180" x="center" y="270" margin="10" fontAlign="center" effect="none" time="1" ease="QuintEaseOut" trans="slideLeft" syncType="replace">
+              <bodyText id="bt1" timeIn="0.5" timeOut="7">
+                <![CDATA[您之所以成为回头客，是因为该商业场所以其优质的服务赢得了您的忠诚。]]>
+</bodyText>
+              <bodyText id="bt2" timeIn="7.5" timeOut="14">
+                <![CDATA[他们努力找到了适合您、您的需求，以及您的预算的解决方案。他们建立了一种信任关系。]]>
+</bodyText>
+              <bodyText id="bt3" timeIn="14.5" timeOut="999">
+                <![CDATA[并且，他们不仅从您那里获得了业务，您很可能还会将他们介绍给您的朋友、家人和同事。]]>
+</bodyText>
+            </ui>
+            <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" scaleMode="none" time="3" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="2110_1.jpg" time="1" timeIn=".2" timeOut="7">
+                <![CDATA[image1]]>
+</bodyImage>
+              <bodyImage id="i2" url="2110_2.jpg" timeIn="7.5" timeOut="14">
+                <![CDATA[Image2]]>
+</bodyImage>
+              <bodyImage id="i3" url="2110_3.jpg" timeIn="14.5" timeOut="999">
+                <![CDATA[image3]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="2115" type="TextImageReplace" animType="timesync" endType="continue">
+            <ui uid="2" type="BodyText" width="680" height="180" x="center" y="270" margin="0" fontAlign="center" effect="none" time="2" trans="slideLeft" ease="QuintEaseOut" syncType="replace">
+              <bodyBullet id="bb1" timeIn=".5" timeOut="999">
+                <![CDATA[作为服务或零件顾问 – 与经销商处担任其他任何职务的员工相比，您可能有更多的机会在客户中建立这样一种热忱与忠诚。]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" scaleMode="none" time="1" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="2115_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[image1]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="2120" type="Activity_DragRate" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="dragrate" order="1" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut">
+              <screen id="1" x="0" y="0">
+                <actui uid="1" type="ScreenText" width="710" screen="1" syncType="buildy" yPad="5">
+                  <item type="screentext" fontSize="20">
+                    <![CDATA[您为您的客户所提供的服务是不是符合您自己期望的服务水平？下面这个练习能帮助您确定这个问题。]]>
+</item>
+                  <item type="directiontext" fontSize="14" screen="1">
+                    <![CDATA[从左侧的客户期望列表中，将您认为您在工作中最需要满足的五条期望拖放到右侧空白处。然后点击“提交”。若要重新开始，请点击“重置”。]]>
+</item>
+                </actui>
+                <actui uid="20" type="SubHeader" order="5" fontSize="18" screen="1">
+                  <item id="i1" type="dragHeader" x="0" y="0" width="320" height="40" fontAlign="center">
+                    <![CDATA[客户的期望]]>
+</item>
+                  <item id="i2" type="dropHeader" x="0" y="0" width="360" height="40" fontAlign="center">
+                    <![CDATA[我最需要去满足的客户期望]]>
+</item>
+                </actui>
+                <actui uid="24" type="ItemDragBox" width="320" height="42" x="0" y="0" layout="1col" columnPadding="20" rowPadding="4" fontSize="12" fontColor="0x000000" fontStyle="reg" fontAlign="left" fontVertAlign="middle" frameSize="1" frameColor="0xffffff" fillType="gradient" fillColor="0xcccccc" fillAlpha="1" fillColor2="0xcccccc" xPad="20" yPad="10" order="30">
+                  <item id="i1" isanswer="drop00">
+                    <![CDATA[客户一进店，便立即称呼客户的姓名，友好地向其打招呼]]>
+</item>
+                  <item id="i2" isanswer="drop00">
+                    <![CDATA[清楚地说明要做的工作，以及需要的服务、零配件等。]]>
+</item>
+                  <item id="i3" isanswer="drop00">
+                    <![CDATA[仔细聆听客户所讲的内容；通过提问确认您的理解是否正确]]>
+</item>
+                  <item id="i4" isanswer="drop00">
+                    <![CDATA[通过了解客户、使其感觉受到特殊礼遇，以及建立信任感，与客户建立个性化的联系]]>
+</item>
+                  <item id="i5" isanswer="drop00">
+                    <![CDATA[及时向客户汇报服务工作进度]]>
+</item>
+                  <item id="i6" isanswer="drop00">
+                    <![CDATA[第一次来访就解决问题]]>
+</item>
+                  <item id="i7" isanswer="drop00">
+                    <![CDATA[感谢客户的光临]]>
+</item>
+                </actui>
+                <actui uid="28" type="ItemDropBox" height="42" x="340" y="0" layout="labelfirst" columnPadding="8" rowPadding="4" fontSize="16" fontStyle="bold" fontAlign="center" frameSize="1" frameColor="0xffffff" frameAlpha="1" fillType="gradient" fillColor="0xcc6633" fillAlpha="1" fillColor2="0xff9933" fillColorLabel="0xdcded9" fillAlphaLabel="1" frameColorLabel="0x666666" frameAlphaLabel="1" xPad="10" yPad="10">
+                  <item id="i1" isanswer="drop00">
+                    <![CDATA[1]]>
+</item>
+                  <item id="i2" isanswer="drop00">
+                    <![CDATA[2]]>
+</item>
+                  <item id="i3" isanswer="drop00">
+                    <![CDATA[3]]>
+</item>
+                  <item id="i4" isanswer="drop00">
+                    <![CDATA[4]]>
+</item>
+                  <item id="i5" isanswer="drop00">
+                    <![CDATA[5]]>
+</item>
+                </actui>
+                <actui uid="30" type="actbtns" order="50" width="160" height="34" x="right" y="bottom" margin="10" layout="abs" fontSize="16" fontStyle="bold" pulseColor="orange" yPad="20" screen="1">
+                  <item id="chkbtn" type="reset" x="0" y="0" isActive="no">
+                    <![CDATA[重置]]>
+</item>
+                  <item id="chkbtn" type="submit" x="180" y="0" isActive="no">
+                    <![CDATA[提交]]>
+</item>
+                </actui>
+              </screen>
+              <screen id="2" x="0" y="0">
+                <actui uid="1" type="ScreenText" width="710" x="0" y="0" synType="buildy" yPad="10">
+                  <item type="screentext" fontSize="20">
+                    <![CDATA[您为您的客户所提供的服务是不是符合您自己期望的服务水平？]]>
+</item>
+                  <item type="directiontext" fontSize="14" screen="2">
+                    <![CDATA[说明：使用滑块诚实地针对各个期望为您的表现评分（1 = 差，5 = 优秀）。完成后，点击“打印”，并以此作为整个课程中的参考]]>
+</item>
+                </actui>
+                <actui uid="10" type="newheader" order="10" fontSize="18">
+                  <item id="i1" type="itemHeader" x="0" y="0" width="300" height="44" fontAlign="left" fontVertAlign="bottom" xPad="0">
+                    <![CDATA[客户的期望]]>
+</item>
+                </actui>
+                <actui uid="12" type="rateheader" order="10" fontSize="18">
+                  <item id="i2" type="rateHeader" x="0" y="0" width="300" height="22" fontAlign="left" fontVertAlign="bottom" xPad="20">
+                    <![CDATA[差]]>
+</item>
+                  <item id="i3" type="rateHeader" x="0" y="0" width="300" height="22" fontAlign="right" fontVertAlign="bottom">
+                    <![CDATA[优秀]]>
+</item>
+                  <item id="i4" type="rateNumbers" x="0" y="22" width="325" height="22" fontAlign="left" fontVertAlign="bottom" fontSize="14">
+                    <![CDATA[1|2|3|4|5]]>
+</item>
+                </actui>
+                <actui uid="15" type="ItemRateSlider" width="300" height="42" x="0" y="0" order="20" layout="rel" columnPadding="10" rowPadding="6" fontSize="16" fontColor="0x666666" fontStyle="bold" fontAlign="center" fontVertAlign="middle" fillColor="0xdcded9" frameSize="1" frameColor="0x666666">
+                  <item id="r1">
+                    <![CDATA[1]]>
+</item>
+                  <item id="r2">
+                    <![CDATA[2]]>
+</item>
+                  <item id="r3">
+                    <![CDATA[3]]>
+</item>
+                  <item id="r4">
+                    <![CDATA[4]]>
+</item>
+                  <item id="r5">
+                    <![CDATA[5]]>
+</item>
+                </actui>
+                <actui uid="20" type="actbtns" order="50" width="160" height="34" fontSize="16" fontStyle="bold" pulseColor="orange" layout="abs" x="right" y="bottom" margin="10" yPad="0">
+                  <item id="chkbtn" type="print" x="0" y="0" isActive="yes">
+                    <![CDATA[打印]]>
+</item>
+                </actui>
+              </screen>
+            </ui>
+          </slide>
+          <slide sNumber="2130" type="BulletImageGlow2" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="680" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut">
+              <item id="bb1" order="1" yPad="0">
+                <![CDATA[只是尽力满足客户的需求还不够，因为满意的客户并不会自动成为忠诚的客户。思考一下这两者之间的差异。]]>
+</item>
+            </ui>
+            <ui uid="3" type="bodyBulletCol" width="320" x="left" y="260" margin="10" fontSize="12" fontAlign="left" textStyle="textflow" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <item id="bbc1" order="50" yPad="0">
+                <![CDATA[<list><li>所谓满意，有时只是表示“没有问题了”</li></list>]]>
+</item>
+              <item id="bbc2" order="52">
+                <![CDATA[<list><li>如果客户只是满意了，他/她并不会特意使用您的产品或服务，也不愿意支付溢价</li></list>]]>
+</item>
+              <item id="bbc3" order="55">
+                <![CDATA[<list><li>满意的客户会因为竞争对手的优势而轻易动摇</li></list>]]>
+</item>
+              <item id="bbc4" order="58">
+                <![CDATA[<list><li>去别的商家消费的客户中，有 80% 都是“满意”的客户</li></list>]]>
+</item>
+            </ui>
+            <ui uid="3" type="bodyBulletCol" width="320" x="right" y="260" margin="10" fontSize="12" fontAlign="left" textStyle="textflow" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <item id="bbc5" order="60" yPad="0">
+                <![CDATA[<list><li>忠诚客户不愿改投他家</li></list>]]>
+</item>
+              <item id="bbc6" order="61">
+                <![CDATA[<list><li>忠诚客户再次购买的可能性高达满意客户的 10 倍</li></list>]]>
+</item>
+              <item id="bbc7" order="66">
+                <![CDATA[<list><li>每个忠诚客户会做出 5 次购买推荐</li></list>]]>
+</item>
+              <item id="bbc8" order="68">
+                <![CDATA[<list><li>与满意客户相比，忠诚客户带来的利润要多出 23%</li></list>]]>
+</item>
+            </ui>
+            <ui uid="5" type="slideEndNote" fontSize="10" time=".2" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" time="1" order="70">
+                <![CDATA[来源：Bain & Company, 2009]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyImageGlow" width="154" height="160" y='80' margin="110" fillColor="0x000000" fillAlpha="1" frameShape="roundRect" frameColor="0x000000" frameSize="2" frameAlpha="1" pulseColor="orange" time="1" ease="QuintEaseOut" syncType="add">
+              <item id="img1" order="2" url="2130_1.jpg" x='left' trans="slideright">
+                <label>
+                  <![CDATA[满意的客户]]>
+</label>
+              </item>
+              <item id="img2" order="3" url="2130_2.jpg" x='right' trans="slideleft">
+                <label>
+                  <![CDATA[忠诚的客户]]>
+</label>
+              </item>
+            </ui>
+          </slide>
+          <slide sNumber="2135" type="TextImageReplace" animType="timesync" endType="continue">
+            <ui uid="2" type="BodyText" width="680" height="180" x="center" y="270" margin="0" fontAlign="center" effect="none" time="2" trans="slideLeft" ease="QuintEaseOut" syncType="replace">
+              <bodyBullet id="bb1" timeIn=".5" timeOut="999">
+                <![CDATA[将工作重点从客户满意度转移到忠诚度可能需要大幅转变您的工作方式，但这样可以帮助您促进长远发展并提高盈利能力。]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" scaleMode="none" time=".1" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="2135_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[image1]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene  sNumber="2200" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[忠诚度与盈利能力]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="2205" type="TextImageReplace" animType="timesync" endType="continue">
+            <ui uid="2" type="BodyText" width="600" height="180" x="center" y="270" margin="0" fontAlign="center" effect="none" time="2" ease="QuintEaseOut" trans="slideLeft" syncType="replace">
+              <bodyBullet id="bb1" timeIn=".5" timeOut="999">
+                <![CDATA[事实上，克莱斯勒集团正在将自己的工作重点从以客户满意度为导向转变为以客户忠诚度为导向。<br />在部分销售市场中，销售满意指数（SSI）和客户满意指数（CSI）这两项衡量标准已被客户推荐值 取代。]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" scaleMode="none" time=".5" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="2205_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[image1]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="2210" type="TextImageReplace" animType="timesync" endType="continue">
+            <ui uid="2" type="BodyText" width="680" height="180" x="center" y="270" margin="0" fontAlign="center" effect="none" time="2" trans="slideLeft" ease="QuintEaseOut" syncType="replace">
+              <bodyText id="bt1" timeIn="0.5" timeOut="10">
+                <![CDATA[在美国，多年来，我们一直以销售和服务体验来衡量客户的满意度。并且，多年来，我们的客户满意度得分一直在不断上升！]]>
+</bodyText>
+              <bodyText id="bt2" timeIn="10.5" timeOut="20">
+                <![CDATA[但是，这显然是不够的。虽然满意度得分持续上升，但是，客户对于我们的公司、品牌及其经销商的忠诚度却并非如此。]]>
+</bodyText>
+              <bodyText id="bt3" timeIn="20.5" timeOut="999">
+                <![CDATA[我们的“满意”客户正在转投其他品牌和其他经销商。]]>
+</bodyText>
+            </ui>
+            <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" scaleMode="none" time="3" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="2210_1.jpg" timeIn=".2" timeOut="999" time=".1">
+                <![CDATA[image1]]>
+</bodyImage>
+            </ui>
+            <ui uid="5" type="slideEndNote" fontSize="10" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" timeIn="4" timeOut="999">
+                <![CDATA[*基于美国数据的图表。]]>
+</bodyNote>
+            </ui>
+          </slide>
+          <slide sNumber="2215" type="TextImageAround" animType="timesync" endType="Continue">
+            <ui uid="2" type="BodyText" width="280" height="200" x="center" y="200" fontAlign="center" effect="none" time="1" trans="slideup" ease="QuintEaseOut" syncType="replace">
+              <bodyText id="bt1" timeIn="0.5" timeOut="10">
+                <![CDATA[幸运的是，“满意度”与忠诚度这种相关性缺失，并不仅仅局限于我们这个行业 – 近年来，这已成为许多研究的课题。]]>
+</bodyText>
+              <bodyText id="bt2" timeIn="10.5" timeOut="20">
+                <![CDATA[忠诚度研究的先行者们已经找到将客户的态度与其行为以及公司发展联系在一起的方法。]]>
+</bodyText>
+              <bodyText id="bt3" timeIn="20.5" timeOut="999">
+                <![CDATA[这个衡量标准的依据是客户对一个简单问题的回答，这个问题被称为“终极问题”……它是客户推荐值的基础。]]>
+</bodyText>
+            </ui>
+            <ui uid="1" type="BodyImage" width="240" height="160" x="center" y="top" margin="10" effect="none" scaleMode="none" centerIt="true" time="1" trans="slideup" ease="QuintEaseOut">
+              <bodyImage id="img1" url="2215_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[main image]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="BodyImage" x="left" y="top" margin="20" width="150" height="100" effect="none" scaleMode="none" trans="slideright" ease="QuintEaseOut" time="1" syncType="buildy" yPad="7">
+              <bodyImage id="img2" url="2215_2.jpg" timeIn="2" timeOut="999" yPad="0">
+                <![CDATA[img2]]>
+</bodyImage>
+              <bodyImage id="img4" url="2215_4.jpg" timeIn="4" timeOut="999">
+                <![CDATA[img4]]>
+</bodyImage>
+              <bodyImage id="img6" url="2215_6.jpg" timeIn="6" timeOut="999">
+                <![CDATA[img6]]>
+</bodyImage>
+              <bodyImage id="img8" url="2215_8.jpg" timeIn="8" timeOut="999">
+                <![CDATA[img8]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="BodyImage" x="right" y="top" margin="20" width="150" height="100" effect="none" scaleMode="none" trans="slideleft" ease="QuintEaseOut" time="1" syncType="buildy" yPad="7">
+              <bodyImage id="img3" url="2215_3.jpg" timeIn="3" timeOut="999" yPad="0">
+                <![CDATA[img3]]>
+</bodyImage>
+              <bodyImage id="img5" url="2215_5.jpg" timeIn="5" timeOut="999">
+                <![CDATA[img5]]>
+</bodyImage>
+              <bodyImage id="img7" url="2215_7.jpg" timeIn="7" timeOut="999">
+                <![CDATA[img7]]>
+</bodyImage>
+              <bodyImage id="img9" url="2215_9.jpg" timeIn="9" timeOut="999">
+                <![CDATA[img9]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="2220" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="2" yPad="0">
+                <![CDATA[这个问题就是：“您愿意向朋友或同事推荐我们吗？”]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4">
+                <![CDATA[<li>研究表明，客户越是愿意推荐某个公司或产品，其对该公司或该公司产品的长期忠诚度也就越高</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+                <![CDATA[<li>研究还表明，如果客户仅仅表示对某一次特殊体验“感到满意”，并不表示他们一定会愿意推荐这个公司 – 或长期对该公司保持忠诚</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="8">
+                <![CDATA[<li>因此，要培养忠诚度就必须为客户提供卓越的服务……当然，一旦赢得了客户的忠诚度，您也赢得了另一个好处：客户推荐</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10" scaleMode="width" time="1" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="25">
+              <bodyImage id="i1" order="3" url="2220_1.jpg" yPad="0">
+                <![CDATA[image 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="5" url="2220_2.jpg">
+                <![CDATA[Image 2]]>
+</bodyImage>
+              <bodyImage id="i3" order="7" url="2220_3.jpg">
+                <![CDATA[Image 3]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="2225" type="TextImageReplace" animType="timesync" endType="Continue">
+            <ui uid="2" type="BodyText" width="680" height="180" x="center" y="270" margin="0" fontAlign="center" effect="none" time="2" trans="slideLeft" ease="QuintEaseOut" syncType="replace">
+              <bodyText id="bt1" timeIn="0.5" timeOut="999">
+                <![CDATA[这就是克莱斯勒集团在多个市场转而采用客户推荐值的原因。找出“客户为什么愿意或不愿意推荐您”这个问题的答案，能够提供可帮助扬长避短的有用信息。<br />即使您目前尚未使用客户推荐值，也可利用其背后的理念来改进工作。]]>
+</bodyText>
+            </ui>
+            <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" scaleMode="none" time=".5" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="2225_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[image1]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

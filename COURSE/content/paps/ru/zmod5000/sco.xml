@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="PAPSRUWB" template="PAPS" localeID="ru" debug="false">
+    <title>
+      <![CDATA[Навыки розничной продажи запасных частей]]>
+</title>
+  </course>
+  <section id="1" snumber="5000">
+    <header>
+      <![CDATA[ПРИМЕНЕНИЕ ПРОЦЕССА]]>
+</header>
+    <scenes>
+      <scene id="5100" sNumber="5100" sType="gps" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" width="600" height="50" x="left" y="0" margin="10" trans="on" ease="none">
+            <header id="h1" order="0" time="0" x="0" y="0">
+              <![CDATA[Клиент по телефону ]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="5101" type="BulletBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyImage" margin="10">
+              <bodyImage id="i1" width="160" height="160" x="right" y="top" margin="10" trans="slideDown" ease="BackEaseOut" scaleMode="none" url="2703ProcessAnim_Step01.png" order="1" time="1">
+                <![CDATA[Step 01]]>
+</bodyImage>
+              <bodyImage id="i2" width="160" height="200" x="right" y="bottom" margin="10" trans="slideLeft" ease="BackEaseOut" url="CustomerPhone2.jpg" order="5" time="1">
+                <![CDATA[Customer Phone]]>
+</bodyImage>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="20" yPad="0">
+                <![CDATA[В рамках этого модуля вы сможете уделить внимание тренировке своих навыков и приемов продавца, которые вы затем сможете применить на рабочем месте.]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="21">
+                <![CDATA[Прочитайте следующий сценарий диалога между консультантом по запасным частям и клиентом, звонящим по телефону, который интересуется тормозами на свой автомобиль Jeep. Будьте готовы ответить на вопросы по реализации вами Процесса продажи запасных частей, ориентированного на клиента, вплоть до фактической продажи.]]>
+</bodyBullet>
+              <bodyBullet id="bd2" fontSize="14" order="22" trans="slideUp" ease="QuintEaseOut">
+                <![CDATA[<b>Консультант по запасным частям:</b> «Здравствуйте, меня зовут Петр, отдел запасных частей дилерского центра Hometown Chrysler Dodge Jeep Ram. Чем я могу вам помочь?»]]>
+</bodyBullet>
+              <bodyBullet id="bd3" fontSize="14" order="26" trans="slideUp" ease="QuintEaseOut">
+                <![CDATA[<b>Клиент:</b> «Здравствуйте. Я звоню узнать, есть ли у вас запасные части для передних тормозов на Jeep Patriot».]]>
+</bodyBullet>
+              <bodyBullet id="bd4" fontSize="14" order="27" trans="slideUp" ease="QuintEaseOut">
+                <![CDATA[<b>Консультант по запасным частям:</b> «Мне нужна дополнительная информация, чтобы ответить на ваш вопрос. Пожалуйста, назовите идентификационный номер вашего автомобиля Jeep».]]>
+</bodyBullet>
+              <bodyBullet id="bd5" fontSize="14" order="28" trans="slideUp" ease="QuintEaseOut">
+                <![CDATA[<b>Консультант по запасным частям:</b> «Ой! Подождите минутку. Я сейчас».]]>
+</bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="5105" type="act" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyImage" margin="10">
+              <bodyImage id="i1" width="160" height="160" x="right" y="top" margin="10" trans="slideDown" ease="BackEaseOut" scaleMode="none" url="2703ProcessAnim_Step01.png" order="1" time="1">
+                <![CDATA[Step 01]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="510" fontSize="16" fontColor="0x000000" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[Исходя из того, что Вы сейчас прочитали, что бы вы сделали по-другому? Выберите все уместные пункты и затем нажмите кнопку «Проверить ответ».]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="cb" width="510" height="36" x="left" y="0" xPad="8" yPad="16" fontColor="0x000000" fontSize="14" fontStyle="reg" fillColor="0xffffff" fillAlpha="1">
+                <item id="a" isanswer="false">
+                  <![CDATA[Предложил(а) бы более выразительное приветствие]]>
+</item>
+                <item id="b" isanswer="false">
+                  <![CDATA[Узнал(а) бы имя клиента]]>
+</item>
+                <item id="c" isanswer="true">
+                  <![CDATA[Попросил(а) бы разрешения клиента перевести его вызов в режим удержания]]>
+</item>
+                <item id="c" isanswer="false">
+                  <![CDATA[Переадресовал(а) бы клиента на веб-сайт дилерского центра]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="180" height="34" fontSize="16" fontColor="black" fontStyle="bold">
+                  <![CDATA[ПРОВЕРИТЬ ОТВЕТ]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="0" y="120" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[Перейдите к шагу 2.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[Консультант по запасным частям должен был попросить клиента представиться, а также спросить разрешения на перевод вызова в режим ожидания на линии.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="5110" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyImage" margin="10" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i1" width="160" height="160" x="right" y="top" margin="10" trans="slideDown" ease="BackEaseOut" scaleMode="none" url="2703ProcessAnim_Step02.png" order="1" time="1">
+                <![CDATA[Step 02]]>
+</bodyImage>
+              <bodyImage id="i2" order="5" time="1" width="160" height="200" x="right" y="bottom" margin="10" url="CustomerPhone2.jpg">
+                <![CDATA[Customer Phone]]>
+</bodyImage>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideUp" ease="QuintEaseOut">
+              <bodyBullet id="bd1" order="21" fontSize="14" yPad="0">
+                <![CDATA[<b>Консультант по запасным частям:</b> «Прошу прощения за эту небольшую паузу. На чем мы остановились? Ах да, вы спрашивали о запасных частях для передних тормозов на Jeep Patriot, а я попросил вас назвать идентификационный номер (VIN) вашего автомобиля».]]>
+</bodyBullet>
+              <bodyBullet id="bd2" order="22" fontSize="14">
+                <![CDATA[<b>Клиент:</b> «Да, вот номер: 1J8FT28088D679188»]]>
+</bodyBullet>
+              <bodyBullet id="bd3" order="24" fontSize="14">
+                <![CDATA[<b>Консультант по запасным частям:</b> «Благодарю вас. Я вижу, что речь идет об автомобиле Patriot выпуска 2008 года. Можете ли вы сообщить пробег вашего автомобиля?»]]>
+</bodyBullet>
+              <bodyBullet id="bd4" order="26" fontSize="14">
+                <![CDATA[<b>Клиент:</b> «Примерно 68000 километров».]]>
+</bodyBullet>
+              <bodyBullet id="bd5" order="28" fontSize="14">
+                <![CDATA[<b>Консультант по запасным частям:</b> «Ясно. Спасибо. К сожалению, запасные части, которыми вы интересуетесь, не покрываются вашей гарантией. Знаете ли вы, какие конкретно запасные части вам нужны?»]]>
+</bodyBullet>
+              <bodyBullet id="bd6" order="30" fontSize="14">
+                <![CDATA[<b>Клиент:</b> «Мне нужны суппорты на обе стороны и колодки. Есть ли они у вас?»]]>
+</bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="5115" type="act" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyImage" width="160" height="160" x="right" y="top" margin="10">
+              <bodyImage id="i1" order="1" time="1" trans="slideDown" ease="BackEaseOut" scaleMode="none" url="2703ProcessAnim_Step02.png">
+                <![CDATA[Step 02]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="act" atype="mc" width="700" height="450" x="left" y="40" margin="10" order="10" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="510" fontSize="16" fontColor="0x000000" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[Что еще следовало бы сделать консультанту по запасным частям? Выберите наиболее подходящий вариант ответа и щелкните «Проверить ответ».]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="510" x="left" y="0" height="36" xPad="8" yPad="16" fontColor="0x000000" fontSize="14" fontStyle="reg" fillColor="0xffffff" fillAlpha="1">
+                <item id="a" isanswer="false">
+                  <![CDATA[Спросить идентификационный номер автомобиля (VIN)]]>
+</item>
+                <item id="b" isanswer="false">
+                  <![CDATA[Сообщить цену запасных частей]]>
+</item>
+                <item id="c" isanswer="true">
+                  <![CDATA[Задать вопросы, предполагающие развернутые ответы]]>
+</item>
+                <item id="c" width="600" isanswer="false">
+                  <![CDATA[Попросить клиента приехать в дилерский центр и осмотреть запасные части для тормозов]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[ПРОВЕРИТЬ ОТВЕТ]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="0" y="120" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[Перейдите к шагу 3.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[Консультант по запасным частям узнал у клиента идентификационный номер автомобиля (VIN), но ему следовало задать дополнительные вопросы, чтобы удостовериться в том, что клиенту нужны именно те запасные части, о которых он спрашивает, а также чтобы определить возможности для дополнительных продаж, к примеру, для продажи шайб, уплотняющих соединение тормозного шланга с суппортом.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="5120" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyImage" trans="slideLeft" ease="BackEaseOut">
+              <bodyImage id="i1" width="160" height="160" x="right" y="top" margin="10" scaleMode="none" url="2703ProcessAnim_Step03.png" order="1" time="1" trans="slideDown" ease="BackEaseOut">
+                <![CDATA[Step 03]]>
+</bodyImage>
+              <bodyImage id="i2" width="160" height="200" x="right" y="bottom" margin="10" url="CustomerPhone2.jpg" order="5" time="1">
+                <![CDATA[Customer Phone]]>
+</bodyImage>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bd1" order="20" fontSize="14" yPad="0">
+                <![CDATA[<b>Консультант по запасным частям:</b>  «Итак вы собираетесь отремонтировать передний тормоз вашего автомобиля Patriot. Мы нашли необходимые для этого тормозные колодки и суппорты в нашем каталоге. Знаете ли вы, что вам также необходимы шайбы, чтобы обеспечить плотное соединение тормозных шлангов и суппортов? Мы реализуем запасные части к оригинальному оборудованию производства Mopar, выполненные специально для вашего автомобиля.»]]>
+</bodyBullet>
+              <bodyBullet id="bd2" order="21" fontSize="14">
+                <![CDATA[<b>Клиент:</b> «Хорошо. Спасибо. У вас есть эти части в наличии?»]]>
+</bodyBullet>
+              <bodyBullet id="bd3" order="21" fontSize="14">
+                <![CDATA[<b>Консультант по запасным частям:</b> «Нет, именно сейчас их на складе нет.»]]>
+</bodyBullet>
+              <bodyBullet id="bd4" order="26" fontSize="14">
+                <![CDATA[<b>Клиент:</b> «Что ж, если у вас нет нужных мне частей, тогда я попробую обратиться к другому дилеру»]]>
+</bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="5125" type="act" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyImage" margin="10">
+              <bodyImage id="i1" width="160" height="160" x="right" y="top" margin="10" scaleMode="none" trans="slideDown" ease="BackEaseOut" url="2703ProcessAnim_Step03.png" order="1" time="1">
+                <![CDATA[Step 03]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="act" atype="mc" x="left" y="40" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" order="10" yPad="10">
+              <actui type="ScreenText" width="510" fontSize="16" fontColor="0x000000" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[Похоже, что консультант по запасным частям сейчас упустит эту продажу – а что бы сделали вы в рамках представления решения, чтобы спасти продажу? Выберите наиболее подходящий вариант ответа и щелкните «Проверить ответ».]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="510" height="36" x="left" y="0" xPad="8" yPad="16" fontColor="0x000000" fontSize="14" fontStyle="reg" fillColor="0xffffff" fillAlpha="1">
+                <item id="id0" isanswer="true">
+                  <![CDATA[Был(а) бы позитивным(-ой). Предложил(а) бы решение, удовлетворяющее клиента]]>
+</item>
+                <item id="id1" isanswer="false">
+                  <![CDATA[Посоветовал(а) бы клиенту дилера, у которого он смог бы приобрести все, что ему необходимо]]>
+</item>
+                <item id="id2" width="600" isanswer="false">
+                  <![CDATA[Предложил(а) бы альтернативное решение, предусматривающее ремонт с использованием имеющихся в наличии частей]]>
+</item>
+                <item id="id3" isanswer="false">
+                  <![CDATA[Подготовил(а) бы калькуляцию в отношении запасных частей]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[ПРОВЕРИТЬ ОТВЕТ]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="0" y="120" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[Перейдите к шагу 4.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[Помните, вы всегда должны оставаться позитивным(-ой) и стараться предложить клиенту такое решение, которое его удовлетворит.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="5130" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyImage" margin="10" trans="slideLeft" ease="BackEaseOut" time="1">
+              <bodyImage id="i1" width="160" height="160" x="right" y="top" margin="10" scaleMode="none" url="2703ProcessAnim_Step04.png" trans="slideDown" ease="BackEaseOut" order="1">
+                <![CDATA[Step 04]]>
+</bodyImage>
+              <bodyImage id="i2" width="160" height="200" x="right" y="bottom" margin="10" url="CustomerPhone2.jpg" order="5" time="1">
+                <![CDATA[Customer Phone]]>
+</bodyImage>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" trans="slideUp" ease="QuintEaseOut" fontSize="14" syncType="buildy" yPad="6">
+              <bodyBullet id="bd1" order="20" yPad="0">
+                <![CDATA[<b>Консультант по запасным частям:</b> «Здравствуйте, это снова Петр, отдел запасных частей дилерского центра Hometown Chrysler Dodge Jeep Ram. Я нашел запасные части, необходимые для ремонта тормоза вашего автомобиля. Они будут у меня сегодня к 16:00 часам. Вам удобно будет забрать их в это время?»]]>
+</bodyBullet>
+              <bodyBullet id="bd2" order="21">
+                <![CDATA[<b>Клиент:</b> «Я не знаю. Я не уверен в том, что это решение на самом деле лучше предлагаемого мне магазином в конце улицы. И вы, и они предлагают абсолютно одинаковые части».]]>
+</bodyBullet>
+              <bodyBullet id="bd3" order="21">
+                <![CDATA[<b>Консультант по запасным частям:</b> «То есть вы хотите сказать, что вы не уверены в том, что ценность предлагаемых мной запасных частей соответствует запрашиваемой за них денежной сумме. Я вас правильно понимаю?”]]>
+</bodyBullet>
+              <bodyBullet id="bd4" order="26">
+                <![CDATA[<b>Клиент:</b> «Именно так».]]>
+</bodyBullet>
+              <bodyBullet id="bd5" order="28">
+                <![CDATA[<b>Консультант по запасным частям:</b> «Позвольте мне ознакомить вас с преимуществами запасных частей к оригинальному оборудованию производства Mopar. Они выполнены специально для вашего автомобиля Patriot. Запасные части вторичного рынка универсальны и могут использоваться в различных автомобилях, в связи с чем они не обеспечивают такую посадку и не характеризуются такой долговечностью, как части, предлагаемые нами. Я могу подготовить для вас соответствующие данные».]]>
+</bodyBullet>
+              <bodyBullet id="bd6" order="30">
+                <![CDATA[<b>Клиент:</b> «Вы меня убедили. Вот моя кредитная карточка».]]>
+</bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="5135" type="act" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyImage" margin="10" trans="slideDown" ease="BackEaseOut">
+              <bodyImage id="i1" width="160" height="160" x="right" y="top" margin="10" scaleMode="none" url="2703ProcessAnim_Step04.png" order="1" time="1">
+                <![CDATA[Step 04]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="act" atype="mc" x="left" y="40" margin="10" trans="slideUp" ease="QuintEaseOut" order="10" time="1" yPad="10">
+              <actui type="ScreenText" width="510" fontSize="16" fontColor="0x000000" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[Какие из приведенных ниже действий предпринял консультант сторон? Выберите все уместные пункты и затем нажмите кнопку «Проверить ответ».]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="cb" width="510" height="36" x="left" y="0" xPad="8" yPad="16" fontColor="0x000000" fontSize="14" fontStyle="reg" fillColor="0xffffff" fillAlpha="1">
+                <item id="id0" isanswer="true">
+                  <![CDATA[Обратился с просьбой о продаже так, будто клиент уже согласился сделать заказ]]>
+</item>
+                <item id="id1" isanswer="true">
+                  <![CDATA[Рассказал о ценности продукции, чем поспособствовал укреплению доверия]]>
+</item>
+                <item id="id2" isanswer="true">
+                  <![CDATA[Преодолел возражение клиента]]>
+</item>
+                <item id="id3" isanswer="true">
+                  <![CDATA[Задал вопросы, чтобы убедиться в понимании]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[ПРОВЕРИТЬ ОТВЕТ]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="0" y="120" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[Все варианты ответа являются верными]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[Консультант по запасным частям выполнил все указанные выше действия, что привело к продаже.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="5200" sNumber="5200" sType="gps" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" width="600" height="50" x="left" y="0" margin="10" trans="on" ease="none">
+            <header id="h1" order="0" time="0" x="0" y="0">
+              <![CDATA[Очный клиент ]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="5201" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyImage" margin="10" trans="slideLeft" ease="BackEaseOut" time="1">
+              <bodyImage id="i1" width="160" height="160" x="right" y="top" margin="10" scaleMode="none" url="2703ProcessAnim_Step01.png" order="1" trans="slideDown" ease="BackEaseOut">
+                <![CDATA[Step 01]]>
+</bodyImage>
+              <bodyImage id="i2" order="5" time="1" width="160" height="200" x="right" y="bottom" margin="10" url="CustomerInPerson2.jpg">
+                <![CDATA[CustomerInPerson1]]>
+</bodyImage>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut">
+              <bodyBullet id="bb1" order="20" yPad="0">
+                <![CDATA[Прочитайте следующий сценарий взаимодействия между консультантом по запасным частям и очным клиентом.]]>
+</bodyBullet>
+              <bodyBullet id="bd2" order="22" fontSize="14" time="1" trans="slideUp" ease="QuintEaseOut">
+                <![CDATA[<b>Консультант по запасным частям:</b> «Спасибо, за то, что подождали. Меня зовут Петр. Чем я могу вам помочь?»]]>
+</bodyBullet>
+              <bodyBullet id="bd3" order="24" fontSize="14" time="1" trans="slideUp" ease="QuintEaseOut">
+                <![CDATA[<b>Клиент:</b> «Мне нужен фаркоп для Ram 1500».]]>
+</bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="5205" type="act" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyImage" margin="10" trans="slideDown" ease="BackEaseOut">
+              <bodyImage id="i1" width="160" height="160" x="right" y="top" margin="10" scaleMode="none" url="2703ProcessAnim_Step01.png" order="1">
+                <![CDATA[Step 01]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="510" fontSize="16" fontColor="0x000000" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[Выберите один наиболее подходящий вариант ответа и щелкните «Проверить ответ».]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="510" height="36" x="left" y="0" xPad="8" yPad="16" fontColor="0x000000" fontSize="14" fontStyle="reg" fillColor="0xffffff" fillAlpha="1">
+                <item id="id0" width="500" isanswer="true">
+                  <![CDATA[Установите зрительный контакт и уделите клиенту все свое внимание]]>
+</item>
+                <item id="id1" isanswer="false">
+                  <![CDATA[Определите возможности реализации дополнительных продаж]]>
+</item>
+                <item id="id2" isanswer="false">
+                  <![CDATA[Сразу покажите клиенту каталог StarParts]]>
+</item>
+                <item id="id3" isanswer="false">
+                  <![CDATA[Подготовьте калькуляцию в отношении запасной части]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[ПРОВЕРИТЬ ОТВЕТ]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="0" y="120" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[Правильно: Перейдите к шагу 2.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[Вы только начинаете формировать отношения. Не спешите. Установите зрительный контакт и уделите клиенту все свое внимание.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="5210" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyImage" margin="20" trans="slideDown" ease="BackEaseOut">
+              <bodyImage id="i1" width="160" height="160" x="right" y="top" margin="10" scaleMode="none" url="2703ProcessAnim_Step02.png" order="1" time="1">
+                <![CDATA[Step 02]]>
+</bodyImage>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bd0" order="21" fontSize="14" yPad="0">
+                <![CDATA[<b>Консультант по запасным частям:</b> «Конечно. Я посмотрю буксировочное оборудование на Ram 1500, однако, чтобы точно определить фаркоп, который подойдет именно вам, мне нужен год выпуска вашего автомобиля».]]>
+</bodyBullet>
+              <bodyBullet id="bd1" order="26" fontSize="14" time="1">
+                <![CDATA[<b>Клиент:</b> «Модель SLT 2010 года. Я только что купила фургон, и хотела бы выезжать с ним на природу по выходным этим летом».]]>
+</bodyBullet>
+              <bodyBullet id="bd2" order="27" fontSize="14" time="1">
+                <![CDATA[<b>Консультант по запасным частям:</b> «Прекрасно!»]]>
+</bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="5215" type="act" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyImage" margin="10" trans="slideDown" ease="BackEaseOut" order="1" time="1">
+              <bodyImage id="i1" width="160" height="160" x="right" y="top" margin="10" scaleMode="none" url="2703ProcessAnim_Step02.png">
+                <![CDATA[Step 02]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="510" fontSize="16" fontColor="0x000000" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[Каков ваш следующий шаг? Выберите наиболее подходящий вариант ответа и щелкните «Проверить ответ».]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="510" height="46" x="left" y="0" xPad="20" yPad="16" fontColor="0x000000" fontSize="14" fontStyle="reg" fillColor="0xffffff" fillAlpha="1">
+                <item id="id0" isanswer="false">
+                  <![CDATA[Буду искать фаркоп для грузовика]]>
+</item>
+                <item id="id1" isanswer="false">
+                  <![CDATA[Предложу дополнительные части/элементы, необходимые в связи с установкой фаркопа]]>
+</item>
+                <item id="id2" isanswer="true">
+                  <![CDATA[Продолжу задавать вопросы, чтобы выполнить целевой подбор запрашиваемого элемента оптимальным образом]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[ПРОВЕРИТЬ ОТВЕТ]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="0" y="120" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[Перейдите к шагу 3.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[На этом этапе вы еще не готовы приступить к поиску фаркопов, а тем более к тому, чтобы предложить клиенту смежные/сопутствующие части/элементы. Вам необходима дополнительная информация, в частности масса фургона, а также другие технологические данные, имея которые вы сможете порекомендовать клиентке фаркоп с оптимальными эксплуатационными характеристиками.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="5220" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyImage" width="160" height="160" x="right" y="top" margin="10" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyImage id="i1" order="1" scaleMode="none" url="2703ProcessAnim_Step03.png">
+                <![CDATA[Step 03]]>
+</bodyImage>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bd1" order="22" fontSize="14" yPad="0">
+                <![CDATA[<b>Консультант по запасным частям:</b> «В нашем каталоге StarParts присутствует все, что необходимо для обеспечения успешной буксировки фургона вашим автомобилем Ram 2010 года. Ваш грузовик снабжен всей необходимой проводкой, поэтому для транспортировки фургона весом 1600 килограммов вам необходим приемный блок для фаркопа, сцепной шар и монтажный адаптер для сцепного шара. У вас есть вопросы»]]>
+</bodyBullet>
+              <bodyBullet id="bd2" order="24" fontSize="14">
+                <![CDATA[<b>Клиент:</b> «Похоже, что нет».]]>
+</bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="5225" type="act" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyImage" width="160" height="160" x="right" y="top" margin="10" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyImage id="i1" scaleMode="none" url="2703ProcessAnim_Step03.png" order="2">
+                <![CDATA[Step 03]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="510" fontSize="16" fontColor="0x000000" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[Каков ваш следующий шаг? Выберите наиболее подходящий вариант ответа и щелкните «Проверить ответ».]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="510" height="36" x="left" y="0" xPad="8" yPad="16" fontColor="0x000000" fontSize="14" fontStyle="reg" fillColor="0xffffff" fillAlpha="1">
+                <item id="id0" isanswer="false">
+                  <![CDATA[Обратитесь с просьбой о продаже]]>
+</item>
+                <item id="id1" isanswer="true">
+                  <![CDATA[Определите возможности для дополнительных продаж]]>
+</item>
+                <item id="id2" isanswer="false">
+                  <![CDATA[Задайте дополнительные вопросы, чтобы убедиться в понимании]]>
+</item>
+                <item id="id3" isanswer="false">
+                  <![CDATA[Определите ориентировочные стоимость и сроки]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[ПРОВЕРИТЬ ОТВЕТ]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="0" y="120" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[Перейдите к шагу 4.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[Этому клиенту могут также понадобиться интегрированный контроллер тормоза фургона для грузовика Ram и разъем для приемного блока фаркопа. Помните о поиске возможностей для дополнительных продаж.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="5230" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyImage" width="160" height="160" x="right" y="top" margin="10" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyImage id="i1" scaleMode="none" url="2703ProcessAnim_Step04.png" order="1">
+                <![CDATA[Step 04]]>
+</bodyImage>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bd1" order="22" fontSize="14" yPad="0">
+                <![CDATA[<b>Консультант по запасным частям:</b> «Все эти части/элементы вам нужны для буксировки вашего нового фургона. Чтобы вы знали, я выполнил их целевой подбор для того, чтобы обеспечить удовлетворение всем применимым требованиям в отношении автомобиля и в рамках буксировки. Части/элементы прошли комплексные дорожные испытания Chrysler, что свидетельствует об их надежности и долговечности. Когда вы хотите, чтобы мы установили вам фаркоп?»]]>
+</bodyBullet>
+              <bodyBullet id="bd2" order="24" fontSize="14">
+                <![CDATA[<b>Клиент:</b> «Я понимаю, что отняла у вас довольно много времени, но я не думала, что все это будет стоить настолько дорого».]]>
+</bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="5235" type="act" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyImage" width="160" height="160" x="right" y="top" margin="10" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyImage id="i1" scaleMode="none" url="2703ProcessAnim_Step04.png" order="2">
+                <![CDATA[Step 04]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="510" fontSize="16" fontColor="0x000000" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[Как вы преодолеете это возражение? Выберите один наиболее подходящий вариант ответа и щелкните «Проверить ответ».]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="510" height="36" x="left" y="0" xPad="8" yPad="16" fontColor="0x000000" fontSize="14" fontStyle="reg" fillColor="0xffffff" fillAlpha="1">
+                <item id="id0" isanswer="true">
+                  <![CDATA[Сделаю ударение на конкурентоспособности цены и ценности предлагаемого оборудования]]>
+</item>
+                <item id="id1" isanswer="false">
+                  <![CDATA[Предложу клиенту скидку]]>
+</item>
+                <item id="id2" isanswer="false">
+                  <![CDATA[Снова обращусь с просьбой о продаже]]>
+</item>
+                <item id="id3" isanswer="false">
+                  <![CDATA[Уменьшу количество частей/элементов в заказе]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[ПРОВЕРИТЬ ОТВЕТ]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="0" y="120" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[Вы преодолели возражение и совсем близко подошли к фактической продаже.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[Заверяя клиентку в том, что она получает части/элементы наивысшего качества по конкурентоспособной цене, вы способствуете формированию между вами доверительных отношений и убеждаете клиентку совершить покупку.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="5300" sNumber="5300" sType="gps" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" width="600" height="50" x="left" y="0" margin="10" trans="on" ease="none">
+            <header id="h1" order="0" time="0" x="0" y="0">
+              <![CDATA[Внутренний клиент ]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="5301" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyImage" margin="10" order="1" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyImage id="i1" width="160" height="160" x="right" y="top" margin="10" scaleMode="none" url="2703ProcessAnim_Step01.png" yPad="0">
+                <![CDATA[Step 01]]>
+</bodyImage>
+              <bodyImage id="i2" width="160" height="200" x="right" y="bottom" margin="10" trans="slideLeft" ease="QuintEaseOut" url="CustomerInternal2.jpg" order="5">
+                <![CDATA[CustomerInternal]]>
+</bodyImage>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="20" yPad="0">
+                <![CDATA[Прочитайте следующий сценарий взаимодействия между консультантом по запасным частям и внутренним клиентом. Будьте готовы ответить на вопросы по реализации вами Процесса продажи запасных частей, ориентированного на клиента, вплоть до фактической продажи.]]>
+</bodyBullet>
+              <bodyBullet id="bd2" order="21" fontSize="14" time="1" trans="slideUp" ease="QuintEaseOut">
+                <![CDATA[<b>Консультант по продажам:</b> «Привет, Петр, я работаю с клиенткой, которой нужны напольные коврики для нового Grand Voyager. Сколько они стоят?»]]>
+</bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="5305" type="act" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyImage" margin="10" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyImage id="i1" width="160" height="160" x="right" y="top" margin="10" scaleMode="none" url="2703ProcessAnim_Step01.png" order="1">
+                <![CDATA[Step 01]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="8">
+              <actui type="ScreenText" width="510" fontSize="16" fontColor="0x000000" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[Взаимодействуйте с внутренними клиентами так же профессионально, как вы взаимодействуете с внешними клиентами. Что вам необходимо сделать, чтобы «инициировать отношения»? Выберите наиболее подходящий вариант ответа и щелкните «Проверить ответ».]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="510" height="36" x="left" y="0" xPad="8" yPad="16" fontColor="0x000000" fontSize="14" fontStyle="reg" fillColor="0xffffff" fillAlpha="1">
+                <item id="id0" isanswer="false">
+                  <![CDATA[Узнать идентификационный номер автомобиля (VIN)]]>
+</item>
+                <item id="id1" isanswer="false">
+                  <![CDATA[Найти напольные коврики в каталоге StarParts]]>
+</item>
+                <item id="id2" width="600" isanswer="false">
+                  <![CDATA[Передать клиентке брошюру со списком дополнительного оборудования через консультанта отдела продаж]]>
+</item>
+                <item id="id3" isanswer="true">
+                  <![CDATA[Уделить все внимание консультанту отдела продаж]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[ПРОВЕРИТЬ ОТВЕТ]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="0" y="120" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[Перейдите к шагу 2.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[Не смотря то, что между вами и консультантом отдела продаж уже могут существовать определенные отношения, он заслуживает, чтобы вы уделили ему все ваше внимание в рамках подготовки к получению дополнительной информации.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="5310" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyImage" margin="10" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyImage id="i1" width="160" height="160" x="right" y="top" margin="10" scaleMode="none" url="2703ProcessAnim_Step02.png" order="1">
+                <![CDATA[Step 02]]>
+</bodyImage>
+            </ui>
+            <ui uid="3" type="bodyBullet" x="left" y="40" width="440" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bd1" order="22" fontSize="14" yPad="0">
+                <![CDATA[<b>Консультант по запасным частям:</b> «Секундочку, Глеб. Сначала мне необходимо получить кое-какую информацию».]]>
+</bodyBullet>
+              <bodyBullet id="bd2" order="24" fontSize="14">
+                <![CDATA[<b>Консультант по продажам:</b> «Что бы ты хотел знать? Я думал, что напольные коврики - это просто».]]>
+</bodyBullet>
+              <bodyBullet id="bd3" order="28" fontSize="14">
+                <![CDATA[<b>Консультант по запасным частям:</b> «Ну, ситуации бывают разные. Я бы хотел, чтобы ты задал клиентке несколько вопросов».]]>
+</bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="5315" type="act" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyImage" margin="10" order="1" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyImage id="i1" width="160" height="160" x="right" y="top" margin="10" scaleMode="none" url="2703ProcessAnim_Step02.png">
+                <![CDATA[Step 02]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="510" fontSize="16" fontColor="0x000000" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[Каков будет ваш следующий шаг? Выберите один наиболее подходящий вариант ответа и щелкните «Проверить ответ».]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="510" height="46" x="left" y="0" xPad="8" yPad="16" fontColor="0x000000" fontSize="14" fontStyle="reg" fillColor="0xffffff" fillAlpha="1">
+                <item id="id0" isanswer="false">
+                  <![CDATA[Дадите консультанту отдела продаж брошюру со списком дополнительного оборудования, чтобы тот передал ее своей клиентке]]>
+</item>
+                <item id="id1" isanswer="false">
+                  <![CDATA[Посоветуете консультанту отдела продаж ознакомится с каталогом StarParts, с его помощью определить, что хочет клиентка, и обратиться к вам снова]]>
+</item>
+                <item id="id2" isanswer="true">
+                  <![CDATA[Расскажите консультанту отдела продаж, какая конкретная информация вам необходима, чтобы предоставить клиентке то, что ей нужно]]>
+</item>
+                <item id="id3" isanswer="false">
+                  <![CDATA[Скажите консультанту отдела продаж, что вас ожидает ваш собственный клиент, в связи с чем вы поговорите с ним позже]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" y="row" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[ПРОВЕРИТЬ ОТВЕТ]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="0" y="120" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[Перейдите к шагу 3.]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[Если консультант отдела продаж предпочитает самостоятельно взаимодействовать с клиенткой, расскажите ему, какая информация вам необходима, чтобы порекомендовать напольные коврики, соответствующие ожиданиям клиентки. ]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="5320" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyImage" margin="10" order="1" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyImage id="i1" width="160" height="160" x="right" y="top" margin="10" scaleMode="none" url="2703ProcessAnim_Step03.png">
+                <![CDATA[Step 03]]>
+</bodyImage>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" trans="slideUp" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bd1" order="22" fontSize="14" yPad="0">
+                <![CDATA[<b>Консультант по продажам:</b> «Вот информация, которая тебе нужна. Клиентка не знает, какие именно коврики ей нужны - стильные или рабочие. Она говорит, что коврики должны придавать салону ее автомобиля ощущение роскоши».]]>
+</bodyBullet>
+              <bodyBullet id="bd2" order="24" fontSize="14">
+                <![CDATA[<b>Консультант по запасным частям:</b> «Спасибо, Глеб. Тогда я рекомендовал бы стильные коврики. С логотипом Chrysler они смотрятся действительно незаурядно. Кроме того, она ведь хочет, чтобы коврики перекликались со стилем интерьера ее автомобиля. Мы можем уложить коврики в салон на этапе подготовки автомобиля к доставке».]]>
+</bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="5325" type="act" animType="animsync" endType="Continue">
+            <ui uid="1" type="bodyImage" margin="10" order="1" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyImage id="i1" width="160" height="160" x="right" y="top" margin="10" scaleMode="none" url="2703ProcessAnim_Step03.png">
+                <![CDATA[Step 03]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="act" atype="mc" x="left" y="40" margin="10" order="2" time="1" trans="slideUp" ease="QuintEaseOut" yPad="10">
+              <actui type="ScreenText" width="510" fontSize="16" fontColor="0x000000" syncType="buildy" yPad="0">
+                <item type="questiontext">
+                  <![CDATA[Консультант отдела продаж оформит продажу ковриков одновременно с продажей автомобиля, поэтому нет необходимости переходить к шагу 4. Вместе с тем, вам осталось сделать еще кое-что. Выберите наиболее подходящий вариант ответа на щелкните «Проверить ответ».]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="510" height="36" x="left" y="0" xPad="8" yPad="16" fontColor="0x000000" fontSize="14" fontStyle="reg" fillColor="0xffffff" fillAlpha="1">
+                <item id="id0" isanswer="false">
+                  <![CDATA[Преодолеть возражение клиента]]>
+</item>
+                <item id="id1" isanswer="true">
+                  <![CDATA[Предоставить калькуляцию]]>
+</item>
+                <item id="id2" isanswer="false">
+                  <![CDATA[Обеспечить получение собственных комиссионных]]>
+</item>
+                <item id="id3" isanswer="false">
+                  <![CDATA[Проверить наличие возможностей для дополнительных продаж]]>
+</item>
+              </actui>
+              <actui type="actbtns">
+                <item id="chkbtn" type="submit" x="right" width="200" height="34" fontSize="16" fontColor="black" fontStyle="reg">
+                  <![CDATA[ПРОВЕРИТЬ ОТВЕТ]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="680" x="0" y="120" fontSize="14">
+                <item type="correct" afile="">
+                  <![CDATA[Верно! Вы обеспечили консультанту отдела продаж дополнительные аргументы в пользу продажи и предложили конкурентоспособную цену. ]]>
+</item>
+                <item type="wrong" afile="">
+                  <![CDATA[Неверно. Консультант отдела продаж знает, как подчеркнуть преимущества и ценность напольных ковриков. Однако, ему нужна цена на коврики, чтобы совершить комплексную продажу.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

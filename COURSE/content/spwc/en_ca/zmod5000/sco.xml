@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="SPWCGWB" template="SPWC" localeID="en_CA" debug="false">    
+  <title>
+      <![CDATA[WELCOME TO CHRYSLER &#8211; AFTER SALES]]>
+</title>
+  </course>
+  <section id="0" snumber="5000">
+    <header id="sech1">
+      <![CDATA[Course Summary]]>
+</header>
+    <scenes>
+      <scene id="5105" sNumber="5105" sType="audiosync" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Key Learning Points]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="5105" type="BulletImageBuild"  animType="timesync"  endType="continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="5105.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="BodyBullet" width="360"  x="50" y="30"  margin="10" fontAlign="left" effect="none" trans="slideright" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="21" timeIn="5.1" timeOut="999" yPad="0">
+                <![CDATA[<li>Chrysler boasts a proud history of innovation</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22" timeIn="10.22" timeOut="999">
+                <![CDATA[<li>Chrysler Group’s partnership with FIAT makes innovation global</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="21" timeIn="17.23" timeOut="999">
+                <![CDATA[<li>Chrysler Group is customer-focused to build relationships and loyal customers</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="22" timeIn="27.14" timeOut="999">
+                <![CDATA[<li>Each dealership department has a role to play with customers and should work together for a seamless ownership experience</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="21" timeIn="43.0" timeOut="999">
+                <![CDATA[<li>Service, Parts and Warranty processes are designed to support customer focus</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="22" timeIn="51.14" timeOut="999">
+                <![CDATA[<li>Chrysler Academy and its Learning Center offer a competency-based approach to training that leads to Certification and career growth</li>]]>
+</bodyBullet>
+            </ui>
+ <ui uid="1" type="BodyImage" width="200" height="133"  x="right" y="30" margin="0" scaleMode="none" effect="none" time="1" trans="slideLeft" ease="QuintEaseOut" syncType="buildy" yPad="30">
+              <bodyImage id="i1" order="11" url="5105_1.jpg" timeIn="0" timeOut="999" yPad="0">
+                <![CDATA[Service Advisor ]]>
+</bodyImage>
+              <bodyImage id="i2" order="12" url="5105_2.jpg" timeIn=".5" timeOut="999">
+                <![CDATA[Parts Advisor ]]>
+</bodyImage>
+              <bodyImage id="i3" order="i3" url="5105_3.jpg" timeIn="1.5" timeOut="999">
+                <![CDATA[Warranty Admin]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="5110" type="TextImageReplace" animType="timesync" endType="DONE">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="5110.mp3" size="3500912" duration="35" />
+<ui uid="2" type="BodyText" width="555" x="center" y="300" margin="0" fontAlign="center" effect="none"  trans="slideup" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="20" timeIn=".5" timeOut="999" yPad="0">
+                <![CDATA[By joining a Chrysler Group dealership After Sales team, you have committed to the highest level of professionalism and customer&#160;satisfaction.]]>
+</bodyBullet>
+              <bodyBullet id="bb0" order="20" timeIn="9.0" timeOut="999">
+                <![CDATA[Your most important goal is to build owner loyalty to your dealership and to the Chrysler Group brands by working closely with all dealership teams to exceed customer&#160;expectations.]]>
+</bodyBullet>
+            </ui>
+<ui uid="1" type="BodyImage" width="420" height="280" x="166" y="top" margin="30" scaleMode="proportionalOutside" effect="none" time="2" trans="fadeOn" ease="QuintEaseOut" >
+              <bodyImage id="i1" order="10"  url="logo_welcome.png" timeIn=".5" timeOut="999">
+                <![CDATA[Welcome Logo]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

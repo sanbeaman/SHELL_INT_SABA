@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="PAPSARWB" template="PAPS" localeID="ar" debug="false">
+    <title>
+      <![CDATA[قطع غيار مهارات البيع بالتجزئة]]>
+</title>
+  </course>
+  <section id="1" snumber="6000">
+    <header>
+      <![CDATA[ملخص الدورة]]>
+</header>
+    <scenes>
+      <scene id="6100" sNumber="6100" sType="gps" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" width="680" height="50" x="0" y="0" margin="10" trans="none" ease="none">
+            <header id="h1" order="0" time="0" x="0" y="0">
+              <![CDATA[أهداف الأداء]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide type="BulletImageBuild" sNumber="6101" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="680" x="left"  y="50"  margin="10" time="1" trans="slideRight"  ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="11" yPad="0">
+      <![CDATA[تهانينا! لقد وصلت إلى نهاية دورة مهارات بيع قطع الغيار بالتجزئة. يجب الآن أن تكون قادرًا على:]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="12">
+      <![CDATA[<li>شرح حالة الأعمال لتحسين مهارات البيع لمبيعات قطع الغيار بالتجزئة</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="13">
+      <![CDATA[<li>شرح المميزات ومزايا فوائد قطع غيار Mopar وإكسسواراتها</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="14">
+      <![CDATA[<li>التعرف على خصائص الأنماط الأربعة للعملاء</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="15">
+      <![CDATA[<li>شرح عملية بيع قطع الغيار المدفوعة برغبة العميل</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="16">
+      <![CDATA[<li>الاستجابة لفرص البيع الإضافية واعتراضات العملاء الشائعة</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb7" order="17">
+      <![CDATA[<li>تطبيق عملية بيع قطع الغيار المدفوعة برغبة العميل</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="6200" sNumber="6200" sType="gps" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" width="680" height="50" x="0" y="0" margin="10" trans="none" ease="none">
+            <header id="h1" order="0" time="0" x="0" y="0">
+      <![CDATA[النقاط الرئيسية]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide type="gps_content" sNumber="6201" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="680"  x="left"  y="50" margin="10" time="1" trans="slideRight"  ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="20" yPad="0">
+      <![CDATA[دعنا نراجع نقاط التعلم الأساسية بهذه الدورة.]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22">
+      <![CDATA[<li>تمثل قطع الغيار والإكسسوارات سوقًا متنامية تتضمن فرص ربحية كبيرة.</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="24">
+      <![CDATA[<li>يساعد تحسين مهارات البيع في بناء الثقة مع العميل وتكرار الصفقات ويزيد من قيمتك ودخلك.</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="26">
+      <![CDATA[<li>توفر Mopar مزايا أفضل من القطع غير الأصلية تساعد في زيادة المبيعات:</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="28" formatType="subbullet" yPad="0">
+      <![CDATA[<li>هندسة قطع الغيار وفقًا للمواصفات الأصلية</li>]]>
+</bodyBullet>
+ <bodyBullet id="bb5a" order="29" formatType="subbullet" yPad="0">
+      <![CDATA[<li>الضمان القوي</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="30" formatType="subbullet" yPad="0">
+      <![CDATA[<li>السعر التنافسي</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb7" order="32">
+      <![CDATA[<li>توفر Mopar أيضًا الأدوات والموارد لعملية البيع الفعالة:</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb8" order="34" formatType="subbullet" yPad="0">
+      <![CDATA[<li>عروض الإكسسوارات</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb9" order="36" formatType="subbullet" yPad="0">
+      <![CDATA[<li>StarParts</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+          <slide type="gps_content" sNumber="6205" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="680" x="left"  y="50" margin="10" time="1" trans="slideRight"  ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb2" order="12" yPad="0">
+      <![CDATA[<li>تشمل أنماط العملاء الأربعة الاتصال الهاتفي والعميل الشخصي والداخلي والإنترنت</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="13">
+      <![CDATA[<li>كل العملاء مهمون</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="14">
+      <![CDATA[<li>تساعدك عملية بيع قطع الغيار المدفوعة طبقًا لرغبة العميل على أن تكون أكثر فاعلية</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="15">
+      <![CDATA[<li>للتغلب على اعتراضات العملاء: كن مستمعًا نشطًا وصغ حديثك بمهارة وأجب على الاستفسارات واطلب البيع</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="6300" sNumber="6300" sType="gps" continueBtnType="done">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" width="680" height="50" x="0" y="0" margin="10" trans="on" ease="none">
+            <header id="h1" order="0" time="0" x="0" y="0">
+      <![CDATA[الخاتمة]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide type="gps_content" sNumber="6301" endType="Continue">
+          <ui uid="3" type="bodyBullet" width="680"  x="left"  y="50" margin="10" time="1" trans="slideRight"  ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="12" yPad="0">
+      <![CDATA[<li>لديك المهارات والمعلومات للتحسين</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="12">
+      <![CDATA[<li>أنت تعرف ما هي مميزات Mopar</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="13">
+      <![CDATA[<li>أن تعرف كيفية الاتصال بالعملاء لبدء العلاقة وتحديد الحاجة وتقديم الحل - والأهم من ذلك طلب البيع</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="14">
+      <![CDATA[<li>كلما زادت مبيعاتك، زاد ما تحققه</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="15">
+      <![CDATA[<li>تعمل مهارات بيع استشاري قطع الغيار على دفع المبيعات إلى قسم الخدمة وكذلك زيادة مبيعات قطع الغيار</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="16">
+      <![CDATA[<li>خذ ما تعلمته إلى قسم قطع الغيار لديم وقم بتطبيقه في زيادة مبيعات قطع الغيار وأرباح وكالتك - وكذلك دخلك الخاص</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

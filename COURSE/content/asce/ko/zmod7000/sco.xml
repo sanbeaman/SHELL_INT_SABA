@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCEKOWB" template="ASCE" localeID="ko" debug="false">
+    <title>
+      <![CDATA[탁월한 고객 경험]]>
+</title>
+  </course>
+  <section id="0" snumber="7000">
+    <header>
+      <![CDATA[코스 요약]]>
+</header>
+    <scenes>
+      <scene sNumber="7100" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[성과 목표]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+         <slide sNumber="7105" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="500" x="left" y="top" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+             <bodyBullet id="bb0" order="2" yPad="0">
+                <![CDATA[축하합니다! 탁월한 고객 경험 코스를 모두 마쳤습니다. 이제 여러분은 다음과 같은 역량을 가지고 있어야 합니다.]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4">
+                <![CDATA[<li>만족도가 높은 고객과 충성도가 높은 고객의 차이에 대해 설명합니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="6">
+                <![CDATA[<li>고객의 충성도에 큰 영향을 미치는 가장 중요한 다섯 가지 서비스 경험 요소를 파악합니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="8">
+                <![CDATA[<li>여러분이 제공하는 서비스 경험을 고객이 어떻게 생각하는지 판단하는 데 이용되는 다양한 방법들을 설명합니다   </li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="10">
+                <![CDATA[<li>일곱 가지 서비스 경험 분야의 핵심적인 고객 기대치가 무엇인지 이해합니다</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="12">
+                <![CDATA[<li>고객의 충성도를 높일 수 있도록 개인적인 관계를 형성하기 위한 네 가지 방법을 설명합니다</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10" scaleMode="width"  time="1" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="25">
+              <bodyImage id="i1" order="5" url="7105_1.jpg" yPad="0">
+                <![CDATA[image 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="7" url="7105_2.jpg">
+                <![CDATA[Image 2]]>
+</bodyImage>
+              <bodyImage id="i3" order="11" url="7105_3.jpg">
+                <![CDATA[Image 3]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene sNumber="7200" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[요점]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="7205" type="BulletImageGlow" animType="animsync" endType="Continue">
+          
+          
+           <ui uid="1" type="bodyImageGlow" width="154" height="160" x='20' y='60' margin="0" fillColor="0x000000" fillAlpha="1" frameShape="roundRect" frameColor="0x000000" frameSize="2" frameAlpha="1" pulseColor="orange" trans="slideLeft" ease="QuintEaseOut" syncType="buildx" xPad="24">
+            <item id="img1" order="2" time="1" url="7205_1.jpg" xPad="0">x</item>
+              <item id="img2" order="3" time="1" url="7205_2.jpg">x</item>
+              <item id="img3" order="4" time="1" url="7205_3.jpg">x</item>
+              <item id="img4" order="5" time="1" url="7205_4.jpg">x</item>
+            </ui>
+                 <ui uid="3" type="bodyBullet" width="680" x="left" y="top"  margin="10" fontSize="20" fontColor="0x000000" trans="slideRight" ease="QuintEaseOut" yPad="0">
+              <item id="bb1" order="1" time=".3">
+                <![CDATA[본 코스의 요점에 대해 검토해 봅시다.]]>
+</item>
+            </ui>
+            <ui uid="3" type="bodyBulletCol" width="160" x="left" y="240" margin="20" fontSize="12" fontColor="0x000000" fontAlign="left" textStyle="textflow" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildx" xPad="16">
+              <item id="bbc1" order="50" target="img1" targetTrigger="imageglow" targetParams="4" xPad="0">
+                <![CDATA[<list><li>충성도가 높은 고객은 만족도가 높은 고객보다 대리점을 재방문하고 다른 이에게 여러분을 추천할 가능성이 훨씬 높습니다 </li></list>]]>
+</item>
+              <item id="bbc2" order="51" target="img2" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[<list><li>고객의 의견을 경청하고 이에 따른 조치를 취해 여러분이 제공하는 서비스와 프로세스에서 강점을 강화하고 약점을 없애는 것이 중요합니다 </li></list>]]>
+</item>
+              <item id="bbc3" order="52" target="img3" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[<list><li>고객의 핵심적인 기대치에 부응하는 것도 중요하나 더 많은 노력을 기울여 진정한 충성도를 높여야 합니다</li></list>]]>
+</item>
+              <item id="bbc4" order="53" target="img4" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[<list><li>고객과 개인적인 관계를 형성하면 지속적인 유대 관계를 만드는 데 도움이 되어 더 많은 단골 고객과 추천 고객을 확보할 수 있습니다</li></list>]]>
+</item>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene sNumber="7300" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[결론]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="7305" type="TextImageReplace" animType="timesync" endType="continue">
+        <ui uid="2" type="BodyText" width="680" height="180" x="center" y="270" margin="0" fontColor="0x000000" fontAlign="center" effect="none" time="1" ease="QuintEaseOut" trans="slideLeft" syncType="replace">
+            <bodyBullet id="bb1" timeIn=".5" timeOut="999">
+     
+                <![CDATA[이제 여러분은 탁월한 고객 서비스를 제공할 수 있는 본인의 역량에 대해 자신감을 가져야 합니다. 이러한 역량을 통해 대리점과 계속해서 거래를 이어나가는 충성도가 높은 단골 고객이 생겨날 뿐만 아니라 이러한 고객들은 본인이 겪은 놀라운 경험을 다른 사람들에게 널리 알립니다.<br />행운을 빕니다!]]>
+</bodyBullet>
+            </ui>
+                <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" scaleMode="none"  time=".5" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="img1" url="7305_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[image1]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

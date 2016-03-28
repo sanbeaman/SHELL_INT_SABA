@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCEKOWB" template="ASCE" localeID="ko" debug="false">
+    <title>
+      <![CDATA[탁월한 고객 경험]]>
+</title>
+  </course>
+  <section id="0" snumber="6000">
+    <header>
+      <![CDATA[탁월한 서비스 제공]]>
+</header>
+    <scenes>
+      <scene sNumber="6100" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[실습 준비]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="6105" type="TextImageReplace" animType="timesync" endType="continue">
+      <ui uid="2" type="BodyText" width="680" height="180" x="center" y="270" margin="0" fontAlign="center" effect="none" time="2" trans="slideLeft" ease="QuintEaseOut" syncType="replace">
+              <bodyBullet id="bb1" timeIn=".5" timeOut="999">
+                <![CDATA[이제 여러분은 탁월한 고객 서비스를 제공하기 위한 기술과 지식을 갖추게 되었으니 이제 배운 바를 실천해 봅시다. 이번 단원에서는 여러분이 근무할 때 경험할 수도 있는 네 가지 시나리오가 나옵니다.]]>
+</bodyBullet>
+            </ui>
+             <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="10" time="2" trans="fadeOn" ease="QuintEaseOut" scaleMode="none" syncType="replace">
+              <bodyImage id="img1" url="6105_1.jpg" timeIn=".2" timeOut="5.5" time="1">
+                <![CDATA[image1]]>
+</bodyImage>
+              <bodyImage id="img2" url="6105_2.jpg" timeIn="6" timeOut="11">
+                <![CDATA[Image2]]>
+</bodyImage>
+              <bodyImage id="img3" url="6105_3.jpg" timeIn="11.5" timeOut="999">
+                <![CDATA[image3]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="6110" type="Activity_MultipleChoice" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="10" yPad="10">
+              <actui type="ScreenText" width="710" x="left" y="0" margin="0" syncType="buildy" yPad="10">
+                <item type="header" fontSize="24" yPad="0">
+                <![CDATA[<b>사례 연구 1</b>]]>
+</item>
+              <item type="questiontext" fontSize="18" yPad="0">
+                <![CDATA[한 고객이 자신이 소유한 차의 13,000km 유지 관리 예약에 맞춰 대리점을 방문합니다. 이 고객이 서비스 구역으로 차를 몰고 들어오자 서비스 어드바이저인 여러분은…]]>
+</item>
+              <item type="directiontext" fontSize="14">
+                <![CDATA[설명: 해당되는 사항을 모두 선택하십시오. 그런 다음 “정답 확인”을 클릭하십시오.]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="cb" width="660" height="36" x="left" y="0" margin="0" fontSize="16" fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="0x000000" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="12">
+                 <item id="i1" isanswer="false">
+                <![CDATA[고객에게 이용 가능한 첫 번째 대기 구역으로 오도록 수신호를 해 기술자가 즉시 일을 시작할 수 있도록 합니다]]>
+</item>
+              <item id="i2" isanswer="true">
+                <![CDATA[인터뷰를 진행하면서 고객의 차에 해당되는 미해결 리콜이나 RRT(신속 대응 전갈)가 있는지 고객과 함께 검토합니다]]>
+</item>
+              <item id="i3" isanswer="false">
+                <![CDATA[모든 서비스 메뉴 옵션이 나열되어 있는 사전에 작성된 수리 주문서에 고객이 즉각 서명하게 합니다]]>
+</item>
+              <item id="i4" isanswer="true">
+                <![CDATA[고객을 따뜻하게 맞이하고, 고객이 대리점을 방문한 이유를 재확인한 다음 고객이 점검을 받고 싶어하는 서비스 요구 사항이 추가적으로 있는지 물어봅니다]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="200" height="34" x="right" y="0" margin="10" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[정답 확인]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+               <item type="correct">
+                <![CDATA[정답입니다! 고객을 정답게 맞이하고 고객이 방문한 이유를 확인합니다. 또한 미해결 리콜 또는 RRT(신속 대응 전갈)가 있는지 검토한 다음 추가적인 판매 기회를 파악합니다.]]>
+</item>
+              <item type="wrong">
+                <![CDATA[오답입니다. 두 번째와 네 번째 답변이 정답입니다. 고객을 정답게 맞이하고 고객이 방문한 이유를 확인합니다. 또한 미해결 리콜 또는 RRT(신속 대응 전갈)가 있는지 검토한 다음 추가적인 판매 기회를 파악합니다.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="6115" type="Activity_MultipleChoice" animType="none" endType="Continue">
+              <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="10" yPad="10">
+              <actui type="ScreenText" width="710" x="left" y="0" margin="0" syncType="buildy" yPad="10">
+               <item type="header" fontSize="24" yPad="0">
+                <![CDATA[<b>사례 연구 2</b>]]>
+</item>
+              <item type="questiontext" fontSize="18" yPad="0">
+                <![CDATA[고객이 대리점에 다시 방문해 같은 날 같은 문제가 다시 발생해 어쩔 수 없이 여기에 다시 오게 되었다며 불만을 토로합니다. 이 고객을 응대할 때 고객의 부정적인 경험을 긍정적인 경험으로 바꾸기 위해 귀하가 갖춰야 할 가장 중요한 점은 무엇입니까?]]>
+</item>
+              <item type="directiontext" fontSize="14">
+                <![CDATA[설명: 옳은 답변을 선택하십시오. 그런 다음 “정답 확인”을 클릭하십시오.]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="660" height="36" x="left" y="0" margin="0" fontSize="16" fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="0x000000" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="12">
+                <item id="i1" isanswer="false">
+                <![CDATA[또 다른 예약 일정을 잡아 지정된 시간에 고객이 돌아오게 하는 능력]]>
+</item>
+              <item id="i2" isanswer="false">
+              <![CDATA[지점의 환불 정책에 대한 지식]]>
+</item>
+              <item id="i3" isanswer="false">
+                <![CDATA[고객의 서면 허가를 보여주는 수리 주문서 사본]]>
+</item>
+              <item id="i4" isanswer="true">
+                <![CDATA[고객의 이야기에 귀를 기울이고 즉시 문제를 해결하고자 하는 의지]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="200" height="34" x="right" y="0" margin="10" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[정답 확인]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                 <item type="correct">
+                <![CDATA[정답입니다! 고객의 이야기에 귀를 기울이고 문제를 즉시 처리하여 최선을 다해 상황을 반전시킵니다.]]>
+</item>
+              <item type="wrong">
+                <![CDATA[오답입니다. 네 번째 답변이 정답입니다. 고객의 이야기에 귀를 기울이고 문제를 즉시 처리하여 최선을 다해 상황을 반전시킵니다.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="6120" type="Activity_MultipleChoice" animType="none" endType="Continue">
+             <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="10" yPad="10">
+              <actui type="ScreenText" width="710" x="left" y="0" margin="0" syncType="buildy" yPad="10">
+           <item type="header" fontSize="24" yPad="0">
+                <![CDATA[<b>사례 연구 3</b>]]>
+</item>
+              <item type="questiontext" fontSize="18" yPad="0">
+                <![CDATA[고객이 정비를 받은 본인의 차를 인도 받았으나 비용을 지불하고 난 후 실망스러워하는 모습으로 서비스 구역으로 돌아옵니다. 여러분이 무슨 일이 있는지 질문하자 고객은 예전에는 서비스를 받으면 항상 세차를 받았다고 설명합니다. 이번에는 그러지 못했습니다.  어떻게 응대해야 하겠습니까?]]>
+</item>
+              <item type="directiontext" fontSize="14">
+                <![CDATA[설명: 옳은 답변을 선택하십시오. 그런 다음 “정답 확인”을 클릭하십시오.]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="660" height="36" x="left" y="0" margin="0" fontSize="16" fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="0x000000" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="12">
+                  <item id="i1" isanswer="true">
+                <![CDATA[실수한 점에 대해 사과하고, 뛰어난 품질로 세차가 완료되도록 보장하며, 서비스 매니저에게 일관성이 없는 부분에 대해 알립니다]]>
+</item>
+              <item id="i2" isanswer="false">
+                <![CDATA[고객에게 사과하되 세차는 딜러의 재량 하에 제공되는 서비스이며 작성 단계에서 고객이 요청을 해야 한다고 설명합니다]]>
+</item>
+              <item id="i3" isanswer="false">
+                <![CDATA[즉각 서비스 매니저에게 연락하고 다른 고객을 응대합니다]]>
+</item>
+              <item id="i4" isanswer="false">
+                <![CDATA[사과할 필요는 없습니다. 고객이 대리점에 다음 번에 방문하면 세차를 제공하겠다고 알려줍니다]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="200" height="34" x="right" y="0" margin="10" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[정답 확인]]>
+</item>
+              </actui>
+              <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+               <item type="correct">
+                <![CDATA[정답입니다! 고객이 불만족스러운 상태로 대리점을 떠나게 해서는 안되며 사과 한 마디나 쿠폰으로 고객을 무시해서도 안 됩니다. 고객이 만족스러운 상태로 대리점을 떠나게 하고 다시 대리점을 찾게 할 이유를 갖게 해줍니다.]]>
+</item>
+              <item type="wrong">
+                <![CDATA[오답입니다. 고객이 불만족스러운 상태로 대리점을 떠나게 해서는 안되며 사과 한 마디나 쿠폰으로 고객을 무시해서도 안 됩니다. 고객이 만족스러운 상태로 대리점을 떠나게 하고 다시 대리점을 찾게 할 이유를 갖게 해줍니다.]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+          <slide sNumber="6125" type="Activity_MultipleChoice" animType="none" endType="Continue">
+           <ui uid="1" type="act" atype="mc" x="left" y="top" margin="10" time="1" trans="slideUp" ease="QuintEaseOut" xPad="10" yPad="10">
+              <actui type="ScreenText" width="710" x="left" y="0" margin="0" syncType="buildy" yPad="10">
+            <item type="header" fontSize="24" yPad="0">
+                <![CDATA[<b>사례 연구 4</b>]]>
+</item>
+              <item type="questiontext" fontSize="18" yPad="0">
+                <![CDATA[고객이 전화를 걸어 재고가 없어 이월 주문했던 뒷좌석 DVD 엔터테인먼트 시스템의 설치 예약 일정을 잡습니다.  예약 일정을 잡은 후 서비스 어드바이저로서 여러분은 무엇을 해야 합니까?]]>
+</item>
+              <item type="directiontext" fontSize="14">
+                <![CDATA[설명: 해당되는 사항을 모두 선택하십시오. 그런 다음 “정답 확인”을 클릭하십시오.]]>
+</item>
+              </actui>
+              <actui type="cboxes" itemType="rb" width="700" height="36" x="left" y="0" margin="0" fontSize="16" fontStyle="reg" fillColor="0xffffff" fillAlpha="1" iconType="vector" iconShape="circle" iconWidth="32" iconHeight="32" iconFrameSize="4" iconFrameColor="0x000000" iconFrameAlpha="1" iconUncheck="0xffffff" iconCheck="0x00B5D7" xPad="8" yPad="12">
+                 <item id="i1" isanswer="false">
+                <![CDATA[정비사와 협력하여 DealerCONNECT 에서 올바른 설치 절차를 다운로드하도록 합니다]]>
+</item>
+              <item id="i2" isanswer="true">
+                <![CDATA[부품 부서와 배정 담당자에게 고객이 방문할 때를 알리고 부품 수령과 정비사 준비 상태를 확인합니다]]>
+</item>
+              <item id="i3" isanswer="false">
+                <![CDATA[부품 부서에서 고객에게 연락해 현재 부품이 재고로 있음을 재확인해주도록 합니다]]>
+</item>
+              <item id="i4" isanswer="false">
+                <![CDATA[DealerCONNECT Parts (부품) 탭을 통해 크라이슬러에 직접 연락해 부품 수령을 확인합니다]]>
+</item>
+              </actui>
+              <actui type="actbtns" width="200" height="34" x="right" y="0" margin="10" fontSize="16" fontColor="0x000000" fontStyle="bold" pulseColor="0xfe9003">
+                <item id="chkbtn" type="submit">
+                  <![CDATA[정답 확인]]>
+</item>
+              </actui>
+             <actui type="feedbacktext" width="710" x="center" y="bottom" margin="10" fontSize="14">
+                <item type="correct">
+                <![CDATA[정답입니다! 이것이야말로 탁월한 고객 서비스를 제공하기 위해 팀이 한 데 모여 협력하는 방법입니다!]]>
+</item>
+              <item type="wrong">
+                <![CDATA[오답입니다. 두 번째 답변이 정답입니다. 이것이야말로 탁월한 고객 서비스를 제공하기 위해 팀이 한 데 모여 협력하는 방법입니다!]]>
+</item>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCEARWB" template="ASCE" localeID="ar" debug="false">
+    <title>
+      <![CDATA[تجربة عملاء رائعة]]>
+</title>
+  </course>
+  <section id="0" snumber="99000">
+    <header>
+      <![CDATA[الإكمال والخروج]]>
+</header>
+    <scenes>
+      <scene id="99100" sNumber="99000" sType="completeexit" continueBtnType="exit">
+        <sceneitems>
+            <ui uid="1" type="bodyIcon"  width="600" height="125" x="center" y="top" margin="20" trans="slideup" ease="BackEaseOut">
+            <bodyImage id="i1" order="0" time="1" scaleMode="none" url="logo_course.png">
+              <![CDATA[Course Logo]]>
+              </bodyImage>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="99110" type="CourseNotComplete" endType="stop">
+          <ui uid="0" type="sectionHeader">
+      <![CDATA[لم يتم استكمال هذه الدورة (في هذه المحاولة)]]>
+          </ui>
+             <ui uid="2" type="BodyText" width="660" height="230" x="center" y="150"  margin="0" trans="slideup" ease="QuintEaseOut">
+              <bodyBullet id="bb1" order="2" yPad="0">
+      <![CDATA[أنت لم تستكمل كل عناصر القائمة المطلوبة (في هذه المحاولة).حدد كل عناصر القائمة المطلوبة التي لم يتم إكمالها. <b>وبعد ذلك، يجب أن تعود إلى هذه الشاشة لتحديد زر الإكمال والخروج أدناه.</b>]]>
+</bodyBullet>
+            </ui>
+                <ui uid="3" type="BodyButton" trans="slideup" ease="QuintEaseOut" order="50" time="1">
+               <item id="trigger" type="completeAndExit" x="center" y="bottom" width="200" height="36" fontSize="16" fontColor="black" fontStyle="reg" pulseColor="orange" xPad="10" yPad="10" isActive="no" >
+      <![CDATA[الإكمال والخروج]]>
+</item>
+          </ui>
+          </slide>
+          <slide sNumber="99120" type="CourseComplete" endType="exit">
+            <ui uid="0" type="sectionHeader">
+      <![CDATA[تم استكمال الدورة (في هذه المحاولة)  ]]>
+          </ui>
+             <ui uid="2" type="BodyText" width="680"  x="center" y="200" margin="10" trans="slideup" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="2" yPad="0">
+      <![CDATA[لقد أكملت كل عناصر القائمة لهذه الدورة (في هذه المحاولة. عناوين الدروس لا تُظهر عليها علامات تحديد.ملاحظة: في أول مرة تقوم فيها بإعادة بدء الدورة بعد إجراء محاولة مكتملة، يعاد ضبط الصفحات المرجعية، ولن يتم ملئها أو تحديدها مبدئيًا.]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="3" >
+      <![CDATA[<b>الخروج بشكل صحيح: يجب أن تختار زر الإكمال والخروج لإرسال سجل الإكمال لمركز التعليم. </b> وبعد ذلك، تأكد من بدء تشغيل الاختبار وأي عناصر أخرى مطلوبة في صفحة المهام التعليمية الخاصة بمركز التعليم لهذه الدورة.]]>
+</bodyBullet>
+            </ui>
+               <ui uid="3" type="BodyButton" trans="slideup" ease="QuintEaseOut" order="50" time="1">
+               <item id="trigger" type="completeAndExit" x="center" y="bottom" width="200" height="36" fontSize="16" fontColor="black" fontStyle="reg" pulseColor="orange" xPad="10" yPad="10" isActive="yes" >
+      <![CDATA[الإكمال والخروج]]>
+</item>
+          </ui>
+          </slide>
+        
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

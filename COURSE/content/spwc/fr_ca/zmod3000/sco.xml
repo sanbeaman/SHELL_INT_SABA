@@ -1,0 +1,1317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="SPWCGWB" template="SPWC" localeID="fr_CA" debug="false">
+    <title>
+      <![CDATA[BIENVENUE APRÈS-VENTE DE CHRYSLER]]>
+</title>
+  </course>
+  <section id="0" snumber="3000">
+    <header>
+      <![CDATA[Service après-vente - axé sur le client]]>
+</header>
+    <scenes>
+
+     <!-- SCENE 3000 -->
+<scene id="3000" sNumber="3000" sType="audiosync" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="1" type="sceneGraphics">
+            <item id="l1" type="back" effect="fade" url="back_blueprint.png" x="50" y="140">
+              <![CDATA[Back BluePrint]]>
+</item>
+          </ui>
+        </sceneitems>
+        <slides>
+      
+          <slide sNumber="3005" type="ImageBuild" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3005.mp3" size="3500912" duration="35" />
+            <ui uid="1" type="bodyImage" width="360" height="240" x="right" y="30" margin="0" effect="shadow" scaleMode="proportionalOutside" trans="slideleft" ease="BackEaseOut" syncType="buildy" yPad="0">
+              <bodyImage id="i1" url="3005_2.jpg" order="2" time="1" timeIn="2" timeOut="999">
+                <![CDATA[Customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <!-- SCENE 3100 -->
+      <scene id="3100" sNumber="3100" sType="audiosync" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Cycle de vie du client]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+        
+          <slide sNumber="3105" type="AnimCustom" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3105.mp3" size="3500912" duration="35" />
+            <ui uid="1" type="bodyAnimSWF" x="0" y="0" margin="0" width="755" height="583" effect="none" scaleMode="none" trans="frameTriggers" ease="none" url="3105_anim.swf">
+              <trigger type="gotoplay" id="arrow1" timeIn="1.24" />
+              <trigger type="gotoplay" id="arrow2" timeIn="4.16" />
+              <trigger type="gotoplay" id="arrow3" timeIn="10.21" />
+              <trigger type="gotoplay" id="arrow4" timeIn="20.09" />
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="3110" sNumber="3110" sType="audiosync" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Les concessionnaires très performants ...]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3110" type="TextImageReplace" animType="timesync" endType="continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3110.mp3" size="3500912" duration="35" />
+            <ui uid="1" type="BodyImage" width="420" height="280" x="center" y="top" margin="30" scaleMode="none" effect="shadow" time="1" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" order="11" url="3110_1.jpg" timeIn="0" timeOut="7.2">
+                <![CDATA[Dealership interior]]>
+</bodyImage>
+              <bodyImage id="i2" order="12" url="3110_2.jpg" timeIn="8.1" timeOut="11.4">
+                <![CDATA[Customer with Sales Consultant]]>
+</bodyImage>
+              <bodyImage id="i3" order="13" url="3110_3.jpg" timeIn="12.2" timeOut="999">
+                <![CDATA[Customer with Service Advisor]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="BodyText" width="420" height="160" x="center" y="360" effect="none" margin="0"  time="1" trans="slideLeft" ease="QuintEaseOut" syncType="replace">
+              <bodyBullet id="bb1" order="21" timeIn="0" timeOut="7.2">
+                <![CDATA[Dépassent les attentes du client tout le long du cycle du propriétaire pour assurer sa fidélité]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22" timeIn="8.1" timeOut="12.0">
+                <![CDATA[Fidélisent leurs clients qui reviennent pour des ventes répétées]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="23" timeIn="12.2" timeOut="999">
+                <![CDATA[Reçoivent des recommandations]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <!-- SCENE 3200s -->
+      <scene id="3200" sNumber="3200" sType="audiosync" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Fidélité des clients]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3205" type="TextImageAround" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3205.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="BodyText" x="240" y="300" width="275" fontSize="16" fontAlign="center" effect="none" margin="0" trans="slideup" ease="QuintEaseOut">
+              <bodyBullet id="bb1" order="20" syncType="build" time="1" timeIn="1" timeOut="999">
+                <![CDATA[Les entreprises dont le fondement est bâti sur la fidélité de leur clientèle continuent à croitre dans tous les climats économiques]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="240" height="160"  x="center" y="top" margin="40" effect="shadow" scaleMode="none" trans="slideup" ease="QuintEaseOut">
+              <bodyImage id="i1" url="3205_1.jpg" order="2" syncType="build" time="1" timeIn=".5" timeOut="999">
+                <![CDATA[Dealereship]]>
+</bodyImage>
+            </ui>
+              <ui uid="1" type="BodyImage" x="left" y="80" margin="0" width="150" height="100" effect="none" scaleMode="none" trans="slideright" ease="QuintEaseOut" time="1" syncType="buildy" yPad="50">
+              <bodyImage id="img2" url="3205_2.jpg" yPad="0" timeIn="2" timeOut="999">
+                <![CDATA[img2]]>
+</bodyImage>
+<bodyImage id="img4" url="3205_4.jpg" timeIn="4" timeOut="999">
+                <![CDATA[img4]]>
+</bodyImage>
+              <bodyImage id="img6" url="3205_6.jpg" timeIn="6" timeOut="999">
+                <![CDATA[img6]]>
+</bodyImage>
+            </ui>
+             <ui uid="1" type="BodyImage" x="right" y="80" margin="0" width="150" height="100" effect="none" scaleMode="none" trans="slideleft" ease="QuintEaseOut" time="1" syncType="buildy" yPad="50">
+              <bodyImage id="img3" url="3205_3.jpg" yPad="0" timeIn="3" timeOut="999">
+                <![CDATA[img3]]>
+</bodyImage>
+<bodyImage id="img5" url="3205_5.jpg" timeIn="5" timeOut="999">
+                <![CDATA[img5]]>
+</bodyImage>
+              <bodyImage id="img7" url="3205_7.jpg" timeIn="7" timeOut="999">
+                <![CDATA[img7]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="3210" type="TextImageReplace"  animType="timesync" endType="continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3210.mp3" size="3500912" duration="35" />
+            <ui uid="1" type="BodyImage" width="420" height="280" x="center" y="top" margin="30" scaleMode="proportionalOutside" effect="shadow" trans="fadeOn" ease="QuintEaseOut" >
+              <bodyImage id="i1" order="11" url="3210_1.jpg" syncType="build" timeIn="0" timeOut="999">
+                <![CDATA[Sales Consultant shaking hands with happy customers ]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="BodyText" width="420"  x="center" y="360"  margin="0"  fontAlign="left" effect="none" trans="slideLeft" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="21" timeIn="0" timeOut="999" yPad="0">
+                <![CDATA[<li>Satisfaction de la clientèle ne veut pas nécessairement dire fidélité de la clientèle.</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22" timeIn="10.2" timeOut="999">
+                <![CDATA[<li>Dans l'industrie automobile, la satisfaction a augmenté, mais pas la fidélité.</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <!-- SCENE 3300 -->
+         <scene id="3300" sNumber="3300" sType="audiosync" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[l'indicateur des clients promoteurs]]>
+</header>
+          </ui>
+          <ui uid="1" type="sceneIcon">
+            <item id="l1" type="logo"   width="150" height="100"  x="0" y="top" margin="20" scaleFactor="1" effect="none" url="logo_cps.jpg" scaleMode="none">
+              <![CDATA[CPS LOGO]]>
+</item>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3305" type="TextImageReplace" animType="timesync" endType="continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3305.mp3" size="3500912" duration="17.05" />
+            <ui uid="1" type="bodyImage" width="600" height="150" x="center" y="top" margin="160" scaleMode="proportionalOutside" effect="shadow" trans="fadeOn" ease="QuintEaseOut">
+              <bodyImage id="i1" order="11" url="3305_2a.jpg" timeIn="0" timeOut="999">
+                <![CDATA[Customer ]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="BodyText"  width="640" x="center" y="400" fontAlign="center" effect="none" margin="10" trans="slideLeft" ease="QuintEaseOut">
+              <bodyBullet id="bb2" order="22" syncType="buildy" timeIn=".5" timeOut="999">
+              <![CDATA[Questionne les clients à différentes étapes du cycle de vie du client]]>
+</bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="3310" type="BulletImageGlow_Row" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3310.mp3" size="3500912" duration="35" />
+            <ui uid="1" type="bodyimageglow" width="200" height="160" x='50' y='top' margin="140" trans="slideLeft" ease="QuintEaseOut"  fillColor="0x003366" fillAlpha="1" frameShape="rect" frameColor="0x003366" frameSize="2" frameAlpha="1" labelHeight="32" effect="shadow" syncType="buildx" xPad="26">
+              <item id="i1" order="2" time="1" timeIn="1" timeOut="999" url="3310_1.jpg" xPad="0">
+                <label>
+              <![CDATA[Promoteur]]>
+</label>
+                <triggers>
+                  <trig type="glow" time="1" timeIn="5" timeOut="6" />
+                </triggers>
+              </item>
+              <item id="i2" order="3" time="1"  url="3310_2.jpg" timeIn="2" timeOut="999">
+                <label>
+              <![CDATA[Passif]]>
+</label>
+                <triggers>
+                  <trig type="glow" time="1" timeIn="6" timeOut="7" />
+                </triggers>
+              </item>
+              <item id="i3" order="4" time="1"  url="3310_3.jpg" timeIn="3" timeOut="999">
+                <label>
+              <![CDATA[Détracteur]]>
+</label>
+                <triggers>
+                  <trig type="glow" time="1" timeIn="7" timeOut="8" />
+                </triggers>
+              </item>
+            </ui>
+          </slide>
+          <slide sNumber="3311" type="BulletImageGlow_Col" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3311.mp3" size="285000" duration="34" />
+            <ui uid="1" type="BodyImage" width="157" height="463" x="160" y="60" margin="0"  effect="none" scaleMode="proportionalOutside" trans="fadeOn" ease="QuintEaseOut">
+              <bodyImage id="i1" url="arrow_cps.png" order="2"  time="1" timeIn=".5" timeOut="999">
+                <![CDATA[CPS Arrow]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="bodyimageglow" width="150" height="120" margin="0" trans="slideup" ease="QuintEaseOut" fillColor="0x003366" fillAlpha="1" frameShape="rect" frameColor="0x003366" frameSize="2" frameAlpha="1" labelHeight="32" effect="none" syncType="add">
+              <item id="i1" order="2" x="320" y="80"  time="1" timeIn="3" timeOut="999" url="3310_1.jpg">
+                <label>
+                  <![CDATA[Promoteur]]>
+</label>
+                <triggers>
+                  <trig type="glow" time="1" timeIn="5" timeOut="7" />
+                </triggers>
+              </item>
+              <item id="i2" x="320" y="220" order="3" time="1"  url="3310_2.jpg" timeIn="4" timeOut="999">
+                <label>
+                  <![CDATA[Passif]]>
+</label>
+                <triggers>
+                  <trig type="glow" time="1" timeIn="17.0" timeOut="18.0" />
+                </triggers>
+              </item>
+              <item id="i3" x="320" y="360" order="4" time="1" url="3310_3.jpg" timeIn="5" timeOut="999">
+                <label>
+                            <![CDATA[Détracteur]]>
+</label>
+                <triggers>
+                  <trig type="glow" time="1" timeIn="26.6" timeOut="27.8" />
+                </triggers>
+              </item>
+            </ui>
+            <ui uid="2" type="BodyText" x="480" y="0" width="215" fontSize="13" fontAlign="left" effect="none" margin="0" trans="slideLeft" ease="QuintEaseOut" syncType="add">
+              <bodyBullet id="bb1" x="480" y="80" order="21" timeIn="10.23" timeOut="999">
+              <![CDATA[Les passionnés fidèles qui reviennent et qui recommandent d'autres personnes.]]>
+</bodyBullet>
+              <bodyBullet id="bb2" x="480" y="220" order="22" timeIn="18.3" timeOut="999">
+              <![CDATA[Des clients satisfaits, mais peu enthousiastes, très vulnérables à la compétition. Ces clients peuvent être considérés comme des cibles faciles - ils peuvent être convertis facilement en clients promoteurs avec la bonne approche.]]>
+</bodyBullet>
+              <bodyBullet id="bb3" x="480" y="360" order="23" timeIn="28.2" timeOut="999">
+              <![CDATA[Les clients mécontents qui peuvent endommager votre réputation avec un bouche-à-oreille négatif, sans mentionner qu'ils ne reviendront possiblement pas visiter votre concession.]]>
+</bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="3315" type="BulletImageBuild"  animType="timesync" endType="continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3315.mp3" size="444000" duration="44.09" />
+            <ui uid="1" type="BodyImage" width="200" height="133"  x="right" y="30"  margin="0" scaleMode="proportionalOutside" effect="none" trans="slideleft" ease="QuintEaseOut" syncType="buildy" yPad="30">
+              <bodyImage id="i1" order="11" url="3315_1.jpg"  timeIn=".5" timeOut="999" yPad="0">
+                <![CDATA[Customer with Service Advisor]]>
+</bodyImage>
+              <bodyImage id="i2" order="12" url="3315_2.jpg" timeIn="11.6" timeOut="999">
+                <![CDATA[Service Advisor with customer at Express Lane or tire area]]>
+</bodyImage>
+              <bodyImage id="i3" order="13" url="3315_3.jpg" timeIn="20.14" timeOut="999">
+                <![CDATA[Parts Advisor with customer]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="BodyBullet" width="450" x="left" y="220" margin="50"   fontAlign="left" effect="none" trans="slideRight" ease="QuintEaseOut">
+              <bodyBullet id="bb1" order="21"  timeIn=".5" timeOut="999">
+                <![CDATA[<li>L'information que révèle l'ICP va au-delà des chiffres.</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22" timeIn="11.6" timeOut="999">
+                <![CDATA[<li>Les résultats les plus précieux sont les enregistrements audio et les courriels provenant des clients.</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="23" timeIn="20.14" timeOut="999">
+                <![CDATA[<li>Les commentaires des clients vous donnent de l'information inestimable dans leurs propres mots.</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+         <!-- slide 3320 -->
+           <slide sNumber="3320" type="TextImageOverlay"  animType="timesync" endType="continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3320.mp3" size="3500912" duration="35" />
+            <ui uid="1" type="bodyImage" width="655" height="300" x="50" y="130" margin="0" effect="shadow" trans="fadeOn" ease="QuintEaseOut" syncType="overlay">
+              <bodyImage id="i1" order="11" url="3320_1.jpg" timeIn="0" timeOut="4">
+                <![CDATA[DealerCONNECT ]]>
+</bodyImage>
+  <bodyImage id="i2" order="12" url="3320_2a.jpg" timeIn="3" timeOut="999">
+                <![CDATA[DealerCONNECT redbox]]>
+</bodyImage>
+              <bodyImage id="i3" order="13" url="3320_2b.jpg" width="200" height="50" x="300" y="340" scaleMode="proportionalOutside" effect="redbox" centerIt="yes" timeIn="6" timeOut="999" trans="zoomup" ease="BackEaseOut">
+                <![CDATA[DealerCONNECT ZOOM ]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="BodyText" x="50" y="470" width="655" fontAlign="center" effect="none" margin="10" trans="slideLeft" ease="QuintEaseOut">
+              <bodyBullet id="bb1" order="21" syncType="buildy" timeIn="0" timeOut="999">
+              <![CDATA[Les enregistrements audio, les courriels et les rapports se trouvent sur DealerCONNECT.]]>
+</bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="3325" type="TextImageReplace"  animType="timesync" endType="continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3325.mp3" size="3500912" duration="17.05" />
+            <ui uid="1" type="BodyImage" width="420" height="288" x="166" y="90" margin="0" trans="fadeOn" ease="QuintEaseOut"  scaleMode="proportionalOutside" effect="shadow">
+              <bodyImage id="i1" order="11" url="3325_1.jpg"  timeIn="0" timeOut="999">
+                <![CDATA[Customer ]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="BodyText" width="490" x="150" y="430"  fontAlign="left" effect="none" margin="0" trans="slideLeft" ease="QuintEaseOut" syncType="buildy" yPad="4">
+              <bodyBullet id="bb1" order="21"  timeIn="0" timeOut="999" yPad="0">
+              
+
+                <![CDATA[<li>Les commentaires des clients vous donnent la possibilité de prendre des mesures immédiates.</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22"  timeIn="5" timeOut="999">
+                <![CDATA[<li>Consultez toujours votre chef de service pour des situations spécifiques.</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <!-- SCENE 3400s -->
+     
+         <scene id="3405" sNumber="3405" sType="audiosync" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Rôles et processus du service après-vente]]>
+</header>
+          </ui>
+          <ui uid="1" type="sceneGraphics">
+            <item id="l1" type="back" effect="fade" url="back_blueprint.png" x="50" y="140">
+              <![CDATA[Back BluePrint]]>
+</item>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3405" type="animcustom"  animType="timesync" endType="menu">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3405.mp3" size="3500912" duration="20.1" />
+            <ui uid="2" type="BodyText" width="200" height="30" margin="0" fontAlign="left" effect="none"  trans="fadeOn" fontSize="16" fontStyle="bold" ease="QuintEaseOut">
+              <item id="maplabel1" x="208" y="280" order="1" syncType="add" time="1" timeIn="1" timeOut="999">
+                <label>
+                <![CDATA[VENTES]]>
+</label>
+              </item>
+              <item id="maplabel2" x="452" y="336" order="1" syncType="add" time="1" timeIn="4" timeOut="999">
+                <label>
+                <![CDATA[L'APRÈS-VENTE]]>
+</label>
+              </item>
+            </ui>
+            <ui uid="1" type="BodyImage">
+              <item id="l1"  x="64" y="170" syncType="overlay" timeIn="22.6" timeOut="50" trans="fadeOn"  ease="QuintEaseOut" effect="none" url="arrows_blueprint.png">
+                <label>
+                  <![CDATA[Arrows BluePrint]]>
+</label>
+              </item>
+            </ui>
+            <ui uid="2" type="c2r_mapicon" width="104" height="28"  x="0" y="0" margin="0" layout="absolute" fontSize="10" fontColor="white"  fontAlign="center"  effect="none" trans="slideup" ease="BackEaseOut"  syncType="add"  assetPath="c2r/">
+              <item id='ico1'  icon="icons/icon_person.png" x="106" y="310" time="1" timeIn="2" timeOut="999">
+                <label>
+                <![CDATA[Ventes de véhicules neufs]]>
+</label>
+              </item>
+              <item id='ico2'  icon="icons/icon_person.png" x="151" y="480" time="1" timeIn="2.5" timeOut="999">
+                <label>
+                <![CDATA[Ventes de véhicules d'occasion]]>
+</label>
+              </item>
+              <item id='ico3'  icon="icons/icon_person.png" x="280" y="290" time="1" timeIn="2" timeOut="999">
+                <label>
+                <![CDATA[Finance et assurance]]>
+</label>
+              </item>
+              <item id='ico4'  icon="icons/icon_person.png" x="390" y="480" time="1" timeIn="5" timeOut="999">
+                <label>
+                <![CDATA[Pièces et accessoires]]>
+</label>
+              </item>
+              <item id='ico5'  icon="icons/icon_person.png" x="585" y="470" time="1" timeIn="5" timeOut="999">
+                <label>
+                <![CDATA[Service]]>
+</label>
+              </item>
+              <item id='ico6'  icon="icons/icon_person.png" x="440" y="275" time="1" timeIn="4" timeOut="999">
+                <label>
+                <![CDATA[Garantie]]>
+</label>
+              </item>
+              <item id='ico7'  icon="icons/icon_person.png" x="590" y="290" time="1" timeIn="4" timeOut="999">
+                <label>
+                <![CDATA[Atelier]]>
+</label>
+              </item>
+            </ui>
+           <ui uid="2" type="BodyBullet" width="640" x="50" y="top" margin="15" fontAlign="left" effect="none" trans="slideLeft" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="20"  time="1" timeIn="10.35" timeOut="999" yPad="0">
+                <![CDATA[<li>Les professionnels du service après-vente, des pièces et de la garantie sont membres de plusieurs équipes.</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="21" time="1" timeIn="22.1" timeOut="999">
+                              <![CDATA[<li>Dans une concession qui réussit bien, toutes les équipes travaillent ensemble afin de gagner la fidélité du client.</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="22"  time="1" timeIn="29.1" timeOut="999">
+                <![CDATA[<li>La communication et la collaboration entre les différents services sont essentielles pour assurer la croissance et la rentabilité de la concession.</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="3410" sNumber="3410" sType="c2r" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+                <![CDATA[Rôles et processus du service après-vente]]>
+</header>
+          </ui>
+          <ui uid="2" type="c2rMenu" linear="yes" x="50" y="490" width="104" height="28" layout="1row" fontSize="8" fontColor="white" margin="6" fontColor2="grey" assetPath="c2r/">
+            <clickbtn id='3411' icon="icons/icon_inquiry.png">
+              <label>
+              <![CDATA[PRISE DE RENSEIGNEMENTS]]>
+</label>
+            </clickbtn>
+            <clickbtn id='3412' icon="icons/icon_writeup.png">
+              <label>
+              <![CDATA[RÉDACTION DU BON DE TRAVAIL]]>
+</label>
+            </clickbtn>
+            <clickbtn id='3414' icon="icons/icon_dispatch.png">
+              <label>
+              <![CDATA[RÉPARTITION]]>
+</label>
+            </clickbtn>
+            <clickbtn id='3415' icon="icons/icon_repair.png">
+              <label>
+              <![CDATA[RÉPARATION]]>
+</label>
+            </clickbtn>
+            <clickbtn id='3416' icon="icons/icon_delivery.png">
+              <label>
+              <![CDATA[LIVRAISON]]>
+</label>
+            </clickbtn>
+            <clickbtn id='3417' icon="icons/icon_followup.png">
+              <label>
+                <![CDATA[SUIVI]]>
+</label>
+            </clickbtn>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3410" type="c2rSlide"  animType="timesync" endType="menu">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3410.mp3" size="3500912" duration="20.1" />
+            <ui uid="2" type="c2rHeader" width="500" height="45" x="50" y="top" margin="15" fillColor="0x003366" fillAlpha="1" frameSize="1" frameColor="0x003366" frameAlpha="1" fontAlign="left"  fontSize="18" fontColor="white" fontStyle="bold" effect="none" time="1" trans="slideRight" ease="QuintEaseOut">
+              <item id="bb1" order="20" timeIn=".5" timeOut="999" xPad="10">
+                <![CDATA[Processus de réparation]]>
+</item>
+            </ui>
+            <ui uid="2" type="BodyBullet" width="330" x="50" y="75" margin="10" fontSize="14" fontAlign="left" effect="none"  time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" >
+              <bodyBullet id="bb1" order="20"  timeIn=".5" timeOut="999">
+                <![CDATA[<li>Les conseillers techniques doivent toujours appliquer le processus de réparation de Chrysler, qui s'avère être une façon éprouvée d'améliorer la rentabilité de la concession et la fidélité de la clientèle.</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="360" height="240" x="right" y="75" margin="0" effect="shadow" scaleMode="none" time="1" trans="slideLeft" ease="QuintEaseOut" >
+              <bodyImage id="i1" url="3410_1.jpg" order="2"  timeIn="1" timeOut="999">
+                <![CDATA[Service Advisor with customer]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="BodyText" width="360" x="50" y="340" margin="0"  fontAlign="left" effect="none" trans="slideRight" fontSize="14" fontColor="0x003366" fontStyle="italic" ease="QuintEaseOut">
+              <bodyBullet id="bb0" order="20" timeIn="14.1" timeOut="999">
+                <![CDATA[Cliquez sur Prise de renseignements pour continuer.]]>
+</bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="3411" type="c2rSlide"  animType="timesync" endType="none">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3411.mp3" size="3500912" duration="20.1" />
+        <ui uid="2" type="c2rHeader" width="500" height="45" x="50" y="top" margin="15" fillColor="0x003366" fillAlpha="1" frameSize="1" frameColor="0x003366" frameAlpha="1" fontAlign="left" fontSize="18" fontColor="white" fontStyle="bold" effect="none" time="1" trans="slideRight" ease="QuintEaseOut">
+              <item id="bb1" order="20" timeIn=".5" timeOut="999" xPad="10">
+                <![CDATA[PRISE DE RENSEIGNEMENTS]]>
+</item>
+            </ui>
+            <ui uid="1" type="bodyImage" width="360" height="240" x="right" y="75" margin="0"  effect="shadow" scaleMode="none" time="1" trans="slideLeft" ease="QuintEaseOut">
+              <bodyImage id="i1" url="3411_1.jpg" order="2" timeIn="1" timeOut="999">
+                <![CDATA[Service Advisor with customer]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="BodyBullet" width="320" x="70" y="75" margin="10" fontSize="14" fontAlign="left" effect="none"  time="1" trans="rightInLeftOut" ease="QuintEaseOut" syncType="buildy" >
+              <bodyBullet id="bb1" order="20" timeIn=".5" timeOut="7.1">
+                <![CDATA[Le conseiller technique doit identifier les besoins du client, tout en établissant un rapport positif.]]>
+</bodyBullet>
+            </ui>
+              <ui uid="2" type="BodyBullet" width="340" x="50" y="75" margin="10" fontSize="14" fontAlign="left" effect="none"  time="1" trans="rightInLeftOut" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="20" timeIn="8.0" timeOut="999" yPad="0">
+                <![CDATA[<li>L'accueil initial représente une première étape cruciale dans l'établissement du rapport.</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="21" timeIn="17.2" timeOut="999">
+                <![CDATA[<li>Les conseillers techniques qui connaissent le plus de succès :</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="22" formatType="subbullet"  timeIn="17.5" timeOut="999" yPad="0">
+                <![CDATA[<li>Développent une salutation sincère et professionnelle.</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="23" formatType="subbullet"  timeIn="26.15" timeOut="999" yPad="0">
+                <![CDATA[<li>Démontrent une capacité d'écoute active.</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="24" timeIn="34.13" timeOut="999">
+                <![CDATA[<li>Le service après-vente et le service de garantie collaborent dans le but d'identifier les réparations sous garantie et non couvertes par la garantie.</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="3412" type="c2rSlide"  animType="timesync" endType="menu">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3412.mp3" size="180000" duration="18.0" />
+         <ui uid="2" type="c2rHeader" width="500" height="45" x="50" y="top" margin="15" fillColor="0x003366" fillAlpha="1" frameSize="1" frameColor="0x003366" frameAlpha="1" fontAlign="left" fontSize="18" fontColor="white" fontStyle="bold" effect="none" time="1" trans="slideRight" ease="QuintEaseOut">
+              <item id="bb1" order="20" timeIn=".5" timeOut="999" xPad="10">
+                <![CDATA[RÉDACTION DU BON DE TRAVAIL]]>
+</item>
+            </ui>
+               <ui uid="2" type="BodyBullet" width="320" x="50" y="75" margin="0" fontAlign="left" effect="none"  time="1" trans="rightInLeftOut" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="20"  timeIn=".5" timeOut="999" yPad="0">
+                <![CDATA[<li>Évaluation complète et précise de ce dont le véhicule a besoin</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="20" timeIn="7.21" timeOut="999">
+                <![CDATA[<li>Le conseiller technique obtient l'approbation du client, prépare le bon de travail</li>]]>
+</bodyBullet>
+            </ui>
+                <ui uid="1" type="bodyImage" width="360" height="240" x="right" y="75" margin="0"  effect="shadow" scaleMode="none" time="1" trans="leftInRightOut" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="3412_1.jpg" order="21" timeIn=".5" timeOut="999">
+                <![CDATA[Service Advisor with customer at vehicle with tablet]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="3414" type="c2rSlide"  animType="timesync" endType="menu">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3414.mp3" size="3500912" duration="20.1" />
+            <ui uid="2" type="c2rHeader" width="500" height="45" x="50" y="top" margin="15" fillColor="0x003366" fillAlpha="1" frameSize="1" frameColor="0x003366" frameAlpha="1" fontAlign="left" fontSize="18" fontColor="white" fontStyle="bold" effect="none" time="1" trans="slideRight" ease="QuintEaseOut">
+              <item id="bb1" order="20" timeIn=".5" timeOut="999" xPad="10">
+                <![CDATA[RÉPARTITION]]>
+</item>
+            </ui>
+             <ui uid="4" type="BodyBullet" width="320" x="60" y="75" margin="0"  fontAlign="left" effect="none"  time="1" trans="rightInLeftOut" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="20" timeIn="1.5" timeOut="999" yPad="0">
+                <![CDATA[Un processus coordonné mène à une réparation rapide et de qualité :]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="21" timeIn="8" timeOut="999">
+                <![CDATA[<li>Affecter le bon technicien à la réparation.</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22" timeIn="8.5" timeOut="999">
+                <![CDATA[<li>S'assurer que les pièces et les outils requis sont disponibles.</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="23"  timeIn="9.0" timeOut="999">
+                <![CDATA[<li>Une bonne communication entre les conseillers techniques, les techniciens et l'équipe des pièces.</li>]]>
+</bodyBullet>
+            </ui>
+             <ui uid="1" type="bodyImage" width="360" height="240" x="right" y="75" margin="0"  effect="shadow" scaleMode="none" time="1" trans="leftInRightOut" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="3414_1.jpg" order="2" timeIn="1" timeOut="999">
+                <![CDATA[Parts Advisor with customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="3415" type="c2rSlide"  animType="timesync" endType="menu">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3415.mp3" size="3500912" duration="20.1" />
+           <ui uid="2" type="c2rHeader" width="500" height="45" x="50" y="top" margin="15" fillColor="0x003366" fillAlpha="1" frameSize="1" frameColor="0x003366" frameAlpha="1" fontAlign="left" fontSize="18" fontColor="white" fontStyle="bold" effect="none" time="1" trans="slideRight" ease="QuintEaseOut">
+              <item id="bb1" order="20" timeIn=".5" timeOut="999" xPad="10">
+                <![CDATA[RÉPARATION]]>
+</item>
+            </ui>
+             <ui uid="4" type="BodyBullet" width="320" x="50" y="75" margin="0" fontAlign="left" effect="none"  time="1" trans="rightInLeftOut" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="21" timeIn="1.5" timeOut="999" yPad="0">
+                <![CDATA[<li>Les techniciens formés par l'usine effectuent la réparation et l'entretien.</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22"  timeIn="2.0" timeOut="999">
+                <![CDATA[<li>Le service des pièces s'assure que les bonnes pièces sont utilisées.</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="23" timeIn="8.26" timeOut="999">
+                <![CDATA[<li>Les conseillers techniques contrôlent le progrès et en informent le client, au besoin.</li>]]>
+</bodyBullet>
+            </ui>
+               <ui uid="1" type="bodyImage" width="360" height="240" x="right" y="75" margin="0"  effect="shadow" scaleMode="none" time="1" trans="leftInRightOut" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="3415_1.jpg" order="2"  timeIn="1" timeOut="999">
+                <![CDATA[Parts Advisor with customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="3416" type="c2rSlide"  animType="timesync" endType="menu">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3416.mp3" size="3500912" duration="20.1" />
+            <ui uid="2" type="c2rHeader" width="500" height="45" x="50" y="top" margin="15" fillColor="0x003366" fillAlpha="1" frameSize="1" frameColor="0x003366" frameAlpha="1" fontAlign="left" fontSize="18" fontColor="white" fontStyle="bold" effect="none" time="1" trans="slideRight" ease="QuintEaseOut">
+              <item id="bb1" order="20" timeIn=".5" timeOut="999" xPad="10">
+                <![CDATA[LIVRAISON]]>
+</item>
+            </ui>
+          <ui uid="4" type="BodyBullet" width="320" x="60" y="75" margin="0" fontAlign="left" effect="none"  time="1" trans="rightInLeftOut" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="21" timeIn="1.5" timeOut="999" yPad="0">
+                <![CDATA[Le conseiller technique présente le véhicule au client et s'assure que ce dernier comprend parfaitement le travail qui a été effectué et qu'il en est satisfait.]]>
+</bodyBullet>
+            </ui>
+             <ui uid="1" type="bodyImage" width="360" height="240" x="right" y="75" margin="0"  effect="shadow" scaleMode="none" time="1" trans="leftInRightOut" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="3416_1.jpg" order="2"  timeIn="1" timeOut="25.28">
+                <![CDATA[Service Advisor with customer delivering vehicle]]>
+</bodyImage>
+              <bodyImage id="i1" url="3416_2.jpg" order="2"  timeIn="28.28" timeOut="999">
+                <![CDATA[Service Advisor with customer at cashier desk/window]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="3417" type="c2rSlide"  animType="timesync" endType="menu">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3417.mp3" size="3500912" duration="20.1" />
+            <ui uid="2" type="c2rHeader" width="500" height="45" x="50" y="top" margin="15" fillColor="0x003366" fillAlpha="1" frameSize="1" frameColor="0x003366" frameAlpha="1" fontAlign="left" fontSize="18" fontColor="white" fontStyle="bold" effect="none" time="1" trans="slideRight" ease="QuintEaseOut">
+              <item id="bb1" order="20" timeIn=".5" timeOut="999" xPad="10">
+                <![CDATA[SUIVI]]>
+</item>
+            </ui>
+           
+             <ui uid="4" type="BodyBullet" width="320" x="60" y="75" margin="0" fontAlign="left" effect="none"  time="1" trans="rightInLeftOut" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="21" timeIn="1.5" timeOut="999" yPad="0">
+                <![CDATA[Le conseiller technique communique avec le client dans les 2 jours ouvrables afin de s'assurer qu'il est entièrement satisfait du travail effectué et de son expérience à votre concession.]]>
+</bodyBullet>
+            </ui>
+             <ui uid="1" type="bodyImage" width="360" height="240" x="right" y="75" margin="0"  effect="shadow" scaleMode="none" time="1" trans="leftInRightOut" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" url="3417_1.jpg" order="2" timeIn="1" timeOut="999">
+                <![CDATA[Service Advisor on phone]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      
+   <!-- 3505  scene and Slide MEDIA CAMTASIA-->
+      <scene id="3505" sNumber="3505" sType="audiosync" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Ressources offertes au conseiller technique]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+      <slide sNumber="3505" type="audiosync" animType="timesync" endType="Continue">
+            <ui uid="0" type="slideMedia" mediaType="mp3" url="3505.mp3" size="118000" duration="23" />
+            <ui uid="2" type="BodyBullet"  width="455" x="150" y="420" fontAlign="left" effect="none" margin="0" trans="slideLeft" ease="QuintEaseOut" syncType="buildy" yPad="4">
+              <bodyBullet id="bb1" order="20" timeIn=".5" timeOut="999" yPad="0">
+                <![CDATA[<li>DealerCONNECT</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="20" timeIn=".5" timeOut="999">
+                <![CDATA[<li>Vehicle Information Plus (VIP)</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="20" timeIn="1.5" timeOut="999">
+                <![CDATA[<li>Administration des demandes</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="20" formatType="subbullet"  timeIn="1.5" timeOut="999" yPad="0">
+                <![CDATA[<li>NOM rapides (opérations de main-d'œuvre)</li>]]>
+</bodyBullet>
+            </ui>
+             <ui uid="1" type="bodyImage"  width="655" height="340" x="center" y="top" margin="30" effect="shadow"  time="1" trans="fadeOn" ease="QuintEaseOut" syncType="overlay" >
+              <bodyImage id="i1" order="11" url="3505_1a.jpg" timeIn="0" timeOut="10">
+                <![CDATA[screen1 ]]>
+</bodyImage>
+              <bodyImage id="i2" order="12" url="3505_1b.jpg"  timeIn="8" timeOut="12">
+                <![CDATA[screen ]]>
+</bodyImage>
+<bodyImage id="i3" order="13" url="3505_2.jpg"  timeIn="10" timeOut="999">
+                <![CDATA[DealerCONNECT ZOOM ]]>
+</bodyImage>
+<bodyImage id="i4" order="14" url="3505_3.jpg" width="375" height="300" x="280"  y="30" scaleMode="proportionalInside"  effect="redbox" centerIt="yes" timeIn="14" timeOut="999" trans="zoomfrom" ease="BackEaseOut">
+                <![CDATA[DealerCONNECT ZOOM ]]>
+</bodyImage>
+            </ui>
+          </slide>
+       </slides>
+      </scene>
+      <!-- SCENEs 3600 -->
+  <scene id="3600" sNumber="3600" sType="audiosync" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Conseil technique axé sur le client]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3605" type="BulletImageBuild"  animType="timesync" endType="continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3605.mp3" size="235000" duration="24" />
+            <ui uid="1" type="BodyImage" width="200" height="133" x="right" y="30" margin="0" scaleMode="proportionalOutside" effect="none" trans="slideLeft"  ease="QuintEaseOut"  syncType="buildy" yPad="30">
+              <bodyImage id="i1" order="11" url="3605_1.jpg"  timeIn=".5" timeOut="999" yPad="0">
+                <![CDATA[happy Customer logo]]>
+</bodyImage>
+              <bodyImage id="i2" order="12" url="3605_3.jpg"  timeIn="10" timeOut="999">
+                <![CDATA[Express Lane signage]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="BodyBullet" width="360" x="50" y="30" margin="0" fontAlign="left" effect="none"  trans="slideright" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="21"  timeIn=".5" timeOut="999" yPad="0">
+                <![CDATA[<li>Faciliter le processus de réparation et d'entretien du véhicule pour vos clients augmente leur niveau de fidélité envers votre concession.</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="21" timeIn="10.5" timeOut="999">
+                <![CDATA[<li>Des heures d'ouverture prolongées vous permettant d'accepter plus de clients du service après-vente.</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="3610" type="BulletImageBuild"  animType="timesync" endType="continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3610.mp3" size="3500912" duration="35" />
+            <ui uid="1" type="BodyImage"  width="300" height="200"  x="455" y="top" margin="30" trans="slideLeft" ease="QuintEaseOut" scaleMode="proportionalOutside" effect="shadow">
+              <bodyImage id="i1" order="11" url="3610_1.jpg"  timeIn=".5" timeOut="999">
+                <![CDATA[Express Lane exterior with signage]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="BodyBullet" width="360" x="50" y="top" margin="30" fontAlign="left" effect="none"  trans="slideright" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="21"  timeIn="1" timeOut="999" yPad="0">
+                <![CDATA[<li>La Voie express est un facteur clé pour vous aider à garder la clientèle de votre service après-vente.</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22" timeIn="7.1" timeOut="999">
+                <![CDATA[<li>Les concessions offrant le service Voie express connaissent une augmentation de 50 % </li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="23" formatType="subbullet"  timeIn="11.3" timeOut="999" yPad="0">
+                <![CDATA[<li>10 % pour les marques autres que Chrysler Group </li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="3615" type="BulletImageBuild"  animType="timesync" endType="continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3615.mp3" size="3500912" duration="35" />
+            <ui uid="1" type="BodyImage" width="300" height="200" x="right" y="30" margin="0" trans="slideLeft" ease="QuintEaseOut"  scaleMode="proportionalOutside" effect="shadow" syncType="buildy" yPad="45" >
+              <bodyImage id="i1" order="11" url="3615_1.jpg" timeIn=".5" timeOut="999" yPad="0">
+                <![CDATA[Magneti Marelli parts display]]>
+</bodyImage>
+              <bodyImage id="i2" order="12" url="3615_2.jpg" timeIn="18.3" timeOut="999">
+                <![CDATA[Accessories/Tires display]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="BodyBullet" x="50" y="top" margin="30" width="360" fontAlign="left" effect="none" trans="slideright" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="21" timeIn="3.3" timeOut="999" yPad="0">
+                <![CDATA[L'alliance Chrysler Group/Magneti Marelli permet aux concessionnaires de :]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22" timeIn="11.4" timeOut="999">
+                <![CDATA[<li>Faire l'entretien de toutes les marques.</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="23"  timeIn="14.0" timeOut="999">
+                <![CDATA[<li>Vendre au détail/aux clients de gros pour toutes les marques.</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="21" timeIn="19.3" timeOut="999">
+                <![CDATA[Stocker et faire la promotion d'accessoires et de pneus est une autre façon profitable de développer ses affaires et garder sa clientèle.]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="3620" sNumber="3620" sType="audiosync" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="1" type="sceneGraphics">
+            <item id="l1" type="back" x="50" y="140" effect="fade" url="back_blueprint.png" >
+              <![CDATA[Back BluePrint]]>
+</item>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3620" type="animcustom"  animType="timesync" endType="continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3620.mp3" size="3500912" duration="20.1" />
+            <ui uid="2" type="BodyText"  width="200" height="30"  margin="0"  fontAlign="left"  fontSize="18" fontStyle="bold" effect="none" trans="fadeOn" ease="QuintEaseOut">
+              <item id="maplabel1" x="214" y="278" order="1" time="1" timeIn="1" timeOut="999">
+                <![CDATA[VENTES]]>
+</item>
+              <item id="maplabel2" x="442" y="310" order="1" time="1" timeIn="2.5" timeOut="999">
+                <![CDATA[L'APRÈS-VENTE]]>
+</item>
+            </ui>
+                   <ui uid="2" type="c2r_mapicon" width="144" height="28"  x="0" y="0" margin="0" layout="absolute" fontSize="12" fontColor="white"  fontAlign="center"  effect="none" trans="slideup" ease="BackEaseOut"  syncType="add"  assetPath="c2r/">
+              <item id='ico1'  icon="icons/icon_person.png" x="120" y="310" time="1" timeIn="2" timeOut="999">
+                <label>
+                <![CDATA[Ventes de véhicules neufs]]>
+</label>
+              </item>
+              <item id='ico2'  icon="icons/icon_person.png" x="151" y="480" time="1" timeIn="2" timeOut="999">
+                <label>
+                <![CDATA[Ventes de véhicules d'occasion]]>
+</label>
+              </item>
+              <item id='ico3'  icon="icons/icon_person.png" x="290" y="294" time="1" timeIn="2" timeOut="999">
+                <label>
+                <![CDATA[Finance et assurance]]>
+</label>
+              </item>
+              <item id='ico4'  icon="icons/icon_person.png" x="390" y="480" time="1" timeIn="4" timeOut="999">
+                <label>
+                <![CDATA[Pièces et accessoires]]>
+</label>
+                <triggers>
+                  <trig type="glow" time="2" timeIn="8" timeOut="999" />
+                </triggers>
+              </item>
+              <item id='ico5'  icon="icons/icon_person.png" x="575" y="470" time="1" timeIn="3.5" timeOut="999">
+                <label>
+                <![CDATA[Service]]>
+</label>
+              </item>
+              <item id='ico6'  icon="icons/icon_person.png" x="432" y="271" time="1" timeIn="3" timeOut="999">
+                <label>
+                <![CDATA[Garantie]]>
+</label>
+              </item>
+              <item id='ico7'  icon="icons/icon_person.png" x="575" y="296" time="1" timeIn="3" timeOut="999">
+                <label>
+                <![CDATA[Atelier]]>
+</label>
+              </item>
+            </ui>
+            <ui uid="2" type="BodyBullet" width="640" x="50" y="top" margin="15" fontAlign="left" effect="none" trans="slideLeft" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="20"  timeIn="5.0" timeOut="999" yPad="0">
+                <![CDATA[<li>Les professionnels du service après-vente, des pièces et de la garantie sont membres de plusieurs équipes.</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="20" timeIn="5.5" timeOut="999">
+                <![CDATA[<li>Dans une concession qui réussit bien, toutes les équipes travaillent ensemble afin de gagner la fidélité du client.</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="20" timeIn="6.0" timeOut="999">
+                <![CDATA[<li>La communication et la collaboration entre les différents services sont essentielles pour assurer la croissance et la rentabilité de la concession.</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    <scene id="3625" sNumber="3625" sType="audiosync" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Clients du service des pièces]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3625" type="BulletImageGlow_Col"  animType="timesync" endType="continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3625.mp3" size="3500912" duration="20.1" />
+            <ui uid="1" type="bodyimageglow"  width="200" height="133" x='50' y='110' margin="0" fontSize="14" fillColor="0x003366" fillAlpha="1" frameShape="rect" frameColor="0x003366" frameSize="2" frameAlpha="1" labelHeight="32" effect="shadow" time="1" trans="slideLeft" ease="QuintEaseOut" syncType="buildx" xPad="27">
+              <item id="img1" order="2" timeIn="4" timeOut="999" url="3625_1.jpg" xPad="0">
+                <label>
+                <![CDATA[Clients internes]]>
+</label>
+              </item>
+              <item id="img2" order="3"  timeIn="5" timeOut="999" url="3625_2.jpg">
+                <label>
+                <![CDATA[Clients au détail/bricoleurs]]>
+</label>
+              </item>
+              <item id="img3" order="4" timeIn="6" timeOut="999" url="3625_3.jpg">
+                <label>
+                <![CDATA[Clients de gros]]>
+</label>
+              </item>
+            </ui>
+            <ui uid="3" type="bodybulletcol" width="190" x="40" y="280" fontColor="0x003366" fontSize="16" margin="0" time="2" trans="slideUp" ease="QuintEaseOut" syncType="buildx" xPad="37">
+              <item id="bbc1" order="50" timeIn="19.2" timeOut="999" target="img1" targetTrigger="bodyimageglow" targetParams="4" xPad="0">
+                <![CDATA[<li>Les conseillers du service des pièces appuient le processus de réparation en identifiant, en trouvant et en fournissant rapidement les pièces requises.</li>]]>
+</item>
+              <item id="bbc2" order="51" timeIn="39.1" timeOut="999" target="img2" targetTrigger="bodyimageglow" targetParams="4">
+                <![CDATA[<li>Demande un conseiller du service des pièces compétent qui peut consulter les clients afin de s'assurer qu'ils sont satisfaits.</li>]]>
+</item>
+              <item id="bbc3" order="52" timeIn="60.1" timeOut="999" target="img" targetTrigger="bodyimageglow" targetParams="4">
+                <![CDATA[<li>En répondant aux besoins de ces clients et en offrant un excellent service à la clientèle, vous pouvez contribuer à la croissance de leur entreprise, et de votre entreprise.</li>]]>
+</item>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+        <scene id="3630" sNumber="3630" sType="c2r" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Rôles et processus du service après-vente]]>
+</header>
+          </ui>
+            <ui uid="2" type="c2rMenu" width="130" height="28" x="50" y="490" margin="6" linear="yes" layout="1row" fontSize="10" fontColor="white" fontColor2="grey" assetPath="c2r/">
+            <clickbtn id='3631' icon="icons/icon_inquiry.png">
+              <label>
+              <![CDATA[PRISE DE RENSEIGNEMENTS]]>
+</label>
+            </clickbtn>
+            <clickbtn id='3632' icon="icons/icon_writeup.png">
+              <label>
+              <![CDATA[RECHERCHE]]>
+</label>
+            </clickbtn>
+            <clickbtn id='3633' icon="icons/icon_orderexpedite.png">
+              <label>
+              <![CDATA[COMMANDER/EXPÉDIER]]>
+</label>
+            </clickbtn>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3630" type="c2rSlide"  animType="timesync" endType="menu">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3630.mp3" size="3500912" duration="20.1" />
+            <ui uid="2" type="c2rHeader" width="500" height="45" x="50" y="top" margin="15" fillColor="0x003366" fillAlpha="1" frameSize="1" frameColor="0x003366" frameAlpha="1" fontAlign="left"  fontSize="18" fontColor="white" fontStyle="bold" effect="none" time="1" trans="slideRight" ease="QuintEaseOut">
+              <item id="bb1" order="20" timeIn=".5" timeOut="999" xPad="10">
+                <![CDATA[Prise de renseignements]]>
+</item>
+            </ui>
+           <ui uid="2" type="BodyBullet" width="320" x="60" y="75" margin="0"  fontAlign="left" effect="none"  time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="20" timeIn="1.5" timeOut="999" yPad="0">
+                <![CDATA[Peu importe le client, le processus de pièces reste le même. Chaque étape doit être suivie en assurant la satisfaction du client.]]>
+</bodyBullet>
+            </ui>
+               <ui uid="1" type="bodyImage" width="360" height="240" x="right" y="75" margin="0" effect="shadow" scaleMode="none" time="1" trans="slideLeft" ease="QuintEaseOut" >
+              <bodyImage id="i1" url="3630_1.jpg" order="2" timeIn="1" timeOut="999">
+                <![CDATA[Service Advisor with customer]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="BodyText" width="360" x="50" y="340" margin="0"  fontAlign="left" effect="none" trans="slideRight" fontSize="14" fontColor="0x003366" fontStyle="italic" ease="QuintEaseOut">
+              <bodyBullet id="bb0" order="20" timeIn="14.1" timeOut="999">
+                <![CDATA[Cliquez sur Prise de renseignements pour continuer.]]>
+</bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="3631" type="c2rSlide"  animType="timesync" endType="menu">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3631.mp3" size="3500912" duration="20.1" />
+           <ui uid="2" type="c2rHeader" width="500" height="45" x="50" y="top" margin="15" fillColor="0x003366" fillAlpha="1" frameSize="1" frameColor="0x003366" frameAlpha="1" fontAlign="left"  fontSize="18" fontColor="white" fontStyle="bold" effect="none" time="1" trans="slideRight" ease="QuintEaseOut">
+              <item id="bb1" order="20" timeIn=".5" timeOut="999" xPad="10">
+                <![CDATA[PRISE DE RENSEIGNEMENTS]]>
+</item>
+            </ui>
+            <ui uid="2" type="BodyBullet" width="320" x="60" y="75" margin="0"  fontAlign="left" effect="none"  time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="20" timeIn="1.5" timeOut="999" yPad="0">
+                <![CDATA[Identifier avec précision les pièces requises par le client]]>
+</bodyBullet>
+            </ui>
+             <ui uid="1" type="bodyImage" width="360" height="240" x="right" y="75" margin="0" effect="shadow" scaleMode="none" time="1" trans="slideLeft" ease="QuintEaseOut" >
+              <bodyImage id="i1" url="3631_1.jpg" order="2" syncType="build" time="1" timeIn="1" timeOut="999">
+                <![CDATA[Parts Advisor with customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="3632" type="c2rSlide"  animType="timesync" endType="menu">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3632.mp3" size="3500912" duration="20.1" />
+           <ui uid="2" type="c2rHeader" width="500" height="45" x="50" y="top" margin="15" fillColor="0x003366" fillAlpha="1" frameSize="1" frameColor="0x003366" frameAlpha="1" fontAlign="left"  fontSize="18" fontColor="white" fontStyle="bold" effect="none" time="1" trans="slideRight" ease="QuintEaseOut">
+              <item id="bb1" order="20" timeIn=".5" timeOut="999" xPad="10">
+                <![CDATA[RECHERCHE]]>
+</item>
+            </ui>
+              <ui uid="2" type="BodyBullet" width="320" x="60" y="75" margin="0" fontAlign="left" effect="none"  time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="20"  timeIn="1.5" timeOut="999" yPad="0">
+                <![CDATA[Obtenir les bons numéros de pièce et identifier les pièces auxiliaires et leurs numéros]]>
+</bodyBullet>
+            </ui>
+              <ui uid="1" type="bodyImage" width="360" height="240" x="right" y="75" margin="0" effect="shadow" scaleMode="none" time="1" trans="slideLeft" ease="QuintEaseOut" >
+              <bodyImage id="i1" url="3632_1.jpg" order="2" syncType="build" time="1" timeIn="1" timeOut="999">
+                <![CDATA[Parts Advisor on phone  with customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="3633" type="c2rSlide"  animType="timesync" endType="menu">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3633.mp3" size="3500912" duration="20.1" />
+            <ui uid="2" type="c2rHeader" width="500" height="45" x="50" y="top" margin="15" fillColor="0x003366" fillAlpha="1" frameSize="1" frameColor="0x003366" frameAlpha="1" fontAlign="left"  fontSize="18" fontColor="white" fontStyle="bold" effect="none" time="1" trans="slideRight" ease="QuintEaseOut">
+              <item id="bb1" order="20"  timeIn=".5" timeOut="999" xPad="10">
+                <![CDATA[COMMANDER/EXPÉDIER]]>
+</item>
+            </ui>
+             <ui uid="2" type="BodyBullet" width="320" x="60" y="75" margin="0" fontAlign="left" effect="none"  time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="20"  timeIn="1.5" timeOut="999" yPad="0">
+                <![CDATA[Trouver les pièces en stock ou obtenir rapidement les pièces qui ne sont pas en stock.]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="360" height="240" x="right" y="75" margin="0" effect="shadow" scaleMode="none" time="1" trans="slideLeft" ease="QuintEaseOut">
+              <bodyImage id="i1" url="3633_1.jpg" order="2" timeIn="1" timeOut="999">
+                <![CDATA[Parts Advisor on phone  with customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+   
+   <scene id="3635" sNumber="3635" sType="audiosync" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Ressources offertes au conseiller du service des pièces]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3635" type="TextImageReplace"  animType="timesync" endType="continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3635.mp3" size="3500912" duration="8" />
+            <ui uid="1" type="BodyImage" width="655" height="325" x="center" y="top" margin="30" time="1" trans="fadeOn" ease="QuintEaseOut"  scaleMode="proportionalInside" effect="shadow">
+              <bodyImage id="i1" order="11" url="3635_1.jpg" timeIn="0" timeOut="999">
+                <![CDATA[DealerCONNECT Parts page ]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="BodyText" x="center" y="440" width="400" margin="0" fontAlign="left" effect="none"  trans="slideLeft" ease="QuintEaseOut">
+              <bodyBullet id="bb1" order="21"  timeIn=".5" timeOut="999">
+                <![CDATA[<li>DealerCONNECT</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="3640" type="BulletImageBuild"  animType="timesync" endType="continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3640.mp3" size="444000" duration="44.09" />
+            <ui uid="1" type="BodyImage" width="300" height="200" x="right" y="30" margin="0" scaleMode="proportionalOutside" effect="shadow" trans="slideLeft" ease="QuintEaseOut" syncType="buildy" yPad="45">
+              <bodyImage id="i1" order="11" url="3640_1.jpg" timeIn=".5" timeOut="999" yPad="0">
+                <![CDATA[Screen Shot StarParts]]>
+</bodyImage>
+              <bodyImage id="i2" order="12" url="3640_2.jpg" timeIn="32.9" timeOut="999">
+                <![CDATA[Mopar.com WebSite]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="BodyBullet" width="450" x="50" y="top" margin="30"  fontAlign="left" effect="none"  trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="21"  timeIn=".5" timeOut="999" yPad="0">
+                <![CDATA[<li>STARPARTS</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22" formatType="subbullet"  timeIn="5.1" timeOut="999" yPad="0">
+                <![CDATA[<li>starparts.chrysler.com</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="23" timeIn="32.9" timeOut="999">
+                <![CDATA[<li>Mopar.ca</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+          <scene id="3645" sNumber="3645" sType="audiosync" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Approche axée sur le client pour le conseiller du service des pièces]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3645" type="BulletImageGlow"  animType="timesync" endType="continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3645.mp3" size="3500912" duration="20.1" />
+            <ui uid="1" type="bodyimageglow" width="150" height="100" x='50' y='110' margin="0"  fillColor="blue" fillAlpha="0" frameShape="rect" frameColor="blue" frameSize="0" frameAlpha="0" labelHeight="0" effect="shadow" time="1" trans="slideLeft" ease="QuintEaseOut"  xPad="18" >
+              <item id="i1" order="2" timeIn=".5" timeOut="999" url="3645_1.png" xPad="0">
+              <label>x</label>
+                <triggers>
+                  <trig type="glow" timeIn="21.1" timeOut="22" />
+                </triggers>
+              </item>
+              <item id="i2" order="3" url="3645_2.png" timeIn="2.5" timeOut="999">
+                <label>x</label>
+                <triggers>
+                  <trig type="glow"  timeIn="23.1" timeOut="24" />
+                </triggers>
+              </item>
+              <item id="i3" order="4" url="3645_3.png" timeIn="4.5" timeOut="999">
+                <label>x</label>
+                <triggers>
+                  <trig type="glow"  timeIn="24.1" timeOut="25" />
+                </triggers>
+              </item>
+              <item id="i4" order="4" url="3645_4.png" timeIn="58.0" timeOut="999">
+                <label>x</label>
+                <triggers>
+                  <trig type="glow" timeIn="64.23" timeOut="65.2" />
+                </triggers>
+              </item>
+            </ui>
+            <ui uid="3" type="bodybulletcol" x="60" y="240" width="140" margin="0" fontSize="14" textStyle="textflow" trans="slideUp" ease="QuintEaseOut" syncType="buildx" xPad="28">
+              <item id="bbc1" order="50" timeIn="27.1" timeOut="999" xPad="0">
+                <![CDATA[<list><li>Véritables pièces d'origine</li><li>Le premier choix pour les travaux d'entretien, de réparation et de collision</li></list>]]>
+</item>
+              <item id="bbc2" order="51" timeIn="39.1" timeOut="999">
+                <![CDATA[<list><li>Pièces de qualité</li><li>Solution à faible cout</li></list>]]>
+</item>
+              <item id="bbc3" order="52" timeIn="45.25" timeOut="999">
+                <![CDATA[<list><li>Refabriquées aux spécifications de l'équipement d'origine</li></list>]]>
+</item>
+              <item id="bbc4" order="50" timeIn="66.24" timeOut="999">
+                <![CDATA[<list><li>Entretien de toutes les marques/modèles</li><li>Vente au détail/aux clients de gros pour toutes les marques</li></list>]]>
+</item>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <!-- SCENES 3700s -->
+           <scene id="3700" sNumber="3700" sType="audiosync" continueBtnType="NEXT">
+        <sceneitems>
+         <ui uid="0" type="sceneHeader" xPad="20">
+            <header id="h1">
+              <![CDATA[Garantie administrateur Rôle / Process]]>
+</header>
+          </ui>
+          <ui uid="1" type="sceneGraphics">
+            <item id="l1" type="back" effect="fade" url="back_blueprint.png" x="50" y="140">
+              <![CDATA[Back BluePrint]]>
+</item>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3705" type="animcustom"  animType="timesync" endType="continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3705.mp3" size="3500912" duration="20.1" />
+                 <ui uid="2" type="c2r_mapicon" width="104" height="28"  x="0" y="0" margin="0" layout="absolute" fontSize="10" fontColor="white"  fontAlign="center"  effect="none" trans="slideup" ease="BackEaseOut"  syncType="add"  assetPath="c2r/">
+              <item id='ico1'  icon="icons/icon_person.png" x="120" y="315" time="1" timeIn=".5" timeOut="999">
+                <label>
+                <![CDATA[Ventes de véhicules neufs]]>
+</label>
+              </item>
+              <item id='ico2'  icon="icons/icon_person.png" x="151" y="485" time="1" timeIn=".5" timeOut="999">
+                <label>
+                <![CDATA[Ventes de véhicules d'occasion]]>
+</label>
+              </item>
+              <item id='ico3'  icon="icons/icon_person.png" x="290" y="287" time="1" timeIn=".5" timeOut="999">
+                <label>
+                <![CDATA[Finance et assurance]]>
+</label>
+              </item>
+              <item id='ico4'  icon="icons/icon_person.png" x="390" y="490" time="1" timeIn="1.5" timeOut="999">
+                <label>
+                <![CDATA[Pièces et accessoires]]>
+</label>
+              </item>
+              <item id='ico5'  icon="icons/icon_person.png" x="575" y="470" time="1" timeIn="1.5" timeOut="999">
+                <label>
+                <![CDATA[Service]]>
+</label>
+              </item>
+              <item id='ico6'  icon="icons/icon_person.png" x="432" y="287" time="1" timeIn="1.5" timeOut="999">
+                <label>
+                <![CDATA[Garantie]]>
+</label>
+                <triggers>
+                  <trig type="glow" time="2" timeIn="2" timeOut="999" />
+                </triggers>
+              </item>
+              <item id='ico7'  icon="icons/icon_person.png" x="575" y="290" time="1" timeIn="1.5" timeOut="999">
+                <label>
+                <![CDATA[Atelier]]>
+</label>
+              </item>
+            </ui>
+            <ui uid="2" type="BodyBullet" width="630" x="50" y="top" margin="15" fontAlign="left" effect="none" fontStyle="regular" time="1" trans="slideLeft" ease="QuintEaseOut" syncType="buildy" yPad="4">
+              <bodyBullet id="bb1" order="20"  timeIn="2" timeOut="999" yPad="0">
+                <![CDATA[<li>Les professionnels du service après-vente, des pièces et de la garantie sont membres de plusieurs équipes.</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22" timeIn="2.5" timeOut="999">
+                <![CDATA[<li>Dans une concession qui réussit bien, toutes les équipes travaillent ensemble afin de gagner la fidélité du client.</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="24"  timeIn="3" timeOut="999">
+                <![CDATA[<li>La communication et la collaboration entre les différents services sont essentielles pour assurer la croissance et la rentabilité de la concession.</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="3710" sNumber="3710" sType="c2r" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" xPad="20">
+            <header id="h1">
+              <![CDATA[Garantie administrateur Rôle / Process]]>
+</header>
+          </ui>
+                <ui uid="2" type="c2rMenu" width="120" height="28" x="50" y="490" margin="6" linear="yes" layout="1row" fontSize="10" fontColor="white" fontColor2="grey"  assetPath="c2r/">
+            <clickbtn id='3711' icon="icons/icon_review.png">
+              <label>
+                <![CDATA[EXAMEN]]>
+</label>
+            </clickbtn>
+            <clickbtn id='3712' icon="icons/icon_fileclaim.png">
+              <label>
+              <![CDATA[SOUMISSION DE DEMANDE]]>
+</label>
+            </clickbtn>
+            <clickbtn id='3713' icon="icons/icon_resubmit.png">
+              <label>
+                <![CDATA[SOUMETTRE À NOUVEAU]]>
+</label>
+            </clickbtn>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3710" type="c2rSlide"  animType="timesync" endType="menu">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3710.mp3" size="3500912" duration="20.1" />
+           <ui uid="2" type="c2rHeader" width="500" height="45" x="50" y="top" margin="15" fillColor="0x003366" fillAlpha="1" frameSize="1" frameColor="0x003366" frameAlpha="1" fontAlign="left"  fontSize="18" fontColor="white" fontStyle="bold" effect="none" time="1" trans="slideRight" ease="QuintEaseOut">
+              <item id="bb1" order="20" timeIn=".5" timeOut="999" xPad="10">
+                <![CDATA[Warranty Administrator Process]]>
+</item>
+            </ui>
+           <ui uid="2" type="BodyBullet" width="330" x="60" y="75" margin="10" fontSize="14" fontAlign="left" effect="none"  time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="20" timeIn="1.5" timeOut="999" yPad="0">
+                <![CDATA[L'administrateur de garantie recueille des informations auprès du conseiller technique pour préparer et traiter les demandes de règlement sous garantie.]]>
+</bodyBullet>
+            </ui>
+           <ui uid="1" type="bodyImage" width="360" height="240" x="right" y="75" margin="0" effect="shadow" scaleMode="none" time="1" trans="slideLeft" ease="QuintEaseOut" >
+              <bodyImage id="i1" url="3710_1.jpg" order="2" timeIn="1" timeOut="999">
+                <![CDATA[Warranty Administrator]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="BodyText" x="50" y="340" width="360" fontAlign="left" effect="none" margin="0" trans="slideRight" fontSize="14" fontStyle="italic" ease="QuintEaseOut">
+              <bodyBullet id="bb0" order="20" time="1" timeIn="19.5" timeOut="999">
+                <![CDATA[Cliquez sur Examen pour continuer.]]>
+</bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="3711" type="c2rSlide"  animType="timesync" endType="none">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3711.mp3" size="3500912" duration="20.1" />
+            <ui uid="2" type="c2rHeader" width="500" height="45" x="50" y="top" margin="15" fillColor="0x003366" fillAlpha="1" frameSize="1" frameColor="0x003366" frameAlpha="1" fontAlign="left"  fontSize="18" fontColor="white" fontStyle="bold" effect="none" time="1" trans="slideRight" ease="QuintEaseOut">
+              <item id="bb1" order="20" timeIn=".5" timeOut="999" xPad="10">
+                <![CDATA[Examen des informations sur la garantie]]>
+</item>
+            </ui>
+            <ui uid="1" type="bodyImage" width="360" height="240" x="right" y="75" margin="0" effect="shadow" scaleMode="none" time="1" trans="slideLeft" ease="QuintEaseOut" >
+              <bodyImage id="i1" url="3711_1.jpg" order="2" syncType="build" time="1" timeIn="1" timeOut="999">
+                <![CDATA[Warranty Administrator]]>
+</bodyImage>
+            </ui>
+           <ui uid="2" type="BodyBullet" width="320" x="60" y="75" margin="10" fontSize="14" fontAlign="left" effect="none"  time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="20" timeIn="1.5" timeOut="999" yPad="0">
+                <![CDATA[L'administrateur de la garantie recueille et examine les informations sur la garantie du véhicule.]]>
+</bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="3712" type="c2rSlide"  animType="timesync" endType="none">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3712.mp3" size="3500912" duration="20.1" />
+           <ui uid="2" type="c2rHeader" width="500" height="45" x="50" y="top" margin="15" fillColor="0x003366" fillAlpha="1" frameSize="1" frameColor="0x003366" frameAlpha="1" fontAlign="left"  fontSize="18" fontColor="white" fontStyle="bold" effect="none" time="1" trans="slideRight" ease="QuintEaseOut">
+              <item id="bb1" order="20" timeIn=".5" timeOut="999" xPad="20">
+                <![CDATA[SOUMISSION DE DEMANDE]]>
+</item>
+            </ui>
+             <ui uid="1" type="bodyImage" width="360" height="240" x="right" y="75" margin="0" effect="shadow" scaleMode="none" time="1" trans="slideLeft" ease="QuintEaseOut" >
+              <bodyImage id="i1" url="3712_1.jpg" order="2" syncType="build" time="1" timeIn="1" timeOut="999">
+                <![CDATA[DealerCONNECT Claim Entry screen (verify image)]]>
+</bodyImage>
+            </ui>
+             <ui uid="2" type="BodyBullet" width="320" x="left" y="75" margin="60" fontSize="14" fontAlign="left" effect="none"  time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="20" syncType="buildy" time="1" timeIn="1.5" timeOut="999" ypad="0">
+                <![CDATA[Entrer les informations dans la section Administration des demandes, sur la page Service après-vente de DealerCONNECT]]>
+</bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="3713" type="c2rSlide"  animType="timesync" endType="none">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3713.mp3" size="3500912" duration="20.1" />
+<ui uid="2" type="c2rHeader" width="500" height="45" x="50" y="top" margin="15" fillColor="0x003366" fillAlpha="1" frameSize="1" frameColor="0x003366" frameAlpha="1" fontAlign="left"  fontSize="18" fontColor="white" fontStyle="bold" effect="none" time="1" trans="slideRight" ease="QuintEaseOut">
+              <item id="bb1" order="20" timeIn=".5" timeOut="999" xPad="10">
+                <![CDATA[SOUMETTRE À NOUVEAU]]>
+</item>
+            </ui>
+             <ui uid="1" type="bodyImage" width="360" height="240" x="right" y="75" margin="0" effect="shadow" scaleMode="none" time="1" trans="slideLeft" ease="QuintEaseOut" >
+              <bodyImage id="i1" url="3713_1.jpg" order="2" timeIn="1" timeOut="999">
+                <![CDATA[Warranty Administrator at computer]]>
+</bodyImage>
+            </ui>
+              <ui uid="2" type="BodyBullet" width="320" x="left" y="75" margin="60" fontSize="14" fontAlign="left" effect="none"  time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="20" time="1" timeIn="1.5" timeOut="999" yPad="0">
+                <![CDATA[Pour une demande rejetée, vous devez examiner la demande, apporter les corrections et la soumettre à nouveau.]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+     
+     <!-- scene 3715 -->
+      <scene id="3715" sNumber="3715" sType="audiosync" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Ressources offertes à l'administrateur de la garantie]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3715" type="TextImageReplace"  animType="timesync" endType="continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3715.mp3" size="469000" duration="47" />
+            <ui uid="2" type="BodyBullet"  width="550" x="100" y="420" fontAlign="left" effect="none" margin="0"  time="2" trans="slideLeft" ease="QuintEaseOut" syncType="buildy" yPad="0">
+              <bodyBullet id="bb1" order="21"  timeIn=".5" timeOut="999">
+                <![CDATA[<li>DealerCONNECT</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22" formatType="subbullet"  timeIn="10.2" timeOut="999">
+                <![CDATA[<li>VIP</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22" formatType="subbullet"  timeIn="25.07" timeOut="999">
+                <![CDATA[<li>Opérations de main-d'œuvre</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22" formatType="subbullet"  timeIn="42.06" timeOut="999">
+                <![CDATA[<li>Manuel des politiques du concessionnaire</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22" formatType="subbullet"  timeIn="42.06" timeOut="999">
+                <![CDATA[<li>Manuel d'administration des garanties</li>]]>
+</bodyBullet>
+            </ui>
+             <ui uid="1" type="BodyImage" width="655" height="340" x="50" y="top"  margin="30" scaleMode="proportionalInside" effect="shadow" time="2" trans="fadeOn" ease="QuintEaseOut" syncType="overlay">
+              <bodyImage id="i1" order="11" url="3715_1.jpg"  timeIn=".5" timeOut="12.2">
+                <![CDATA[DealerCONNECT Parts page ]]>
+</bodyImage>
+              <bodyImage id="i2" order="12" url="3715_2.jpg" timeIn="10.2" timeOut="27.5">
+                <![CDATA[VIP SCreen ]]>
+</bodyImage>
+              <bodyImage id="i3" order="13" url="3715_3.jpg" timeIn="25.07" timeOut="999">
+                <![CDATA[Labor OPerations SCreen ]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="3720" sNumber="3720" sType="audiosync" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Approche axée sur le client pour l'administrateur de la garantie]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="3720" type="TextImageAdd"  animType="timesync" endType="continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="3720.mp3" size="155000" duration="19" />
+            <ui uid="1" type="BodyImage" width="420" height="280"  x="166" y="top" margin="30" time="1"  trans="fadeOn" ease="QuintEaseOut" scaleMode="proportionalOutside" effect="shadow">
+              <bodyImage id="i1" order="11" url="3720_1.jpg"  timeIn=".5" timeOut="999">
+                <![CDATA[Service Advisor with customer]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="BodyText" x="center" y="360" width="420" fontAlign="left" effect="none" margin="10" trans="slideLeft" ease="QuintEaseOut" syncType="buildy" yPad="4">
+              <bodyBullet id="bb1" order="21" timeIn=".5" timeOut="999" yPad="0">
+                <![CDATA[Programme d'accommodement hors garantie]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22" timeIn="1" timeOut="999">
+                <![CDATA[<li>Vient en aide aux clients lors de certaines situations de réparations non couvertes par la garantie</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="23" timeIn="11.12" timeOut="999">
+                <![CDATA[<li>Revoyez les procédures d'accommodement hors garantie avec votre chef du service après-vente</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      
+    </scenes>
+  </section>
+</shell>

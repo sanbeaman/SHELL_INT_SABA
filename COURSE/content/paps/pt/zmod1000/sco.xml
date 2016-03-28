@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="PAPSPOWB" template="PAPS" localeID="pt" debug="false">
+    <title>
+      <![CDATA[Habilidades de Vendas de Peças no Varejo]]>
+</title>
+  </course>
+  <section id="0" snumber="1000">
+    <header ud="sech1">
+      <![CDATA[INTRODUÇÃO]]>
+</header>
+    <scenes>
+      <scene id="1100" sNumber="1100" sType="navbarmenu" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="1" type="SceneNavBar" width="180" height="80" fillColor1="#858585" fillColor2="#ffffff" frameColor="0x00B5D7" fontColor="#666666" fontSize="14" pulseColor="0x00B5D7">
+            <navbtn id='c2l1' width="60" height="60" x="33" y="4" order="2" time="1" target="1105" url="icons/icon_1105.png">
+              <![CDATA[Objetivos do curso]]>
+</navbtn>
+            <navbtn id='c2l2' width="60" height="60" x="266" y="4" order="2" time="1" target="1110" url="icons/icon_1110.png">
+              <![CDATA[Descrição do curso]]>
+</navbtn>
+            <navbtn id='c2l3' width="60" height="60" x="499" y="4" order="2" time="1" target="1115" url="icons/icon_1115.png">
+              <![CDATA[Características adicionais]]>
+</navbtn>
+          </ui>
+          <ui uid="3" type="sceneEndNote">
+            <bodyNote id="gn1" order="99" time="1">
+              <![CDATA[Clique em √ para continuar.]]>
+</bodyNote>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide type="navbarmenu_content" sNumber="1101" animType="animsync" endType="Continue">
+            <ui uid="0" type="sceneHeader">
+              <header id="h1" width="680" order="1" time="1">
+                <![CDATA[Bem-vindo a Habilidades de Vendas de Peças no Varejo <br />Conduzindo a Venda]]>
+</header>
+            </ui>
+            <ui uid="3" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="999" time="1">
+                <![CDATA[Clique em uma imagem para iniciar.]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyIcon" width="100" height="100" x="center" y="80"  time="1" trans="fadeIn" ease="QuintEaseOut">
+              <bodyIcon id="img1" scaleMode="none" url="icons/icon_mopar.png" order="1">
+                <![CDATA[Mopar Logo]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="1105" type="navbarmenu_content" animType="animsync" endType="Continue">
+            <ui uid="0" type="sceneHeader">
+              <header id="h1" order="0" time="0">
+                <![CDATA[Objetivos do curso]]>
+</header>
+            </ui>
+            <ui uid="2" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="20" yPad="0">
+                <![CDATA[<li>Obtenha o conhecimento e as qualificações para criar relacionamentos com os clientes e vender peças e acessórios Mopar</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="22">
+                <![CDATA[<li>Explicar o estudo de caso para melhorar as habilidades de vendas de peças no varejo</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="24">
+                <![CDATA[<li>Identificar características dos quatro tipos de clientes</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="26">
+                <![CDATA[<li>O processo de condução de vendas de peças ao cliente</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="28">
+                <![CDATA[<li>Responder a oportunidades adicionais de vendas e objeções comuns dos clientes</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="99" time="1">
+                <![CDATA[Clique em outro ícone para continuar.]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyIcon" width="160" height="160" x="right" y="top" margin="10" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="0" time="1" url="icons/iconLarge_1105.png">
+                <![CDATA[Course Objectives]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="1110" type="navbarmenu_content" animType="animsync" endType="Continue">
+            <ui uid="0" type="sceneHeader" width="600">
+              <header id="h1" order="0" time=".5">
+                <![CDATA[Descrição do curso]]>
+</header>
+            </ui>
+            <ui uid="2" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="30" yPad="0">
+                <![CDATA[<li>Estudo de caso para melhorar as qualificações de vendas de peças</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="32" time=".5" formatType="subbullet" yPad="2">
+                <![CDATA[<li>Como seus clientes, o concessionário e você podem se beneficiar do aperfeiçoamento de suas habilidades de vendas</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="34">
+                <![CDATA[<li>A vantagem Mopar</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="36" time=".5" formatType="subbullet" yPad="2">
+                <![CDATA[<li>Por que a Mopar oferece uma vantagem significativa sobre a concorrência?</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="38">
+                <![CDATA[<li>Processo de condução de vendas de peças ao cliente</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="40">
+                <![CDATA[<li>Aplicando o processo de condução de vendas de peças ao cliente</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb7" order="42" time=".5" formatType="subbullet" yPad="2">
+                <![CDATA[<li>Usando cenários do mundo real</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb8" order="44">
+                <![CDATA[<li>Resumo do curso</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb9" order="46" time=".5" formatType="subbullet" yPad="2">
+                <![CDATA[<li>Revise pontos-chave no curso</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut">
+              <bodyNote id="gn1" order="999" time="1">
+                <![CDATA[Clique em outro ícone para continuar.]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyIcon" width="160" height="160" x="right" y="top" margin="10" time="1" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" url="icons/iconLarge_1110.png" order="1">
+                <![CDATA[Course Outline]]>
+</bodyIcon>
+            </ui>
+          </slide>
+          <slide sNumber="1115" type="navbarmenu_content" animType="animsync" endType="Done">
+            <ui uid="0" type="sceneHeader">
+              <header id="h1">
+                <![CDATA[Características adicionais]]>
+</header>
+            </ui>
+            <ui uid="2" type="bodyBullet" width="510" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb1" order="30" yPad="0">
+                <![CDATA[As dicas de trabalho deste curso incluem:]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="32">
+                <![CDATA[<li>Processo de vendas orientado ao cliente</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="36">
+                <![CDATA[<li>Superação das objeções do cliente</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="BackEaseOut">
+              <bodyNote id="gn1" order="99" time="1">
+                <![CDATA[Clique em outro ícone para continuar.]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyIcon" width="160" height="160" x="right" y="top" margin="10" trans="slideDown" ease="BackEaseOut">
+              <bodyIcon id="i1" order="0" time="1" url="icons/iconLarge_1115.png">
+                <![CDATA[Additional Resources]]>
+</bodyIcon>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="SPWCGWB" template="SPWC" localeID="fr_CA" debug="false">
+    <title>
+      <![CDATA[BIENVENUE APRÈS-VENTE DE CHRYSLER]]>
+</title>
+  </course>
+  <section id="1" snumber="2000">
+    <header>
+      <![CDATA[Fier Passé, Brillant Avenir]]>
+</header>
+    <scenes>
+    <scene id="2100" sNumber="2100" sType="audiosynctimeline" continueBtnType="next">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Réalisations et innovations]]>
+</header>
+          </ui>
+      <ui uid="1" type="timelineCoverflow" widgetx="0" widgety="200" widgetWidth="755" imgWidth="254" imgHeight="168">
+          <cfarrows>
+          	<LoaderMax name="cfarrowmax" load="false">
+          	 <ImageLoader name="arrow_normal" url="{imgdir}icons/timelineArrow_normal1.png"/>
+          	 <ImageLoader name="arrow_hover" url="{imgdir}icons/timelineArrow_hover1.png" />
+          	</LoaderMax>
+          	</cfarrows>
+          	<cfimages>
+        <LoaderMax name="cfimagemax"  load="false">
+        <!-- 2105 -->
+            <ImageLoader name="2105_1" url="{imgdir}2105_1.jpg" width="254" height="168" scaleMode="proportionalInside" centerRegistration="true" estimatedBytes="820000" />
+             <!-- 2106 -->
+            <ImageLoader name="2106_1" url="{imgdir}2106_1.jpg" width="254" height="168" scaleMode="proportionalInside" centerRegistration="true" estimatedBytes="820000" />
+            <ImageLoader name="2106_2" url="{imgdir}2106_2.jpg" width="254" height="168" scaleMode="proportionalInside" centerRegistration="true" estimatedBytes="820000" />
+            <!-- 2107 -->
+           <ImageLoader name="2107_1" url="{imgdir}2107_1.jpg" width="254" height="168" scaleMode="proportionalInside" centerRegistration="true" estimatedBytes="820000" />
+            <ImageLoader name="2107_2" url="{imgdir}2107_2.jpg" width="254" height="168" scaleMode="proportionalInside" centerRegistration="true" estimatedBytes="820000" />
+            <ImageLoader name="2107_3" url="{imgdir}2107_3.jpg" width="254" height="168" scaleMode="proportionalInside" centerRegistration="true" estimatedBytes="820000" />
+             <!-- 2108 -->
+            <ImageLoader name="2108_1" url="{imgdir}2108_1.jpg" width="254" height="168" scaleMode="proportionalInside" centerRegistration="true" estimatedBytes="820000" />
+            <ImageLoader name="2108_2" url="{imgdir}2108_2.jpg" width="254" height="168" scaleMode="proportionalInside" centerRegistration="true" estimatedBytes="820000" />
+            <ImageLoader name="2108_3" url="{imgdir}2108_3.jpg" width="254" height="168" scaleMode="proportionalInside" centerRegistration="true" estimatedBytes="820000" />
+             <!-- 2109 -->
+            <ImageLoader name="2109_1" url="{imgdir}2109_1.jpg" width="254" height="168" scaleMode="proportionalInside" centerRegistration="true" estimatedBytes="820000" />
+            <ImageLoader name="2109_2" url="{imgdir}2109_2.jpg" width="254" height="168" scaleMode="proportionalInside" centerRegistration="true" estimatedBytes="820000" />
+             <!-- 2110 -->
+            <ImageLoader name="2110_1" url="{imgdir}2110_1.jpg" width="254" height="168" scaleMode="proportionalInside" centerRegistration="true" estimatedBytes="820000" />
+            <ImageLoader name="2110_2" url="{imgdir}2110_2.jpg" width="254" height="168" scaleMode="proportionalInside" centerRegistration="true" estimatedBytes="820000" />
+             <!-- 2111 -->
+            <ImageLoader name="2111_1" url="{imgdir}2111_1.jpg" width="254" height="168" scaleMode="proportionalInside" centerRegistration="true" estimatedBytes="820000" />
+            <ImageLoader name="2111_2" url="{imgdir}2111_2.jpg" width="254" height="168" scaleMode="proportionalInside" centerRegistration="true" estimatedBytes="820000" />   
+            <!-- 2112 -->
+           <ImageLoader name="2112_1" url="{imgdir}2112_1.jpg" width="254" height="168" scaleMode="proportionalInside" centerRegistration="true" estimatedBytes="820000" />
+            <ImageLoader name="2112_2" url="{imgdir}2112_2.jpg" width="254" height="168" scaleMode="proportionalInside" centerRegistration="true" estimatedBytes="820000" />
+             <!-- 2113 -->
+             <ImageLoader name="2113_2" url="{imgdir}2113_2.jpg" width="254" height="168" scaleMode="proportionalInside" centerRegistration="true" estimatedBytes="820000" />
+             <!-- 2114 -->
+            <ImageLoader name="2114_1" url="{imgdir}2114_1.jpg" width="254" height="168" scaleMode="proportionalInside" centerRegistration="true" estimatedBytes="820000" />
+            <ImageLoader name="2114_2" url="{imgdir}2114_2.jpg" width="254" height="168" scaleMode="proportionalInside" centerRegistration="true" estimatedBytes="820000" />
+            <ImageLoader name="2114_3" url="{imgdir}2114_3.jpg" width="254" height="168" scaleMode="proportionalInside" centerRegistration="true" estimatedBytes="820000" />
+            <ImageLoader name="2114_4" url="{imgdir}2114_4.jpg" width="254" height="168" scaleMode="proportionalInside" centerRegistration="true" estimatedBytes="820000" />
+            <ImageLoader name="2114_5" url="{imgdir}2114_5.jpg" width="254" height="168" scaleMode="proportionalInside" centerRegistration="true" estimatedBytes="820000" />
+             <!-- 2115 -->
+           <ImageLoader name="2115_1" url="{imgdir}2115_1.jpg" width="254" height="168" scaleMode="proportionalInside" centerRegistration="true" estimatedBytes="820000" />
+            <ImageLoader name="2115_3" url="{imgdir}2115_3.jpg" width="254" height="168" scaleMode="proportionalInside" centerRegistration="true" estimatedBytes="820000" />
+            <ImageLoader name="2115_4" url="{imgdir}2115_4.jpg" width="254" height="168" scaleMode="proportionalInside" centerRegistration="true" estimatedBytes="820000" />
+            </LoaderMax>
+            </cfimages>
+          </ui>
+          <ui uid="2" type="timelineSlideData" x="center" y="400" width="460" fontColor="0x003366" fontAlign="left" formatType="normal" effect="none" time="1" margin="0" trans="slideUp" ease="QuintEaseOut" yPad="4"/>
+        </sceneitems>
+        <slides>
+        <!--  2105 -->
+          <slide type="TextBuild" sNumber="2105_1" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2105.mp3" size="3500912" duration="20.1" />
+            <ui uid="2" type="CoverFlowBodyText" height="120" x="center" syncType="replace" fontAlign="center">
+              <item id="bb1" order="20" timeIn=".5" timeOut="3.5">
+                <![CDATA[Chrysler = innovation et créativité]]>
+</item>
+              <item id="bb2" order="22" timeIn="4.1" timeOut="13">
+                <![CDATA[Une alliance stratégique avec FIAT SpA qui promet une technologie de classe mondiale dans des voitures de petite taille et de taille moyenne.]]>
+</item>
+              <item id="bb3" order="24" timeIn="13.8" timeOut="999">
+                <![CDATA[Explorez la ligne du temps et partagez ces informations avec vos clients]]>
+</item>
+            </ui>
+          </slide>
+          <!-- 2106 -->
+          <slide type="TextBuild" sNumber="2106_1" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2106_1.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="CoverFlowBodyText">
+              <item id="bb0" order="20" fontAlign="center" timeIn=".5" timeOut="999">
+                <![CDATA[<b>Les années 20</b>]]>
+</item>
+              <item id="bb1" order="24" timeIn="1" timeOut="999">
+                <![CDATA[<li>1924 – Walter P. Chrysler apporte sa Chrysler Six au Salon de l'auto de New York en espérant recevoir un financement pour sa production. </li>]]>
+</item>
+              <item id="bb2" order="26" formatType="subbullet" timeIn="1" timeOut="999">
+                <![CDATA[<li>Il en vend 32 000 - la meilleure performance pour un nouveau véhicule aux États-Unis.</li>]]>
+</item>
+            </ui>
+          </slide>
+          <slide type="TextBuild" sNumber="2106_2" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2106_2.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="CoverFlowBodyText">
+              <item id="bb0" order="20" fontAlign="center" timeIn="0" timeOut="999">
+                <![CDATA[<b>Les années 20</b>]]>
+</item>
+              <item id="bb1" order="22" timeIn="1" timeOut="999">
+                <![CDATA[<li>1928 – Chrysler acquiert Dodge Brothers, Inc., établissant ainsi « les trois grands constructeurs automobiles » américains.</li>]]>
+</item>
+            </ui>
+          </slide>
+          <!-- 2107 -->
+          <slide type="TextBuild" sNumber="2107_1" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2107_1.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="CoverFlowBodyText">
+              <item id="bb0" order="20" fontAlign="center" timeIn=".5" timeOut="999">
+                <![CDATA[<b>1930</b>]]>
+</item>
+              <item id="bb1" order="24" timeIn="1" timeOut="999">
+                <![CDATA[<li>Chrysler lance ses automobiles monocoques aérodynamiques et révolutionnaires Airflow, avec une transmission automatique surmultipliée livrable</li>]]>
+</item>
+            </ui>
+          </slide>
+          <slide type="TextBuild" sNumber="2107_2" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2107_2.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="CoverFlowBodyText">
+              <item id="bb0" order="20" fontAlign="center" timeIn="0" timeOut="999">
+                <![CDATA[<b>1930</b>]]>
+</item>
+              <item id="bb1" order="22" fontAlign="left" timeIn="1" timeOut="999">
+                <![CDATA[<li>Première utilisation du verre de sécurité</li><li>Premières capotes à commande électrique assistée</li>]]>
+</item>
+            </ui>
+          </slide>
+          <slide type="TextBuild" sNumber="2107_3" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2107_3.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="CoverFlowBodyText">
+              <item id="bb0" order="20" fontAlign="center" timeIn="0" timeOut="999">
+                <![CDATA[<b>1930</b>]]>
+</item>
+              <item id="bb1" order="22" timeIn="1" timeOut="999">
+                <![CDATA[<li>Chrysler crée son service de pièces, qui deviendra Mopar</li>]]>
+</item>
+            </ui>
+          </slide>
+          <!-- 2108 -->
+          <slide type="TextBuild" sNumber="2108_1" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2108_1.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="CoverFlowBodyText">
+              <item id="bb0" order="20" fontAlign="center" timeIn=".5" timeOut="999">
+                <![CDATA[<b>1940</b>]]>
+</item>
+              <item id="bb1" order="24" timeIn="1" timeOut="999">
+                <![CDATA[<li>Chrysler introduit les jantes de sécurité, la voiture familiale à la carrosserie tout acier, et le commutateur combiné allumage/démarrage à clé</li>]]>
+</item>
+            </ui>
+          </slide>
+          <slide type="TextBuild" sNumber="2108_2" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2108_2.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="CoverFlowBodyText">
+              <item id="bb0" order="20" fontAlign="center" timeIn="0" timeOut="999">
+                <![CDATA[<b>1940</b>]]>
+</item>
+              <item id="bb1" order="22" timeIn="1" timeOut="999">
+                <![CDATA[<li>Mopar devient la ligne complète de pièces de réparation et de rechange pour les véhicules Chrysler.</li>]]>
+</item>
+            </ui>
+          </slide>
+          <slide type="TextBuild" sNumber="2108_3" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2108_3.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="CoverFlowBodyText">
+              <item id="bb0" order="20" fontAlign="center" timeIn="0" timeOut="999">
+                <![CDATA[<b>1940</b>]]>
+</item>
+              <item id="bb1" order="22" timeIn="1" timeOut="999">
+                              <![CDATA[<li>Les Jeep<font face='Subscript'>&#174;</font> Willys aident à gagner la Seconde Guerre mondiale.</li>]]>
+</item>
+            </ui>
+          </slide>
+          <!--  2109 -->
+          <slide type="TextBuild" sNumber="2109_1" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2109_1.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="CoverFlowBodyText">
+              <item id="bb0" order="20" fontAlign="center" timeIn=".5" timeOut="999">
+                <![CDATA[<b>1950</b>]]>
+</item>
+              <item id="bb1" order="24" x="230" width="400" timeIn="1" timeOut="999" fontSize="14">
+                <![CDATA[<li>Chrysler 300 voit le jour</li><li>V8 HEMI</li><li>Freins à disque aux quatre roues</li><li>Glaces à commande électrique/direction assistée</li><li>Régulateur de vitesse automatique</li>]]>
+</item>
+            </ui>
+          </slide>
+          <slide type="TextBuild" sNumber="2109_2" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2109_2.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="CoverFlowBodyText">
+              <item id="bb0" order="20" fontAlign="center" timeIn="0" timeOut="999">
+                <![CDATA[<b>1950</b>]]>
+</item>
+              <item id="bb1" order="22" timeIn="1" timeOut="999">
+                <![CDATA[<li>Mopar étend ses opérations et offre désormais des pièces de course et de performance</li>]]>
+</item>
+            </ui>
+          </slide>
+          <!-- 2110 -->
+          <slide type="TextBuild" sNumber="2110_1" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2110_1.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="CoverFlowBodyText">
+              <item id="bb0" order="20" fontAlign="center" timeIn=".5" timeOut="999">
+                <![CDATA[<b>1960</b>]]>
+</item>
+              <item id="bb1" order="24" timeIn="1" timeOut="999">
+         <![CDATA[<li>Dodge s'impose en tant que marque de performance, annonce le début de la période des « muscle car », domine le circuit NASCAR avec l'aide des pièces de performance Mopar</li>]]></item>
+            </ui>
+          </slide>
+          <slide type="TextBuild" sNumber="2110_2" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2110_2.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="CoverFlowBodyText">
+              <item id="bb0" order="20" fontAlign="center" timeIn="0" timeOut="999">
+                <![CDATA[<b>1960</b>]]>
+</item>
+              <item id="bb1" order="22" timeIn="1" timeOut="999">
+                <![CDATA[<li>les véhicules de marque Chrysler deviennent des « Mopar »</li>]]>
+</item>
+            </ui>
+          </slide>
+          <!-- 2111 -->
+          <slide type="TextBuild" sNumber="2111_1" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2111_1.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="CoverFlowBodyText">
+              <item id="bb0" order="20" fontAlign="center" timeIn=".5" timeOut="999">
+                <![CDATA[<b>1970</b>]]>
+</item>
+              <item id="bb1" order="24" timeIn="1" timeOut="999">
+                <![CDATA[<li>Lancement des premières sous-compactes à traction avant produites sur le territoire nord-américain - la Dodge Omni et la Plymouth Horizon</li>]]>
+</item>
+            </ui>
+          </slide>
+          <slide type="TextBuild" sNumber="2111_2" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2111_2.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="CoverFlowBodyText">
+              <item id="bb0" order="20" fontAlign="center" timeIn="0" timeOut="999">
+                <![CDATA[<b>1970</b>]]>
+</item>
+              <item id="bb1" order="22" timeIn="1" timeOut="999">
+                <![CDATA[<li>Lancement des pièces Direct Connection de Mopar; service livraison de pièces Mopar dédié aux concessionnaires participants</li>]]>
+</item>
+            </ui>
+          </slide>
+          <!-- 2112-->
+          <slide type="TextBuild" sNumber="2112_1" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2112_1.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="CoverFlowBodyText">
+              <item id="bb0" order="20" fontAlign="center" timeIn=".5" timeOut="999">
+                <![CDATA[<b>1980</b>]]>
+</item>
+              <item id="bb1" order="24" timeIn="1" timeOut="999">
+                <![CDATA[<li>Chrysler lance la Dodge Caravan et la Plymouth Voyager, créant par le fait même un nouveau segment de marché : la mini-fourgonnette</li>]]>
+</item>
+            </ui>
+          </slide>
+          <slide type="TextBuild" sNumber="2112_2" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2112_2.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="CoverFlowBodyText">
+              <item id="bb0" order="20" fontAlign="center" timeIn="0" timeOut="999">
+                <![CDATA[<b>1980</b>]]>
+</item>
+              <item id="bb1" order="22" timeIn="1" timeOut="999">
+                              <![CDATA[<li>Chrysler acquiert American Motors et la marque Jeep<font face='Subscript'>&#174;</font></li>]]>
+</item>
+            </ui>
+          </slide>
+             <!-- 2113 -->
+         <slide sNumber="2113_2" type="TextBuild" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2113_2.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="CoverFlowBodyText">
+  <item id="bb0" order="20" fontAlign="center" timeIn="0" timeOut="999">
+  <![CDATA[<b>1990</b>]]>
+</item>
+              <item id="bb1" order="22" timeIn="1" timeOut="999">
+                <![CDATA[<li>Chrysler et Daimler-Benz fusionnent et forment DaimlerChrysler Corporation</li>]]>
+</item>
+            </ui>
+          </slide>
+          <!-- 2114 -->
+          <slide type="TextBuild" sNumber="2114_1" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2114_1.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="CoverFlowBodyText">
+              <item id="bb0" order="20" fontAlign="center" timeIn=".5" timeOut="999">
+                <![CDATA[<b>2000</b>]]>
+</item>
+              <item id="bb1" order="24" timeIn="1" timeOut="999">
+                <![CDATA[<li>Chrysler redéfinit le segment des mini-fourgonnettes avec les sièges « Swivel 'n Go » et plus encore</li>]]>
+</item>
+            </ui>
+          </slide>
+          <slide type="TextBuild" sNumber="2114_2" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2114_2.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="CoverFlowBodyText">
+              <item id="bb0" order="20" fontAlign="center" timeIn="0" timeOut="999">
+                <![CDATA[<b>2000</b>]]>
+</item>
+              <item id="bb1" order="22" timeIn="1" timeOut="999">
+                <![CDATA[<li>Dodge redéfinit le concept de « muscle car »</li>]]>
+</item>
+            </ui>
+          </slide>
+          <slide type="TextBuild" sNumber="2114_3" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2114_3.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="CoverFlowBodyText">
+              <item id="bb0" order="20" fontAlign="center" timeIn=".5" timeOut="999">
+                <![CDATA[<b>2000</b>]]>
+</item>
+              <item id="bb1" order="24" timeIn="1" timeOut="999">
+                <![CDATA[<li>Emblème SRT introduit sur les véhicules de performance, devenant une marque commerciale</li>]]>
+</item>
+            </ui>
+          </slide>
+          <slide type="TextBuild" sNumber="2114_4" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2114_4.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="CoverFlowBodyText">
+              <item id="bb0" order="20" fontAlign="center" timeIn=".5" timeOut="999">
+                <![CDATA[<b>2000</b>]]>
+</item>
+              <item id="bb1" order="24" timeIn="1" timeOut="999">
+                <![CDATA[<li>Ram lance la gamme de camions lourds</li>]]>
+</item>
+            </ui>
+          </slide>
+          <slide type="TextBuild" sNumber="2114_5" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2114_5.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="CoverFlowBodyText">
+              <item id="bb0" order="20" fontAlign="center" timeIn=".5" timeOut="999">
+                <![CDATA[<b>2000</b>]]>
+</item>
+              <item id="bb1" order="24"  timeIn="1" timeOut="999">
+                <![CDATA[<li>Chrysler s'associe à FIAT; la société est sauvée de la faillite en quelques semaines seulement</li>]]>
+</item>
+            </ui>
+          </slide>
+          <!-- 2115 -->
+          <slide type="TextBuild" sNumber="2115_1" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2115_1.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="CoverFlowBodyText">
+              <item id="bb0" order="20" fontAlign="center" timeIn=".5" timeOut="999">
+                <![CDATA[<b>Après 2011</b>]]>
+</item>
+              <item id="bb1" order="24" timeIn="1" timeOut="999">
+                <![CDATA[<li>Chrysler Group redevient rentable, rembourse les prêts qui lui avaient été accordés par le gouvernement du Canada et le gouvernement de l'Ontario et lance 17 véhicules neufs ou considérablement redessinés encensés par la critique</li>]]>
+</item>
+            </ui>
+          </slide>
+          <slide type="TextBuild" sNumber="2115_3" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2115_3.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="CoverFlowBodyText">
+              <item id="bb0" order="20" fontAlign="center" timeIn="0" timeOut="999">
+                <![CDATA[<b>Après 2011</b>]]>
+</item>
+              <item id="bb1" order="24" timeIn="1" timeOut="999">
+                <![CDATA[<li>FIAT lance les modèles FIAT 500 et Abarth en Amérique du Nord</li>]]>
+</item>
+            </ui>
+          </slide>
+          <slide type="TextBuild" sNumber="2115_4" animType="timesync" endType="Continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2115_4.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="CoverFlowBodyText">
+              <item id="bb0" order="20" fontAlign="center" timeIn="0" timeOut="999">
+                <![CDATA[<b>Après 2011</b>]]>
+</item>
+              <item id="bb1" order="24" timeIn="1" timeOut="999">
+                <![CDATA[<li>Mopar célèbre son 75e anniversaire</li>]]>
+</item>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="2200" sNumber="2200" sType="audiosync" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Les marques Chrysler et vous]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide type="TextLogoImage" sNumber="2205" animType="timesync" endType="continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2205.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="BodyText" width="500" height="120" x="center" y="400" margin="0" fontAlign="center" effect="none"  time="1" trans="slideLeft" ease="QuintEaseOut">
+              <item id="bb1" order="20" timeIn=".5" timeOut="999">
+                <![CDATA[« J'ai offert au public qualité, beauté, vitesse, confort, style et puissance, le tout à un prix abordable. » <br /> – Walter P. Chrysler]]>
+</item>
+            </ui>
+            <ui uid="1" type="LogoReplace" width="600" height="35" margin="10" x="center" y="20" scaleMode="proportionalInside" effect="none" time="1" trans="fadeOn" ease="QuintEaseOut">
+              <bodyImage id="l1" order="10" url="2205_2.png"  timeIn="3.1" timeOut="999">
+                <![CDATA[Strip of Logos]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="BodyImage" width="420" height="280" x="center" y="top" margin="80"  scaleMode="proportionalOutside" effect="shadow" time="1" trans="fadeOn" ease="QuintEaseOut">
+              <bodyImage id="i1" order="10" url="2205_1.jpg" timeIn=".4" timeOut="999">
+                <![CDATA[Walter P. Chrysler]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide type="TextLogoImage" sNumber="2210" animType="timesync" endType="continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2210.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="BodyText" width="455" height="120" x="center" y="400"  fontAlign="center" effect="none" margin="0" trans="slideUp" ease="QuintEaseOut">
+              <item id="bb1" order="20" timeIn=".1" timeOut="4.8">
+                <![CDATA[La marque Chrysler est connue pour son ingénierie innovante et son design expressif.]]>
+</item>
+              <item id="bb2" order="22" timeIn="5.0" timeOut="9.8">
+                              <![CDATA[Avec Dodge, ce sont les performances qui comptent... il suffit de penser à la puissance du moteur HEMI<font face='Superscript'>&#174; </font>.]]>
+</item>
+              <item id="bb3" order="24" timeIn="10.0" timeOut="15.8">
+                <![CDATA[Ram crée des camions robustes qui ne reculent devant rien.]]>
+</item>
+              <item id="bb4" order="26" timeIn="16.0" timeOut="19.8">
+                              <![CDATA[Les véhicules Jeep<font face='Subscript'>&#174; </font>  transmettent leur passion authentique pour l'individualité.]]>
+</item>
+              <item id="bb5" order="28" timeIn="20.2" timeOut="26.8">
+                <![CDATA[La prochaine vague italienne est arrivée. FIAT fait profiter l’Amérique de ce que l’Italie a de mieux à offrir.]]>
+</item>
+              <item id="bb6" order="30" timeIn="27.0" timeOut="32.8">
+                <![CDATA[SRT – technologie route et piste – vous fait vivre une expérience de conduite passionnante.]]>
+</item>
+              <item id="bb7" order="32" timeIn="33.1" timeOut="999">
+                              <![CDATA[La marque Mopar<font face='Subscript'>&#174; </font> est la source de référence pour les propriétaires de véhicules, les coureurs automobiles et les amateurs de performance.]]>
+</item>
+            </ui>
+              <ui uid="2" type="BodyImage" width="420" height="60"  x="center" y="top" margin="10" scaleMode="proportionalInside" effect="none" time="1" trans="fadeUp" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="l1" order="40" url="logo_chrysler.png" timeIn=".1" timeOut="4.8">
+                <![CDATA[Chrysler Vehicle Lineup]]>
+</bodyImage>
+              <bodyImage id="l2" order="42" url="logo_dodge.png" timeIn="5.0" timeOut="9.8">
+                <![CDATA[Dodge Vehicle Lineup]]>
+</bodyImage>
+              <bodyImage id="l3" order="44" url="logo_ram.png" timeIn="10.0" timeOut="15.8">
+                <![CDATA[Ram Vehicle Lineup]]>
+</bodyImage>
+              <bodyImage id="l4" order="42" url="logo_jeep.png" timeIn="16.0" timeOut="19.8">
+                <![CDATA[jeep Vehicle Lineup]]>
+</bodyImage>
+              <bodyImage id="l5" order="42" url="logo_fiat.png" timeIn="20.2" timeOut="26.8">
+                <![CDATA[Fiat Vehicle Lineup]]>
+</bodyImage>
+              <bodyImage id="l6" order="42" url="logo_srt.png" timeIn="27.0" timeOut="32.8">
+                <![CDATA[srt Vehicle Lineup]]>
+</bodyImage>
+              <bodyImage id="l7" order="42" url="logo_mopar.png" timeIn="33.1" timeOut="999">
+                <![CDATA[Mopar Vehicle Lineup]]>
+</bodyImage>
+            </ui>
+            <ui uid="1" type="BodyImage" width="420" height="280" x="center" y="top" margin="80"  scaleMode="proportionalOutside" effect="shadow" time="1" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="i1" order="40" url="2210_1.jpg" timeIn=".1" timeOut="4.8">
+                <![CDATA[Chrysler Vehicle Lineup]]>
+</bodyImage>
+              <bodyImage id="i2" order="42" url="2210_2.jpg"  timeIn="5.0" timeOut="9.8">
+                <![CDATA[Dodge Vehicle Lineup]]>
+</bodyImage>
+              <bodyImage id="i3" order="44" url="2210_3.jpg" timeIn="10.0" timeOut="15.8">
+                <![CDATA[Ram Vehicle Lineup]]>
+</bodyImage>
+              <bodyImage id="i4" order="42" url="2210_4.jpg" timeIn="16.0" timeOut="19.8">
+                <![CDATA[jeep Vehicle Lineup]]>
+</bodyImage>
+              <bodyImage id="i5" order="42" url="2210_5.jpg" timeIn="20.2" timeOut="26.8">
+                <![CDATA[Dodge Vehicle Lineup]]>
+</bodyImage>
+              <bodyImage id="i6" order="42" url="2210_6.jpg" timeIn="27.0" timeOut="32.8">
+                <![CDATA[Dodge Vehicle Lineup]]>
+</bodyImage>
+              <bodyImage id="i7" order="42" url="2210_7.jpg" timeIn="33.1" timeOut="999">
+                <![CDATA[Dodge Vehicle Lineup]]>
+</bodyImage>
+            </ui>
+          
+          </slide>
+          <slide type="TextImageReplace" sNumber="2215" animType="timesync" endType="continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2215.mp3" size="3500912" duration="35" />
+            <ui uid="2" type="BodyText" width="420" height="120" x="center" y="380" margin="0" fontAlign="center" effect="none"  trans="slideLeft" ease="QuintEaseOut">
+              <item id="bb1" order="20" timeIn=".5" timeOut="999">
+                <![CDATA[Comprendre les marques de Chrysler Group vous aidera à communiquer avec vos clients à un niveau plus personnel.]]>
+</item>
+            </ui>
+            <ui uid="1" type="BodyImage" width="420" height="280" x="166" y="top" margin="30" scaleMode="proportionalOutside" effect="shadow" trans="fadeOn" ease="QuintEaseOut">
+              <bodyImage id="i1" order="10" url="2215_1.jpg" timeIn=".4" timeOut="999">
+                <![CDATA[Service Advisor with Customer]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+  <scene id="2220" sNumber="2220" sType="c2r" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Les marques Chrysler et vous]]>
+</header>
+          </ui>
+            <ui uid="2" type="c2rMenu" width="94" height="28" x="50" y="490" margin="0" linear="yes"  layout="1row" fontSize="12" fontColor="white"  fontColor2="grey" xpad="6">
+            <clickbtn id='2221'>
+              <label>
+                <![CDATA[CHRYSLER]]>
+</label>
+            </clickbtn>
+            <clickbtn id='2222'>
+              <label>
+                <![CDATA[DODGE]]>
+</label>
+            </clickbtn>
+            <clickbtn id='2223'>
+              <label>
+                <![CDATA[RAM]]>
+</label>
+            </clickbtn>
+            <clickbtn id='2224'>
+              <label>
+                <![CDATA[JEEP]]>
+</label>
+            </clickbtn>
+            <clickbtn id='2225'>
+              <label>
+                <![CDATA[FIAT]]>
+</label>
+            </clickbtn>
+            <clickbtn id='2226'>
+              <label>
+                <![CDATA[SRT]]>
+</label>
+            </clickbtn>
+            <clickbtn id='2227'>
+              <label>
+                <![CDATA[MOPAR]]>
+</label>
+            </clickbtn>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide type="CoverFlowSlide" sNumber="2220" animType="timesync" endType="menu">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2220.mp3" size="3500912" duration="20.1" />
+            <ui uid="2" type="BodyText" width="380" x="center" y="430" margin="0" fontSize="18" fontColor="dkgrey" fontStyle="bold"  fontAlign="center" effect="none" trans="fadeOn" ease="QuintEaseOut">
+              <item id="bb1" order="20" timeIn="1" timeOut="999">
+                <![CDATA[Sélectionnez chaque bouton pour en savoir plus ...]]>
+</item>
+            </ui>
+          </slide>
+          <slide type="CoverFlowSlide" sNumber="2221" animType="timesync" endType="menu">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2221.mp3" size="3500912" duration="20.1" />
+            <ui uid="1" type="imagecoverflow" width="254" height="168" x="630" y="230" margin="0" scaleMode="proportionalInside" effect="shadow2"  trans="coverflow" ease="QuintEaseOut" centerIt="true">
+              <bodyImage id="i1" order="10" url="2221_1.jpg" timeIn=".5" timeOut="15.00">
+                <![CDATA[img1]]>
+</bodyImage>
+              <bodyImage id="i2" order="12" url="2221_2.jpg" timeIn="15.5" timeOut="36.00">
+                <![CDATA[img1]]>
+</bodyImage>
+              <bodyImage id="i3" order="14" url="2221_3.jpg" timeIn="36.5" timeOut="999">
+                <![CDATA[img1]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="BodyText" width="380" x="center" y="430" margin="0" fontSize="18" fontColor="dkgrey" fontStyle="bold"  fontAlign="center" effect="none" trans="fadeOn" ease="QuintEaseOut">
+              <item id="bb1" order="20" timeIn="1" timeOut="999">
+                <![CDATA[chrysler.ca]]>
+</item>
+            </ui>
+            <ui uid="2" type="LogoReplace" width="420" height="60" x="center" y="top" margin="20" scaleMode="proportionalInside" effect="none"  trans="fadeUp" ease="QuintEaseOut">
+              <bodyImage id="l1" order="40" url="logo_chrysler.png" timeIn="1" timeOut="999">
+                <![CDATA[Chrysler Logo]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide type="CoverFlowSlide" sNumber="2222" animType="timesync" endType="menu">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2222.mp3" size="3500912" duration="20.1" />
+            <ui uid="1" type="imagecoverflow" width="254" height="168" x="630" y="230" margin="0" scaleMode="proportionalInside" effect="shadow2"  trans="coverflow" ease="QuintEaseOut" centerIt="true">
+              <bodyImage id="i1" order="10" url="2222_1.jpg" timeIn=".5" timeOut="32.0">
+                <![CDATA[img1]]>
+</bodyImage>
+              <bodyImage id="i2" order="12" url="2222_2.jpg" timeIn="32.5" timeOut="42.0">
+                <![CDATA[img1]]>
+</bodyImage>
+              <bodyImage id="i3" order="14" url="2222_3.jpg" timeIn="42.5" timeOut="999">
+                <![CDATA[img1]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="BodyText" width="380" x="center" y="430" margin="0" fontSize="18" fontColor="dkgrey" fontStyle="bold"  fontAlign="center" effect="none" trans="fadeOn" ease="QuintEaseOut">
+              <item id="bb1" order="20" timeIn="1" timeOut="999">
+                <![CDATA[dodge.ca]]>
+</item>
+            </ui>
+            <ui uid="2" type="LogoReplace" width="420" height="60" x="center" y="top" margin="20" scaleMode="proportionalInside" effect="none"  trans="fadeUp" ease="QuintEaseOut">
+              <bodyImage id="l1" order="40" url="logo_dodge.png" timeIn="1" timeOut="999">
+                <![CDATA[Dodge Logo]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide type="CoverFlowSlide" sNumber="2223" animType="timesync" endType="menu">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2223.mp3" size="3500912" duration="37.29" />
+            <ui uid="1" type="imagecoverflow" width="254" height="168" x="630" y="230" margin="0" scaleMode="proportionalInside" effect="shadow2"  trans="coverflow" ease="QuintEaseOut" centerIt="true">
+              <bodyImage id="i1" order="10" url="2223_1.jpg" timeIn=".5" timeOut="10.0">
+                <![CDATA[img1]]>
+</bodyImage>
+              <bodyImage id="i2" order="12" url="2223_2.jpg" timeIn="10.5" timeOut="19.00">
+                <![CDATA[img1]]>
+</bodyImage>
+              <bodyImage id="i3" order="14" url="2223_3.jpg" timeIn="19.5" timeOut="28">
+                <![CDATA[img1]]>
+</bodyImage>
+              <bodyImage id="i4" order="14" url="2223_4.jpg" timeIn="28.5" timeOut="999">
+                <![CDATA[img1]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="BodyText" width="380" x="center" y="430" margin="0" fontSize="18" fontColor="dkgrey" fontStyle="bold"  fontAlign="center" effect="none" trans="fadeOn" ease="QuintEaseOut">
+              <item id="bb1" order="20" timeIn="1" timeOut="999">
+                <![CDATA[ramtruck.ca]]>
+</item>
+            </ui>
+            <ui uid="2" type="LogoReplace" width="420" height="60" x="center" y="top" margin="20" scaleMode="proportionalInside" effect="none"  trans="fadeUp" ease="QuintEaseOut">
+              <bodyImage id="l1" order="40" url="logo_ram.png" timeIn="1" timeOut="999">
+                <![CDATA[Ram Logo]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide type="CoverFlowSlide" sNumber="2224" animType="timesync" endType="menu">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2224.mp3" size="3500912" duration="35.17" />
+            <ui uid="1" type="imagecoverflow" width="254" height="168" x="630" y="230" margin="0" scaleMode="proportionalInside" effect="shadow2"  trans="coverflow" ease="QuintEaseOut" centerIt="true">
+              <bodyImage id="i1" order="10" url="2224_1.jpg" timeIn=".5" timeOut="10.00">
+                <![CDATA[img1]]>
+</bodyImage>
+              <bodyImage id="i2" order="12" url="2224_2.jpg" timeIn="10.5" timeOut="19.5">
+                <![CDATA[img1]]>
+</bodyImage>
+              <bodyImage id="i3" order="14" url="2224_3.jpg" timeIn="20.0" timeOut="30">
+                <![CDATA[img1]]>
+</bodyImage>
+              <bodyImage id="i4" order="14" url="2224_4.jpg" timeIn="30.5" timeOut="999">
+                <![CDATA[img1]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="BodyText" width="380" x="center" y="430" margin="0" fontSize="18" fontColor="dkgrey" fontStyle="bold"  fontAlign="center" effect="none" trans="fadeOn" ease="QuintEaseOut">
+              <item id="bb1" order="20" timeIn="1" timeOut="999">
+                <![CDATA[jeep.ca]]>
+</item>
+            </ui>
+            <ui uid="2" type="LogoReplace" width="420" height="60" x="center" y="top" margin="20" scaleMode="proportionalInside" effect="none"  trans="fadeUp" ease="QuintEaseOut">
+              <bodyImage id="l1" order="40" url="logo_jeep.png" timeIn="1" timeOut="999">
+                <![CDATA[Jeep Logo]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide type="CoverFlowSlide" sNumber="2225" animType="timesync" endType="menu">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2225.mp3" size="3500912" duration="29.1" />
+            <ui uid="1" type="imagecoverflow" width="254" height="168" x="630" y="230" margin="0" scaleMode="proportionalInside" effect="shadow2"  trans="coverflow" ease="QuintEaseOut" centerIt="true">
+              <bodyImage id="i1" order="10" url="2225_1.jpg" timeIn=".5" timeOut="10.00">
+                <![CDATA[img1]]>
+</bodyImage>
+              <bodyImage id="i2" order="12" url="2225_2.jpg" timeIn="10.5" timeOut="20.0">
+                <![CDATA[img1]]>
+</bodyImage>
+              <bodyImage id="i3" order="14" url="2225_3.jpg" timeIn="20.5" timeOut="999">
+                <![CDATA[img1]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="BodyText" width="380" x="center" y="430" margin="0" fontSize="18" fontColor="dkgrey" fontStyle="bold"  fontAlign="center" effect="none" trans="fadeOn" ease="QuintEaseOut">
+              <item id="bb1" order="20" timeIn="1" timeOut="999">
+                <![CDATA[fiatcanada.com]]>
+</item>
+            </ui>
+            <ui uid="2" type="LogoReplace" width="420" height="60" x="center" y="top" margin="20" scaleMode="proportionalInside" effect="none"  trans="fadeUp" ease="QuintEaseOut">
+              <bodyImage id="l1" order="40" url="logo_fiat.png" timeIn="1" timeOut="999">
+                <![CDATA[Fiat Logo]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide type="CoverFlowSlide" sNumber="2226" animType="timesync" endType="menu">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2226.mp3" size="3500912" duration="35.1" />
+            <ui uid="1" type="imagecoverflow" width="254" height="168" x="630" y="230" margin="0" scaleMode="proportionalInside" effect="shadow2"  trans="coverflow" ease="QuintEaseOut" centerIt="true">
+              <bodyImage id="i1" order="10" url="2226_1.jpg" timeIn=".5" timeOut="5.5">
+                <![CDATA[img1]]>
+</bodyImage>
+              <bodyImage id="i2" order="12" url="2226_2.jpg" timeIn="6.0" timeOut="11.5">
+                <![CDATA[img1]]>
+</bodyImage>
+              <bodyImage id="i3" order="14" url="2226_3.jpg" timeIn="12.0" timeOut="18.0">
+                <![CDATA[img1]]>
+</bodyImage>
+              <bodyImage id="i4" order="10" url="2226_4.jpg" timeIn="18.5" timeOut="27.5">
+                <![CDATA[img1]]>
+</bodyImage>
+              <bodyImage id="i5" order="12" url="2226_5.jpg" timeIn="28.00" timeOut="999">
+                <![CDATA[img1]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="BodyText" width="380" x="center" y="430" margin="0" fontSize="18" fontColor="dkgrey" fontStyle="bold"  fontAlign="center" effect="none" trans="fadeOn" ease="QuintEaseOut">
+              <item id="bb1" order="20" timeIn="1" timeOut="999">
+                <![CDATA[drivesrt.ca]]>
+</item>
+            </ui>
+            <ui uid="2" type="LogoReplace" width="420" height="60" x="center" y="top" margin="20" scaleMode="proportionalInside" effect="none"  trans="fadeUp" ease="QuintEaseOut">
+              <bodyImage id="l1" order="40" url="logo_srt.png" timeIn="1" timeOut="999">
+                <![CDATA[SRT Logo]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide type="CoverFlowSlide" sNumber="2227" animType="timesync" endType="menu">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2227.mp3" size="3500912" duration="32.25" />
+            <ui uid="1" type="imagecoverflow" width="254" height="168" x="630" y="260" margin="0" scaleMode="proportionalInside"  centerIt="true" effect="shadow2"  trans="coverflow" ease="QuintEaseOut">
+              <bodyImage id="i1" order="10" url="2227_1.jpg" timeIn=".5" timeOut="4.00">
+                <![CDATA[img1]]>
+</bodyImage>
+              <bodyImage id="i2" order="12" url="2227_2.jpg" timeIn="4.5" timeOut="7.00">
+                <![CDATA[img1]]>
+</bodyImage>
+              <bodyImage id="i3" order="14" url="2227_3.jpg" timeIn="7.5" timeOut="13">
+                <![CDATA[img1]]>
+</bodyImage>
+              <bodyImage id="i4" order="10" url="2227_4.jpg" timeIn="13.5" timeOut="999">
+                <![CDATA[img1]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="BodyText" width="380" x="center" y="430" margin="0" fontSize="18" fontColor="dkgrey" fontStyle="bold"  fontAlign="center" effect="none" trans="fadeOn" ease="QuintEaseOut">
+              <item id="bb1" order="20" timeIn="1" timeOut="999">
+                <![CDATA[mopar.ca]]>
+</item>
+            </ui>
+            <ui uid="2" type="LogoReplace" width="420" height="60" x="center" y="top" margin="20" scaleMode="proportionalInside" effect="none"  trans="fadeUp" ease="QuintEaseOut">
+              <bodyImage id="l1" order="40" url="logo_mopar.png" timeIn="1" timeOut="999">
+                <![CDATA[Mopar Logo]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+ <scene id="2300" sNumber="2300" sType="audiosync" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Votre rôle au sein de la concession]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide type="BulletImageBuild" sNumber="2305" animType="timesync" endType="continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2305.mp3" size="3500912" duration="20.28" />
+            <ui uid="1" type="BodyImage" width="200" height="133"  x="right" y="30" margin="0" scaleMode="proportionalOutside" effect="none" trans="slideleft" ease="QuintEaseOut" syncType="buildy" yPad="30">
+              <bodyImage id="i1" order="11" url="2305_1.jpg" timeIn=".5" timeOut="999" yPad="0">
+                <![CDATA[Service Advisor]]>
+</bodyImage>
+              <bodyImage id="i2" order="12" url="2305_2.jpg" timeIn="5.1" timeOut="999">
+                <![CDATA[Parts Advisor]]>
+</bodyImage>
+              <bodyImage id="i3" order="13" url="2305_3.jpg" timeIn="9.0" timeOut="999">
+                <![CDATA[Warrenty Advisor]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="BodyBullet" width="460" x="50" y="60" margin="10" effect="none" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <item id="bb1" order="21" timeIn=".5" timeOut="999" yPad="0">
+                <![CDATA[<li>Vous jouez un rôle essentiel au sein de l'équipe de la concession</li>]]>
+</item>
+              <item id="bb2" order="22" timeIn="5.1" timeOut="999">
+                <![CDATA[<li>Les concessions sont formées de différents services et de différentes fonctions</li>]]>
+</item>
+              <item id="bb3" order="23" timeIn="9.0" timeOut="999">
+                <![CDATA[<li>Chacun d'entre eux joue un rôle dans la création d'expériences positives pour les clients</li>]]>
+</item>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    <!-- scene 2310 -->
+        <scene id="2310" sNumber="2310" sType="c2r" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Votre rôle au sein de la concession]]>
+</header>
+          </ui>
+          <ui uid="1" type="sceneGraphics">
+            <item id="l1" type="back" effect="fade" url="back_blueprint.png" x="50" y="140">
+              <![CDATA[Back BluePrint]]>
+</item>
+          </ui>
+          <ui uid="2" type="c2rMenu" width="144" height="28" x="0" y="0" margin="7" linear="yes" layout="absolute" fontSize="12" fontColor="white"  fontAlign="center" fontColor2="grey" assetPath="c2r/">
+            <clickbtn id='2311' icon="icons/icon_person.png" x="90" y="314">
+              <label>
+              <![CDATA[Ventes de véhicules neufs]]>
+</label>
+            </clickbtn>
+            <clickbtn id='2312' icon="icons/icon_person.png" x="151" y="485">
+              <label>
+              <![CDATA[Ventes de véhicules d'occasion]]>
+</label>
+            </clickbtn>
+            <clickbtn id='2313' icon="icons/icon_person.png" x="290" y="300">
+              <label>
+              <![CDATA[Finance et assurance]]>
+</label>
+            </clickbtn>
+            <clickbtn id='2314' icon="icons/icon_person.png" x="552" y="320">
+              <label>
+              <![CDATA[L'après-vente]]>
+</label>
+            </clickbtn>
+          </ui>
+          <ui uid="3" type="sceneAnimation">
+            <item id="1" triggerType="glow" triggerTarget="2311" time="1" timeIn="2" />
+            <item id="2" triggerType="glow" triggerTarget="2312" time="1" timeIn="3" />
+            <item id="3" triggerType="glow" triggerTarget="2313" time="1" timeIn="4" />
+            <item id="4" triggerType="glow" triggerTarget="2314" time="1" timeIn="6" />
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide type="c2rintro" sNumber="2310" animType="timesync" endType="menu">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2310.mp3" size="3500912" duration="20.1" />
+          </slide>
+          <slide type="c2rpopup" sNumber="2311" animType="timesync" endType="menu">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2311.mp3" size="3500912" duration="20.1" />
+              <ui uid="4" type="c2rHeader" width="640" height="45" x="left" y="10" margin="65" fontSize="18" fontColor="white" fontStyle="bold"  fontAlign="left" effect="none" trans="slideLeft" ease="QuintEaseOut" url="blue">
+              <item id="bb1" order="1" timeIn=".5" timeOut="999" xPad="50">
+                <![CDATA[Ventes de véhicules neufs]]>
+</item>
+            </ui>
+            <ui uid="2" type="BodyBullet" width="600" x="105" y="55" margin="50" fontSize="14" fontStyle="regular"  fontAlign="left" effect="none" trans="slideLeft" ease="QuintEaseOut">
+              <item id="bb1" order="20" timeIn=".5" timeOut="999">
+                <![CDATA[<li>Accueillir les nouveaux clients dans la concession.</li><li>Établir un rapport avec le client de manière professionnelle en identifiant et en satisfaisant les besoins et les souhaits du client en matière de véhicule neuf.</li><li>Faire équipe avec le service après-vente et le service des pièces pour assurer la transition du client entre les différents services.</li>]]>
+  </item>
+            </ui>
+          </slide>
+          <slide type="c2rpopup" sNumber="2312" animType="timesync" endType="menu">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2312.mp3" size="3500912" duration="20.1" />
+            <ui uid="4" type="c2rHeader" width="640" height="45" x="left" y="10" margin="65" fontSize="18" fontColor="white" fontStyle="bold"  fontAlign="left" effect="none" trans="slideLeft" ease="QuintEaseOut" url="blue">
+              <item id="bb1" order="1" timeIn=".5" timeOut="999" xPad="50">
+                <![CDATA[Ventes de véhicules d'occasion]]>
+</item>
+            </ui>
+            <ui uid="2" type="BodyBullet" width="600" x="105" y="55" margin="50" fontSize="14" fontStyle="regular"  fontAlign="left" effect="none" trans="slideLeft" ease="QuintEaseOut">
+              <item id="bb1" order="20" timeIn=".5" timeOut="999">
+                <![CDATA[<li>Accueillir les nouveaux clients dans la concession.</li><li>Établir un rapport avec le client de manière professionnelle en identifiant et en satisfaisant les besoins et les souhaits du client en matière de véhicule d'occasion.</li><li>Faire équipe avec le service après-vente et le service des pièces pour assurer la transition du client entre les différents services.</li>]]>
+</item>
+            </ui>
+          </slide>
+          <slide type="c2rpopup" sNumber="2313" animType="timesync" endType="menu">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2313.mp3" size="3500912" duration="20.1" />
+            <ui uid="4" type="c2rHeader" width="640" height="45" x="left" y="10" margin="65" fontSize="18" fontColor="white" fontStyle="bold"  fontAlign="left" effect="none" trans="slideLeft" ease="QuintEaseOut" url="blue">
+              <item id="bb1" order="1" timeIn=".5" timeOut="999" xPad="50">
+                <![CDATA[Finances et assurances]]>
+</item>
+            </ui>
+            <ui uid="2" type="BodyBullet" width="600" x="105" y="55" margin="50" fontSize="14" fontStyle="regular"  fontAlign="left" effect="none" trans="slideLeft" ease="QuintEaseOut">
+              <item id="bb1" order="20" timeIn=".5" timeOut="999">
+                <![CDATA[<li>Administre les options de financement des véhicules.</li><li>Vend des contrats de service Chrysler et d'autres produits afin de répondre aux besoins du client et améliorer son expérience en tant que propriétaire.</li>]]>
+</item>
+            </ui>
+          </slide>
+          <slide type="c2rpopup" sNumber="2314" animType="timesync" endType="continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2314.mp3" size="3500912" duration="20.1" />
+             <ui uid="4" type="c2rHeader" width="640" height="45" x="left" y="10" margin="65" fontSize="18" fontColor="white" fontStyle="bold"  fontAlign="left" effect="none" trans="slideLeft" ease="QuintEaseOut" url="blue">
+              <item id="bb1" order="1" timeIn=".5" timeOut="999" xPad="50">
+                <![CDATA[Service après-vente]]>
+</item>
+            </ui>
+            <ui uid="2" type="BodyBullet" width="600" x="105" y="55" margin="50" fontSize="13" fontStyle="regular"  fontAlign="left" effect="none" trans="slideLeft" ease="QuintEaseOut">
+              <item id="bb1" order="20" timeIn=".5" timeOut="999">
+                <![CDATA[<li>De nombreux services collaborent pour offrir des services d'entretien et de réparation. </li><li>Le service après-vente a un grand impact sur la satisfaction et la fidélisation de la clientèle et sur la rentabilité de la concession.</li><li>Des rapports bien établis se traduisent par des clients réguliers pour le service après-vente et le service des ventes.</li>]]>
+</item>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    <scene id="2400" sNumber="2400" sType="audiosync" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[Communiquer pour réussir]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide type="BulletImageBuild" sNumber="2405" animType="timesync" endType="continue">
+            <ui uid="0" type="slidemedia" mediaType="mp3" url="2405.mp3" size="444000" duration="44.09" />
+            <ui uid="1" type="BodyImage" width="200" height="133"  x="right" y="30" margin="0" scaleMode="proportionalOutside" effect="none" trans="slideleft" ease="QuintEaseOut" syncType="buildy" yPad="30">
+              <bodyImage id="i1" order="11" url="2405_1.jpg" timeIn="3.5" timeOut="999" yPad="0">
+                <![CDATA[Customer with Service Advisor]]>
+</bodyImage>
+              <bodyImage id="i2" order="12" url="2405_2.jpg" timeIn="10.1" timeOut="999">
+                <![CDATA[Service Advisor with customer at Express Lane or tire area]]>
+</bodyImage>
+              <bodyImage id="i3" order="13" url="2405_3.jpg" timeIn="15.2" timeOut="999">
+                <![CDATA[Parts Advisor with customer]]>
+</bodyImage>
+            </ui>
+            <ui uid="2" type="BodyBullet" width="450" x="50" y="top" margin="30" effect="none" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <item id="bb1" order="21" timeIn="3.5" timeOut="999" yPad="0">
+                <![CDATA[<li>Toujours présenter le service après-vente et le service des pièces aux clients de véhicules neufs et de véhicules d'occasion.</li>]]>
+</item>
+              <item id="bb2" order="22" timeIn="10.1" timeOut="999">
+                <![CDATA[<li>Informer les clients des heures d'ouverture prolongées, du service Voie express, des ventes de pneus.</li>]]>
+</item>
+              <item id="bb3" order="23" timeIn="15.20" timeOut="999">
+                <![CDATA[<li>Référer les clients du service après-vente qui pourraient être intéressés à acheter un véhicule neuf.</li>]]>
+</item>
+              <item id="bb4" order="24" timeIn="21.1" timeOut="999">
+                <![CDATA[<li>Toujours offrir un service axé sur le client.</li>]]>
+</item>
+              <item id="bb5" order="25" timeIn="34.1" timeOut="999">
+                <![CDATA[<li>Gagner la confiance et la fidélité des clients.</li>]]>
+</item>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      
+    </scenes>
+  </section>
+</shell>

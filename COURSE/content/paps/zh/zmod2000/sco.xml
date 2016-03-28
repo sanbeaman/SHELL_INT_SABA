@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="PAPSCHWB" template="PAPS" localeID="zh" debug="false">
+    <title>
+      <![CDATA[零售零件销售技能]]>
+</title>
+  </course>
+  <section id="0" snumber="2000">
+    <header ud="sech1">
+      <![CDATA[商业案例]]>
+</header>
+    <scenes>
+      <scene id="2100" sNumber="2100" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[机会]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="2101" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="510" x="left" y="40" margin="10" fontColor="#666666" fontSize="16" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="3" yPad="0">
+                <![CDATA[<li>本单元解释了提高销售技能如何有益于您、您的经销店和客户 </li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4">
+                <![CDATA[<li>但首先看一下零件和配件市场的范围</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="160" height="180" x="right" y="top" margin="10" time="1" trans="slideLeft" ease="BackEaseOut" syncType="build">
+              <bodyImage id="img1" order="1" url="2100_1.jpg">
+                <![CDATA[Parts Advisor]]>
+</bodyImage>
+              <bodyImage id="img2" order="2" y="bottom" url="2100_2.jpg">
+                <![CDATA[Customer ]]>
+</bodyImage>
+            </ui>
+          </slide>
+          <slide sNumber="2105" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="680" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="6" yPad="0">
+                <![CDATA[您是否知道您的零件部门所代表的机会？]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="7">
+                <![CDATA[<li>汽车零件是一个价值 2,440 亿美元的市场</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="8">
+                <![CDATA[<li>汽车配件是一个价值 380 亿美元的市场</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="9">
+                <![CDATA[<li>汽车购买者在购车后的前六个月内在配件上平均花费 400 美元</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="10">
+                <![CDATA[<li>卡车购买者平均花费 1,200 美元</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="11">
+                <![CDATA[该市场正在不断增长，因此发展您的零件与配件业务的时机巨大。]]>
+</bodyBullet>
+            </ui>
+            <ui uid="5" type="slideEndNote" trans="fadeIn" ease="QuintEaseOut" fontSize="12">
+              <bodyNote id="gn1" order="30" time="1" x="50" y="500" width="500">
+                <![CDATA[来源：发动机与设备制造协会、专业设备营销协会。美国数据。]]>
+</bodyNote>
+            </ui>
+            <ui uid="1" type="bodyImage" width="260" height="195" x="right" y="bottom" margin="10" time="1" trans="slideLeft" ease="BackEaseOut" syncType="add">
+              <bodyImage id="i1" order="2" url="2105_1.jpg">
+                <![CDATA[Parts Advisor]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="2200" sNumber="2200" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[好处]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="2205" type="Activity_Click2reveal" animType="none" endType="Continue">
+            <ui uid="1" type="act" atype="click2reveal" order="2" time="1" x="0" y="50" margin="0" trans="slideUp" ease="QuintEaseOut">
+              <actui uid="1" type="backimage">
+                <item type="image" url="2200_backQ60.jpg">
+                  <![CDATA[DEALERSHIP PHOTO]]>
+</item>
+              </actui>
+              <actui uid="2" type="clickbtns" fillColor="0xD1E6F2" fillAlpha="0" frameColor="0x003366" frameSize="1" frameAlpha="1" fillColor2="0xD1E6F2" fontSize="24" fontColor="white" iconType="bitmap" iconShape="square" iconWidth="28" iconHeight="26" iconFrameSize="1" iconFrameColor="black" iconFrameAlpha="0" iconReady="icons/hsicon_ready.png" iconUncheck="icons/hsicon_unchecked.png" iconCheck="icons/hsicon_checked.png">
+                <option id='item1' x="8" y="112" width="250" height="68">
+                <![CDATA[客户]]>
+</option>
+                <option id='item2' x="8" y="201" width="250" height="68">
+                <![CDATA[经销商]]>
+</option>
+                <option id='item3' x="8" y="287" width="250" height="68">
+                <![CDATA[零件顾问]]>
+</option>
+              </actui>
+              <actui type="txtboxs" x='360' y='40' width="320" height="320" xPad="12" yPad="12" fillColor="0xD1E6F2" fillAlpha=".8" frameColor="black" frameSize="2" frameAlpha="1" fontSize="18" fontColor="black">
+                <option id='item0'>
+                <![CDATA[一名零件顾问可不断提高其销售技能，这使每个人都能获益。单击热点，了解更多信息。]]>
+</option>
+                <option id='item1'>          <![CDATA[解释您正在销售的产品的价值及其如何满足客户的需求可使人们信任和尊敬您和您的经销店。客户会对他们的购买感到满意，就会有信心和您做生意，这可使该客户成为忠实客户。]]>
+</option>
+                <option id='item2'>
+                <![CDATA[您可以帮助您的经销店建立忠实客户群，从而实现重复购买业务和更高的收入。]]>
+</option>
+                <option id='item3'>
+                <![CDATA[这对您来说有何意义？知道您具备有效销售的技能，这可以提高您的自信心，从而可提高您的绩效。这可使您对您的经销店更有价值 – 最重要的是，这可增加您的收入。]]>
+</option>
+              </actui>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="2300" sNumber="2300" sType="scocontent" continueBtnType="done">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[客户类型]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide type="RPSS_BulletColumn_IMAGEGLOW" sNumber="2300" animType="timesync" endType="Continue">
+            <ui uid="1" type="bodyImageGlow" width="154" height="160" x='left' y='50' margin="16" fontSize="14" fontColor="white" fillColor="black" fillAlpha="1" frameShape="roundRect" frameColor="black" frameSize="2" frameAlpha="1" time="2" trans="slideLeft" ease="QuintEaseOut" syncType="buildx" xPad="16">
+              <item id="img1" timeIn="1" timeOut="999" url="ctypebox01.jpg" xPad="0">
+                <![CDATA[电话客户]]>
+</item>
+              <item id="img2" timeIn="1.5" timeOut="999" url="ctypebox02.jpg">
+                <![CDATA[面对面的客户]]>
+</item>
+              <item id="img3" timeIn="2" timeOut="999" url="ctypebox03.jpg">
+                <![CDATA[内部客户]]>
+</item>
+              <item id="img4" timeIn="2.5" timeOut="999" url="ctypebox04.jpg">
+                <![CDATA[互联网客户]]>
+</item>
+            </ui>
+            <ui uid="3" type="bodyBullet" width="600" x="left" y="230" margin="16" trans="slideRight" ease="QuintEaseOut" time="1" syncType="buildy" yPad="10">
+              <item id="bb1" timeIn="3" timeOut="20" yPad="0">
+                <![CDATA[每个客户都很重要]]>
+</item>
+              <item id="bb2" timeIn="4" timeOut="20">
+                <![CDATA[您将与各种个性的客户打交道，您的客户将通过四种不同的方式来找您：]]>
+</item>
+              <item id="bb3" timeIn="5" timeOut="20" target="img1" targetTrigger="imageglow" targetParams="2">
+                <![CDATA[<li>打电话</li>]]>
+</item>
+              <item id="bb4" timeIn="6" timeOut="20" target="img2" targetTrigger="imageglow" targetParams="2">
+                <![CDATA[<li>前来零件柜台</li>]]>
+</item>
+              <item id="bb5" timeIn="7" timeOut="20" target="img3" targetTrigger="imageglow" targetParams="2">
+                <![CDATA[<li>来自经销店内</li>]]>
+</item>
+              <item id="bb6" timeIn="8" timeOut="20" target="img4" targetTrigger="imageglow" targetParams="2">
+                <![CDATA[<li>通过互联网</li>]]>
+</item>
+            </ui>
+            <ui uid="3" type="bodyBulletCol" width="160" x="left" y="230" margin="16" fontSize="12" textStyle="textflow" trans="slideUp" ease="QuintEaseOut" syncType="buildx" xPad="9">
+              <item id="bbc1" timeIn="21" target="img1" targetTrigger="imageglow" targetParams="4" xPad="0">
+                <![CDATA[<list><li>可为零售或批发客户</li><li>无视觉联系</li><li>无视觉信号</li></list>]]>
+</item>
+              <item id="bbc2" timeIn="23" target="img2" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[<list><li>面对面互动</li><li>诸如目光接触和身体语言等信号</li><li>语调</li></list>]]>
+</item>
+              <item id="bbc3" timeIn="24" target="img3" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[<list><li>包括销售顾问、服务顾问和技师</li><li>现有关系</li><li>利用与外部客户相同的客户服务水平进行面对面互动</li><li>视觉信号和语调</li></list>]]>
+</item>
+              <item id="bbc4" timeIn="25" target="img4" targetTrigger="imageglow" targetParams="4">
+                <![CDATA[<list><li>类似于电话客户</li><li>无视觉或声音提示</li><li>良好的书面沟通非常重要</li></list>]]>
+</item>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

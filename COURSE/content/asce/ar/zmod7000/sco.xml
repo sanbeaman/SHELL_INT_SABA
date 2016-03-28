@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCEARWB" template="ASCE" localeID="ar" debug="false">
+    <title>
+      <![CDATA[تجربة عملاء رائعة]]>
+</title>
+  </course>
+  <section id="0" snumber="7000">
+    <header>
+      <![CDATA[ملخص الدورة التدريبية ]]>
+</header>
+    <scenes>
+      <scene sNumber="7100" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[أهداف الأداء]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+         <slide sNumber="7105" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="480" x="left" y="top" margin="10" fontSize="18" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="1" time=".5" yPad="0">
+      <![CDATA[تهانينا! لقد وصلت إلى نهاية الدورة التدريبية حول تجربة عملاء رائعة. يجب عليك أن تكون قادرًا على ما يلي:]]>
+</bodyBullet>
+             <bodyBullet id='id1' order='3'>
+      <![CDATA[<li>توضيح الاختلافات بين العملاء المخلصين والعملاء الراضين عن الخدمة</li>]]>
+</bodyBullet>
+    <bodyBullet id='id2' order='4'>
+      <![CDATA[<li>تحديد المكونات الخمسة الرئيسية لتجربة الخدمة التي تؤثر بقوة على ولاء العميل</li>]]>
+</bodyBullet>
+    <bodyBullet id='id3' order='5'>
+      <![CDATA[<li>اشرح الطرق المختلفة التي تستخدم لتحديد ما يفكر به العملاء بخصوص تجربة الخدمة لديك </li>]]>
+</bodyBullet>
+    <bodyBullet id='id4' order='6'>
+      <![CDATA[<li>تحديد توقعات العملاء الرئيسية في سبعة مجالات من تجربة الخدمة</li>]]>
+</bodyBullet>
+    <bodyBullet id='id5' order='7'>
+      <![CDATA[<li>وصف أربعة طرق لبناء علاقات شخصية من شأنها أن تعزز ولاء العميل</li>]]>
+</bodyBullet>
+            </ui>
+            <ui uid="1" type="bodyImage" width="200" height="130" x="right" y="top" margin="10" scaleMode="width"  time="1" trans="slideLeft" ease="BackEaseOut" syncType="buildy" yPad="25">
+              <bodyImage id="i1" order="2" time=".5" url="7105_1.jpg" yPad="0">
+                <![CDATA[image 1]]>
+</bodyImage>
+              <bodyImage id="i2" order="8" url="7105_2.jpg">
+                <![CDATA[Image 2]]>
+</bodyImage>
+              <bodyImage id="i3" order="12" url="7105_3.jpg">
+                <![CDATA[Image 3]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene sNumber="7200" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[النقاط الرئيسية]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="7205" type="BulletImageGlow" animType="animsync" endType="Continue">
+        
+                 <ui uid="3" type="bodyBullet" width="680" x="left" y="top"  margin="10" fontSize="20" fontColor="0x000000" trans="slideRight" ease="QuintEaseOut" yPad="0">
+              <item id="bb1" order="1" time=".3">
+      <![CDATA[دعنا نراجع نقاط التعلُّم الرئيسية في هذه الدورة التدريبية.]]>
+</item>
+            </ui>
+            <ui uid="3" type="bodyBulletCol" width="160" x="left" y="240" margin="20" fontSize="12" fontColor="0x000000" fontAlign="left" textStyle="textflow" time="1" trans="slideUp" ease="QuintEaseOut" syncType="buildx" xPad="16">
+              <item id="bbc1" order="50" target="img1" targetTrigger="imageglow" targetParams="4" xPad="10">
+      <![CDATA[<list><li>من المحتمل جداً عودة العملاء المخلصون إليك أكثر من العملاء الراضين عن الخدمة وأن يقوموا بتوصية الآخرين بالعامل معك</li></list>]]>
+</item>
+              <item id="bbc2" order="51" target="img2" targetTrigger="imageglow" targetParams="4">
+      <![CDATA[<list><li>من الضروري الاستماع إلى آراء ومقترحات العميل لتدعيم نقاط القوة والتغلب على نقاط الضعف في الخدمات والعمليات الخاصة بك </li></list>]]>
+</item>
+              <item id="bbc3" order="52" target="img3" targetTrigger="imageglow" targetParams="4">
+      <![CDATA[<list><li>تعد تلبية توقعات العميل أمرًا مهمًا، ولكن يتعيَّن عليك القيام بالمزيد لبناء الولاء الحقيقي.</li></list>]]>
+</item>
+              <item id="bbc4" order="53" target="img4" targetTrigger="imageglow" targetParams="4">
+      <![CDATA[<list><li>تساعد العلاقات الشخصية التي تقيمها مع العملاء على إنشاء روابط دائمة تؤدي إلى زيادة تكرار الأعمال والإحالة</li></list>]]>
+</item>
+            </ui>
+              <ui uid="1" type="bodyImageGlow" width="154" height="160" x='left' y='60' margin="20" fillColor="0x000000" fillAlpha="1" frameShape="roundRect" frameColor="0x000000" frameSize="2" frameAlpha="1" pulseColor="orange" trans="slideLeft" ease="QuintEaseOut" syncType="buildx" xPad="24">
+            <item id="img1" order="2" time="1" url="7205_1.jpg" xPad="0">x</item>
+              <item id="img2" order="3" time="1" url="7205_2.jpg">x</item>
+              <item id="img3" order="4" time="1" url="7205_3.jpg">x</item>
+              <item id="img4" order="5" time="1" url="7205_4.jpg">x</item>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene sNumber="7300" sType="scocontent" continueBtnType="DONE">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader">
+            <header id="h1">
+              <![CDATA[الخاتمة]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="7305" type="TextImageReplace" animType="timesync" endType="continue">
+        <ui uid="2" type="BodyText" width="660" height="190" x="center" y="270" margin="0" fontSize="18" fontColor="0x000000" fontAlign="center" effect="none" time="1" ease="QuintEaseOut" trans="slideLeft" syncType="replace">
+            <bodyBullet id="bb1" timeIn=".5" timeOut="999"> <![CDATA[من المفترض أنك تشعر الآن بالثقة في قدرتك عل تقديم تجربة عملاء رائعة – النوع الذي يؤدي إلى خلق عملاء مخلصين يعودون عدة مرات ويخبرون الآخرين عن التجربة ذات الجودة العالية التي تقدمها. حظ سعيد! ]]>
+</bodyBullet>
+            </ui>
+                <ui uid="1" type="BodyImage" width="375" height="250" x="center" y="top" margin="20" scaleMode="none"  time=".5" trans="fadeOn" ease="QuintEaseOut" syncType="replace">
+              <bodyImage id="img1" url="7305_1.jpg" timeIn=".2" timeOut="999">
+                <![CDATA[image1]]>
+</bodyImage>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

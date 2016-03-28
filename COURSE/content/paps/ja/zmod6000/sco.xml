@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="PAPSJAWB" template="PAPS" localeID="ja" debug="false">
+    <title>
+      <![CDATA[小売パーツ販売スキル]]>
+</title>
+  </course>
+  <section id="1" snumber="6000">
+    <header>
+      <![CDATA[コース概要]]>
+</header>
+    <scenes>
+      <scene id="6100" sNumber="6100" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" width="600" height="50" x="left" y="0" margin="10" trans="none" ease="none">
+            <header id="h1" order="1">
+              <![CDATA[学習目標]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="6101" type="BulletImageBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="680" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+               <bodyBullet id="bb0" order="3" yPad="0">
+                <![CDATA[おめでとうございます。これで「小売パーツ販売スキルコース」のコースは終了で、次のスキルを習得したことになります。]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="4">
+                <![CDATA[<li>小売パーツの販売スキルを向上させるようなビジネス ケースを説明する</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="5">
+                <![CDATA[<li>Mopar パーツとアクセサリの機能とメリットを説明する</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="6">
+                <![CDATA[<li>4 つの顧客タイプの特徴を理解する</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="7">
+                <![CDATA[<li>顧客ニーズに基づいたパーツ販売プロセスを説明する</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="8">
+                <![CDATA[<li>付加的な販売チャンスと一般的な顧客からの拒絶に対する対応する</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="9">
+                <![CDATA[<li>顧客ニーズに基づいたパーツ販売プロセスを適用する</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="6200" sNumber="6200" sType="scocontent" continueBtnType="NEXT">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" width="600" height="50" x="0" y="0" margin="10" trans="none" ease="none">
+            <header id="h1" order="1">
+              <![CDATA[キー ポイント]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="6201" type="BodyBulletBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="680" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+               <bodyBullet id="bb0" order="13" yPad="0">
+                <![CDATA[このコースの主な学習ポイントを復習しましょう。]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="14">
+                <![CDATA[<li>パーツとアクセサリーは大きな収益が見込まれる成長市場である</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="15">
+                <![CDATA[<li>販売スキルの向上は、顧客と信頼関係を構築してリピーターを獲得し、自身の価値と収入を増加させる</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="16">
+                <![CDATA[<li>Mopar はアフターマーケットで優位に立つ、次のようなメリットを提供し、売り上げ増に貢献する。</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="17" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>オリジナルの仕様を満たすよう設計されたパーツ</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="18" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>優れた保証</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="19" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>競争力のある価格設定</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb7" order="20">
+                <![CDATA[<li>Mopar は効果的は販売をサポートする次のようなツールやリソースを提供。</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb8" order="21" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>展示アクセサリー</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb9" order="22" time=".5" formatType="subbullet" yPad="0">
+                <![CDATA[<li>StarParts</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+          <slide sNumber="6205" type="BodyBulletBuild" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="680" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="24" yPad="0">
+                <![CDATA[<li>顧客には、電話問い合わせ、直接来店、内部顧客、インターネット問い合わせという 4 種類がある</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb1" order="25">
+                <![CDATA[<li>すべての顧客が重要</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb2" order="26">
+                <![CDATA[<li>「顧客ニーズに基づいたパーツ販売プロセス」がより効果的な販売をサポート</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="15">
+                <![CDATA[<li>顧客の拒絶に対応するには、顧客の話を良く聞き、反論を自分の言葉に変えて確認・対応、購入の意思確認が必要</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+      <scene id="6300" sNumber="6300" sType="scocontent" continueBtnType="done">
+        <sceneitems>
+          <ui uid="0" type="sceneHeader" width="600" height="50" x="left" y="0" margin="10" trans="on" ease="none">
+            <header id="h1" order="1">
+              <![CDATA[まとめ]]>
+</header>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="6301" type="scocontent" animType="animsync" endType="Continue">
+            <ui uid="3" type="bodyBullet" width="680" x="left" y="40" margin="10" time="1" trans="slideRight" ease="QuintEaseOut" syncType="buildy" yPad="10">
+              <bodyBullet id="bb0" order="31" yPad="0">
+                <![CDATA[<li>Mopar のメリットを把握</li>]]>
+</bodyBullet>
+ <bodyBullet id="bb2" order="32">
+                <![CDATA[<li>スキルと知識が向上</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb3" order="33">
+                <![CDATA[<li>顧客と関係を始めるための関係作り、ニーズの特定、解決策の提示、そして最も重要な購入の意思確認の方法を理解</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb4" order="34">
+                <![CDATA[<li>販売すればするほど、自分の価値と収入が上がる</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb5" order="36">
+                <![CDATA[<li>パーツ アドバイザーの販売スキルはパーツ売上を増加させるとともに、サービス部門の売上を左右する</li>]]>
+</bodyBullet>
+              <bodyBullet id="bb6" order="38">
+                <![CDATA[<li>習得したスキルをパーツ部門に戻って実践し、パーツ売上やディーラーの収益率、自身の収入増加を実現</li>]]>
+</bodyBullet>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

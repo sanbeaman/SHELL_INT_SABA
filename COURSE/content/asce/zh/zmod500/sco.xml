@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shell>
+  <course code="ASCECHWB" template="ASCE" localeID="zh" debug="false">
+    <title>
+      <![CDATA[卓越的客户体验]]>
+</title>
+  </course>
+   <section id="0" snumber="500">
+    <header>
+              <![CDATA[欢迎]]>
+</header>
+    <scenes>
+      <scene sNumber="500" sType="splash" continueBtnType="start">
+        <sceneitems>
+          <ui uid="1" type="bodyIcon" width="600" height="125" x="center" y="top" margin="10" trans="slideup" ease="BackEaseOut">
+            <bodyImage id="i1" order="0" time="1" scaleMode="none" url="logo_course.png">
+              <![CDATA[Course Logo]]>
+</bodyImage>
+          </ui>
+        </sceneitems>
+        <slides>
+          <slide sNumber="501" type="splash" animType="animsync" endType="trigger">
+            <ui uid="2" type="bodyBullet" width="680" margin="10" x="center" y="150" fontColor="0x000000" fontSize="10" trans="slideup" ease="QuintEaseOut" syncType="buildy" yPad="5">
+             <bodyBullet id="bb0" order="3" yPad="0">
+              <![CDATA[<b>任何时候您使用其它计算机来重新启动本课程时，请选择“系统检查器”菜单项来重新测试您的系统。</b>]]></bodyBullet>
+              <bodyBullet id="bb1" order="4" yPad="10"><![CDATA[<b>获得学分</b>]]></bodyBullet>
+              <bodyBullet id="bb2" order="5"><![CDATA[要获得本课程的学分，您必须做到：]]></bodyBullet>
+              <bodyBullet id="bb3" order="6"><![CDATA[<li>每一个主题都有黄色勾号（课程标题不会显示勾号）</li>]]></bodyBullet>
+              <bodyBullet id="bb4" order="7"><![CDATA[<li>选择“完成并退出”菜单项和按钮正确退出</li>]]></bodyBullet>
+              <bodyBullet id="bb5" order="8"><![CDATA[<li>启动位于本课程的“学习中心学习任务”页面上的测试和任何其它项目</li>]]></bodyBullet>
+              <bodyBullet id="bb6" order="9" yPad="10"><![CDATA[<b>退出课程</b>]]></bodyBullet>
+              <bodyBullet id="bb7" order="10"><![CDATA[<li>提前退出：在完成课程前关闭浏览器窗口将会保存您在该会话内完成的所有话题的进度</li>]]></bodyBullet>
+              <bodyBullet id="bb8" order="11"><![CDATA[<li>完成并退出：完成所有规定的菜单项后，请选择“完成并退出”菜单项，然后选择“完成并退出”按钮。 (必须执行此操作，才能传送最终进度并获得本课程学分。)</li>]]></bodyBullet>
+              <bodyBullet id="bb9" order="12"><![CDATA[<li>注意：完成尝试后，首次重新启动课程时，您的书签将会重置，不会处于最初的填充或选中状态</li>]]></bodyBullet>
+           </ui>
+            <ui uid="3" type="BodyButton" trans="slideup" ease="QuintEaseOut" order="50" time="1">
+              <item id="trigger" type="startcourse" width="200" height="36" x="center" y="bottom" margin="5" fontSize="16" fontColor="0x000000" fontStyle="reg" pulseColor="0xfe9003">
+                <![CDATA[开始课程]]>
+</item>
+            </ui>
+          </slide>
+        </slides>
+      </scene>
+    </scenes>
+  </section>
+</shell>

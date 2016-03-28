@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <template code="ASCE">
+    <shellPlayer x="280" y="562" style="SimpleSharpWhite" handleColor="white" barColor="greycc" trackColor="grey33" shadowColor="black" fillColor="black" fillAlpha="1" pulseColor="0x00B5D7" />
+    <sectionHeader x="0" y="30" width="755" height="34" xPad="12" yPad="3" fontName="Helvetica Neue Black Condensed" fontSize="28" fontColor="white" fontStyle="bold" fontAlign="left" fontFX="dropShadow" frameSize="1" frameColor="blue" frameAlpha="0" fillColor="blue" fillAlpha="0" />
+    <sectionBody style="none" x="0" y="30" xPad="0" yPad="0" width="755" height="588" />
+    <sceneBody x="12" y="70" xPad="0" yPad="0" width="731" height="460" frameSize="4" frameColor="dkgrey" frameAlpha="1" fillColor="white" fillAlpha=".5" fontName="Arial" fontSize="16" fontColor="0x000000" fontStyle="reg" fontAlign="left" fontFX="x" />
+    <sceneHeader x="0" y="42" xPad="12" yPad="0" width="755" height="32" frameSize="1" frameColor="black" frameAlpha="0" fillColor="blue" fillAlpha="0" fontName="Arial" fontSize="22" fontColor="black" fontStyle="reg" fontAlign="left" fontFX="x" inside="false" />
+    <noteBlock width="731" height="26" x="row" y="row" margin="10" xPad="0" yPad="0" frameSize="1" frameColor="ltgrey" frameAlpha="1" fillColor="blue" fillAlpha="1" fontName="Arial" fontSize="14" fontColor="white" fontStyle="reg" fontAlign="center" fontFX="x" />
+        <bodyImage  time="1" trans="fadeIn" ease="QuintEaseOut" style="blackframe" effect="none" scaleMode="proportionalInside" scaleFactor="1" />
+  </template>
+  <LoaderMax name="imgque" prependURLs="../asce/pt/assets/imgs/" load="true">
+    <ImageLoader url="ShellBack.jpg" name="shellback" width="755" height="618" />
+    <ImageLoader url="CALogoINT_EN.png" name="calogo" width="200" height="30" />
+    <ImageLoader url="navwhite_pulse.png" name="btn_pulse" width="24" height="24" scaleMode="none" />
+    <ImageLoader url="navwhiteBACK_normal.png" name="btnBACK_normal" width="24" height="24" scaleMode="none" />
+    <ImageLoader url="navwhiteBACK_hover.png" name="btnBACK_hover" width="24" height="24" scaleMode="none" />
+    <ImageLoader url="navwhiteBACK_down.png" name="btnBACK_down" width="24" height="24" scaleMode="none" />
+    <ImageLoader url="navwhiteNEXT_normal.png" name="btnNEXT_normal" width="24" height="24" scaleMode="none" />
+    <ImageLoader url="navwhiteNEXT_hover.png" name="btnNEXT_hover" width="24" height="24" scaleMode="none" />
+    <ImageLoader url="navwhiteNEXT_down.png" name="btnNEXT_down" width="24" height="24" scaleMode="none" />
+    <ImageLoader url="navwhiteDONE_normal.png" name="btnDONE_normal" width="24" height="24" scaleMode="none" />
+    <ImageLoader url="navwhiteDONE_hover.png" name="btnDONE_hover" width="24" height="24" scaleMode="none" />
+    <ImageLoader url="navwhiteDONE_down.png" name="btnDONE_down" width="24" height="24" scaleMode="none" />
+    <ImageLoader url="navwhitePAUSE_normal.png" name="btnPAUSE_normal" width="24" height="24" scaleMode="none" />
+    <ImageLoader url="navwhitePAUSE_hover.png" name="btnPAUSE_hover" width="24" height="24" scaleMode="none" />
+    <ImageLoader url="navwhitePAUSE_down.png" name="btnPAUSE_down" width="24" height="24" scaleMode="none" />
+     <ImageLoader url="BodyButton_normal.png" name="BodyButton_normal" width="120" height="34" scaleMode="none" />
+    <ImageLoader url="BodyButton_hover.png" name="BodyButton_hover" width="120" height="34" scaleMode="none" />
+    <ImageLoader url="BodyButton_down.png" name="BodyButton_down" width="120" height="34" scaleMode="none" />
+     <ImageLoader url="DONE_glyph14.png" name="icon_done" width="14" height="14" scaleMode="none" />
+    
+     <ImageLoader url="icon_no.gif" name="Icon_No" width="30" height="30" scaleMode="none" />
+    <ImageLoader url="icon_yes.gif" name="Icon_Yes" width="30" height="30" scaleMode="none" />
+    <ImageLoader url="RateSlider_thumb.gif" name="RateSlider_thumb" width="20" height="24" centerRegistration="true" scaleMode="none" />
+  </LoaderMax>
+  <LoaderMax name="audio" prependURLs="../asce/pt/assets/audio/" load="true">
+            <MP3Loader name="correct" url="answerCorrect.mp3" autoPlay="false" size="15500" duration=".2" />
+             <MP3Loader name="wrong" url="answerWrong.mp3" autoPlay="false" size="15500" duration=".2" />
+             </LoaderMax>
+  <LoaderMax name="fontque" prependURLs="../asce/pt/assets/fonts/" load="true">
+    <SWFLoader name="fontpack" url="ASCEFontPack_PT.swf" fontArray="CAFontReg,CAFontBold,CAFontBoldItalic,CASectionHeader,CACourseTitleFont" />
+  </LoaderMax>
+</data>

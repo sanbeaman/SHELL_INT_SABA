@@ -1,0 +1,84 @@
+{
+	"General": {
+		"Yes" : "Yes",
+		"No" : "No",
+		"Or" : "or",
+		"Enabled" : "Enabled",
+		"Disabled" : "Disabled",
+		"Override" : "Override",
+		"Continue" : "Continue",
+		"ReTest" : "Re-Test",
+		"Alert" : "Unable to locate the LMS's API Implementation.\n Communication with the LMS will not occur.",
+		"Wait" : "Please Wait..."
+	},
+
+	"Headers" : {
+		"PageTitle" : "System Checker",
+		"CAImage": "assets/CA_logo.gif",
+		"SysChecFail" : "System Checker Failed", 
+		"CurrentPass" : "Current System Passed",
+		"Status" : "Status",
+		"SysComp" : "System Component",
+		"MinReq" : "Minimum Requirements",            
+		"YourSys" : "Your System",
+		"Info" : "Info/Links"
+	},
+
+	"AdditionalRequirements": {
+		"Name": "Additional Requirements (Not Checked)",
+		"Requirements": [
+			{ "Type" : "Sound" , "Value" : "Sound card, speakers or headphones"},
+			{ "Type" : "Pop-up Blockers" , "Value" : "Must be disabled" },
+			{ "Type" : "Monitor Color" , "Value" : "16 bit Minimum" },
+			{ "Type" : "Connection Speed" , "Value" : "Broadband Internet Recommended"}
+		]
+	},
+
+	"UIText": {
+		"InstructionalTextCorrect" : "If you exit this course before completion, then continue the course from a different computer, we recommend you re-test your system using this System Checker.<br><br>A reliable, high-bandwidth Internet connection is required.  Before launching this course be sure to check that the correct course is displayed above.  Once in the course, you can close the browser window to save progress for all completed topics and exit. Select Continue to launch the course.",
+		"InstructionalTextFailed" : "Your system does not meet the minimum requirements to run this program.<br/><br/>View the table below.  Select “More Info” for upgrade information and download links.  If the action you take does not require a download and/or restart, select “Retest” when ready.",
+		"InstructionalTextOverridePopup" : "Warning: This course may not function as intended. Are you sure you wish to continue?"
+	},
+
+	"Mandatory": {
+		"MoreInfo": "More Info",
+		"OpSys": "Operating System",
+		"JS":"JavaScript",
+		"WebBrowser": "Web Browser",
+		"Cookies":"Cookies",
+		"MSR": "Main Screen Resolution",
+		"FlashVersion" : "Flash Version",
+		"PDF": "PDF Reader"
+    },
+
+    "MoreInfo": {
+		"OperatingSystems": { 
+			"Title":"Which operating system are you on?", 
+			"Content":"All computers require an operating system to run applications. Examples include Microsoft Windows, Apple Macintosh and UNIX. If you received an alert message, you should switch to a computer that runs Microsoft Windows or Apple Macintosh with a fairly recent version of the operating system installed. <br /><br />If you require more assistance, right click on your browser and select the 'print' option to print this information, and give it to your system administrator." },
+		"Browser": { 
+			"Title":"Is your browser up to date?", 
+			"Content":"To run our courseware through the Internet, it is best if your computer has an up-to-date version of a web browser.  You can try Internet Explorer, Mozilla Firefox, Google Chrome, or Safari (Mac only) and see which one gives you the best result.  Some courses may work better with a recent version. If required, you can download an upgrade by selecting one of the links provided.<br /><div class='moreInfoLinks'><a href='http://www.microsoft.com/en-us/download/ie.aspx?q=internet+explorer' target='_blank'><img src='./assets/ie.png' alt='Internet Explorer' /></a><a href='http://www.mozilla.org/en-US/firefox/new/' target='_blank'><img src='./assets/firefox.png' alt='Mozilla Firefox' /></a><a href='https://www.google.com/intl/en/chrome/browser/welcome.html' target='_blank'><img src='./assets/chrome.png' alt='Google Chrome' /></a><a href='http://www.apple.com/safari/' target='_blank'><img src='./assets/safari.png' alt='Safari' /></a></div><br />If you require more assistance, right click on your browser and select the 'print' option to print this information, and give it to your system administrator.  Some downloads also available at DealerCONNECT/eSupport/Library/Downloads." },
+		"JavaScript": { 
+			"Title":"How to check and change your JavaScript Settings", 
+			"Content":"Note To allow scripting on this Web site only, and to leave scripting disabled in the Internet zone, add this Web site to the Trusted sites zone by adding the site: https://fgcg.sabanow.net/Saba/Web/Main  <h3>Internet Explorer 8.0 or 9.0 (Windows):</h3><ol><li>On the <strong>Tools</strong> menu, click <strong>Internet Options</strong>, and then click the <strong>Security</strong> tab.</li><li>Click the <strong>Internet zone</strong>.</li><li>If you do not have to customize your Internet security settings, click <strong>Default Level</strong>. Then do step 4<ul id='noListBullet'><li>If you have to customize your Internet security settings, follow these steps:</il></ul><ol id='alphaBullet'><li>Click <strong>Custom Level</strong>.</li><li>In the <strong>Security Settings – Internet Zone</strong> dialog box, click <strong>Enable</strong> for <strong>Active Scripting</strong> in the <strong>Scripting</strong> section.</li></ol></li><li>Click the <strong>Back</strong> button to return to the previous page, and then click the <strong>Refresh</strong> button to run scripts.</li></ol><h3>Safari 5.1 for (Mac):</h3><ol><li>Select <strong>Preferences</strong> from the Safari menu.</li><li>Click <strong>Security</strong>.</li><li>Check <strong>Enable JavaScript</strong>.</li><li>Close the <strong>Preferences</strong> window.</li><li>Click <strong>Reload</strong> to refresh the content on the page.</li></ol>If you require more assistance, right click on your browser and select the 'print' option to print this information, and give it to your system administrator." },
+		"Cookies": { 
+			"Title":"How to enable Cookies?", 
+			"Content":"Blocking all cookies can help protect your privacy, but it might limit your experience on some websites. You can start by blocking all cookies, then allow cookies as needed for websites that you trust. In order for these courses to function properly, we require you enable cookies.<h3>Internet Explorer 8.0 (Windows):</h3><ol><li>Open Internet Explorer by clicking the <strong>Start</strong> button <img src='./assets/start.png' alt='Start Button' />, and then clicking <strong>Internet Explorer</strong>.</li><li>Click the <strong>Tools</strong> button, and then click <strong>Internet Options</strong>.</li><li>Click the <strong>Privacy</strong> tab, and then, under <strong>Settings</strong>, move the slider to the bottom to allow all cookies, and then click <strong>OK</strong>.</li></ol><h3>Internet Explorer 9.0 for (Windows):</h3><ol><li>Open Internet Explorer by clicking the <strong>Start</strong> button <img src='./assets/start.png' alt='Start Button' />. In the search box, type <strong>Internet Explorer</strong>, and then, in the list of results, click <strong>Internet Explorer</strong>.</li><li>Click the <strong>Tools</strong> button <img src='./assets/tools.jpg' alt='Tools Button' />,  and then click <strong>Internet options</strong>.</li><li>Click the <strong>Privacy</strong> tab, and then, under <strong>Settings</strong>, move the slider to the bottom to allow all cookies, and then click <strong>OK</strong>.</li></ol><h3>Safari 5.1 for (Mac):</h3><ol><li>In Safari, from the Safari menu, select <strong>Preferences</strong>. </li><li>In the Safari preferences window, click <strong>Privacy</strong>. </li><li>To set your preferences for accepting cookies, next to '<strong>Block cookies</strong>:', select from third parties and advertisers, Always, or Never. </li><li>If you have any cookies or other web site data stored, click <strong>Details</strong>. To remove the data from a site, highlight it and click <strong>Remove</strong>. To remove the data from all sites, click <strong>Remove All</strong>. When you're finished, click <strong>Done</strong> to return to the preferences window.</li><li>If you require more assistance, right click on your browser and select the 'print' option to print this information, and give it to your system administrator.</li></ol>" },
+		"Resolution": { 
+			"Title":"How to change your screen resolution?", 
+			"Content":"<h3>PC with Windows 7:</h3><ol><li>Open Screen Resolution by clicking the <strong>Start</strong> button <img src='./assets/start.png' alt='Start Button' />, clicking <strong>Control Panel</strong>, and then, under <strong>Appearance and Personalization</strong>, clicking <strong>Adjust screen resolution</strong>.</li><li>Click the drop-down list next to <strong>Resolution</strong>, move the slider to the resolution you want, and then click <strong>Apply</strong>.</li><li>Click <strong>Keep</strong> to use the new resolution, or click <strong>Revert</strong> to go back to the previous resolution.<br/><img src='./assets/resolutionCap.jpg' alt='Resolution Change Image' id='resolutionImage' /><br/>Screen Resolution in Control Panel shows the recommended resolution for your monitor.</li></ol><h3>Mac OS X:</h3><ol><li>Click on the Apple logo <img src='./assets/appleLogo.jpg' alt='Apple Logo' /> in the upper-left corner of your display.</li><li>Click '<strong>System Preferences</strong>,' then click '<strong>Displays</strong>.'</li><li>Click '<strong>Display</strong>' if it is not already selected.</li><li>Select a resolution from the list of available resolutions. The most common screen resolution is 1280 by 1024 for standard screens and 1280 by 800 for wide screens as of February 2012. Mac OS X immediately applies the new setting.</li></ol><br/><br/>Read more: How to change a Mac's screen resolution: <a href='http://www.macworld.com/article/1158603/macresolution.html' target='_blank'>http://www.macworld.com/article/1158603/macresolution.html</a> <br /><br/>If you require more assistance, right click on your browser and select the 'print' option to print this information, and give it to your system coordinator." },
+		"Flash": { 
+			"Title":"Is the latest version of Flash installed?", 
+			"Content":"Flash is a plug-in that allows multi-media to play through your web browser. The Flash player can be downloaded or upgraded free of charge from Adobe.com, the software company that supports Flash. Simply select the link provided and follow the on-screen instructions.<br /><br/><div class='moreInfoLinks'><a href='http://get.adobe.com/flashplayer/' target='_blank'><img src='./assets/flash.png' alt='Flash logo' /></a></div><br /><br/>If you require more assistance, right click on your browser and select the 'print' option to print this information, and give it to your system administrator. Some downloads are also available at DealerCONNECT/eSupport/Library/Downloads." },
+		"AdobeReader": { 
+			"Title":"Is the latest version of Adobe Reader installed?", 
+			"Content":"Adobe Acrobat Reader is a plug-in that allows a PDF file to view through your web browser. The Adobe Acrobat Reader can be downloaded or upgraded free of charge from www.adobe.com. Simply select the link provided and follow the on-screen instructions.<br /><br /><div class='moreInfoLinks'><a href='http://www.adobe.com/ca/products/reader.html' target='_blank'><img src='./assets/adobeReader.gif' alt='Adobe Reader' id='adobeImage'></a></div><br /><br />If you require more assistance, right click on your browser and select the 'print' option to print this information, and give it to your system administrator.  Some downloads also available at DealerCONNECT/eSupport/Library/Downloads.<h3>Downloading Adobe Reader</h3>Current downloads (supported by DealerCONNECT) can be accessed from the DealerCONNECT portal by clicking on DealerCONNECT eSupport > Library > Downloads." }
+    },
+
+	"Additional": [
+		{ "Name":"Sound", "Value":"Sound card, speakers or headphones" },
+		{ "Name":"Pop-up Blockers", "Value":"Must be disabled" },
+		{ "Name":"Monitor Color", "Value":"16 bit Minimum" },
+		{ "Name":"Connection Speed", "Value":"Broadband Internet Recommended" }
+	]
+}
